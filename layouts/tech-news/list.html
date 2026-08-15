@@ -15,7 +15,7 @@
   {{- with $ln }}{{- with .news }}
   <div class="timeline">
     {{- $i := 0 }}
-    {{- range sort . "importance" "desc" }}
+    {{- range sort . "pubDate" "desc" }}
     {{- $c := printf "cover-c%d" (mod $i 4) }}
     {{- $i = add $i 1 }}
     <article class="timeline-item">
