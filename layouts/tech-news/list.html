@@ -1,0 +1,48 @@
+{{ define "main" }}
+<div class="tech-news-page">
+  <div class="tech-news-header">
+    <h1>24/7 Live Tech Updates</h1>
+    {{- with index .Site.Data "live-news" }}
+    <p>Last updated: {{ with .lastUpdated }}{{ dateFormat "January 2, 2006 — 3:04 PM" . }}{{ end }}</p>
+    {{- end }}
+  </div>
+
+  {{- with index .Site.Data "live-news" }}{{- with .news }}
+  <div class="timeline">
+    {{ range sort . "importance" "desc" }}
+    <div class="timeline-item">
+      <div class="timeline-time time-ago" data-time="{{ .pubDate }}">{{ dateFormat "Jan 2, 15:04" .pubDate }}</div>
+      <div class="timeline-card">
+        <div class="timeline-topic">{{ .topicIcon }} {{ .topic }}</div>
+        <h3 class="timeline-title"><a href="{{ .link }}" target="_blank" rel="noopener">{{ .title }}</a></h3>
+        <p class="timeline-summary">{{ with .summary_en }}{{ . }}{{ else }}{{ .description }}{{ end }}</p>
+        <div class="timeline-footer">
+          <span>{{ .source }}</span>
+          <a class="timeline-link" href="{{ .link }}" target="_blank" rel="noopener">Read more →</a>
+        </div>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+  {{- else }}
+  <div class="empty-state">
+    <div class="empty-state-icon">📡</div>
+    <p>No live news available yet. Coming soon!</p>
+  </div>
+  {{- end }}{{- end }}
+
+  <p style="text-align:center;font-size:12px;color:var(--bbc-meta,#545658);margin-top:40px">Auto-updated every hour via GitHub Actions</p>
+</div>
+
+<script>
+document.querySelectorAll('.time-ago').forEach(function(el){
+  var d=new Date(el.dataset.time),diff=Date.now()-d.getTime(),
+      mins=Math.floor(diff/60000),hrs=Math.floor(mins/60),days=Math.floor(hrs/24),txt;
+  if(mins<1)txt='Just now';
+  else if(mins<60)txt=mins+'m ago';
+  else if(hrs<24)txt=hrs+'h ago';
+  else txt=days+'d ago';
+  el.textContent=txt;
+});
+</script>
+{{ end }}

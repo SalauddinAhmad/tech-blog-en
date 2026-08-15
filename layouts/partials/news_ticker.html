@@ -1,0 +1,25 @@
+{{- $ln := index .Site.Data "live-news" }}{{- with $ln }}{{- with .news }}
+<div class="news-ticker" id="newsTicker">
+  <div class="ticker-label">📡 LIVE</div>
+  <div class="ticker-track">
+    {{ range first 5 (sort . "importance" "desc") }}
+    <a class="ticker-item" href="{{ .link }}" target="_blank" rel="noopener">
+      <span class="ticker-topic">{{ .topicIcon }}</span>
+      {{ .title }}
+    </a>
+    {{ end }}
+  </div>
+</div>
+<script>
+(function(){
+  const track=document.querySelector('.ticker-track');
+  if(!track)return;
+  const items=track.querySelectorAll('.ticker-item');
+  if(items.length<3)return;
+  const inner=document.createElement('div');inner.className='ticker-track-inner';
+  items.forEach(i=>inner.appendChild(i.cloneNode(true)));
+  items.forEach(i=>inner.appendChild(i));
+  track.innerHTML='';track.appendChild(inner);
+})();
+</script>
+{{- end }}{{- end }}

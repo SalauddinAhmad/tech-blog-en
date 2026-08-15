@@ -22,11 +22,12 @@
 <body id="top">
 {{- end }}
     {{ partialCached "header.html" . .Page -}}
-    {{- partial "breaking_ticker.html" . }}
+    {{- partial "news_ticker.html" . }}
     <main class="main">
         {{- block "main" . }}{{ end }}
     </main>
     {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") -}}
+{{- partial "news_modal.html" . -}}
 </body>
 
 </html>
