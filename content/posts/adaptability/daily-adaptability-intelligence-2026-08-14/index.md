@@ -1,5 +1,5 @@
 ---
-title: "Daily Adaptability Intelligence — 14 August 2026"
+title: "Adaptability Intelligence — August 14, 2026: EU AI Act Article 50 Takes Effect"
 date: 2026-08-14T10:00:00+06:00
 draft: false
 slug: "daily-adaptability-intelligence-2026-08-14"

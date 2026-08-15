@@ -80,3 +80,8 @@ summaryLength = 30
 [taxonomies]
   category = "categories"
   tag = "tags"
+
+[services.rssHub]
+  [services.rssHub.hub]
+    type = "pubsubhubbub"
+    url = "https://pubsubhubbub.superfeedr.com/"

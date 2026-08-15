@@ -1,5 +1,5 @@
 ---
-title: "Daily Tech Intelligence — August 10, 2026"
+title: "Tech Intelligence — August 10, 2026: OpenAI Acquires NextSlide"
 date: 2026-08-10T10:00:00+06:00
 draft: false
 slug: "daily-tech-intelligence-2026-08-10"

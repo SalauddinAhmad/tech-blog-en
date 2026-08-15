@@ -1,0 +1,29 @@
+<div class="read-progress" id="readProgress"></div>
+<span class="read-time-badge" id="readTimeBadge"></span>
+<script>
+(function(){
+var article=document.querySelector('.post-content');
+if(article){
+  var words=(article.textContent||'').split(/\s+/).filter(Boolean).length;
+  var mins=Math.max(1,Math.ceil(words/200));
+  var badge=document.getElementById('readTimeBadge');
+  if(badge)badge.textContent='Read time: ~'+mins+' min';
+}
+var bar=document.getElementById('readProgress');
+if(!bar||!article)return;
+var ticking=false;
+function updateProgress(){
+  var h=document.documentElement.scrollHeight-window.innerHeight;
+  var pct=h>0?(window.scrollY/h)*100:0;
+  bar.style.width=pct+'%';
+  ticking=false;
+}
+window.addEventListener('scroll',function(){
+  if(!ticking){requestAnimationFrame(updateProgress);ticking=true;}
+},{passive:true});
+})();
+</script>
+<style>
+.read-progress{position:fixed;top:0;left:0;height:2px;background:var(--bbc-red,#B80000);z-index:9999;transition:width .1s linear;width:0}
+.read-time-badge{display:inline-block;background:#B80000;color:#fff;font-size:11px;padding:3px 10px;border-radius:10px;margin:4px 0 0 8px;font-weight:500;vertical-align:middle}
+</style>

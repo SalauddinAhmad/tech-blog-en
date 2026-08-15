@@ -1,5 +1,5 @@
 ---
-title: "Daily Adaptability Intelligence — 15 August 2026"
+title: "Adaptability Intelligence — August 15, 2026: Gemini 3.7 Flash Arrives"
 date: 2026-08-15T10:00:00+06:00
 draft: false
 slug: "daily-adaptability-intelligence-2026-08-15"

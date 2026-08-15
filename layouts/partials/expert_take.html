@@ -1,0 +1,13 @@
+{{- with .Params.expertTake }}
+<aside class="expert-take">
+  <p><strong>💻 Developer's Take</strong></p>
+  <p>{{ . }}</p>
+</aside>
+{{- else }}
+{{- if .IsPage }}
+<aside class="expert-take">
+  <p><strong>💻 Developer's Take</strong></p>
+  <p>My analysis is covered in the main content above. Technology moves fast — stay tuned for updates!</p>
+</aside>
+{{- end }}
+{{- end }}

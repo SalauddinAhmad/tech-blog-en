@@ -1,5 +1,5 @@
 ---
-title: "Daily Adaptability Intelligence — August 13, 2026"
+title: "Adaptability Intelligence — August 13, 2026: Next.js 6.3 Released"
 date: 2026-08-13T10:00:00+06:00
 draft: false
 slug: "daily-adaptability-intelligence-2026-08-13"

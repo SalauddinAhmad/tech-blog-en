@@ -1,0 +1,11 @@
+<div class="audio-reader-wrap" style="margin:12px 0 20px">
+<button class="audio-reader-btn" id="audioReaderBtn" onclick="(function(btn){var article=document.querySelector('.post-content');if(!article){btn.querySelector('.ar-text').textContent='Content not found';return;}if(!('speechSynthesis' in window)){btn.querySelector('.ar-text').textContent='Not supported';return;}var synth=window.speechSynthesis;if(synth.speaking){synth.cancel();btn.querySelector('.ar-icon').textContent='▶';btn.querySelector('.ar-text').textContent='🎧 Listen';return;}var text=article.innerText||article.textContent;btn.querySelector('.ar-icon').textContent='⏸';btn.querySelector('.ar-text').textContent='⏸ Pause';var u=new SpeechSynthesisUtterance(text);u.lang='en-US';u.rate=1;u.onend=function(){btn.querySelector('.ar-icon').textContent='▶';btn.querySelector('.ar-text').textContent='🎧 Listen';};synth.speak(u);})(document.getElementById('audioReaderBtn'))">
+<span class="ar-icon" style="font-size:16px">▶</span>
+<span class="ar-text" style="font-size:13px;font-weight:500;margin-left:4px">🎧 Listen</span>
+</button>
+</div>
+<style>
+.audio-reader-btn{display:inline-flex;align-items:center;background:#B80000;color:#fff;border:none;padding:8px 18px;border-radius:20px;cursor:pointer;font-family:inherit;transition:background .2s,transform .1s}
+.audio-reader-btn:hover{background:#9a0000;transform:scale(1.03)}
+.audio-reader-btn:active{transform:scale(.97)}
+</style>

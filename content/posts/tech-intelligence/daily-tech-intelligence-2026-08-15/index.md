@@ -1,5 +1,5 @@
 ---
-title: "Daily Tech Intelligence — 15 August 2026"
+title: "Tech Intelligence — August 15, 2026: Google Gemini 3.7 Flash Released"
 date: 2026-08-15T10:00:00+06:00
 draft: false
 slug: "daily-tech-intelligence-2026-08-15"

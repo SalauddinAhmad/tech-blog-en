@@ -1,5 +1,5 @@
 ---
-title: "Daily Adaptability Intelligence — August 9, 2026"
+title: "Adaptability Intelligence — August 9, 2026: Alibaba Qwen 3.8-Max Released"
 date: 2026-08-09T10:00:00+06:00
 draft: false
 slug: "daily-adaptability-intelligence-2026-08-09"

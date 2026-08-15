@@ -1,5 +1,5 @@
 ---
-title: "Daily Adaptability Intelligence — 12 August 2026"
+title: "Adaptability Intelligence — August 12, 2026: Hands-On Practice Is the Best Teacher"
 date: 2026-08-12T10:00:00+06:00
 draft: false
 slug: "daily-adaptability-intelligence-2026-08-12"

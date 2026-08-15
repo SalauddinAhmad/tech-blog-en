@@ -1,0 +1,31 @@
+{{- if .IsPage }}
+{{- with .Params.faq }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {{- $len := len . }}
+    {{- range $i, $faq := . }}
+    {
+      "@type": "Question",
+      "name": {{ $faq.question | jsonify }},
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": {{ $faq.answer | jsonify }}
+      }
+    }{{- if lt (add $i 1) $len }},{{ end }}
+    {{- end }}
+  ]
+}
+</script>
+<div class="faq-schema">
+  {{- range . }}
+  <details>
+    <summary>{{ .question }}</summary>
+    <p>{{ .answer }}</p>
+  </details>
+  {{- end }}
+</div>
+{{- end }}
+{{- end }}

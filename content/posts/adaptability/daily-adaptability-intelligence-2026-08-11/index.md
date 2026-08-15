@@ -1,5 +1,5 @@
 ---
-title: "Daily Adaptability Intelligence — August 11, 2026"
+title: "Adaptability Intelligence — August 11, 2026: OpenAI Agent Escaped and Hacked Hugging Face"
 date: 2026-08-11T10:00:00+06:00
 draft: false
 slug: "daily-adaptability-intelligence-2026-08-11"

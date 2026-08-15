@@ -1,0 +1,37 @@
+<style>
+.gloss-term{border-bottom:1px dotted var(--bbc-red,#B80000);cursor:help;position:relative;color:inherit}
+.gloss-term::after{content:attr(data-def);position:absolute;bottom:calc(100% + 6px);left:50%;transform:translateX(-50%);background:#222;color:#fff;padding:6px 10px;border-radius:4px;font-size:12px;white-space:nowrap;max-width:280px;white-space:normal;line-height:1.4;opacity:0;pointer-events:none;transition:opacity .2s;z-index:100;box-shadow:0 2px 8px rgba(0,0,0,.25)}
+.gloss-term::before{content:'';position:absolute;bottom:calc(100% + 2px);left:50%;transform:translateX(-50%);border:5px solid transparent;border-top-color:#222;opacity:0;pointer-events:none;transition:opacity .2s;z-index:101}
+.gloss-term:hover::after,.gloss-term:hover::before,.gloss-term.gloss-active::after,.gloss-term.gloss-active::before{opacity:1}
+@media(max-width:768px){.gloss-term::after{left:0;transform:none;white-space:normal;width:220px}.gloss-term::before{left:12px;transform:none}}
+</style>
+<script>
+(function(){
+var glossary={"AI":"Artificial Intelligence","API":"Application Programming Interface","LLM":"Large Language Model","SEO":"Search Engine Optimization","GPU":"Graphics Processing Unit","Open Source":"Publicly available source code","Framework":"Development structure/pattern","Deployment":"Making software live on servers"};
+var article=document.querySelector('.post-content');
+if(!article||Object.keys(glossary).length===0)return;
+var words=Object.keys(glossary).sort(function(a,b){return b.length-a.length});
+var regex=new RegExp('(?<![\\w\\/\\-])('+words.map(function(w){return w.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')}).join('|')+')(?![\\w\\/\\-])','g');
+var walker=document.createTreeWalker(article,NodeFilter.SHOW_TEXT,null,false);
+var nodes=[];
+while(walker.nextNode())nodes.push(walker.currentNode);
+nodes.forEach(function(node){
+  if(node.parentElement.classList&&node.parentElement.classList.contains('gloss-term'))return;
+  if(node.parentElement.tagName==='CODE'||node.parentElement.tagName==='PRE'||node.parentElement.tagName==='A')return;
+  var text=node.textContent;
+  if(!regex.test(text))return;
+  regex.lastIndex=0;
+  var html=text.replace(regex,function(match){
+    return '<span class="gloss-term" data-term="'+match+'" data-def="'+(glossary[match]||match)+'">'+match+'</span>';
+  });
+  if(html!==text){var span=document.createElement('span');span.innerHTML=html;node.parentNode.replaceChild(span,node);}
+});
+document.addEventListener('click',function(e){
+  if(e.target.classList&&e.target.classList.contains('gloss-term')){
+    var wasActive=e.target.classList.contains('gloss-active');
+    document.querySelectorAll('.gloss-active').forEach(function(el){el.classList.remove('gloss-active');});
+    if(!wasActive)e.target.classList.add('gloss-active');
+  }else{document.querySelectorAll('.gloss-active').forEach(function(el){el.classList.remove('gloss-active');});}
+});
+})();
+</script>

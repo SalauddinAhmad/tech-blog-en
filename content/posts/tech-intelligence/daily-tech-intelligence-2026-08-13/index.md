@@ -1,5 +1,5 @@
 ---
-title: "Daily Tech Intelligence — 13 August 2026"
+title: "Tech Intelligence — August 13, 2026: Devin in Talks at $40B Valuation"
 date: 2026-08-13T10:00:00+06:00
 draft: false
 slug: "daily-tech-intelligence-2026-08-13"

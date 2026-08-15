@@ -62,3 +62,7 @@
   }, 12000);
 })();
 </script>
+{{- /* PWA Service Worker registration */ -}}
+<script>
+if('serviceWorker' in navigator){navigator.serviceWorker.register('{{ "sw.js" | relURL }}').catch(function(){});}
+</script>

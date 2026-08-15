@@ -1,5 +1,5 @@
 ---
-title: "Daily Tech Intelligence — August 11, 2026"
+title: "Tech Intelligence — August 11, 2026: Meta's Muse Glimmer 30B Open-Weight Model"
 date: 2026-08-11T10:00:00+06:00
 draft: false
 slug: "daily-tech-intelligence-2026-08-11"

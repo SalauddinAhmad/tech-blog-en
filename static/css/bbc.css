@@ -311,3 +311,19 @@ main.main{ display:block; }
 @media(max-width:399px){
   .footer-cols{ grid-template-columns:1fr; }
 }
+
+/* -- Expert Take (BBC-style) -- */
+:root{--bbc-red:#B80000;--bbc-medium:#3d3d3d}
+.expert-take{background:#f8f6f0;border-left:4px solid var(--bbc-red);padding:16px 20px;margin:24px 0;font-style:italic;color:var(--bbc-medium)}
+.expert-take p{margin:4px 0}
+.expert-take strong{font-style:normal}
+
+/* -- FAQ Schema -- */
+.faq-schema{margin:24px 0}
+.faq-schema details{border-left:3px solid var(--bbc-red);padding:8px 16px;margin:8px 0}
+.faq-schema summary{font-weight:700;cursor:pointer}
+.faq-schema p{margin:4px 0 8px}
+
+/* -- Cross-language badge -- */
+.cross-lang-badge{display:inline-block;font-size:.85rem;color:#B80000;text-decoration:none;margin:8px 0 16px;padding:4px 0}
+.cross-lang-badge:hover{text-decoration:underline}

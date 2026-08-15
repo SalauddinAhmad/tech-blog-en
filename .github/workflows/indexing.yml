@@ -1,0 +1,78 @@
+---
+name: IndexNow + Google Indexing on New Posts
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'content/posts/**'
+
+jobs:
+  index:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Build URL list from changed files
+        id: urls
+        run: |
+          set -euo pipefail
+          BASE="https://salauddinahmad.github.io/tech-blog-en"
+          CHANGED=$(git diff --name-only HEAD^..HEAD -- 'content/posts/' 2>/dev/null || true)
+          if [ -z "$CHANGED" ]; then
+            CHANGED=$(git diff-tree --no-commit-id --name-only -r HEAD -- 'content/posts/' 2>/dev/null || true)
+          fi
+          URLS=""
+          for f in $CHANGED; do
+            if [ -f "$f" ]; then
+              slug=$(echo "$f" | sed 's|^content/posts/||; s|\\.md$||')
+              URLS="${URLS}\"${BASE}/${slug}/\","
+            fi
+          done
+          URLS="$(echo "$URLS" | sed 's/,$//')"
+          echo "url_list=${URLS}" >> "$GITHUB_OUTPUT"
+          echo "Found URLs: $URLS"
+
+      - name: Ping IndexNow API (Bing)
+        if: steps.urls.outputs.url_list != ''
+        run: |
+          KEY=$(cat indexnow-key.txt)
+          PAYLOAD=$(jq -n \
+            --arg host "salauddinahmad.github.io" \
+            --arg key "$KEY" \
+            --argjson urls "[${{ steps.urls.outputs.url_list }}]" \
+            '{host: $host, key: $key, urlList: $urls}')
+          echo "Payload: $PAYLOAD"
+          HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" -X POST \
+            "https://api.indexnow.org/indexnow" \
+            -H "Content-Type: application/json" \
+            -d "$PAYLOAD")
+          echo "IndexNow response: $HTTP_CODE"
+          if [ "$HTTP_CODE" -ne 200 ] && [ "$HTTP_CODE" -ne 202 ]; then
+            echo "::warning::IndexNow returned HTTP $HTTP_CODE"
+          fi
+
+      # ── Google Indexing API (optional) ──────────────────────────
+      # Requires a Google Cloud service account:
+      #   1. Create a service account in GCP Console
+      #   2. Grant "Search Console Indexer" role
+      #   3. Add service account email as owner in Search Console
+      #   4. Store the JSON key as GitHub Secret: GOOGLE_INDEXING_SA_KEY
+      #   5. Uncomment the step below and set GOOGLE_SITE_URL secret
+      #
+      # - name: Google Indexing API
+      #   if: steps.urls.outputs.url_list != ''
+      #   uses: google-github-actions/auth@v2
+      #   with:
+      #     credentials_json: ${{ secrets.GOOGLE_INDEXING_SA_KEY }}
+      # - name: Submit URLs to Google
+      #   run: |
+      #     for url in ${{ steps.urls.outputs.url_list }}; do
+      #       curl -s -X POST "https://indexing.googleapis.com/v3/urlNotifications:publish" \
+      #         -H "Content-Type: application/json" \
+      #         -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+      #         -d '{"url":"'$url'","type":"URL_UPDATED"}'
+      #     done
