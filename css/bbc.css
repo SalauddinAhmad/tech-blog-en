@@ -136,7 +136,7 @@ main.main{ display:block; }
 .post-entry:focus-within{ transform:none; border-color:var(--bbc-border); }
 .post-entry .entry-cover{ margin:0 0 12px; }
 .post-entry .entry-cover img{
-  aspect-ratio:16/9; object-fit:cover; width:100%; height:auto;
+  width:100%; height:auto; max-height:60vh; object-fit:contain;
   display:block; background:var(--bbc-bg-alt); border-radius:0;
 }
 .post-entry .entry-header{ padding:0 0 8px; }
@@ -237,7 +237,7 @@ main.main{ display:block; }
 }
 .post-single .entry-cover{ margin:0 0 22px; }
 .post-single .entry-cover img{
-  aspect-ratio:16/9; object-fit:cover; width:100%; height:auto; display:block;
+  width:100%; height:auto; max-height:60vh; object-fit:contain; display:block;
   background:var(--bbc-bg-alt); border-radius:0;
 }
 .post-content{ font-size:1.06rem; line-height:1.95; color:var(--bbc-ink); }
