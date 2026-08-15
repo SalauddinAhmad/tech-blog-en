@@ -1,5 +1,20 @@
+# Hugo
+.hugo_build.lock
 public/
 resources/
+node_modules/
+
+# OS
 .DS_Store
-*.log
-.hugo_build.lock
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Env
+.env
+.env.local
