@@ -7,6 +7,7 @@
         <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ site.Title }}</a></span>
         {{- end }}
     {{- end }}
+    {{- partial "extend_footer.html" . }}
 </footer>
 {{- end }}
 
@@ -19,8 +20,6 @@
     </svg>
 </a>
 {{- end }}
-
-{{- partial "extend_footer.html" . }}
 
 <script>
     let menu = document.getElementById('menu');
