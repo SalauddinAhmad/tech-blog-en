@@ -1,0 +1,32 @@
+{{- /* View stats band + post view badge (busuanzi) */ -}}
+<div class="stats-band" id="site-stats">
+  <div class="stats-inner">
+    <div class="stat-item"><b id="busuanzi_value_site_pv">—</b><span>মোট ভিউ</span></div>
+    <div class="stat-item"><b id="busuanzi_value_site_uv">—</b><span>দর্শক</span></div>
+    <div class="stat-item"><b id="busuanzi_value_page_pv">—</b><span>এই পোস্টে</span></div>
+  </div>
+</div>
+<script>
+(function(){
+  // Per-post view badge (appears only on single post pages)
+  var content = document.querySelector('.post-content, .post-body, article .entry-content, .post');
+  var pagePv = document.getElementById('busuanzi_value_page_pv');
+  if (content && pagePv && document.querySelector('.post-title, .entry-header')) {
+    var badge = document.createElement('div');
+    badge.className = 'view-badge';
+    badge.innerHTML = '<span>👁️</span> <span class="v-count">লোড হচ্ছে...</span>';
+    var target = document.querySelector('.post-content, .entry-content, .post-body');
+    if (target) target.parentNode.insertBefore(badge, target);
+  }
+  // Fill counts when busuanzi updates
+  var t = setInterval(function(){
+    var pv = document.getElementById('busuanzi_value_page_pv');
+    var badgeCount = document.querySelector('.view-badge .v-count');
+    if (pv && pv.textContent && pv.textContent.trim() !== '' && badgeCount) {
+      badgeCount.textContent = pv.textContent.trim() + ' বার পঠিত';
+      clearInterval(t);
+    }
+  }, 1000);
+  setTimeout(function(){ clearInterval(t); }, 15000);
+})();
+</script>
