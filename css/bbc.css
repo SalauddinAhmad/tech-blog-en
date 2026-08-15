@@ -46,7 +46,7 @@ a:hover{ text-decoration-color:var(--bbc-red); }
 .logo{ width:100%; border-bottom:2px solid #000; padding:13px 0; }
 .logo a{ color:#fff !important; font-weight:700; font-size:1.35rem; letter-spacing:.01em; }
 .logo a:hover{ color:#fff !important; text-decoration:none; }
-.theme-toggle{ display:none !important; }
+/* AUDIT FX-06: theme-toggle unhidden — dark mode restore */
 
 .menu{ width:100%; background:#fff; margin:0; padding:0; border-bottom:1px solid var(--bbc-border); column-gap:0; }
 .menu li{ margin:0; }
@@ -90,19 +90,22 @@ main.main{ display:block; }
   main.main:has(> .page-header) > .page-footer{ grid-column:1/-1; }
   main.main:has(> .page-header) > .page-header{ grid-column:1/-1; }
 
+  /* AUDIT FX-07: flash-news band spans the full grid row (was squeezed into 1/3 col) */
+  main.main:has(> .flash-news-section) > .flash-news-section{ grid-column:1/-1; }
+
   /* Lead story: full-width banner card */
-  main.main:has(> .first-entry.home-info) > .post-entry:nth-child(2){
+  main.main:has(> .first-entry.home-info) > .post-entry:nth-child(3){
     grid-column:1/-1;
     display:grid; grid-template-columns:1.5fr 1fr;
     grid-template-rows:auto auto auto; gap:0 28px; align-items:start;
     border-bottom:1px solid var(--bbc-border); padding-bottom:22px;
   }
-  main.main:has(> .first-entry.home-info) > .post-entry:nth-child(2) .entry-cover{ grid-column:1; grid-row:1/4; margin:0; }
-  main.main:has(> .first-entry.home-info) > .post-entry:nth-child(2) .entry-header{ grid-column:2; grid-row:1; padding-top:4px; }
-  main.main:has(> .first-entry.home-info) > .post-entry:nth-child(2) .entry-header h2{ font-size:clamp(1.6rem,3.5vw,2.4rem); line-height:1.25; }
-  main.main:has(> .first-entry.home-info) > .post-entry:nth-child(2) .entry-content{ grid-column:2; grid-row:2; display:block; }
-  main.main:has(> .first-entry.home-info) > .post-entry:nth-child(2) .entry-content p{ font-size:1.02rem; color:var(--bbc-ink); margin:10px 0 0; }
-  main.main:has(> .first-entry.home-info) > .post-entry:nth-child(2) .entry-footer{ grid-column:2; grid-row:3; margin-top:14px; }
+  main.main:has(> .first-entry.home-info) > .post-entry:nth-child(3) .entry-cover{ grid-column:1; grid-row:1/4; margin:0; }
+  main.main:has(> .first-entry.home-info) > .post-entry:nth-child(3) .entry-header{ grid-column:2; grid-row:1; padding-top:4px; }
+  main.main:has(> .first-entry.home-info) > .post-entry:nth-child(3) .entry-header h2{ font-size:clamp(1.6rem,3.5vw,2.4rem); line-height:1.25; }
+  main.main:has(> .first-entry.home-info) > .post-entry:nth-child(3) .entry-content{ grid-column:2; grid-row:2; display:block; }
+  main.main:has(> .first-entry.home-info) > .post-entry:nth-child(3) .entry-content p{ font-size:1.02rem; color:var(--bbc-ink); margin:10px 0 0; }
+  main.main:has(> .first-entry.home-info) > .post-entry:nth-child(3) .entry-footer{ grid-column:2; grid-row:3; margin-top:14px; }
 
   /* home-info → big section header (label text per site in config) */
   main.main:has(> .first-entry.home-info) > .first-entry.home-info{
@@ -117,11 +120,11 @@ main.main{ display:block; }
   @media(max-width:599px){
     main.main:has(> .post-entry),
     main.main:has(> .page-header){ grid-template-columns:1fr; }
-    main.main:has(> .first-entry.home-info) > .post-entry:nth-child(2){ grid-template-columns:1fr; }
-    main.main:has(> .first-entry.home-info) > .post-entry:nth-child(2) .entry-cover{ grid-column:1; grid-row:auto; }
-    main.main:has(> .first-entry.home-info) > .post-entry:nth-child(2) .entry-header{ grid-column:1; grid-row:auto; }
-    main.main:has(> .first-entry.home-info) > .post-entry:nth-child(2) .entry-content{ grid-column:1; grid-row:auto; }
-    main.main:has(> .first-entry.home-info) > .post-entry:nth-child(2) .entry-footer{ grid-column:1; grid-row:auto; margin-top:6px; }
+    main.main:has(> .first-entry.home-info) > .post-entry:nth-child(3){ grid-template-columns:1fr; }
+    main.main:has(> .first-entry.home-info) > .post-entry:nth-child(3) .entry-cover{ grid-column:1; grid-row:auto; }
+    main.main:has(> .first-entry.home-info) > .post-entry:nth-child(3) .entry-header{ grid-column:1; grid-row:auto; }
+    main.main:has(> .first-entry.home-info) > .post-entry:nth-child(3) .entry-content{ grid-column:1; grid-row:auto; }
+    main.main:has(> .first-entry.home-info) > .post-entry:nth-child(3) .entry-footer{ grid-column:1; grid-row:auto; margin-top:6px; }
   }
 }
 
@@ -138,6 +141,7 @@ main.main{ display:block; }
 .post-entry .entry-cover img{
   width:100%; height:auto;
   display:block; background:var(--bbc-bg-alt); border-radius:0;
+  aspect-ratio:1200/630; /* AUDIT FX-09: reserve space, kill CLS */
 }
 .post-entry .entry-header{ padding:0 0 8px; }
 .post-entry .entry-header h2{
@@ -239,6 +243,7 @@ main.main{ display:block; }
 .post-single .entry-cover img{
   width:100%; height:auto; display:block;
   background:var(--bbc-bg-alt); border-radius:0;
+  aspect-ratio:1200/630; /* AUDIT FX-09: reserve space, kill CLS */
 }
 .post-content{ font-size:1.06rem; line-height:1.95; color:var(--bbc-ink); }
 .post-content p{ margin:0 0 1.2em; }
@@ -327,3 +332,52 @@ main.main{ display:block; }
 /* -- Cross-language badge -- */
 .cross-lang-badge{display:inline-block;font-size:.85rem;color:#B80000;text-decoration:none;margin:8px 0 16px;padding:4px 0}
 .cross-lang-badge:hover{text-decoration:underline}
+
+/* ═══════════════════════════════════════════════════════════════
+   AUDIT FX-06: dark mode restore — PaperMod dark tokens over the
+   hardcoded light surfaces in this stylesheet (previously force-light).
+   ═══════════════════════════════════════════════════════════════ */
+[data-theme="dark"]{ color-scheme:dark; }
+[data-theme="dark"] body,
+[data-theme="dark"] .list,
+[data-theme="dark"] .post-entry,
+[data-theme="dark"] .menu,
+[data-theme="dark"] .first-entry.home-info,
+[data-theme="dark"] .flash-news-section,
+[data-theme="dark"] .flash-card,
+[data-theme="dark"] .page-header,
+[data-theme="dark"] .post-single,
+[data-theme="dark"] .page-footer{ background:var(--theme,#1d1e20); }
+[data-theme="dark"] body,
+[data-theme="dark"] .entry-header h2,
+[data-theme="dark"] .first-entry.home-info h1,
+[data-theme="dark"] .post-title,
+[data-theme="dark"] .page-header h1,
+[data-theme="dark"] .flash-title a{ color:var(--primary,rgb(218,218,219)); }
+[data-theme="dark"] .entry-footer,
+[data-theme="dark"] .post-meta,
+[data-theme="dark"] .breadcrumbs,
+[data-theme="dark"] .flash-source{ color:var(--secondary,rgb(155,156,157)); }
+[data-theme="dark"] .menu{ border-bottom-color:var(--border,#333); }
+[data-theme="dark"] .post-entry{ border-bottom-color:var(--border,#333); }
+[data-theme="dark"] .post-entry:hover,
+[data-theme="dark"] .post-entry:focus-within{ border-color:var(--border,#333); }
+[data-theme="dark"] .breaking{ background:var(--theme,#1d1e20); border-bottom-color:var(--border,#333); }
+[data-theme="dark"] .breaking-title{ color:var(--primary,rgb(218,218,219)); }
+[data-theme="dark"] .breaking-title a{ color:inherit; }
+[data-theme="dark"] .menu li a{ color:var(--primary,rgb(218,218,219)); }
+[data-theme="dark"] .menu li a:hover{ background:var(--tertiary,rgb(65,66,68)); color:var(--primary,rgb(218,218,219)); }
+[data-theme="dark"] .post-content{ color:var(--content,rgb(196,196,197)); }
+[data-theme="dark"] .post-content h2,
+[data-theme="dark"] .post-content h3,
+[data-theme="dark"] .post-content h4{ color:var(--primary,rgb(218,218,219)); }
+[data-theme="dark"] .post-content blockquote,
+[data-theme="dark"] .toc,
+[data-theme="dark"] .expert-take{ background:var(--tertiary,rgb(65,66,68)); }
+[data-theme="dark"] .post-content th{ background:var(--tertiary,rgb(65,66,68)); }
+[data-theme="dark"] .post-content th,
+[data-theme="dark"] .post-content td{ border-color:var(--border,#333); }
+[data-theme="dark"] .post-tags a{ background:var(--theme,#1d1e20); }
+[data-theme="dark"] .page-footer .pagination a{ background:var(--tertiary,rgb(65,66,68)); color:var(--primary,rgb(218,218,219)); border-color:var(--border,#333); }
+[data-theme="dark"] .page-footer .pagination a:hover{ background:var(--bbc-red); border-color:var(--bbc-red); color:#fff; }
+[data-theme="dark"] .entry-cover img{ background:var(--tertiary,rgb(65,66,68)); }
