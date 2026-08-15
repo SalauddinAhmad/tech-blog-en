@@ -1,18 +1,68 @@
 {{- /* ═══════════════════════════════════════════════════════════════
-     Header v2 — BBC Pro masthead (site-level override of the theme header).
-     Scroll-sticky · compact-on-scroll · mobile hamburger slide-down panel.
-     HARD CONTRACTS KEPT: #theme-toggle (theme footer.js binds it with NO
-     null-guard), #menu + .active (PaperMod), lang-menu, accesskey h/t//,
-     skip-link flow (baseof untouched). Visible labels come from
-     site.Params / menus — no site-language text hardcoded (neutral EN
-     aria/title only; "LIVE"/"TI" are brand-neutral, identical in BN & EN).
+     Header v3 — BBC News-style 3-layer masthead (site-level override).
+     Bands: ① black utility bar (date · lang · RSS) ② red masthead
+     (TI mark + wordmark + LIVE + theme toggle) ③ black nav strip
+     (BBC signature active: white bg + red text) — strip sticks on
+     scroll-down; whole header compact-sticky on mobile.
+     HARD CONTRACTS KEPT: #theme-toggle (theme footer.js binds it with
+     NO null-guard), #menu-toggle + aria-controls/expanded, ul#menu.menu,
+     span.active, accesskey h/t//, lang-menu, skip-link flow (baseof
+     untouched), brand-neutral labels only ("TI"/"LIVE"/"RSS" are
+     identical in BN & EN). No site-language text hardcoded — the date is
+     Hugo i18n (time.Format ":date_full" → localized per site language).
      ═══════════════════════════════════════════════════════════════ */ -}}
 <header class="header" id="site-header">
-    <nav class="header-nav">
-        <div class="logo">
+
+    {{- /* ── Band 1 — black utility bar (scrolls away) ── */ -}}
+    <div class="util-bar">
+        <div class="util-bar-inner">
+            <time class="util-date" datetime="{{ now.Format "2006-01-02" }}">{{ now | time.Format ":date_full" }}</time>
+            <div class="util-right">
+                {{- $lang := .Lang }}
+                <span class="util-lang">{{ .Language.LanguageName | default (.Lang | title) }}</span>
+                {{- if (not site.Params.disableLangToggle) }}
+                    {{- with site.Home.Translations }}
+                        {{- range . }}
+                        {{- if ne $lang .Lang }}
+                        <a class="util-lang-link" href="{{ .Permalink }}"
+                            title="{{ .Language.LanguageName | default (.Lang | title) }}">{{ .Lang | title }}</a>
+                        {{- end }}
+                        {{- end }}
+                    {{- end }}
+                    {{- /* Lang switch — single pill, Params-driven, site-neutral.
+                           Placement: utility top-bar OR masthead right tools (header v3).
+                           Add  onLight = true  under [params.altLang] if it sits on a
+                           white/light surface instead of the red/dark band. */ -}}
+                    {{- with site.Params.altLang }}
+                    <a class="lang-switch{{ if .onLight }} on-light{{ end }}"
+                       href="{{ .url }}" target="_blank" rel="noopener"
+                       hreflang="{{ .hreflang | default "en" }}" lang="{{ .hreflang | default "en" }}"
+                       aria-label="{{ .label }}">
+                      {{- .label -}}
+                    </a>
+                    {{- end }}
+                {{- end }}
+                {{- with site.Home.OutputFormats.Get "RSS" }}
+                <a class="util-rss" href="{{ .RelPermalink }}" title="RSS" aria-label="RSS">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" aria-hidden="true">
+                        <path d="M4 11a9 9 0 0 1 9 9"></path>
+                        <path d="M4 4a16 16 0 0 1 16 16"></path>
+                        <circle cx="5" cy="19" r="1.5" fill="currentColor" stroke="none"></circle>
+                    </svg>
+                </a>
+                {{- end }}
+            </div>
+        </div>
+    </div>
+
+    {{- /* ── Band 2 — red masthead (scrolls away on desktop) ── */ -}}
+    <div class="masthead">
+        <div class="masthead-inner">
             {{- $label_text := (site.Params.label.text | default site.Title) }}
             {{- if site.Title }}
-            <a href="{{ "" | absLangURL }}" accesskey="h" title="{{ $label_text }} (Alt + H)">
+            <a class="masthead-brand" href="{{ "" | absLangURL }}" accesskey="h" title="{{ $label_text }} (Alt + H)">
                 {{- if site.Params.label.icon }}
                 {{- $img := resources.Get site.Params.label.icon }}
                 {{- if $img }}
@@ -25,79 +75,50 @@
                         {{- if site.Params.label.iconHeight }}
                             {{- $img = $img.Resize (printf "x%d" site.Params.label.iconHeight) }}
                         {{ else }}
-                            {{- $img = $img.Resize "x30" }}
+                            {{- $img = $img.Resize "x44" }}
                         {{- end }}
                     {{- end }}
                     <img src="{{ $img.Permalink }}" alt="" aria-label="logo"
-                        height="{{- site.Params.label.iconHeight | default "30" -}}">
+                        height="{{- site.Params.label.iconHeight | default "44" -}}">
                 {{- else }}
                 <img src="{{- site.Params.label.icon | absURL -}}" alt="" aria-label="logo"
-                    height="{{- site.Params.label.iconHeight | default "30" -}}">
+                    height="{{- site.Params.label.iconHeight | default "44" -}}">
                 {{- end -}}
                 {{- else if hasPrefix site.Params.label.iconSVG "<svg" }}
                     {{ site.Params.label.iconSVG | safeHTML }}
                 {{- else }}
-                {{- /* Brand mark: both sites are "Tech Intelligence" → "TI" (BBC-style black box) */ -}}
+                {{- /* Brand mark: "Tech Intelligence" → "TI" (BBC-style black box, v2 brand) */ -}}
                 <span class="logo-mark" aria-hidden="true">TI</span>
                 {{- end -}}
                 <span class="logo-text">{{- $label_text -}}</span>
             </a>
             {{- end }}
 
-            <div class="header-tools">
+            <div class="masthead-tools">
                 {{- /* LIVE pill — decorative (aria-hidden); real "live" semantics live in the ticker below */ -}}
                 <span class="live-indicator" aria-hidden="true"><span class="live-dot"></span>LIVE</span>
 
-                {{- $lsenabled := (or (not site.Params.disableThemeToggle) (and (not site.Params.disableLangToggle) (hugo.IsMultilingual))) }}
-                {{- if $lsenabled }}
-                <div class="logo-switches">
-                    {{- if (not site.Params.disableThemeToggle) }}
-                    <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
-                        <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
-                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                            stroke-linejoin="round">
-                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-                        </svg>
-                        <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
-                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                            stroke-linejoin="round">
-                            <circle cx="12" cy="12" r="5"></circle>
-                            <line x1="12" y1="1" x2="12" y2="3"></line>
-                            <line x1="12" y1="21" x2="12" y2="23"></line>
-                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-                            <line x1="1" y1="12" x2="3" y2="12"></line>
-                            <line x1="21" y1="12" x2="23" y2="12"></line>
-                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-                        </svg>
-                    </button>
-                    {{- end }}
-
-                    {{- if (not site.Params.disableLangToggle) }}
-                        {{- $lang := .Lang}}
-                        {{- with site.Home.Translations }}
-                        {{- $separator := or $label_text (not site.Params.disableThemeToggle)}}
-                        {{- if $separator }}<span class="nav-sep">|</span>{{ end }}
-                        <ul class="lang-menu">
-                            {{- range . -}}
-                            {{- if ne $lang .Lang }}
-                            <li>
-                                <a href="{{- .Permalink -}}" title="{{ .Language.Params.languageAltTitle | default (.Language.LanguageName | emojify) | default (.Lang | title) }}"
-                                    aria-label="{{ .Language.LanguageName | default (.Lang | title) }}">
-                                    {{- if (and site.Params.displayFullLangName (.Language.LanguageName)) }}
-                                    {{- .Language.LanguageName | emojify -}}
-                                    {{- else }}
-                                    {{- .Lang | title -}}
-                                    {{- end -}}
-                                </a>
-                            </li>
-                            {{- end -}}
-                            {{- end}}
-                        </ul>
-                        {{- end }}
-                    {{- end }}
-                </div>
+                {{- if (not site.Params.disableThemeToggle) }}
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
                 {{- end }}
 
                 {{- /* Hamburger — mobile only (CSS hides it ≥1008px) */ -}}
@@ -108,7 +129,11 @@
                 </button>
             </div>
         </div>
-        {{- $currentPage := . }}
+    </div>
+
+    {{- /* ── Band 3 — black nav strip (BBC signature active; sticky desktop) ── */ -}}
+    {{- $currentPage := . }}
+    <nav class="nav-strip" aria-label="Main menu">
         <ul id="menu" class="menu">
             {{- range site.Menus.main }}
             {{- $menu_item_url := (cond (strings.HasSuffix .URL "/") .URL (printf "%s/" .URL) ) | absLangURL }}
@@ -138,9 +163,13 @@
 </header>
 
 {{- /* ═══════════════════════════════════════════════════════════════
-     Header v2 JS — sticky-compact + hamburger (vanilla, no deps).
+     Header v3 JS — scroll-sticky shadow + hamburger (vanilla, no deps).
      Inline in the partial = self-contained drop-in (no baseof edit).
-     prefers-reduced-motion is handled on the CSS side (header.css).
+     Desktop: the black .nav-strip pins itself via CSS (sticky top:0)
+     once the red masthead scrolls away; .is-scrolled only drives the
+     compact shadow. Mobile: the whole .header is sticky (CSS) and the
+     hamburger opens the black slide-down panel. prefers-reduced-motion
+     is handled on the CSS side (header.css).
      ═══════════════════════════════════════════════════════════════ */ -}}
 <script>
 (function () {
@@ -150,9 +179,9 @@
     var menu = document.getElementById('menu');
     if (!header || !toggle || !menu) { return; }
 
-    var SCROLL_THRESHOLD = 80; /* px of scroll before the masthead compacts */
     var mqMobile = window.matchMedia ? window.matchMedia('(max-width: 1007px)') : null;
     var ticking = false;
+    var threshold = 90;
 
     function isMobile() {
         return mqMobile ? mqMobile.matches : window.innerWidth <= 1007;
@@ -160,10 +189,19 @@
     function isOpen() {
         return toggle.getAttribute('aria-expanded') === 'true';
     }
+    /* Shadow appears once the pinned strip is doing the work (desktop) or
+       after a tiny scroll (mobile, whole header sticky). */
+    function computeThreshold() {
+        if (isMobile()) { threshold = 8; return; }
+        var util = header.querySelector('.util-bar');
+        var mast = header.querySelector('.masthead');
+        var h = (util ? util.offsetHeight : 0) + (mast ? mast.offsetHeight : 0);
+        threshold = Math.max(24, h + 12);
+    }
     function updateScrollState() {
         ticking = false;
         var y = window.pageYOffset || document.documentElement.scrollTop || 0;
-        header.classList.toggle('is-scrolled', y > SCROLL_THRESHOLD && !isOpen());
+        header.classList.toggle('is-scrolled', y > threshold && !isOpen());
     }
     function onScroll() {
         if (ticking) { return; }
@@ -199,15 +237,17 @@
         if (isOpen() && e.target.closest && e.target.closest('a')) { setOpen(false); }
     });
 
-    /* Breakpoint crossing: always reset to the closed, desktop-usable state */
+    /* Breakpoint crossing: reset to the closed, desktop-usable state */
     if (mqMobile) {
-        var onMqChange = function () { setOpen(false); };
+        var onMqChange = function () { setOpen(false); computeThreshold(); updateScrollState(); };
         if (mqMobile.addEventListener) { mqMobile.addEventListener('change', onMqChange); }
         else if (mqMobile.addListener) { mqMobile.addListener(onMqChange); }
     }
 
+    window.addEventListener('resize', function () { computeThreshold(); updateScrollState(); });
     window.addEventListener('scroll', onScroll, { passive: true });
     window.addEventListener('pageshow', updateScrollState); /* bfcache restore */
+    computeThreshold();
     updateScrollState();
     if ('inert' in menu) { menu.inert = isMobile(); }
 })();

@@ -1,48 +1,84 @@
 {{ define "main" }}
+{{- $ln := index .Site.Data "live-news" }}
 <div class="tech-news-page">
-  <div class="tech-news-header">
-    <h1>24/7 Live Tech Updates</h1>
-    {{- with index .Site.Data "live-news" }}
-    <p>Last updated: {{ with .lastUpdated }}{{ dateFormat "January 2, 2006 — 3:04 PM" . }}{{ end }}</p>
-    {{- end }}
-  </div>
+  <header class="live-hero">
+    <div class="live-hero-eyebrow">
+      <span class="live-badge"><span class="live-badge-dot" aria-hidden="true"></span>LIVE</span>
+      {{- with $ln.lastUpdated }}
+      <span class="live-hero-updated">{{ T "live_updated" }}: <time class="time-ago" data-time="{{ . }}">{{ dateFormat "Jan 2, 15:04" . }}</time></span>
+      {{- end }}
+    </div>
+    <h1>{{ T "live_h1" }}</h1>
+    <p class="live-hero-sub">{{ T "live_sub" }}</p>
+  </header>
 
-  {{- with index .Site.Data "live-news" }}{{- with .news }}
+  {{- with $ln }}{{- with .news }}
   <div class="timeline">
-    {{ range sort . "importance" "desc" }}
-    <div class="timeline-item">
-      <div class="timeline-time time-ago" data-time="{{ .pubDate }}">{{ dateFormat "Jan 2, 15:04" .pubDate }}</div>
+    {{- $i := 0 }}
+    {{- range sort . "importance" "desc" }}
+    {{- $c := printf "cover-c%d" (mod $i 4) }}
+    {{- $i = add $i 1 }}
+    <article class="timeline-item">
       <div class="timeline-card">
-        <div class="timeline-topic">{{ .topicIcon }} {{ .topic }}</div>
-        <h3 class="timeline-title"><a href="{{ .link }}" target="_blank" rel="noopener">{{ .title }}</a></h3>
-        <p class="timeline-summary">{{ with .summary_en }}{{ . }}{{ else }}{{ .description }}{{ end }}</p>
-        <div class="timeline-footer">
-          <span>{{ .source }}</span>
-          <a class="timeline-link" href="{{ .link }}" target="_blank" rel="noopener">Read more →</a>
+        <a class="tl-cover {{ $c }}" href="{{ .link }}" target="_blank" rel="noopener" aria-hidden="true" tabindex="-1">
+          {{- with .image }}
+          <img src="{{ . }}" alt="" loading="lazy">
+          {{- else }}
+          <span class="tl-cover-icon">{{ .topicIcon }}</span>
+          <span class="tl-cover-label">{{ .topic }}</span>
+          {{- end }}
+        </a>
+        <div class="timeline-body">
+          <div class="timeline-meta">
+            <span class="timeline-topic">{{ .topic }}</span>
+            <span class="timeline-time time-ago" data-time="{{ .pubDate }}">{{ dateFormat "Jan 2, 15:04" .pubDate }}</span>
+            {{- with .reliability }}
+            <span class="timeline-reliab" title="Reliability {{ . }}/5" aria-label="Reliability {{ . }} of 5">
+              {{- range $n := (seq 5) }}<i class="{{ if le $n . }}on{{ end }}"></i>{{- end }}
+            </span>
+            {{- end }}
+          </div>
+          <h3 class="timeline-title"><a href="{{ .link }}" target="_blank" rel="noopener">{{ .title }}</a></h3>
+          <p class="timeline-summary">{{ with .summary_en }}{{ . }}{{ else }}{{ with .summary_bn }}{{ . }}{{ else }}{{ .description }}{{ end }}{{ end }}</p>
+          <div class="timeline-footer">
+            <span>{{ .source }}</span>
+            <a class="timeline-link" href="{{ .link }}" target="_blank" rel="noopener">{{ T "live_read" }}</a>
+          </div>
         </div>
       </div>
-    </div>
-    {{ end }}
+    </article>
+    {{- end }}
   </div>
   {{- else }}
   <div class="empty-state">
-    <div class="empty-state-icon">📡</div>
-    <p>No live news available yet. Coming soon!</p>
+    <div class="empty-state-dot" aria-hidden="true"></div>
+    <p>{{ T "live_empty" }}</p>
   </div>
   {{- end }}{{- end }}
 
-  <p style="text-align:center;font-size:12px;color:var(--bbc-meta,#545658);margin-top:40px">Auto-updated every hour via GitHub Actions</p>
+  <p class="live-footnote">{{ T "live_autoupdate" }}</p>
 </div>
 
 <script>
-document.querySelectorAll('.time-ago').forEach(function(el){
-  var d=new Date(el.dataset.time),diff=Date.now()-d.getTime(),
-      mins=Math.floor(diff/60000),hrs=Math.floor(mins/60),days=Math.floor(hrs/24),txt;
-  if(mins<1)txt='Just now';
-  else if(mins<60)txt=mins+'m ago';
-  else if(hrs<24)txt=hrs+'h ago';
-  else txt=days+'d ago';
-  el.textContent=txt;
-});
+(function(){
+  'use strict';
+  var L = {
+    just: {{- (T "live_just_now") | jsonify -}},
+    m:    {{- (T "live_mins") | jsonify -}},
+    h:    {{- (T "live_hrs") | jsonify -}},
+    d:    {{- (T "live_days") | jsonify -}}
+  };
+  document.querySelectorAll('.time-ago').forEach(function (el) {
+    var d = new Date(el.dataset.time);
+    if (isNaN(d)) { return; }
+    var diff = Date.now() - d.getTime();
+    var mins = Math.floor(diff / 60000), hrs = Math.floor(mins / 60), days = Math.floor(hrs / 24), txt;
+    if (mins < 1) { txt = L.just; }
+    else if (mins < 60) { txt = L.m.replace('%d', mins); }
+    else if (hrs < 24) { txt = L.h.replace('%d', hrs); }
+    else { txt = L.d.replace('%d', days); }
+    el.textContent = txt;
+  });
+})();
 </script>
 {{ end }}

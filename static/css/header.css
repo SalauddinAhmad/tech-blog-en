@@ -1,36 +1,104 @@
 /* ═══════════════════════════════════════════════════════════════
-   Header v2 — BBC Pro masthead (scroll-sticky · mobile-first)
-   New file: static/css/header.css (both repos, identical content).
+   Header v3 — BBC News-style 3-layer masthead
+   Bands: ① black util-bar ② red masthead ③ black nav-strip
+   Nav-strip pins via CSS (sticky top:0) once masthead scrolls away.
+   Mobile: whole header sticky, hamburger opens black slide-down.
    MUST load AFTER bbc.css in extend_head.html so overrides win.
-   Reuses --bbc-* tokens; dark mode follows [data-theme="dark"].
+   Dark mode follows [data-theme="dark"].
    ═══════════════════════════════════════════════════════════════ */
 
-/* Anchor jumps (skip-link, TOC, in-page links) clear the sticky masthead */
+/* Anchor jumps (skip-link, TOC, in-page links) — runtime JS in
+   news_ticker.html overrides this with live-measured header+ticker height */
 html { scroll-padding-top: 120px; }
 
-/* ── Sticky masthead ── */
+/* ── Sticky wrapper ── */
 .header {
   position: sticky;
   top: 0;
-  z-index: 40;                 /* above ticker & content (skip-link stays 99) */
+  z-index: 40;
   transition: box-shadow .25s ease;
 }
 .header.is-scrolled { box-shadow: 0 2px 6px rgba(0, 0, 0, .08); }
 [data-theme="dark"] .header.is-scrolled { box-shadow: 0 2px 8px rgba(0, 0, 0, .45); }
 
-/* ── Masthead row: brand left · tools right, one line ── */
-.logo {
-  flex-wrap: nowrap;
-  transition: padding .25s ease;
+/* ── Band 1 — black utility bar ── */
+.util-bar {
+  background: #1c1c1c;
+  color: #fff;
+  font-size: 12px;
 }
-.logo a { min-width: 0; transition: font-size .25s ease; }
-.logo-text {
-  display: block;
+.util-bar-inner {
+  max-width: calc(var(--nav-width, 1008px) + var(--gap, 24px) * 2);
+  margin: 0 auto;
+  padding: 0 var(--gap, 24px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 28px;
+}
+.util-date {
+  font-size: 11.5px;
+  font-weight: 600;
+  color: #c8c8c8;
+}
+.util-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.util-lang {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #888;
+}
+.util-lang-link {
+  color: #c8c8c8;
+  font-size: 11px;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 4px 6px;
+  border-radius: 3px;
+  transition: background .15s, color .15s;
+}
+.util-lang-link:hover { background: #333; color: #fff; text-decoration: none; }
+.util-rss {
+  color: #c8c8c8;
+  display: inline-flex;
+  align-items: center;
+  padding: 6px;
+  transition: color .15s;
+}
+.util-rss:hover { color: #fff; }
+
+/* ── Band 2 — red masthead ── */
+.masthead {
+  background: var(--bbc-red, #B80000);
+  color: #fff;
+}
+.masthead-inner {
+  max-width: calc(var(--nav-width, 1008px) + var(--gap, 24px) * 2);
+  margin: 0 auto;
+  padding: 0 var(--gap, 24px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 56px;
+}
+.masthead-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 1.2rem;
+  letter-spacing: -.01em;
+  line-height: 1;
   min-width: 0;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
 }
+.masthead-brand:hover { color: #fff; text-decoration: none; }
 .logo-mark {
   flex: none;
   display: inline-flex;
@@ -40,30 +108,22 @@ html { scroll-padding-top: 120px; }
   background: #000; color: #fff;
   font-weight: 900; font-size: 13px;
   letter-spacing: .5px; line-height: 1;
-  transition: width .25s ease, height .25s ease, font-size .25s ease;
 }
-.header-tools {
-  margin-inline-start: auto;
+.logo-text {
+  display: block;
+  min-width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.masthead-tools {
   display: flex;
   align-items: center;
   gap: .5rem;
   flex: none;
 }
 
-/* Tools on the red band are always white (was dark-on-red before) */
-.header .theme-toggle {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 44px; height: 44px;   /* 44px touch target */
-  color: #fff;
-}
-.header .theme-toggle:hover { color: #fff; }
-.header .lang-menu a { color: #fff; font-weight: 600; }
-.header .lang-menu a:hover { color: #fff; text-decoration: underline; text-underline-offset: 4px; }
-.header .nav-sep { color: rgba(255, 255, 255, .65); }
-
-/* ── LIVE indicator (broadcast pulse — the "creative accent" detail) ── */
+/* LIVE pill */
 .live-indicator {
   display: inline-flex;
   align-items: center;
@@ -83,7 +143,18 @@ html { scroll-padding-top: 120px; }
 }
 @keyframes bbc-live-pulse { 0%, 100% { opacity: 1; } 50% { opacity: .3; } }
 
-/* ── Hamburger (mobile only; hidden on desktop) ── */
+/* Theme toggle on red band */
+.header .theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px; height: 44px;
+  color: #fff;
+  background: transparent;
+}
+.header .theme-toggle:hover { color: #fff; }
+
+/* Hamburger — mobile only */
 .menu-toggle {
   display: none;
   flex: none;
@@ -91,90 +162,130 @@ html { scroll-padding-top: 120px; }
   align-items: center;
   justify-content: center;
   gap: 4px;
-  width: 44px; height: 44px;   /* 44px touch target */
+  width: 44px; height: 44px;
   padding: 0;
-  background: #fff;
-  border: 2px solid #000;
+  background: transparent;
+  border: 2px solid #fff;
   border-radius: 0;
   cursor: pointer;
   transition: background .15s ease;
 }
-.menu-toggle:hover { background: #000; }
+.menu-toggle:hover { background: #fff; }
 .menu-toggle-bar {
   display: block;
   width: 18px; height: 2px;
-  background: #000;
+  background: #fff;
   transition: transform .2s ease, opacity .2s ease, background .15s ease;
 }
-.menu-toggle:hover .menu-toggle-bar { background: #fff; }
-/* Open state: hamburger → X morph */
+.menu-toggle:hover .menu-toggle-bar { background: #000; }
 .header.menu-open .menu-toggle-bar:nth-child(1) { transform: translateY(6px) rotate(45deg); }
 .header.menu-open .menu-toggle-bar:nth-child(2) { opacity: 0; }
 .header.menu-open .menu-toggle-bar:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
 
-/* ── Nav row (desktop): refined hover ── */
-.menu li a { transition: background .15s ease, color .15s ease; }
-.menu li a:hover { background: var(--bbc-bg-alt); color: var(--bbc-red); text-decoration: none; }
-[data-theme="dark"] .menu li a:hover { color: var(--bbc-red-bright); }
+/* ── Band 3 — black nav strip (BBC signature active) ── */
+.nav-strip {
+  background: #1c1c1c;
+  border-bottom: 3px solid var(--bbc-red, #B80000);
+}
+.nav-strip .menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: stretch;
+  max-width: calc(var(--nav-width, 1008px) + var(--gap, 24px) * 2);
+  margin: 0 auto;
+  padding: 0 var(--gap, 24px);
+  border: none;
+}
+.nav-strip .menu li {
+  display: flex;
+}
+.nav-strip .menu li a {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 18px;
+  color: #fff;
+  font-size: 13.5px;
+  font-weight: 600;
+  letter-spacing: .01em;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background .15s ease, color .15s ease;
+}
+.nav-strip .menu li a:hover {
+  background: rgba(255,255,255,.1);
+  color: #fff;
+  text-decoration: none;
+}
+/* BBC signature active: white bg + red text */
+.nav-strip .menu li a span.active {
+  background: #fff;
+  color: var(--bbc-red, #B80000);
+  padding: 4px 12px;
+  font-weight: 700;
+}
+/* External link icon on nav items */
+.nav-strip .menu li a svg {
+  flex: none;
+  opacity: .65;
+  margin-left: 3px;
+}
 
-/* ── Compact on scroll (JS adds .is-scrolled past 80px) ── */
-.header.is-scrolled .logo { padding: 6px 0; }
-.header.is-scrolled .logo a { font-size: 1.08rem; }
-.header.is-scrolled .logo-mark { width: 26px; height: 26px; font-size: 11px; }
-
-/* ── Mobile: hamburger + slide-down panel (BBC 1008 breakpoint) ── */
+/* ── Mobile: hamburger + slide-down panel ── */
 @media (max-width: 1007px) {
   html { scroll-padding-top: 76px; }
   .menu-toggle { display: inline-flex; }
-
-  .menu {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    width: 100%;
+  /* Hide nav-strip on mobile unless menu is open */
+  .nav-strip {
     max-height: 0;
     overflow: hidden;
     visibility: hidden;
-    white-space: normal;
-    border-bottom-width: 0;            /* no hairline while collapsed */
     transition: max-height .35s ease, visibility 0s linear .35s;
   }
-  .header.menu-open .menu {
-    max-height: 80vh;                  /* fallback for old browsers */
-    max-height: calc(100dvh - 110px);  /* never taller than the viewport */
+  .header.menu-open .nav-strip {
+    max-height: 80vh;
+    max-height: calc(100dvh - 160px);
     overflow-y: auto;
     overflow-x: hidden;
     visibility: visible;
-    border-bottom-width: 1px;
+    border-bottom: 1px solid #333;
     transition: max-height .35s ease, visibility 0s;
   }
-  .menu li { padding: 0; }
-  .menu li a { padding: 13px 16px; font-size: 14px; }
-  .menu li + li a { border-top: 1px solid var(--bbc-border); }
-
-  .header.is-scrolled .logo { padding: 5px 0; }
+  .header.menu-open .nav-strip .menu {
+    flex-direction: column;
+    width: 100%;
+  }
+  .header.menu-open .nav-strip .menu li a {
+    padding: 13px 16px;
+    font-size: 14px;
+    border-bottom: 1px solid #333;
+  }
+  .header.menu-open .nav-strip .menu li:last-child a { border-bottom: none; }
 }
 
 /* ── Small screens ── */
 @media (max-width: 599px) {
-  .header.is-scrolled .logo a { font-size: 1rem; }
+  .masthead-inner { height: 48px; }
+  .masthead-brand { font-size: 1.05rem; }
+  .logo-mark { width: 28px; height: 28px; font-size: 11px; }
 }
 @media (max-width: 479px) {
   .live-indicator { display: none; }
-  .header-tools { gap: .25rem; }
-  .logo a { font-size: 1.02rem; }
+  .masthead-tools { gap: .25rem; }
+  .util-date { font-size: 10.5px; }
 }
 
-/* ── Reduced motion: no slide / pulse / shrink animations ── */
+/* ── Reduced motion ── */
 @media (prefers-reduced-motion: reduce) {
   .header,
-  .logo,
-  .logo a,
   .logo-mark,
   .menu,
   .menu-toggle,
   .menu-toggle-bar,
-  .live-dot {
+  .live-dot,
+  .nav-strip,
+  .masthead-brand {
     transition: none !important;
     animation: none !important;
   }

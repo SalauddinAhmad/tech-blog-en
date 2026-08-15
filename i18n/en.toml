@@ -1,0 +1,45 @@
+# English UI strings (site-level)
+[ticker_label]
+other = "LIVE"
+[ticker_aria]
+other = "Live news"
+[flash_title]
+other = "Today's Tech Radar"
+[footer_nav_label]
+other = "Footer"
+[footer_live]
+other = "Live Tech"
+[footer_ti]
+other = "Tech Intelligence"
+[footer_adapt]
+other = "Adaptability"
+[footer_credit]
+other = "Built with Hugo & PaperMod"
+[view_loading]
+other = "Loading..."
+[view_count_suffix]
+other = " reads"
+[live_updated]
+other = "Last updated"
+[live_h1]
+other = "Live Tech Updates"
+[live_sub]
+other = "Technology news from around the world — auto-refreshed every hour"
+[live_read]
+other = "Read"
+[live_empty]
+other = "No live news available yet. Coming soon!"
+[live_autoupdate]
+other = "Auto-refreshed hourly via GitHub Actions"
+[live_just_now]
+other = "Just now"
+[live_mins]
+other = "%dm ago"
+[live_hrs]
+other = "%dh ago"
+[live_days]
+other = "%dd ago"
+[code_copy]
+other = "Copy"
+[code_copied]
+other = "Copied!"

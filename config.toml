@@ -64,6 +64,11 @@ pagerSize = 10
   [params.social]
     github = "https://github.com/SalauddinAhmad"
 
+  [params.altLang]
+    label = "বাংলা"
+    url = "https://salauddinahmad.github.io/tech-blog/"
+    hreflang = "bn"
+
   [params.schema]
     # AUDIT FX-31: sameAs social profiles (curl-verified GitHub) — quoted in schema_json template
     sameAs = ["https://github.com/SalauddinAhmad"]
@@ -87,14 +92,10 @@ pagerSize = 10
     url = "/tech-blog-en/categories/adaptability/"
     weight = 3
   [[menu.main]]
-    name = "বাংলা ব্লগ"
-    url = "https://salauddinahmad.github.io/tech-blog/"
-    weight = 4
-  [[menu.main]]
     identifier = "live-tech"
-    name = "📡 Live Tech"
+    name = "Live Tech"
     url = "/tech-blog-en/tech-news/"
-    weight = 5
+    weight = 4
 
 [taxonomies]
   category = "categories"

@@ -16,8 +16,12 @@
 </style>
 {{- /* AUDIT FX-33: bbc-label.css merged into bbc.css (one less request); v9 = this P2 batch */ -}}
 <link rel="stylesheet" href="{{ "css/bbc.css" | relURL }}?v=9">
-{{- /* Header v2 — MUST load after bbc.css so overrides win in the cascade */ -}}
-<link rel="stylesheet" href="{{ "css/header.css" | relURL }}?v=1">
+{{- /* Header v3 — 3-layer BBC masthead. Loads after bbc.css so overrides win. */ -}}
+<link rel="stylesheet" href="{{ "css/header.css" | relURL }}?v=2">
+
+{{- /* Ticker v3 + UI polish (load LAST so overrides win) */ -}}
+<link rel="stylesheet" href="{{ "css/news-ticker.css" | relURL }}?v=3">
+<link rel="stylesheet" href="{{ "css/polish.css" | relURL }}?v=1">
 {{- /* AUDIT FX-06: force-light script removed — PaperMod theme toggle + pref-theme persistence restored */ -}}
 {{- /* PWA */ -}}
 <link rel="manifest" href="{{ "manifest.json" | relURL }}">
@@ -42,5 +46,3 @@
 <meta property="og:image" content="{{ "images/og-home.png" | absLangURL }}">
 {{- end }}
 
-{{- /* Live news styles */ -}}
-<link rel="stylesheet" href="{{ "css/news-ticker.css" | relURL }}?v=1">
