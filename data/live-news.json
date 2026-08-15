@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-15T19:35:05+06:00",
+  "lastUpdated": "2026-08-15T20:29:01+06:00",
   "news": [
     {
       "id": "64bd7759b59f",
@@ -90,21 +90,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "The island could capture billions of gallons of water a year if it implemented systems to catch it as it falls from the ..."
-    },
-    {
-      "id": "0778f93b3ef2",
-      "title": "OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
-      "link": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/",
-      "source": "Ars Technica",
-      "sourceIcon": "ars",
-      "pubDate": "2026-08-14T14:27:14Z",
-      "description": "US groups release cheaper models after new challenges to their trillion-dollar ambitions.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 5,
-      "reliability": 5,
-      "summary_bn": "",
-      "summary_en": "US groups release cheaper models after new challenges to their trillion-dollar ambitions."
     },
     {
       "id": "03fa8605a0c7",
@@ -278,7 +263,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-14T20:52:44Z",
-      "description": "Article URL: https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark/ Comments URL: https://news.ycombinator.com/item?id=49304447 Points: 386 # Comments: 182",
+      "description": "Article URL: https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark/ Comments URL: https://news.ycombinator.com/item?id=49304447 Points: 392 # Comments: 186",
       "topic": "Security",
       "topicIcon": "🔒",
       "importance": 5,
@@ -330,21 +315,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Fusion startups have raised $7.1 billion to date, with the majority of it going to a handful of companies."
-    },
-    {
-      "id": "51108fffa358",
-      "title": "Hyperscalers might regret embracing natural gas if new forecast proves correct",
-      "link": "https://techcrunch.com/2026/08/14/hyperscalers-might-regret-embracing-natural-gas-if-new-forecast-proves-correct/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-14T14:05:00Z",
-      "description": "Natural gas prices could triple in some parts of the U.S., which could saddle hyperscalers with massive bills to power their AI data centers.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Natural gas prices could triple in some parts of the U.S., which could saddle hyperscalers with massive bills to power t..."
     },
     {
       "id": "c9bed3a6ada9",
@@ -623,7 +593,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-15T13:09:28Z",
-      "description": "Article URL: https://medicalxpress.com/news/2026-07-brain-rem-eeg.html Comments URL: https://news.ycombinator.com/item?id=49310248 Points: 5 # Comments: 0",
+      "description": "Article URL: https://medicalxpress.com/news/2026-07-brain-rem-eeg.html Comments URL: https://news.ycombinator.com/item?id=49310248 Points: 15 # Comments: 3",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 4,
@@ -645,36 +615,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "The idea that GPUs are poorly suited for agentic workflows may be a misconception, according to French startup Kog."
-    },
-    {
-      "id": "0356ba6ae093",
-      "title": "Google is making private AI practical with homomorphic encryption",
-      "link": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-08-14T15:43:10Z",
-      "description": "Article URL: https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/ Comments URL: https://news.ycombinator.com/item?id=49300314 Points: 436 # Comments: 260",
-      "topic": "Security",
-      "topicIcon": "🔒",
-      "importance": 3,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/ Comment..."
-    },
-    {
-      "id": "36730cabd238",
-      "title": "RustDesk now supports true unattended remote access on Wayland",
-      "link": "https://rustdesk.com/blog/unattended-remote-access-wayland/",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-08-14T16:12:52Z",
-      "description": "Article URL: https://rustdesk.com/blog/unattended-remote-access-wayland/ Comments URL: https://news.ycombinator.com/item?id=49300759 Points: 321 # Comments: 130",
-      "topic": "Startups",
-      "topicIcon": "🚀",
-      "importance": 3,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://rustdesk.com/blog/unattended-remote-access-wayland/ Comments URL: https://news.ycombinator.com/item..."
     },
     {
       "id": "ac19fc1cc3a0",
@@ -713,7 +653,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-14T19:03:20Z",
-      "description": "Article URL: https://www.pcworld.com/article/3212428/firefox-is-now-the-last-major-browser-that-still-supports-ublock-origin.html Comments URL: https://news.ycombinator.com/item?id=49303202 Points: 1290 # Comments: 489",
+      "description": "Article URL: https://www.pcworld.com/article/3212428/firefox-is-now-the-last-major-browser-that-still-supports-ublock-origin.html Comments URL: https://news.ycombinator.com/item?id=49303202 Points: 1336 # Comments: 510",
       "topic": "Web/JavaScript",
       "topicIcon": "🌐",
       "importance": 3,
@@ -750,6 +690,66 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Avatar Aang, Heartstopper Forever, and Exit 8 are among the films deserving of your eyeballs this month."
+    },
+    {
+      "id": "cbad292c659e",
+      "title": "New York City Lawmakers Push to ‘Ban the Scan’ at MSG",
+      "link": "https://www.wired.com/story/new-york-city-lawmakers-push-to-ban-the-scan-at-msg/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-08-14T21:43:17Z",
+      "description": "At a press conference outside Madison Square Garden, politicians, musicians, and privacy advocates argued for tighter restrictions on how public venues deploy biometric surveillance.",
+      "topic": "Security",
+      "topicIcon": "🔒",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "At a press conference outside Madison Square Garden, politicians, musicians, and privacy advocates argued for tighter re..."
+    },
+    {
+      "id": "908f986061ec",
+      "title": "Show HN: ThoughtDAG – An editable context graph for LLM conversations",
+      "link": "https://chenxiachan.github.io/thoughtdag/",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-08-15T04:42:07Z",
+      "description": "Article URL: https://chenxiachan.github.io/thoughtdag/ Comments URL: https://news.ycombinator.com/item?id=49307700 Points: 74 # Comments: 19",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 3,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "Article URL: https://chenxiachan.github.io/thoughtdag/ Comments URL: https://news.ycombinator.com/item?id=49307700 Point..."
+    },
+    {
+      "id": "28835bc42381",
+      "title": "Google Workspace Promo Codes: 14% Off for August 2026",
+      "link": "https://www.wired.com/story/google-workspace-promo-code/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-08-15T05:00:00Z",
+      "description": "Boost your productivity and save with exclusive Google Workspace coupons from WIRED. Get up to 14% off plans for three months, including Starter, Standard, and Plus tiers.",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Boost your productivity and save with exclusive Google Workspace coupons from WIRED. Get up to 14% off plans for three m..."
+    },
+    {
+      "id": "27e1422bbf70",
+      "title": "Using GCC's Nested Functions with Wide Pointers and No Trampolines II",
+      "link": "https://uecker.codeberg.page/2026-07-14.html",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-08-15T07:59:42Z",
+      "description": "Article URL: https://uecker.codeberg.page/2026-07-14.html Comments URL: https://news.ycombinator.com/item?id=49308685 Points: 44 # Comments: 23",
+      "topic": "Web/JavaScript",
+      "topicIcon": "🌐",
+      "importance": 3,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "Article URL: https://uecker.codeberg.page/2026-07-14.html Comments URL: https://news.ycombinator.com/item?id=49308685 Po..."
     }
   ]
 }
