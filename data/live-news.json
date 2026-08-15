@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-15T18:48:50+06:00",
+  "lastUpdated": "2026-08-15T19:35:05+06:00",
   "news": [
     {
       "id": "64bd7759b59f",
@@ -278,7 +278,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-14T20:52:44Z",
-      "description": "Article URL: https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark/ Comments URL: https://news.ycombinator.com/item?id=49304447 Points: 371 # Comments: 173",
+      "description": "Article URL: https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark/ Comments URL: https://news.ycombinator.com/item?id=49304447 Points: 386 # Comments: 182",
       "topic": "Security",
       "topicIcon": "🔒",
       "importance": 5,
@@ -317,19 +317,19 @@
       "summary_en": "Utility-scale solar leads by a mile, followed by batteries. Fossil fuels, not so much."
     },
     {
-      "id": "2b4456816098",
-      "title": "US courts will start publishing how often the government uses spyware",
-      "link": "https://techcrunch.com/2026/08/14/us-courts-will-start-publishing-how-often-the-government-uses-spyware/",
+      "id": "3eaa419697a2",
+      "title": "Every fusion startup that has raised over $100M",
+      "link": "https://techcrunch.com/2026/08/15/every-fusion-startup-that-has-raised-over-100m/",
       "source": "TechCrunch",
       "sourceIcon": "crunch",
-      "pubDate": "2026-08-14T13:29:04Z",
-      "description": "The Administrative Office of the U.S. Courts told TechCrunch that it will start disclosing how many times judges authorized the use of spyware to wiretap suspected criminals.",
-      "topic": "Regulation",
-      "topicIcon": "⚖️",
-      "importance": 4,
+      "pubDate": "2026-08-15T13:15:20Z",
+      "description": "Fusion startups have raised $7.1 billion to date, with the majority of it going to a handful of companies.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 5,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "The Administrative Office of the U.S. Courts told TechCrunch that it will start disclosing how many times judges authori..."
+      "summary_en": "Fusion startups have raised $7.1 billion to date, with the majority of it going to a handful of companies."
     },
     {
       "id": "51108fffa358",
@@ -390,21 +390,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Unforgetful, the latest app from longtime indie developer Marco Arment, is designed to make reminders harder to ignore —..."
-    },
-    {
-      "id": "e5026bc3d2dc",
-      "title": "You can now turn off Google Gemini&#8217;s visible watermarks",
-      "link": "https://www.theverge.com/tech/980416/google-gemini-ai-watermarks-removal",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-08-14T16:39:32Z",
-      "description": "Google will now allow you to remove visible watermarks from the images, videos, and music made with AI tools. With the update, you can toggle off a new \"Media watermark\" setting in Gemini and Google's AI video generator, Flow. When toggled off, Google will remove the \"sparkle\" watermark that appears in the bottom-right corner of [&#8230;]",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Google will now allow you to remove visible watermarks from the images, videos, and music made with AI tools. With the u..."
     },
     {
       "id": "82a722e76bf8",
@@ -617,19 +602,34 @@
       "summary_en": "Booksellers are reporting mysterious bulk orders. It's thought the books are being used to train AI - and ending up pulp..."
     },
     {
-      "id": "bae71eb952aa",
-      "title": "I turned my RSS feeds into an e-ink newspaper to stop reading on my phone",
-      "link": "https://heyjonny.dev/posts/rss-to-eink-newspaper/",
+      "id": "a82fcde90f83",
+      "title": "Xteink’s tiny e-readers are getting access to free books through Libby",
+      "link": "https://www.theverge.com/tech/976390/xteink-x3-x4-x4-pro-e-reader-libby-plug-ins-drm-crosspoint-reader",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-08-15T13:00:00Z",
+      "description": "One of the big tradeoffs with Xteink's pocket-friendly e-readers is a lack of easy access to ebooks. On a Kindle or Kobo you can download tens of thousands of titles through each device's respective online bookstores, but with Xteink's devices you have to source DRM-free ebooks on your own. That's about to change, as the [&#8230;]",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "One of the big tradeoffs with Xteink's pocket-friendly e-readers is a lack of easy access to ebooks. On a Kindle or Kobo..."
+    },
+    {
+      "id": "95c882437216",
+      "title": "Brain turns listening inward during REM sleep, EEG recordings suggest",
+      "link": "https://medicalxpress.com/news/2026-07-brain-rem-eeg.html",
       "source": "Hacker News",
       "sourceIcon": "hn",
-      "pubDate": "2026-08-14T14:21:18Z",
-      "description": "Article URL: https://heyjonny.dev/posts/rss-to-eink-newspaper/ Comments URL: https://news.ycombinator.com/item?id=49299081 Points: 203 # Comments: 86",
-      "topic": "Startups",
-      "topicIcon": "🚀",
-      "importance": 3,
+      "pubDate": "2026-08-15T13:09:28Z",
+      "description": "Article URL: https://medicalxpress.com/news/2026-07-brain-rem-eeg.html Comments URL: https://news.ycombinator.com/item?id=49310248 Points: 5 # Comments: 0",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
       "reliability": 3,
       "summary_bn": "",
-      "summary_en": "Article URL: https://heyjonny.dev/posts/rss-to-eink-newspaper/ Comments URL: https://news.ycombinator.com/item?id=492990..."
+      "summary_en": "Article URL: https://medicalxpress.com/news/2026-07-brain-rem-eeg.html Comments URL: https://news.ycombinator.com/item?i..."
     },
     {
       "id": "bc3411669855",
@@ -653,7 +653,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-14T15:43:10Z",
-      "description": "Article URL: https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/ Comments URL: https://news.ycombinator.com/item?id=49300314 Points: 426 # Comments: 257",
+      "description": "Article URL: https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/ Comments URL: https://news.ycombinator.com/item?id=49300314 Points: 436 # Comments: 260",
       "topic": "Security",
       "topicIcon": "🔒",
       "importance": 3,
@@ -668,7 +668,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-14T16:12:52Z",
-      "description": "Article URL: https://rustdesk.com/blog/unattended-remote-access-wayland/ Comments URL: https://news.ycombinator.com/item?id=49300759 Points: 316 # Comments: 129",
+      "description": "Article URL: https://rustdesk.com/blog/unattended-remote-access-wayland/ Comments URL: https://news.ycombinator.com/item?id=49300759 Points: 321 # Comments: 130",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 3,
@@ -713,7 +713,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-14T19:03:20Z",
-      "description": "Article URL: https://www.pcworld.com/article/3212428/firefox-is-now-the-last-major-browser-that-still-supports-ublock-origin.html Comments URL: https://news.ycombinator.com/item?id=49303202 Points: 1230 # Comments: 469",
+      "description": "Article URL: https://www.pcworld.com/article/3212428/firefox-is-now-the-last-major-browser-that-still-supports-ublock-origin.html Comments URL: https://news.ycombinator.com/item?id=49303202 Points: 1290 # Comments: 489",
       "topic": "Web/JavaScript",
       "topicIcon": "🌐",
       "importance": 3,
