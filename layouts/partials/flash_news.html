@@ -8,12 +8,7 @@
         <span class="flash-topic">{{ .topicIcon }} {{ .topic }}</span>
         <span class="flash-source">{{ .source }}</span>
       </div>
-      <h3 class="flash-title"><a onclick="openNewsModal(this)" data-title="{{ .title | htmlEscape }}" data-topic="{{ .topicIcon }} {{ .topic }}" data-summary="{{ with .summary_en }}{{ . | htmlEscape }}{{ else }}{{ .description | htmlEscape }}{{ end }}" data-source="{{ .source }}" data-link="{{ .link }}" href="javascript:void(0)">{{ .title }}</a></h3>
-      <p class="flash-summary">{{ with .summary_en }}{{ . }}{{ else }}{{ .description | truncate 120 }}{{ end }}</p>
-      <div class="flash-meta">
-        <span class="flash-time">{{ .pubDate }}</span>
-        <span class="flash-reliability">⭐{{ .reliability }}/5</span>
-      </div>
+      <h3 class="flash-title"><a href="{{ .link }}" target="_blank" rel="noopener">{{ .title }}</a></h3>
     </article>
     {{ end }}
   </div>
