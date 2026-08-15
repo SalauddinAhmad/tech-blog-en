@@ -16,6 +16,8 @@
 </style>
 {{- /* AUDIT FX-33: bbc-label.css merged into bbc.css (one less request); v9 = this P2 batch */ -}}
 <link rel="stylesheet" href="{{ "css/bbc.css" | relURL }}?v=9">
+{{- /* Header v2 — MUST load after bbc.css so overrides win in the cascade */ -}}
+<link rel="stylesheet" href="{{ "css/header.css" | relURL }}?v=1">
 {{- /* AUDIT FX-06: force-light script removed — PaperMod theme toggle + pref-theme persistence restored */ -}}
 {{- /* PWA */ -}}
 <link rel="manifest" href="{{ "manifest.json" | relURL }}">
