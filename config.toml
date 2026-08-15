@@ -6,7 +6,8 @@
 baseURL = "https://salauddinahmad.github.io/tech-blog-en/"
 title = "Tech Intelligence English"
 theme = "hugo-papermod"
-paginate = 10
+[pagination]
+pagerSize = 10
 languageCode = "en"
 
 # ── SEO ──
