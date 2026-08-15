@@ -2,7 +2,7 @@
 <section class="flash-news-section">
   <h2 class="flash-news-title">📡 Today's Tech Radar</h2>
   <div class="flash-grid">
-    {{ range first 6 (sort . "importance" "desc") }}
+    {{ range first 3 (sort . "importance" "desc") }}
     <article class="flash-card">
       <div class="flash-card-header">
         <span class="flash-topic">{{ .topicIcon }} {{ .topic }}</span>
