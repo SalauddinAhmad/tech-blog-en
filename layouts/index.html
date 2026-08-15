@@ -33,7 +33,6 @@
 {{- $pages := union .RegularPages .Sections }}
 {{- if .IsHome }}
 {{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
-{{- $pages = where $pages "Params.hiddenInHomeList" "!=' true"  }}
 {{- end }}
 
 {{- $paginator := .Paginate $pages }}
@@ -59,7 +58,7 @@
     {{- with .Params.categories }}
     {{- $section := index . 0 }}
     {{- if $section }}
-    <span class="sec-tag">{{ $section | replaceRE "-" " " | title }}</span>
+    <span class="sec-tag">{{ $section | replaceRE "-" " " | title | replaceRE "Tech Intelligence" "টেক ইন্টেলিজেন্স" | replaceRE "Adaptability" "অ্যাডাপ্টাবিলিটি" }}</span>
     {{- end }}
     {{- end }}
     <h2 class="entry-hint-parent">
