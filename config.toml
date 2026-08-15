@@ -76,15 +76,15 @@ pagerSize = 10
 [menu]
   [[menu.main]]
     name = "Home"
-    url = "/"
+    url = "/tech-blog-en/"
     weight = 1
   [[menu.main]]
     name = "Tech Intelligence"
-    url = "/categories/tech-intelligence/"
+    url = "/tech-blog-en/categories/tech-intelligence/"
     weight = 2
   [[menu.main]]
     name = "Adaptability"
-    url = "/categories/adaptability/"
+    url = "/tech-blog-en/categories/adaptability/"
     weight = 3
   [[menu.main]]
     name = "বাংলা ব্লগ"
@@ -93,7 +93,7 @@ pagerSize = 10
   [[menu.main]]
     identifier = "live-tech"
     name = "📡 Live Tech"
-    url = "/tech-news/"
+    url = "/tech-blog-en/tech-news/"
     weight = 5
 
 [taxonomies]
