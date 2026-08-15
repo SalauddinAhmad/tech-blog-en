@@ -21,6 +21,20 @@ create_post() {
     local CATEGORY="$1" TITLE="$2" CONTENT="$3" SLUG="$4"
     /Users/salaudinahmad/.venvs/pillow-raqm/bin/python "$TOOLS_DIR/generate-cover.py" --title "$TITLE" --category "$CATEGORY" --lang en \
         --date "$TODAY_EN" --out "$BLOG_DIR/static/images/cover-${CATEGORY}-${TODAY}.png" --bg-cache "$BLOG_DIR/static/images/ai-bg" || true
+    # AUDIT FX-04: WebP/AVIF pipeline — PNG stays the base; the cover partial
+    # (<picture>) serves webp + responsive 768w/480w variants. Tools optional:
+    #   brew install webp libavif   (or: sudo apt-get install -y webp libavif-bin)
+    COVER_PNG="$BLOG_DIR/static/images/cover-${CATEGORY}-${TODAY}.png"
+    if command -v cwebp >/dev/null 2>&1 && [ -f "$COVER_PNG" ]; then
+        cwebp -q 80 "$COVER_PNG" -o "${COVER_PNG%.png}.webp" >/dev/null 2>&1 || true
+        cwebp -q 80 -resize 768 403 "$COVER_PNG" -o "${COVER_PNG%.png}-768w.webp" >/dev/null 2>&1 || true
+        cwebp -q 80 -resize 480 252 "$COVER_PNG" -o "${COVER_PNG%.png}-480w.webp" >/dev/null 2>&1 || true
+    else
+        echo "⚠️  cwebp not found — webp variants skipped (brew install webp)"
+    fi
+    if command -v avifenc >/dev/null 2>&1 && [ -f "$COVER_PNG" ]; then
+        avifenc -q 40 -s 4 "$COVER_PNG" -o "${COVER_PNG%.png}.avif" >/dev/null 2>&1 || true
+    fi
     mkdir -p "$BLOG_DIR/content/posts/${CATEGORY}/${SLUG}"
     cat > "$BLOG_DIR/content/posts/${CATEGORY}/${SLUG}/index.md" << MDEOF
 ---

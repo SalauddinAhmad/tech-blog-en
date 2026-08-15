@@ -1,0 +1,32 @@
+{{- with .cxt}} {{/* Apply proper context from dict */}}
+{{- if (and .Params.cover.image (not $.isHidden)) }}
+{{- /* AUDIT FX-04/FX-09: site-level override of theme cover partial —
+       webp <picture>/srcset (pipeline-generated), explicit width/height
+       (1200x630, pipeline guarantee) to kill CLS, eager LCP for single
+       pages and the first list card. URL helper: absLangURL with the
+       leading slash trimmed so the /tech-blog-en/ subpath survives. */ -}}
+{{- $loading := cond (or $.IsSingle $.eager) "eager" "lazy" }}
+{{- $eager := (or $.IsSingle $.eager) }}
+{{- $alt := (.Params.cover.alt | default .Params.cover.caption | plainify) }}
+{{- $imgPath := strings.TrimPrefix "/" .Params.cover.image }}
+{{- $base := strings.TrimSuffix (path.Ext $imgPath) $imgPath }}
+<figure class="entry-cover">
+  <picture>
+    <source type="image/webp"
+      srcset="{{ printf "%s-480w.webp" $base | absLangURL }} 480w,
+              {{ printf "%s-768w.webp" $base | absLangURL }} 768w,
+              {{ printf "%s.webp" $base | absLangURL }} 1200w"
+      sizes="(max-width:480px) 100vw, (max-width:900px) 100vw, 1200px">
+    <img src="{{ printf "%s.png" $base | absLangURL }}"
+         alt="{{ $alt }}" width="1200" height="630"
+         loading="{{ $loading }}"
+         {{- if $eager }} fetchpriority="high"{{- end }}>
+  </picture>
+  {{- if $.IsSingle }}
+    {{- with .Params.cover.caption }}
+    <figcaption>{{ . | markdownify }}</figcaption>
+    {{- end }}
+  {{- end }}
+</figure>
+{{- end }}{{/* End image */}}
+{{- end }}{{/* End context */ -}}

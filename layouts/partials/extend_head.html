@@ -4,13 +4,16 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+{{- /* AUDIT FX-10: preload Bornomala webfont (self-hosted) to cut FOUT */ -}}
+<link rel="preload" as="font" type="font/woff2" crossorigin href="{{ "fonts/Bornomala-Regular.woff2" | absLangURL }}">
+<link rel="preload" as="font" type="font/woff2" crossorigin href="{{ "fonts/Bornomala-Bold.woff2" | absLangURL }}">
 <style>
 @font-face{font-family:'Bornomala';font-weight:400;font-display:swap;src:url('{{ "fonts/Bornomala-Regular.woff2" | relURL }}') format('woff2');}
 @font-face{font-family:'Bornomala';font-weight:700;font-display:swap;src:url('{{ "fonts/Bornomala-Bold.woff2" | relURL }}') format('woff2');}
 </style>
-<link rel="stylesheet" href="{{ "css/bbc.css" | relURL }}?v=7">
-<link rel="stylesheet" href="{{ "css/bbc-label.css" | relURL }}?v=7">
-<script>try{localStorage.removeItem('pref-theme')}catch(e){}document.documentElement.setAttribute('data-theme','light');</script>
+<link rel="stylesheet" href="{{ "css/bbc.css" | relURL }}?v=8">
+<link rel="stylesheet" href="{{ "css/bbc-label.css" | relURL }}?v=8">
+{{- /* AUDIT FX-06: force-light script removed — PaperMod theme toggle + pref-theme persistence restored */ -}}
 {{- /* PWA */ -}}
 <link rel="manifest" href="{{ "manifest.json" | relURL }}">
 <meta name="theme-color" content="#B80000">
