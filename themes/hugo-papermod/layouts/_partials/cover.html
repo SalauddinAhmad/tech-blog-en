@@ -19,7 +19,7 @@
         {{- $processableFormats = $processableFormats | append "webp" -}}
     {{- end -}}
 
-    {{- $imgdl := (.Params.cover.image) | absURL }}
+    {{- $imgdl := print site.BaseURL (strings.TrimPrefix "/" (.Params.cover.image)) }}
     {{- if $cover -}}
         {{- $imgdl = $cover.Permalink }}
     {{- end -}}

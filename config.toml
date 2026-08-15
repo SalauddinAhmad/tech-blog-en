@@ -27,6 +27,7 @@ summaryLength = 30
   filename = "sitemap.xml"
 
 [params]
+  mainSections = ["posts"]
   env = "production"
   description = "Daily Tech Intelligence & Adaptability reports — in English, auto-published with cover images."
   author = "Salauddin Ahmad"
@@ -48,7 +49,7 @@ summaryLength = 30
     Content = "Daily technology analysis and adaptability guides — fully in English"
 
   [params.profileMode]
-    enabled = true
+    enabled = false
     title = "Salauddin Ahmad"
     subtitle = "Fullstack Developer & Tech Analyst"
     imageUrl = "/images/profile.jpg"
