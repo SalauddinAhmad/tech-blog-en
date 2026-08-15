@@ -64,6 +64,15 @@ pagerSize = 10
   [params.social]
     github = "https://github.com/SalauddinAhmad"
 
+  [params.schema]
+    # AUDIT FX-31: sameAs social profiles (curl-verified GitHub) — quoted in schema_json template
+    sameAs = ["https://github.com/SalauddinAhmad"]
+
+  [params.assets]
+    # AUDIT FX-21: single theme-color (#B80000) — theme head picks this up; the
+    # hardcoded <meta name=theme-color> in extend_head was removed (was duplicating #2e2e33)
+    theme_color = "#B80000"
+
 [menu]
   [[menu.main]]
     name = "Home"

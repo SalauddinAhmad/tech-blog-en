@@ -30,3 +30,12 @@ jobs:
           publish_dir: ./public
           publish_branch: gh-pages
           cname: ''
+      - name: Verify deployment (CDN settle retry)
+        run: |
+          code=""
+          for i in $(seq 1 12); do
+            code=$(curl -s -o /dev/null -w "%{http_code}" https://salauddinahmad.github.io/tech-blog-en/ || true)
+            [ "$code" = "200" ] && break
+            echo "retry $i: $code"; sleep 10
+          done
+          [ "$code" = "200" ] || exit 1

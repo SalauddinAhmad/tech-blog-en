@@ -11,8 +11,7 @@ self.addEventListener("install", (e) => {
     caches.open(CACHE_NAME)
       .then((c) => c.addAll([
         SCOPE,                                   // homepage (HTML core shell)
-        SCOPE + "css/bbc.css?v=8",
-        SCOPE + "css/bbc-label.css?v=8",
+        SCOPE + "css/bbc.css?v=9",
         SCOPE + "css/news-ticker.css?v=1",
         SCOPE + "manifest.json",
         SCOPE + "fonts/Bornomala-Regular.woff2",

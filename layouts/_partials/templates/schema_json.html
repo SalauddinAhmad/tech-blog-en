@@ -7,15 +7,16 @@
   "url": {{ site.Home.Permalink }},
   "description": {{ site.Params.description | plainify | truncate 180 | safeHTML }},
   {{- if (eq site.Params.schema.publisherType "Person") }}
-  "image": {{ site.Params.assets.favicon | default "favicon.ico" | absLangURL }},
+  "image": "{{ site.Params.assets.favicon | default "images/icon-512.png" | absLangURL }}",
   {{- else }}
-  "logo": {{ site.Params.assets.favicon | default "favicon.ico" | absLangURL }},
+  {{- /* AUDIT FX-31: high-res logo (icon-512) — favicon.ico is too small for knowledge panels */ -}}
+  "logo": "{{ site.Params.assets.favicon | default "images/icon-512.png" | absLangURL }}",
   {{- end }}
   "sameAs": [
     {{- if site.Params.schema.sameAs }}
-      {{ range $i, $e := site.Params.schema.sameAs }}{{ if $i }}, {{ end }}{{ trim $e " " }}{{ end }}
+      {{ range $i, $e := site.Params.schema.sameAs }}{{ if $i }}, {{ end }}"{{ trim $e " " }}"{{ end }}
     {{- else}}
-      {{ range $i, $e := site.Params.SocialIcons }}{{ if $i }}, {{ end }}{{ trim $e.url " " | safeURL }}{{ end }}
+      {{ range $i, $e := site.Params.SocialIcons }}{{ if $i }}, {{ end }}"{{ trim $e.url " " }}"{{ end }}
     {{- end}}
   ]
 }
@@ -119,7 +120,7 @@
     "name": {{ site.Title }},
     "logo": {
       "@type": "ImageObject",
-      "url": {{ site.Params.assets.favicon | default "favicon.ico" | absLangURL }}
+      "url": "{{ site.Params.assets.favicon | default "images/icon-512.png" | absLangURL }}"
     }
   }
 }

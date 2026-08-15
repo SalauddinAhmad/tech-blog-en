@@ -17,7 +17,8 @@
   const items=track.querySelectorAll('.ticker-item');
   if(items.length<3)return;
   const inner=document.createElement('div');inner.className='ticker-track-inner';
-  items.forEach(i=>inner.appendChild(i.cloneNode(true)));
+  // AUDIT FX-25: duplicated half hidden from AT + keyboard (aria-hidden/tabindex=-1)
+  items.forEach(i=>{const c=i.cloneNode(true);c.setAttribute('aria-hidden','true');c.setAttribute('tabindex','-1');inner.appendChild(c);});
   items.forEach(i=>inner.appendChild(i));
   track.innerHTML='';track.appendChild(inner);
 })();

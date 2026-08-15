@@ -1,9 +1,27 @@
 {{- define "main" }}
-{{- partial "flash_news.html" . -}}
+{{- $pages := union .RegularPages .Sections }}
+
+{{- if .IsHome }}
+{{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
+{{- end }}
+
+{{- $paginator := .Paginate $pages }}
 
 {{- if (and site.Params.profileMode.enabled .IsHome) }}
+{{- partial "flash_news.html" . -}}
 {{- partial "index_profile.html" . }}
 {{- else }} {{/* if not profileMode */}}
+
+{{- /* AUDIT FX-14: home-info (h1) first in DOM — flash stays visually on top via CSS order:-1.
+       DOM order: [home-info | page/2 h1] → flash → cards → the :nth-child(3) lead rule still hits card 1. */ -}}
+{{- if and .IsHome site.Params.homeInfoParams (eq $paginator.PageNumber 1) }}
+{{- partial "home_info.html" . }}
+{{- end }}
+{{- /* AUDIT FX-12: paginated home (page/2+) has no home-info h1 — supply one so heading order stays [h1,…] */ -}}
+{{- if and .IsHome (ne $paginator.PageNumber 1) }}
+<h1 class="list-title">More News</h1>
+{{- end }}
+{{- partial "flash_news.html" . -}}
 
 {{- if not .IsHome | and .Title }}
 <header class="page-header">
@@ -39,18 +57,6 @@
 </div>
 {{- end }}
 
-{{- $pages := union .RegularPages .Sections }}
-
-{{- if .IsHome }}
-{{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
-{{- end }}
-
-{{- $paginator := .Paginate $pages }}
-
-{{- if and .IsHome site.Params.homeInfoParams (eq $paginator.PageNumber 1) }}
-{{- partial "home_info.html" . }}
-{{- end }}
-
 {{- $term := .Data.Term }}
 {{- range $index, $page := $paginator.Pages }}
 
@@ -70,7 +76,7 @@
     {{- with .Params.categories }}
     {{- $section := index . 0 }}
     {{- if $section }}
-    <span class="sec-tag">{{ $section | replaceRE "-" " " | title | replaceRE "Tech Intelligence" "টেক ইন্টেলিজেন্স" | replaceRE "Adaptability" "অ্যাডাপ্টাবিলিটি" }}</span>
+    <span class="sec-tag">{{ $section | replaceRE "-" " " | title }}</span>
     {{- end }}
     {{- end }}
     <h2 class="entry-hint-parent">

@@ -1,0 +1,9 @@
+{{- /* AUDIT FX-28: friendly 404 — message + home button; noindex meta injected in extend_head (Kind "404") */ -}}
+{{- define "main" }}
+<div class="not-found-wrap">
+    <p class="not-found-code">404</p>
+    <h1 class="not-found-title">Page Not Found</h1>
+    <p class="not-found-msg">The page you are looking for does not exist or has been moved.</p>
+    <a class="not-found-home" href="{{ "" | absLangURL }}">← Back to Home</a>
+</div>
+{{- end }}{{/* end main */ -}}

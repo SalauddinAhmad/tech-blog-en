@@ -1,0 +1,13 @@
+{{- with site.Params.homeInfoParams }}
+<article class="first-entry home-info">
+    <header class="entry-header">
+        <h1>{{ .Title | markdownify }}</h1>
+    </header>
+    <div class="entry-content md-content">
+        {{ $opts := dict "display" "block" }}
+        {{ .Content | $.Page.RenderString $opts }}
+    </div>
+    {{- /* AUDIT FX-29: empty social-icons div removed — no socialIcons configured, was rendering
+           <div class="social-icons"></div> on the homepage. Re-add footer only when icons exist. */ -}}
+</article>
+{{- end -}}

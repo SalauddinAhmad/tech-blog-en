@@ -1,9 +1,0 @@
-/* BBC-style per-site labels — English site (tech-blog-en) */
-:root{
-  --font-ui:'Roboto',system-ui,sans-serif;
-  --font-head:'Roboto',sans-serif;
-  /* AUDIT FX-10: Bengali fallback chain — Roboto has no Bengali glyphs */
-  --font-bengali:'Bornomala','Noto Sans Bengali','Bangla',sans-serif;
-}
-/* Ticker badge */
-.breaking-badge::before{ content:"LIVE"; }
