@@ -1,0 +1,2 @@
+/* BBC-style section tag — English site */
+.first-entry.home-info::before{ content:"Latest News"; }

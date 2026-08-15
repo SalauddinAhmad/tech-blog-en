@@ -71,6 +71,6 @@ summaryLength = 30
     url = "https://salauddinahmad.github.io/tech-blog/"
     weight = 3
 
-[[taxonomies]]
+[taxonomies]
   category = "categories"
   tag = "tags"
