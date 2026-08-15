@@ -1,9 +1,13 @@
 {{- /* View counter (busuanzi) — free, static-site friendly */ -}}
 <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-{{- /* BBC-style design system */ -}}
+{{- /* BBC-style design system — fonts: Roboto (UI/Latin) + Bornomala (local Bengali webfont) */ -}}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="{{ "css/bbc.css" | relURL }}?v=2">
-<link rel="stylesheet" href="{{ "css/bbc-label.css" | relURL }}?v=2">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+@font-face{font-family:'Bornomala';font-weight:400;font-display:swap;src:url('{{ "fonts/Bornomala-Regular.woff2" | relURL }}') format('woff2');}
+@font-face{font-family:'Bornomala';font-weight:700;font-display:swap;src:url('{{ "fonts/Bornomala-Bold.woff2" | relURL }}') format('woff2');}
+</style>
+<link rel="stylesheet" href="{{ "css/bbc.css" | relURL }}?v=3">
+<link rel="stylesheet" href="{{ "css/bbc-label.css" | relURL }}?v=3">
 <script>try{localStorage.removeItem('pref-theme')}catch(e){}document.documentElement.setAttribute('data-theme','light');</script>

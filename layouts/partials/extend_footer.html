@@ -1,9 +1,28 @@
-{{- /* View stats band + post view badge (busuanzi) */ -}}
+{{- /* BBC-style footer link columns — English site */ -}}
+<div class="footer-cols">
+  <div class="footer-col">
+    <h4>Sections</h4>
+    <ul>
+      <li><a href="{{ "" | absLangURL }}">Home</a></li>
+      <li><a href="{{ "categories/tech-intelligence/" | absLangURL }}">Tech Intelligence</a></li>
+      <li><a href="{{ "categories/adaptability/" | absLangURL }}">Adaptability</a></li>
+    </ul>
+  </div>
+  <div class="footer-col">
+    <h4>More</h4>
+    <ul>
+      <li><a href="https://salauddinahmad.github.io/tech-blog/" rel="noopener" target="_blank">বাংলা ব্লগ</a></li>
+      <li><a href="{{ "index.xml" | absLangURL }}">RSS Feed</a></li>
+      <li><a href="https://github.com/SalauddinAhmad" rel="noopener" target="_blank">GitHub</a></li>
+    </ul>
+  </div>
+</div>
+{{- /* View stats band + post view badge (busuanzi, with graceful fallback) */ -}}
 <div class="stats-band" id="site-stats">
   <div class="stats-inner">
-    <div class="stat-item"><b id="busuanzi_value_site_pv">—</b><span>মোট ভিউ</span></div>
-    <div class="stat-item"><b id="busuanzi_value_site_uv">—</b><span>দর্শক</span></div>
-    <div class="stat-item"><b id="busuanzi_value_page_pv">—</b><span>এই পোস্টে</span></div>
+    <div class="stat-item"><b id="busuanzi_value_site_pv">—</b><span>Total Views</span></div>
+    <div class="stat-item"><b id="busuanzi_value_site_uv">—</b><span>Visitors</span></div>
+    <div class="stat-item"><b id="busuanzi_value_page_pv">—</b><span>This Post</span></div>
   </div>
 </div>
 <script>
@@ -14,7 +33,7 @@
   if (content && pagePv && document.querySelector('.post-title, .entry-header')) {
     var badge = document.createElement('div');
     badge.className = 'view-badge';
-    badge.innerHTML = '<span>👁️</span> <span class="v-count">লোড হচ্ছে...</span>';
+    badge.innerHTML = '<span>👁️</span> <span class="v-count">Loading...</span>';
     var target = document.querySelector('.post-content, .entry-content, .post-body');
     if (target) target.parentNode.insertBefore(badge, target);
   }
@@ -23,10 +42,23 @@
     var pv = document.getElementById('busuanzi_value_page_pv');
     var badgeCount = document.querySelector('.view-badge .v-count');
     if (pv && pv.textContent && pv.textContent.trim() !== '' && badgeCount) {
-      badgeCount.textContent = pv.textContent.trim() + ' বার পঠিত';
+      badgeCount.textContent = pv.textContent.trim() + ' times read';
       clearInterval(t);
     }
   }, 1000);
   setTimeout(function(){ clearInterval(t); }, 15000);
+  // Graceful fallback: busuanzi blocked (e.g. GitHub Pages) → hide band + badge
+  setTimeout(function(){
+    var pv = document.getElementById('busuanzi_value_site_pv');
+    var band = document.getElementById('site-stats');
+    if (band && pv && (pv.textContent.trim() === '' || pv.textContent.indexOf('—') !== -1)) {
+      band.style.display = 'none';
+    }
+    var badge = document.querySelector('.view-badge');
+    var vcount = document.querySelector('.view-badge .v-count');
+    if (badge && vcount && (vcount.textContent.trim() === '' || vcount.textContent.indexOf('Loading') !== -1)) {
+      badge.style.display = 'none';
+    }
+  }, 12000);
 })();
 </script>

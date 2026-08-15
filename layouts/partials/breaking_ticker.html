@@ -1,0 +1,11 @@
+{{- /* Breaking-news ticker (BBC) — SSR, rendered between masthead and main.
+       Badge label text is per-site (bbc-label.css): বাংলা "ব্রেকিং", EN "LIVE". */ -}}
+{{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections | default site.RegularPages }}
+{{- with (first 1 $pages) }}
+{{- range . }}
+<div class="breaking" role="region" aria-label="News ticker">
+  <span class="breaking-badge" aria-hidden="true"></span>
+  <span class="breaking-title"><a href="{{ .Permalink }}">{{ .Title }}</a></span>
+</div>
+{{- end }}
+{{- end }}
