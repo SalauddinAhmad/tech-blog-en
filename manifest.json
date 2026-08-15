@@ -1,0 +1,12 @@
+{
+  "name": "Tech Intelligence",
+  "short_name": "TI",
+  "start_url": "/tech-blog-en/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#B80000",
+  "icons": [
+    {"src": "/tech-blog-en/images/icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "/tech-blog-en/images/icon-512.png", "sizes": "512x512", "type": "image/png"}
+  ]
+}
