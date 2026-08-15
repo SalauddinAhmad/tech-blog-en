@@ -1,6 +1,9 @@
 {{- $ln := index .Site.Data "live-news" }}{{- with $ln }}{{- with .news }}
-<div class="news-ticker" id="newsTicker">
-  <div class="ticker-label">📡 LIVE</div>
+<div class="news-ticker" id="newsTicker" role="region" aria-label="{{ T "ticker_aria" }}">
+  <div class="ticker-label">
+    <span class="ticker-label-dot" aria-hidden="true"></span>
+    {{- T "ticker_label" -}}
+  </div>
   <div class="ticker-track">
     {{ range first 5 (sort . "importance" "desc") }}
     <a class="ticker-item" href="{{ .link }}" target="_blank" rel="noopener">
@@ -12,15 +15,34 @@
 </div>
 <script>
 (function(){
-  const track=document.querySelector('.ticker-track');
-  if(!track)return;
-  const items=track.querySelectorAll('.ticker-item');
-  if(items.length<3)return;
-  const inner=document.createElement('div');inner.className='ticker-track-inner';
-  // AUDIT FX-25: duplicated half hidden from AT + keyboard (aria-hidden/tabindex=-1)
-  items.forEach(i=>{const c=i.cloneNode(true);c.setAttribute('aria-hidden','true');c.setAttribute('tabindex','-1');inner.appendChild(c);});
-  items.forEach(i=>inner.appendChild(i));
-  track.innerHTML='';track.appendChild(inner);
+  'use strict';
+  var track=document.querySelector('.ticker-track');
+  if(track){
+    var items=track.querySelectorAll('.ticker-item');
+    if(items.length>=3){
+      var inner=document.createElement('div');inner.className='ticker-track-inner';
+      items.forEach(function(i){
+        var c=i.cloneNode(true);
+        c.setAttribute('aria-hidden','true');
+        c.setAttribute('tabindex','-1');
+        inner.appendChild(c);
+      });
+      items.forEach(function(i){inner.appendChild(i);});
+      track.innerHTML='';track.appendChild(inner);
+    }
+  }
+  /* Anchor-jump clearance = sticky header + ticker, live-measured.
+     Overrides any static scroll-padding-top from header.css at runtime. */
+  function syncScrollPadding(){
+    var h=document.getElementById('site-header');
+    var t=document.getElementById('newsTicker');
+    var total=(h?h.offsetHeight:0)+(t&&t.offsetParent!==null?t.offsetHeight:0);
+    document.documentElement.style.scrollPaddingTop=total+'px';
+  }
+  window.addEventListener('scroll',syncScrollPadding,{passive:true});
+  window.addEventListener('resize',syncScrollPadding);
+  window.addEventListener('pageshow',syncScrollPadding);
+  syncScrollPadding();
 })();
 </script>
 {{- end }}{{- end }}

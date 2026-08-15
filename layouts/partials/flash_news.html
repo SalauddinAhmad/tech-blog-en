@@ -1,6 +1,6 @@
 {{- if .IsHome }}{{- with index .Site.Data "live-news" }}{{- with .news }}
 <section class="flash-news-section">
-  <h2 class="flash-news-title">📡 Today's Tech Radar</h2>
+  <h2 class="flash-news-title">{{ T "flash_title" }}</h2>
   <div class="flash-grid">
     {{ range first 3 (sort . "importance" "desc") }}
     <article class="flash-card">

@@ -1,68 +1,29 @@
-{{- /* BBC-style footer link columns — English site */ -}}
-<div class="footer-cols">
-  <div class="footer-col">
-    <h4>Sections</h4>
-    <ul>
-      <li><a href="{{ "" | absLangURL }}">Home</a></li>
-      <li><a href="{{ "categories/tech-intelligence/" | absLangURL }}">Tech Intelligence</a></li>
-      <li><a href="{{ "categories/adaptability/" | absLangURL }}">Adaptability</a></li>
-    </ul>
-  </div>
-  <div class="footer-col">
-    <h4>More</h4>
-    <ul>
-      <li><a href="https://salauddinahmad.github.io/tech-blog/" rel="noopener" target="_blank">বাংলা ব্লগ</a></li>
-      <li><a href="{{ "index.xml" | absLangURL }}">RSS Feed</a></li>
-      <li><a href="https://github.com/SalauddinAhmad" rel="noopener" target="_blank">GitHub</a></li>
-    </ul>
-  </div>
-</div>
-{{- /* View stats band + post view badge (busuanzi, with graceful fallback) */ -}}
-<div class="stats-band" id="site-stats">
-  <div class="stats-inner">
-    <div class="stat-item"><b id="busuanzi_value_site_pv">—</b><span>Total Views</span></div>
-    <div class="stat-item"><b id="busuanzi_value_site_uv">—</b><span>Visitors</span></div>
-    <div class="stat-item"><b id="busuanzi_value_page_pv">—</b><span>This Post</span></div>
-  </div>
-</div>
+{{- /* Compact footer — extend hook: per-post view badge + SW registration only. */ -}}
 <script>
 (function(){
-  // Per-post view badge (appears only on single post pages)
+  'use strict';
+  var loading = {{- (T "view_loading") | jsonify -}};
+  var suffix  = {{- (T "view_count_suffix") | jsonify -}};
   var content = document.querySelector('.post-content, .post-body, article .entry-content, .post');
-  var pagePv = document.getElementById('busuanzi_value_page_pv');
+  var pagePv  = document.getElementById('busuanzi_value_page_pv');
   if (content && pagePv && document.querySelector('.post-title, .entry-header')) {
     var badge = document.createElement('div');
     badge.className = 'view-badge';
-    badge.innerHTML = '<span>👁️</span> <span class="v-count">Loading...</span>';
+    badge.innerHTML = '<span>👁️</span> <span class="v-count">' + loading + '</span>';
     var target = document.querySelector('.post-content, .entry-content, .post-body');
-    if (target) target.parentNode.insertBefore(badge, target);
+    if (target) { target.parentNode.insertBefore(badge, target); }
   }
-  // Fill counts when busuanzi updates
-  var t = setInterval(function(){
+  var t = setInterval(function () {
     var pv = document.getElementById('busuanzi_value_page_pv');
     var badgeCount = document.querySelector('.view-badge .v-count');
-    if (pv && pv.textContent && pv.textContent.trim() !== '' && badgeCount) {
-      badgeCount.textContent = pv.textContent.trim() + ' times read';
+    if (pv && badgeCount && pv.textContent.trim() !== '' && badgeCount.textContent.indexOf(loading) !== -1) {
+      badgeCount.textContent = pv.textContent.trim() + suffix;
       clearInterval(t);
     }
   }, 1000);
-  setTimeout(function(){ clearInterval(t); }, 15000);
-  // Graceful fallback: busuanzi blocked (e.g. GitHub Pages) → hide band + badge
-  setTimeout(function(){
-    var pv = document.getElementById('busuanzi_value_site_pv');
-    var band = document.getElementById('site-stats');
-    if (band && pv && (pv.textContent.trim() === '' || pv.textContent.indexOf('—') !== -1)) {
-      band.style.display = 'none';
-    }
-    var badge = document.querySelector('.view-badge');
-    var vcount = document.querySelector('.view-badge .v-count');
-    if (badge && vcount && (vcount.textContent.trim() === '' || vcount.textContent.indexOf('Loading') !== -1)) {
-      badge.style.display = 'none';
-    }
-  }, 12000);
+  setTimeout(function () { clearInterval(t); }, 15000);
 })();
 </script>
-{{- /* PWA Service Worker registration */ -}}
 <script>
-if('serviceWorker' in navigator){navigator.serviceWorker.register('{{ "sw.js" | relURL }}').catch(function(){});}
+if ('serviceWorker' in navigator) { navigator.serviceWorker.register('{{ "sw.js" | relURL }}').catch(function(){}); }
 </script>

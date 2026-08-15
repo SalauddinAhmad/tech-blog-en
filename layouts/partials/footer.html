@@ -1,0 +1,124 @@
+{{- /* ═══════════════════════════════════════════════════════════════
+     Footer — BBC compact (project-level override of the theme footer).
+     One line: brand · small nav · copyright/credit (wraps to 2 on mobile).
+     Keeps EVERY script the theme footer owned: #theme-toggle (now
+     null-guarded), #top-link, smooth anchors, menu scroll-position,
+     code-copy. Stats band dropped (compact); per-post view badge +
+     SW registration live in extend_footer.html.
+     ═══════════════════════════════════════════════════════════════ */ -}}
+{{- if not (.Param "hideFooter") }}
+<footer class="footer footer-compact">
+  <div class="footer-inner">
+    <a class="footer-brand" href="{{ "" | absLangURL }}" aria-label="{{ site.Title }}">
+      <span class="footer-brand-mark" aria-hidden="true">TI</span>
+      <span class="footer-brand-name">{{ site.Title }}</span>
+    </a>
+    <nav class="footer-nav" aria-label="{{ T "footer_nav_label" }}">
+      <a href="{{ "tech-news/" | absLangURL }}">{{ T "footer_live" }}</a>
+      <a href="{{ "categories/tech-intelligence/" | absLangURL }}">{{ T "footer_ti" }}</a>
+      <a href="{{ "categories/adaptability/" | absLangURL }}">{{ T "footer_adapt" }}</a>
+      <a href="{{ "index.xml" | absLangURL }}">RSS</a>
+    </nav>
+    <div class="footer-meta">
+      <span>&copy; {{ now.Year }} {{ site.Title }}</span>
+      <span class="footer-credit">{{ T "footer_credit" }}</span>
+    </div>
+  </div>
+  {{- partial "extend_footer.html" . }}
+</footer>
+{{- end }}
+
+{{- if (not site.Params.disableScrollToTop) }}
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+      <polyline points="17 11 12 6 7 11"></polyline>
+      <polyline points="17 18 12 13 7 18"></polyline>
+  </svg>
+</a>
+{{- end }}
+
+<script>
+(function(){
+  'use strict';
+  /* Theme toggle — null-guarded (button lives in the masthead) */
+  var tt = document.getElementById('theme-toggle');
+  if (tt) {
+    tt.addEventListener('click', function () {
+      var html = document.querySelector('html');
+      if (html.dataset.theme === 'dark') { html.dataset.theme = 'light'; localStorage.setItem('pref-theme', 'light'); }
+      else { html.dataset.theme = 'dark'; localStorage.setItem('pref-theme', 'dark'); }
+    });
+  }
+  /* Menu scroll-position persistence (PaperMod parity) */
+  var menu = document.getElementById('menu');
+  if (menu) {
+    var sp = localStorage.getItem('menu-scroll-position');
+    if (sp) { menu.scrollLeft = parseInt(sp, 10); }
+    menu.onscroll = function () { localStorage.setItem('menu-scroll-position', menu.scrollLeft); };
+  }
+  /* Smooth in-page anchors (reduced-motion aware) */
+  document.querySelectorAll('a[href^="#"]').forEach(function (anchor) {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+      var id = this.getAttribute('href').substr(1);
+      var target = document.querySelector("[id='" + decodeURIComponent(id) + "']");
+      if (!target) { return; }
+      var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      if (!reduce) { target.scrollIntoView({ behavior: 'smooth' }); }
+      else { target.scrollIntoView(); }
+      if (id === 'top') { history.replaceState(null, null, ' '); }
+      else { history.pushState(null, null, '#' + id); }
+    });
+  });
+})();
+</script>
+
+{{- if (not site.Params.disableScrollToTop) }}
+<script>
+(function(){
+  var toplink = document.getElementById('top-link');
+  if (!toplink) { return; }
+  var onScroll = function () {
+    if (document.body.scrollTop > window.innerHeight || document.documentElement.scrollTop > window.innerHeight) {
+      toplink.classList.remove('hidden');
+    } else {
+      toplink.classList.add('hidden');
+    }
+  };
+  window.addEventListener('scroll', onScroll, { passive: true });
+})();
+</script>
+{{- end }}
+
+{{- if (and (eq .Kind "page") (ne .Layout "archives") (ne .Layout "search") (.Param "ShowCodeCopyButtons")) }}
+<script>
+(function(){
+  document.querySelectorAll('pre > code').forEach(function (codeblock) {
+    var container = codeblock.parentNode.parentNode;
+    var button = document.createElement('button');
+    button.classList.add('copy-code');
+    button.innerHTML = '{{- T "code_copy" -}}';
+    function copyingDone() {
+      button.innerHTML = '{{- T "code_copied" -}}';
+      setTimeout(function () { button.innerHTML = '{{- T "code_copy" -}}'; }, 2000);
+    }
+    button.addEventListener('click', function () {
+      if ('clipboard' in navigator) { navigator.clipboard.writeText(codeblock.textContent); copyingDone(); return; }
+      var range = document.createRange();
+      range.selectNodeContents(codeblock);
+      var selection = window.getSelection();
+      selection.removeAllRanges(); selection.addRange(range);
+      try { document.execCommand('copy'); copyingDone(); } catch (e) {}
+      selection.removeRange(range);
+    });
+    if (container.classList.contains('highlight')) { container.appendChild(button); }
+    else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName === 'TABLE') {
+      codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(button);
+    } else if (codeblock.parentNode.firstChild === codeblock) {
+      codeblock.parentNode.appendChild(button);
+    }
+  });
+})();
+</script>
+{{- end }}
