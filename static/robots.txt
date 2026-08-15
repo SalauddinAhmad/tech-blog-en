@@ -1,3 +1,0 @@
-User-agent: *
-Disallow:
-Sitemap: https://salauddinahmad.github.io/tech-blog-en/sitemap.xml

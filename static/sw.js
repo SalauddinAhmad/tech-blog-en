@@ -3,6 +3,7 @@
 const CACHE_NAME = "tech-intel-v2";
 // registration scope ends with "/" → "/tech-blog/" or "/tech-blog-en/"
 const SCOPE = self.registration.scope;
+const SCOPE_PATH = new URL(SCOPE).pathname; // e.g. "/tech-blog-en/" — for pathname matching
 const STATIC_ASSETS = ["css/", "js/", "fonts/", "images/icon-"];
 
 self.addEventListener("install", (e) => {
@@ -33,7 +34,7 @@ self.addEventListener("activate", (e) => {
 self.addEventListener("fetch", (e) => {
   if (e.request.method !== "GET") return;
   const url = new URL(e.request.url);
-  const isStatic = STATIC_ASSETS.some((p) => url.pathname.startsWith(SCOPE + p));
+  const isStatic = STATIC_ASSETS.some((p) => url.pathname.startsWith(SCOPE_PATH + p));
   if (isStatic) {
     // cache-first + background fill (now with correct scope prefix)
     e.respondWith(

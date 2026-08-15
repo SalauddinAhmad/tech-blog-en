@@ -6,15 +6,20 @@
 baseURL = "https://salauddinahmad.github.io/tech-blog-en/"
 title = "Tech Intelligence English"
 theme = "hugo-papermod"
-[pagination]
-pagerSize = 10
-languageCode = "en"
 
-# ── SEO ──
+# ── Global keys (must stay ABOVE all table headers — TOML nests keys below a
+#    table header into that table; these used to sit after [pagination] and
+#    were silently nested there, so robots.txt/emoji/summaryLength were ignored) ──
 enableRobotsTXT = true
 canonifyURLs = true
 enableEmoji = true
 summaryLength = 30
+languageCode = "en"
+
+[pagination]
+pagerSize = 10
+
+# ── SEO ──
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
