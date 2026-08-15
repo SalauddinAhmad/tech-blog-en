@@ -1,6 +1,6 @@
 /* AUDIT FX-05: scope-derived prefix (fixes /tech-blog-en/ subpath), install precache,
    CACHE_NAME v1 -> v2, and cleanup of old caches on activate. */
-const CACHE_NAME = "tech-intel-v2";
+const CACHE_NAME = "tech-intel-v3";
 // registration scope ends with "/" → "/tech-blog/" or "/tech-blog-en/"
 const SCOPE = self.registration.scope;
 const SCOPE_PATH = new URL(SCOPE).pathname; // e.g. "/tech-blog-en/" — for pathname matching
@@ -13,6 +13,7 @@ self.addEventListener("install", (e) => {
         SCOPE,                                   // homepage (HTML core shell)
         SCOPE + "css/bbc.css?v=9",
         SCOPE + "css/news-ticker.css?v=1",
+        SCOPE + "css/header.css?v=1",
         SCOPE + "manifest.json",
         SCOPE + "fonts/Bornomala-Regular.woff2",
         SCOPE + "fonts/Bornomala-Bold.woff2",

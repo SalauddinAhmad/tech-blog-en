@@ -1,0 +1,181 @@
+/* ═══════════════════════════════════════════════════════════════
+   Header v2 — BBC Pro masthead (scroll-sticky · mobile-first)
+   New file: static/css/header.css (both repos, identical content).
+   MUST load AFTER bbc.css in extend_head.html so overrides win.
+   Reuses --bbc-* tokens; dark mode follows [data-theme="dark"].
+   ═══════════════════════════════════════════════════════════════ */
+
+/* Anchor jumps (skip-link, TOC, in-page links) clear the sticky masthead */
+html { scroll-padding-top: 120px; }
+
+/* ── Sticky masthead ── */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 40;                 /* above ticker & content (skip-link stays 99) */
+  transition: box-shadow .25s ease;
+}
+.header.is-scrolled { box-shadow: 0 2px 6px rgba(0, 0, 0, .08); }
+[data-theme="dark"] .header.is-scrolled { box-shadow: 0 2px 8px rgba(0, 0, 0, .45); }
+
+/* ── Masthead row: brand left · tools right, one line ── */
+.logo {
+  flex-wrap: nowrap;
+  transition: padding .25s ease;
+}
+.logo a { min-width: 0; transition: font-size .25s ease; }
+.logo-text {
+  display: block;
+  min-width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.logo-mark {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px; height: 34px;
+  background: #000; color: #fff;
+  font-weight: 900; font-size: 13px;
+  letter-spacing: .5px; line-height: 1;
+  transition: width .25s ease, height .25s ease, font-size .25s ease;
+}
+.header-tools {
+  margin-inline-start: auto;
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  flex: none;
+}
+
+/* Tools on the red band are always white (was dark-on-red before) */
+.header .theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px; height: 44px;   /* 44px touch target */
+  color: #fff;
+}
+.header .theme-toggle:hover { color: #fff; }
+.header .lang-menu a { color: #fff; font-weight: 600; }
+.header .lang-menu a:hover { color: #fff; text-decoration: underline; text-underline-offset: 4px; }
+.header .nav-sep { color: rgba(255, 255, 255, .65); }
+
+/* ── LIVE indicator (broadcast pulse — the "creative accent" detail) ── */
+.live-indicator {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  line-height: 1;
+  white-space: nowrap;
+}
+.live-dot {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 35%, #fff, #e8e8e8 70%);
+  animation: bbc-live-pulse 1.8s ease-in-out infinite;
+}
+@keyframes bbc-live-pulse { 0%, 100% { opacity: 1; } 50% { opacity: .3; } }
+
+/* ── Hamburger (mobile only; hidden on desktop) ── */
+.menu-toggle {
+  display: none;
+  flex: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  width: 44px; height: 44px;   /* 44px touch target */
+  padding: 0;
+  background: #fff;
+  border: 2px solid #000;
+  border-radius: 0;
+  cursor: pointer;
+  transition: background .15s ease;
+}
+.menu-toggle:hover { background: #000; }
+.menu-toggle-bar {
+  display: block;
+  width: 18px; height: 2px;
+  background: #000;
+  transition: transform .2s ease, opacity .2s ease, background .15s ease;
+}
+.menu-toggle:hover .menu-toggle-bar { background: #fff; }
+/* Open state: hamburger → X morph */
+.header.menu-open .menu-toggle-bar:nth-child(1) { transform: translateY(6px) rotate(45deg); }
+.header.menu-open .menu-toggle-bar:nth-child(2) { opacity: 0; }
+.header.menu-open .menu-toggle-bar:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
+
+/* ── Nav row (desktop): refined hover ── */
+.menu li a { transition: background .15s ease, color .15s ease; }
+.menu li a:hover { background: var(--bbc-bg-alt); color: var(--bbc-red); text-decoration: none; }
+[data-theme="dark"] .menu li a:hover { color: var(--bbc-red-bright); }
+
+/* ── Compact on scroll (JS adds .is-scrolled past 80px) ── */
+.header.is-scrolled .logo { padding: 6px 0; }
+.header.is-scrolled .logo a { font-size: 1.08rem; }
+.header.is-scrolled .logo-mark { width: 26px; height: 26px; font-size: 11px; }
+
+/* ── Mobile: hamburger + slide-down panel (BBC 1008 breakpoint) ── */
+@media (max-width: 1007px) {
+  html { scroll-padding-top: 76px; }
+  .menu-toggle { display: inline-flex; }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    white-space: normal;
+    border-bottom-width: 0;            /* no hairline while collapsed */
+    transition: max-height .35s ease, visibility 0s linear .35s;
+  }
+  .header.menu-open .menu {
+    max-height: 80vh;                  /* fallback for old browsers */
+    max-height: calc(100dvh - 110px);  /* never taller than the viewport */
+    overflow-y: auto;
+    overflow-x: hidden;
+    visibility: visible;
+    border-bottom-width: 1px;
+    transition: max-height .35s ease, visibility 0s;
+  }
+  .menu li { padding: 0; }
+  .menu li a { padding: 13px 16px; font-size: 14px; }
+  .menu li + li a { border-top: 1px solid var(--bbc-border); }
+
+  .header.is-scrolled .logo { padding: 5px 0; }
+}
+
+/* ── Small screens ── */
+@media (max-width: 599px) {
+  .header.is-scrolled .logo a { font-size: 1rem; }
+}
+@media (max-width: 479px) {
+  .live-indicator { display: none; }
+  .header-tools { gap: .25rem; }
+  .logo a { font-size: 1.02rem; }
+}
+
+/* ── Reduced motion: no slide / pulse / shrink animations ── */
+@media (prefers-reduced-motion: reduce) {
+  .header,
+  .logo,
+  .logo a,
+  .logo-mark,
+  .menu,
+  .menu-toggle,
+  .menu-toggle-bar,
+  .live-dot {
+    transition: none !important;
+    animation: none !important;
+  }
+}
