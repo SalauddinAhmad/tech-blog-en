@@ -8,7 +8,7 @@ tags: ["ai", "technology", "english", "daily-report", "seo"]
 description: "Daily Tech Intelligence — August 10, 2026"
 summary: "Daily Tech Intelligence — August 10, 2026 — Auto-generated daily report with cover image."
 cover:
-  image: "/images/cover-daily-tech-intelligence-2026-08-10.png"
+  image: "/images/cover-tech-intelligence-2026-08-10.png"
   alt: "Daily Tech Intelligence — August 10, 2026"
 ---
 

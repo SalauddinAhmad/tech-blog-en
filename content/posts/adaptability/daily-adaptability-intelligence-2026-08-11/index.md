@@ -8,7 +8,7 @@ tags: ["ai", "technology", "english", "daily-report", "seo"]
 description: "Daily Adaptability Intelligence — August 11, 2026"
 summary: "Daily Adaptability Intelligence — August 11, 2026 — Auto-generated daily report with cover image."
 cover:
-  image: "/images/cover-daily-adaptability-intelligence-2026-08-11.png"
+  image: "/images/cover-adaptability-2026-08-11.png"
   alt: "Daily Adaptability Intelligence — August 11, 2026"
 ---
 
