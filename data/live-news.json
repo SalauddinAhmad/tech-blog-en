@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-18T02:33:25+06:00",
+  "lastUpdated": "2026-08-18T03:30:56+06:00",
   "news": [
     {
       "id": "c96f6c80a94d",
@@ -15,21 +15,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Apple's changing its rules for data collection consent prompts after Germany's Federal Cartel Office accused Apple of gi..."
-    },
-    {
-      "id": "ce56f7c0b2ba",
-      "title": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
-      "link": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-16T20:57:04Z",
-      "description": "OpenRouter's CEO recently described the startup as Stripe for AI.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 7,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "OpenRouter's CEO recently described the startup as Stripe for AI."
     },
     {
       "id": "e7c00d94af4e",
@@ -75,6 +60,21 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "Petlibro says feeders perform scheduled feedings offline. Users report otherwise."
+    },
+    {
+      "id": "fe8e71c09009",
+      "title": "Wispr raises $280M at $2B valuation as it looks beyond dictation",
+      "link": "https://techcrunch.com/2026/08/17/wispr-raises-280m-at-2b-valuation-as-it-looks-beyond-dictation/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-17T13:10:05Z",
+      "description": "The funds will allow Wispr to increase its footprint as it ventures into new areas, such as meetings, with its newly released note-taker tool.",
+      "topic": "Startups",
+      "topicIcon": "🚀",
+      "importance": 6,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "The funds will allow Wispr to increase its footprint as it ventures into new areas, such as meetings, with its newly rel..."
     },
     {
       "id": "fa01583ee175",
@@ -173,7 +173,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-17T15:36:18Z",
-      "description": "Hi HN! I'm Bek, founder of Speko, a platform that finds an optimal combination of speech-to-text, LLM, and text-to-speech models, given your constraints, among all our public benchmarked options, and tells you why. Demo: https://www.youtube.com/watch?v=no2LY2gRh-c Typical production voice agent is an ensemble of three models: STT, an LLM, and TTS. Each of those layers offers a dozen credible vendors, and each month there are new models on the market. Almost everyone evaluates once, picks a stack of their choice, and never rechecks because switching from a vendor to another involves yet another integration and arguments about the numbers. The result is that you use voice agents running last quarter's models while better and cheaper options are available. Before founding Speko, I spent four years as cofounder and CTO building voice agents for enterprises across Asia in 10+ languages. Each time a new speech model would arrive, we repeated the same ritual: hire native-speaking raters, benchmark it against our existing stack, and update production if it improved. Speko turns this process into an API. A team running thousands of calls a day told us: \"we can literally go to this dashboard, switch the model, and it will do it for us.\" How it works: you send a request with your optimization criteria (accuracy, latency, cost or balanced), language and region. The router filters to models which we measured for the given combination of constraints, benchmarks them, selects the winner, and returns a response with headers containing provider, model names, and the scores. The gateway prefetches signed session plans, so a new session dials the provider straight from memory; no control-plane round trip while a caller waits. Failover happens only during connection setup stage: if the provider refuses the connection attempt, we start connecting to the runners-up. Some of the customer stories: one founder came to us not knowing what to pick at all: he gave us his use case and now routes everything through the platform. A property management AI runs LiveKit in Python and had not updated STT or TTS since launch: they did not know their STT had high error rates on their calls, better options existed, and swapping always looked like an R&D project. One team did not know which models to pick for Spanish. A medical team did not know which STT handles medical vocabulary best. In every case we helped find the right stack from the benchmarks, and now they route through us. The measuring part is public: we pass the same inputs to every model in one region in different dated runs and we publish the boards, including those where our selections perform worse than alternatives. A launch demo answers which 30-second clip sounds better; production asks which model survives minute eight, so we test spontaneous speech, money and dates, ten-minute takes, and the rankings change. We trained an automatic scorer for TTS naturalness on our blind head-to-head listening votes; on providers it has never seen a vote for, it picks the same winner our raters do about as often as raters agree with each other. We don't train or sell models ourselves, that's precisely how we keep our rankings impartial. We also open sourced the gateway for teams who want to avoid an extra network hop on the audio path and don't want to share keys with our cloud ( https://github.com/SpekoAI/gateway , MIT): one Go binary, which is running as a sidecar in your agent's container, speaks one local protocol over Unix socket, pins provider hosts and attaches your keys. In BYOK mode it doesn't communicate with us at all. Notice that the anonymous, content-free telemetry is enabled by default, and one env var disables it. Cost: the gateway and BYOK setup will be free forever, we charge for the hosted router and managed keys with consolidated billing. Since we started the batch in late June, external usage has grown about 25 percent per week on average, front-loaded toward the launch weeks. I would love feedback from the community: how do you pick speech models now, and what makes you trust the third-party benchmark? https://speko.ai/ Comments URL: https://news.ycombinator.com/item?id=49332751 Points: 77 # Comments: 48",
+      "description": "Hi HN! I'm Bek, founder of Speko, a platform that finds an optimal combination of speech-to-text, LLM, and text-to-speech models, given your constraints, among all our public benchmarked options, and tells you why. Demo: https://www.youtube.com/watch?v=no2LY2gRh-c Typical production voice agent is an ensemble of three models: STT, an LLM, and TTS. Each of those layers offers a dozen credible vendors, and each month there are new models on the market. Almost everyone evaluates once, picks a stack of their choice, and never rechecks because switching from a vendor to another involves yet another integration and arguments about the numbers. The result is that you use voice agents running last quarter's models while better and cheaper options are available. Before founding Speko, I spent four years as cofounder and CTO building voice agents for enterprises across Asia in 10+ languages. Each time a new speech model would arrive, we repeated the same ritual: hire native-speaking raters, benchmark it against our existing stack, and update production if it improved. Speko turns this process into an API. A team running thousands of calls a day told us: \"we can literally go to this dashboard, switch the model, and it will do it for us.\" How it works: you send a request with your optimization criteria (accuracy, latency, cost or balanced), language and region. The router filters to models which we measured for the given combination of constraints, benchmarks them, selects the winner, and returns a response with headers containing provider, model names, and the scores. The gateway prefetches signed session plans, so a new session dials the provider straight from memory; no control-plane round trip while a caller waits. Failover happens only during connection setup stage: if the provider refuses the connection attempt, we start connecting to the runners-up. Some of the customer stories: one founder came to us not knowing what to pick at all: he gave us his use case and now routes everything through the platform. A property management AI runs LiveKit in Python and had not updated STT or TTS since launch: they did not know their STT had high error rates on their calls, better options existed, and swapping always looked like an R&D project. One team did not know which models to pick for Spanish. A medical team did not know which STT handles medical vocabulary best. In every case we helped find the right stack from the benchmarks, and now they route through us. The measuring part is public: we pass the same inputs to every model in one region in different dated runs and we publish the boards, including those where our selections perform worse than alternatives. A launch demo answers which 30-second clip sounds better; production asks which model survives minute eight, so we test spontaneous speech, money and dates, ten-minute takes, and the rankings change. We trained an automatic scorer for TTS naturalness on our blind head-to-head listening votes; on providers it has never seen a vote for, it picks the same winner our raters do about as often as raters agree with each other. We don't train or sell models ourselves, that's precisely how we keep our rankings impartial. We also open sourced the gateway for teams who want to avoid an extra network hop on the audio path and don't want to share keys with our cloud ( https://github.com/SpekoAI/gateway , MIT): one Go binary, which is running as a sidecar in your agent's container, speaks one local protocol over Unix socket, pins provider hosts and attaches your keys. In BYOK mode it doesn't communicate with us at all. Notice that the anonymous, content-free telemetry is enabled by default, and one env var disables it. Cost: the gateway and BYOK setup will be free forever, we charge for the hosted router and managed keys with consolidated billing. Since we started the batch in late June, external usage has grown about 25 percent per week on average, front-loaded toward the launch weeks. I would love feedback from the community: how do you pick speech models now, and what makes you trust the third-party benchmark? https://speko.ai/ Comments URL: https://news.ycombinator.com/item?id=49332751 Points: 78 # Comments: 49",
       "topic": "Open Source",
       "topicIcon": "🔓",
       "importance": 5,
@@ -210,6 +210,51 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "Despite loss, carriers still claim selling device-location data isn't illegal."
+    },
+    {
+      "id": "79fb2585c719",
+      "title": "As Wisconsin cities flee Flock, its shared camera network loses value",
+      "link": "https://arstechnica.com/tech-policy/2026/08/as-wisconsin-cities-flee-flock-its-shared-camera-network-loses-value/",
+      "source": "Ars Technica",
+      "sourceIcon": "ars",
+      "pubDate": "2026-08-17T20:14:23Z",
+      "description": "\"Network effect\" can run in reverse.",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 5,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "\"Network effect\" can run in reverse."
+    },
+    {
+      "id": "a43bdd83907e",
+      "title": "The Moon's shadow raced across the heart of Spain, and I was there to see it",
+      "link": "https://arstechnica.com/space/2026/08/the-moons-shadow-raced-across-the-heart-of-spain-and-i-was-there-to-see-it/",
+      "source": "Ars Technica",
+      "sourceIcon": "ars",
+      "pubDate": "2026-08-17T20:23:09Z",
+      "description": "Here's what it was like watching a total solar eclipse 90 minutes north of Madrid.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 5,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "Here's what it was like watching a total solar eclipse 90 minutes north of Madrid."
+    },
+    {
+      "id": "526cd2e1f6fe",
+      "title": "AI automation startup Relay shuts down, staff joins Google’s Chrome team",
+      "link": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-17T21:27:05Z",
+      "description": "Relay, which offered businesses workflow automation, will stop operating next month. Its CEO and some of its staff plan to get to work on Google Chrome next.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 5,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Relay, which offered businesses workflow automation, will stop operating next month. Its CEO and some of its staff plan ..."
     },
     {
       "id": "0bd3e9243518",
@@ -255,21 +300,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "I’ve tried most of the ready-to-eat meal delivery services in the country. CookUnity is the one that feels like real coo..."
-    },
-    {
-      "id": "fe8e71c09009",
-      "title": "Wispr raises $280M at $2B valuation as it looks beyond dictation",
-      "link": "https://techcrunch.com/2026/08/17/wispr-raises-280m-at-2b-valuation-as-it-looks-beyond-dictation/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-17T13:10:05Z",
-      "description": "Wispr’s total funding is now over $361 million.",
-      "topic": "Startups",
-      "topicIcon": "🚀",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Wispr’s total funding is now over $361 million."
     },
     {
       "id": "6132321fb435",
@@ -345,6 +375,21 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Rare books are incredibly valuable for training LLMs, since these models have already trained on whatever's available on..."
+    },
+    {
+      "id": "807cadab757a",
+      "title": "Cursor launches Origin, GitHub alternative",
+      "link": "https://cursor.com/changelog/origin-code-hosting",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-08-17T17:02:44Z",
+      "description": "Article URL: https://cursor.com/changelog/origin-code-hosting Comments URL: https://news.ycombinator.com/item?id=49334209 Points: 52 # Comments: 17",
+      "topic": "Startups",
+      "topicIcon": "🚀",
+      "importance": 4,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "Article URL: https://cursor.com/changelog/origin-code-hosting Comments URL: https://news.ycombinator.com/item?id=4933420..."
     },
     {
       "id": "dd99fc03c031",
@@ -452,6 +497,21 @@
       "summary_en": "Cybersecurity experts who investigate spyware attacks say the number of people who received a recent threat notification..."
     },
     {
+      "id": "ba189ead1bfd",
+      "title": "ABC&#8217;s livestreamed news show is powered by trending topics",
+      "link": "https://www.theverge.com/streaming/981209/abc-news-searched-livestreamed-show",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-08-17T20:59:23Z",
+      "description": "ABC News has officially introduced Searched, a livestreamed show that highlights stories people are discussing on social media and searching on the web, as reported earlier by Variety. Though the network just announced the show now, Searched began airing on the ABC News Live streaming channel in April, which appears on both Disney Plus and [&#8230;]",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "ABC News has officially introduced Searched, a livestreamed show that highlights stories people are discussing on social..."
+    },
+    {
       "id": "fd30ccdaf252",
       "title": "El Niño and Saharan Dust Silence Atlantic Hurricane Season",
       "link": "https://www.wired.com/story/el-nino-quiets-atlantic-hurricane-season/",
@@ -512,43 +572,13 @@
       "summary_en": "Uber is also making investing in Zipline a part of the tie-up."
     },
     {
-      "id": "ea17831a9467",
-      "title": "It’s about ethics in journalism, with Ben Smith",
-      "link": "https://www.theverge.com/podcast/980759/ben-smith-semafor-ethics-journalism-ai-events-buzzfeed-media-news",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-08-17T14:00:00Z",
-      "description": "Today I’m talking to Ben Smith, the editor-in-chief of Semafor. Everywhere you go, people say they don’t trust the media — and yet they’ve never consumed more of it. Audiences have moved on from legacy names in favor of Substacks and podcasts and TikTok news influencers that seem to be everywhere in our feeds.&#160; Why [&#8230;]",
-      "topic": "Other",
-      "topicIcon": "📰",
-      "importance": 3,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Today I’m talking to Ben Smith, the editor-in-chief of Semafor. Everywhere you go, people say they don’t trust the media..."
-    },
-    {
-      "id": "542a76a9c63e",
-      "title": "Apple's App Tracking Transparency treated its own apps better than rivals",
-      "link": "https://www.bundeskartellamt.de/SharedDocs/Meldung/EN/Pressemitteilungen/2026/08_17_2026_Apple_ATTF.html",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-08-17T14:07:59Z",
-      "description": "Article URL: https://www.bundeskartellamt.de/SharedDocs/Meldung/EN/Pressemitteilungen/2026/08_17_2026_Apple_ATTF.html Comments URL: https://news.ycombinator.com/item?id=49331222 Points: 229 # Comments: 86",
-      "topic": "Web/JavaScript",
-      "topicIcon": "🌐",
-      "importance": 3,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://www.bundeskartellamt.de/SharedDocs/Meldung/EN/Pressemitteilungen/2026/08_17_2026_Apple_ATTF.html Co..."
-    },
-    {
       "id": "76963b852e28",
       "title": "AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira",
       "link": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-17T14:18:38Z",
-      "description": "Article URL: https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug Comments URL: https://news.ycombinator.com/item?id=49331423 Points: 255 # Comments: 112",
+      "description": "Article URL: https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug Comments URL: https://news.ycombinator.com/item?id=49331423 Points: 269 # Comments: 112",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 3,
@@ -638,7 +668,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-17T18:28:07Z",
-      "description": "Article URL: https://blog.roboflow.com/roboflow-playground/ Comments URL: https://news.ycombinator.com/item?id=49335517 Points: 14 # Comments: 1",
+      "description": "Article URL: https://blog.roboflow.com/roboflow-playground/ Comments URL: https://news.ycombinator.com/item?id=49335517 Points: 26 # Comments: 2",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 3,
@@ -648,12 +678,12 @@
     },
     {
       "id": "3ba11dd59e16",
-      "title": "The Lonely Men Who Work in Patagonia, at the End of the World",
+      "title": "Los Puesteros, solitary men who look after ranches and livestock in Patagonia",
       "link": "https://www.newyorker.com/culture/photo-booth/the-lonely-men-at-the-end-of-the-world",
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-17T18:34:09Z",
-      "description": "Article URL: https://www.newyorker.com/culture/photo-booth/the-lonely-men-at-the-end-of-the-world Comments URL: https://news.ycombinator.com/item?id=49335600 Points: 66 # Comments: 25",
+      "description": "Article URL: https://www.newyorker.com/culture/photo-booth/the-lonely-men-at-the-end-of-the-world Comments URL: https://news.ycombinator.com/item?id=49335600 Points: 80 # Comments: 30",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 3,
@@ -683,7 +713,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-17T19:25:11Z",
-      "description": "Article URL: https://www.bbc.com/news/articles/c8xnwqe00v1o Comments URL: https://news.ycombinator.com/item?id=49336304 Points: 20 # Comments: 5",
+      "description": "Article URL: https://www.bbc.com/news/articles/c8xnwqe00v1o Comments URL: https://news.ycombinator.com/item?id=49336304 Points: 53 # Comments: 35",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 3,
@@ -707,49 +737,19 @@
       "summary_en": "Are you curious about custom mechanical keyboards, but don’t want to spend hundreds just to get started without being su..."
     },
     {
-      "id": "f853c4728861",
-      "title": "Will you have spent more of your life with computers than your family?",
-      "link": "https://beachfront.bearblog.dev/will-you-have-spent-more-of-your-life-with-computers-than-your-family/",
+      "id": "36159ea967b5",
+      "title": "Three Minutes of Sprinting Beats 90 Minutes of Moderate Exercise",
+      "link": "https://www.cell.com/cell-reports-medicine/fulltext/S2666-3791(26)00405-2?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2666379126004052%3Fshowall%3Dtrue",
       "source": "Hacker News",
       "sourceIcon": "hn",
-      "pubDate": "2026-08-17T19:56:30Z",
-      "description": "Article URL: https://beachfront.bearblog.dev/will-you-have-spent-more-of-your-life-with-computers-than-your-family/ Comments URL: https://news.ycombinator.com/item?id=49336672 Points: 37 # Comments: 21",
+      "pubDate": "2026-08-17T19:42:08Z",
+      "description": "Article URL: https://www.cell.com/cell-reports-medicine/fulltext/S2666-3791(26)00405-2?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2666379126004052%3Fshowall%3Dtrue Comments URL: https://news.ycombinator.com/item?id=49336520 Points: 7 # Comments: 0",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 3,
       "reliability": 3,
       "summary_bn": "",
-      "summary_en": "Article URL: https://beachfront.bearblog.dev/will-you-have-spent-more-of-your-life-with-computers-than-your-family/ Comm..."
-    },
-    {
-      "id": "d0a767c8753c",
-      "title": "This R-Rated Film Studio Wants to Be the HBO of AI",
-      "link": "https://www.wired.com/story/this-r-rated-film-studio-wants-to-be-the-hbo-of-ai/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-08-17T20:18:17Z",
-      "description": "Rogue Studios, a new cinematic adult AI-generator, is betting big on the future of “sophisticated” spicy content.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 3,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Rogue Studios, a new cinematic adult AI-generator, is betting big on the future of “sophisticated” spicy content."
-    },
-    {
-      "id": "17056c89af99",
-      "title": "Ask HN: Alternatives to GitHub",
-      "link": "https://news.ycombinator.com/item?id=49331033",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-08-17T13:59:17Z",
-      "description": "Github has been down consistently over the last few months - does it make sense to switch to alternatives? Comments URL: https://news.ycombinator.com/item?id=49331033 Points: 404 # Comments: 257",
-      "topic": "Startups",
-      "topicIcon": "🚀",
-      "importance": 2,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Github has been down consistently over the last few months - does it make sense to switch to alternatives? Comments URL:..."
+      "summary_en": "Article URL: https://www.cell.com/cell-reports-medicine/fulltext/S2666-3791(26)00405-2?_returnURL=https%3A%2F%2Flinkingh..."
     }
   ]
 }
