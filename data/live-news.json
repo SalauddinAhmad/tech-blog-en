@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-18T14:44:22+06:00",
+  "lastUpdated": "2026-08-18T15:39:25+06:00",
   "news": [
     {
       "id": "c96f6c80a94d",
@@ -60,6 +60,21 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "Petlibro says feeders perform scheduled feedings offline. Users report otherwise."
+    },
+    {
+      "id": "171bcd36c04e",
+      "title": "The Powerful Chinese Model Experts Warned About—and Waited for—Is Here",
+      "link": "https://www.wired.com/story/zai-open-weight-ai-models-release-cybersecurity-hacking/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-08-18T09:00:00Z",
+      "description": "Z.ai’s latest AI model release could help companies secure their systems—or find its way into the hands of hackers.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 7,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Z.ai’s latest AI model release could help companies secure their systems—or find its way into the hands of hackers."
     },
     {
       "id": "fe8e71c09009",
@@ -158,7 +173,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-17T15:36:18Z",
-      "description": "Hi HN! I'm Bek, founder of Speko, a platform that finds an optimal combination of speech-to-text, LLM, and text-to-speech models, given your constraints, among all our public benchmarked options, and tells you why. Demo: https://www.youtube.com/watch?v=no2LY2gRh-c Typical production voice agent is an ensemble of three models: STT, an LLM, and TTS. Each of those layers offers a dozen credible vendors, and each month there are new models on the market. Almost everyone evaluates once, picks a stack of their choice, and never rechecks because switching from a vendor to another involves yet another integration and arguments about the numbers. The result is that you use voice agents running last quarter's models while better and cheaper options are available. Before founding Speko, I spent four years as cofounder and CTO building voice agents for enterprises across Asia in 10+ languages. Each time a new speech model would arrive, we repeated the same ritual: hire native-speaking raters, benchmark it against our existing stack, and update production if it improved. Speko turns this process into an API. A team running thousands of calls a day told us: \"we can literally go to this dashboard, switch the model, and it will do it for us.\" How it works: you send a request with your optimization criteria (accuracy, latency, cost or balanced), language and region. The router filters to models which we measured for the given combination of constraints, benchmarks them, selects the winner, and returns a response with headers containing provider, model names, and the scores. The gateway prefetches signed session plans, so a new session dials the provider straight from memory; no control-plane round trip while a caller waits. Failover happens only during connection setup stage: if the provider refuses the connection attempt, we start connecting to the runners-up. Some of the customer stories: one founder came to us not knowing what to pick at all: he gave us his use case and now routes everything through the platform. A property management AI runs LiveKit in Python and had not updated STT or TTS since launch: they did not know their STT had high error rates on their calls, better options existed, and swapping always looked like an R&D project. One team did not know which models to pick for Spanish. A medical team did not know which STT handles medical vocabulary best. In every case we helped find the right stack from the benchmarks, and now they route through us. The measuring part is public: we pass the same inputs to every model in one region in different dated runs and we publish the boards, including those where our selections perform worse than alternatives. A launch demo answers which 30-second clip sounds better; production asks which model survives minute eight, so we test spontaneous speech, money and dates, ten-minute takes, and the rankings change. We trained an automatic scorer for TTS naturalness on our blind head-to-head listening votes; on providers it has never seen a vote for, it picks the same winner our raters do about as often as raters agree with each other. We don't train or sell models ourselves, that's precisely how we keep our rankings impartial. We also open sourced the gateway for teams who want to avoid an extra network hop on the audio path and don't want to share keys with our cloud ( https://github.com/SpekoAI/gateway , MIT): one Go binary, which is running as a sidecar in your agent's container, speaks one local protocol over Unix socket, pins provider hosts and attaches your keys. In BYOK mode it doesn't communicate with us at all. Notice that the anonymous, content-free telemetry is enabled by default, and one env var disables it. Cost: the gateway and BYOK setup will be free forever, we charge for the hosted router and managed keys with consolidated billing. Since we started the batch in late June, external usage has grown about 25 percent per week on average, front-loaded toward the launch weeks. I would love feedback from the community: how do you pick speech models now, and what makes you trust the third-party benchmark? https://speko.ai/ Comments URL: https://news.ycombinator.com/item?id=49332751 Points: 101 # Comments: 58",
+      "description": "Hi HN! I'm Bek, founder of Speko, a platform that finds an optimal combination of speech-to-text, LLM, and text-to-speech models, given your constraints, among all our public benchmarked options, and tells you why. Demo: https://www.youtube.com/watch?v=no2LY2gRh-c Typical production voice agent is an ensemble of three models: STT, an LLM, and TTS. Each of those layers offers a dozen credible vendors, and each month there are new models on the market. Almost everyone evaluates once, picks a stack of their choice, and never rechecks because switching from a vendor to another involves yet another integration and arguments about the numbers. The result is that you use voice agents running last quarter's models while better and cheaper options are available. Before founding Speko, I spent four years as cofounder and CTO building voice agents for enterprises across Asia in 10+ languages. Each time a new speech model would arrive, we repeated the same ritual: hire native-speaking raters, benchmark it against our existing stack, and update production if it improved. Speko turns this process into an API. A team running thousands of calls a day told us: \"we can literally go to this dashboard, switch the model, and it will do it for us.\" How it works: you send a request with your optimization criteria (accuracy, latency, cost or balanced), language and region. The router filters to models which we measured for the given combination of constraints, benchmarks them, selects the winner, and returns a response with headers containing provider, model names, and the scores. The gateway prefetches signed session plans, so a new session dials the provider straight from memory; no control-plane round trip while a caller waits. Failover happens only during connection setup stage: if the provider refuses the connection attempt, we start connecting to the runners-up. Some of the customer stories: one founder came to us not knowing what to pick at all: he gave us his use case and now routes everything through the platform. A property management AI runs LiveKit in Python and had not updated STT or TTS since launch: they did not know their STT had high error rates on their calls, better options existed, and swapping always looked like an R&D project. One team did not know which models to pick for Spanish. A medical team did not know which STT handles medical vocabulary best. In every case we helped find the right stack from the benchmarks, and now they route through us. The measuring part is public: we pass the same inputs to every model in one region in different dated runs and we publish the boards, including those where our selections perform worse than alternatives. A launch demo answers which 30-second clip sounds better; production asks which model survives minute eight, so we test spontaneous speech, money and dates, ten-minute takes, and the rankings change. We trained an automatic scorer for TTS naturalness on our blind head-to-head listening votes; on providers it has never seen a vote for, it picks the same winner our raters do about as often as raters agree with each other. We don't train or sell models ourselves, that's precisely how we keep our rankings impartial. We also open sourced the gateway for teams who want to avoid an extra network hop on the audio path and don't want to share keys with our cloud ( https://github.com/SpekoAI/gateway , MIT): one Go binary, which is running as a sidecar in your agent's container, speaks one local protocol over Unix socket, pins provider hosts and attaches your keys. In BYOK mode it doesn't communicate with us at all. Notice that the anonymous, content-free telemetry is enabled by default, and one env var disables it. Cost: the gateway and BYOK setup will be free forever, we charge for the hosted router and managed keys with consolidated billing. Since we started the batch in late June, external usage has grown about 25 percent per week on average, front-loaded toward the launch weeks. I would love feedback from the community: how do you pick speech models now, and what makes you trust the third-party benchmark? https://speko.ai/ Comments URL: https://news.ycombinator.com/item?id=49332751 Points: 104 # Comments: 58",
       "topic": "Open Source",
       "topicIcon": "🔓",
       "importance": 5,
@@ -322,7 +337,7 @@
       "link": "https://www.bbc.co.uk/news/articles/clyqpx6xk69o?at_medium=RSS&at_campaign=rss",
       "source": "BBC",
       "sourceIcon": "bbc",
-      "pubDate": "2026-08-18T08:19:37Z",
+      "pubDate": "2026-08-18T09:00:33Z",
       "description": "US states are suing the social media giant to force an overhaul of its platforms for young users.",
       "topic": "Security",
       "topicIcon": "🔒",
@@ -330,36 +345,6 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "US states are suing the social media giant to force an overhaul of its platforms for young users."
-    },
-    {
-      "id": "0bd3e9243518",
-      "title": "There’s a New Link Between Gut Health and Alzheimer’s Disease",
-      "link": "https://www.wired.com/story/new-link-between-gut-health-and-alzheimers/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-08-17T09:00:00Z",
-      "description": "Researchers found that a metabolite produced by gut bacteria can weaken the barrier that protects the brain and promote changes associated with the cognitive disease.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Researchers found that a metabolite produced by gut bacteria can weaken the barrier that protects the brain and promote ..."
-    },
-    {
-      "id": "01895604cca6",
-      "title": "Election Officials Are Preparing for Prediction Markets to Sow Chaos in the Midterms",
-      "link": "https://www.wired.com/story/election-officials-are-preparing-for-prediction-markets-to-sow-chaos-in-the-midterms/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-08-17T09:30:00Z",
-      "description": "From threats to the safety of poll workers to voters who can’t distinguish between odds and results, prediction markets are already scrambling the political process.",
-      "topic": "Security",
-      "topicIcon": "🔒",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "From threats to the safety of poll workers to voters who can’t distinguish between odds and results, prediction markets ..."
     },
     {
       "id": "908f59c95784",
@@ -587,6 +572,36 @@
       "summary_en": "Discover the best ways to save on Noom subscriptions, including free trials, limited-time offers for GLP-1Rx Plus, and e..."
     },
     {
+      "id": "f250a52ea978",
+      "title": "Best Merino Wool Clothing (2026): Base Layers, Hoodies, Jackets",
+      "link": "https://www.wired.com/story/best-merino-wool-clothes/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-08-18T09:00:00Z",
+      "description": "Merino is one of the best fabrics you can wear. We explain the different blends, what “GSM” means, and how to care for your clothes.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Merino is one of the best fabrics you can wear. We explain the different blends, what “GSM” means, and how to care for y..."
+    },
+    {
+      "id": "ac5e5d026739",
+      "title": "AI to help planes avoid climate-warming 'sky graffiti'",
+      "link": "https://www.bbc.co.uk/news/articles/c62em5lpvnjo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC",
+      "sourceIcon": "bbc",
+      "pubDate": "2026-08-18T09:26:41Z",
+      "description": "A new UK trial hopes to reduce the condensation trails from planes, which can trap heat in the Earth's atmosphere.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "A new UK trial hopes to reduce the condensation trails from planes, which can trap heat in the Earth's atmosphere."
+    },
+    {
       "id": "fd30ccdaf252",
       "title": "El Niño and Saharan Dust Silence Atlantic Hurricane Season",
       "link": "https://www.wired.com/story/el-nino-quiets-atlantic-hurricane-season/",
@@ -647,36 +662,6 @@
       "summary_en": "Uber is also making investing in Zipline a part of the tie-up."
     },
     {
-      "id": "76963b852e28",
-      "title": "AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira",
-      "link": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-08-17T14:18:38Z",
-      "description": "Article URL: https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug Comments URL: https://news.ycombinator.com/item?id=49331423 Points: 365 # Comments: 141",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 3,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug Comments URL: https://news.ycombinator.com/ite..."
-    },
-    {
-      "id": "78c215d574f1",
-      "title": "WiiM’s capable HomePod-esque smart speaker is almost $50 off",
-      "link": "https://www.theverge.com/gadgets/980916/wiim-sound-speaker-lite-airpods-max-2-deal-sale",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-08-17T14:35:25Z",
-      "description": "The smart speaker market is more or less dominated by major tech companies: Apple, Google, Sonos, and Amazon. But WiiM’s powerful 100W Sound smart speaker is an attractive alternative because it’s not locked down to play nicely with select music services. It supports over 20 services, and it sports Wi-Fi 6E, Bluetooth 5.3 and ethernet, [&#8230;]",
-      "topic": "Other",
-      "topicIcon": "📰",
-      "importance": 3,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "The smart speaker market is more or less dominated by major tech companies: Apple, Google, Sonos, and Amazon. But WiiM’s..."
-    },
-    {
       "id": "c9d37b4a1279",
       "title": "Trump’s dumb border wall",
       "link": "https://www.theverge.com/report/980933/trump-border-wall-big-bend-arizona-cottonwood-tree-sit",
@@ -728,7 +713,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-17T18:34:09Z",
-      "description": "Article URL: https://www.newyorker.com/culture/photo-booth/the-lonely-men-at-the-end-of-the-world Comments URL: https://news.ycombinator.com/item?id=49335600 Points: 142 # Comments: 49",
+      "description": "Article URL: https://www.newyorker.com/culture/photo-booth/the-lonely-men-at-the-end-of-the-world Comments URL: https://news.ycombinator.com/item?id=49335600 Points: 145 # Comments: 50",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 3,
@@ -750,6 +735,21 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Like many of us, Sam Rosenthal plays games like Wordle every day, chasing after good scores and sharing the results with..."
+    },
+    {
+      "id": "701489a00e32",
+      "title": "India has paved the way for charging merchants a fee on UPI transactions",
+      "link": "https://www.bbc.com/news/articles/c8xnwqe00v1o",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-08-17T19:25:11Z",
+      "description": "Article URL: https://www.bbc.com/news/articles/c8xnwqe00v1o Comments URL: https://news.ycombinator.com/item?id=49336304 Points: 148 # Comments: 178",
+      "topic": "Startups",
+      "topicIcon": "🚀",
+      "importance": 3,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "Article URL: https://www.bbc.com/news/articles/c8xnwqe00v1o Comments URL: https://news.ycombinator.com/item?id=49336304 ..."
     }
   ]
 }
