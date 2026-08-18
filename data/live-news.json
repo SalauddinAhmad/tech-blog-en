@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-18T19:50:08+06:00",
+  "lastUpdated": "2026-08-18T20:39:09+06:00",
   "news": [
     {
       "id": "95524b9f1235",
@@ -30,36 +30,6 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "Petlibro says feeders perform scheduled feedings offline. Users report otherwise."
-    },
-    {
-      "id": "fa01583ee175",
-      "title": "Nvidia discloses $21B stake in SpaceX",
-      "link": "https://arstechnica.com/information-technology/2026/08/nvidia-discloses-21b-stake-in-spacex/",
-      "source": "Ars Technica",
-      "sourceIcon": "ars",
-      "pubDate": "2026-08-17T14:22:54Z",
-      "description": "Filing comes after Elon Musk announced exclusive arrangement to kit out its data centers.",
-      "topic": "Hardware",
-      "topicIcon": "💻",
-      "importance": 6,
-      "reliability": 5,
-      "summary_bn": "",
-      "summary_en": "Filing comes after Elon Musk announced exclusive arrangement to kit out its data centers."
-    },
-    {
-      "id": "f7751a62e0c6",
-      "title": "Groq raises $350M to fuel its pivot from AI chips to neocloud",
-      "link": "https://techcrunch.com/2026/08/17/groq-raises-350m-to-fuel-its-pivot-from-ai-chips-to-neocloud/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-17T16:15:12Z",
-      "description": "Groq raised $350 million at a $3.5 billion valuation as the former AI chipmaker pivots to a neocloud business and expands its Nvidia-powered data center footprint.",
-      "topic": "Hardware",
-      "topicIcon": "💻",
-      "importance": 6,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Groq raised $350 million at a $3.5 billion valuation as the former AI chipmaker pivots to a neocloud business and expand..."
     },
     {
       "id": "4792dc1e0fa4",
@@ -135,6 +105,21 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "The scanning and bloodwork health startup founded by Spotify's founder will officially launch in New York in about a mon..."
+    },
+    {
+      "id": "667df1e38fed",
+      "title": "OpenAI launches a safer ChatGPT for teens — years after teens started using it",
+      "link": "https://techcrunch.com/2026/08/18/openai-launches-a-safer-chatgpt-for-teens-years-after-teens-started-using-it/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-18T13:50:30Z",
+      "description": "ChatGPT for Teens adds age-appropriate safety measures, parental controls, and learning tools designed to steer teens away from harmful content — and from using AI to cheat on their homework.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 6,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "ChatGPT for Teens adds age-appropriate safety measures, parental controls, and learning tools designed to steer teens aw..."
     },
     {
       "id": "acf89e7ef230",
@@ -362,36 +347,6 @@
       "summary_en": "OpenAI insisted this was not in response to a particular issue with children believing ChatGPT to be alive."
     },
     {
-      "id": "9dc5caf38ae1",
-      "title": "Nvidia investing $1.5B in SoftBank data center developer behind OpenAI project",
-      "link": "https://techcrunch.com/2026/08/17/nvidia-investing-1-5b-in-softbank-data-center-developer-behind-openai-project/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-17T15:16:24Z",
-      "description": "Nvidia's investment in SoftBank's data center developer will guarantee its chips power an OpenAI data center.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Nvidia's investment in SoftBank's data center developer will guarantee its chips power an OpenAI data center."
-    },
-    {
-      "id": "248c74532a44",
-      "title": "Amazon, which started off selling books, is destroying rare texts to train AI",
-      "link": "https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-17T16:38:44Z",
-      "description": "Rare books are incredibly valuable for training LLMs, since these models have already trained on whatever's available online.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Rare books are incredibly valuable for training LLMs, since these models have already trained on whatever's available on..."
-    },
-    {
       "id": "6edbc7d2e2d0",
       "title": "YouTube will now count a view as soon as a video starts playing",
       "link": "https://techcrunch.com/2026/08/17/youtube-will-now-count-a-view-as-soon-as-a-video-starts-playing/",
@@ -578,7 +533,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-18T12:23:55Z",
-      "description": "Article URL: https://www.privacyguides.org/news/2026/08/17/meta-files-patent-for-facial-recognition-automatic-recording-of-people/ Comments URL: https://news.ycombinator.com/item?id=49344654 Points: 39 # Comments: 13",
+      "description": "Article URL: https://www.privacyguides.org/news/2026/08/17/meta-files-patent-for-facial-recognition-automatic-recording-of-people/ Comments URL: https://news.ycombinator.com/item?id=49344654 Points: 95 # Comments: 46",
       "topic": "Security",
       "topicIcon": "🔒",
       "importance": 4,
@@ -603,7 +558,7 @@
     },
     {
       "id": "6959482824aa",
-      "title": "Can the Upcoming ‘Expanse’ Game Avoid ‘Mass Effect’s’ Biggest Mistake?",
+      "title": "Can the Upcoming ‘Expanse’ Game Avoid ‘Mass Effect’’s Biggest Mistake?",
       "link": "https://www.wired.com/story/the-upcoming-expanse-game-has-to-make-some-hard-choices/",
       "source": "Wired",
       "sourceIcon": "wired",
@@ -692,6 +647,36 @@
       "summary_en": "Perplexity's India revenue rose about 60% after the Airtel offer ended for new users, even as downloads declined."
     },
     {
+      "id": "96258e84bbc0",
+      "title": "Anthro Energy breaks ground on factory that could pave the road to solid-state batteries",
+      "link": "https://techcrunch.com/2026/08/18/anthro-energy-breaks-ground-on-factory-that-could-pave-the-road-to-solid-state-batteries/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-18T14:00:00Z",
+      "description": "Battery materials startup Anthro Energy has broken ground on a Louisville factory to make electrolytes, including those for solid-state batteries.",
+      "topic": "Startups",
+      "topicIcon": "🚀",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Battery materials startup Anthro Energy has broken ground on a Louisville factory to make electrolytes, including those ..."
+    },
+    {
+      "id": "f6d3c3da0538",
+      "title": "Warp’s new system is an out-of-the-box software factory for AI development",
+      "link": "https://techcrunch.com/2026/08/18/warps-new-system-is-an-out-of-the-box-software-factory-for-ai-development/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-18T14:00:00Z",
+      "description": "On Tuesday, Warp introduced Warp Factories, a new infrastrructure system designed to make building AI software factories as easy as possible.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "On Tuesday, Warp introduced Warp Factories, a new infrastrructure system designed to make building AI software factories..."
+    },
+    {
       "id": "634f8daa0537",
       "title": "Feedly attributes weeklong slowdown to bug, not its AI pivot",
       "link": "https://techcrunch.com/2026/08/17/feedly-attributes-weeklong-slowdown-to-bug-not-its-ai-pivot/",
@@ -722,34 +707,49 @@
       "summary_en": "Rogue Studios, a new cinematic adult AI-generator, is betting big on the future of “sophisticated” spicy content."
     },
     {
-      "id": "fc09bccd0832",
-      "title": "Israel creates fake think tank in likely attempt to dupe AI chatbots",
-      "link": "https://responsiblestatecraft.org/israel-influence-chatgpt/",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-08-17T20:46:10Z",
-      "description": "Article URL: https://responsiblestatecraft.org/israel-influence-chatgpt/ Comments URL: https://news.ycombinator.com/item?id=49337392 Points: 763 # Comments: 436",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 3,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://responsiblestatecraft.org/israel-influence-chatgpt/ Comments URL: https://news.ycombinator.com/item..."
-    },
-    {
       "id": "e449af23ed54",
       "title": "Exercise intensity modulates interorgan communication and is associated with",
       "link": "https://www.cell.com/cell-reports-medicine/fulltext/S2666-3791%2826%2900405-2?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2666379126004052%3Fshowall%3Dtrue",
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-18T04:51:33Z",
-      "description": "Article URL: https://www.cell.com/cell-reports-medicine/fulltext/S2666-3791%2826%2900405-2?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2666379126004052%3Fshowall%3Dtrue Comments URL: https://news.ycombinator.com/item?id=49341411 Points: 67 # Comments: 34",
+      "description": "Article URL: https://www.cell.com/cell-reports-medicine/fulltext/S2666-3791%2826%2900405-2?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2666379126004052%3Fshowall%3Dtrue Comments URL: https://news.ycombinator.com/item?id=49341411 Points: 77 # Comments: 37",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 3,
       "reliability": 3,
       "summary_bn": "",
       "summary_en": "Article URL: https://www.cell.com/cell-reports-medicine/fulltext/S2666-3791%2826%2900405-2?_returnURL=https%3A%2F%2Flink..."
+    },
+    {
+      "id": "ef880d634359",
+      "title": "SteelSeries Coupon Codes: 15% Off in August 2026",
+      "link": "https://www.wired.com/story/steelseries-coupon-code/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-08-18T05:00:00Z",
+      "description": "Unlock exclusive discounts on SteelSeries' award-winning gaming headsets, keyboards, and accessories.",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Unlock exclusive discounts on SteelSeries' award-winning gaming headsets, keyboards, and accessories."
+    },
+    {
+      "id": "67d98406c07e",
+      "title": "Hydrow Discount Code: Save Up to $150 | August 2026",
+      "link": "https://www.wired.com/story/hydrow-discount-code/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-08-18T05:00:00Z",
+      "description": "Save on rowers and accessories with Hydrow coupons, including an exclusive discount of $50.",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Save on rowers and accessories with Hydrow coupons, including an exclusive discount of $50."
     }
   ]
 }
