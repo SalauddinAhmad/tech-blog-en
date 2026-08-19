@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-19T10:42:43+06:00",
+  "lastUpdated": "2026-08-19T11:36:04+06:00",
   "news": [
     {
       "id": "95524b9f1235",
@@ -377,21 +377,6 @@
       "summary_en": "US healthcare is broken. Under RFK Jr., the research agency working to fix it is, too."
     },
     {
-      "id": "a48d37d1597d",
-      "title": "Noom Promo Codes: 50% Off Best Deals & Free Trials for August 2026",
-      "link": "https://www.wired.com/story/noom-promo-code/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-08-18T05:00:00Z",
-      "description": "Discover the best ways to save on Noom subscriptions, including free trials, limited-time offers for GLP-1Rx Plus, and essential tips for redeeming your Noom discount.",
-      "topic": "Other",
-      "topicIcon": "📰",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Discover the best ways to save on Noom subscriptions, including free trials, limited-time offers for GLP-1Rx Plus, and e..."
-    },
-    {
       "id": "f250a52ea978",
       "title": "Best Merino Wool Clothing (2026): Base Layers, Hoodies, Jackets",
       "link": "https://www.wired.com/story/best-merino-wool-clothes/",
@@ -692,9 +677,9 @@
       "summary_en": "Robin Williams' children are taking over their father's Instagram account after his daughter spoke out against the use o..."
     },
     {
-      "id": "6c97203d7659",
+      "id": "ac2e6f726874",
       "title": "Tech Life",
-      "link": "https://www.bbc.co.uk/sounds/play/live:bbc_world_service_south_asia?at_medium=RSS&at_campaign=rss",
+      "link": "https://www.bbc.co.uk/sounds/play/w3ct8jy9?at_medium=RSS&at_campaign=rss",
       "source": "BBC",
       "sourceIcon": "bbc",
       "pubDate": "2026-08-18T20:00:00Z",
@@ -750,6 +735,21 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "The war in Ukraine has spurred people to consider putting vital infrastructure underground."
+    },
+    {
+      "id": "4ab809fe8ef0",
+      "title": "The Cop Who Took On Flock",
+      "link": "https://www.wired.com/story/the-cop-who-took-on-flock/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-08-18T10:00:00Z",
+      "description": "After Noel Pichardo called out his city's embrace of Flock surveillance cameras, he was subjected to five internal affairs investigations in less than two years.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "After Noel Pichardo called out his city's embrace of Flock surveillance cameras, he was subjected to five internal affai..."
     }
   ]
 }
