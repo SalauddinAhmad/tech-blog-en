@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-19T23:31:37+06:00",
+  "lastUpdated": "2026-08-20T00:42:47+06:00",
   "news": [
     {
       "id": "2b0992c06da3",
@@ -62,28 +62,13 @@
       "summary_en": "Cursor, known for its AI Code Editor, is launching a new code-hosting platform to rival developers' long preferred favor..."
     },
     {
-      "id": "d11b250baab0",
-      "title": "Amazon’s drones will soon deliver to nearly 500 US cities and towns",
-      "link": "https://www.theverge.com/tech/981908/amazon-prime-air-drone-delivery-us-expansion",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-08-19T11:53:27Z",
-      "description": "Amazon says its drone delivery service will reach \"nearly 500 cities and towns in the United States\" by the end of this year, increasing its coverage by six times compared to the current footprint. Prime Air deliveries will soon be launched in the Chicago, Illinois; Syracuse, New York; Cleveland, Ohio; Atlanta, Georgia; and Boise, Idaho [&#8230;]",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 6,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Amazon says its drone delivery service will reach \"nearly 500 cities and towns in the United States\" by the end of this ..."
-    },
-    {
       "id": "aca7847db120",
       "title": "Launch HN: OneCLI (YC S26) – OSS sandboxed agent harness for teams",
       "link": "https://github.com/onecli/onecli",
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-19T16:29:02Z",
-      "description": "Hi HN, Jonathan & Guy here from OneCLI, an agent harness built for teams, giving every employee a secured, sandboxed personal agent. Here’s what you can do with it: 1. get a sandboxed agent, with all the OneCLI capabilities in place like connect your GitHub account, Gmail, Notion, or Dropbox simply from the chat. 2. deterministic human in the loop approval in the chat itself for things that you need 100% control like sending an email or deleting the Linear ticket. 3. manage team policy in one place, enforced across every agent in the workspace 4. enjoy global connections at the team level, like shared LLM keys or service accounts Here’s a demo: https://www.youtube.com/watch?v=dlW-44ntpbE We started working on this by accident, even though our careers were in the security space. We were working on a devtool called ChartDB, an open-source DB tool. When OpenClaw took off back in January, we started using it to orchestrate agents on top of ChartDB. We quickly understood there is a big issue around auth. Agents need credentials to do real work, but to give them those secrets would not be the best idea. They keep them in their memory and also write them down to local files and their sessions as plain text. And we knew that agents can easily be fooled into giving up those API keys/secrets. So we needed some way to control the agent and stop prompt injections from tricking it into using its services for an attacker's benefit. We created OneCLI that started as a vault for AI Agents built in Rust. We found out that most of our demand for OneCLI came from autonomous agents like Hermes, OpenClaw and NanoClaw for individuals and teams. Users looked for useful agents that do things for the person who runs them with two missing parts: 1) managing secrets and permissions. 2) and for teams - multiplayer management. We decided to pivot and provide the agent itself as a harness for teams, to give each employee an agent. We saw that teams had to deal with setting up their own harness again and again, and basically as we already had the vault as a gateway. We got the idea to provide the missing piece of the agent management out of the box and open source it (Apache-2.0, with a small enterprise exception). We're open source first - the entire platform, not just a small portion of it like other agents, so companies can actually see the code, evaluate it, and trust it instead of taking our word for it. They run it isolated, in their own environment, fully under their control, at production quality, not a locked black box hosted somewhere else. That means the safety isn't just a promise, it's something they can verify themselves. Combined with real autonomy and least-privilege access, that's what makes it something a company can fully own and trust, not just adopt. We also approach this from a company perspective rather than an individual one. Our solution manages agents on behalf of each employee, wrapped in deterministic guardrails that company admins configure through centralized policies. For the agent engine itself we’re using jcode which is the core of the agent-loop. We found out that it improves the experience and makes the agent smarter and faster. Here’s how it works: It runs on infra you control. Fully open-source, self-host or cloud in minutes. The agent never holds a real secret. It gets a placeholder. The real credential is injected at the gateway, per request, after the call is authorized. It never enters the agent's context, memory, or logs. Enforcement outside the model. Prompts are suggestions. Policies defined by the org admin run at the network layer, outside the agent and the LLM. Block endpoints, rate limit per agent, require approval, scope per employee. The gateway decides. The agent can't bypass it. Isolated VM per agent. Own memory, own keys, own permissions. Blast radius is one agent. Speed of the Harness: Rust engine under the agent loop. Full identity trail. Every agent is bound to an employee. Every call logged with who it acted for and which policy allowed it. Some things people are doing with the platform include: - Managing their company life cycle entirely from the sales calls, to the product side automatically open tickets to the engineering teams, that would kick the development agents to deliver and ship to production. - Operational side, like automatically hygiene the CRM after calls, sourcing leads, book meetings and manage follow ups emails. - Some of our customers also doing their entire grocery shopping using those agents and send them to take care of their chores like ordering things online. About the team: Both founders come from cybersecurity backgrounds. Jonathan spent years at Axis Security building zero trust network access. The core idea is that you never trust the client. You decide exactly what a person can reach, and you enforce it outside of them, at the network layer, so it doesn't matter what the client tries to do. That's how every serious company gives access to humans today. Guy was the 1st employee in Argon security doing AppSec. We would love to hear your thoughts on the move, happy to get issues open to improve and get your agent to be powerful and secure - designed for teams, not just individuals. Comments URL: https://news.ycombinator.com/item?id=49363710 Points: 16 # Comments: 2",
+      "description": "Hi HN, Jonathan & Guy here from OneCLI, an agent harness built for teams, giving every employee a secured, sandboxed personal agent. Here’s what you can do with it: 1. get a sandboxed agent, with all the OneCLI capabilities in place like connect your GitHub account, Gmail, Notion, or Dropbox simply from the chat. 2. deterministic human in the loop approval in the chat itself for things that you need 100% control like sending an email or deleting the Linear ticket. 3. manage team policy in one place, enforced across every agent in the workspace 4. enjoy global connections at the team level, like shared LLM keys or service accounts Here’s a demo: https://www.youtube.com/watch?v=dlW-44ntpbE We started working on this by accident, even though our careers were in the security space. We were working on a devtool called ChartDB, an open-source DB tool. When OpenClaw took off back in January, we started using it to orchestrate agents on top of ChartDB. We quickly understood there is a big issue around auth. Agents need credentials to do real work, but to give them those secrets would not be the best idea. They keep them in their memory and also write them down to local files and their sessions as plain text. And we knew that agents can easily be fooled into giving up those API keys/secrets. So we needed some way to control the agent and stop prompt injections from tricking it into using its services for an attacker's benefit. We created OneCLI that started as a vault for AI Agents built in Rust. We found out that most of our demand for OneCLI came from autonomous agents like Hermes, OpenClaw and NanoClaw for individuals and teams. Users looked for useful agents that do things for the person who runs them with two missing parts: 1) managing secrets and permissions. 2) and for teams - multiplayer management. We decided to pivot and provide the agent itself as a harness for teams, to give each employee an agent. We saw that teams had to deal with setting up their own harness again and again, and basically as we already had the vault as a gateway. We got the idea to provide the missing piece of the agent management out of the box and open source it (Apache-2.0, with a small enterprise exception). We're open source first - the entire platform, not just a small portion of it like other agents, so companies can actually see the code, evaluate it, and trust it instead of taking our word for it. They run it isolated, in their own environment, fully under their control, at production quality, not a locked black box hosted somewhere else. That means the safety isn't just a promise, it's something they can verify themselves. Combined with real autonomy and least-privilege access, that's what makes it something a company can fully own and trust, not just adopt. We also approach this from a company perspective rather than an individual one. Our solution manages agents on behalf of each employee, wrapped in deterministic guardrails that company admins configure through centralized policies. For the agent engine itself we’re using jcode which is the core of the agent-loop. We found out that it improves the experience and makes the agent smarter and faster. Here’s how it works: It runs on infra you control. Fully open-source, self-host or cloud in minutes. The agent never holds a real secret. It gets a placeholder. The real credential is injected at the gateway, per request, after the call is authorized. It never enters the agent's context, memory, or logs. Enforcement outside the model. Prompts are suggestions. Policies defined by the org admin run at the network layer, outside the agent and the LLM. Block endpoints, rate limit per agent, require approval, scope per employee. The gateway decides. The agent can't bypass it. Isolated VM per agent. Own memory, own keys, own permissions. Blast radius is one agent. Speed of the Harness: Rust engine under the agent loop. Full identity trail. Every agent is bound to an employee. Every call logged with who it acted for and which policy allowed it. Some things people are doing with the platform include: - Managing their company life cycle entirely from the sales calls, to the product side automatically open tickets to the engineering teams, that would kick the development agents to deliver and ship to production. - Operational side, like automatically hygiene the CRM after calls, sourcing leads, book meetings and manage follow ups emails. - Some of our customers also doing their entire grocery shopping using those agents and send them to take care of their chores like ordering things online. About the team: Both founders come from cybersecurity backgrounds. Jonathan spent years at Axis Security building zero trust network access. The core idea is that you never trust the client. You decide exactly what a person can reach, and you enforce it outside of them, at the network layer, so it doesn't matter what the client tries to do. That's how every serious company gives access to humans today. Guy was the 1st employee in Argon security doing AppSec. We would love to hear your thoughts on the move, happy to get issues open to improve and get your agent to be powerful and secure - designed for teams, not just individuals. Comments URL: https://news.ycombinator.com/item?id=49363710 Points: 25 # Comments: 9",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 6,
@@ -105,21 +90,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "The AI buildout shows no signs of slowing. And&#160;with&#160;hundreds of&#160;billions of dollars a year going into dat..."
-    },
-    {
-      "id": "99eae62a3995",
-      "title": "Disney sues FCC and its chair, escalating fight against Trump's chief censor",
-      "link": "https://arstechnica.com/tech-policy/2026/08/disney-sues-fcc-and-its-chair-escalating-fight-against-trumps-chief-censor/",
-      "source": "Ars Technica",
-      "sourceIcon": "ars",
-      "pubDate": "2026-08-18T18:11:26Z",
-      "description": "FCC demands \"total capitulation\" in Trump censorship campaign, Disney suit says.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 5,
-      "reliability": 5,
-      "summary_bn": "",
-      "summary_en": "FCC demands \"total capitulation\" in Trump censorship campaign, Disney suit says."
     },
     {
       "id": "c46e6a4579e6",
@@ -180,21 +150,6 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "US healthcare is broken. Under RFK Jr., the research agency working to fix it is, too."
-    },
-    {
-      "id": "9d8a9b8bf88a",
-      "title": "Nvidia’s new financial strategy does not compute",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/981668/nvidias-goldman-blackrock-gpu-compute-asset",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-08-19T12:00:00Z",
-      "description": "April - 1805 Napoleon is master of Europe Only the British fleet stands before him Compute is now an asset class I see it is once again time to talk financial innovation. Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, and KKR are all working with Nvidia to put together $500 billion in financing to turn compute [&#8230;]",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 5,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "April - 1805 Napoleon is master of Europe Only the British fleet stands before him Compute is now an asset class I see i..."
     },
     {
       "id": "67bb690c4b16",
@@ -287,19 +242,34 @@
       "summary_en": "The vaccine reportedly thwarted the cancer's return and spread."
     },
     {
-      "id": "cb6a9eb426ee",
-      "title": "OpenAI Overhauls Safety Protocols After Its AI Agents Went Rogue",
-      "link": "https://www.wired.com/story/openai-overhauls-safety-protocols-after-its-ai-agents-went-rogue/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-08-18T18:33:11Z",
-      "description": "The ChatGPT maker says its upcoming Astra model may have reached “critical” cyber capabilities, prompting it to halt a significant number of training runs while it tightens internal safeguards.",
+      "id": "f05312c96fe3",
+      "title": "Meta AI is getting a Mac app",
+      "link": "https://www.theverge.com/tech/982270/meta-ai-mac-app",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-08-19T17:00:00Z",
+      "description": "Meta is launching a new Mac app dedicated to its AI chatbot. In an announcement on Wednesday, Meta says you can share your window with its AI chatbot, which can provide suggestions, answer questions, or create content based on what's on your screen. Meta AI on the Mac also supports dictation across all apps. The [&#8230;]",
       "topic": "AI/ML",
       "topicIcon": "🤖",
-      "importance": 4,
+      "importance": 5,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "The ChatGPT maker says its upcoming Astra model may have reached “critical” cyber capabilities, prompting it to halt a s..."
+      "summary_en": "Meta is launching a new Mac app dedicated to its AI chatbot. In an announcement on Wednesday, Meta says you can share yo..."
+    },
+    {
+      "id": "52f167a1954f",
+      "title": "GTA VI keeps leaking ahead of its gameplay premiere",
+      "link": "https://www.theverge.com/games/982338/grand-theft-auto-vi-gta-leaks-videos",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-08-19T17:03:11Z",
+      "description": "Clips of what appears to be Grand Theft Auto VI have hit the internet, possibly spoiling aspects of the game ahead of Rockstar Games' deep dive debuting on Netflix next week and its long-awaited launch in November. I've seen three clips seemingly showing off the game, though two have been pulled from the site I [&#8230;]",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 5,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Clips of what appears to be Grand Theft Auto VI have hit the internet, possibly spoiling aspects of the game ahead of Ro..."
     },
     {
       "id": "ac2e6f726874",
@@ -527,21 +497,6 @@
       "summary_en": "Google is trying to get you off your phone. The Pixel 11 Pro is \"A Phone Designed to Help You Use It Less,\" the company ..."
     },
     {
-      "id": "f87e365e1cad",
-      "title": "The Pixel 11 isn’t the best Pixel of 2026, but it’s the smartest buy",
-      "link": "https://www.theverge.com/tech/982190/google-pixel-11-review",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-08-19T16:00:00Z",
-      "description": "It'd be easy to overlook the Pixel 11. Want the best cameras? The Pixel 11 Pro is your answer. Want the best bargain? The Pixel 10A is still a great deal. But the Pixel 11 might be the sweet spot in Google's lineup this year. With 12GB of RAM and 256GB of storage, it delivers [&#8230;]",
-      "topic": "Mobile",
-      "topicIcon": "📱",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "It'd be easy to overlook the Pixel 11. Want the best cameras? The Pixel 11 Pro is your answer. Want the best bargain? Th..."
-    },
-    {
       "id": "4d4fffd97589",
       "title": "Google Pixel 11 Pro and Pixel 11 Pro XL Review: Smart Software, Small Upgrade",
       "link": "https://www.wired.com/review/google-pixel-11-pro-and-pixel-11-pro-xl/",
@@ -617,34 +572,64 @@
       "summary_en": "\"I will tear apart this forest and bring back what it took from me.\""
     },
     {
-      "id": "1d131bb25f34",
-      "title": "OpenAI institutes new safeguards after Hugging Face breach",
-      "link": "https://techcrunch.com/2026/08/18/openai-institutes-new-safeguards-after-hugging-face-breach/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-18T18:00:00Z",
-      "description": "The new safeguards include more detailed monitoring of models during the development process, as well as greater emphasis on alignment and security during the post-training process.",
+      "id": "9465e018079e",
+      "title": "Show HN: Frugal Tokens – explore costs and usage across coding agents",
+      "link": "https://demo.frugaltokens.com/",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-08-19T17:07:35Z",
+      "description": "I wanted to share a project I’ve been working on called Frugal Tokens. I originally built it because I was curious to see how much all of my sessions cost and how much cache misses affected that spend. I’d noticed people had widely different spend profiles and wanted to better understand what might contribute to that. As I’ve worked on this, the tool has grown to show more usage patterns across all of your sessions. It shows overall usage, estimated working time and overlapping sessions, and where your spend is coming from across models and cache misses. I also have a few session level metrics with percentile breakdowns, along with a list of your sessions and high level info. Clicking into a session opens an explorer where you can see individual model calls and tool inputs and outputs. You can also jump directly to where a cache miss happened. There’s also a rough cost comparison that shows what the recorded session would have cost with another model’s pricing, or for Anthropic, with 5m vs 1h caching. In the future, I’d love to collect more information to see which patterns might make people’s workflows more expensive, e.g. long sessions, high context usage, many turns, etc. The tool requires deno, but is just one command to run once that is installed. The demo provided has some of the data scrubbed, but helps to show what it looks like before running it. Would appreciate any thoughts or ideas https://github.com/dpclark4/frugal-tokens Comments URL: https://news.ycombinator.com/item?id=49364223 Points: 15 # Comments: 4",
       "topic": "AI/ML",
       "topicIcon": "🤖",
-      "importance": 3,
-      "reliability": 4,
+      "importance": 4,
+      "reliability": 3,
       "summary_bn": "",
-      "summary_en": "The new safeguards include more detailed monitoring of models during the development process, as well as greater emphasi..."
+      "summary_en": "I wanted to share a project I’ve been working on called Frugal Tokens. I originally built it because I was curious to se..."
     },
     {
-      "id": "c58dc8fbee6a",
-      "title": "Garmin Watches Are Up to $250 Off Right Now On Amazon (2026)",
-      "link": "https://www.wired.com/story/garmin-deals-august-2026/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-08-18T18:42:17Z",
-      "description": "Save $250 off the Garmin Fenix 8, plus discounts on other popular fitness trackers from the brand.",
+      "id": "a55c0c147a5d",
+      "title": "Openrouter is joining Stripe",
+      "link": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe/",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-08-19T17:32:38Z",
+      "description": "Previously: Stripe will reportedly acquire OpenRouter for $7B+ https://news.ycombinator.com/item?id=49323381 Comments URL: https://news.ycombinator.com/item?id=49364559 Points: 130 # Comments: 86",
+      "topic": "Startups",
+      "topicIcon": "🚀",
+      "importance": 4,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "Previously: Stripe will reportedly acquire OpenRouter for $7B+ https://news.ycombinator.com/item?id=49323381 Comments UR..."
+    },
+    {
+      "id": "b1182b012723",
+      "title": "Grab an iPad Air M4 for its lowest price since the June increase",
+      "link": "https://www.theverge.com/gadgets/982242/ipad-air-m4-garmin-inreach-deal-sale",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-08-19T17:56:15Z",
+      "description": "Almost everything with high-end memory or storage is more expensive these days, and tablets are no exception, so we’re glad to see that Amazon and Best Buy have the most recent 11-inch iPad Air with the M4 chip on sale for $649. That’s $100 lower than the new retail price that went into effect (alongside [&#8230;]",
       "topic": "Hardware",
       "topicIcon": "💻",
-      "importance": 3,
+      "importance": 4,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "Save $250 off the Garmin Fenix 8, plus discounts on other popular fitness trackers from the brand."
+      "summary_en": "Almost everything with high-end memory or storage is more expensive these days, and tablets are no exception, so we’re g..."
+    },
+    {
+      "id": "ab0d43d66c86",
+      "title": "The wearable future is stuck in weird, experimental, existential limbo",
+      "link": "https://www.theverge.com/column/982359/optimizer-wearable-future-google-ai",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-08-19T18:00:00Z",
+      "description": "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for Optimizer here. For the past week, I've been testing the Google Pixel Watch 5. In many ways, it's a typical, modern smartwatch. [&#8230;]",
+      "topic": "Mobile",
+      "topicIcon": "📱",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the lat..."
     },
     {
       "id": "45ca7e77f267",
@@ -677,19 +662,19 @@
       "summary_en": "How the joule thief circuit “steals” energy from seemingly depleted power cells."
     },
     {
-      "id": "9d46ade5d194",
-      "title": "A 3D fruit fly on macOS desktop powered by the real FlyWire connectome",
-      "link": "https://github.com/DenisSergeevitch/desktop-fly",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-08-18T21:50:33Z",
-      "description": "Article URL: https://github.com/DenisSergeevitch/desktop-fly Comments URL: https://news.ycombinator.com/item?id=49353221 Points: 359 # Comments: 165",
-      "topic": "Hardware",
-      "topicIcon": "💻",
+      "id": "1b9df521ba33",
+      "title": "Ulta Promo Codes: Up to 20% Off in August 2026",
+      "link": "https://www.wired.com/story/ulta-coupon/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-08-19T05:00:00Z",
+      "description": "Shop the latest beauty trends and save big using an Ulta promo code for beauty tech, makeup, and more.",
+      "topic": "Regulation",
+      "topicIcon": "⚖️",
       "importance": 3,
-      "reliability": 3,
+      "reliability": 4,
       "summary_bn": "",
-      "summary_en": "Article URL: https://github.com/DenisSergeevitch/desktop-fly Comments URL: https://news.ycombinator.com/item?id=49353221..."
+      "summary_en": "Shop the latest beauty trends and save big using an Ulta promo code for beauty tech, makeup, and more."
     },
     {
       "id": "60667d69976e",
@@ -750,6 +735,21 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Explore today’s top DoorDash promo codes for $25 off your first order, free delivery, and 50% off DashPass for students ..."
+    },
+    {
+      "id": "7f6f73dc3be6",
+      "title": "LG Promo Codes and Coupons for August 2026",
+      "link": "https://www.wired.com/story/lg-promo-code/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-08-19T05:00:00Z",
+      "description": "Save 20% with an LG promo code today, plus up to $1,000 off appliances, 40% off bestselling TVs and monitors.",
+      "topic": "Hardware",
+      "topicIcon": "💻",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Save 20% with an LG promo code today, plus up to $1,000 off appliances, 40% off bestselling TVs and monitors."
     }
   ]
 }
