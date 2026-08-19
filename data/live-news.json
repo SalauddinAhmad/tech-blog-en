@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-19T09:03:06+06:00",
+  "lastUpdated": "2026-08-19T10:42:43+06:00",
   "news": [
     {
       "id": "95524b9f1235",
@@ -167,21 +167,6 @@
       "summary_en": "Cursor, known for its AI Code Editor, is launching a new code-hosting platform to rival developers' long preferred favor..."
     },
     {
-      "id": "81891f8129c7",
-      "title": "Theban tomb reveals how Egyptian burial trends evolved in time",
-      "link": "https://arstechnica.com/science/2026/08/theban-tomb-reveals-how-egyptian-burial-trends-evolved-in-time/",
-      "source": "Ars Technica",
-      "sourceIcon": "ars",
-      "pubDate": "2026-08-18T04:00:40Z",
-      "description": "Practices shifted from individuals buried in coffins to reusing sites for later mummy interments.",
-      "topic": "Regulation",
-      "topicIcon": "⚖️",
-      "importance": 5,
-      "reliability": 5,
-      "summary_bn": "",
-      "summary_en": "Practices shifted from individuals buried in coffins to reusing sites for later mummy interments."
-    },
-    {
       "id": "f1846b8ad988",
       "title": "US states call for big changes to Instagram and Facebook as Meta child privacy trial begins",
       "link": "https://www.bbc.co.uk/news/articles/clyqpx6xk69o?at_medium=RSS&at_campaign=rss",
@@ -285,21 +270,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Apple’s leaked camera-equipped AirPods might avoid the privacy pitfalls of other AI wearables by preventing users from r..."
-    },
-    {
-      "id": "970990b3d767",
-      "title": "Launch HN: machine0 (YC S26) – Persistent CPU and GPU VMs from the CLI",
-      "link": "https://machine0.io",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-08-18T16:26:42Z",
-      "description": "Hi HN! I’m Barnaby, founder of machine0 ( https://machine0.io ). I’m building a CLI for long horizon agent compute: `machine0 new mybox` gives your agent a persistent cloud VM, billed by the minute, from $0.013/hr up to 60 vCPU / 240 GB RAM and GPUs (H100s, H200s etc), with 99.99% VM level uptime. Agents self drive via CLI or MCP. Demo: https://www.youtube.com/watch?v=gyllkZ0M04E Agent workloads are moving from ephemeral to always-on. A coding agent working on a complex feature runs 6-8 hours. Agent orchestrated training & RL runs take days. OpenClaw & Hermes run 24/7. As you run more in parallel: - Resources: a few agents on a large codebase saturate RAM and CPU. Model training and RL needs GPUs you don't have. - Security: `--yolo` on your personal machine is one prompt injection away from exfiltrated credentials. - Availability: close your laptop and the agent dies mid-task. - Isolation: there's no clean line between you and the minimum your agent actually needs. machine0 gives every agent its own computer. It's a CLI simple enough that both humans and agents use it without reading docs: `machine0 new mybox` creates an SSH-ready VM with a static IP and HTTPS endpoint. Always on (with 99.99% VM level uptime) until you switch it off. - Billed by the minute. 1 vCPU / 1 GB at $0.013/hr up to 60 vCPU / 240 GB, plus GPUs from RTX 4000 Ada to 8×H200. - Suspend, snapshot and resume. Making it easy to pause your work, and come back to it later. Or to make a golden master image to stamp out clones for a fleet. - Block storage. Persistent volumes (from 10 GB to 16 TB) that you can manage with intuitive grammar: `--yolo` and attach to your VMs. - Profiles. Bundles of credentials, MCP connections, prompts, and env vars, injected at VM creation. So each agent gets exactly the capabilities you choose, and nothing else. - Agents self-serve. Hand the CLI or MCP server to Claude, Codex, or OpenCode and it manages its own fleet: spin up a box for a build, snapshot it, tear it down. - Reproducible Builds. Using NixOS flakes or Ansible playbooks with Ubuntu. How do people use it today? - Agent fleets. People run a pilot agent that scopes work and delegates it to sub-agents, each on its own VM: shape a project with the pilot, and the workers implement it and open PRs. One customer runs hundreds of machines at once, spun up and torn down from the CLI. - Model optimization & RL environments. ML teams use machine0 for agent-orchestrated RL environments and model optimization work. One customer runs RL environments on 60 vCPU machines that stay up for days at a time; another keeps a suspended H100 around and points an agent at it overnight to grind on inference-speed optimizations. - Product infrastructure. One customer builds their product on top of machine0 rather than using it themselves: every user session gets a fresh XL machine from a versioned image of their own agent runtime. They've shipped hundreds of versions of that image and launched thousands of machines, most alive for two minutes. What’s under the hood? Every machine is a full KVM virtual machine, not a container or sandbox. You get the real GPU exposed to the guest with its actual driver, kernel-level access (load any module or driver you want), and no syscall-interception layer between you and the hardware. The stack itself is deliberately dull: TypeScript, Postgres, Redis. We weigh heavily towards security, reliability and performance making machine0 ideal for sustained compute intensive workloads. About me I've been building cloud infrastructure for about 15 years. I dropped out of a PhD at Imperial College London on cloud resource allocation, later spent six years as co-founder and CTO of Upflow (YC W20), owning DevOps, infra and security personally the whole way to 7-figures in ARR because it was too high-stakes to delegate. machine0 started as a tool for me, I’m my own first user :) Asks Would love you to try it out and give us your feedback (see below). Or if you’re a company looking for compute for software factories, model training or RL environments, feel free to reach out at barnaby@machine0.io # install machine0 $ curl -LsSf https://machine0.io/install.sh | sh # create a machine and ssh in $ machine0 new myvm $ machine0 ssh myvm Comments URL: https://news.ycombinator.com/item?id=49348136 Points: 65 # Comments: 37",
-      "topic": "Cloud/DevOps",
-      "topicIcon": "☁️",
-      "importance": 5,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Hi HN! I’m Barnaby, founder of machine0 ( https://machine0.io ). I’m building a CLI for long horizon agent compute: `mac..."
     },
     {
       "id": "c3fcb4fd169d",
@@ -722,9 +692,9 @@
       "summary_en": "Robin Williams' children are taking over their father's Instagram account after his daughter spoke out against the use o..."
     },
     {
-      "id": "ac2e6f726874",
+      "id": "6c97203d7659",
       "title": "Tech Life",
-      "link": "https://www.bbc.co.uk/sounds/play/w3ct8jy9?at_medium=RSS&at_campaign=rss",
+      "link": "https://www.bbc.co.uk/sounds/play/live:bbc_world_service_south_asia?at_medium=RSS&at_campaign=rss",
       "source": "BBC",
       "sourceIcon": "bbc",
       "pubDate": "2026-08-18T20:00:00Z",
@@ -750,6 +720,36 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "While many gaming headsets come with extra features, the tradeoff is that they’re often uncomfortable and heavy. A light..."
+    },
+    {
+      "id": "908bb2fcfcb0",
+      "title": "DOJ’s probe into Andreessen Horowitz over board seats baffles VCs",
+      "link": "https://techcrunch.com/2026/08/18/dojs-probe-into-andreessen-horowitz-over-board-seats-baffles-vcs/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-18T20:36:20Z",
+      "description": "Since portfolio companies often pivot and expand into competing markets, investors view occasional conflicts of interest as unavoidable for large VC firms.",
+      "topic": "Web/JavaScript",
+      "topicIcon": "🌐",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Since portfolio companies often pivot and expand into competing markets, investors view occasional conflicts of interest..."
+    },
+    {
+      "id": "e429a1ab23ef",
+      "title": "The critical tech staying safe by going underground",
+      "link": "https://www.bbc.co.uk/news/articles/c20ydrndr0wo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC",
+      "sourceIcon": "bbc",
+      "pubDate": "2026-08-18T23:25:21Z",
+      "description": "The war in Ukraine has spurred people to consider putting vital infrastructure underground.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "The war in Ukraine has spurred people to consider putting vital infrastructure underground."
     }
   ]
 }
