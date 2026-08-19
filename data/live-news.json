@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-19T17:30:52+06:00",
+  "lastUpdated": "2026-08-19T18:57:51+06:00",
   "news": [
     {
       "id": "95524b9f1235",
@@ -92,36 +92,6 @@
       "summary_en": "This is the latest large-scale DDoS attack to hit the social networking site this year."
     },
     {
-      "id": "eb95cd9d7fe4",
-      "title": "Tesla is finally launching the Cybercab — let’s hope it’s ready",
-      "link": "https://www.theverge.com/transportation/981398/tesla-cybercab-launch-robotaxi-fsd-safe-ready",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-08-18T16:26:29Z",
-      "description": "The Tesla Cybercab, that golden two-seater central to Elon Musk's robo-supremacist ambitions, is finally nearing its public launch. Whether or not the no-steering wheel and no-pedal vehicle is actually ready for public roads, let alone customers, remains very much in doubt. According to The Information, Tesla is planning a public launch of the Cybercab in [&#8230;]",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 6,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "The Tesla Cybercab, that golden two-seater central to Elon Musk's robo-supremacist ambitions, is finally nearing its pub..."
-    },
-    {
-      "id": "37c3e8b3f96d",
-      "title": "PlayStation&#8217;s wireless gaming speakers launch in November",
-      "link": "https://www.theverge.com/tech/981562/sony-playstation-pulse-elevate-wireless-gaming-speakers-launch-date-preorder",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-08-18T17:18:57Z",
-      "description": "Sony's Pulse Elevate wireless gaming speakers are launching on November 12th and will cost $219.99, the company announced on Tuesday. Announced nearly a year ago, the speakers are compatible with a PS5, PlayStation Portal, PC, and Mac, and they include \"studio-inspired planar magnetic drivers\" that offer \"lifelike sound across the entire audible spectrum,\" Sony says. [&#8230;]",
-      "topic": "Hardware",
-      "topicIcon": "💻",
-      "importance": 6,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Sony's Pulse Elevate wireless gaming speakers are launching on November 12th and will cost $219.99, the company announce..."
-    },
-    {
       "id": "d1942c284f95",
       "title": "Cursor capitalizes on GitHub frustration, launches rival hosting platform",
       "link": "https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/",
@@ -135,6 +105,21 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Cursor, known for its AI Code Editor, is launching a new code-hosting platform to rival developers' long preferred favor..."
+    },
+    {
+      "id": "d11b250baab0",
+      "title": "Amazon’s drones will soon deliver to nearly 500 US cities and towns",
+      "link": "https://www.theverge.com/tech/981908/amazon-prime-air-drone-delivery-us-expansion",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-08-19T11:53:27Z",
+      "description": "Amazon says its drone delivery service will reach \"nearly 500 cities and towns in the United States\" by the end of this year, increasing its coverage by six times compared to the current footprint. Prime Air deliveries will soon be launched in the Chicago, Illinois; Syracuse, New York; Cleveland, Ohio; Atlanta, Georgia; and Boise, Idaho [&#8230;]",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 6,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Amazon says its drone delivery service will reach \"nearly 500 cities and towns in the United States\" by the end of this ..."
     },
     {
       "id": "ae73fc101742",
@@ -300,6 +285,21 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Framework has refreshed its 12-inch convertible laptop, introducing Intel's latest Core Series 3 processors, expanded ha..."
+    },
+    {
+      "id": "9d8a9b8bf88a",
+      "title": "Nvidia’s new financial strategy does not compute",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/981668/nvidias-goldman-blackrock-gpu-compute-asset",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-08-19T12:00:00Z",
+      "description": "April - 1805 Napoleon is master of Europe Only the British fleet stands before him Compute is now an asset class I see it is once again time to talk financial innovation. Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, and KKR are all working with Nvidia to put together $500 billion in financing to turn compute [&#8230;]",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 5,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "April - 1805 Napoleon is master of Europe Only the British fleet stands before him Compute is now an asset class I see i..."
     },
     {
       "id": "6959482824aa",
@@ -512,9 +512,9 @@
       "summary_en": "Robin Williams' children are taking over their father's Instagram account after his daughter spoke out against the use o..."
     },
     {
-      "id": "ac2e6f726874",
+      "id": "89c3123e9896",
       "title": "Tech Life",
-      "link": "https://www.bbc.co.uk/sounds/play/w3ct8jy9?at_medium=RSS&at_campaign=rss",
+      "link": "https://www.bbc.co.uk/sounds/play/live:bbc_world_service_west_africa?at_medium=RSS&at_campaign=rss",
       "source": "BBC",
       "sourceIcon": "bbc",
       "pubDate": "2026-08-18T20:00:00Z",
@@ -632,19 +632,34 @@
       "summary_en": "Data and finance professionals are competing in Excel obstacle courses—amassing huge followings and keeping the Microsof..."
     },
     {
-      "id": "704d724e9ab2",
-      "title": "Peacock is raising prices by up to $3",
-      "link": "https://www.theverge.com/streaming/981418/peacock-price-increase-august-2026",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-08-18T14:11:39Z",
-      "description": "Peacock is raising prices across its streaming plans once again, with the company's cheapest ad-supported Select tier going from $7.99 to $8.99 / month, as reported earlier by Variety. The Premium plan with ads is increasing from $10.99 to $12.99 / month, while the ad-free Premium Plus plan is getting the biggest hike, jumping from [&#8230;]",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 3,
+      "id": "5ccbc0e8a1a8",
+      "title": "The Best Digital Wall Calendar (2026): Skylight, Everblog, Apolosign",
+      "link": "https://www.wired.com/story/are-digital-wall-calendars-worth-it/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-08-19T11:31:00Z",
+      "description": "What originally looked like clutter turned out to be my new favorite gadget for organizing my family’s life.",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 4,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "Peacock is raising prices across its streaming plans once again, with the company's cheapest ad-supported Select tier go..."
+      "summary_en": "What originally looked like clutter turned out to be my new favorite gadget for organizing my family’s life."
+    },
+    {
+      "id": "22f6c454e53f",
+      "title": "AI isn’t close to curing cancer. This startup says it knows what it will take.",
+      "link": "https://techcrunch.com/2026/08/19/ai-isnt-close-to-curing-cancer-this-startup-says-it-knows-what-it-will-take/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-19T12:00:00Z",
+      "description": "It's the data, stupid.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "It's the data, stupid."
     },
     {
       "id": "d90c0ca73f83",
@@ -660,21 +675,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "\"These price changes allow Peacock to continue to create the best experience for its viewers, remain competitive in the ..."
-    },
-    {
-      "id": "f28c2a2d14ec",
-      "title": "Apple squashes EU beef with new App Store rules",
-      "link": "https://www.theverge.com/tech/981504/apple-app-store-eu-rules-core-technology-commission",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-08-18T16:48:26Z",
-      "description": "Apple is once again overhauling App Store rules in the European Union, which the company says will resolve its \"disagreements with the Commission over business terms and alternative distribution.\" As part of the changes, every developer that distributes apps will be moved to a single set of business terms, and digital transactions for apps distributed [&#8230;]",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 3,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Apple is once again overhauling App Store rules in the European Union, which the company says will resolve its \"disagree..."
     },
     {
       "id": "9f1fb4617b32",
