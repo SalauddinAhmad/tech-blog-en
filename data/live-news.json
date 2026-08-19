@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-19T14:47:19+06:00",
+  "lastUpdated": "2026-08-19T15:39:32+06:00",
   "news": [
     {
       "id": "95524b9f1235",
@@ -30,21 +30,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "OpenAI is announcing security updates following the July news that its AI broke out of a sandboxed environment and accid..."
-    },
-    {
-      "id": "171bcd36c04e",
-      "title": "The Powerful Chinese AI Model Experts Warned About Is Here",
-      "link": "https://www.wired.com/story/zai-open-weight-ai-models-release-cybersecurity-hacking/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-08-18T09:00:00Z",
-      "description": "Z.ai’s latest AI model release could help companies secure their systems—or find its way into the hands of hackers.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 6,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Z.ai’s latest AI model release could help companies secure their systems—or find its way into the hands of hackers."
     },
     {
       "id": "a559f2780c0c",
@@ -128,13 +113,13 @@
       "source": "TheVerge",
       "sourceIcon": "verge",
       "pubDate": "2026-08-18T16:26:29Z",
-      "description": "The Tesla Cybercab, that golden two-seater central to Elon Musk's robo-supremacist ambitions, is finally nearing it's public launch. Whether or not the no-steering wheel and no-pedal vehicle is actually ready for public roads, let alone customers, remains very much in doubt. According to The Information, Tesla is planning a public launch of the Cybercab in [&#8230;]",
+      "description": "The Tesla Cybercab, that golden two-seater central to Elon Musk's robo-supremacist ambitions, is finally nearing its public launch. Whether or not the no-steering wheel and no-pedal vehicle is actually ready for public roads, let alone customers, remains very much in doubt. According to The Information, Tesla is planning a public launch of the Cybercab in [&#8230;]",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 6,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "The Tesla Cybercab, that golden two-seater central to Elon Musk's robo-supremacist ambitions, is finally nearing it's pu..."
+      "summary_en": "The Tesla Cybercab, that golden two-seater central to Elon Musk's robo-supremacist ambitions, is finally nearing its pub..."
     },
     {
       "id": "37c3e8b3f96d",
@@ -165,21 +150,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Cursor, known for its AI Code Editor, is launching a new code-hosting platform to rival developers' long preferred favor..."
-    },
-    {
-      "id": "f1846b8ad988",
-      "title": "US states call for big changes to Instagram and Facebook as Meta child privacy trial begins",
-      "link": "https://www.bbc.co.uk/news/articles/clyqpx6xk69o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC",
-      "sourceIcon": "bbc",
-      "pubDate": "2026-08-18T09:00:33Z",
-      "description": "US states are suing the social media giant to force an overhaul of its platforms for young users.",
-      "topic": "Security",
-      "topicIcon": "🔒",
-      "importance": 5,
-      "reliability": 5,
-      "summary_bn": "",
-      "summary_en": "US states are suing the social media giant to force an overhaul of its platforms for young users."
     },
     {
       "id": "3a0d2f949246",
@@ -375,36 +345,6 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "US healthcare is broken. Under RFK Jr., the research agency working to fix it is, too."
-    },
-    {
-      "id": "f250a52ea978",
-      "title": "Best Merino Wool Clothing (2026): Base Layers, Hoodies, Jackets",
-      "link": "https://www.wired.com/story/best-merino-wool-clothes/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-08-18T09:00:00Z",
-      "description": "Merino is one of the best fabrics you can wear. We explain the different blends, what “GSM” means, and how to care for your clothes.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Merino is one of the best fabrics you can wear. We explain the different blends, what “GSM” means, and how to care for y..."
-    },
-    {
-      "id": "ac5e5d026739",
-      "title": "AI to help planes avoid climate-warming 'sky graffiti'",
-      "link": "https://www.bbc.co.uk/news/articles/c62em5lpvnjo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC",
-      "sourceIcon": "bbc",
-      "pubDate": "2026-08-18T09:26:41Z",
-      "description": "A new UK trial hopes to reduce the condensation trails from planes, which can trap heat in the Earth's atmosphere.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 5,
-      "summary_bn": "",
-      "summary_en": "A new UK trial hopes to reduce the condensation trails from planes, which can trap heat in the Earth's atmosphere."
     },
     {
       "id": "f90f9798c2bb",
@@ -750,6 +690,66 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "After Noel Pichardo called out his city's embrace of Flock surveillance cameras, he was subjected to five internal affai..."
+    },
+    {
+      "id": "ab9f389d5b10",
+      "title": "Einride strikes deal to add 500 Tesla Semis to its fleet",
+      "link": "https://techcrunch.com/2026/08/18/einride-strikes-deal-to-add-500-tesla-semis-to-its-fleet/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-18T10:30:00Z",
+      "description": "The deal will triple the size of Einride's fleet while sweetening the company's sales pitch for its Saga AI software. The Tesla Semis will be available to customers across North America.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "The deal will triple the size of Einride's fleet while sweetening the company's sales pitch for its Saga AI software. Th..."
+    },
+    {
+      "id": "704d724e9ab2",
+      "title": "Peacock is raising prices by up to $3",
+      "link": "https://www.theverge.com/streaming/981418/peacock-price-increase-august-2026",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-08-18T14:11:39Z",
+      "description": "Peacock is raising prices across its streaming plans once again, with the company's cheapest ad-supported Select tier going from $7.99 to $8.99 / month, as reported earlier by Variety. The Premium plan with ads is increasing from $10.99 to $12.99 / month, while the ad-free Premium Plus plan is getting the biggest hike, jumping from [&#8230;]",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Peacock is raising prices across its streaming plans once again, with the company's cheapest ad-supported Select tier go..."
+    },
+    {
+      "id": "d90c0ca73f83",
+      "title": "Peacock is raising prices across all of its streaming plans",
+      "link": "https://techcrunch.com/2026/08/18/peacock-is-raising-prices-across-all-of-its-streaming-plans/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-18T15:26:31Z",
+      "description": "\"These price changes allow Peacock to continue to create the best experience for its viewers, remain competitive in the marketplace, and deliver unique content across all genres,\" the company wrote on a support page.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "\"These price changes allow Peacock to continue to create the best experience for its viewers, remain competitive in the ..."
+    },
+    {
+      "id": "f28c2a2d14ec",
+      "title": "Apple squashes EU beef with new App Store rules",
+      "link": "https://www.theverge.com/tech/981504/apple-app-store-eu-rules-core-technology-commission",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-08-18T16:48:26Z",
+      "description": "Apple is once again overhauling App Store rules in the European Union, which the company says will resolve its \"disagreements with the Commission over business terms and alternative distribution.\" As part of the changes, every developer that distributes apps will be moved to a single set of business terms, and digital transactions for apps distributed [&#8230;]",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Apple is once again overhauling App Store rules in the European Union, which the company says will resolve its \"disagree..."
     }
   ]
 }
