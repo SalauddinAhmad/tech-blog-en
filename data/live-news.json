@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-19T20:39:35+06:00",
+  "lastUpdated": "2026-08-19T21:37:28+06:00",
   "news": [
     {
       "id": "2b0992c06da3",
@@ -15,21 +15,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "The cyberattack at CareCloud resulted in one of the largest reported data breaches in the U.S. healthcare industry this ..."
-    },
-    {
-      "id": "5918a741bcb0",
-      "title": "OpenAI lays out new security changes after its AI hacked Hugging Face",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/981640/openai-security-changes-ai-hugging-face-hack",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-08-18T19:28:30Z",
-      "description": "OpenAI is announcing security updates following the July news that its AI broke out of a sandboxed environment and accidentally hacked Hugging Face, including improvements to its research environments, monitoring, and alignment techniques. The company had already put the brakes on a new model, Astra, that it thinks could have \"critical\" cybersecurity capabilities, and the [&#8230;]",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 7,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "OpenAI is announcing security updates following the July news that its AI broke out of a sandboxed environment and accid..."
     },
     {
       "id": "973c5fefc8b5",
@@ -90,21 +75,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Amazon says its drone delivery service will reach \"nearly 500 cities and towns in the United States\" by the end of this ..."
-    },
-    {
-      "id": "ae73fc101742",
-      "title": "Teenage Sex and Death at Camp Miasma takes pains to deliver a slasher fan’s dream",
-      "link": "https://arstechnica.com/culture/2026/08/teenage-sex-and-death-at-camp-miasma-takes-pains-to-deliver-a-slasher-fans-dream/",
-      "source": "Ars Technica",
-      "sourceIcon": "ars",
-      "pubDate": "2026-08-18T15:36:47Z",
-      "description": "Matte paintings—not CGI—warp a world designed to hit a nerve for slasher fans.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 5,
-      "reliability": 5,
-      "summary_bn": "",
-      "summary_en": "Matte paintings—not CGI—warp a world designed to hit a nerve for slasher fans."
     },
     {
       "id": "a5cfddb6b195",
@@ -285,36 +255,6 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "The digital bank said it was \"rolling out a fix and moving quickly\" to get the service working again"
-    },
-    {
-      "id": "5a29b7b0a6ee",
-      "title": "Meta Ran Ads for an App That Promised to Nudify Female Politicians",
-      "link": "https://www.wired.com/story/meta-ran-ads-for-an-app-promising-to-nudify-female-politicians/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-08-18T14:45:33Z",
-      "description": "One advertisement featured a pornographic video with a deepfake closely resembling a prominent US politician. Apple removed the app from the App Store after an inquiry from WIRED.",
-      "topic": "Mobile",
-      "topicIcon": "📱",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "One advertisement featured a pornographic video with a deepfake closely resembling a prominent US politician. Apple remo..."
-    },
-    {
-      "id": "f6bbac18d3b9",
-      "title": "X-rays add new twist to narwhal's spiral tusk",
-      "link": "https://arstechnica.com/science/2026/08/x-rays-add-new-twist-to-narwhals-spiral-tusk/",
-      "source": "Ars Technica",
-      "sourceIcon": "ars",
-      "pubDate": "2026-08-18T15:00:51Z",
-      "description": "New study finds that the tusks have not one but two spirals, twisting in opposite directions.",
-      "topic": "Mobile",
-      "topicIcon": "📱",
-      "importance": 4,
-      "reliability": 5,
-      "summary_bn": "",
-      "summary_en": "New study finds that the tusks have not one but two spirals, twisting in opposite directions."
     },
     {
       "id": "04abd3da72e5",
@@ -602,19 +542,34 @@
       "summary_en": "Volunteer at TechCrunch Disrupt 2026 and get an insider's view of how world-class tech events get built and more."
     },
     {
-      "id": "d90c0ca73f83",
-      "title": "Peacock is raising prices across all of its streaming plans",
-      "link": "https://techcrunch.com/2026/08/18/peacock-is-raising-prices-across-all-of-its-streaming-plans/",
+      "id": "c1c7e913fcf6",
+      "title": "Amazon makes its AI-powered Alexa+ free on Fire TV, no Prime required",
+      "link": "https://techcrunch.com/2026/08/19/amazon-makes-its-ai-powered-alexa-free-on-fire-tv-no-prime-required/",
       "source": "TechCrunch",
       "sourceIcon": "crunch",
-      "pubDate": "2026-08-18T15:26:31Z",
-      "description": "\"These price changes allow Peacock to continue to create the best experience for its viewers, remain competitive in the marketplace, and deliver unique content across all genres,\" the company wrote on a support page.",
+      "pubDate": "2026-08-19T15:00:00Z",
+      "description": "Amazon is making its AI-powered Alexa+ assistant free on all compatible Fire TV devices in the U.S., automatically upgrading users whether or not they subscribe to Prime.",
       "topic": "AI/ML",
       "topicIcon": "🤖",
-      "importance": 3,
+      "importance": 4,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "\"These price changes allow Peacock to continue to create the best experience for its viewers, remain competitive in the ..."
+      "summary_en": "Amazon is making its AI-powered Alexa+ assistant free on all compatible Fire TV devices in the U.S., automatically upgra..."
+    },
+    {
+      "id": "6e2e0f4095d6",
+      "title": "Sachin Bansal’s fintech Navi raises first outside capital with $100M Prosus investment",
+      "link": "https://techcrunch.com/2026/08/19/sachin-bansals-fintech-navi-raises-first-outside-capital-with-100m-prosus-investment/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-19T15:01:41Z",
+      "description": "The investment comes amid Navi plans to go public.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "The investment comes amid Navi plans to go public."
     },
     {
       "id": "9f1fb4617b32",
@@ -698,7 +653,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-18T21:50:33Z",
-      "description": "Article URL: https://github.com/DenisSergeevitch/desktop-fly Comments URL: https://news.ycombinator.com/item?id=49353221 Points: 338 # Comments: 151",
+      "description": "Article URL: https://github.com/DenisSergeevitch/desktop-fly Comments URL: https://news.ycombinator.com/item?id=49353221 Points: 343 # Comments: 157",
       "topic": "Hardware",
       "topicIcon": "💻",
       "importance": 3,
@@ -707,28 +662,13 @@
       "summary_en": "Article URL: https://github.com/DenisSergeevitch/desktop-fly Comments URL: https://news.ycombinator.com/item?id=49353221..."
     },
     {
-      "id": "da7b93e6dd5a",
-      "title": "Scientists stunned by children's lung recovery in ultra low emission zone",
-      "link": "https://www.bbc.com/news/articles/c1l1r1zne1ro",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-08-19T00:48:23Z",
-      "description": "Article URL: https://www.bbc.com/news/articles/c1l1r1zne1ro Comments URL: https://news.ycombinator.com/item?id=49355105 Points: 353 # Comments: 299",
-      "topic": "Startups",
-      "topicIcon": "🚀",
-      "importance": 3,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://www.bbc.com/news/articles/c1l1r1zne1ro Comments URL: https://news.ycombinator.com/item?id=49355105 ..."
-    },
-    {
       "id": "72270d8ce63c",
       "title": "Show HN: Automatically detect and patch walking-dead states in Sierra games",
       "link": "https://github.com/katiahayati/lucasartsifier/",
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-19T01:58:33Z",
-      "description": "Hi HN, I've become lazier in my old age and struggle to replay my favorite Sierra games from the 80s and 90s because I keep getting into those situations where I need an item from 3 acts ago, I have no save game handy, and now I gotta make dinner. So I'm building the Lucasartsifier: a static analysis tool that decompiles Sierra resource files, automatically finds those states, automatically generates code to prevent the player from getting into those states, then emits loose patch files that can be placed alongside the original game resources. There's no game-specific code involved; all the logic is generic, though of course Sierra introduces new idioms and mechanics in every game so every new supported game needs a bunch of engine work. So for example in Leisure Suit Larry 2, the patched game prevents you from boarding the cruise ship until you have both the sunscreen and the Grotesque Gulp. Without them you die on the raft 3 play-hours later. So far this works on Leisure Suit Larry 2 (SCI0), King's Quest 4 (SCI0), King's Quest 6 (SCI1.1), and Laura Bow 2 (SCI1.1). I'm currently working on King's Quest 5 (SCI1.0). This is work done with Claude -- I do the design and playtesting and it does the rest :D Any feedback, play testing, and suggestions would be great! Comments URL: https://news.ycombinator.com/item?id=49355607 Points: 116 # Comments: 55",
+      "description": "Hi HN, I've become lazier in my old age and struggle to replay my favorite Sierra games from the 80s and 90s because I keep getting into those situations where I need an item from 3 acts ago, I have no save game handy, and now I gotta make dinner. So I'm building the Lucasartsifier: a static analysis tool that decompiles Sierra resource files, automatically finds those states, automatically generates code to prevent the player from getting into those states, then emits loose patch files that can be placed alongside the original game resources. There's no game-specific code involved; all the logic is generic, though of course Sierra introduces new idioms and mechanics in every game so every new supported game needs a bunch of engine work. So for example in Leisure Suit Larry 2, the patched game prevents you from boarding the cruise ship until you have both the sunscreen and the Grotesque Gulp. Without them you die on the raft 3 play-hours later. So far this works on Leisure Suit Larry 2 (SCI0), King's Quest 4 (SCI0), King's Quest 6 (SCI1.1), and Laura Bow 2 (SCI1.1). I'm currently working on King's Quest 5 (SCI1.0). This is work done with Claude -- I do the design and playtesting and it does the rest :D Any feedback, play testing, and suggestions would be great! Comments URL: https://news.ycombinator.com/item?id=49355607 Points: 124 # Comments: 63",
       "topic": "Web/JavaScript",
       "topicIcon": "🌐",
       "importance": 3,
@@ -750,6 +690,66 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Hunger meets savings. Discover verified Uber Eats promo codes, new user offers, and Uber One discounts to slash your del..."
+    },
+    {
+      "id": "0c51e22f3e16",
+      "title": "Hotels.com Coupon Codes for August 2026",
+      "link": "https://www.wired.com/story/hotels-com-coupon/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-08-19T05:00:00Z",
+      "description": "Unlock significant savings on hotels, resorts, and getaways with our verified Hotels.com promo codes and gift card discounts. Plan your perfect trip today!",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Unlock significant savings on hotels, resorts, and getaways with our verified Hotels.com promo codes and gift card disco..."
+    },
+    {
+      "id": "95702407817e",
+      "title": "Wayfair Coupons: Up to 80% Off August 2026",
+      "link": "https://www.wired.com/story/wayfair-promo-code/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-08-19T05:00:00Z",
+      "description": "Get 10% off with Wayfair promo code, up to 80% off furniture, and more top coupons.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Get 10% off with Wayfair promo code, up to 80% off furniture, and more top coupons."
+    },
+    {
+      "id": "d2bfd3564bfb",
+      "title": "50% Off DoorDash Promo Code | August 2026",
+      "link": "https://www.wired.com/story/doordash-promo-code/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-08-19T05:00:00Z",
+      "description": "Explore today’s top DoorDash promo codes for $25 off your first order, free delivery, and 50% off DashPass for students and select users.",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Explore today’s top DoorDash promo codes for $25 off your first order, free delivery, and 50% off DashPass for students ..."
+    },
+    {
+      "id": "7f6f73dc3be6",
+      "title": "LG Promo Codes and Coupons for August 2026",
+      "link": "https://www.wired.com/story/lg-promo-code/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-08-19T05:00:00Z",
+      "description": "Save 20% with an LG promo code today, plus up to $1,000 off appliances, 40% off bestselling TVs and monitors.",
+      "topic": "Hardware",
+      "topicIcon": "💻",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Save 20% with an LG promo code today, plus up to $1,000 off appliances, 40% off bestselling TVs and monitors."
     }
   ]
 }
