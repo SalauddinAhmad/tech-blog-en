@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-19T15:39:32+06:00",
+  "lastUpdated": "2026-08-19T16:34:26+06:00",
   "news": [
     {
       "id": "95524b9f1235",
@@ -30,21 +30,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "OpenAI is announcing security updates following the July news that its AI broke out of a sandboxed environment and accid..."
-    },
-    {
-      "id": "a559f2780c0c",
-      "title": "Exclusive: You Can Finally Buy a Fairphone—a Sustainable, Repairable Smartphone—in the US",
-      "link": "https://www.wired.com/story/you-can-finally-buy-a-fairphone-a-sustainable-repairable-smartphone-in-the-us/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-08-18T10:30:00Z",
-      "description": "More than a decade after launching in Europe, the Netherlands company is now selling its repairable phones in the US, starting with the Fairphone (Gen 6+).",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 6,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "More than a decade after launching in Europe, the Netherlands company is now selling its repairable phones in the US, st..."
     },
     {
       "id": "8747a048df02",
@@ -150,21 +135,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Cursor, known for its AI Code Editor, is launching a new code-hosting platform to rival developers' long preferred favor..."
-    },
-    {
-      "id": "3a0d2f949246",
-      "title": "Can AI Coexist With Privacy? Proton’s Andy Yen Says It Will Have To",
-      "link": "https://www.wired.com/story/the-big-interview-podcast-andy-yen-proton/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-08-18T10:30:00Z",
-      "description": "Proton’s CEO is a champion of encryption for everyone. So why is he going all in on un-encryptable AI?",
-      "topic": "Security",
-      "topicIcon": "🔒",
-      "importance": 5,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Proton’s CEO is a champion of encryption for everyone. So why is he going all in on un-encryptable AI?"
     },
     {
       "id": "92cb7740fe1a",
@@ -347,6 +317,21 @@
       "summary_en": "US healthcare is broken. Under RFK Jr., the research agency working to fix it is, too."
     },
     {
+      "id": "47e42078086d",
+      "title": "Framework gave its 12-inch laptop some hardware upgrades",
+      "link": "https://www.theverge.com/gadgets/981894/framework-laptop-12-update-intel-core-linux-availability",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-08-19T10:14:26Z",
+      "description": "Framework has refreshed its 12-inch convertible laptop, introducing Intel's latest Core Series 3 processors, expanded hardware customizations, and a pre-built Linux option. The cheapest pre-built base configuration for the Framework Laptop 12 now starts at $699 - $100 less than the previous version when it launched last year. Preorders are open now, with the first [&#8230;]",
+      "topic": "Hardware",
+      "topicIcon": "💻",
+      "importance": 5,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Framework has refreshed its 12-inch convertible laptop, introducing Intel's latest Core Series 3 processors, expanded ha..."
+    },
+    {
       "id": "f90f9798c2bb",
       "title": "Reach Capital raises $265M Fund V to back AI founders building to ‘expand human potential’",
       "link": "https://techcrunch.com/2026/08/18/reach-capital-raises-265m-fund-v-to-back-ai-founders-building-to-expand-human-potential/",
@@ -405,21 +390,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "A video in a macOS Tahoe release candidate version shows a user wearing AirPods, looking at a book, and talking to Siri."
-    },
-    {
-      "id": "f06392906ad9",
-      "title": "Comcast is turning millions of its routers into motion detectors",
-      "link": "https://www.theverge.com/news/981381/comcast-xfinity-shield-wifi-motion-sensing",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-08-18T13:30:00Z",
-      "description": "Comcast is bringing Wi-Fi motion sensing to millions of routers that are already in customers' homes, turning the devices into activity monitors. A new update to the Xfinity Internet app, arriving today, August 18th, enables the feature on compatible Xfinity routers at no extra cost. Announced as part of its new Xfinity Shield service, WiFi [&#8230;]",
-      "topic": "Hardware",
-      "topicIcon": "💻",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Comcast is bringing Wi-Fi motion sensing to millions of routers that are already in customers' homes, turning the device..."
     },
     {
       "id": "e73fd771a2b4",
@@ -677,34 +647,34 @@
       "summary_en": "The war in Ukraine has spurred people to consider putting vital infrastructure underground."
     },
     {
-      "id": "4ab809fe8ef0",
-      "title": "The Cop Who Took On Flock",
-      "link": "https://www.wired.com/story/the-cop-who-took-on-flock/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-08-18T10:00:00Z",
-      "description": "After Noel Pichardo called out his city's embrace of Flock surveillance cameras, he was subjected to five internal affairs investigations in less than two years.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 3,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "After Noel Pichardo called out his city's embrace of Flock surveillance cameras, he was subjected to five internal affai..."
-    },
-    {
-      "id": "ab9f389d5b10",
-      "title": "Einride strikes deal to add 500 Tesla Semis to its fleet",
-      "link": "https://techcrunch.com/2026/08/18/einride-strikes-deal-to-add-500-tesla-semis-to-its-fleet/",
+      "id": "26ef0b285fb9",
+      "title": "Relativity Networks raises $22 million to bring a faster kind of fiber to data centers",
+      "link": "https://techcrunch.com/2026/08/19/relativity-networks-raises-22-million-to-bring-a-faster-kind-of-fiber-to-data-centers/",
       "source": "TechCrunch",
       "sourceIcon": "crunch",
-      "pubDate": "2026-08-18T10:30:00Z",
-      "description": "The deal will triple the size of Einride's fleet while sweetening the company's sales pitch for its Saga AI software. The Tesla Semis will be available to customers across North America.",
+      "pubDate": "2026-08-19T10:00:00Z",
+      "description": "Relativity Networks deals in hollow-core fiber, a rarely deployed technology that allows data to be transmitted 30% faster than conventional fiber.",
       "topic": "AI/ML",
       "topicIcon": "🤖",
-      "importance": 3,
+      "importance": 4,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "The deal will triple the size of Einride's fleet while sweetening the company's sales pitch for its Saga AI software. Th..."
+      "summary_en": "Relativity Networks deals in hollow-core fiber, a rarely deployed technology that allows data to be transmitted 30% fast..."
+    },
+    {
+      "id": "47b208c88d70",
+      "title": "Reverse-Lookup Service Exposed Millions of Photos of People’s Faces",
+      "link": "https://www.wired.com/story/reverse-lookup-service-exposed-millions-of-photos-of-peoples-faces/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-08-19T10:00:00Z",
+      "description": "The people-search tool ClarityCheck says its reverse image search service is “private and secure”—but it left a database containing more than 9 million image files exposed.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "The people-search tool ClarityCheck says its reverse image search service is “private and secure”—but it left a database..."
     },
     {
       "id": "704d724e9ab2",
@@ -750,6 +720,36 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Apple is once again overhauling App Store rules in the European Union, which the company says will resolve its \"disagree..."
+    },
+    {
+      "id": "9f1fb4617b32",
+      "title": "Etched’s valuation doubles to $21B in a month",
+      "link": "https://techcrunch.com/2026/08/18/etcheds-valuation-doubles-to-21b-in-a-month/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-18T17:21:58Z",
+      "description": "Jane Street has installed Etched's first shipped AI cluster system, and was so impressed, it led another massive round, the startup says.",
+      "topic": "Startups",
+      "topicIcon": "🚀",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Jane Street has installed Etched's first shipped AI cluster system, and was so impressed, it led another massive round, ..."
+    },
+    {
+      "id": "bd9656223d09",
+      "title": "Samsung’s Galaxy Buds 3 Pro are almost half off today",
+      "link": "https://www.theverge.com/gadgets/981525/galaxy-buds-3-pro-dji-pocket-deal-sale",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-08-18T17:47:04Z",
+      "description": "If you’re looking for a feature-packed pair of earbuds that won’t break your wallet, Best Buy has the Samsung Galaxy Buds 3 Pro on sale for $139.99. That’s $40 lower than the current Amazon price, and a big discount from their original retail price of $249.99. These well-equipped earbuds feature excellent sound quality, crisp transparency [&#8230;]",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "If you’re looking for a feature-packed pair of earbuds that won’t break your wallet, Best Buy has the Samsung Galaxy Bud..."
     }
   ]
 }
