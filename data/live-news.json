@@ -1,20 +1,20 @@
 {
-  "lastUpdated": "2026-08-19T18:57:51+06:00",
+  "lastUpdated": "2026-08-19T19:51:38+06:00",
   "news": [
     {
-      "id": "95524b9f1235",
-      "title": "Microsoft Copilot reveals secret input that allowed it to be hacked",
-      "link": "https://arstechnica.com/security/2026/08/microsoft-copilot-reveals-secret-input-that-allowed-it-to-be-hacked/",
-      "source": "Ars Technica",
-      "sourceIcon": "ars",
-      "pubDate": "2026-08-18T13:00:04Z",
-      "description": "Secret parameter allowed hackers to steal passwords when a target clicked on a link.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
+      "id": "2b0992c06da3",
+      "title": "CareCloud confirms 3.7M patients had their medical records stolen in data breach",
+      "link": "https://techcrunch.com/2026/08/19/carecloud-confirms-3-7m-patients-had-their-medical-records-stolen-in-data-breach/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-19T13:04:10Z",
+      "description": "The cyberattack at CareCloud resulted in one of the largest reported data breaches in the U.S. healthcare industry this year.",
+      "topic": "Security",
+      "topicIcon": "🔒",
       "importance": 8,
-      "reliability": 5,
+      "reliability": 4,
       "summary_bn": "",
-      "summary_en": "Secret parameter allowed hackers to steal passwords when a target clicked on a link."
+      "summary_en": "The cyberattack at CareCloud resulted in one of the largest reported data breaches in the U.S. healthcare industry this ..."
     },
     {
       "id": "5918a741bcb0",
@@ -45,36 +45,6 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "The ChatGPT-maker said training will be slowed for two weeks while it puts the upgrades in place."
-    },
-    {
-      "id": "0a733996f28c",
-      "title": "Daniel Ek’s body-scanning startup Neko Health opens first US office, in New York",
-      "link": "https://techcrunch.com/2026/08/18/daniel-eks-body-scanning-startup-neko-health-opens-first-us-office-in-new-york/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-18T13:00:00Z",
-      "description": "The scanning and bloodwork health startup founded by Spotify's founder will officially launch in New York in about a month.",
-      "topic": "Startups",
-      "topicIcon": "🚀",
-      "importance": 6,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "The scanning and bloodwork health startup founded by Spotify's founder will officially launch in New York in about a mon..."
-    },
-    {
-      "id": "667df1e38fed",
-      "title": "OpenAI launches a safer ChatGPT for teens — years after teens started using it",
-      "link": "https://techcrunch.com/2026/08/18/openai-launches-a-safer-chatgpt-for-teens-years-after-teens-started-using-it/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-18T13:50:30Z",
-      "description": "ChatGPT for Teens adds age-appropriate safety measures, parental controls, and learning tools designed to steer teens away from harmful content — and from using AI to cheat on their homework.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 6,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "ChatGPT for Teens adds age-appropriate safety measures, parental controls, and learning tools designed to steer teens aw..."
     },
     {
       "id": "c9e6969d0eb7",
@@ -302,51 +272,6 @@
       "summary_en": "April - 1805 Napoleon is master of Europe Only the British fleet stands before him Compute is now an asset class I see i..."
     },
     {
-      "id": "6959482824aa",
-      "title": "Can the Upcoming ‘Expanse’ Game Avoid the Biggest Mistake of ‘Mass Effect’?",
-      "link": "https://www.wired.com/story/the-upcoming-expanse-game-has-to-make-some-hard-choices/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-08-18T13:00:00Z",
-      "description": "The universe may never tell you if your choices mattered. Owlcat’s Osiris Reborn might not either.",
-      "topic": "Hardware",
-      "topicIcon": "💻",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "The universe may never tell you if your choices mattered. Owlcat’s Osiris Reborn might not either."
-    },
-    {
-      "id": "ba5c5bbbd20f",
-      "title": "Apple’s new macOS update reportedly contains a video of AirPods with a camera",
-      "link": "https://techcrunch.com/2026/08/18/apples-new-macos-update-reportedly-contains-a-video-of-airpods-with-a-camera/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-18T13:28:51Z",
-      "description": "A video in a macOS Tahoe release candidate version shows a user wearing AirPods, looking at a book, and talking to Siri.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "A video in a macOS Tahoe release candidate version shows a user wearing AirPods, looking at a book, and talking to Siri."
-    },
-    {
-      "id": "4201eaaadb88",
-      "title": "Perplexity’s free AI offer left it with millions more users in India",
-      "link": "https://techcrunch.com/2026/08/18/perplexitys-free-ai-offer-left-it-with-millions-more-users-in-india/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-18T13:45:40Z",
-      "description": "Perplexity's India revenue rose about 60% after the Airtel offer ended for new users, even as downloads declined.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Perplexity's India revenue rose about 60% after the Airtel offer ended for new users, even as downloads declined."
-    },
-    {
       "id": "96258e84bbc0",
       "title": "Anthro Energy breaks ground on factory that could pave the road to solid-state batteries",
       "link": "https://techcrunch.com/2026/08/18/anthro-energy-breaks-ground-on-factory-that-could-pave-the-road-to-solid-state-batteries/",
@@ -512,9 +437,9 @@
       "summary_en": "Robin Williams' children are taking over their father's Instagram account after his daughter spoke out against the use o..."
     },
     {
-      "id": "89c3123e9896",
+      "id": "ac2e6f726874",
       "title": "Tech Life",
-      "link": "https://www.bbc.co.uk/sounds/play/live:bbc_world_service_west_africa?at_medium=RSS&at_campaign=rss",
+      "link": "https://www.bbc.co.uk/sounds/play/w3ct8jy9?at_medium=RSS&at_campaign=rss",
       "source": "BBC",
       "sourceIcon": "bbc",
       "pubDate": "2026-08-18T20:00:00Z",
@@ -662,6 +587,21 @@
       "summary_en": "It's the data, stupid."
     },
     {
+      "id": "754f380db1ba",
+      "title": "Home batteries are suddenly cheap and everywhere. Here’s why.",
+      "link": "https://techcrunch.com/2026/08/19/home-batteries-are-suddenly-cheap-and-everywhere-heres-why/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-19T13:40:00Z",
+      "description": "Companies including Tesla and Base Power are vying for a piece of the rapidly growing market for home batteries. One technology has made it all possible.",
+      "topic": "Web/JavaScript",
+      "topicIcon": "🌐",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Companies including Tesla and Base Power are vying for a piece of the rapidly growing market for home batteries. One tec..."
+    },
+    {
       "id": "d90c0ca73f83",
       "title": "Peacock is raising prices across all of its streaming plans",
       "link": "https://techcrunch.com/2026/08/18/peacock-is-raising-prices-across-all-of-its-streaming-plans/",
@@ -750,6 +690,66 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "If rolled out, the feature would use the social media service’s TikTok Pay offering, which is already available in South..."
+    },
+    {
+      "id": "6da8d1d23411",
+      "title": "Squeeze More Juice Out of Your Dead Batteries—Using Physics",
+      "link": "https://www.wired.com/story/squeeze-more-juice-out-of-a-dead-battery/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-08-18T20:11:03Z",
+      "description": "How the joule thief circuit “steals” energy from seemingly depleted power cells.",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "How the joule thief circuit “steals” energy from seemingly depleted power cells."
+    },
+    {
+      "id": "9d46ade5d194",
+      "title": "A 3D fruit fly on macOS desktop powered by the real FlyWire connectome",
+      "link": "https://github.com/DenisSergeevitch/desktop-fly",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-08-18T21:50:33Z",
+      "description": "Article URL: https://github.com/DenisSergeevitch/desktop-fly Comments URL: https://news.ycombinator.com/item?id=49353221 Points: 328 # Comments: 137",
+      "topic": "Hardware",
+      "topicIcon": "💻",
+      "importance": 3,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "Article URL: https://github.com/DenisSergeevitch/desktop-fly Comments URL: https://news.ycombinator.com/item?id=49353221..."
+    },
+    {
+      "id": "da7b93e6dd5a",
+      "title": "Scientists stunned by children's lung recovery in ultra low emission zone",
+      "link": "https://www.bbc.com/news/articles/c1l1r1zne1ro",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-08-19T00:48:23Z",
+      "description": "Article URL: https://www.bbc.com/news/articles/c1l1r1zne1ro Comments URL: https://news.ycombinator.com/item?id=49355105 Points: 335 # Comments: 283",
+      "topic": "Startups",
+      "topicIcon": "🚀",
+      "importance": 3,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "Article URL: https://www.bbc.com/news/articles/c1l1r1zne1ro Comments URL: https://news.ycombinator.com/item?id=49355105 ..."
+    },
+    {
+      "id": "72270d8ce63c",
+      "title": "Show HN: Automatically detect and patch walking-dead states in Sierra games",
+      "link": "https://github.com/katiahayati/lucasartsifier/",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-08-19T01:58:33Z",
+      "description": "Hi HN, I've become lazier in my old age and struggle to replay my favorite Sierra games from the 80s and 90s because I keep getting into those situations where I need an item from 3 acts ago, I have no save game handy, and now I gotta make dinner. So I'm building the Lucasartsifier: a static analysis tool that decompiles Sierra resource files, automatically finds those states, automatically generates code to prevent the player from getting into those states, then emits loose patch files that can be placed alongside the original game resources. There's no game-specific code involved; all the logic is generic, though of course Sierra introduces new idioms and mechanics in every game so every new supported game needs a bunch of engine work. So for example in Leisure Suit Larry 2, the patched game prevents you from boarding the cruise ship until you have both the sunscreen and the Grotesque Gulp. Without them you die on the raft 3 play-hours later. So far this works on Leisure Suit Larry 2 (SCI0), King's Quest 4 (SCI0), King's Quest 6 (SCI1.1), and Laura Bow 2 (SCI1.1). I'm currently working on King's Quest 5 (SCI1.0). This is work done with Claude -- I do the design and playtesting and it does the rest :D Any feedback, play testing, and suggestions would be great! Comments URL: https://news.ycombinator.com/item?id=49355607 Points: 98 # Comments: 45",
+      "topic": "Web/JavaScript",
+      "topicIcon": "🌐",
+      "importance": 3,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "Hi HN, I've become lazier in my old age and struggle to replay my favorite Sierra games from the 80s and 90s because I k..."
     }
   ]
 }
