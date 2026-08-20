@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-20T07:38:35+06:00",
+  "lastUpdated": "2026-08-20T09:02:22+06:00",
   "news": [
     {
       "id": "cb3b611319c0",
@@ -473,7 +473,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-19T17:32:38Z",
-      "description": "Previously: Stripe will reportedly acquire OpenRouter for $7B+ https://news.ycombinator.com/item?id=49323381 Comments URL: https://news.ycombinator.com/item?id=49364559 Points: 629 # Comments: 335",
+      "description": "Previously: Stripe will reportedly acquire OpenRouter for $7B+ https://news.ycombinator.com/item?id=49323381 Comments URL: https://news.ycombinator.com/item?id=49364559 Points: 673 # Comments: 354",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 4,
@@ -662,6 +662,21 @@
       "summary_en": "Without a rescue, NASA's Swift Observatory is expected to reenter the atmosphere later this year."
     },
     {
+      "id": "1b9df521ba33",
+      "title": "Ulta Promo Codes: Up to 20% Off in August 2026",
+      "link": "https://www.wired.com/story/ulta-coupon/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-08-19T05:00:00Z",
+      "description": "Shop the latest beauty trends and save big using an Ulta promo code for beauty tech, makeup, and more.",
+      "topic": "Regulation",
+      "topicIcon": "⚖️",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Shop the latest beauty trends and save big using an Ulta promo code for beauty tech, makeup, and more."
+    },
+    {
       "id": "60667d69976e",
       "title": "Uber Eats Promo Codes: $15 Off│August 2026",
       "link": "https://www.wired.com/story/uber-eats-promo-code/",
@@ -735,21 +750,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Save 20% with an LG promo code today, plus up to $1,000 off appliances, 40% off bestselling TVs and monitors."
-    },
-    {
-      "id": "db6796163ee6",
-      "title": "Loop Earplugs Discount Codes: 40% Off",
-      "link": "https://www.wired.com/story/loop-earplugs-discount-code/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-08-19T05:00:00Z",
-      "description": "Save on Loop Earplugs, including Quiet 2 and popular gift sets for improved sleep, focus, and comfort.",
-      "topic": "Other",
-      "topicIcon": "📰",
-      "importance": 3,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Save on Loop Earplugs, including Quiet 2 and popular gift sets for improved sleep, focus, and comfort."
     }
   ]
 }
