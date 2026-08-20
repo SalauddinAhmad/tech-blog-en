@@ -1,21 +1,6 @@
 {
-  "lastUpdated": "2026-08-21T03:33:54+06:00",
+  "lastUpdated": "2026-08-21T04:33:20+06:00",
   "news": [
-    {
-      "id": "3cbc91db826d",
-      "title": "Show HN: We chased a weather balloon across Montana and never found it",
-      "link": "https://radi8.dev/blog/uplink/",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-08-20T17:33:32Z",
-      "description": "Since April, I have been working with Sam Flynn ( https://drook.dev ) to make this balloon payload, UpLink. We did a similar launch last year with Hack Club but this was our first independent launch. UpLink was a 491 gram payload testing the insulation properties of 3D printing filaments, while also transmitting 320x240 images over a radio link -- up from the 18x10 images last year! This is a writeup on our engineering process, mistakes made, and learning experiences. It covers: - Custom electronics designed in KiCad - Firmware design - Results from the data we received on the ground - Image transmission - Launch day logistics, and where things went wrong All hardware, software, firmware, and CAD is available on GitHub: https://github.com/radeeyate/UpLink , licensed + certified as open source hardware: https://certification.oshwa.org/us002826.html If you just want to see the images received, I put up a gallery here: https://uplink.gallery.radi8.dev/ If you have any questions, comments, or concerns, let me know. I'm happy to answer anything! Comments URL: https://news.ycombinator.com/item?id=49377660 Points: 44 # Comments: 18",
-      "topic": "Hardware",
-      "topicIcon": "💻",
-      "importance": 9,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Since April, I have been working with Sam Flynn ( https://drook.dev ) to make this balloon payload, UpLink. We did a sim..."
-    },
     {
       "id": "08dde364f7c2",
       "title": "It’s Greg Brockman’s OpenAI now",
@@ -122,21 +107,6 @@
       "summary_en": "Riot Games is already winding down work on 2XKO, the free-to-play League of Legends fighting game, less than a year afte..."
     },
     {
-      "id": "f6804c69d278",
-      "title": "Amazon aims for delivery drones to reach 500 US neighborhoods by end of 2026",
-      "link": "https://arstechnica.com/gadgets/2026/08/amazon-aims-for-delivery-drones-to-reach-500-us-neighborhoods-by-end-of-2026/",
-      "source": "Ars Technica",
-      "sourceIcon": "ars",
-      "pubDate": "2026-08-19T22:02:38Z",
-      "description": "US residents face trade-offs as delivery drone services such as Prime Air expand.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 5,
-      "reliability": 5,
-      "summary_bn": "",
-      "summary_en": "US residents face trade-offs as delivery drone services such as Prime Air expand."
-    },
-    {
       "id": "e85097b01b09",
       "title": "UK business hit by 'daylight robbery' 1500% price hike for invoicing software",
       "link": "https://www.bbc.co.uk/news/articles/clyq011414eo?at_medium=RSS&at_campaign=rss",
@@ -195,21 +165,6 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "The yeetcycling math resembles asteroid mining in reverse."
-    },
-    {
-      "id": "acf4cd572631",
-      "title": "Hacking with Claude on a $27 smart watch",
-      "link": "https://www.mikekasberg.com/blog/2026/08/19/hacking-with-claude-on-a-27-smart-watch.html",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-08-20T14:08:09Z",
-      "description": "Article URL: https://www.mikekasberg.com/blog/2026/08/19/hacking-with-claude-on-a-27-smart-watch.html Comments URL: https://news.ycombinator.com/item?id=49374772 Points: 66 # Comments: 41",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 5,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://www.mikekasberg.com/blog/2026/08/19/hacking-with-claude-on-a-27-smart-watch.html Comments URL: http..."
     },
     {
       "id": "f726cd00afef",
@@ -332,21 +287,6 @@
       "summary_en": "The app now allows men to make the first move, suggesting its women-first positioning was limiting growth. It joins othe..."
     },
     {
-      "id": "1f1e32f0a980",
-      "title": "Apollo Atomics wants to make nuclear power cheaper by shrinking an overlooked part",
-      "link": "https://techcrunch.com/2026/08/20/apollo-atomics-wants-to-make-nuclear-power-cheaper-by-shrinking-an-overlooked-part/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-20T13:45:00Z",
-      "description": "Y Combinator alumnus Apollo Atomics is shrinking a key nuclear reactor part, which promises to slash the cost of electricity below natural gas.",
-      "topic": "Web/JavaScript",
-      "topicIcon": "🌐",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Y Combinator alumnus Apollo Atomics is shrinking a key nuclear reactor part, which promises to slash the cost of electri..."
-    },
-    {
       "id": "0106bfa2fb7b",
       "title": "Genesis joins the giant electric SUV club with new GV90",
       "link": "https://arstechnica.com/cars/2026/08/genesis-joins-the-giant-electric-suv-club-with-new-gv90/",
@@ -360,21 +300,6 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "A retractable screen, a huge heads-up display, and an optional 4-seat VIP interior."
-    },
-    {
-      "id": "ff901fa3329f",
-      "title": "Amazon&#8217;s drone deliveries are landing in pools and ponds",
-      "link": "https://www.theverge.com/tech/982808/amazon-prime-air-drones-packages-pools-ponds",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-08-20T14:59:21Z",
-      "description": "Amazon's speedy drone delivery service will soon reach 500 cities across the US - but that might just mean there are more pools to drop packages into. On Wednesday, ABC7 News Bay Area shared a video showing an Amazon delivery drone hovering over a customer's pool in Texas, before opening its hatch and plopping the [&#8230;]",
-      "topic": "Other",
-      "topicIcon": "📰",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Amazon's speedy drone delivery service will soon reach 500 cities across the US - but that might just mean there are mor..."
     },
     {
       "id": "a95e16e55f58",
@@ -413,7 +338,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-20T15:46:18Z",
-      "description": "Article URL: https://www.igalia.com/2026/08/19/Linux-72-Released.html Comments URL: https://news.ycombinator.com/item?id=49376265 Points: 157 # Comments: 52",
+      "description": "Article URL: https://www.igalia.com/2026/08/19/Linux-72-Released.html Comments URL: https://news.ycombinator.com/item?id=49376265 Points: 171 # Comments: 53",
       "topic": "Web/JavaScript",
       "topicIcon": "🌐",
       "importance": 4,
@@ -608,7 +533,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-20T19:22:24Z",
-      "description": "Article URL: https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/ Comments URL: https://news.ycombinator.com/item?id=49378957 Points: 91 # Comments: 105",
+      "description": "Article URL: https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/ Comments URL: https://news.ycombinator.com/item?id=49378957 Points: 167 # Comments: 182",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 4,
@@ -660,6 +585,21 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "An effort to transform the world of sports through steroid use doesn't exactly seem to be bearing financial fruit."
+    },
+    {
+      "id": "7a4a6fae5369",
+      "title": "ChatGPT can now send texts for you with new Apple Messages plug-in",
+      "link": "https://techcrunch.com/2026/08/20/chatgpt-can-now-send-texts-for-you-with-new-apple-messages-plugin/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-20T22:09:51Z",
+      "description": "Ever wanted someone else to do your texting for you? ChatGPT is being offered up as an automated text scribe via a new Apple Messages integration.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Ever wanted someone else to do your texting for you? ChatGPT is being offered up as an automated text scribe via a new A..."
     },
     {
       "id": "b9015a2c1d53",
@@ -750,6 +690,66 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Get 20% off with verified Dell promo code, plus today’s coupons for up to $600 off laptops, Alienware monitors, and all ..."
+    },
+    {
+      "id": "94ae8a452d16",
+      "title": "iRobot Promo Code: 15% Off",
+      "link": "https://www.wired.com/story/irobot-promo-code/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-08-20T05:00:00Z",
+      "description": "Save on iRobot products, including robot vacuums and mops designed to handle pet hair, daily messes, and hands-free cleaning with smart home integration.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Save on iRobot products, including robot vacuums and mops designed to handle pet hair, daily messes, and hands-free clea..."
+    },
+    {
+      "id": "774c934e6153",
+      "title": "H&R Block Coupon: 25% Off DIY + Tax Pro Assist",
+      "link": "https://www.wired.com/story/hr-block-coupon/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-08-20T05:00:00Z",
+      "description": "Save over 25% when you opt for H&R Block’s free online offering, plus a tax pro review.",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Save over 25% when you opt for H&R Block’s free online offering, plus a tax pro review."
+    },
+    {
+      "id": "bb6c4922c48e",
+      "title": "T-Mobile Promo Codes: 25% Off | August 2026",
+      "link": "https://www.wired.com/story/t-mobile-business-promo-code/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-08-20T05:00:00Z",
+      "description": "Discover how to save on T-Mobile Business Internet and phone plans, from sign-up perks and switching rewards to bundled offers and free lines.",
+      "topic": "Mobile",
+      "topicIcon": "📱",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Discover how to save on T-Mobile Business Internet and phone plans, from sign-up perks and switching rewards to bundled ..."
+    },
+    {
+      "id": "f1f498d524b6",
+      "title": "eBay Coupons: 20% Off in August 2026",
+      "link": "https://www.wired.com/story/ebay-coupon-code/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-08-20T05:00:00Z",
+      "description": "Save up to 60% on a selection of items at eBay, including electronics, home products, card games, car parts and more.",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Save up to 60% on a selection of items at eBay, including electronics, home products, card games, car parts and more."
     }
   ]
 }
