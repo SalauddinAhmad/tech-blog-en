@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-20T20:41:51+06:00",
+  "lastUpdated": "2026-08-20T21:39:37+06:00",
   "news": [
     {
       "id": "cb3b611319c0",
@@ -62,21 +62,6 @@
       "summary_en": "Hackers are targeting internet-connected Siemens controllers used in water facilities around the United States."
     },
     {
-      "id": "901712568f32",
-      "title": "DJI Osmo fans are breaking the shackles of its closed-source camera app",
-      "link": "https://www.theverge.com/tech/981852/osmosis-app-download-dji-osmo-camera-video-mimo-replacement",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-08-20T13:30:00Z",
-      "description": "Even if you love DJI's drones and cameras, you might not love the company's bloated closed-source apps that phone home to its cloud servers. But they're the only way to easily review, manage, and wirelessly download your pocket camera's footage on the go. Osmosis, a free open-source app built by DJI watcher Konrad Iturbe (with [&#8230;]",
-      "topic": "Security",
-      "topicIcon": "🔒",
-      "importance": 7,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Even if you love DJI's drones and cameras, you might not love the company's bloated closed-source apps that phone home t..."
-    },
-    {
       "id": "47420612f631",
       "title": "Meet the startup helping Wall Street put a price on AI compute",
       "link": "https://techcrunch.com/video/meet-the-startup-helping-wall-street-put-a-price-on-ai-compute/",
@@ -120,6 +105,21 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Seven months after Elon Musk announced that Tesla Robotaxis in Austin were operating without human safety monitors onboa..."
+    },
+    {
+      "id": "deee4cc2fe70",
+      "title": "Show HN: Open-source Stripe Connect alternative",
+      "link": "https://zoneless.com",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-08-20T14:38:45Z",
+      "description": "Hey, I'm Ben. I built Zoneless because I was paying so much to use Stripe Connect on my own marketplace. The fees were really, really bad, and it was also limiting in terms of the seller countries I could onboard. To give you an idea, I was paying around $9,000 per month in fees just to run payouts. Using Zoneless, that cost goes down to around $6. I've been using it personally for the past few months, and onboarded 5,000+ sellers and done 3,000+ payouts. 74% of new sellers on my marketplace choose Zoneless over Stripe, which is really interesting. I appreciate crypto and stablecoins are a bit of a touchy subject, but for this use case of sending global payouts cheaply, it's perfect. The project is open source with an Apache 2.0 licence, which means there's the benefit of no lock-in and no risk of your account getting flagged or shut down. It also has an almost identical API and dashboard to Stripe. Would love to hear any feedback you may have in the comments. Comments URL: https://news.ycombinator.com/item?id=49375244 Points: 14 # Comments: 4",
+      "topic": "Open Source",
+      "topicIcon": "🔓",
+      "importance": 6,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "Hey, I'm Ben. I built Zoneless because I was paying so much to use Stripe Connect on my own marketplace. The fees were r..."
     },
     {
       "id": "e46d998199a8",
@@ -338,7 +338,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-20T14:08:09Z",
-      "description": "Article URL: https://www.mikekasberg.com/blog/2026/08/19/hacking-with-claude-on-a-27-smart-watch.html Comments URL: https://news.ycombinator.com/item?id=49374772 Points: 11 # Comments: 3",
+      "description": "Article URL: https://www.mikekasberg.com/blog/2026/08/19/hacking-with-claude-on-a-27-smart-watch.html Comments URL: https://news.ycombinator.com/item?id=49374772 Points: 27 # Comments: 13",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 5,
@@ -683,13 +683,13 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-20T14:04:46Z",
-      "description": "Article URL: https://stwipe.com/ Comments URL: https://news.ycombinator.com/item?id=49374738 Points: 20 # Comments: 2",
+      "description": "Article URL: https://stwipe.com/ Comments URL: https://news.ycombinator.com/item?id=49374738 Points: 130 # Comments: 18",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 4,
       "reliability": 3,
       "summary_bn": "",
-      "summary_en": "Article URL: https://stwipe.com/ Comments URL: https://news.ycombinator.com/item?id=49374738 Points: 20 # Comments: 2"
+      "summary_en": "Article URL: https://stwipe.com/ Comments URL: https://news.ycombinator.com/item?id=49374738 Points: 130 # Comments: 18"
     },
     {
       "id": "0106bfa2fb7b",
@@ -707,49 +707,49 @@
       "summary_en": "A retractable screen, a huge heads-up display, and an optional 4-seat VIP interior."
     },
     {
-      "id": "e422db3581b7",
-      "title": "Google Pixel Watch 5 Review: More Health, More AI",
-      "link": "https://www.wired.com/review/google-pixel-watch-5/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-08-19T16:34:24Z",
-      "description": "With smarter gym tracking, new health alerts, and offline Gemini, the Pixel Watch 5 fine-tunes a winning formula—for a price.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 3,
-      "reliability": 4,
+      "id": "07b1b8e01597",
+      "title": "Show HN: Check if any of the $656M in unclaimed royalties at The MLC is yours",
+      "link": "https://pub.doub.ly/",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-08-20T14:38:28Z",
+      "description": "Hi HN, I built this. Quick background on why it exists: When music is streamed on digital streaming platforms (think Spotify, Apple Music, Pandora), there are two separate royalty streams: one for the recording, paid through your distributor (DistroKid, TuneCore, CDBaby), and one for the underlying work (generally known as publishing). The work side's mechanical royalties are collected by The MLC, a nonprofit that was created by the 2018 Music Modernization Act (MMA). If you haven't registered your songs with The MLC, there are issues with your metadata, or about half a dozen other reasons, that money will never reach you, it just collects in a big pile we call the \"black box\". That pile is big. The MLC's own dashboard currently shows over $656M is held (themlc.com/blanket-royalties), and the biggest problem is the MMA dictates that The MLC cannot hold that money indefinitely. At some point, by law, The MLC must distribute this big pile of cash, and since they don't know who it's supposed to go to, they pay it out through a process called \"market share\" (themlc.com/marketshare). Market share means they pay it out, pro-rata, to the artists, songwriters and publishers that are in the system, which in practice means the largest publishers collect most of the leftovers. This is slated to begin in January 2027 and will pay portions of the pool out monthly (themlc.com/unclaimed-accrued-royalties), as of this morning, the next 12 months of market share sums up to $76.61M, starting with $6.41M in January. Full disclosure: I run Doubly, which is an independent publishing administrator, so I have a commercial interest in this space. That being said, we're a team of two people and we don't have the bandwidth to directly assist the hundreds of thousands of artists and songwriters who are going to start losing this money in January 2027. That's why I built this self-service tool, no signup, no email, no paywall, the reports are completely actionable without needing anything from us. The tool: paste a Spotify artist link (or search for a Spotify artist by name). It pulls every release on that profile, checks each recording against The MLC's public bulk data, and tells you per-song whether it's fully claimed, partially claimed, registered but unmatched, or missing entirely. It then provides a link to the exact MLC tool that fixes each case. It also estimates the dollars stuck, as a rough range. Even if you're not an artist yourself, you probably know someone who is a musician, please share it with them. Thanks for your time and I'm happy to answer any questions about the industry as a whole, The MLC, the tech, anything really. Comments URL: https://news.ycombinator.com/item?id=49375237 Points: 9 # Comments: 1",
+      "topic": "Regulation",
+      "topicIcon": "⚖️",
+      "importance": 4,
+      "reliability": 3,
       "summary_bn": "",
-      "summary_en": "With smarter gym tracking, new health alerts, and offline Gemini, the Pixel Watch 5 fine-tunes a winning formula—for a p..."
+      "summary_en": "Hi HN, I built this. Quick background on why it exists: When music is streamed on digital streaming platforms (think Spo..."
     },
     {
-      "id": "da99b1575383",
-      "title": "AI was supposed to win people over by now — it hasn’t",
-      "link": "https://techcrunch.com/2026/08/19/ai-was-supposed-to-win-people-over-by-now-it-hasnt/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-19T19:11:40Z",
-      "description": "As AI becomes harder to avoid, consumers are growing more wary of the technology — and Silicon Valley is discovering that widespread adoption doesn’t necessarily lead to acceptance.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 3,
+      "id": "ff901fa3329f",
+      "title": "Amazon&#8217;s drone deliveries are landing in pools and ponds",
+      "link": "https://www.theverge.com/tech/982808/amazon-prime-air-drones-packages-pools-ponds",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-08-20T14:59:21Z",
+      "description": "Amazon's speedy drone delivery service will soon reach 500 cities across the US - but that might just mean there are more pools to drop packages into. On Wednesday, ABC7 News Bay Area shared a video showing an Amazon delivery drone hovering over a customer's pool in Texas, before opening its hatch and plopping the [&#8230;]",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 4,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "As AI becomes harder to avoid, consumers are growing more wary of the technology — and Silicon Valley is discovering tha..."
+      "summary_en": "Amazon's speedy drone delivery service will soon reach 500 cities across the US - but that might just mean there are mor..."
     },
     {
-      "id": "181708f14792",
-      "title": "I Saw the Future of AI in a Robot That Can Learn on the Spot",
-      "link": "https://www.wired.com/story/generalist-ai-robots-learn-like-clever-toddlers/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-08-19T19:30:00Z",
-      "description": "During a recent visit to Generalist AI, I watched a robotic arm improvise and use a banana as a tool.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 3,
+      "id": "a95e16e55f58",
+      "title": "LG’s 65-inch B6 OLED is $300 lower than its previous best price",
+      "link": "https://www.theverge.com/gadgets/982695/lg-b6-65-inch-oled-doordash-digital-game-deal-sale",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-08-20T15:08:38Z",
+      "description": "Best Buy has a whole host of LG products discounted for today’s Deal of the Day festivities, including laptops, home theater gear, and more. One that stood out is a price cut on LG’s 65-inch B6 OLED TV that’s deeper than I’ve seen before. At Best Buy, it’s $1,399.99 (originally $1,999.99) for the rest of [&#8230;]",
+      "topic": "Web/JavaScript",
+      "topicIcon": "🌐",
+      "importance": 4,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "During a recent visit to Generalist AI, I watched a robotic arm improvise and use a banana as a tool."
+      "summary_en": "Best Buy has a whole host of LG products discounted for today’s Deal of the Day festivities, including laptops, home the..."
     }
   ]
 }
