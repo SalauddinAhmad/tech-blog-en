@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-20T05:28:02+06:00",
+  "lastUpdated": "2026-08-20T07:38:35+06:00",
   "news": [
     {
       "id": "cb3b611319c0",
@@ -60,21 +60,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "SpaceX was reportedly in talks to buy AI coding startup Cognition. SpaceX has already acquired Cursor as it races to cat..."
-    },
-    {
-      "id": "aca7847db120",
-      "title": "Launch HN: OneCLI (YC S26) – OSS sandboxed agent harness for teams",
-      "link": "https://github.com/onecli/onecli",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-08-19T16:29:02Z",
-      "description": "Hi HN, Jonathan & Guy here from OneCLI, an agent harness built for teams, giving every employee a secured, sandboxed personal agent. Here’s what you can do with it: 1. get a sandboxed agent, with all the OneCLI capabilities in place like connect your GitHub account, Gmail, Notion, or Dropbox simply from the chat. 2. deterministic human in the loop approval in the chat itself for things that you need 100% control like sending an email or deleting the Linear ticket. 3. manage team policy in one place, enforced across every agent in the workspace 4. enjoy global connections at the team level, like shared LLM keys or service accounts Here’s a demo: https://www.youtube.com/watch?v=dlW-44ntpbE We started working on this by accident, even though our careers were in the security space. We were working on a devtool called ChartDB, an open-source DB tool. When OpenClaw took off back in January, we started using it to orchestrate agents on top of ChartDB. We quickly understood there is a big issue around auth. Agents need credentials to do real work, but to give them those secrets would not be the best idea. They keep them in their memory and also write them down to local files and their sessions as plain text. And we knew that agents can easily be fooled into giving up those API keys/secrets. So we needed some way to control the agent and stop prompt injections from tricking it into using its services for an attacker's benefit. We created OneCLI that started as a vault for AI Agents built in Rust. We found out that most of our demand for OneCLI came from autonomous agents like Hermes, OpenClaw and NanoClaw for individuals and teams. Users looked for useful agents that do things for the person who runs them with two missing parts: 1) managing secrets and permissions. 2) and for teams - multiplayer management. We decided to pivot and provide the agent itself as a harness for teams, to give each employee an agent. We saw that teams had to deal with setting up their own harness again and again, and basically as we already had the vault as a gateway. We got the idea to provide the missing piece of the agent management out of the box and open source it (Apache-2.0, with a small enterprise exception). We're open source first - the entire platform, not just a small portion of it like other agents, so companies can actually see the code, evaluate it, and trust it instead of taking our word for it. They run it isolated, in their own environment, fully under their control, at production quality, not a locked black box hosted somewhere else. That means the safety isn't just a promise, it's something they can verify themselves. Combined with real autonomy and least-privilege access, that's what makes it something a company can fully own and trust, not just adopt. We also approach this from a company perspective rather than an individual one. Our solution manages agents on behalf of each employee, wrapped in deterministic guardrails that company admins configure through centralized policies. For the agent engine itself we’re using jcode which is the core of the agent-loop. We found out that it improves the experience and makes the agent smarter and faster. Here’s how it works: It runs on infra you control. Fully open-source, self-host or cloud in minutes. The agent never holds a real secret. It gets a placeholder. The real credential is injected at the gateway, per request, after the call is authorized. It never enters the agent's context, memory, or logs. Enforcement outside the model. Prompts are suggestions. Policies defined by the org admin run at the network layer, outside the agent and the LLM. Block endpoints, rate limit per agent, require approval, scope per employee. The gateway decides. The agent can't bypass it. Isolated VM per agent. Own memory, own keys, own permissions. Blast radius is one agent. Speed of the Harness: Rust engine under the agent loop. Full identity trail. Every agent is bound to an employee. Every call logged with who it acted for and which policy allowed it. Some things people are doing with the platform include: - Managing their company life cycle entirely from the sales calls, to the product side automatically open tickets to the engineering teams, that would kick the development agents to deliver and ship to production. - Operational side, like automatically hygiene the CRM after calls, sourcing leads, book meetings and manage follow ups emails. - Some of our customers also doing their entire grocery shopping using those agents and send them to take care of their chores like ordering things online. About the team: Both founders come from cybersecurity backgrounds. Jonathan spent years at Axis Security building zero trust network access. The core idea is that you never trust the client. You decide exactly what a person can reach, and you enforce it outside of them, at the network layer, so it doesn't matter what the client tries to do. That's how every serious company gives access to humans today. Guy was the 1st employee in Argon security doing AppSec. We would love to hear your thoughts on the move, happy to get issues open to improve and get your agent to be powerful and secure - designed for teams, not just individuals. Comments URL: https://news.ycombinator.com/item?id=49363710 Points: 47 # Comments: 14",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 6,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Hi HN, Jonathan & Guy here from OneCLI, an agent harness built for teams, giving every employee a secured, sandboxed per..."
     },
     {
       "id": "47420612f631",
@@ -362,21 +347,6 @@
       "summary_en": "What originally looked like clutter turned out to be my new favorite gadget for organizing my family’s life."
     },
     {
-      "id": "dc563efebb79",
-      "title": "The founder’s secret weapon: Work at TechCrunch Disrupt 2026 and learn how the pros do it",
-      "link": "https://techcrunch.com/2026/08/19/the-founders-secret-weapon-work-at-techcrunch-disrupt-2026-and-learn-how-the-pros-do-it/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-19T14:02:00Z",
-      "description": "Volunteer at TechCrunch Disrupt 2026 and get an insider's view of how world-class tech events get built and more.",
-      "topic": "Other",
-      "topicIcon": "📰",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Volunteer at TechCrunch Disrupt 2026 and get an insider's view of how world-class tech events get built and more."
-    },
-    {
       "id": "c1c7e913fcf6",
       "title": "Amazon makes its AI-powered Alexa+ free on Fire TV, no Prime required",
       "link": "https://techcrunch.com/2026/08/19/amazon-makes-its-ai-powered-alexa-free-on-fire-tv-no-prime-required/",
@@ -503,7 +473,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-19T17:32:38Z",
-      "description": "Previously: Stripe will reportedly acquire OpenRouter for $7B+ https://news.ycombinator.com/item?id=49323381 Comments URL: https://news.ycombinator.com/item?id=49364559 Points: 536 # Comments: 293",
+      "description": "Previously: Stripe will reportedly acquire OpenRouter for $7B+ https://news.ycombinator.com/item?id=49323381 Comments URL: https://news.ycombinator.com/item?id=49364559 Points: 629 # Comments: 335",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 4,
@@ -647,6 +617,51 @@
       "summary_en": "The next-generation robotaxi, called the Waymo Ojai, is central to the company's push towards mass scale, and eventually..."
     },
     {
+      "id": "d204e23c78ce",
+      "title": "Elon Musk Is Expected to Point His Money Machine at Texas Politics",
+      "link": "https://www.wired.com/story/elon-musk-is-expected-to-point-his-money-machine-at-texas/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-08-19T23:00:00Z",
+      "description": "Sources tell WIRED that Elon Musk is expected to spend up to $200 million in the midterms. It could be a big boost for GOP Senate candidate Ken Paxton, who’s struggled to raise cash.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Sources tell WIRED that Elon Musk is expected to spend up to $200 million in the midterms. It could be a big boost for G..."
+    },
+    {
+      "id": "9c3212205413",
+      "title": "Stripe didn’t really buy OpenRouter because of the ‘singularity’",
+      "link": "https://techcrunch.com/2026/08/19/stripe-didnt-really-buy-openrouter-because-of-the-singularity/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-19T23:32:00Z",
+      "description": "What does a payments giant want with a startup that routes prompts between different AI models? Stripe says it's because of \"the singularity\" but it's really for a far more real and powerful reason.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "What does a payments giant want with a startup that routes prompts between different AI models? Stripe says it's because..."
+    },
+    {
+      "id": "60796a568a14",
+      "title": "NASA calls off mission to rescue Swift gamma-ray observatory",
+      "link": "https://arstechnica.com/space/2026/08/nasa-calls-off-mission-to-rescue-swift-gamma-ray-observatory/",
+      "source": "Ars Technica",
+      "sourceIcon": "ars",
+      "pubDate": "2026-08-20T00:18:48Z",
+      "description": "Without a rescue, NASA's Swift Observatory is expected to reenter the atmosphere later this year.",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 4,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "Without a rescue, NASA's Swift Observatory is expected to reenter the atmosphere later this year."
+    },
+    {
       "id": "60667d69976e",
       "title": "Uber Eats Promo Codes: $15 Off│August 2026",
       "link": "https://www.wired.com/story/uber-eats-promo-code/",
@@ -735,21 +750,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Save on Loop Earplugs, including Quiet 2 and popular gift sets for improved sleep, focus, and comfort."
-    },
-    {
-      "id": "1b9df521ba33",
-      "title": "Ulta Promo Codes: Up to 20% Off in August 2026",
-      "link": "https://www.wired.com/story/ulta-coupon/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-08-19T05:00:00Z",
-      "description": "Shop the latest beauty trends and save big using an Ulta promo code for beauty tech, makeup, and more.",
-      "topic": "Regulation",
-      "topicIcon": "⚖️",
-      "importance": 3,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Shop the latest beauty trends and save big using an Ulta promo code for beauty tech, makeup, and more."
     }
   ]
 }
