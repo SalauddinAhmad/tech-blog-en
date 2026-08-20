@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-21T02:35:35+06:00",
+  "lastUpdated": "2026-08-21T03:33:54+06:00",
   "news": [
     {
       "id": "3cbc91db826d",
@@ -8,7 +8,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-20T17:33:32Z",
-      "description": "Since April, I have been working with Sam Flynn ( https://drook.dev ) to make this balloon payload, UpLink. We did a similar launch last year with Hack Club but this was our first independent launch. UpLink was a 491 gram payload testing the insulation properties of 3D printing filaments, while also transmitting 320x240 images over a radio link -- up from the 18x10 images last year! This is a writeup on our engineering process, mistakes made, and learning experiences. It covers: - Custom electronics designed in KiCad - Firmware design - Results from the data we received on the ground - Image transmission - Launch day logistics, and where things went wrong All hardware, software, firmware, and CAD is available on GitHub: https://github.com/radeeyate/UpLink , licensed + certified as open source hardware: https://certification.oshwa.org/us002826.html If you just want to see the images received, I put up a gallery here: https://uplink.gallery.radi8.dev/ If you have any questions, comments, or concerns, let me know. I'm happy to answer anything! Comments URL: https://news.ycombinator.com/item?id=49377660 Points: 39 # Comments: 15",
+      "description": "Since April, I have been working with Sam Flynn ( https://drook.dev ) to make this balloon payload, UpLink. We did a similar launch last year with Hack Club but this was our first independent launch. UpLink was a 491 gram payload testing the insulation properties of 3D printing filaments, while also transmitting 320x240 images over a radio link -- up from the 18x10 images last year! This is a writeup on our engineering process, mistakes made, and learning experiences. It covers: - Custom electronics designed in KiCad - Firmware design - Results from the data we received on the ground - Image transmission - Launch day logistics, and where things went wrong All hardware, software, firmware, and CAD is available on GitHub: https://github.com/radeeyate/UpLink , licensed + certified as open source hardware: https://certification.oshwa.org/us002826.html If you just want to see the images received, I put up a gallery here: https://uplink.gallery.radi8.dev/ If you have any questions, comments, or concerns, let me know. I'm happy to answer anything! Comments URL: https://news.ycombinator.com/item?id=49377660 Points: 44 # Comments: 18",
       "topic": "Hardware",
       "topicIcon": "💻",
       "importance": 9,
@@ -62,21 +62,6 @@
       "summary_en": "This week on “Uncanny Valley,” Andy Greenberg discusses sitting in on a war game simulating a cyberattack from the Chine..."
     },
     {
-      "id": "deee4cc2fe70",
-      "title": "Show HN: Open-source Stripe Connect alternative",
-      "link": "https://zoneless.com",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-08-20T14:38:45Z",
-      "description": "Hey, I'm Ben. I built Zoneless because I was paying so much to use Stripe Connect on my own marketplace. The fees were really, really bad, and it was also limiting in terms of the seller countries I could onboard. To give you an idea, I was paying around $9,000 per month in fees just to run payouts. Using Zoneless, that cost goes down to around $6. I've been using it personally for the past few months, and onboarded 5,000+ sellers and done 3,000+ payouts. 74% of new sellers on my marketplace choose Zoneless over Stripe, which is really interesting. I appreciate crypto and stablecoins are a bit of a touchy subject, but for this use case of sending global payouts cheaply, it's perfect. The project is open source with an Apache 2.0 licence, which means there's the benefit of no lock-in and no risk of your account getting flagged or shut down. It also has an almost identical API and dashboard to Stripe. Would love to hear any feedback you may have in the comments. Comments URL: https://news.ycombinator.com/item?id=49375244 Points: 50 # Comments: 21",
-      "topic": "Open Source",
-      "topicIcon": "🔓",
-      "importance": 6,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Hey, I'm Ben. I built Zoneless because I was paying so much to use Stripe Connect on my own marketplace. The fees were r..."
-    },
-    {
       "id": "03ec0534faf8",
       "title": "Patreon launches 30 new creator features, including short-form Clips and revamped discovery",
       "link": "https://techcrunch.com/2026/08/20/patreon-launches-30-new-creator-features-including-short-form-clips-and-revamped-discovery/",
@@ -120,21 +105,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "ChatGPT and other AI models are now authoring and editing much of the new web."
-    },
-    {
-      "id": "b40c08e3efb5",
-      "title": "Show HN: Kandelo – a POSIX-compatible multi-process WASM kernel for the browser",
-      "link": "https://kandelo.dev/20260819-demo/",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-08-20T18:25:30Z",
-      "description": "Kandelo is an open-source, Wasm-based multi-process kernel that runs POSIX programs in browsers and Node.js. Kandelo is still experimental, but it already runs a substantial range of existing software. Do you have use cases for this? We are trying Kandelo as a new foundation for WordPress Playground which runs server-side WordPress entirely in the browser. Kandelo also looks promising as a sandbox for running agents in the the browser and on the command line. On the side, we've been playing with porting games and desktop environments and even compiling runnable programs within Kandelo. Yet it feels like there are many possibilities we haven't considered. How would you like to use something like this? Demos: Some notes: The demos have been tested in desktop browsers. Unfortunately, YMMV on mobile today. Some of the disk images are large (~50MB) and may take a while to boot initially. Main set, with Shell (bash, vim, nethack, and more), Nginx, PHP, WordPress, and Doom: https://kandelo.dev/20260819-demo/ LÖVE game engine: https://kandelo.dev/20260819-demo-love/ SNKRX running under LÖVE: https://kandelo.dev/20260819-demo-love/?vfs=love-snkrx-abi44... Commander Keen running in DOSBox: https://kandelo.dev/20260819-demo-dos/?demo=keen LXDE desktop PoC: https://kandelo.dev/20260819-demo-lxde/?demo=desktop-lxde Background I wanted an authentic OS-level foundation for running systems software in the browser and started this as a vibe-coded exploration. I figured it would end up being too slow and that we would have to offer many different ways to compromise default POSIX behavior to get anything usable. But after weeks of fighting agents, insisting on genuine POSIX compatibility as the default, I was surprised at how well the system worked without those compromises. Nginx, PHP, Python, Ruby, Redis, and even MariaDB were able to be built using the SDK with minimal hacks. Then we started porting games, having fun, and playing to see how far we could push it. Notes on architecture: There is a central, single-worker kernel, aiming to provide all supportable POSIX syscalls. Each process is a dedicated worker with independent memory. Each process thread is a dedicated worker that shares memory with threads from the same process. Syscalls are done with the process SharedArrayBuffer and the Atomics API. fork() is supported. The system is centered around virtual file system (VFS) images, and the VFS can contain lazy references to programs that may or may not be used. Vim is such a reference in the shell demo. On GitHub: https://github.com/Automattic/kandelo Comments URL: https://news.ycombinator.com/item?id=49378305 Points: 6 # Comments: 2",
-      "topic": "Web/JavaScript",
-      "topicIcon": "🌐",
-      "importance": 6,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Kandelo is an open-source, Wasm-based multi-process kernel that runs POSIX programs in browsers and Node.js. Kandelo is ..."
     },
     {
       "id": "7c5b609baa8a",
@@ -227,19 +197,19 @@
       "summary_en": "The yeetcycling math resembles asteroid mining in reverse."
     },
     {
-      "id": "cc6262844054",
-      "title": "Show HN: Omacosy – Omarchy-style tiling desktop for macOS, no SIP",
-      "link": "https://github.com/paulsp94/omacosy",
+      "id": "acf4cd572631",
+      "title": "Hacking with Claude on a $27 smart watch",
+      "link": "https://www.mikekasberg.com/blog/2026/08/19/hacking-with-claude-on-a-27-smart-watch.html",
       "source": "Hacker News",
       "sourceIcon": "hn",
-      "pubDate": "2026-08-20T14:12:08Z",
-      "description": "I have been using omarchy on my tower since nearly a year now, shortly after it was released first. I really love the experience I am having with it but I still use my macbook for daly work, so I wanted to recreate a similar experience on it. Thats why I created omacosy, a setup for tiling windows, custom menu bar, some themes from omarchy, focus follows mouse, focus rings around windwos, some mac flavors with trackpad events and a custom mission control overview for your workspaces. I used AeroSpace over yabai for the tiling window manager because I didnt wanted to compromise on SIP which is a mac security feature. It is supposed to be keyboard first like omarchy to move windows organize workspaces etc The setup runs around 157mb of ram and consists of AeroSpace, Karabiner (for the super key), and five small self build swift binaries. I am running it daily on my M1 max macbook, currently on macOS26. I havent tested it much on other macbooks or macOS versions. The install script creates a manifest file to backup what was installed before and what it installed itself, the uninstall script takes that into account to clean up the macbook to exactly the state it was in before. It needs quite some permissions for it sfunctionality which I layed our in the project readme. I wanted to be really transparent about which permissions it uses and for what reason. I would love to get some feedback or see people trying it out and hearing your opinion. Mostly about what still doesnt feel smooth in the experience or if you find any performance issues. Comments URL: https://news.ycombinator.com/item?id=49374830 Points: 31 # Comments: 24",
-      "topic": "Hardware",
-      "topicIcon": "💻",
+      "pubDate": "2026-08-20T14:08:09Z",
+      "description": "Article URL: https://www.mikekasberg.com/blog/2026/08/19/hacking-with-claude-on-a-27-smart-watch.html Comments URL: https://news.ycombinator.com/item?id=49374772 Points: 66 # Comments: 41",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
       "importance": 5,
       "reliability": 3,
       "summary_bn": "",
-      "summary_en": "I have been using omarchy on my tower since nearly a year now, shortly after it was released first. I really love the ex..."
+      "summary_en": "Article URL: https://www.mikekasberg.com/blog/2026/08/19/hacking-with-claude-on-a-27-smart-watch.html Comments URL: http..."
     },
     {
       "id": "f726cd00afef",
@@ -443,7 +413,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-20T15:46:18Z",
-      "description": "Article URL: https://www.igalia.com/2026/08/19/Linux-72-Released.html Comments URL: https://news.ycombinator.com/item?id=49376265 Points: 130 # Comments: 49",
+      "description": "Article URL: https://www.igalia.com/2026/08/19/Linux-72-Released.html Comments URL: https://news.ycombinator.com/item?id=49376265 Points: 157 # Comments: 52",
       "topic": "Web/JavaScript",
       "topicIcon": "🌐",
       "importance": 4,
@@ -632,6 +602,21 @@
       "summary_en": "Google is giving publishers a new button that lets readers make them a preferred source across Search, Discover, and Goo..."
     },
     {
+      "id": "02ed539fac86",
+      "title": "The August 17 outage, and the work ahead",
+      "link": "https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-08-20T19:22:24Z",
+      "description": "Article URL: https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/ Comments URL: https://news.ycombinator.com/item?id=49378957 Points: 91 # Comments: 105",
+      "topic": "Startups",
+      "topicIcon": "🚀",
+      "importance": 4,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "Article URL: https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/ Comments URL: https..."
+    },
+    {
       "id": "e70bc5b86969",
       "title": "The Genesis GV90 blows the bloody doors off what’s possible in EV design",
       "link": "https://www.theverge.com/transportation/982910/genesis-gv90-ev-suv-coach-door-heated-floor",
@@ -647,19 +632,34 @@
       "summary_en": "Genesis, Hyundai's luxury brand, just revealed its first full-size, three-row electric SUV for the US market, the GV90. ..."
     },
     {
-      "id": "e2e009a656a0",
-      "title": "Chewy Promo Codes: $20 Off August 2026",
-      "link": "https://www.wired.com/story/chewy-promo-code/",
+      "id": "d48ea2791e48",
+      "title": "The Galaxy’s Fastest Star Could Reveal the Secrets of a Supermassive Black Hole",
+      "link": "https://www.wired.com/story/the-galaxys-fastest-star-could-reveal-the-secrets-of-a-supermassive-black-hole/",
       "source": "Wired",
       "sourceIcon": "wired",
-      "pubDate": "2026-08-20T05:00:00Z",
-      "description": "Explore Chewy coupon codes for $30 off, $20 off your first order $49, 50% off pet food, and more August 2026 discounts.",
-      "topic": "Other",
-      "topicIcon": "📰",
-      "importance": 3,
+      "pubDate": "2026-08-20T20:58:39Z",
+      "description": "S301 passes close to Sagittarius A*—so close that its orbit could reveal how the black hole’s rotation warps the spacetime around it.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "Explore Chewy coupon codes for $30 off, $20 off your first order $49, 50% off pet food, and more August 2026 discounts."
+      "summary_en": "S301 passes close to Sagittarius A*—so close that its orbit could reveal how the black hole’s rotation warps the spaceti..."
+    },
+    {
+      "id": "bb6c40425152",
+      "title": "The Enhanced Games — tech’s steroid extravaganza — didn’t pay off, as company posts $60 million loss",
+      "link": "https://techcrunch.com/2026/08/20/the-enhanced-games-techs-steroid-extravaganza-didnt-pay-off-as-company-posts-60-million-loss/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-20T21:08:34Z",
+      "description": "An effort to transform the world of sports through steroid use doesn't exactly seem to be bearing financial fruit.",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "An effort to transform the world of sports through steroid use doesn't exactly seem to be bearing financial fruit."
     },
     {
       "id": "b9015a2c1d53",
@@ -722,6 +722,21 @@
       "summary_en": "Check out our deals for Nike this August 2026, including 15% off select purchases."
     },
     {
+      "id": "e2e009a656a0",
+      "title": "Chewy Promo Codes: $20 Off August 2026",
+      "link": "https://www.wired.com/story/chewy-promo-code/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-08-20T05:00:00Z",
+      "description": "Explore Chewy coupon codes for $30 off, $20 off your first order $49, 50% off pet food, and more August 2026 discounts.",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Explore Chewy coupon codes for $30 off, $20 off your first order $49, 50% off pet food, and more August 2026 discounts."
+    },
+    {
       "id": "fb8b65d838ae",
       "title": "Dell Coupon Codes: 20% Off for August 2026",
       "link": "https://www.wired.com/story/dell-coupon-code/",
@@ -735,21 +750,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Get 20% off with verified Dell promo code, plus today’s coupons for up to $600 off laptops, Alienware monitors, and all ..."
-    },
-    {
-      "id": "f1f498d524b6",
-      "title": "eBay Coupons: 20% Off in August 2026",
-      "link": "https://www.wired.com/story/ebay-coupon-code/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-08-20T05:00:00Z",
-      "description": "Save up to 60% on a selection of items at eBay, including electronics, home products, card games, car parts and more.",
-      "topic": "Other",
-      "topicIcon": "📰",
-      "importance": 3,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Save up to 60% on a selection of items at eBay, including electronics, home products, card games, car parts and more."
     }
   ]
 }
