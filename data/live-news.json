@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-21T00:49:10+06:00",
+  "lastUpdated": "2026-08-21T01:35:54+06:00",
   "news": [
     {
       "id": "3cbc91db826d",
@@ -8,7 +8,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-20T17:33:32Z",
-      "description": "Since April, I have been working with Sam Flynn ( https://drook.dev ) to make this balloon payload, UpLink. We did a similar launch last year with Hack Club but this was our first independent launch. UpLink was a 491 gram payload testing the insulation properties of 3D printing filaments, while also transmitting 320x240 images over a radio link -- up from the 18x10 images last year! This is a writeup on our engineering process, mistakes made, and learning experiences. It covers: - Custom electronics designed in KiCad - Firmware design - Results from the data we received on the ground - Image transmission - Launch day logistics, and where things went wrong All hardware, software, firmware, and CAD is available on GitHub: https://github.com/radeeyate/UpLink , licensed + certified as open source hardware: https://certification.oshwa.org/us002826.html If you just want to see the images received, I put up a gallery here: https://uplink.gallery.radi8.dev/ If you have any questions, comments, or concerns, let me know. I'm happy to answer anything! Comments URL: https://news.ycombinator.com/item?id=49377660 Points: 24 # Comments: 8",
+      "description": "Since April, I have been working with Sam Flynn ( https://drook.dev ) to make this balloon payload, UpLink. We did a similar launch last year with Hack Club but this was our first independent launch. UpLink was a 491 gram payload testing the insulation properties of 3D printing filaments, while also transmitting 320x240 images over a radio link -- up from the 18x10 images last year! This is a writeup on our engineering process, mistakes made, and learning experiences. It covers: - Custom electronics designed in KiCad - Firmware design - Results from the data we received on the ground - Image transmission - Launch day logistics, and where things went wrong All hardware, software, firmware, and CAD is available on GitHub: https://github.com/radeeyate/UpLink , licensed + certified as open source hardware: https://certification.oshwa.org/us002826.html If you just want to see the images received, I put up a gallery here: https://uplink.gallery.radi8.dev/ If you have any questions, comments, or concerns, let me know. I'm happy to answer anything! Comments URL: https://news.ycombinator.com/item?id=49377660 Points: 30 # Comments: 11",
       "topic": "Hardware",
       "topicIcon": "💻",
       "importance": 9,
@@ -68,7 +68,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-20T15:29:52Z",
-      "description": "Hi HN, we’re Yousef & Nour, founders of Vendo ( https://vendo.run ). Vendo lets users create new features inside the software they already use. A user describes the dashboard, workflow, or small app they need, and Vendo builds it on top of the product’s existing data, API, and interface. Demo: https://www.youtube.com/watch?v=VdpHehY64ls We built Vendo because every SaaS eventually faces the same problem: every customer needs something slightly different. One wants a new report and another needs a workflow that only makes sense for their team. These requests either sit on the roadmap, become one-off engineering work, or force the customer into spreadsheets and external tools. We wanted the user to be able to create the missing feature themselves, without leaving the product. Here is how it works: - npx vendo init reads the product's API surface, theme, routes, and more. These are used so that the apps Vendo creates (1) look on-brand and native and (2) have the ability to read data and perform actions directly through the company's API - When a user asks for a feature, we have a custom Vendo harness that writes a React component with a bunch of Vendo add-ons and guardrails (ex. ability to make calls to the host API + our component library). Every save is compiled, type-checked, run against real API responses, and rendered before the user sees it. We just released a benchmark and write-up here with more info for anyone interested: https://vendo.run/blog/generating-product-ui-measured - We use QuickJS to make sure that anything the agent creates is sandboxed and can't mess with the company's site. Vendo compiles the component and runs it with Preact inside a QuickJS VM with no access to the DOM, network, or clock. The VM returns a UI tree, which the host renders using the product’s registered components. When the user clicks something, QuickJS emits a tool call; the host executes it through Vendo’s guard and passes the result back into the same VM, preserving the screen’s local state. There's a lot of generative UI right now: streaming developer-written components into a chat (Vercel AI SDK, CopilotKit, Thesys), or rendering your app inside someone else's assistant (OpenAI Apps SDK, MCP Apps). We differ on two things. Vendo lives in your product and acts through your API as the signed-in user, so what it makes is durable: real apps users keep, pin, and run on triggers while they're away, and not components that are merely confined to a chat. Plus, it's not capped at putting together a bunch of prebuilt components: the agent can build arbitrary apps, from a quick dashboard out of your own components to real custom code running in a sandbox, and either way data only ever comes from tool calls to your API. Here are some things customers are using Vendo for today: - Letting their users create custom dashboards and reports. These are mainly UI-based and focused on letting the user see the exact graphs and metrics they care about - Letting their customers create recurring automations. A big thing as well that has been used for these automations is the fact that we connect to external connections, so users have been automating many of their inter-tool workflows (ex. an automation that sends a slack alert based off of something in the product) - B2B customers letting their customers customize the product with specific business logic. Often this is simple things like an extra field on a form, or an extra permission, but it is hard for a business to keep up with them otherwise. - Creating and sharing custom dashboards/apps across an organization. Since the apps Vendo creates are durable, they can be shared, reused, and forked (which can’t be done with many of the other in-chat generative UI solutions) We've spent a lot of time thinking about how AI and agents will change the way people consume software. We think the answer is personal(ized) software: you see the UI you need to see, you tell an agent exactly what you need, and the product molds to how you work. The key insights that have enabled the product to work are: - A rule in code always beats a rule in a prompt. - Invent as little syntax as possible. Generation got faster and more reliable when the output looked like what models already know (JSX-shaped markup) instead of a clever custom format. - Deterministic beats model wherever you can get away with it. Theme extraction is pure static analysis, and a remix starts as a copy of your component, no model call. Vendo is completely open-source (Apache-2.0) and can be self-hosted, so feel free to check out all the source code here: https://github.com/runvendo/vendo . Would love you to try it out and give us your feedback: https://docs.vendo.run/ . Or if you’re a company looking to embed Vendo in your product feel free to book a call here: https://cal.com/team/vendo/intro-call Comments URL: https://news.ycombinator.com/item?id=49376038 Points: 24 # Comments: 11",
+      "description": "Hi HN, we’re Yousef & Nour, founders of Vendo ( https://vendo.run ). Vendo lets users create new features inside the software they already use. A user describes the dashboard, workflow, or small app they need, and Vendo builds it on top of the product’s existing data, API, and interface. Demo: https://www.youtube.com/watch?v=VdpHehY64ls We built Vendo because every SaaS eventually faces the same problem: every customer needs something slightly different. One wants a new report and another needs a workflow that only makes sense for their team. These requests either sit on the roadmap, become one-off engineering work, or force the customer into spreadsheets and external tools. We wanted the user to be able to create the missing feature themselves, without leaving the product. Here is how it works: - npx vendo init reads the product's API surface, theme, routes, and more. These are used so that the apps Vendo creates (1) look on-brand and native and (2) have the ability to read data and perform actions directly through the company's API - When a user asks for a feature, we have a custom Vendo harness that writes a React component with a bunch of Vendo add-ons and guardrails (ex. ability to make calls to the host API + our component library). Every save is compiled, type-checked, run against real API responses, and rendered before the user sees it. We just released a benchmark and write-up here with more info for anyone interested: https://vendo.run/blog/generating-product-ui-measured - We use QuickJS to make sure that anything the agent creates is sandboxed and can't mess with the company's site. Vendo compiles the component and runs it with Preact inside a QuickJS VM with no access to the DOM, network, or clock. The VM returns a UI tree, which the host renders using the product’s registered components. When the user clicks something, QuickJS emits a tool call; the host executes it through Vendo’s guard and passes the result back into the same VM, preserving the screen’s local state. There's a lot of generative UI right now: streaming developer-written components into a chat (Vercel AI SDK, CopilotKit, Thesys), or rendering your app inside someone else's assistant (OpenAI Apps SDK, MCP Apps). We differ on two things. Vendo lives in your product and acts through your API as the signed-in user, so what it makes is durable: real apps users keep, pin, and run on triggers while they're away, and not components that are merely confined to a chat. Plus, it's not capped at putting together a bunch of prebuilt components: the agent can build arbitrary apps, from a quick dashboard out of your own components to real custom code running in a sandbox, and either way data only ever comes from tool calls to your API. Here are some things customers are using Vendo for today: - Letting their users create custom dashboards and reports. These are mainly UI-based and focused on letting the user see the exact graphs and metrics they care about - Letting their customers create recurring automations. A big thing as well that has been used for these automations is the fact that we connect to external connections, so users have been automating many of their inter-tool workflows (ex. an automation that sends a slack alert based off of something in the product) - B2B customers letting their customers customize the product with specific business logic. Often this is simple things like an extra field on a form, or an extra permission, but it is hard for a business to keep up with them otherwise. - Creating and sharing custom dashboards/apps across an organization. Since the apps Vendo creates are durable, they can be shared, reused, and forked (which can’t be done with many of the other in-chat generative UI solutions) We've spent a lot of time thinking about how AI and agents will change the way people consume software. We think the answer is personal(ized) software: you see the UI you need to see, you tell an agent exactly what you need, and the product molds to how you work. The key insights that have enabled the product to work are: - A rule in code always beats a rule in a prompt. - Invent as little syntax as possible. Generation got faster and more reliable when the output looked like what models already know (JSX-shaped markup) instead of a clever custom format. - Deterministic beats model wherever you can get away with it. Theme extraction is pure static analysis, and a remix starts as a copy of your component, no model call. Vendo is completely open-source (Apache-2.0) and can be self-hosted, so feel free to check out all the source code here: https://github.com/runvendo/vendo . Would love you to try it out and give us your feedback: https://docs.vendo.run/ . Or if you’re a company looking to embed Vendo in your product feel free to book a call here: https://cal.com/team/vendo/intro-call Comments URL: https://news.ycombinator.com/item?id=49376038 Points: 26 # Comments: 16",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 7,
@@ -98,7 +98,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-20T14:38:45Z",
-      "description": "Hey, I'm Ben. I built Zoneless because I was paying so much to use Stripe Connect on my own marketplace. The fees were really, really bad, and it was also limiting in terms of the seller countries I could onboard. To give you an idea, I was paying around $9,000 per month in fees just to run payouts. Using Zoneless, that cost goes down to around $6. I've been using it personally for the past few months, and onboarded 5,000+ sellers and done 3,000+ payouts. 74% of new sellers on my marketplace choose Zoneless over Stripe, which is really interesting. I appreciate crypto and stablecoins are a bit of a touchy subject, but for this use case of sending global payouts cheaply, it's perfect. The project is open source with an Apache 2.0 licence, which means there's the benefit of no lock-in and no risk of your account getting flagged or shut down. It also has an almost identical API and dashboard to Stripe. Would love to hear any feedback you may have in the comments. Comments URL: https://news.ycombinator.com/item?id=49375244 Points: 38 # Comments: 18",
+      "description": "Hey, I'm Ben. I built Zoneless because I was paying so much to use Stripe Connect on my own marketplace. The fees were really, really bad, and it was also limiting in terms of the seller countries I could onboard. To give you an idea, I was paying around $9,000 per month in fees just to run payouts. Using Zoneless, that cost goes down to around $6. I've been using it personally for the past few months, and onboarded 5,000+ sellers and done 3,000+ payouts. 74% of new sellers on my marketplace choose Zoneless over Stripe, which is really interesting. I appreciate crypto and stablecoins are a bit of a touchy subject, but for this use case of sending global payouts cheaply, it's perfect. The project is open source with an Apache 2.0 licence, which means there's the benefit of no lock-in and no risk of your account getting flagged or shut down. It also has an almost identical API and dashboard to Stripe. Would love to hear any feedback you may have in the comments. Comments URL: https://news.ycombinator.com/item?id=49375244 Points: 47 # Comments: 19",
       "topic": "Open Source",
       "topicIcon": "🔓",
       "importance": 6,
@@ -150,6 +150,36 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "ChatGPT and other AI models are now authoring and editing much of the new web."
+    },
+    {
+      "id": "b40c08e3efb5",
+      "title": "Show HN: Kandelo – a POSIX-compatible multi-process WASM kernel for the browser",
+      "link": "https://kandelo.dev/20260819-demo/",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-08-20T18:25:30Z",
+      "description": "Kandelo is an open-source, Wasm-based multi-process kernel that runs POSIX programs in browsers and Node.js. Kandelo is still experimental, but it already runs a substantial range of existing software. Do you have use cases for this? We are trying Kandelo as a new foundation for WordPress Playground which runs server-side WordPress entirely in the browser. Kandelo also looks promising as a sandbox for running agents in the the browser and on the command line. On the side, we've been playing with porting games and desktop environments and even compiling runnable programs within Kandelo. Yet it feels like there are many possibilities we haven't considered. How would you like to use something like this? Demos: Some notes: The demos have been tested in desktop browsers. Unfortunately, YMMV on mobile today. Some of the disk images are large (~50MB) and may take a while to boot initially. Main set, with Shell (bash, vim, nethack, and more), Nginx, PHP, WordPress, and Doom: https://kandelo.dev/20260819-demo/ LÖVE game engine: https://kandelo.dev/20260819-demo-love/ SNKRX running under LÖVE: https://kandelo.dev/20260819-demo-love/?vfs=love-snkrx-abi44... Commander Keen running in DOSBox: https://kandelo.dev/20260819-demo-dos/?demo=keen LXDE desktop PoC: https://kandelo.dev/20260819-demo-lxde/?demo=desktop-lxde Background I wanted an authentic OS-level foundation for running systems software in the browser and started this as a vibe-coded exploration. I figured it would end up being too slow and that we would have to offer many different ways to compromise default POSIX behavior to get anything usable. But after weeks of fighting agents, insisting on genuine POSIX compatibility as the default, I was surprised at how well the system worked without those compromises. Nginx, PHP, Python, Ruby, Redis, and even MariaDB were able to be built using the SDK with minimal hacks. Then we started porting games, having fun, and playing to see how far we could push it. Notes on architecture: There is a central, single-worker kernel, aiming to provide all supportable POSIX syscalls. Each process is a dedicated worker with independent memory. Each process thread is a dedicated worker that shares memory with threads from the same process. Syscalls are done with the process SharedArrayBuffer and the Atomics API. fork() is supported. The system is centered around virtual file system (VFS) images, and the VFS can contain lazy references to programs that may or may not be used. Vim is such a reference in the shell demo. On GitHub: https://github.com/Automattic/kandelo Comments URL: https://news.ycombinator.com/item?id=49378305 Points: 6 # Comments: 2",
+      "topic": "Web/JavaScript",
+      "topicIcon": "🌐",
+      "importance": 6,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "Kandelo is an open-source, Wasm-based multi-process kernel that runs POSIX programs in browsers and Node.js. Kandelo is ..."
+    },
+    {
+      "id": "3f3d7cf4d8b7",
+      "title": "Castelion hits $13B valuation to mass-produce hypersonic missiles",
+      "link": "https://techcrunch.com/2026/08/20/castelion-hits-13b-valuation-to-mass-produce-hypersonic-missiles/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-20T19:01:41Z",
+      "description": "The $1 billion Series C was co-led by Andreessen Horowitz, Carlyle, and JP Morgan Chase.",
+      "topic": "Startups",
+      "topicIcon": "🚀",
+      "importance": 6,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "The $1 billion Series C was co-led by Andreessen Horowitz, Carlyle, and JP Morgan Chase."
     },
     {
       "id": "931a799f039f",
@@ -257,28 +287,13 @@
       "summary_en": "The yeetcycling math resembles asteroid mining in reverse."
     },
     {
-      "id": "acf4cd572631",
-      "title": "Hacking with Claude on a $27 Smart Watch",
-      "link": "https://www.mikekasberg.com/blog/2026/08/19/hacking-with-claude-on-a-27-smart-watch.html",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-08-20T14:08:09Z",
-      "description": "Article URL: https://www.mikekasberg.com/blog/2026/08/19/hacking-with-claude-on-a-27-smart-watch.html Comments URL: https://news.ycombinator.com/item?id=49374772 Points: 59 # Comments: 33",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 5,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://www.mikekasberg.com/blog/2026/08/19/hacking-with-claude-on-a-27-smart-watch.html Comments URL: http..."
-    },
-    {
       "id": "cc6262844054",
       "title": "Show HN: Omacosy – Omarchy-style tiling desktop for macOS, no SIP",
       "link": "https://github.com/paulsp94/omacosy",
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-20T14:12:08Z",
-      "description": "I have been using omarchy on my tower since nearly a year now, shortly after it was released first. I really love the experience I am having with it but I still use my macbook for daly work, so I wanted to recreate a similar experience on it. Thats why I created omacosy, a setup for tiling windows, custom menu bar, some themes from omarchy, focus follows mouse, focus rings around windwos, some mac flavors with trackpad events and a custom mission control overview for your workspaces. I used AeroSpace over yabai for the tiling window manager because I didnt wanted to compromise on SIP which is a mac security feature. It is supposed to be keyboard first like omarchy to move windows organize workspaces etc The setup runs around 157mb of ram and consists of AeroSpace, Karabiner (for the super key), and five small self build swift binaries. I am running it daily on my M1 max macbook, currently on macOS26. I havent tested it much on other macbooks or macOS versions. The install script creates a manifest file to backup what was installed before and what it installed itself, the uninstall script takes that into account to clean up the macbook to exactly the state it was in before. It needs quite some permissions for it sfunctionality which I layed our in the project readme. I wanted to be really transparent about which permissions it uses and for what reason. I would love to get some feedback or see people trying it out and hearing your opinion. Mostly about what still doesnt feel smooth in the experience or if you find any performance issues. Comments URL: https://news.ycombinator.com/item?id=49374830 Points: 13 # Comments: 10",
+      "description": "I have been using omarchy on my tower since nearly a year now, shortly after it was released first. I really love the experience I am having with it but I still use my macbook for daly work, so I wanted to recreate a similar experience on it. Thats why I created omacosy, a setup for tiling windows, custom menu bar, some themes from omarchy, focus follows mouse, focus rings around windwos, some mac flavors with trackpad events and a custom mission control overview for your workspaces. I used AeroSpace over yabai for the tiling window manager because I didnt wanted to compromise on SIP which is a mac security feature. It is supposed to be keyboard first like omarchy to move windows organize workspaces etc The setup runs around 157mb of ram and consists of AeroSpace, Karabiner (for the super key), and five small self build swift binaries. I am running it daily on my M1 max macbook, currently on macOS26. I havent tested it much on other macbooks or macOS versions. The install script creates a manifest file to backup what was installed before and what it installed itself, the uninstall script takes that into account to clean up the macbook to exactly the state it was in before. It needs quite some permissions for it sfunctionality which I layed our in the project readme. I wanted to be really transparent about which permissions it uses and for what reason. I would love to get some feedback or see people trying it out and hearing your opinion. Mostly about what still doesnt feel smooth in the experience or if you find any performance issues. Comments URL: https://news.ycombinator.com/item?id=49374830 Points: 22 # Comments: 16",
       "topic": "Hardware",
       "topicIcon": "💻",
       "importance": 5,
@@ -317,19 +332,19 @@
       "summary_en": "The app lets users create six-second looping videos and hosts more than two million classic videos."
     },
     {
-      "id": "bc985bdf796e",
-      "title": "Waymo’s cheaper, next-gen robotaxi is now open to all riders in these three cities",
-      "link": "https://techcrunch.com/2026/08/19/waymos-cheaper-next-gen-robotaxi-is-now-open-to-all-riders-in-these-three-cities/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-19T22:25:01Z",
-      "description": "The next-generation robotaxi, called the Waymo Ojai, is central to the company's push towards mass scale, and eventually, profitability.",
+      "id": "1ae694f2007a",
+      "title": "Roblox must make changes after failing to block adults creeping on kids",
+      "link": "https://arstechnica.com/tech-policy/2026/08/weak-roblox-safeguards-failed-to-stop-adults-contacting-kids-regulator-says/",
+      "source": "Ars Technica",
+      "sourceIcon": "ars",
+      "pubDate": "2026-08-20T17:14:08Z",
+      "description": "Roblox is first platform to submit to independent audits under the Online Safety Act.",
       "topic": "AI/ML",
       "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
+      "importance": 5,
+      "reliability": 5,
       "summary_bn": "",
-      "summary_en": "The next-generation robotaxi, called the Waymo Ojai, is central to the company's push towards mass scale, and eventually..."
+      "summary_en": "Roblox is first platform to submit to independent audits under the Online Safety Act."
     },
     {
       "id": "d204e23c78ce",
@@ -347,21 +362,6 @@
       "summary_en": "Sources tell WIRED that Elon Musk is expected to spend up to $200 million in the midterms. It could be a big boost for G..."
     },
     {
-      "id": "9c3212205413",
-      "title": "Stripe didn’t really buy OpenRouter because of the ‘singularity’",
-      "link": "https://techcrunch.com/2026/08/19/stripe-didnt-really-buy-openrouter-because-of-the-singularity/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-19T23:32:00Z",
-      "description": "What does a payments giant want with a startup that routes prompts between different AI models? Stripe says it's because of \"the singularity\" but it's really for a far more real and powerful reason.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "What does a payments giant want with a startup that routes prompts between different AI models? Stripe says it's because..."
-    },
-    {
       "id": "60796a568a14",
       "title": "NASA calls off mission to rescue Swift gamma-ray observatory",
       "link": "https://arstechnica.com/space/2026/08/nasa-calls-off-mission-to-rescue-swift-gamma-ray-observatory/",
@@ -375,21 +375,6 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "Without a rescue, NASA's Swift Observatory is expected to reenter the atmosphere later this year."
-    },
-    {
-      "id": "bb72d97feb83",
-      "title": "Binance now lets AI agents trade, but keeping them in check is largely up to users",
-      "link": "https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-20T09:30:00Z",
-      "description": "Binance's Agent OS works with tools such as ChatGPT, Claude Code, and Cursor.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Binance's Agent OS works with tools such as ChatGPT, Claude Code, and Cursor."
     },
     {
       "id": "421ea63b4bc0",
@@ -482,21 +467,6 @@
       "summary_en": "A retractable screen, a huge heads-up display, and an optional 4-seat VIP interior."
     },
     {
-      "id": "07b1b8e01597",
-      "title": "Show HN: Check if any of the $656M in unclaimed royalties at The MLC is yours",
-      "link": "https://pub.doub.ly/",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-08-20T14:38:28Z",
-      "description": "Hi HN, I built this. Quick background on why it exists: When music is streamed on digital streaming platforms (think Spotify, Apple Music, Pandora), there are two separate royalty streams: one for the recording, paid through your distributor (DistroKid, TuneCore, CDBaby), and one for the underlying work (generally known as publishing). The work side's mechanical royalties are collected by The MLC, a nonprofit that was created by the 2018 Music Modernization Act (MMA). If you haven't registered your songs with The MLC, there are issues with your metadata, or about half a dozen other reasons, that money will never reach you, it just collects in a big pile we call the \"black box\". That pile is big. The MLC's own dashboard currently shows over $656M is held (themlc.com/blanket-royalties), and the biggest problem is the MMA dictates that The MLC cannot hold that money indefinitely. At some point, by law, The MLC must distribute this big pile of cash, and since they don't know who it's supposed to go to, they pay it out through a process called \"market share\" (themlc.com/marketshare). Market share means they pay it out, pro-rata, to the artists, songwriters and publishers that are in the system, which in practice means the largest publishers collect most of the leftovers. This is slated to begin in January 2027 and will pay portions of the pool out monthly (themlc.com/unclaimed-accrued-royalties), as of this morning, the next 12 months of market share sums up to $76.61M, starting with $6.41M in January. Full disclosure: I run Doubly, which is an independent publishing administrator, so I have a commercial interest in this space. That being said, we're a team of two people and we don't have the bandwidth to directly assist the hundreds of thousands of artists and songwriters who are going to start losing this money in January 2027. That's why I built this self-service tool, no signup, no email, no paywall, the reports are completely actionable without needing anything from us. The tool: paste a Spotify artist link (or search for a Spotify artist by name). It pulls every release on that profile, checks each recording against The MLC's public bulk data, and tells you per-song whether it's fully claimed, partially claimed, registered but unmatched, or missing entirely. It then provides a link to the exact MLC tool that fixes each case. It also estimates the dollars stuck, as a rough range. Even if you're not an artist yourself, you probably know someone who is a musician, please share it with them. Thanks for your time and I'm happy to answer any questions about the industry as a whole, The MLC, the tech, anything really. Comments URL: https://news.ycombinator.com/item?id=49375237 Points: 47 # Comments: 24",
-      "topic": "Regulation",
-      "topicIcon": "⚖️",
-      "importance": 4,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Hi HN, I built this. Quick background on why it exists: When music is streamed on digital streaming platforms (think Spo..."
-    },
-    {
       "id": "ff901fa3329f",
       "title": "Amazon&#8217;s drone deliveries are landing in pools and ponds",
       "link": "https://www.theverge.com/tech/982808/amazon-prime-air-drones-packages-pools-ponds",
@@ -548,7 +518,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-20T15:46:18Z",
-      "description": "Article URL: https://www.igalia.com/2026/08/19/Linux-72-Released.html Comments URL: https://news.ycombinator.com/item?id=49376265 Points: 74 # Comments: 19",
+      "description": "Article URL: https://www.igalia.com/2026/08/19/Linux-72-Released.html Comments URL: https://news.ycombinator.com/item?id=49376265 Points: 100 # Comments: 40",
       "topic": "Web/JavaScript",
       "topicIcon": "🌐",
       "importance": 4,
@@ -677,34 +647,49 @@
       "summary_en": "Linkdaze's smart digital calendar stands out for not putting its features behind a paywall, including an AI meal planner..."
     },
     {
-      "id": "181708f14792",
-      "title": "I Saw the Future of AI in a Robot That Can Learn on the Spot",
-      "link": "https://www.wired.com/story/generalist-ai-robots-learn-like-clever-toddlers/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-08-19T19:30:00Z",
-      "description": "During a recent visit to Generalist AI, I watched a robotic arm improvise and use a banana as a tool.",
+      "id": "b971cc0b07db",
+      "title": "Mark Zuckerberg bought an Irish castle",
+      "link": "https://www.theverge.com/tech/982955/meta-mark-zuckerberg-strancally-castle-ireland",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-08-20T18:50:14Z",
+      "description": "Meta CEO Mark Zuckerberg now owns an actual castle. Zuckerberg and his wife Priscilla Chan bought Strancally Castle and its 440-acre estate in Ireland \"several weeks ago,\" according to The Irish Times. While the exact price of the purchase is unclear, the family could have paid \"anywhere between &#8364;20 million and &#8364;30 million\" for the [&#8230;]",
       "topic": "AI/ML",
       "topicIcon": "🤖",
-      "importance": 3,
+      "importance": 4,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "During a recent visit to Generalist AI, I watched a robotic arm improvise and use a banana as a tool."
+      "summary_en": "Meta CEO Mark Zuckerberg now owns an actual castle. Zuckerberg and his wife Priscilla Chan bought Strancally Castle and ..."
     },
     {
-      "id": "e2e009a656a0",
-      "title": "Chewy Promo Codes: $20 Off August 2026",
-      "link": "https://www.wired.com/story/chewy-promo-code/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-08-20T05:00:00Z",
-      "description": "Explore Chewy coupon codes for $30 off, $20 off your first order $49, 50% off pet food, and more August 2026 discounts.",
-      "topic": "Other",
-      "topicIcon": "📰",
-      "importance": 3,
+      "id": "4065cdd41c2d",
+      "title": "Runlayer, Rippling drop lawsuits. But the brouhaha is still a cautionary tale for founders.",
+      "link": "https://techcrunch.com/2026/08/20/runlayer-rippling-drop-lawsuits-but-the-brouhaha-is-still-a-cautionary-tale-for-founders/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-20T19:15:05Z",
+      "description": "Runlayer and Rippling have dropped their lawsuits. No money was paid. Rippling celebrated by releasing a competing product.",
+      "topic": "Regulation",
+      "topicIcon": "⚖️",
+      "importance": 4,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "Explore Chewy coupon codes for $30 off, $20 off your first order $49, 50% off pet food, and more August 2026 discounts."
+      "summary_en": "Runlayer and Rippling have dropped their lawsuits. No money was paid. Rippling celebrated by releasing a competing produ..."
+    },
+    {
+      "id": "f5c14fa58d07",
+      "title": "Google gives publishers a new way to fight AI-driven traffic losses",
+      "link": "https://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-20T19:18:21Z",
+      "description": "Google is giving publishers a new button that lets readers make them a preferred source across Search, Discover, and Google News, potentially boosting their traffic as AI search sends fewer clicks to the web.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Google is giving publishers a new button that lets readers make them a preferred source across Search, Discover, and Goo..."
     },
     {
       "id": "b9015a2c1d53",
@@ -750,6 +735,21 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Enjoy big savings on your next adventure with our Booking.com promo codes, coupons, and handpicked travel deals."
+    },
+    {
+      "id": "bd8ddd7b8897",
+      "title": "Nike Promo Codes and Discounts: 30% for August 2026",
+      "link": "https://www.wired.com/story/nike-promo-code/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-08-20T05:00:00Z",
+      "description": "Check out our deals for Nike this August 2026, including 15% off select purchases.",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Check out our deals for Nike this August 2026, including 15% off select purchases."
     }
   ]
 }
