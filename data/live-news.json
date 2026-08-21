@@ -1,6 +1,21 @@
 {
-  "lastUpdated": "2026-08-21T18:59:24+06:00",
+  "lastUpdated": "2026-08-21T19:53:30+06:00",
   "news": [
+    {
+      "id": "589ae77c33df",
+      "title": "Private equity firm Apollo confirms data breach amid hacking wave targeting financial giants",
+      "link": "https://techcrunch.com/2026/08/21/private-equity-firm-apollo-confirms-data-breach-amid-hacking-wave-targeting-financial-giants/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-21T13:35:23Z",
+      "description": "The private equity giant confirms a breach, weeks after Google researchers said hackers were targeting financial companies.",
+      "topic": "Security",
+      "topicIcon": "🔒",
+      "importance": 10,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "The private equity giant confirms a breach, weeks after Google researchers said hackers were targeting financial compani..."
+    },
     {
       "id": "d1c9793a08a7",
       "title": "Europe cancels planned upgrades for Ariane 6 rocket",
@@ -15,21 +30,6 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "Arianespace hasn’t publicly disclosed the cost for an Ariane 6 launch."
-    },
-    {
-      "id": "cd5d17946e93",
-      "title": "Launch HN: Vendo (YC S26) – Let users build features on top of your product",
-      "link": "https://github.com/runvendo/vendo",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-08-20T15:29:52Z",
-      "description": "Hi HN, we’re Yousef & Nour, founders of Vendo ( https://vendo.run ). Vendo lets users create new features inside the software they already use. A user describes the dashboard, workflow, or small app they need, and Vendo builds it on top of the product’s existing data, API, and interface. Demo: https://www.youtube.com/watch?v=VdpHehY64ls We built Vendo because every SaaS eventually faces the same problem: every customer needs something slightly different. One wants a new report and another needs a workflow that only makes sense for their team. These requests either sit on the roadmap, become one-off engineering work, or force the customer into spreadsheets and external tools. We wanted the user to be able to create the missing feature themselves, without leaving the product. Here is how it works: - npx vendo init reads the product's API surface, theme, routes, and more. These are used so that the apps Vendo creates (1) look on-brand and native and (2) have the ability to read data and perform actions directly through the company's API - When a user asks for a feature, we have a custom Vendo harness that writes a React component with a bunch of Vendo add-ons and guardrails (ex. ability to make calls to the host API + our component library). Every save is compiled, type-checked, run against real API responses, and rendered before the user sees it. We just released a benchmark and write-up here with more info for anyone interested: https://vendo.run/blog/generating-product-ui-measured - We use QuickJS to make sure that anything the agent creates is sandboxed and can't mess with the company's site. Vendo compiles the component and runs it with Preact inside a QuickJS VM with no access to the DOM, network, or clock. The VM returns a UI tree, which the host renders using the product’s registered components. When the user clicks something, QuickJS emits a tool call; the host executes it through Vendo’s guard and passes the result back into the same VM, preserving the screen’s local state. There's a lot of generative UI right now: streaming developer-written components into a chat (Vercel AI SDK, CopilotKit, Thesys), or rendering your app inside someone else's assistant (OpenAI Apps SDK, MCP Apps). We differ on two things. Vendo lives in your product and acts through your API as the signed-in user, so what it makes is durable: real apps users keep, pin, and run on triggers while they're away, and not components that are merely confined to a chat. Plus, it's not capped at putting together a bunch of prebuilt components: the agent can build arbitrary apps, from a quick dashboard out of your own components to real custom code running in a sandbox, and either way data only ever comes from tool calls to your API. Here are some things customers are using Vendo for today: - Letting their users create custom dashboards and reports. These are mainly UI-based and focused on letting the user see the exact graphs and metrics they care about - Letting their customers create recurring automations. A big thing as well that has been used for these automations is the fact that we connect to external connections, so users have been automating many of their inter-tool workflows (ex. an automation that sends a slack alert based off of something in the product) - B2B customers letting their customers customize the product with specific business logic. Often this is simple things like an extra field on a form, or an extra permission, but it is hard for a business to keep up with them otherwise. - Creating and sharing custom dashboards/apps across an organization. Since the apps Vendo creates are durable, they can be shared, reused, and forked (which can’t be done with many of the other in-chat generative UI solutions) We've spent a lot of time thinking about how AI and agents will change the way people consume software. We think the answer is personal(ized) software: you see the UI you need to see, you tell an agent exactly what you need, and the product molds to how you work. The key insights that have enabled the product to work are: - A rule in code always beats a rule in a prompt. - Invent as little syntax as possible. Generation got faster and more reliable when the output looked like what models already know (JSX-shaped markup) instead of a clever custom format. - Deterministic beats model wherever you can get away with it. Theme extraction is pure static analysis, and a remix starts as a copy of your component, no model call. Vendo is completely open-source (Apache-2.0) and can be self-hosted, so feel free to check out all the source code here: https://github.com/runvendo/vendo . Would love you to try it out and give us your feedback: https://docs.vendo.run/ . Or if you’re a company looking to embed Vendo in your product feel free to book a call here: https://cal.com/team/vendo/intro-call Comments URL: https://news.ycombinator.com/item?id=49376038 Points: 47 # Comments: 20",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 7,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Hi HN, we’re Yousef & Nour, founders of Vendo ( https://vendo.run ). Vendo lets users create new features inside the sof..."
     },
     {
       "id": "19be897f2516",
@@ -75,6 +75,21 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "Taiwan's effort to develop its own satellite launcher hit a setback this week."
+    },
+    {
+      "id": "d2410a855d0f",
+      "title": "Senator asks US government watchdog to review how feds use hacking tools",
+      "link": "https://techcrunch.com/2026/08/21/senator-asks-us-federal-watchdog-to-review-how-feds-use-hacking-tools/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-21T13:05:00Z",
+      "description": "Senator Ron Wyden sent a letter to the U.S. federal watchdog requesting a comprehensive review of how the FBI, DEA, ICE's HSI, and the Secret Service use hacking tools and spyware against Americans.",
+      "topic": "Security",
+      "topicIcon": "🔒",
+      "importance": 7,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Senator Ron Wyden sent a letter to the U.S. federal watchdog requesting a comprehensive review of how the FBI, DEA, ICE'..."
     },
     {
       "id": "632d085c0041",
@@ -137,36 +152,6 @@
       "summary_en": "Ars looks at Zuckoff, the latest free app detecting Meta AI glasses amid privacy backlash."
     },
     {
-      "id": "bb7f10ed90dc",
-      "title": "Grok exfiltrates user data when malicious instructions are encrypted",
-      "link": "https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/",
-      "source": "Ars Technica",
-      "sourceIcon": "ars",
-      "pubDate": "2026-08-20T13:00:35Z",
-      "description": "Cryptographic Context Injection is only the latest way to break an LLM safety guardrail.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 5,
-      "reliability": 5,
-      "summary_bn": "",
-      "summary_en": "Cryptographic Context Injection is only the latest way to break an LLM safety guardrail."
-    },
-    {
-      "id": "d1a11bd35c72",
-      "title": "Reverse-lookup service exposed millions of photos of people’s faces",
-      "link": "https://arstechnica.com/gadgets/2026/08/reverse-lookup-service-exposed-millions-of-photos-of-peoples-faces/",
-      "source": "Ars Technica",
-      "sourceIcon": "ars",
-      "pubDate": "2026-08-20T13:29:54Z",
-      "description": "People-search tool ClarityCheck left database containing more than 9M image files exposed.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 5,
-      "reliability": 5,
-      "summary_bn": "",
-      "summary_en": "People-search tool ClarityCheck left database containing more than 9M image files exposed."
-    },
-    {
       "id": "abf32a0b7556",
       "title": "SpaceX’s orbital data centers would create a new category of e-waste",
       "link": "https://arstechnica.com/science/2026/08/spacexs-orbital-data-centers-would-create-a-new-category-of-e-waste/",
@@ -180,21 +165,6 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "The yeetcycling math resembles asteroid mining in reverse."
-    },
-    {
-      "id": "f726cd00afef",
-      "title": "Ramp launches its own AI model router, called Router",
-      "link": "https://techcrunch.com/2026/08/20/ramp-launches-its-own-ai-model-router-called-router/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-20T16:46:00Z",
-      "description": "Ramp has launched its own AI model routing service, dubbed Router, that lets users and companies use and switch between various large language models via an API.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 5,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Ramp has launched its own AI model routing service, dubbed Router, that lets users and companies use and switch between ..."
     },
     {
       "id": "75ecfe43cfa5",
@@ -308,43 +278,13 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-20T15:46:18Z",
-      "description": "Article URL: https://www.igalia.com/2026/08/19/Linux-72-Released.html Comments URL: https://news.ycombinator.com/item?id=49376265 Points: 271 # Comments: 114",
+      "description": "Article URL: https://www.igalia.com/2026/08/19/Linux-72-Released.html Comments URL: https://news.ycombinator.com/item?id=49376265 Points: 274 # Comments: 118",
       "topic": "Web/JavaScript",
       "topicIcon": "🌐",
       "importance": 4,
       "reliability": 3,
       "summary_bn": "",
       "summary_en": "Article URL: https://www.igalia.com/2026/08/19/Linux-72-Released.html Comments URL: https://news.ycombinator.com/item?id..."
-    },
-    {
-      "id": "8b34b3149ae6",
-      "title": "Meta brings Pocket, an app that lets you vibe-code and share games, to US users",
-      "link": "https://techcrunch.com/2026/08/20/meta-brings-pocket-an-app-that-lets-you-vibe-code-and-share-games-to-us-users/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-20T16:07:26Z",
-      "description": "Meta is bringing Pocket, its experimental AI-powered app for creating and sharing interactive games, to users across the U.S. after quietly testing it in Brazil.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Meta is bringing Pocket, its experimental AI-powered app for creating and sharing interactive games, to users across the..."
-    },
-    {
-      "id": "d64f31bbb30f",
-      "title": "Senators demand answers from TikTok over experiment that disabled safeguards",
-      "link": "https://techcrunch.com/2026/08/20/senators-demand-answers-from-tiktok-over-experiment-that-disabled-safeguards/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-20T16:22:19Z",
-      "description": "The safeguard was designed to prevent users from being overwhelmed by harmful content, but TikTok wanted to determine whether it made the app less engaging.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "The safeguard was designed to prevent users from being overwhelmed by harmful content, but TikTok wanted to determine wh..."
     },
     {
       "id": "1cbac981a493",
@@ -377,21 +317,6 @@
       "summary_en": "Year after year, investors who've explored the Expo Halls, met founders, and learned from peers have proven why you need..."
     },
     {
-      "id": "d6c36ead996f",
-      "title": "Australia says Roblox hasn&#8217;t fixed its child predator problem",
-      "link": "https://www.theverge.com/games/982885/roblox-australia-safety-regulator-child-safety",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-08-20T17:42:34Z",
-      "description": "Roblox is promising more changes to its child safety features following testing from Australia's online safety regulator, eSafety. eSafety has been looking into concerns that the company hasn't been in compliance with Australia's Online Safety Act, including \"allegedly failing to have sufficient measures in place to prevent contact between adults and children under 16.\" While [&#8230;]",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Roblox is promising more changes to its child safety features following testing from Australia's online safety regulator..."
-    },
-    {
       "id": "89ade8f544b0",
       "title": "Linkdaze’s smart calendar is built to run a household, not just track a schedule",
       "link": "https://techcrunch.com/2026/08/20/linkdazes-smart-calendar-is-built-to-run-a-household-not-just-track-a-schedule/",
@@ -405,21 +330,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Linkdaze's smart digital calendar stands out for not putting its features behind a paywall, including an AI meal planner..."
-    },
-    {
-      "id": "b971cc0b07db",
-      "title": "Mark Zuckerberg bought an Irish castle",
-      "link": "https://www.theverge.com/tech/982955/meta-mark-zuckerberg-strancally-castle-ireland",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-08-20T18:50:14Z",
-      "description": "Meta CEO Mark Zuckerberg now owns an actual castle. Zuckerberg and his wife Priscilla Chan bought Strancally Castle and its 440-acre estate in Ireland \"several weeks ago,\" according to The Irish Times. While the exact price of the purchase is unclear, the family could have paid \"anywhere between &#8364;20 million and &#8364;30 million\" for the [&#8230;]",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Meta CEO Mark Zuckerberg now owns an actual castle. Zuckerberg and his wife Priscilla Chan bought Strancally Castle and ..."
     },
     {
       "id": "3f3d7cf4d8b7",
@@ -473,7 +383,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-20T19:22:24Z",
-      "description": "Article URL: https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/ Comments URL: https://news.ycombinator.com/item?id=49378957 Points: 578 # Comments: 641",
+      "description": "Article URL: https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/ Comments URL: https://news.ycombinator.com/item?id=49378957 Points: 592 # Comments: 678",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 4,
@@ -707,6 +617,36 @@
       "summary_en": "Pack up your pool cleaning supplies. Let one of these robot buddies maintain your water quality instead"
     },
     {
+      "id": "aef1930699d9",
+      "title": "Major YouTube creators are facing backlash for accepting AI money",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/983181/matti-haapoja-sam-kold-kolder-higgsfield-seedance-backlash",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-08-21T13:37:52Z",
+      "description": "Over the past few days, a number of prominent filmmaking content creators including Matti Haapoja and Sam \"Kold\" Kolder have posted videos of themselves demonstrating what's possible with AI platform Higgsfield. The videos highlight Higgsfield's recently added Seedance 2.5 functionality and pitch these technologies as the future of video production. In response to these videos, [&#8230;]",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Over the past few days, a number of prominent filmmaking content creators including Matti Haapoja and Sam \"Kold\" Kolder ..."
+    },
+    {
+      "id": "632e758365f5",
+      "title": "Tesla recalls 3 million cars as part of China-wide push to stop hidden door handles",
+      "link": "https://techcrunch.com/2026/08/21/tesla-recalls-3-million-cars-as-part-of-china-wide-push-to-stop-hidden-door-handles/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-21T13:48:26Z",
+      "description": "Tesla and eight other automakers will install warning labels that help occupants identify the often hard-to-find manual door releases.",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Tesla and eight other automakers will install warning labels that help occupants identify the often hard-to-find manual ..."
+    },
+    {
       "id": "d5497c2ac537",
       "title": "Grok keeps sending gibberish responses to users",
       "link": "https://techcrunch.com/2026/08/20/grok-keeps-sending-gibberish-responses-to-users/",
@@ -750,6 +690,66 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Mark Zuckerberg just bought a cozy abode somewhat close to Meta’s international headquarters in Ireland."
+    },
+    {
+      "id": "892f10421ed1",
+      "title": "OK, can we actually cool data centers with our pee?",
+      "link": "https://techcrunch.com/2026/08/20/ok-can-we-actually-cool-data-centers-with-our-pee/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-20T20:53:13Z",
+      "description": "Jason Kelce joked that people should cool data centers with their pee, rather than potable water -- but his suggestion is not completely ludicrous.",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Jason Kelce joked that people should cool data centers with their pee, rather than potable water -- but his suggestion i..."
+    },
+    {
+      "id": "bdb698ec663c",
+      "title": "Google Discover is getting an AI chatbot-tuned feed",
+      "link": "https://www.theverge.com/tech/983088/google-discover-ai-chatbot-feed",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-08-20T21:50:22Z",
+      "description": "Google will soon allow you to customize your Discover feed by describing what you want to see. The new feature, rolling out to the Google app in the \"coming days,\" will use AI to automatically tweak your feed and \"remember\" your preferences for future visits. You'll find the option within the three-dot menu on your [&#8230;]",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Google will soon allow you to customize your Discover feed by describing what you want to see. The new feature, rolling ..."
+    },
+    {
+      "id": "c9aad26635c1",
+      "title": "Google Pixel 11 Review: Minor Upgrade",
+      "link": "https://www.wired.com/review/google-pixel-11/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-08-20T23:15:27Z",
+      "description": "Incremental improvements fail to generate much excitement, but Google’s Pixel 11 is still an accomplished Android phone.",
+      "topic": "Mobile",
+      "topicIcon": "📱",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Incremental improvements fail to generate much excitement, but Google’s Pixel 11 is still an accomplished Android phone."
+    },
+    {
+      "id": "c8f0c41a4353",
+      "title": "Ray-Ban Promo Codes: Save 50% in August 2026",
+      "link": "https://www.wired.com/story/ray-ban-promo-code/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-08-21T05:00:00Z",
+      "description": "Upgrade your frames with major savings on classic shapes, custom designs, and prescription lenses using these verified Ray-Ban discounts.",
+      "topic": "Hardware",
+      "topicIcon": "💻",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Upgrade your frames with major savings on classic shapes, custom designs, and prescription lenses using these verified R..."
     }
   ]
 }
