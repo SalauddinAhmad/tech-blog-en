@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-21T05:31:20+06:00",
+  "lastUpdated": "2026-08-21T07:43:20+06:00",
   "news": [
     {
       "id": "08dde364f7c2",
@@ -15,6 +15,21 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "OpenAI has had a hell of a year. The company spent months battling former cofounder Elon Musk in a sensational jury tria..."
+    },
+    {
+      "id": "d1c9793a08a7",
+      "title": "Europe cancels planned upgrades for Ariane 6 rocket",
+      "link": "https://arstechnica.com/space/2026/08/europe-cancels-planned-upgrades-for-ariane-6-rocket/",
+      "source": "Ars Technica",
+      "sourceIcon": "ars",
+      "pubDate": "2026-08-20T21:40:52Z",
+      "description": "Arianespace hasn’t publicly disclosed the cost for an Ariane 6 launch.",
+      "topic": "Regulation",
+      "topicIcon": "⚖️",
+      "importance": 8,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "Arianespace hasn’t publicly disclosed the cost for an Ariane 6 launch."
     },
     {
       "id": "19be897f2516",
@@ -45,21 +60,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "This week on “Uncanny Valley,” Andy Greenberg discusses sitting in on a war game simulating a cyberattack from the Chine..."
-    },
-    {
-      "id": "03ec0534faf8",
-      "title": "Patreon launches 30 new creator features, including short-form Clips and revamped discovery",
-      "link": "https://techcrunch.com/2026/08/20/patreon-launches-30-new-creator-features-including-short-form-clips-and-revamped-discovery/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-20T16:00:00Z",
-      "description": "Patreon is overhauling how creators get discovered, adding short-form Clips, topic-based communities, and a revamped recommendation system designed to give smaller creators more visibility.",
-      "topic": "Other",
-      "topicIcon": "📰",
-      "importance": 6,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Patreon is overhauling how creators get discovered, adding short-form Clips, topic-based communities, and a revamped rec..."
     },
     {
       "id": "2bc21926f4ed",
@@ -173,7 +173,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-20T14:08:09Z",
-      "description": "Article URL: https://www.mikekasberg.com/blog/2026/08/19/hacking-with-claude-on-a-27-smart-watch.html Comments URL: https://news.ycombinator.com/item?id=49374772 Points: 78 # Comments: 44",
+      "description": "Article URL: https://www.mikekasberg.com/blog/2026/08/19/hacking-with-claude-on-a-27-smart-watch.html Comments URL: https://news.ycombinator.com/item?id=49374772 Points: 85 # Comments: 46",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 5,
@@ -227,19 +227,49 @@
       "summary_en": "Roblox is first platform to submit to independent audits under the Online Safety Act."
     },
     {
-      "id": "60796a568a14",
-      "title": "NASA calls off mission to rescue Swift gamma-ray observatory",
-      "link": "https://arstechnica.com/space/2026/08/nasa-calls-off-mission-to-rescue-swift-gamma-ray-observatory/",
+      "id": "4f1cf4f8ba58",
+      "title": "They survived 9/11; 25 years later, their bonds remain unbroken",
+      "link": "https://arstechnica.com/culture/2026/08/new-9-11-documentary-finds-hope-in-the-horror/",
       "source": "Ars Technica",
       "sourceIcon": "ars",
-      "pubDate": "2026-08-20T00:18:48Z",
-      "description": "Without a rescue, NASA's Swift Observatory is expected to reenter the atmosphere later this year.",
-      "topic": "Other",
-      "topicIcon": "📰",
-      "importance": 4,
+      "pubDate": "2026-08-20T21:25:25Z",
+      "description": "Survivors reconnect with those who saved them in National Geographic's 9/11: Reunited .",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 5,
       "reliability": 5,
       "summary_bn": "",
-      "summary_en": "Without a rescue, NASA's Swift Observatory is expected to reenter the atmosphere later this year."
+      "summary_en": "Survivors reconnect with those who saved them in National Geographic's 9/11: Reunited ."
+    },
+    {
+      "id": "37cf1c73b1a5",
+      "title": "US distributor of China’s most popular humanoid robots pivots after US ban",
+      "link": "https://arstechnica.com/gadgets/2026/08/us-distributor-of-chinas-most-popular-humanoid-robots-pivots-after-us-ban/",
+      "source": "Ars Technica",
+      "sourceIcon": "ars",
+      "pubDate": "2026-08-20T22:00:11Z",
+      "description": "FCC ban on foreign-made robots accelerated RoboStore’s US manufacturing plans.",
+      "topic": "Regulation",
+      "topicIcon": "⚖️",
+      "importance": 5,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "FCC ban on foreign-made robots accelerated RoboStore’s US manufacturing plans."
+    },
+    {
+      "id": "a932d5d274ee",
+      "title": "Learn what VCs actually want, from a founder who’s raised $1B",
+      "link": "https://techcrunch.com/video/learn-what-vcs-actually-want-from-a-founder-whos-raised-1b/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-20T23:32:27Z",
+      "description": "Investors want founders who understand the financial reality of their business. Messy data, misunderstood metrics, or waiting until you’re nearly out of cash to start fundraising can cost founders leverage, valuation, and even a term sheet. In this episode of Build Mode, host Isabelle Johannessen sits down with Sasha Orloff, founder and CEO of Puzzle [&#8230;]",
+      "topic": "Startups",
+      "topicIcon": "🚀",
+      "importance": 5,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Investors want founders who understand the financial reality of their business. Messy data, misunderstood metrics, or wa..."
     },
     {
       "id": "421ea63b4bc0",
@@ -338,28 +368,13 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-20T15:46:18Z",
-      "description": "Article URL: https://www.igalia.com/2026/08/19/Linux-72-Released.html Comments URL: https://news.ycombinator.com/item?id=49376265 Points: 181 # Comments: 59",
+      "description": "Article URL: https://www.igalia.com/2026/08/19/Linux-72-Released.html Comments URL: https://news.ycombinator.com/item?id=49376265 Points: 192 # Comments: 67",
       "topic": "Web/JavaScript",
       "topicIcon": "🌐",
       "importance": 4,
       "reliability": 3,
       "summary_bn": "",
       "summary_en": "Article URL: https://www.igalia.com/2026/08/19/Linux-72-Released.html Comments URL: https://news.ycombinator.com/item?id..."
-    },
-    {
-      "id": "84cbd60aa00b",
-      "title": "The 2026 Startup Battlefield 200 is here — see who made the cut",
-      "link": "https://techcrunch.com/2026/08/20/the-2026-startup-battlefield-200-is-here-see-who-made-the-cut/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-20T16:00:00Z",
-      "description": "We’re thrilled to unveil the 2026 Startup Battlefield 200, our annual handpicked list of the 200 most promising early-stage startups from around the world.",
-      "topic": "Startups",
-      "topicIcon": "🚀",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "We’re thrilled to unveil the 2026 Startup Battlefield 200, our annual handpicked list of the 200 most promising early-st..."
     },
     {
       "id": "8b34b3149ae6",
@@ -518,7 +533,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-20T19:22:24Z",
-      "description": "Article URL: https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/ Comments URL: https://news.ycombinator.com/item?id=49378957 Points: 227 # Comments: 266",
+      "description": "Article URL: https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/ Comments URL: https://news.ycombinator.com/item?id=49378957 Points: 310 # Comments: 348",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 4,
@@ -617,6 +632,36 @@
       "summary_en": "The switch to quieter electric equipment is not going as fast as some would like."
     },
     {
+      "id": "e9ba6db1fcd1",
+      "title": "AI data startup Micro1 reaches $500M gross run rate amid AI training boom",
+      "link": "https://techcrunch.com/2026/08/20/ai-data-startup-micro1-reaches-500m-gross-run-rate-amid-ai-training-boom/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-21T00:13:44Z",
+      "description": "Surging demand for AI training data is driving rapid growth for the startup and its rivals.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Surging demand for AI training data is driving rapid growth for the startup and its rivals."
+    },
+    {
+      "id": "2ee96b359f8b",
+      "title": "Tesla, Uber, and Waymo all get the OK to operate thousands of robotaxis in Nevada",
+      "link": "https://techcrunch.com/2026/08/20/tesla-uber-and-waymo-all-get-the-ok-to-operate-thousands-of-robotaxis-in-nevada/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-21T00:23:36Z",
+      "description": "Together, these permits would allow up to 8,000 robotaxis to be deployed over the next 12 months.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Together, these permits would allow up to 8,000 robotaxis to be deployed over the next 12 months."
+    },
+    {
       "id": "e2e009a656a0",
       "title": "Chewy Promo Codes: $20 Off August 2026",
       "link": "https://www.wired.com/story/chewy-promo-code/",
@@ -705,51 +750,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Get 20% off with verified Dell promo code, plus today’s coupons for up to $600 off laptops, Alienware monitors, and all ..."
-    },
-    {
-      "id": "94ae8a452d16",
-      "title": "iRobot Promo Code: 15% Off",
-      "link": "https://www.wired.com/story/irobot-promo-code/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-08-20T05:00:00Z",
-      "description": "Save on iRobot products, including robot vacuums and mops designed to handle pet hair, daily messes, and hands-free cleaning with smart home integration.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 3,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Save on iRobot products, including robot vacuums and mops designed to handle pet hair, daily messes, and hands-free clea..."
-    },
-    {
-      "id": "774c934e6153",
-      "title": "H&R Block Coupon: 25% Off DIY + Tax Pro Assist",
-      "link": "https://www.wired.com/story/hr-block-coupon/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-08-20T05:00:00Z",
-      "description": "Save over 25% when you opt for H&R Block’s free online offering, plus a tax pro review.",
-      "topic": "Other",
-      "topicIcon": "📰",
-      "importance": 3,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Save over 25% when you opt for H&R Block’s free online offering, plus a tax pro review."
-    },
-    {
-      "id": "bb6c4922c48e",
-      "title": "T-Mobile Promo Codes: 25% Off | August 2026",
-      "link": "https://www.wired.com/story/t-mobile-business-promo-code/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-08-20T05:00:00Z",
-      "description": "Discover how to save on T-Mobile Business Internet and phone plans, from sign-up perks and switching rewards to bundled offers and free lines.",
-      "topic": "Mobile",
-      "topicIcon": "📱",
-      "importance": 3,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Discover how to save on T-Mobile Business Internet and phone plans, from sign-up perks and switching rewards to bundled ..."
     }
   ]
 }
