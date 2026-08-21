@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-21T20:41:12+06:00",
+  "lastUpdated": "2026-08-21T21:39:31+06:00",
   "news": [
     {
       "id": "589ae77c33df",
@@ -90,21 +90,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Senator Ron Wyden sent a letter to the U.S. federal watchdog requesting a comprehensive review of how the FBI, DEA, ICE'..."
-    },
-    {
-      "id": "7c5b609baa8a",
-      "title": "Riot is ending development on its League of Legends fighting game",
-      "link": "https://www.theverge.com/games/982986/riot-games-league-of-legends-fighting-game-2xko-end-development",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-08-20T19:59:09Z",
-      "description": "Riot Games is already winding down work on 2XKO, the free-to-play League of Legends fighting game, less than a year after its initial launch. Riot says \"active development\" will conclude at the end of 2026 because the company hasn't \"seen enough players stick with the game to get to a path toward sustainability.\" Servers will [&#8230;]",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 6,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Riot Games is already winding down work on 2XKO, the free-to-play League of Legends fighting game, less than a year afte..."
     },
     {
       "id": "c8bb035501d2",
@@ -240,6 +225,21 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Patreon has announced a number of new and overhauled features that are designed to \"build a better network - and a bette..."
+    },
+    {
+      "id": "eb3a17c12948",
+      "title": "Waymo doubles spending on lobbying in robotaxi battle with Uber",
+      "link": "https://arstechnica.com/cars/2026/08/waymo-doubles-spending-on-lobbying-in-robotaxi-battle-with-uber/",
+      "source": "Ars Technica",
+      "sourceIcon": "ars",
+      "pubDate": "2026-08-21T13:11:35Z",
+      "description": "Alphabet-owned company is seeking to persuade US regulators to clear a path for fully autonomous taxi services.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 5,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "Alphabet-owned company is seeking to persuade US regulators to clear a path for fully autonomous taxi services."
     },
     {
       "id": "b36ca5b804f0",
@@ -572,6 +572,21 @@
       "summary_en": "The lawsuit alleges that Oura rings are unable to measure any of the physiological signals needed to assess sleep qualit..."
     },
     {
+      "id": "16fefcfb13b7",
+      "title": "Why does it seem like food recalls are out of control this year?",
+      "link": "https://www.theverge.com/science/983241/food-recalls-bigger-out-of-control",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-08-21T14:45:00Z",
+      "description": "Just weeks after Taylor Farms issued a recall of its iceberg lettuce amid a massive cyclospora outbreak, the Food and Drug Administration recalled more than one million eggs that may be contaminated with salmonella. The eggs, which come from Midwest Poultry Services, were distributed to Kroger and smaller grocery stores across the South and Southwest [&#8230;]",
+      "topic": "Hardware",
+      "topicIcon": "💻",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Just weeks after Taylor Farms issued a recall of its iceberg lettuce amid a massive cyclospora outbreak, the Food and Dr..."
+    },
+    {
       "id": "d5497c2ac537",
       "title": "Grok keeps sending gibberish responses to users",
       "link": "https://techcrunch.com/2026/08/20/grok-keeps-sending-gibberish-responses-to-users/",
@@ -662,34 +677,64 @@
       "summary_en": "Incremental improvements fail to generate much excitement, but Google’s Pixel 11 is still an accomplished Android phone."
     },
     {
-      "id": "4a4c056c3a22",
-      "title": "Paramount+ Coupon Codes and Deals for August 2026",
-      "link": "https://www.wired.com/story/paramount-plus-coupon-code/",
+      "id": "c1d3ff4133e5",
+      "title": "B&H Photo Promo Codes and Deals This August 2026",
+      "link": "https://www.wired.com/story/bh-photo-coupon/",
       "source": "Wired",
       "sourceIcon": "wired",
       "pubDate": "2026-08-21T05:00:00Z",
-      "description": "Save on streaming with the latest Paramount+ promo codes and deals, including 50% off subscriptions, free trials, and more.",
-      "topic": "Hardware",
-      "topicIcon": "💻",
-      "importance": 3,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Save on streaming with the latest Paramount+ promo codes and deals, including 50% off subscriptions, free trials, and mo..."
-    },
-    {
-      "id": "8d12aa494ee9",
-      "title": "Zoro Coupon Codes: 55% Off August",
-      "link": "https://www.wired.com/story/zoro-promo-code/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-08-21T05:00:00Z",
-      "description": "Find the best Zoro coupon codes, deals, and free shipping offers to save big on industrial equipment, tools, and supplies this month.",
+      "description": "Enjoy top deals on cameras, computers, and tech essentials at B&H Photo.",
       "topic": "Other",
       "topicIcon": "📰",
       "importance": 3,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "Find the best Zoro coupon codes, deals, and free shipping offers to save big on industrial equipment, tools, and supplie..."
+      "summary_en": "Enjoy top deals on cameras, computers, and tech essentials at B&H Photo."
+    },
+    {
+      "id": "f08beb36ba97",
+      "title": "NordVPN Coupons: 75% Off, Plus 3 Months Free in August 2026",
+      "link": "https://www.wired.com/story/nordvpn-coupon/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-08-21T05:00:00Z",
+      "description": "Save up to 77% on 2-year plans and get 3 free months with our NordVPN discount codes.",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Save up to 77% on 2-year plans and get 3 free months with our NordVPN discount codes."
+    },
+    {
+      "id": "9c8acde8dc81",
+      "title": "Home Depot Promo Codes: 30% Off in August 2026",
+      "link": "https://www.wired.com/story/home-depot-promo-code/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-08-21T05:00:00Z",
+      "description": "Save up to 50% today with the latest Home Depot promo codes for appliances, power tools, and more this August.",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Save up to 50% today with the latest Home Depot promo codes for appliances, power tools, and more this August."
+    },
+    {
+      "id": "4636e4f46472",
+      "title": "Ruggable Discount Code: 30% Off Rugs | August 2026",
+      "link": "https://www.wired.com/story/ruggable-discount-code/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-08-21T05:00:00Z",
+      "description": "Keep your floors pristine and your budget intact. Save up to 30% off machine-washable rugs, runners, mats, and pillows using Ruggable coupons plus our expert advice.",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Keep your floors pristine and your budget intact. Save up to 30% off machine-washable rugs, runners, mats, and pillows u..."
     },
     {
       "id": "035f70e69ad4",
@@ -705,51 +750,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Experience cutting-edge VR and save up to 20% with coupons for the latest games, Meta Quest 3, Ray-Ban AI glasses, and m..."
-    },
-    {
-      "id": "a56fe6b618b1",
-      "title": "Lenovo Coupon Codes: 15% Off in August 2026",
-      "link": "https://www.wired.com/story/lenovo-coupon-code/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-08-21T05:00:00Z",
-      "description": "Whether you’re shopping for a ThinkPad, Yoga laptop, or Legion gaming PC, these Lenovo discount codes and promotions can help you save big on your next tech upgrade.",
-      "topic": "Hardware",
-      "topicIcon": "💻",
-      "importance": 3,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Whether you’re shopping for a ThinkPad, Yoga laptop, or Legion gaming PC, these Lenovo discount codes and promotions can..."
-    },
-    {
-      "id": "c8f0c41a4353",
-      "title": "Ray-Ban Promo Codes: Save 50% in August 2026",
-      "link": "https://www.wired.com/story/ray-ban-promo-code/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-08-21T05:00:00Z",
-      "description": "Upgrade your frames with major savings on classic shapes, custom designs, and prescription lenses using these verified Ray-Ban discounts.",
-      "topic": "Hardware",
-      "topicIcon": "💻",
-      "importance": 3,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Upgrade your frames with major savings on classic shapes, custom designs, and prescription lenses using these verified R..."
-    },
-    {
-      "id": "c1d3ff4133e5",
-      "title": "B&H Photo Promo Codes and Deals This August 2026",
-      "link": "https://www.wired.com/story/bh-photo-coupon/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-08-21T05:00:00Z",
-      "description": "Enjoy top deals on cameras, computers, and tech essentials at B&H Photo.",
-      "topic": "Other",
-      "topicIcon": "📰",
-      "importance": 3,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Enjoy top deals on cameras, computers, and tech essentials at B&H Photo."
     }
   ]
 }
