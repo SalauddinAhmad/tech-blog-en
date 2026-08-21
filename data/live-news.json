@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-21T07:43:20+06:00",
+  "lastUpdated": "2026-08-21T09:09:01+06:00",
   "news": [
     {
       "id": "08dde364f7c2",
@@ -107,6 +107,21 @@
       "summary_en": "Riot Games is already winding down work on 2XKO, the free-to-play League of Legends fighting game, less than a year afte..."
     },
     {
+      "id": "c8bb035501d2",
+      "title": "Genki’s new customizable controller has a big screen and adjustable buttons",
+      "link": "https://www.theverge.com/tech/981536/genki-manta-wireless-customizable-controller-tmr-screen",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-08-21T02:00:00Z",
+      "description": "After collaborating with 8BitDo on a gamepad two years ago, Genki launched the first controller the company designed from the ground up today. With an unorthodox design that positions its thumbsticks and buttons above a large 2.9-inch LCD screen, the Manta looks a lot chunkier than competing controllers. But what really sets it apart is [&#8230;]",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 6,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "After collaborating with 8BitDo on a gamepad two years ago, Genki launched the first controller the company designed fro..."
+    },
+    {
       "id": "e85097b01b09",
       "title": "UK business hit by 'daylight robbery' 1500% price hike for invoicing software",
       "link": "https://www.bbc.co.uk/news/articles/clyq011414eo?at_medium=RSS&at_campaign=rss",
@@ -173,7 +188,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-20T14:08:09Z",
-      "description": "Article URL: https://www.mikekasberg.com/blog/2026/08/19/hacking-with-claude-on-a-27-smart-watch.html Comments URL: https://news.ycombinator.com/item?id=49374772 Points: 85 # Comments: 46",
+      "description": "Article URL: https://www.mikekasberg.com/blog/2026/08/19/hacking-with-claude-on-a-27-smart-watch.html Comments URL: https://news.ycombinator.com/item?id=49374772 Points: 87 # Comments: 48",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 5,
@@ -332,21 +347,6 @@
       "summary_en": "A retractable screen, a huge heads-up display, and an optional 4-seat VIP interior."
     },
     {
-      "id": "a95e16e55f58",
-      "title": "LG’s 65-inch B6 OLED is $300 lower than its previous best price",
-      "link": "https://www.theverge.com/gadgets/982695/lg-b6-65-inch-oled-doordash-digital-game-deal-sale",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-08-20T15:08:38Z",
-      "description": "Best Buy has a whole host of LG products discounted for today’s Deal of the Day festivities, including laptops, home theater gear, and more. One that stood out is a price cut on LG’s 65-inch B6 OLED TV that’s deeper than I’ve seen before. At Best Buy, it’s $1,399.99 (originally $1,999.99) for the rest of [&#8230;]",
-      "topic": "Web/JavaScript",
-      "topicIcon": "🌐",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Best Buy has a whole host of LG products discounted for today’s Deal of the Day festivities, including laptops, home the..."
-    },
-    {
       "id": "db4b5da45668",
       "title": "This app makes the Pixel 11&#8217;s HiLight feature actually useful",
       "link": "https://www.theverge.com/tech/982791/this-app-makes-the-pixel-11s-hilight-feature-actually-useful",
@@ -368,7 +368,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-20T15:46:18Z",
-      "description": "Article URL: https://www.igalia.com/2026/08/19/Linux-72-Released.html Comments URL: https://news.ycombinator.com/item?id=49376265 Points: 192 # Comments: 67",
+      "description": "Article URL: https://www.igalia.com/2026/08/19/Linux-72-Released.html Comments URL: https://news.ycombinator.com/item?id=49376265 Points: 199 # Comments: 73",
       "topic": "Web/JavaScript",
       "topicIcon": "🌐",
       "importance": 4,
@@ -528,12 +528,12 @@
     },
     {
       "id": "02ed539fac86",
-      "title": "The August 17 outage, and the work ahead",
+      "title": "The August 17 outage",
       "link": "https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/",
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-20T19:22:24Z",
-      "description": "Article URL: https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/ Comments URL: https://news.ycombinator.com/item?id=49378957 Points: 310 # Comments: 348",
+      "description": "Article URL: https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/ Comments URL: https://news.ycombinator.com/item?id=49378957 Points: 352 # Comments: 405",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 4,
