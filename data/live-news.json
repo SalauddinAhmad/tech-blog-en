@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T03:30:43+06:00",
+  "lastUpdated": "2026-08-22T04:30:38+06:00",
   "news": [
     {
       "id": "589ae77c33df",
@@ -15,21 +15,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "The private equity giant confirms a breach, weeks after Google researchers said hackers were targeting financial compani..."
-    },
-    {
-      "id": "d1c9793a08a7",
-      "title": "Europe cancels planned upgrades for Ariane 6 rocket",
-      "link": "https://arstechnica.com/space/2026/08/europe-cancels-planned-upgrades-for-ariane-6-rocket/",
-      "source": "Ars Technica",
-      "sourceIcon": "ars",
-      "pubDate": "2026-08-20T21:40:52Z",
-      "description": "Arianespace hasn’t publicly disclosed the cost for an Ariane 6 launch.",
-      "topic": "Regulation",
-      "topicIcon": "⚖️",
-      "importance": 8,
-      "reliability": 5,
-      "summary_bn": "",
-      "summary_en": "Arianespace hasn’t publicly disclosed the cost for an Ariane 6 launch."
     },
     {
       "id": "6ecb3f136569",
@@ -122,21 +107,6 @@
       "summary_en": "The $225 Pebble Time 2 pairs quirky watch faces and apps with physical buttons, an e-paper display, weeks of battery lif..."
     },
     {
-      "id": "37cf1c73b1a5",
-      "title": "US distributor of China’s most popular humanoid robots pivots after US ban",
-      "link": "https://arstechnica.com/gadgets/2026/08/us-distributor-of-chinas-most-popular-humanoid-robots-pivots-after-us-ban/",
-      "source": "Ars Technica",
-      "sourceIcon": "ars",
-      "pubDate": "2026-08-20T22:00:11Z",
-      "description": "FCC ban on foreign-made robots accelerated RoboStore’s US manufacturing plans.",
-      "topic": "Regulation",
-      "topicIcon": "⚖️",
-      "importance": 5,
-      "reliability": 5,
-      "summary_bn": "",
-      "summary_en": "FCC ban on foreign-made robots accelerated RoboStore’s US manufacturing plans."
-    },
-    {
       "id": "a932d5d274ee",
       "title": "Learn what VCs actually want, from a founder who’s raised $1B",
       "link": "https://techcrunch.com/video/learn-what-vcs-actually-want-from-a-founder-whos-raised-1b/",
@@ -227,19 +197,49 @@
       "summary_en": "Logitech increased prices by up to 25 percent last year."
     },
     {
-      "id": "7a4a6fae5369",
-      "title": "ChatGPT can now send texts for you with new Apple Messages plug-in",
-      "link": "https://techcrunch.com/2026/08/20/chatgpt-can-now-send-texts-for-you-with-new-apple-messages-plugin/",
+      "id": "64670731f317",
+      "title": "Hidden Zillow listings created fake supply shock, raising NYC rents, lawsuit says",
+      "link": "https://arstechnica.com/tech-policy/2026/08/class-action-accuses-brokers-of-hiding-zillow-listings-driving-up-nyc-rents/",
+      "source": "Ars Technica",
+      "sourceIcon": "ars",
+      "pubDate": "2026-08-21T20:10:50Z",
+      "description": "Renters say hidden Zillow listings make it harder to afford living in New York City.",
+      "topic": "Regulation",
+      "topicIcon": "⚖️",
+      "importance": 5,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "Renters say hidden Zillow listings make it harder to afford living in New York City."
+    },
+    {
+      "id": "5cea1754971c",
+      "title": "TikTok to pay $400m to US in one of largest child privacy settlements",
+      "link": "https://www.bbc.co.uk/news/articles/cwyr0l45xjro?at_medium=RSS&at_campaign=rss",
+      "source": "BBC",
+      "sourceIcon": "bbc",
+      "pubDate": "2026-08-21T22:00:23Z",
+      "description": "The deal stems from a 2024 lawsuit alleging TikTok and its parent company ByteDance collected \"vast amounts of data\" on millions of users under the age of 13.",
+      "topic": "Regulation",
+      "topicIcon": "⚖️",
+      "importance": 5,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "The deal stems from a 2024 lawsuit alleging TikTok and its parent company ByteDance collected \"vast amounts of data\" on ..."
+    },
+    {
+      "id": "81cc8caaf098",
+      "title": "How AI accounting startup Rillet raised $100M and became a unicorn in 48-hours",
+      "link": "https://techcrunch.com/2026/08/21/how-ai-accounting-startup-rillet-raised-100m-and-became-a-unicorn-in-48-hours/",
       "source": "TechCrunch",
       "sourceIcon": "crunch",
-      "pubDate": "2026-08-20T22:09:51Z",
-      "description": "Ever wanted someone else to do your texting for you? ChatGPT is being offered up as an automated text scribe via a new Apple Messages integration.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
+      "pubDate": "2026-08-21T22:10:01Z",
+      "description": "Rillet CEO Nicholas Koop shared growth numbers at a board meeting and set off a fundraising frenzy from Iconiq, Sequoia and others. Without even trying.",
+      "topic": "Startups",
+      "topicIcon": "🚀",
+      "importance": 5,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "Ever wanted someone else to do your texting for you? ChatGPT is being offered up as an automated text scribe via a new A..."
+      "summary_en": "Rillet CEO Nicholas Koop shared growth numbers at a board meeting and set off a fundraising frenzy from Iconiq, Sequoia ..."
     },
     {
       "id": "db0bf4cf3653",
@@ -392,21 +392,6 @@
       "summary_en": "Pack up your pool cleaning supplies. Let one of these robot buddies maintain your water quality instead"
     },
     {
-      "id": "aef1930699d9",
-      "title": "Major YouTube creators are facing backlash for accepting AI money",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/983181/matti-haapoja-sam-kold-kolder-higgsfield-seedance-backlash",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-08-21T13:37:52Z",
-      "description": "Over the past few days, a number of prominent filmmaking content creators including Matti Haapoja and Sam \"Kold\" Kolder have posted videos of themselves demonstrating what's possible with AI platform Higgsfield. The videos highlight Higgsfield's recently added Seedance 2.5 functionality and pitch these technologies as the future of video production. In response to these videos, [&#8230;]",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Over the past few days, a number of prominent filmmaking content creators including Matti Haapoja and Sam \"Kold\" Kolder ..."
-    },
-    {
       "id": "632e758365f5",
       "title": "Tesla recalls 3 million cars as part of China-wide push to stop hidden door handles",
       "link": "https://techcrunch.com/2026/08/21/tesla-recalls-3-million-cars-as-part-of-china-wide-push-to-stop-hidden-door-handles/",
@@ -557,6 +542,21 @@
       "summary_en": "Two years after the U.S. Department of Justice alleged that TikTok violated the Children’s Online Privacy Protection Act..."
     },
     {
+      "id": "7dec1f4aaf85",
+      "title": "Thunder + fiber-optic cabling used for seismic imaging",
+      "link": "https://arstechnica.com/science/2026/08/researchers-use-thunderquakes-to-study-structure-of-earths-surface/",
+      "source": "Ars Technica",
+      "sourceIcon": "ars",
+      "pubDate": "2026-08-21T20:26:46Z",
+      "description": "Thunderstorms make seismic waves that can be used to find sub-surface features.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "Thunderstorms make seismic waves that can be used to find sub-surface features."
+    },
+    {
       "id": "2dd938a54109",
       "title": "Apple is reportedly cutting hundreds of jobs from Siri, Vision Pro teams",
       "link": "https://techcrunch.com/2026/08/21/apple-is-reportedly-cutting-hundreds-of-jobs-from-siri-vision-pro-teams/",
@@ -572,6 +572,36 @@
       "summary_en": "Apple has admitted that some roles are being impacted as it shifts its focus away from certain initiatives."
     },
     {
+      "id": "8ae89ac82952",
+      "title": "TikTok will pay $400 million to settle DOJ child privacy lawsuit",
+      "link": "https://www.theverge.com/tech/983531/tiktok-settle-doj-lawsuit-coppa",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-08-21T22:13:34Z",
+      "description": "The US Department of Justice announced on Friday that TikTok will pay $400 million to settle a lawsuit filed in 2024 over allegedly violating the Children's Online Privacy Protection Act (COPPA). In the lawsuit, the DOJ alleged that TikTok collected data from children without notifying parents or obtaining consent and did not delete the accounts [&#8230;]",
+      "topic": "Regulation",
+      "topicIcon": "⚖️",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "The US Department of Justice announced on Friday that TikTok will pay $400 million to settle a lawsuit filed in 2024 ove..."
+    },
+    {
+      "id": "eaac9111649b",
+      "title": "HoverAir’s transforming modular drone has already been halted in the US",
+      "link": "https://www.theverge.com/tech/983500/hoverair-versa-halted-us-fcc-drone-ban-indiegogo",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-08-21T22:14:11Z",
+      "description": "I am so sorry, fellow US gadget fans: the FCC's drone ban appears to have struck again. The HoverAir Versa - a baby steadycam with snap-on propeller wings that transform it into a drone - has already stopped taking US orders just three days after its Indiegogo debut, and may be forced to abandon shipping [&#8230;]",
+      "topic": "Regulation",
+      "topicIcon": "⚖️",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "I am so sorry, fellow US gadget fans: the FCC's drone ban appears to have struck again. The HoverAir Versa - a baby stea..."
+    },
+    {
       "id": "c9aad26635c1",
       "title": "Google Pixel 11 Review: Minor Upgrade",
       "link": "https://www.wired.com/review/google-pixel-11/",
@@ -585,36 +615,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Incremental improvements fail to generate much excitement, but Google’s Pixel 11 is still an accomplished Android phone."
-    },
-    {
-      "id": "c8f0c41a4353",
-      "title": "Ray-Ban Promo Codes: Save 50% in August 2026",
-      "link": "https://www.wired.com/story/ray-ban-promo-code/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-08-21T05:00:00Z",
-      "description": "Upgrade your frames with major savings on classic shapes, custom designs, and prescription lenses using these verified Ray-Ban discounts.",
-      "topic": "Hardware",
-      "topicIcon": "💻",
-      "importance": 3,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Upgrade your frames with major savings on classic shapes, custom designs, and prescription lenses using these verified R..."
-    },
-    {
-      "id": "035f70e69ad4",
-      "title": "Meta Quest Promo Codes and Coupons for August 2026",
-      "link": "https://www.wired.com/story/meta-quest-promo-code/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-08-21T05:00:00Z",
-      "description": "Experience cutting-edge VR and save up to 20% with coupons for the latest games, Meta Quest 3, Ray-Ban AI glasses, and more deals.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 3,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Experience cutting-edge VR and save up to 20% with coupons for the latest games, Meta Quest 3, Ray-Ban AI glasses, and m..."
     },
     {
       "id": "4a4c056c3a22",
@@ -647,19 +647,19 @@
       "summary_en": "Find the best Zoro coupon codes, deals, and free shipping offers to save big on industrial equipment, tools, and supplie..."
     },
     {
-      "id": "c1d3ff4133e5",
-      "title": "B&H Photo Promo Codes and Deals This August 2026",
-      "link": "https://www.wired.com/story/bh-photo-coupon/",
+      "id": "035f70e69ad4",
+      "title": "Meta Quest Promo Codes and Coupons for August 2026",
+      "link": "https://www.wired.com/story/meta-quest-promo-code/",
       "source": "Wired",
       "sourceIcon": "wired",
       "pubDate": "2026-08-21T05:00:00Z",
-      "description": "Enjoy top deals on cameras, computers, and tech essentials at B&H Photo.",
-      "topic": "Other",
-      "topicIcon": "📰",
+      "description": "Experience cutting-edge VR and save up to 20% with coupons for the latest games, Meta Quest 3, Ray-Ban AI glasses, and more deals.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
       "importance": 3,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "Enjoy top deals on cameras, computers, and tech essentials at B&H Photo."
+      "summary_en": "Experience cutting-edge VR and save up to 20% with coupons for the latest games, Meta Quest 3, Ray-Ban AI glasses, and m..."
     },
     {
       "id": "a56fe6b618b1",
@@ -677,19 +677,34 @@
       "summary_en": "Whether you’re shopping for a ThinkPad, Yoga laptop, or Legion gaming PC, these Lenovo discount codes and promotions can..."
     },
     {
-      "id": "07c09cd5cda0",
-      "title": "Valvoline Coupons and Promo Codes for August 2026",
-      "link": "https://www.wired.com/story/valvoline-coupons/",
+      "id": "c8f0c41a4353",
+      "title": "Ray-Ban Promo Codes: Save 50% in August 2026",
+      "link": "https://www.wired.com/story/ray-ban-promo-code/",
       "source": "Wired",
       "sourceIcon": "wired",
       "pubDate": "2026-08-21T05:00:00Z",
-      "description": "We've gathered all the top Valvoline coupons and promo codes for August 2026, including deals on full synthetic oil changes and other essential maintenance.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
+      "description": "Upgrade your frames with major savings on classic shapes, custom designs, and prescription lenses using these verified Ray-Ban discounts.",
+      "topic": "Hardware",
+      "topicIcon": "💻",
       "importance": 3,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "We've gathered all the top Valvoline coupons and promo codes for August 2026, including deals on full synthetic oil chan..."
+      "summary_en": "Upgrade your frames with major savings on classic shapes, custom designs, and prescription lenses using these verified R..."
+    },
+    {
+      "id": "c1d3ff4133e5",
+      "title": "B&H Photo Promo Codes and Deals This August 2026",
+      "link": "https://www.wired.com/story/bh-photo-coupon/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-08-21T05:00:00Z",
+      "description": "Enjoy top deals on cameras, computers, and tech essentials at B&H Photo.",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Enjoy top deals on cameras, computers, and tech essentials at B&H Photo."
     },
     {
       "id": "f08beb36ba97",
@@ -735,21 +750,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Keep your floors pristine and your budget intact. Save up to 30% off machine-washable rugs, runners, mats, and pillows u..."
-    },
-    {
-      "id": "c980043f6d50",
-      "title": "Hoka Coupon Codes: 30% Off in August 2026",
-      "link": "https://www.wired.com/story/hoka-coupon-code/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-08-21T05:00:00Z",
-      "description": "Unlock free expedited shipping or 10% off with today’s Hoka discount codes, plus save up to 30% with the best discounts for August 2026.",
-      "topic": "Other",
-      "topicIcon": "📰",
-      "importance": 3,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Unlock free expedited shipping or 10% off with today’s Hoka discount codes, plus save up to 30% with the best discounts ..."
     }
   ]
 }
