@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-21T19:53:30+06:00",
+  "lastUpdated": "2026-08-21T20:41:12+06:00",
   "news": [
     {
       "id": "589ae77c33df",
@@ -92,21 +92,6 @@
       "summary_en": "Senator Ron Wyden sent a letter to the U.S. federal watchdog requesting a comprehensive review of how the FBI, DEA, ICE'..."
     },
     {
-      "id": "632d085c0041",
-      "title": "A third of web pages published since ChatGPT’s launch show signs of AI authorship, study finds",
-      "link": "https://techcrunch.com/2026/08/20/a-third-of-webpages-published-since-chatgpts-launch-show-signs-of-ai-authorship-study-finds/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-20T17:18:58Z",
-      "description": "ChatGPT and other AI models are now authoring and editing much of the new web.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 6,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "ChatGPT and other AI models are now authoring and editing much of the new web."
-    },
-    {
       "id": "7c5b609baa8a",
       "title": "Riot is ending development on its League of Legends fighting game",
       "link": "https://www.theverge.com/games/982986/riot-games-league-of-legends-fighting-game-2xko-end-development",
@@ -152,19 +137,19 @@
       "summary_en": "Ars looks at Zuckoff, the latest free app detecting Meta AI glasses amid privacy backlash."
     },
     {
-      "id": "abf32a0b7556",
-      "title": "SpaceX’s orbital data centers would create a new category of e-waste",
-      "link": "https://arstechnica.com/science/2026/08/spacexs-orbital-data-centers-would-create-a-new-category-of-e-waste/",
-      "source": "Ars Technica",
-      "sourceIcon": "ars",
-      "pubDate": "2026-08-20T13:59:50Z",
-      "description": "The yeetcycling math resembles asteroid mining in reverse.",
-      "topic": "Startups",
-      "topicIcon": "🚀",
-      "importance": 5,
-      "reliability": 5,
+      "id": "6ac7852311e2",
+      "title": "Starcloud raises $250 million for orbital data centers as launch options dry up",
+      "link": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-21T14:00:00Z",
+      "description": "There's about to be a big fight to secure access to space.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 6,
+      "reliability": 4,
       "summary_bn": "",
-      "summary_en": "The yeetcycling math resembles asteroid mining in reverse."
+      "summary_en": "There's about to be a big fight to secure access to space."
     },
     {
       "id": "75ecfe43cfa5",
@@ -257,64 +242,19 @@
       "summary_en": "Patreon has announced a number of new and overhauled features that are designed to \"build a better network - and a bette..."
     },
     {
-      "id": "0106bfa2fb7b",
-      "title": "Genesis joins the giant electric SUV club with new GV90",
-      "link": "https://arstechnica.com/cars/2026/08/genesis-joins-the-giant-electric-suv-club-with-new-gv90/",
-      "source": "Ars Technica",
-      "sourceIcon": "ars",
-      "pubDate": "2026-08-20T14:35:58Z",
-      "description": "A retractable screen, a huge heads-up display, and an optional 4-seat VIP interior.",
+      "id": "b36ca5b804f0",
+      "title": "Google’s Pixel 10A is a great deal at 15 percent off",
+      "link": "https://www.theverge.com/gadgets/983171/google-pixel-10a-steelseries-gaming-headset-soldering-4k-bluray-deal-sale",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-08-21T14:35:22Z",
+      "description": "This week, all of Google’s Pixel 11 phones launched, including the $899 Pixel 11, the $1,099 Pixel 11 Pro (with the same processor and starting 12GB RAM as the standard model, but with better cameras), and the $1,899 Pixel 11 Pro Fold. They’re good phones, but if you don’t mind missing out on their new, [&#8230;]",
       "topic": "Hardware",
       "topicIcon": "💻",
-      "importance": 4,
-      "reliability": 5,
-      "summary_bn": "",
-      "summary_en": "A retractable screen, a huge heads-up display, and an optional 4-seat VIP interior."
-    },
-    {
-      "id": "01237097ff1b",
-      "title": "Linux 7.2",
-      "link": "https://www.igalia.com/2026/08/19/Linux-72-Released.html",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-08-20T15:46:18Z",
-      "description": "Article URL: https://www.igalia.com/2026/08/19/Linux-72-Released.html Comments URL: https://news.ycombinator.com/item?id=49376265 Points: 274 # Comments: 118",
-      "topic": "Web/JavaScript",
-      "topicIcon": "🌐",
-      "importance": 4,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://www.igalia.com/2026/08/19/Linux-72-Released.html Comments URL: https://news.ycombinator.com/item?id..."
-    },
-    {
-      "id": "1cbac981a493",
-      "title": "Early Cerebras investor Adit Singh joins Mayfield as infrastructure partner",
-      "link": "https://techcrunch.com/2026/08/20/early-cerebras-investor-adit-singh-joins-mayfield-as-infrastructure-partner/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-20T17:04:53Z",
-      "description": "At Mayfield, Singh will focus on semiconductor, cybersecurity, and physical AI investments.",
-      "topic": "Security",
-      "topicIcon": "🔒",
-      "importance": 4,
+      "importance": 5,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "At Mayfield, Singh will focus on semiconductor, cybersecurity, and physical AI investments."
-    },
-    {
-      "id": "c49df2de3722",
-      "title": "The investor’s guide to TechCrunch Disrupt 2026: Everything you need to know",
-      "link": "https://techcrunch.com/2026/08/20/the-investors-guide-to-techcrunch-disrupt-2026-everything-you-need-to-know/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-20T17:27:47Z",
-      "description": "Year after year, investors who've explored the Expo Halls, met founders, and learned from peers have proven why you need to be on the ground at Disrupt this year.",
-      "topic": "Startups",
-      "topicIcon": "🚀",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Year after year, investors who've explored the Expo Halls, met founders, and learned from peers have proven why you need..."
+      "summary_en": "This week, all of Google’s Pixel 11 phones launched, including the $899 Pixel 11, the $1,099 Pixel 11 Pro (with the same..."
     },
     {
       "id": "89ade8f544b0",
@@ -375,36 +315,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Google is giving publishers a new button that lets readers make them a preferred source across Search, Discover, and Goo..."
-    },
-    {
-      "id": "02ed539fac86",
-      "title": "The August 17 outage",
-      "link": "https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-08-20T19:22:24Z",
-      "description": "Article URL: https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/ Comments URL: https://news.ycombinator.com/item?id=49378957 Points: 592 # Comments: 678",
-      "topic": "Startups",
-      "topicIcon": "🚀",
-      "importance": 4,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/ Comments URL: https..."
-    },
-    {
-      "id": "e70bc5b86969",
-      "title": "The Genesis GV90 blows the bloody doors off what’s possible in EV design",
-      "link": "https://www.theverge.com/transportation/982910/genesis-gv90-ev-suv-coach-door-heated-floor",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-08-20T19:52:57Z",
-      "description": "Genesis, Hyundai's luxury brand, just revealed its first full-size, three-row electric SUV for the US market, the GV90. And arguably it has some of the wildest designs and features in the auto market today. Right off the bat, the coach-style doors signal that things aren't what they seem with the GV90. When the front and [&#8230;]",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Genesis, Hyundai's luxury brand, just revealed its first full-size, three-row electric SUV for the US market, the GV90. ..."
     },
     {
       "id": "d48ea2791e48",
@@ -647,6 +557,21 @@
       "summary_en": "Tesla and eight other automakers will install warning labels that help occupants identify the often hard-to-find manual ..."
     },
     {
+      "id": "10d2004a2066",
+      "title": "Oura faces lawsuit accusing it of misleading consumers about sleep-tracking accuracy",
+      "link": "https://techcrunch.com/2026/08/21/oura-faces-lawsuit-accusing-it-of-misleading-consumers-about-sleep-tracking-accuracy/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-21T14:39:24Z",
+      "description": "The lawsuit alleges that Oura rings are unable to measure any of the physiological signals needed to assess sleep quality or determine sleep stages.",
+      "topic": "Regulation",
+      "topicIcon": "⚖️",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "The lawsuit alleges that Oura rings are unable to measure any of the physiological signals needed to assess sleep qualit..."
+    },
+    {
       "id": "d5497c2ac537",
       "title": "Grok keeps sending gibberish responses to users",
       "link": "https://techcrunch.com/2026/08/20/grok-keeps-sending-gibberish-responses-to-users/",
@@ -737,6 +662,66 @@
       "summary_en": "Incremental improvements fail to generate much excitement, but Google’s Pixel 11 is still an accomplished Android phone."
     },
     {
+      "id": "4a4c056c3a22",
+      "title": "Paramount+ Coupon Codes and Deals for August 2026",
+      "link": "https://www.wired.com/story/paramount-plus-coupon-code/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-08-21T05:00:00Z",
+      "description": "Save on streaming with the latest Paramount+ promo codes and deals, including 50% off subscriptions, free trials, and more.",
+      "topic": "Hardware",
+      "topicIcon": "💻",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Save on streaming with the latest Paramount+ promo codes and deals, including 50% off subscriptions, free trials, and mo..."
+    },
+    {
+      "id": "8d12aa494ee9",
+      "title": "Zoro Coupon Codes: 55% Off August",
+      "link": "https://www.wired.com/story/zoro-promo-code/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-08-21T05:00:00Z",
+      "description": "Find the best Zoro coupon codes, deals, and free shipping offers to save big on industrial equipment, tools, and supplies this month.",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Find the best Zoro coupon codes, deals, and free shipping offers to save big on industrial equipment, tools, and supplie..."
+    },
+    {
+      "id": "035f70e69ad4",
+      "title": "Meta Quest Promo Codes and Coupons for August 2026",
+      "link": "https://www.wired.com/story/meta-quest-promo-code/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-08-21T05:00:00Z",
+      "description": "Experience cutting-edge VR and save up to 20% with coupons for the latest games, Meta Quest 3, Ray-Ban AI glasses, and more deals.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Experience cutting-edge VR and save up to 20% with coupons for the latest games, Meta Quest 3, Ray-Ban AI glasses, and m..."
+    },
+    {
+      "id": "a56fe6b618b1",
+      "title": "Lenovo Coupon Codes: 15% Off in August 2026",
+      "link": "https://www.wired.com/story/lenovo-coupon-code/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-08-21T05:00:00Z",
+      "description": "Whether you’re shopping for a ThinkPad, Yoga laptop, or Legion gaming PC, these Lenovo discount codes and promotions can help you save big on your next tech upgrade.",
+      "topic": "Hardware",
+      "topicIcon": "💻",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Whether you’re shopping for a ThinkPad, Yoga laptop, or Legion gaming PC, these Lenovo discount codes and promotions can..."
+    },
+    {
       "id": "c8f0c41a4353",
       "title": "Ray-Ban Promo Codes: Save 50% in August 2026",
       "link": "https://www.wired.com/story/ray-ban-promo-code/",
@@ -750,6 +735,21 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Upgrade your frames with major savings on classic shapes, custom designs, and prescription lenses using these verified R..."
+    },
+    {
+      "id": "c1d3ff4133e5",
+      "title": "B&H Photo Promo Codes and Deals This August 2026",
+      "link": "https://www.wired.com/story/bh-photo-coupon/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-08-21T05:00:00Z",
+      "description": "Enjoy top deals on cameras, computers, and tech essentials at B&H Photo.",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Enjoy top deals on cameras, computers, and tech essentials at B&H Photo."
     }
   ]
 }
