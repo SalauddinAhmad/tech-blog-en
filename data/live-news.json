@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T22:31:48+06:00",
+  "lastUpdated": "2026-08-22T23:26:29+06:00",
   "news": [
     {
       "id": "0531b8361b5d",
@@ -75,36 +75,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Japanese space startup Letara is betting its hybrid rocket technology can move beyond small satellite thrusters into a b..."
-    },
-    {
-      "id": "faaedb9cfd0d",
-      "title": "Personalized pricing is “abhorrent,” but FTC limits may increase costs, critics say",
-      "link": "https://arstechnica.com/tech-policy/2026/08/critics-ftc-limits-on-personalized-pricing-may-increase-costs-kill-discounts/",
-      "source": "Ars Technica",
-      "sourceIcon": "ars",
-      "pubDate": "2026-08-21T16:38:25Z",
-      "description": "Some Americans fear the FTC may be thinking about personalized pricing all wrong.",
-      "topic": "Regulation",
-      "topicIcon": "⚖️",
-      "importance": 5,
-      "reliability": 5,
-      "summary_bn": "",
-      "summary_en": "Some Americans fear the FTC may be thinking about personalized pricing all wrong."
-    },
-    {
-      "id": "21ad7663a4c5",
-      "title": "Fighter jets help destroy Russian drone boat near European offshore gas platform",
-      "link": "https://arstechnica.com/gadgets/2026/08/explosive-russian-drone-boat-destroyed-near-european-offshore-gas-site/",
-      "source": "Ars Technica",
-      "sourceIcon": "ars",
-      "pubDate": "2026-08-21T16:48:59Z",
-      "description": "Romania blew up drone boat to protect lives of several hundred rig workers.",
-      "topic": "Regulation",
-      "topicIcon": "⚖️",
-      "importance": 5,
-      "reliability": 5,
-      "summary_bn": "",
-      "summary_en": "Romania blew up drone boat to protect lives of several hundred rig workers."
     },
     {
       "id": "5864af6cae43",
@@ -225,21 +195,6 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "More than 300 companies are showcasing the latest advances in robotics at the five-day event in Beijing, China, organise..."
-    },
-    {
-      "id": "df85af19a794",
-      "title": "Why is the DOJ investigating Andreessen Horowitz’s board seats?",
-      "link": "https://techcrunch.com/video/why-is-the-doj-investigating-andreessen-horowitzs-board-seats/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-21T16:53:39Z",
-      "description": "Andreessen Horowitz has two partners sitting on the boards of companies that now&#160;compete with each other: Ben Horowitz at Databricks and Martin Casado at&#160;Fivetran. Nothing too scandalous on the surface, except&#160;the Department of&#160;Justice&#160;has&#160;reportedly&#160;been investigating the arrangement&#160;for&#160;almost&#160;a&#160;year, dusting&#160;off a 112-year-old antitrust&#160;law&#160;that&#8217;s&#160;rarely used against VCs.&#160; Board conflicts&#160;aren&#8217;t&#160;exactly new, and these companies&#160;weren&#8217;t&#160;necessarily direct competitors when a16z first invested [&#8230;]",
-      "topic": "Regulation",
-      "topicIcon": "⚖️",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Andreessen Horowitz has two partners sitting on the boards of companies that now&#160;compete with each other: Ben Horow..."
     },
     {
       "id": "c272d4640149",
@@ -467,6 +422,21 @@
       "summary_en": "Google’s Pixel 11 Pro XL brings snappier cameras and genuinely useful AI features like Rambler, but its iterative upgrad..."
     },
     {
+      "id": "282f77d42769",
+      "title": "W. Kamau Bell has the most practical ‘most indispensable tool’",
+      "link": "https://www.theverge.com/report/980452/w-kamau-bell-whos-with-me-comedy-interview",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-08-22T15:00:00Z",
+      "description": "W. Kamau Bell is one of those people who has always just seemed to be there. From Totally Biased, to Politically Re-Active, United Shades of America, and We Need to Talk About Cosby, his blend of comedy, social commentary, and political activism has helped him stand out. He's won a Peabody and four Emmys, been [&#8230;]",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "W. Kamau Bell is one of those people who has always just seemed to be there. From Totally Biased, to Politically Re-Acti..."
+    },
+    {
       "id": "5c1d39faf87e",
       "title": "Frontier AI labs still won’t say how they’d contain a rogue model",
       "link": "https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model/",
@@ -482,34 +452,19 @@
       "summary_en": "A new study finds leading AI labs have few publicly documented plans for containing rogue models, raising questions abou..."
     },
     {
-      "id": "9bf47d99f1ba",
-      "title": "Microsoft and Discord subpoenaed over GTA VI gameplay leaks",
-      "link": "https://www.theverge.com/games/983323/grand-theft-auto-vi-gta-leaks-microsoft-discord-subpoenaed",
+      "id": "54c67d08d3f0",
+      "title": "Doodle generative compositions in your browser with Musical Spirograph",
+      "link": "https://www.theverge.com/entertainment/983322/musical-spirograph-generative-composition",
       "source": "TheVerge",
       "sourceIcon": "verge",
-      "pubDate": "2026-08-21T16:52:56Z",
-      "description": "Following several apparent video leaks of Grand Theft Auto VI, Take-Two Interactive has subpoenaed Microsoft and Discord over content that \"infringes copyrights\" held for the game, Kotaku reports. In the subpoenas, filed on Thursday, Take-Two says copyrighted material includes \"audiovisual content, artwork, images, dialogue, or other creative elements\" and it is looking to identify \"alleged [&#8230;]",
-      "topic": "Regulation",
-      "topicIcon": "⚖️",
-      "importance": 3,
+      "pubDate": "2026-08-22T17:00:00Z",
+      "description": "I remember having a Spirograph as a kid and being obsessed with it. Its geometric patterns are hypnotic and gorgeous. I also love generative music composition. So bringing those two things together in a browser tab, I'm hooked. Musical Spirograph is a relatively simple concept. A set of points dash around the screen according to [&#8230;]",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "Following several apparent video leaks of Grand Theft Auto VI, Take-Two Interactive has subpoenaed Microsoft and Discord..."
-    },
-    {
-      "id": "cf334f68b185",
-      "title": "Walmart is finally adding Apple Pay and Google Pay",
-      "link": "https://www.theverge.com/tech/983336/walmart-apple-google-pay-launch",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-08-21T17:01:59Z",
-      "description": "Walmart will soon allow you to pay for your items with Google Pay or Apple Pay. In an announcement on Friday, Walmart says it's going to bring tap-to-pay capabilities to \"select\" Walmart and Sam's Club locations starting August 24th, before rolling out support to all US stores by the end of 2026 and gas stations [&#8230;]",
-      "topic": "Other",
-      "topicIcon": "📰",
-      "importance": 3,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Walmart will soon allow you to pay for your items with Google Pay or Apple Pay. In an announcement on Friday, Walmart sa..."
+      "summary_en": "I remember having a Spirograph as a kid and being obsessed with it. Its geometric patterns are hypnotic and gorgeous. I ..."
     },
     {
       "id": "04ea33a88e6e",
@@ -638,28 +593,13 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-22T09:49:14Z",
-      "description": "Article URL: https://munderdiffl.in/ Comments URL: https://news.ycombinator.com/item?id=49398152 Points: 173 # Comments: 70",
+      "description": "Article URL: https://munderdiffl.in/ Comments URL: https://news.ycombinator.com/item?id=49398152 Points: 181 # Comments: 75",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 3,
       "reliability": 3,
       "summary_bn": "",
-      "summary_en": "Article URL: https://munderdiffl.in/ Comments URL: https://news.ycombinator.com/item?id=49398152 Points: 173 # Comments:..."
-    },
-    {
-      "id": "f837b8be0293",
-      "title": "Canada suspends trade negotiations with USA and match tariffs dollar for dollar",
-      "link": "https://www.pm.gc.ca/en/news/statements/2026/08/21/statement-prime-minister-carney-canada-us-trade-negotiations",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-08-22T10:26:09Z",
-      "description": "Article URL: https://www.pm.gc.ca/en/news/statements/2026/08/21/statement-prime-minister-carney-canada-us-trade-negotiations Comments URL: https://news.ycombinator.com/item?id=49398304 Points: 624 # Comments: 568",
-      "topic": "Startups",
-      "topicIcon": "🚀",
-      "importance": 3,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://www.pm.gc.ca/en/news/statements/2026/08/21/statement-prime-minister-carney-canada-us-trade-negotiat..."
+      "summary_en": "Article URL: https://munderdiffl.in/ Comments URL: https://news.ycombinator.com/item?id=49398152 Points: 181 # Comments:..."
     },
     {
       "id": "044edad895ef",
@@ -713,7 +653,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-22T12:07:06Z",
-      "description": "Article URL: https://www.theguardian.com/technology/2026/aug/22/meta-trial-children-privacy Comments URL: https://news.ycombinator.com/item?id=49398904 Points: 143 # Comments: 90",
+      "description": "Article URL: https://www.theguardian.com/technology/2026/aug/22/meta-trial-children-privacy Comments URL: https://news.ycombinator.com/item?id=49398904 Points: 159 # Comments: 110",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 3,
@@ -750,6 +690,66 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "U.S. battery startups pulled in $500 million in grants from the Department of Energy, throwing a lifeline to an industry..."
+    },
+    {
+      "id": "79189f209600",
+      "title": "Anthropic IPO filing will show AI backlash as a risk factor, sources say",
+      "link": "https://www.cnbc.com/2026/08/21/-anthropic-ipo-filing-will-show-ai-backlash-as-risk-sources-say.html",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-08-22T16:23:09Z",
+      "description": "Article URL: https://www.cnbc.com/2026/08/21/-anthropic-ipo-filing-will-show-ai-backlash-as-risk-sources-say.html Comments URL: https://news.ycombinator.com/item?id=49401229 Points: 12 # Comments: 6",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 3,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "Article URL: https://www.cnbc.com/2026/08/21/-anthropic-ipo-filing-will-show-ai-backlash-as-risk-sources-say.html Commen..."
+    },
+    {
+      "id": "11bfce24e7f0",
+      "title": "OpenAI says California should strengthen its AI safety bill",
+      "link": "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-22T16:30:34Z",
+      "description": "OpenAI is calling for California to strengthen SB 53, an AI safety bill that the company previously opposed.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "OpenAI is calling for California to strengthen SB 53, an AI safety bill that the company previously opposed."
+    },
+    {
+      "id": "da6c293a82c3",
+      "title": "OTel isn’t going well",
+      "link": "https://matduggan.com/otel-isnt-going-well-and-i-made-a-spreadsheet-about-it/",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-08-21T17:45:41Z",
+      "description": "Article URL: https://matduggan.com/otel-isnt-going-well-and-i-made-a-spreadsheet-about-it/ Comments URL: https://news.ycombinator.com/item?id=49391553 Points: 191 # Comments: 89",
+      "topic": "Startups",
+      "topicIcon": "🚀",
+      "importance": 2,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "Article URL: https://matduggan.com/otel-isnt-going-well-and-i-made-a-spreadsheet-about-it/ Comments URL: https://news.yc..."
+    },
+    {
+      "id": "16d63aafccb0",
+      "title": "How Thailand Resisted Colonization",
+      "link": "https://worksinprogress.co/issue/how-thailand-resisted-colonization/",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-08-21T18:28:42Z",
+      "description": "Article URL: https://worksinprogress.co/issue/how-thailand-resisted-colonization/ Comments URL: https://news.ycombinator.com/item?id=49392099 Points: 98 # Comments: 32",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 2,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "Article URL: https://worksinprogress.co/issue/how-thailand-resisted-colonization/ Comments URL: https://news.ycombinator..."
     }
   ]
 }
