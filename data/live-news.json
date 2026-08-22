@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T12:49:54+06:00",
+  "lastUpdated": "2026-08-22T13:36:36+06:00",
   "news": [
     {
       "id": "589ae77c33df",
@@ -203,7 +203,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-21T17:54:06Z",
-      "description": "Article URL: https://zeux.io/2025/09/30/billions-of-triangles-in-minutes/ Comments URL: https://news.ycombinator.com/item?id=49391661 Points: 8 # Comments: 0",
+      "description": "Article URL: https://zeux.io/2025/09/30/billions-of-triangles-in-minutes/ Comments URL: https://news.ycombinator.com/item?id=49391661 Points: 15 # Comments: 0",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 5,
@@ -608,7 +608,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-21T13:11:28Z",
-      "description": "Article URL: https://lina.sh/blog/hijacking-e164-arpa Comments URL: https://news.ycombinator.com/item?id=49387570 Points: 496 # Comments: 55",
+      "description": "Article URL: https://lina.sh/blog/hijacking-e164-arpa Comments URL: https://news.ycombinator.com/item?id=49387570 Points: 516 # Comments: 57",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 3,
@@ -623,13 +623,13 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-21T13:56:37Z",
-      "description": "Article URL: https://kagi.com/changelog#11296 Comments URL: https://news.ycombinator.com/item?id=49388154 Points: 1080 # Comments: 356",
+      "description": "Article URL: https://kagi.com/changelog#11296 Comments URL: https://news.ycombinator.com/item?id=49388154 Points: 1090 # Comments: 358",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 3,
       "reliability": 3,
       "summary_bn": "",
-      "summary_en": "Article URL: https://kagi.com/changelog#11296 Comments URL: https://news.ycombinator.com/item?id=49388154 Points: 1080 #..."
+      "summary_en": "Article URL: https://kagi.com/changelog#11296 Comments URL: https://news.ycombinator.com/item?id=49388154 Points: 1090 #..."
     },
     {
       "id": "f93372c29c57",
