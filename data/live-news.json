@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T14:37:19+06:00",
+  "lastUpdated": "2026-08-22T15:32:26+06:00",
   "news": [
     {
       "id": "589ae77c33df",
@@ -203,7 +203,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-21T17:54:06Z",
-      "description": "Article URL: https://zeux.io/2025/09/30/billions-of-triangles-in-minutes/ Comments URL: https://news.ycombinator.com/item?id=49391661 Points: 17 # Comments: 0",
+      "description": "Article URL: https://zeux.io/2025/09/30/billions-of-triangles-in-minutes/ Comments URL: https://news.ycombinator.com/item?id=49391661 Points: 27 # Comments: 0",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 5,
@@ -587,6 +587,21 @@
       "summary_en": "Michael Polansky — better known publicly as Lady Gaga's partner and a former top deputy to Sean Parker — has quietly spe..."
     },
     {
+      "id": "27a7919a9bc4",
+      "title": "NASA Cancels Its Rescue Mission for the Aging Swift Telescope",
+      "link": "https://www.wired.com/story/nasa-cancels-its-rescue-mission-for-the-aging-swift-telescope/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-08-22T09:00:00Z",
+      "description": "The LINK probe was supposed to use robotic arms to capture Swift and lift it into a safe orbit. Problems with its control system forced NASA to call off the attempt.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "The LINK probe was supposed to use robotic arms to capture Swift and lift it into a safe orbit. Problems with its contro..."
+    },
+    {
       "id": "13a9e2e46655",
       "title": "The Super El Niño Won’t Fix the West’s Water Crisis",
       "link": "https://www.wired.com/story/the-super-el-nino-wont-fix-the-wests-water-crisis/",
@@ -608,7 +623,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-21T13:07:26Z",
-      "description": "Article URL: https://precastreinforced.co.uk/2026/08/16/new-worlds/ Comments URL: https://news.ycombinator.com/item?id=49387525 Points: 235 # Comments: 165",
+      "description": "Article URL: https://precastreinforced.co.uk/2026/08/16/new-worlds/ Comments URL: https://news.ycombinator.com/item?id=49387525 Points: 237 # Comments: 165",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 3,
@@ -623,7 +638,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-21T13:11:28Z",
-      "description": "Article URL: https://lina.sh/blog/hijacking-e164-arpa Comments URL: https://news.ycombinator.com/item?id=49387570 Points: 532 # Comments: 60",
+      "description": "Article URL: https://lina.sh/blog/hijacking-e164-arpa Comments URL: https://news.ycombinator.com/item?id=49387570 Points: 538 # Comments: 64",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 3,
@@ -638,13 +653,13 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-21T13:56:37Z",
-      "description": "Article URL: https://kagi.com/changelog#11296 Comments URL: https://news.ycombinator.com/item?id=49388154 Points: 1106 # Comments: 361",
+      "description": "Article URL: https://kagi.com/changelog#11296 Comments URL: https://news.ycombinator.com/item?id=49388154 Points: 1115 # Comments: 363",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 3,
       "reliability": 3,
       "summary_bn": "",
-      "summary_en": "Article URL: https://kagi.com/changelog#11296 Comments URL: https://news.ycombinator.com/item?id=49388154 Points: 1106 #..."
+      "summary_en": "Article URL: https://kagi.com/changelog#11296 Comments URL: https://news.ycombinator.com/item?id=49388154 Points: 1115 #..."
     },
     {
       "id": "f93372c29c57",
@@ -735,21 +750,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "The responses to NHTSA's questions so far are redacted entirely, citing \"confidential business information.\""
-    },
-    {
-      "id": "d9936e54a112",
-      "title": "$100 Best Buy gift cards will be $60 at stores Saturday",
-      "link": "https://www.theverge.com/gadgets/982513/best-buy-gift-card-in-store-deal",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-08-21T18:00:00Z",
-      "description": "The best gift card deal we’ve spotted this year is happening Saturday, August 22nd, at Best Buy stores for one day only. In celebration of the retailer’s 60th anniversary, you can purchase a $100 Best Buy gift card for $60. The deal is only good for as long as supplies last at your local store, [&#8230;]",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 3,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "The best gift card deal we’ve spotted this year is happening Saturday, August 22nd, at Best Buy stores for one day only...."
     }
   ]
 }
