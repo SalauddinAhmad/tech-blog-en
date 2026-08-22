@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T13:36:36+06:00",
+  "lastUpdated": "2026-08-22T14:37:19+06:00",
   "news": [
     {
       "id": "589ae77c33df",
@@ -203,7 +203,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-21T17:54:06Z",
-      "description": "Article URL: https://zeux.io/2025/09/30/billions-of-triangles-in-minutes/ Comments URL: https://news.ycombinator.com/item?id=49391661 Points: 15 # Comments: 0",
+      "description": "Article URL: https://zeux.io/2025/09/30/billions-of-triangles-in-minutes/ Comments URL: https://news.ycombinator.com/item?id=49391661 Points: 17 # Comments: 0",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 5,
@@ -602,13 +602,28 @@
       "summary_en": "“People have talked about the Colorado River crisis for decades—we’re now in it,” says one expert. “Everyone you talk to..."
     },
     {
+      "id": "e4fca15e2e69",
+      "title": "New Worlds: We are living in the future of J.G. Ballard or William Gibson",
+      "link": "https://precastreinforced.co.uk/2026/08/16/new-worlds/",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-08-21T13:07:26Z",
+      "description": "Article URL: https://precastreinforced.co.uk/2026/08/16/new-worlds/ Comments URL: https://news.ycombinator.com/item?id=49387525 Points: 235 # Comments: 165",
+      "topic": "Startups",
+      "topicIcon": "🚀",
+      "importance": 3,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "Article URL: https://precastreinforced.co.uk/2026/08/16/new-worlds/ Comments URL: https://news.ycombinator.com/item?id=4..."
+    },
+    {
       "id": "4671a34b716a",
       "title": "I accidentally logged hundreds of thousands of phone calls to military bases",
       "link": "https://lina.sh/blog/hijacking-e164-arpa",
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-21T13:11:28Z",
-      "description": "Article URL: https://lina.sh/blog/hijacking-e164-arpa Comments URL: https://news.ycombinator.com/item?id=49387570 Points: 516 # Comments: 57",
+      "description": "Article URL: https://lina.sh/blog/hijacking-e164-arpa Comments URL: https://news.ycombinator.com/item?id=49387570 Points: 532 # Comments: 60",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 3,
@@ -623,13 +638,13 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-21T13:56:37Z",
-      "description": "Article URL: https://kagi.com/changelog#11296 Comments URL: https://news.ycombinator.com/item?id=49388154 Points: 1090 # Comments: 358",
+      "description": "Article URL: https://kagi.com/changelog#11296 Comments URL: https://news.ycombinator.com/item?id=49388154 Points: 1106 # Comments: 361",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 3,
       "reliability": 3,
       "summary_bn": "",
-      "summary_en": "Article URL: https://kagi.com/changelog#11296 Comments URL: https://news.ycombinator.com/item?id=49388154 Points: 1090 #..."
+      "summary_en": "Article URL: https://kagi.com/changelog#11296 Comments URL: https://news.ycombinator.com/item?id=49388154 Points: 1106 #..."
     },
     {
       "id": "f93372c29c57",
@@ -735,21 +750,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "The best gift card deal we’ve spotted this year is happening Saturday, August 22nd, at Best Buy stores for one day only...."
-    },
-    {
-      "id": "436ce9ffb39b",
-      "title": "Tesla’s solar roof is dead — here’s what went wrong",
-      "link": "https://techcrunch.com/2026/08/21/teslas-solar-roof-is-dead-heres-what-went-wrong/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-21T18:09:53Z",
-      "description": "Tesla's solar roof was an experiment that never really caught on for the company. But does that mean the concept of roof-integrated solar is dead?",
-      "topic": "Other",
-      "topicIcon": "📰",
-      "importance": 3,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Tesla's solar roof was an experiment that never really caught on for the company. But does that mean the concept of roof..."
     }
   ]
 }
