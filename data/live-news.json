@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T21:27:10+06:00",
+  "lastUpdated": "2026-08-22T22:31:48+06:00",
   "news": [
     {
       "id": "0531b8361b5d",
@@ -113,7 +113,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-21T17:54:06Z",
-      "description": "Article URL: https://zeux.io/2025/09/30/billions-of-triangles-in-minutes/ Comments URL: https://news.ycombinator.com/item?id=49391661 Points: 55 # Comments: 0",
+      "description": "Article URL: https://zeux.io/2025/09/30/billions-of-triangles-in-minutes/ Comments URL: https://news.ycombinator.com/item?id=49391661 Points: 56 # Comments: 0",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 5,
@@ -225,21 +225,6 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "More than 300 companies are showcasing the latest advances in robotics at the five-day event in Beijing, China, organise..."
-    },
-    {
-      "id": "9e86c763a039",
-      "title": "US government lab is probing Chinese lidar for security vulnerabilities",
-      "link": "https://techcrunch.com/2026/08/21/us-government-lab-is-probing-chinese-lidar-for-security-vulnerabilities/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-21T16:01:54Z",
-      "description": "The security review is being performed by the Idaho National Laboratory, and the research is being funded by a company -- or a group of companies -- in the electric and autonomous vehicle industries.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "The security review is being performed by the Idaho National Laboratory, and the research is being funded by a company -..."
     },
     {
       "id": "df85af19a794",
@@ -482,19 +467,34 @@
       "summary_en": "Google’s Pixel 11 Pro XL brings snappier cameras and genuinely useful AI features like Rambler, but its iterative upgrad..."
     },
     {
-      "id": "282f77d42769",
-      "title": "W. Kamau Bell has the most practical ‘most indispensable tool’",
-      "link": "https://www.theverge.com/report/980452/w-kamau-bell-whos-with-me-comedy-interview",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-08-22T15:00:00Z",
-      "description": "W. Kamau Bell is one of those people who has always just seemed to be there. From Totally Biased, to Politically Re-Active, United Shades of America, and We Need to Talk About Cosby, his blend of comedy, social commentary, and political activism has helped him stand out. He's won a Peabody and four Emmys, been [&#8230;]",
-      "topic": "Other",
-      "topicIcon": "📰",
+      "id": "5c1d39faf87e",
+      "title": "Frontier AI labs still won’t say how they’d contain a rogue model",
+      "link": "https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-22T16:00:00Z",
+      "description": "A new study finds leading AI labs have few publicly documented plans for containing rogue models, raising questions about preparedness as AI systems increasingly demonstrate unexpected and potentially dangerous behavior.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
       "importance": 4,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "W. Kamau Bell is one of those people who has always just seemed to be there. From Totally Biased, to Politically Re-Acti..."
+      "summary_en": "A new study finds leading AI labs have few publicly documented plans for containing rogue models, raising questions abou..."
+    },
+    {
+      "id": "9bf47d99f1ba",
+      "title": "Microsoft and Discord subpoenaed over GTA VI gameplay leaks",
+      "link": "https://www.theverge.com/games/983323/grand-theft-auto-vi-gta-leaks-microsoft-discord-subpoenaed",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-08-21T16:52:56Z",
+      "description": "Following several apparent video leaks of Grand Theft Auto VI, Take-Two Interactive has subpoenaed Microsoft and Discord over content that \"infringes copyrights\" held for the game, Kotaku reports. In the subpoenas, filed on Thursday, Take-Two says copyrighted material includes \"audiovisual content, artwork, images, dialogue, or other creative elements\" and it is looking to identify \"alleged [&#8230;]",
+      "topic": "Regulation",
+      "topicIcon": "⚖️",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Following several apparent video leaks of Grand Theft Auto VI, Take-Two Interactive has subpoenaed Microsoft and Discord..."
     },
     {
       "id": "cf334f68b185",
@@ -638,13 +638,13 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-22T09:49:14Z",
-      "description": "Article URL: https://munderdiffl.in/ Comments URL: https://news.ycombinator.com/item?id=49398152 Points: 153 # Comments: 61",
+      "description": "Article URL: https://munderdiffl.in/ Comments URL: https://news.ycombinator.com/item?id=49398152 Points: 173 # Comments: 70",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 3,
       "reliability": 3,
       "summary_bn": "",
-      "summary_en": "Article URL: https://munderdiffl.in/ Comments URL: https://news.ycombinator.com/item?id=49398152 Points: 153 # Comments:..."
+      "summary_en": "Article URL: https://munderdiffl.in/ Comments URL: https://news.ycombinator.com/item?id=49398152 Points: 173 # Comments:..."
     },
     {
       "id": "f837b8be0293",
@@ -653,7 +653,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-22T10:26:09Z",
-      "description": "Article URL: https://www.pm.gc.ca/en/news/statements/2026/08/21/statement-prime-minister-carney-canada-us-trade-negotiations Comments URL: https://news.ycombinator.com/item?id=49398304 Points: 580 # Comments: 508",
+      "description": "Article URL: https://www.pm.gc.ca/en/news/statements/2026/08/21/statement-prime-minister-carney-canada-us-trade-negotiations Comments URL: https://news.ycombinator.com/item?id=49398304 Points: 624 # Comments: 568",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 3,
@@ -692,21 +692,6 @@
       "summary_en": "Your desk setup needs a monitor arm, and I’ve been testing every one I can get my hands on to find the best."
     },
     {
-      "id": "4d83d5e2071a",
-      "title": "A formal degree and algorithmic problem-solving is the answer. Always has been",
-      "link": "https://zaksa.zip/blog/formal-education-is-the-answer/",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-08-22T11:39:12Z",
-      "description": "Article URL: https://zaksa.zip/blog/formal-education-is-the-answer/ Comments URL: https://news.ycombinator.com/item?id=49398710 Points: 29 # Comments: 40",
-      "topic": "Startups",
-      "topicIcon": "🚀",
-      "importance": 3,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://zaksa.zip/blog/formal-education-is-the-answer/ Comments URL: https://news.ycombinator.com/item?id=4..."
-    },
-    {
       "id": "d37b4cd83ef6",
       "title": "Two great new repairable gadgets",
       "link": "https://www.theverge.com/tech/983375/fairphone-6-plus-framework-12-laptop-mutiny-mortal-shell-2",
@@ -728,7 +713,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-22T12:07:06Z",
-      "description": "Article URL: https://www.theguardian.com/technology/2026/aug/22/meta-trial-children-privacy Comments URL: https://news.ycombinator.com/item?id=49398904 Points: 117 # Comments: 56",
+      "description": "Article URL: https://www.theguardian.com/technology/2026/aug/22/meta-trial-children-privacy Comments URL: https://news.ycombinator.com/item?id=49398904 Points: 143 # Comments: 90",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 3,
@@ -750,6 +735,21 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "For uninterrupted service as you country-hop, the Saily Ultra eSIM works well and comes with plentiful perks. It’s price..."
+    },
+    {
+      "id": "1ccd186fbe54",
+      "title": "US battery startups have found a lifeline in defense",
+      "link": "https://techcrunch.com/2026/08/22/us-battery-startups-have-found-a-lifeline-in-defense/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-22T15:20:00Z",
+      "description": "U.S. battery startups pulled in $500 million in grants from the Department of Energy, throwing a lifeline to an industry that was on the ropes after EV incentives were slashed.",
+      "topic": "Startups",
+      "topicIcon": "🚀",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "U.S. battery startups pulled in $500 million in grants from the Department of Energy, throwing a lifeline to an industry..."
     }
   ]
 }
