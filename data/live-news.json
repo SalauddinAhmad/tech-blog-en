@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T19:36:17+06:00",
+  "lastUpdated": "2026-08-22T20:27:52+06:00",
   "news": [
     {
       "id": "0531b8361b5d",
@@ -45,21 +45,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Laptop prices are out of whack. $500 used to get you a tolerable laptop, and $900 got you a really good one. They often ..."
-    },
-    {
-      "id": "6ac7852311e2",
-      "title": "Starcloud raises $250 million for orbital data centers as launch options dry up",
-      "link": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-21T14:00:00Z",
-      "description": "There's about to be a big fight to secure access to space.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 6,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "There's about to be a big fight to secure access to space."
     },
     {
       "id": "c7f2ecaee183",
@@ -128,7 +113,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-21T17:54:06Z",
-      "description": "Article URL: https://zeux.io/2025/09/30/billions-of-triangles-in-minutes/ Comments URL: https://news.ycombinator.com/item?id=49391661 Points: 50 # Comments: 0",
+      "description": "Article URL: https://zeux.io/2025/09/30/billions-of-triangles-in-minutes/ Comments URL: https://news.ycombinator.com/item?id=49391661 Points: 54 # Comments: 0",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 5,
@@ -240,21 +225,6 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "More than 300 companies are showcasing the latest advances in robotics at the five-day event in Beijing, China, organise..."
-    },
-    {
-      "id": "632e758365f5",
-      "title": "Tesla recalls 3 million cars as part of China-wide push to stop hidden door handles",
-      "link": "https://techcrunch.com/2026/08/21/tesla-recalls-3-million-cars-as-part-of-china-wide-push-to-stop-hidden-door-handles/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-21T13:48:26Z",
-      "description": "Tesla and eight other automakers will install warning labels that help occupants identify the often hard-to-find manual door releases.",
-      "topic": "Other",
-      "topicIcon": "📰",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Tesla and eight other automakers will install warning labels that help occupants identify the often hard-to-find manual ..."
     },
     {
       "id": "10d2004a2066",
@@ -497,6 +467,36 @@
       "summary_en": "These toppers will transform your mattress into exactly what you need, whether that’s a super-plush pillow top, memory f..."
     },
     {
+      "id": "c000c6a2f063",
+      "title": "Amazon just hiked the prices for Echo, Fire TV, and Kindle products by up to 60 percent",
+      "link": "https://www.theverge.com/tech/983598/amazon-price-increase-echo-kindle-fire-tv",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-08-22T13:41:01Z",
+      "description": "Citing \"significant increases in memory and storage component costs,\" in a statement given to Fortune, Amazon has raised prices on Echos, Kindles, Fire TVs, and Eeros by up to 60 percent. The cheapest products in Amazon's lineup were hit hardest, with the Echo Dot smart speaker jumping from $49.99 to $79.99. The Fire TV Stick [&#8230;]",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Citing \"significant increases in memory and storage component costs,\" in a statement given to Fortune, Amazon has raised..."
+    },
+    {
+      "id": "5d17435c4f47",
+      "title": "Pixel 11 Pro XL review: Snappier cameras can’t hide an iterative upgrade",
+      "link": "https://techcrunch.com/2026/08/22/pixel-11-pro-xl-review-snappier-cameras-cant-hide-an-iterative-upgrade/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-22T14:00:00Z",
+      "description": "Google’s Pixel 11 Pro XL brings snappier cameras and genuinely useful AI features like Rambler, but its iterative upgrades may not be enough to tempt recent Pixel owners.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Google’s Pixel 11 Pro XL brings snappier cameras and genuinely useful AI features like Rambler, but its iterative upgrad..."
+    },
+    {
       "id": "f93372c29c57",
       "title": "Walmart to finally start accepting Apple Pay and Google Pay",
       "link": "https://techcrunch.com/2026/08/21/walmart-to-finally-start-accepting-apple-pay-and-google-pay/",
@@ -525,21 +525,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Meta is in court again over child safety, and this time it’s a landmark case that could force significant changes to cor..."
-    },
-    {
-      "id": "b42bc14acd7c",
-      "title": "Pixel 11 gets in on the digicam trend",
-      "link": "https://www.theverge.com/podcast/983288/pixel-11-gets-in-on-the-digicam-trend",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-08-21T16:27:05Z",
-      "description": "I recently looked back at a photo I'd taken on a smartphone in 2014, and I was struck by just how good it looked. The details were soft, the shadows were dark. It was the kind of photo I felt like I hadn't seen out of a phone in years. That might be changing, though. [&#8230;]",
-      "topic": "Mobile",
-      "topicIcon": "📱",
-      "importance": 3,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "I recently looked back at a photo I'd taken on a smartphone in 2014, and I was struck by just how good it looked. The de..."
     },
     {
       "id": "9bf47d99f1ba",
@@ -698,13 +683,13 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-22T09:49:14Z",
-      "description": "Article URL: https://munderdiffl.in/ Comments URL: https://news.ycombinator.com/item?id=49398152 Points: 70 # Comments: 30",
+      "description": "Article URL: https://munderdiffl.in/ Comments URL: https://news.ycombinator.com/item?id=49398152 Points: 124 # Comments: 40",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 3,
       "reliability": 3,
       "summary_bn": "",
-      "summary_en": "Article URL: https://munderdiffl.in/ Comments URL: https://news.ycombinator.com/item?id=49398152 Points: 70 # Comments: ..."
+      "summary_en": "Article URL: https://munderdiffl.in/ Comments URL: https://news.ycombinator.com/item?id=49398152 Points: 124 # Comments:..."
     },
     {
       "id": "f837b8be0293",
@@ -713,7 +698,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-22T10:26:09Z",
-      "description": "Article URL: https://www.pm.gc.ca/en/news/statements/2026/08/21/statement-prime-minister-carney-canada-us-trade-negotiations Comments URL: https://news.ycombinator.com/item?id=49398304 Points: 423 # Comments: 314",
+      "description": "Article URL: https://www.pm.gc.ca/en/news/statements/2026/08/21/statement-prime-minister-carney-canada-us-trade-negotiations Comments URL: https://news.ycombinator.com/item?id=49398304 Points: 507 # Comments: 425",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 3,
@@ -750,6 +735,21 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Your desk setup needs a monitor arm, and I’ve been testing every one I can get my hands on to find the best."
+    },
+    {
+      "id": "4d83d5e2071a",
+      "title": "A formal degree and algorithmic problem-solving is the answer. Always has been",
+      "link": "https://zaksa.zip/blog/formal-education-is-the-answer/",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-08-22T11:39:12Z",
+      "description": "Article URL: https://zaksa.zip/blog/formal-education-is-the-answer/ Comments URL: https://news.ycombinator.com/item?id=49398710 Points: 12 # Comments: 5",
+      "topic": "Startups",
+      "topicIcon": "🚀",
+      "importance": 3,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "Article URL: https://zaksa.zip/blog/formal-education-is-the-answer/ Comments URL: https://news.ycombinator.com/item?id=4..."
     }
   ]
 }
