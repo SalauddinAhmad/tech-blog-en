@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T11:32:31+06:00",
+  "lastUpdated": "2026-08-22T12:49:54+06:00",
   "news": [
     {
       "id": "589ae77c33df",
@@ -195,6 +195,21 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "Romania blew up drone boat to protect lives of several hundred rig workers."
+    },
+    {
+      "id": "5864af6cae43",
+      "title": "Optimizing meshoptimizer to process billions of triangles in minutes (2025)",
+      "link": "https://zeux.io/2025/09/30/billions-of-triangles-in-minutes/",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-08-21T17:54:06Z",
+      "description": "Article URL: https://zeux.io/2025/09/30/billions-of-triangles-in-minutes/ Comments URL: https://news.ycombinator.com/item?id=49391661 Points: 8 # Comments: 0",
+      "topic": "Startups",
+      "topicIcon": "🚀",
+      "importance": 5,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "Article URL: https://zeux.io/2025/09/30/billions-of-triangles-in-minutes/ Comments URL: https://news.ycombinator.com/ite..."
     },
     {
       "id": "0666aefefacc",
@@ -572,21 +587,6 @@
       "summary_en": "Michael Polansky — better known publicly as Lady Gaga's partner and a former top deputy to Sean Parker — has quietly spe..."
     },
     {
-      "id": "0b6ff5d8c6a7",
-      "title": "The Single English County Saying No to Palantir",
-      "link": "https://www.wired.com/story/the-single-english-county-saying-no-to-palantir/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-08-21T06:00:00Z",
-      "description": "The UK government is facing calls to cancel a sprawling health care contract with Palantir. The region of Greater Manchester insists it can do a better job itself.",
-      "topic": "Regulation",
-      "topicIcon": "⚖️",
-      "importance": 3,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "The UK government is facing calls to cancel a sprawling health care contract with Palantir. The region of Greater Manche..."
-    },
-    {
       "id": "13a9e2e46655",
       "title": "The Super El Niño Won’t Fix the West’s Water Crisis",
       "link": "https://www.wired.com/story/the-super-el-nino-wont-fix-the-wests-water-crisis/",
@@ -602,28 +602,13 @@
       "summary_en": "“People have talked about the Colorado River crisis for decades—we’re now in it,” says one expert. “Everyone you talk to..."
     },
     {
-      "id": "e4fca15e2e69",
-      "title": "New Worlds: We are living in the future of J.G. Ballard or William Gibson",
-      "link": "https://precastreinforced.co.uk/2026/08/16/new-worlds/",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-08-21T13:07:26Z",
-      "description": "Article URL: https://precastreinforced.co.uk/2026/08/16/new-worlds/ Comments URL: https://news.ycombinator.com/item?id=49387525 Points: 224 # Comments: 161",
-      "topic": "Startups",
-      "topicIcon": "🚀",
-      "importance": 3,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://precastreinforced.co.uk/2026/08/16/new-worlds/ Comments URL: https://news.ycombinator.com/item?id=4..."
-    },
-    {
       "id": "4671a34b716a",
       "title": "I accidentally logged hundreds of thousands of phone calls to military bases",
       "link": "https://lina.sh/blog/hijacking-e164-arpa",
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-21T13:11:28Z",
-      "description": "Article URL: https://lina.sh/blog/hijacking-e164-arpa Comments URL: https://news.ycombinator.com/item?id=49387570 Points: 487 # Comments: 53",
+      "description": "Article URL: https://lina.sh/blog/hijacking-e164-arpa Comments URL: https://news.ycombinator.com/item?id=49387570 Points: 496 # Comments: 55",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 3,
@@ -638,13 +623,13 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-21T13:56:37Z",
-      "description": "Article URL: https://kagi.com/changelog#11296 Comments URL: https://news.ycombinator.com/item?id=49388154 Points: 1062 # Comments: 355",
+      "description": "Article URL: https://kagi.com/changelog#11296 Comments URL: https://news.ycombinator.com/item?id=49388154 Points: 1080 # Comments: 356",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 3,
       "reliability": 3,
       "summary_bn": "",
-      "summary_en": "Article URL: https://kagi.com/changelog#11296 Comments URL: https://news.ycombinator.com/item?id=49388154 Points: 1062 #..."
+      "summary_en": "Article URL: https://kagi.com/changelog#11296 Comments URL: https://news.ycombinator.com/item?id=49388154 Points: 1080 #..."
     },
     {
       "id": "f93372c29c57",
@@ -750,6 +735,21 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "The best gift card deal we’ve spotted this year is happening Saturday, August 22nd, at Best Buy stores for one day only...."
+    },
+    {
+      "id": "436ce9ffb39b",
+      "title": "Tesla’s solar roof is dead — here’s what went wrong",
+      "link": "https://techcrunch.com/2026/08/21/teslas-solar-roof-is-dead-heres-what-went-wrong/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-21T18:09:53Z",
+      "description": "Tesla's solar roof was an experiment that never really caught on for the company. But does that mean the concept of roof-integrated solar is dead?",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Tesla's solar roof was an experiment that never really caught on for the company. But does that mean the concept of roof..."
     }
   ]
 }
