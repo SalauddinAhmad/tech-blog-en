@@ -1,36 +1,6 @@
 {
-  "lastUpdated": "2026-08-22T18:50:25+06:00",
+  "lastUpdated": "2026-08-22T19:36:17+06:00",
   "news": [
-    {
-      "id": "589ae77c33df",
-      "title": "Private equity firm Apollo confirms data breach amid hacking wave targeting financial giants",
-      "link": "https://techcrunch.com/2026/08/21/private-equity-firm-apollo-confirms-data-breach-amid-hacking-wave-targeting-financial-giants/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-21T13:35:23Z",
-      "description": "The private equity giant confirms a breach, weeks after Google researchers said hackers were targeting financial companies.",
-      "topic": "Security",
-      "topicIcon": "🔒",
-      "importance": 10,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "The private equity giant confirms a breach, weeks after Google researchers said hackers were targeting financial compani..."
-    },
-    {
-      "id": "d2410a855d0f",
-      "title": "Senator asks US government watchdog to review how feds use hacking tools",
-      "link": "https://techcrunch.com/2026/08/21/senator-asks-us-federal-watchdog-to-review-how-feds-use-hacking-tools/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-21T13:05:00Z",
-      "description": "Senator Ron Wyden sent a letter to the U.S. federal watchdog requesting a comprehensive review of how the FBI, DEA, ICE's HSI, and the Secret Service use hacking tools and spyware against Americans.",
-      "topic": "Security",
-      "topicIcon": "🔒",
-      "importance": 7,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Senator Ron Wyden sent a letter to the U.S. federal watchdog requesting a comprehensive review of how the FBI, DEA, ICE'..."
-    },
     {
       "id": "0531b8361b5d",
       "title": "Motorola's GrapheneOS phones will launch in 2027 priced higher than Pixels",
@@ -60,6 +30,21 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "\"We probably need another site that's capable of heavy and super heavy launch capability.\""
+    },
+    {
+      "id": "cca6661bb904",
+      "title": "An okay laptop with 16GB of RAM is better than a nice laptop with 8GB, and this $520 HP OmniBook proves it",
+      "link": "https://www.theverge.com/tech/983554/hp-omnibook-3-16-snapdragon-laptop-review",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-08-22T13:00:00Z",
+      "description": "Laptop prices are out of whack. $500 used to get you a tolerable laptop, and $900 got you a really good one. They often had similar CPU, RAM, and storage options because that stuff was comparatively cheap; the difference was often in build quality and screen rather than power. But RAMageddon has thrown everything off. [&#8230;]",
+      "topic": "Hardware",
+      "topicIcon": "💻",
+      "importance": 7,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Laptop prices are out of whack. $500 used to get you a tolerable laptop, and $900 got you a really good one. They often ..."
     },
     {
       "id": "6ac7852311e2",
@@ -107,21 +92,6 @@
       "summary_en": "Japanese space startup Letara is betting its hybrid rocket technology can move beyond small satellite thrusters into a b..."
     },
     {
-      "id": "eb3a17c12948",
-      "title": "Waymo doubles spending on lobbying in robotaxi battle with Uber",
-      "link": "https://arstechnica.com/cars/2026/08/waymo-doubles-spending-on-lobbying-in-robotaxi-battle-with-uber/",
-      "source": "Ars Technica",
-      "sourceIcon": "ars",
-      "pubDate": "2026-08-21T13:11:35Z",
-      "description": "Alphabet-owned company is seeking to persuade US regulators to clear a path for fully autonomous taxi services.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 5,
-      "reliability": 5,
-      "summary_bn": "",
-      "summary_en": "Alphabet-owned company is seeking to persuade US regulators to clear a path for fully autonomous taxi services."
-    },
-    {
       "id": "faaedb9cfd0d",
       "title": "Personalized pricing is “abhorrent,” but FTC limits may increase costs, critics say",
       "link": "https://arstechnica.com/tech-policy/2026/08/critics-ftc-limits-on-personalized-pricing-may-increase-costs-kill-discounts/",
@@ -158,7 +128,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-21T17:54:06Z",
-      "description": "Article URL: https://zeux.io/2025/09/30/billions-of-triangles-in-minutes/ Comments URL: https://news.ycombinator.com/item?id=49391661 Points: 47 # Comments: 0",
+      "description": "Article URL: https://zeux.io/2025/09/30/billions-of-triangles-in-minutes/ Comments URL: https://news.ycombinator.com/item?id=49391661 Points: 50 # Comments: 0",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 5,
@@ -300,21 +270,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "The lawsuit alleges that Oura rings are unable to measure any of the physiological signals needed to assess sleep qualit..."
-    },
-    {
-      "id": "16fefcfb13b7",
-      "title": "Why does it seem like food recalls are out of control this year?",
-      "link": "https://www.theverge.com/science/983241/food-recalls-bigger-out-of-control",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-08-21T14:45:00Z",
-      "description": "Just weeks after Taylor Farms issued a recall of its iceberg lettuce amid a massive cyclospora outbreak, the Food and Drug Administration recalled more than one million eggs that may be contaminated with salmonella. The eggs, which come from Midwest Poultry Services, were distributed to Kroger and smaller grocery stores across the South and Southwest [&#8230;]",
-      "topic": "Hardware",
-      "topicIcon": "💻",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Just weeks after Taylor Farms issued a recall of its iceberg lettuce amid a massive cyclospora outbreak, the Food and Dr..."
     },
     {
       "id": "9e86c763a039",
@@ -617,21 +572,6 @@
       "summary_en": "Walmart will soon allow you to pay for your items with Google Pay or Apple Pay. In an announcement on Friday, Walmart sa..."
     },
     {
-      "id": "9023ee3428e9",
-      "title": "Rebuilding our Electron meeting-recording engine in Swift",
-      "link": "https://circleback.ai/blog/how-we-rebuilt-our-electron-recording-engine-in-swift",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-08-21T17:33:26Z",
-      "description": "Article URL: https://circleback.ai/blog/how-we-rebuilt-our-electron-recording-engine-in-swift Comments URL: https://news.ycombinator.com/item?id=49391389 Points: 36 # Comments: 9",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 3,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://circleback.ai/blog/how-we-rebuilt-our-electron-recording-engine-in-swift Comments URL: https://news..."
-    },
-    {
       "id": "04ea33a88e6e",
       "title": "Waymo hands over documents in NHTSA’s child collision probe",
       "link": "https://techcrunch.com/2026/08/21/waymo-hands-over-documents-in-nhtsas-child-collision-probe/",
@@ -750,6 +690,66 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Cheap energy, abundant land, and proximity to Beijing have turned a city in Inner Mongolia into a crucial hub for data c..."
+    },
+    {
+      "id": "c248308cd463",
+      "title": "Munder Difflin – Agent harness to run an office of your clones",
+      "link": "https://munderdiffl.in/",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-08-22T09:49:14Z",
+      "description": "Article URL: https://munderdiffl.in/ Comments URL: https://news.ycombinator.com/item?id=49398152 Points: 70 # Comments: 30",
+      "topic": "Startups",
+      "topicIcon": "🚀",
+      "importance": 3,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "Article URL: https://munderdiffl.in/ Comments URL: https://news.ycombinator.com/item?id=49398152 Points: 70 # Comments: ..."
+    },
+    {
+      "id": "f837b8be0293",
+      "title": "Canada suspends trade negotiations with USA and match tariffs dollar for dollar",
+      "link": "https://www.pm.gc.ca/en/news/statements/2026/08/21/statement-prime-minister-carney-canada-us-trade-negotiations",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-08-22T10:26:09Z",
+      "description": "Article URL: https://www.pm.gc.ca/en/news/statements/2026/08/21/statement-prime-minister-carney-canada-us-trade-negotiations Comments URL: https://news.ycombinator.com/item?id=49398304 Points: 423 # Comments: 314",
+      "topic": "Startups",
+      "topicIcon": "🚀",
+      "importance": 3,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "Article URL: https://www.pm.gc.ca/en/news/statements/2026/08/21/statement-prime-minister-carney-canada-us-trade-negotiat..."
+    },
+    {
+      "id": "044edad895ef",
+      "title": "Set Up a Separate Work Profile on Your Android Phone",
+      "link": "https://www.wired.com/story/set-up-a-separate-work-profile-on-your-android-phone/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-08-22T11:00:00Z",
+      "description": "It is possible to achieve your desired work-life balance on your smartphone. Just set up separate accounts using this built-in Android feature.",
+      "topic": "Mobile",
+      "topicIcon": "📱",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "It is possible to achieve your desired work-life balance on your smartphone. Just set up separate accounts using this bu..."
+    },
+    {
+      "id": "45fb6d718051",
+      "title": "The 4 Best Monitor Arms to Clear Up Your Desk Space (2026)",
+      "link": "https://www.wired.com/gallery/best-monitor-arms/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-08-22T11:01:00Z",
+      "description": "Your desk setup needs a monitor arm, and I’ve been testing every one I can get my hands on to find the best.",
+      "topic": "Hardware",
+      "topicIcon": "💻",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Your desk setup needs a monitor arm, and I’ve been testing every one I can get my hands on to find the best."
     }
   ]
 }
