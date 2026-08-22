@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T00:38:33+06:00",
+  "lastUpdated": "2026-08-23T01:27:00+06:00",
   "news": [
     {
       "id": "0531b8361b5d",
@@ -77,19 +77,19 @@
       "summary_en": "Japanese space startup Letara is betting its hybrid rocket technology can move beyond small satellite thrusters into a b..."
     },
     {
-      "id": "0666aefefacc",
-      "title": "Lawsuit demands Logitech hand tariff refunds over to customers",
-      "link": "https://arstechnica.com/tech-policy/2026/08/lawsuit-demands-logitech-hand-tariff-refunds-over-to-customers/",
-      "source": "Ars Technica",
-      "sourceIcon": "ars",
-      "pubDate": "2026-08-21T19:04:41Z",
-      "description": "Logitech increased prices by up to 25 percent last year.",
-      "topic": "Regulation",
-      "topicIcon": "⚖️",
-      "importance": 5,
-      "reliability": 5,
+      "id": "92ba46e36366",
+      "title": "Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research",
+      "link": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-22T19:00:00Z",
+      "description": "Built by DeepMind alumni, British AI lab Inherent released Faraday, an AI agent whose ability to replicate scientific papers could be a stepping stone for innovation.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 6,
+      "reliability": 4,
       "summary_bn": "",
-      "summary_en": "Logitech increased prices by up to 25 percent last year."
+      "summary_en": "Built by DeepMind alumni, British AI lab Inherent released Faraday, an AI agent whose ability to replicate scientific pa..."
     },
     {
       "id": "64670731f317",
@@ -180,21 +180,6 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "More than 300 companies are showcasing the latest advances in robotics at the five-day event in Beijing, China, organise..."
-    },
-    {
-      "id": "b2ded3450f46",
-      "title": "Last chance: Save up to $300 on your TechCrunch Disrupt 2026 ticket today",
-      "link": "https://techcrunch.com/2026/08/21/last-chance-save-up-to-300-on-your-techcrunch-disrupt-2026-ticket-today/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-21T19:16:15Z",
-      "description": "If you’ve been circling around Disrupt, then now’s the best time to lock in your pass and start getting ready to join the rest of the startup community gathering in San Francisco from October 13-15 at Moscone West!",
-      "topic": "Web/JavaScript",
-      "topicIcon": "🌐",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "If you’ve been circling around Disrupt, then now’s the best time to lock in your pass and start getting ready to join th..."
     },
     {
       "id": "620096717211",
@@ -362,6 +347,21 @@
       "summary_en": "These toppers will transform your mattress into exactly what you need, whether that’s a super-plush pillow top, memory f..."
     },
     {
+      "id": "8d687d618edb",
+      "title": "Chinese robot runs 100M sprint quicker than Usain Bolt's world record",
+      "link": "https://www.theguardian.com/sport/2026/aug/22/chinese-robot-runs-100m-sprint-quicker-usain-bolt-world-record",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-08-22T13:39:07Z",
+      "description": "Article URL: https://www.theguardian.com/sport/2026/aug/22/chinese-robot-runs-100m-sprint-quicker-usain-bolt-world-record Comments URL: https://news.ycombinator.com/item?id=49399642 Points: 33 # Comments: 26",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "Article URL: https://www.theguardian.com/sport/2026/aug/22/chinese-robot-runs-100m-sprint-quicker-usain-bolt-world-recor..."
+    },
+    {
       "id": "c000c6a2f063",
       "title": "Amazon just hiked the prices for Echo, Fire TV, and Kindle products by up to 60 percent",
       "link": "https://www.theverge.com/tech/983598/amazon-price-increase-echo-kindle-fire-tv",
@@ -518,7 +518,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-22T06:16:57Z",
-      "description": "https://www.pm.gc.ca/en/news/statements/2026/08/21/statement... Comments URL: https://news.ycombinator.com/item?id=49397074 Points: 158 # Comments: 742",
+      "description": "https://www.pm.gc.ca/en/news/statements/2026/08/21/statement... Comments URL: https://news.ycombinator.com/item?id=49397074 Points: 193 # Comments: 804",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 3,
@@ -533,13 +533,13 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-22T09:49:14Z",
-      "description": "Article URL: https://munderdiffl.in/ Comments URL: https://news.ycombinator.com/item?id=49398152 Points: 200 # Comments: 83",
+      "description": "Article URL: https://munderdiffl.in/ Comments URL: https://news.ycombinator.com/item?id=49398152 Points: 217 # Comments: 87",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 3,
       "reliability": 3,
       "summary_bn": "",
-      "summary_en": "Article URL: https://munderdiffl.in/ Comments URL: https://news.ycombinator.com/item?id=49398152 Points: 200 # Comments:..."
+      "summary_en": "Article URL: https://munderdiffl.in/ Comments URL: https://news.ycombinator.com/item?id=49398152 Points: 217 # Comments:..."
     },
     {
       "id": "044edad895ef",
@@ -585,21 +585,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Hi, friends! Welcome to Installer No. 141, your guide to the best and Verge-iest stuff in the world. (If you're new here..."
-    },
-    {
-      "id": "b7b0d526f8f1",
-      "title": "Hook, hold, harvest and hide: Meta's alleged strategy laid out in first week",
-      "link": "https://www.theguardian.com/technology/2026/aug/22/meta-trial-children-privacy",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-08-22T12:07:06Z",
-      "description": "Article URL: https://www.theguardian.com/technology/2026/aug/22/meta-trial-children-privacy Comments URL: https://news.ycombinator.com/item?id=49398904 Points: 176 # Comments: 140",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 3,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://www.theguardian.com/technology/2026/aug/22/meta-trial-children-privacy Comments URL: https://news.y..."
     },
     {
       "id": "16ff691f78f9",
@@ -653,7 +638,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-22T16:58:49Z",
-      "description": "Article URL: https://twitter.com/argofowl/status/2091150597374537729 Comments URL: https://news.ycombinator.com/item?id=49401549 Points: 51 # Comments: 45",
+      "description": "Article URL: https://twitter.com/argofowl/status/2091150597374537729 Comments URL: https://news.ycombinator.com/item?id=49401549 Points: 62 # Comments: 65",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 3,
@@ -668,7 +653,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-22T17:09:27Z",
-      "description": "Article URL: https://www.cnn.com/2026/08/22/europe/prince-belgium-secret-son-scli-intl Comments URL: https://news.ycombinator.com/item?id=49401621 Points: 38 # Comments: 23",
+      "description": "Article URL: https://www.cnn.com/2026/08/22/europe/prince-belgium-secret-son-scli-intl Comments URL: https://news.ycombinator.com/item?id=49401621 Points: 57 # Comments: 36",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 3,
@@ -683,13 +668,28 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-21T19:51:54Z",
-      "description": "https://matklad.github.io/2026/08/21/rust-glancer.html Comments URL: https://news.ycombinator.com/item?id=49393052 Points: 370 # Comments: 82",
+      "description": "https://matklad.github.io/2026/08/21/rust-glancer.html Comments URL: https://news.ycombinator.com/item?id=49393052 Points: 373 # Comments: 84",
       "topic": "Web/JavaScript",
       "topicIcon": "🌐",
       "importance": 2,
       "reliability": 3,
       "summary_bn": "",
       "summary_en": "https://matklad.github.io/2026/08/21/rust-glancer.html Comments URL: https://news.ycombinator.com/item?id=49393052 Point..."
+    },
+    {
+      "id": "b27bd9d4d472",
+      "title": "The Creation of Abulafia",
+      "link": "https://blog.veitheller.de/abulafia.html",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-08-21T20:42:11Z",
+      "description": "Article URL: https://blog.veitheller.de/abulafia.html Comments URL: https://news.ycombinator.com/item?id=49393537 Points: 13 # Comments: 1",
+      "topic": "Web/JavaScript",
+      "topicIcon": "🌐",
+      "importance": 2,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "Article URL: https://blog.veitheller.de/abulafia.html Comments URL: https://news.ycombinator.com/item?id=49393537 Points..."
     },
     {
       "id": "fd85f85620f5",
@@ -707,28 +707,13 @@
       "summary_en": "Article URL: https://www.ycombinator.com/companies/salespatriot/jobs/M46X6YX-forward-deployed-engineer Comments URL: htt..."
     },
     {
-      "id": "27b7e490bced",
-      "title": "There's no reason for software to be slow anymore",
-      "link": "https://danluu.com/perf-opt/",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-08-22T01:06:17Z",
-      "description": "Article URL: https://danluu.com/perf-opt/ Comments URL: https://news.ycombinator.com/item?id=49395628 Points: 592 # Comments: 443",
-      "topic": "Startups",
-      "topicIcon": "🚀",
-      "importance": 2,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://danluu.com/perf-opt/ Comments URL: https://news.ycombinator.com/item?id=49395628 Points: 592 # Comm..."
-    },
-    {
       "id": "e1a317553b63",
       "title": "Z80 – The 1970s Microprocessor Still Alive (2021)",
       "link": "https://www.computer.org/csdl/magazine/mi/2021/06/09623402/1yJTvlRLmhi",
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-22T09:49:57Z",
-      "description": "Article URL: https://www.computer.org/csdl/magazine/mi/2021/06/09623402/1yJTvlRLmhi Comments URL: https://news.ycombinator.com/item?id=49398158 Points: 89 # Comments: 43",
+      "description": "Article URL: https://www.computer.org/csdl/magazine/mi/2021/06/09623402/1yJTvlRLmhi Comments URL: https://news.ycombinator.com/item?id=49398158 Points: 93 # Comments: 46",
       "topic": "Hardware",
       "topicIcon": "💻",
       "importance": 2,
@@ -743,13 +728,28 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-22T13:31:34Z",
-      "description": "Article URL: https://blog.modelcontextprotocol.io/posts/mcp-roadmap/ Comments URL: https://news.ycombinator.com/item?id=49399591 Points: 128 # Comments: 95",
+      "description": "Article URL: https://blog.modelcontextprotocol.io/posts/mcp-roadmap/ Comments URL: https://news.ycombinator.com/item?id=49399591 Points: 137 # Comments: 108",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 2,
       "reliability": 3,
       "summary_bn": "",
       "summary_en": "Article URL: https://blog.modelcontextprotocol.io/posts/mcp-roadmap/ Comments URL: https://news.ycombinator.com/item?id=..."
+    },
+    {
+      "id": "12970b185601",
+      "title": "A Friendly Introduction to Racket",
+      "link": "https://geometridae.bearblog.dev/a-friendly-introduction-to-racket/",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-08-22T14:08:19Z",
+      "description": "Article URL: https://geometridae.bearblog.dev/a-friendly-introduction-to-racket/ Comments URL: https://news.ycombinator.com/item?id=49399898 Points: 84 # Comments: 27",
+      "topic": "Startups",
+      "topicIcon": "🚀",
+      "importance": 2,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "Article URL: https://geometridae.bearblog.dev/a-friendly-introduction-to-racket/ Comments URL: https://news.ycombinator...."
     }
   ]
 }
