@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T01:26:22+06:00",
+  "lastUpdated": "2026-08-24T02:30:05+06:00",
   "news": [
     {
       "id": "1851acb4950c",
@@ -197,19 +197,19 @@
       "summary_en": "It’s been over a decade and two console generations since GTA V came out, and its sequel is still a work in progress. GT..."
     },
     {
-      "id": "7df972bbb6b8",
-      "title": "Will the DOJ’s investigation into a16z spook other VCs?",
-      "link": "https://techcrunch.com/2026/08/22/will-the-dojs-investigation-into-a16z-spook-other-vcs/",
+      "id": "666f473cb39c",
+      "title": "Uber faces fine of nearly $1B over automated driver suspensions",
+      "link": "https://techcrunch.com/2026/08/23/uber-faces-fine-of-nearly-1b-over-automated-driver-suspensions/",
       "source": "TechCrunch",
       "sourceIcon": "crunch",
-      "pubDate": "2026-08-22T20:24:20Z",
-      "description": "On the latest episode of Equity, we wonder why the DOJ is investigating startup board seats.",
+      "pubDate": "2026-08-23T19:30:00Z",
+      "description": "The Dutch Data Protection Authority is fining Uber €825 million in the second largest penalty issued under Europe’s GDPR.",
       "topic": "Regulation",
       "topicIcon": "⚖️",
-      "importance": 3,
+      "importance": 4,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "On the latest episode of Equity, we wonder why the DOJ is investigating startup board seats."
+      "summary_en": "The Dutch Data Protection Authority is fining Uber €825 million in the second largest penalty issued under Europe’s GDPR..."
     },
     {
       "id": "b74e23451825",
@@ -345,6 +345,21 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "The Asus PG27UCWM brings a new sub-pixel layout to the world of OLED gaming monitors, and in my testing, I appreciated t..."
+    },
+    {
+      "id": "1538fb9c10b7",
+      "title": "Who’s behind the new ‘stealth model’ Ox Alpha?",
+      "link": "https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-23T20:01:36Z",
+      "description": "A mysterious new AI model called Ox Alpha has driven certain corners of the internet into a frenzy of speculation.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "A mysterious new AI model called Ox Alpha has driven certain corners of the internet into a frenzy of speculation."
     },
     {
       "id": "11e9d27303ee",
