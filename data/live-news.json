@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T04:27:56+06:00",
+  "lastUpdated": "2026-08-24T05:26:39+06:00",
   "news": [
     {
       "id": "1851acb4950c",
@@ -195,6 +195,21 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "The Dutch Data Protection Authority is fining Uber €825 million in the second largest penalty issued under Europe’s GDPR..."
+    },
+    {
+      "id": "0a85abfb98d0",
+      "title": "Why students are being paid £2,000 to play computer games",
+      "link": "https://www.bbc.co.uk/news/articles/cz647wlvg1do?at_medium=RSS&at_campaign=rss",
+      "source": "BBC",
+      "sourceIcon": "bbc",
+      "pubDate": "2026-08-23T23:23:55Z",
+      "description": "Roehampton University offers students £2,000 a year to play esports alongside their studies.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "Roehampton University offers students £2,000 a year to play esports alongside their studies."
     },
     {
       "id": "b74e23451825",
