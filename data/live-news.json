@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T00:37:37+06:00",
+  "lastUpdated": "2026-08-24T01:26:22+06:00",
   "news": [
     {
       "id": "1851acb4950c",
@@ -30,21 +30,6 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "\"The Chang’e 7 mission does not meet the conditions for launch.\""
-    },
-    {
-      "id": "92ba46e36366",
-      "title": "Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research",
-      "link": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-22T19:00:00Z",
-      "description": "Built by DeepMind alumni, British AI lab Inherent released Faraday, an AI agent whose ability to replicate scientific papers could be a stepping stone for innovation.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 6,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Built by DeepMind alumni, British AI lab Inherent released Faraday, an AI agent whose ability to replicate scientific pa..."
     },
     {
       "id": "f9804c8312af",
@@ -180,6 +165,36 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Welcome back to TechCrunch Mobility — your central hub for news and insights on the future of transportation."
+    },
+    {
+      "id": "3ece450dabbe",
+      "title": "Linkdaze’s smart calendar is built to run a household, not just track a schedule",
+      "link": "https://techcrunch.com/2026/08/23/linkdazes-smart-calendar-is-built-to-run-a-household-not-just-track-a-schedule/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-23T19:14:08Z",
+      "description": "Linkdaze's smart digital calendar stands out for not putting its features behind a paywall, including an AI meal planner tool.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Linkdaze's smart digital calendar stands out for not putting its features behind a paywall, including an AI meal planner..."
+    },
+    {
+      "id": "677531eebb41",
+      "title": "GTA VI: all the news on Rockstar’s next entry in the Grand Theft Auto series",
+      "link": "https://www.theverge.com/23987993/gta-6-news-trailers-rockstar-games",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-08-23T19:14:37Z",
+      "description": "It’s been over a decade and two console generations since GTA V came out, and its sequel is still a work in progress. GTA VI has faced multiple delays, with developer Rockstar Games bumping back its predicted release date twice, first to May 26th, 2026, then again to November 19th, 2026, a full year after [&#8230;]",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "It’s been over a decade and two console generations since GTA V came out, and its sequel is still a work in progress. GT..."
     },
     {
       "id": "7df972bbb6b8",
@@ -330,36 +345,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "The Asus PG27UCWM brings a new sub-pixel layout to the world of OLED gaming monitors, and in my testing, I appreciated t..."
-    },
-    {
-      "id": "309c67c0a675",
-      "title": "Things I want in a modern relational query language",
-      "link": "https://sporks.space/2026/08/19/things-i-want-in-a-modern-relational-query-language/",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-08-22T18:38:41Z",
-      "description": "Article URL: https://sporks.space/2026/08/19/things-i-want-in-a-modern-relational-query-language/ Comments URL: https://news.ycombinator.com/item?id=49402491 Points: 19 # Comments: 7",
-      "topic": "Startups",
-      "topicIcon": "🚀",
-      "importance": 2,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://sporks.space/2026/08/19/things-i-want-in-a-modern-relational-query-language/ Comments URL: https://..."
-    },
-    {
-      "id": "31e565cecfe1",
-      "title": "NetBSD and my life (2005)",
-      "link": "https://mail-index.netbsd.org/netbsd-advocacy/2005/09/10/0000.html",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-08-22T19:07:46Z",
-      "description": "Article URL: https://mail-index.netbsd.org/netbsd-advocacy/2005/09/10/0000.html Comments URL: https://news.ycombinator.com/item?id=49402781 Points: 139 # Comments: 32",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 2,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://mail-index.netbsd.org/netbsd-advocacy/2005/09/10/0000.html Comments URL: https://news.ycombinator.c..."
     },
     {
       "id": "11e9d27303ee",
