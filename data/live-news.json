@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T22:45:38+06:00",
+  "lastUpdated": "2026-08-24T23:35:58+06:00",
   "news": [
     {
       "id": "6fa02c4f9ef7",
@@ -137,34 +137,19 @@
       "summary_en": "Linkdaze's smart digital calendar stands out for not putting its features behind a paywall, including an AI meal planner..."
     },
     {
-      "id": "677531eebb41",
-      "title": "GTA VI: all the news on Rockstar’s next entry in the Grand Theft Auto series",
-      "link": "https://www.theverge.com/23987993/gta-6-news-trailers-rockstar-games",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-08-23T19:14:37Z",
-      "description": "It’s been over a decade and two console generations since GTA V came out, and its sequel is still a work in progress. GTA VI has faced multiple delays, with developer Rockstar Games bumping back its predicted release date twice, first to May 26th, 2026, then again to November 19th, 2026, a full year after [&#8230;]",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "It’s been over a decade and two console generations since GTA V came out, and its sequel is still a work in progress. GT..."
-    },
-    {
       "id": "666f473cb39c",
       "title": "Uber faces fine of nearly $1B over automated driver suspensions",
       "link": "https://techcrunch.com/2026/08/23/uber-faces-fine-of-nearly-1b-over-automated-driver-suspensions/",
       "source": "TechCrunch",
       "sourceIcon": "crunch",
       "pubDate": "2026-08-23T19:30:00Z",
-      "description": "The Dutch Data Protection Authority is fining Uber €825 million in the second largest penalty issued under Europe’s GDPR.",
+      "description": "The Dutch Data Protection Authority is fining Uber €825 million in the second-largest penalty issued under Europe’s GDPR.",
       "topic": "Regulation",
       "topicIcon": "⚖️",
       "importance": 4,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "The Dutch Data Protection Authority is fining Uber €825 million in the second largest penalty issued under Europe’s GDPR..."
+      "summary_en": "The Dutch Data Protection Authority is fining Uber €825 million in the second-largest penalty issued under Europe’s GDPR..."
     },
     {
       "id": "f99404bae7da",
@@ -278,7 +263,7 @@
       "source": "TheVerge",
       "sourceIcon": "verge",
       "pubDate": "2026-08-24T14:00:00Z",
-      "description": "Today on Decoder, I’m talking with Tim Cadogan, the CEO of GoFundMe. You know GoFundMe — it’s a major fundraising platform where you can donate to help people with everything from medical expenses to little league uniforms to starting a new business. Tim took over as CEO in March 2020 — a fascinating and chaotic [&#8230;]",
+      "description": "Today on Decoder, I’m talking with Tim Cadogan, the CEO of GoFundMe. You know GoFundMe — it’s a major fundraising platform where you can donate to help people with everything from medical expenses to Little League uniforms to starting a new business. Tim took over as CEO in March 2020 — a fascinating and chaotic [&#8230;]",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 4,
@@ -315,6 +300,21 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Inside the frontier lab’s push to bring AI agents from software engineers to the masses."
+    },
+    {
+      "id": "16534fa976e7",
+      "title": "Zillow and Redfin settle FTC antitrust case over their rental listings partnership",
+      "link": "https://www.theverge.com/policy/983864/zillow-redfin-ftc-settlement",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-08-24T17:01:05Z",
+      "description": "The FTC and Zillow have announced a settlement that ends the case alleging that a 2025 \"partnership\" between Zillow and Redfin violated antitrust laws. The FTC had alleged Zillow agreed to pay Redfin to syndicate its listings, while Redfin would end its own advertising contracts and promise not to compete with Zillow for multifamily listings. [&#8230;]",
+      "topic": "Regulation",
+      "topicIcon": "⚖️",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "The FTC and Zillow have announced a settlement that ends the case alleging that a 2025 \"partnership\" between Zillow and ..."
     },
     {
       "id": "1538fb9c10b7",
@@ -405,6 +405,21 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "ESPN is hiking the price of its subscription on September 17th, a change that will also impact its bundles with Disney P..."
+    },
+    {
+      "id": "8d62c91e8540",
+      "title": "Robotaxis are real now — so is the pushback",
+      "link": "https://www.theverge.com/transportation/983765/robotaxi-waymo-zoox-tesla-rules-pushback-nhtsa",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-08-24T16:42:37Z",
+      "description": "Robotaxis are expanding. So is the fight over the rules governing them. In New York, Gov. Kathy Hochul withdrew a proposal earlier this year that would have opened the door to driverless robotaxis outside New York City after taxi drivers, unions, and state lawmakers opposed it. Six months later, commercial driverless service remains illegal in [&#8230;]",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Robotaxis are expanding. So is the fight over the rules governing them. In New York, Gov. Kathy Hochul withdrew a propos..."
     }
   ]
 }
