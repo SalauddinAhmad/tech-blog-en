@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-08-24T17:34:46+06:00",
+  "lastUpdated": "2026-08-24T19:02:01+06:00",
   "news": [
     {
       "id": "661b4dd315da",
-      "title": "Due to need for 'absolute success,' China delays critical Moon launch to 2027",
+      "title": "Due to need for \"absolute success,\" China delays critical Moon launch to 2027",
       "link": "https://arstechnica.com/space/2026/08/due-to-need-for-absolute-success-china-delays-critical-moon-launch-to-2027/",
       "source": "Ars Technica",
       "sourceIcon": "ars",
@@ -30,6 +30,51 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Flock Safety faces a growing public outcry over concerns that its surveillance technology could be misused."
+    },
+    {
+      "id": "3b98deb59b14",
+      "title": "Review: Chuwi's $449 Unibook laptop is a funhouse-mirror MacBook Neo",
+      "link": "https://arstechnica.com/gadgets/2026/08/review-chuwis-449-unibook-laptop-is-a-funhouse-mirror-macbook-neo/",
+      "source": "Ars Technica",
+      "sourceIcon": "ars",
+      "pubDate": "2026-08-24T11:00:01Z",
+      "description": "The Unibook is a weird entry-level laptop for people with patience.",
+      "topic": "Hardware",
+      "topicIcon": "💻",
+      "importance": 5,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "The Unibook is a weird entry-level laptop for people with patience."
+    },
+    {
+      "id": "d35a5289e476",
+      "title": "De-Googled GrapheneOS is coming to Motorola’s foldables next year",
+      "link": "https://www.theverge.com/tech/983714/grapheneos-motorola-razr-fold-ultra-support-pixel-11",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-08-24T11:37:53Z",
+      "description": "GrapheneOS, an open source version of Android that prioritizes security and privacy, has detailed its plans for supporting Motorola smartphones. Official support is set to arrive next year, starting with traditional flagships, before rolling out to Motorola's foldable phones and perhaps cheaper models, eventually. In a Mastodon thread, the GrapheneOS Foundation announced that it will [&#8230;]",
+      "topic": "Mobile",
+      "topicIcon": "📱",
+      "importance": 5,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "GrapheneOS, an open source version of Android that prioritizes security and privacy, has detailed its plans for supporti..."
+    },
+    {
+      "id": "ee9d005b3909",
+      "title": "Sharing dangerous driving videos is 'truly reprehensible', PM says",
+      "link": "https://www.bbc.co.uk/news/articles/ce308l1w5q5o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC",
+      "sourceIcon": "bbc",
+      "pubDate": "2026-08-24T12:28:16Z",
+      "description": "His comments come as the government urged TikTok and other social media firms to remove wrong-way driving videos.",
+      "topic": "Regulation",
+      "topicIcon": "⚖️",
+      "importance": 5,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "His comments come as the government urged TikTok and other social media firms to remove wrong-way driving videos."
     },
     {
       "id": "736c2f98ab12",
@@ -210,36 +255,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Home theater projectors are getting better and better, and have quickly become my favorite way to enjoy movies."
-    },
-    {
-      "id": "e13ab8a098c2",
-      "title": "Grand Theft Auto VI exists in its own universe",
-      "link": "https://www.theverge.com/column/983410/grand-theft-auto-vi-exists-in-its-own-universe",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-08-23T12:00:00Z",
-      "description": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on GTA VI and the state of the video game industry, follow Andrew Webster. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started Four years ago, fans [&#8230;]",
-      "topic": "Web/JavaScript",
-      "topicIcon": "🌐",
-      "importance": 3,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on GTA VI and ..."
-    },
-    {
-      "id": "6746ec1221e5",
-      "title": "Asus ROG Swift RGB Stripe OLED Review: Clarity King",
-      "link": "https://www.wired.com/review/asus-rog-swift-rgb-stripe-oled-pg27ucwm/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-08-23T13:00:00Z",
-      "description": "The Asus PG27UCWM brings a new sub-pixel layout to the world of OLED gaming monitors, and in my testing, I appreciated the improvements it brings to the table.",
-      "topic": "Mobile",
-      "topicIcon": "📱",
-      "importance": 3,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "The Asus PG27UCWM brings a new sub-pixel layout to the world of OLED gaming monitors, and in my testing, I appreciated t..."
     },
     {
       "id": "1538fb9c10b7",
