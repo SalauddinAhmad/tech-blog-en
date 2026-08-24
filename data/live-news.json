@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T09:09:37+06:00",
+  "lastUpdated": "2026-08-24T10:52:14+06:00",
   "news": [
     {
       "id": "1851acb4950c",
@@ -197,21 +197,6 @@
       "summary_en": "Roehampton University offers students £2,000 a year to play esports alongside their studies."
     },
     {
-      "id": "b74e23451825",
-      "title": "MartyPC is a cross-platform emulator of early PCs written in Rust",
-      "link": "https://martypc.net/",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-08-23T03:13:16Z",
-      "description": "Article URL: https://martypc.net/ Comments URL: https://news.ycombinator.com/item?id=49405816 Points: 154 # Comments: 55",
-      "topic": "Hardware",
-      "topicIcon": "💻",
-      "importance": 3,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://martypc.net/ Comments URL: https://news.ycombinator.com/item?id=49405816 Points: 154 # Comments: 55"
-    },
-    {
       "id": "789bb78b13c4",
       "title": "Risk of transmission of amyloid β pathology via transfused blood products",
       "link": "https://doi.org/10.1016/S0140-6736(26)00767-1",
@@ -345,21 +330,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "A mysterious new AI model called Ox Alpha has driven certain corners of the internet into a frenzy of speculation."
-    },
-    {
-      "id": "7dc96f572507",
-      "title": "To become a better writer, read as much as you can",
-      "link": "https://nappertime.com/the-golden-rule-of-becoming-a-better-writer/",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-08-23T03:32:25Z",
-      "description": "Article URL: https://nappertime.com/the-golden-rule-of-becoming-a-better-writer/ Comments URL: https://news.ycombinator.com/item?id=49405870 Points: 316 # Comments: 208",
-      "topic": "Startups",
-      "topicIcon": "🚀",
-      "importance": 2,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://nappertime.com/the-golden-rule-of-becoming-a-better-writer/ Comments URL: https://news.ycombinator...."
     },
     {
       "id": "602915b7f62b",
