@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T14:55:08+06:00",
+  "lastUpdated": "2026-08-24T15:54:42+06:00",
   "news": [
     {
       "id": "1851acb4950c",
@@ -45,21 +45,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Flock Safety faces a growing public outcry over concerns that its surveillance technology could be misused."
-    },
-    {
-      "id": "4aafe0f93c50",
-      "title": "7 Basic iPhone Tricks I Built With iOS 27’s Revamped Shortcuts App",
-      "link": "https://www.wired.com/story/7-basic-iphone-tricks-i-built-with-ios-27s-revamped-shortcuts-app/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-08-23T09:30:00Z",
-      "description": "From halting my doomscrolls to automating air-quality checks, Apple’s streamlined Shortcuts app is my favorite iOS 27 feature.",
-      "topic": "Mobile",
-      "topicIcon": "📱",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "From halting my doomscrolls to automating air-quality checks, Apple’s streamlined Shortcuts app is my favorite iOS 27 fe..."
     },
     {
       "id": "b640aa75f483",
@@ -182,34 +167,49 @@
       "summary_en": "The Dutch Data Protection Authority is fining Uber €825 million in the second largest penalty issued under Europe’s GDPR..."
     },
     {
-      "id": "4f31cd975feb",
-      "title": "Is Expensive Bottled Water Actually Better for You?",
-      "link": "https://www.wired.com/story/is-expensive-bottled-water-actually-better-for-you/",
+      "id": "f99404bae7da",
+      "title": "NASA’s New Space Telescope Is Poised to Discover Hidden Facets of the Universe",
+      "link": "https://www.wired.com/story/nasa-nancy-grace-roman-space-telescope-hidden-facets-of-universe/",
       "source": "Wired",
       "sourceIcon": "wired",
-      "pubDate": "2026-08-23T09:00:00Z",
-      "description": "Luxury water can contain different minerals and taste noticeably different. But a remote source, alkaline pH, and high price do not necessarily mean better hydration.",
+      "pubDate": "2026-08-24T09:00:00Z",
+      "description": "The Nancy Grace Roman Space Telescope is expected to discover as many as 200,000 new planets and reveal details about the elusive nature of dark matter and dark energy.",
       "topic": "AI/ML",
       "topicIcon": "🤖",
-      "importance": 3,
+      "importance": 4,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "Luxury water can contain different minerals and taste noticeably different. But a remote source, alkaline pH, and high p..."
+      "summary_en": "The Nancy Grace Roman Space Telescope is expected to discover as many as 200,000 new planets and reveal details about th..."
     },
     {
-      "id": "1f9340956b33",
-      "title": "Show HN: Live 3D satellite tracker and the declassified Pentagon UFO archive",
-      "link": "https://skylens.yantraai.app/",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-08-23T09:27:40Z",
-      "description": "Article URL: https://skylens.yantraai.app/ Comments URL: https://news.ycombinator.com/item?id=49407309 Points: 36 # Comments: 17",
+      "id": "7d620d90cc1c",
+      "title": "Humanoid robots smash Usain Bolt&#8217;s 100-meter record",
+      "link": "https://www.theverge.com/tech/983688/world-humanoid-robot-games-sprint-record-2026",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-08-24T09:10:40Z",
+      "description": "The 9.58-second 100-meter dash record set by Usain Bolt in 2009 has been outpaced by Chinese robots participating at the World Humanoid Robot Games in Beijing. In a preliminary heat on Saturday, Tiangong Ultra, made by the Beijing Humanoid Robot Innovation &#8203;Center, ran the distance in 9.39 seconds, followed by the Honor-developed Lightning at 9.47 [&#8230;]",
       "topic": "AI/ML",
       "topicIcon": "🤖",
-      "importance": 3,
-      "reliability": 3,
+      "importance": 4,
+      "reliability": 4,
       "summary_bn": "",
-      "summary_en": "Article URL: https://skylens.yantraai.app/ Comments URL: https://news.ycombinator.com/item?id=49407309 Points: 36 # Comm..."
+      "summary_en": "The 9.58-second 100-meter dash record set by Usain Bolt in 2009 has been outpaced by Chinese robots participating at the..."
+    },
+    {
+      "id": "0ea437a255f1",
+      "title": "They Dedicated Their Lives to Teaching. Then the Deepfakes Started",
+      "link": "https://www.wired.com/story/teachers-deepfake-ai-students-content/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-08-24T09:30:00Z",
+      "description": "The deepfake epidemic in schools is affecting more than students. Four teachers tell WIRED about becoming targets of sexualized, AI-generated content—and how difficult it was to find accountability.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "The deepfake epidemic in schools is affecting more than students. Four teachers tell WIRED about becoming targets of sex..."
     },
     {
       "id": "8558d02589ff",
