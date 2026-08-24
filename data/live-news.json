@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T16:42:07+06:00",
+  "lastUpdated": "2026-08-24T17:34:46+06:00",
   "news": [
     {
       "id": "661b4dd315da",
@@ -30,21 +30,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Flock Safety faces a growing public outcry over concerns that its surveillance technology could be misused."
-    },
-    {
-      "id": "60b814f6eec7",
-      "title": "Volcanoes that made history",
-      "link": "https://arstechnica.com/science/2026/08/volcanoes-that-made-history/",
-      "source": "Ars Technica",
-      "sourceIcon": "ars",
-      "pubDate": "2026-08-23T11:02:54Z",
-      "description": "Enormous eruptions altered Earth’s climate and societies all over the globe.",
-      "topic": "Other",
-      "topicIcon": "📰",
-      "importance": 4,
-      "reliability": 5,
-      "summary_bn": "",
-      "summary_en": "Enormous eruptions altered Earth’s climate and societies all over the globe."
     },
     {
       "id": "736c2f98ab12",
@@ -212,34 +197,19 @@
       "summary_en": "Tethered display glasses are truly practical face computers. They trade bulky spatial computing for simplicity: Plug in,..."
     },
     {
-      "id": "d1b65065d172",
-      "title": "Transistors Changed Everything. Here’s How They Work",
-      "link": "https://www.wired.com/story/transistors-changed-everything-heres-how-they-work/",
+      "id": "a1c68cccb0ed",
+      "title": "The Best Home Theater Projectors in 2026: XGIMI, Hisense, Leica, and More",
+      "link": "https://www.wired.com/story/best-home-theater-projector/",
       "source": "Wired",
       "sourceIcon": "wired",
-      "pubDate": "2026-08-23T11:00:00Z",
-      "description": "How a tiny little electronic switch sparked the computer revolution.",
+      "pubDate": "2026-08-24T11:00:00Z",
+      "description": "Home theater projectors are getting better and better, and have quickly become my favorite way to enjoy movies.",
       "topic": "Other",
       "topicIcon": "📰",
-      "importance": 3,
+      "importance": 4,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "How a tiny little electronic switch sparked the computer revolution."
-    },
-    {
-      "id": "b091053dfe69",
-      "title": "What’s the Best Kindle of 2026? (So Far)",
-      "link": "https://www.wired.com/gallery/best-kindle/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-08-23T11:03:00Z",
-      "description": "I’ve tested every single Kindle. Here’s how Amazon’s ebook readers stack up.",
-      "topic": "Other",
-      "topicIcon": "📰",
-      "importance": 3,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "I’ve tested every single Kindle. Here’s how Amazon’s ebook readers stack up."
+      "summary_en": "Home theater projectors are getting better and better, and have quickly become my favorite way to enjoy movies."
     },
     {
       "id": "e13ab8a098c2",
@@ -285,6 +255,36 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "A mysterious new AI model called Ox Alpha has driven certain corners of the internet into a frenzy of speculation."
+    },
+    {
+      "id": "169d772019b9",
+      "title": "The Kindle Accessories I Never Want to Read Without (2026)",
+      "link": "https://www.wired.com/story/best-kindle-accessories/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-08-24T11:09:00Z",
+      "description": "Looking to better protect your Kindle or add a little personality to your favorite e-reader? From cases and covers to page turners and even charms, this is the guide for you.",
+      "topic": "Hardware",
+      "topicIcon": "💻",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Looking to better protect your Kindle or add a little personality to your favorite e-reader? From cases and covers to pa..."
+    },
+    {
+      "id": "e73d15b0d402",
+      "title": "Birdfy Nest Duo Review: My Own Private Nature Documentary",
+      "link": "https://www.wired.com/review/birdfy-nest-duo/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-08-24T11:30:00Z",
+      "description": "With two cameras and built-in climate sensors, the Birdfy Nest Duo let me watch an entire nesting season unfold.",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "With two cameras and built-in climate sensors, the Birdfy Nest Duo let me watch an entire nesting season unfold."
     },
     {
       "id": "c0486c254f22",
