@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T11:42:53+06:00",
+  "lastUpdated": "2026-08-24T13:09:34+06:00",
   "news": [
     {
       "id": "1851acb4950c",
@@ -182,21 +182,6 @@
       "summary_en": "The Dutch Data Protection Authority is fining Uber €825 million in the second largest penalty issued under Europe’s GDPR..."
     },
     {
-      "id": "789bb78b13c4",
-      "title": "Risk of transmission of amyloid β pathology via transfused blood products",
-      "link": "https://doi.org/10.1016/S0140-6736(26)00767-1",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-08-23T06:07:06Z",
-      "description": "Article URL: https://doi.org/10.1016/S0140-6736(26)00767-1 Comments URL: https://news.ycombinator.com/item?id=49406398 Points: 24 # Comments: 6",
-      "topic": "Startups",
-      "topicIcon": "🚀",
-      "importance": 3,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://doi.org/10.1016/S0140-6736(26)00767-1 Comments URL: https://news.ycombinator.com/item?id=49406398 P..."
-    },
-    {
       "id": "4f31cd975feb",
       "title": "Is Expensive Bottled Water Actually Better for You?",
       "link": "https://www.wired.com/story/is-expensive-bottled-water-actually-better-for-you/",
@@ -315,36 +300,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "A mysterious new AI model called Ox Alpha has driven certain corners of the internet into a frenzy of speculation."
-    },
-    {
-      "id": "a5b9842fb2f9",
-      "title": "The End of an Athlon",
-      "link": "http://www.os2museum.com/wp/the-end-of-an-athlon/",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-08-23T05:51:01Z",
-      "description": "Article URL: http://www.os2museum.com/wp/the-end-of-an-athlon/ Comments URL: https://news.ycombinator.com/item?id=49406333 Points: 143 # Comments: 57",
-      "topic": "Startups",
-      "topicIcon": "🚀",
-      "importance": 2,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: http://www.os2museum.com/wp/the-end-of-an-athlon/ Comments URL: https://news.ycombinator.com/item?id=494063..."
-    },
-    {
-      "id": "8643c9395c2b",
-      "title": "JIT Compiling Code in 5μs",
-      "link": "https://malisper.me/jit-compiling-code-in-5-us/",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-08-23T06:04:51Z",
-      "description": "Article URL: https://malisper.me/jit-compiling-code-in-5-us/ Comments URL: https://news.ycombinator.com/item?id=49406387 Points: 123 # Comments: 78",
-      "topic": "Startups",
-      "topicIcon": "🚀",
-      "importance": 2,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://malisper.me/jit-compiling-code-in-5-us/ Comments URL: https://news.ycombinator.com/item?id=49406387..."
     },
     {
       "id": "bf896d60ebb3",
