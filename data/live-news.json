@@ -1,21 +1,6 @@
 {
-  "lastUpdated": "2026-08-24T15:54:42+06:00",
+  "lastUpdated": "2026-08-24T16:42:07+06:00",
   "news": [
-    {
-      "id": "1851acb4950c",
-      "title": "Iranian hackers shut down UK power plant for 4 days",
-      "link": "https://www.telegraph.co.uk/news/2026/08/22/iranian-hackers-shut-down-uk-power-plant/",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-08-23T10:03:01Z",
-      "description": "Article URL: https://www.telegraph.co.uk/news/2026/08/22/iranian-hackers-shut-down-uk-power-plant/ Comments URL: https://news.ycombinator.com/item?id=49407509 Points: 56 # Comments: 34",
-      "topic": "Security",
-      "topicIcon": "🔒",
-      "importance": 8,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://www.telegraph.co.uk/news/2026/08/22/iranian-hackers-shut-down-uk-power-plant/ Comments URL: https:/..."
-    },
     {
       "id": "661b4dd315da",
       "title": "Due to need for 'absolute success,' China delays critical Moon launch to 2027",
@@ -45,21 +30,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Flock Safety faces a growing public outcry over concerns that its surveillance technology could be misused."
-    },
-    {
-      "id": "b640aa75f483",
-      "title": "The 6 Best Laptop Docking Stations to Unlock the Full Desktop Experience (2026)",
-      "link": "https://www.wired.com/gallery/best-laptop-docking-stations/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-08-23T10:37:00Z",
-      "description": "Docking stations expand what your laptop can do, and I’ve been testing the best of the best to see which you should buy.",
-      "topic": "Hardware",
-      "topicIcon": "💻",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Docking stations expand what your laptop can do, and I’ve been testing the best of the best to see which you should buy."
     },
     {
       "id": "60b814f6eec7",
@@ -212,19 +182,34 @@
       "summary_en": "The deepfake epidemic in schools is affecting more than students. Four teachers tell WIRED about becoming targets of sex..."
     },
     {
-      "id": "8558d02589ff",
-      "title": "I gave Qwen 3.8 27B a reverse-engineering job and it finished in 30 minutes",
-      "link": "https://www.xda-developers.com/qwen-3-8-27b-reverse-engineering-job-frontier-model/",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-08-23T10:02:51Z",
-      "description": "Article URL: https://www.xda-developers.com/qwen-3-8-27b-reverse-engineering-job-frontier-model/ Comments URL: https://news.ycombinator.com/item?id=49407507 Points: 159 # Comments: 80",
+      "id": "0c87758aff09",
+      "title": "The Best Multiuse Air Purifier for Home in 2026: BlueAir, Rabbit Air, Dreame",
+      "link": "https://www.wired.com/story/best-multi-use-air-purifiers/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-08-24T10:00:00Z",
+      "description": "These WIRED-tested dual-purpose air purifiers also function as heaters, fans, art pieces, and more, offering the best of both worlds.",
       "topic": "AI/ML",
       "topicIcon": "🤖",
-      "importance": 3,
-      "reliability": 3,
+      "importance": 4,
+      "reliability": 4,
       "summary_bn": "",
-      "summary_en": "Article URL: https://www.xda-developers.com/qwen-3-8-27b-reverse-engineering-job-frontier-model/ Comments URL: https://n..."
+      "summary_en": "These WIRED-tested dual-purpose air purifiers also function as heaters, fans, art pieces, and more, offering the best of..."
+    },
+    {
+      "id": "1dc7312cb38b",
+      "title": "Forget Meta Ray-Bans. These Dorky-Looking Virtual Display Glasses Are Way More Useful",
+      "link": "https://www.wired.com/story/all-work-and-some-play-in-a-virtual-display/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-08-24T10:30:00Z",
+      "description": "Tethered display glasses are truly practical face computers. They trade bulky spatial computing for simplicity: Plug in, recline, and get a massive screen right in front of your nose.",
+      "topic": "Hardware",
+      "topicIcon": "💻",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Tethered display glasses are truly practical face computers. They trade bulky spatial computing for simplicity: Plug in,..."
     },
     {
       "id": "d1b65065d172",
@@ -300,21 +285,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "A mysterious new AI model called Ox Alpha has driven certain corners of the internet into a frenzy of speculation."
-    },
-    {
-      "id": "bf896d60ebb3",
-      "title": "Sydney Marathon medal mistakenly depicts Munich stadium",
-      "link": "https://www.bbc.com/news/articles/cvg92y1wzn8o",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-08-23T10:14:48Z",
-      "description": "Article URL: https://www.bbc.com/news/articles/cvg92y1wzn8o Comments URL: https://news.ycombinator.com/item?id=49407576 Points: 90 # Comments: 59",
-      "topic": "Startups",
-      "topicIcon": "🚀",
-      "importance": 2,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://www.bbc.com/news/articles/cvg92y1wzn8o Comments URL: https://news.ycombinator.com/item?id=49407576 ..."
     },
     {
       "id": "c0486c254f22",
