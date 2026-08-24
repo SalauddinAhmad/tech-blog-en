@@ -1,20 +1,20 @@
 {
-  "lastUpdated": "2026-08-24T20:49:12+06:00",
+  "lastUpdated": "2026-08-24T21:45:18+06:00",
   "news": [
     {
-      "id": "a01fe2c8756a",
-      "title": "Flock CEO calls for ‘compromise’ as surveillance company faces growing backlash",
-      "link": "https://techcrunch.com/2026/08/23/flock-ceo-calls-for-compromise-as-surveillance-company-faces-growing-backlash/",
+      "id": "6fa02c4f9ef7",
+      "title": "Valor, Point72 back General Intuition at $6B valuation as AI startup pushes into robotics",
+      "link": "https://techcrunch.com/2026/08/24/valor-point72-back-general-intuition-at-6b-valuation-as-ai-startup-pushes-into-robotics/",
       "source": "TechCrunch",
       "sourceIcon": "crunch",
-      "pubDate": "2026-08-23T15:30:00Z",
-      "description": "Flock Safety faces a growing public outcry over concerns that its surveillance technology could be misused.",
-      "topic": "Security",
-      "topicIcon": "🔒",
-      "importance": 5,
+      "pubDate": "2026-08-24T15:24:18Z",
+      "description": "General Intuition, the startup building a foundation model that trains generalized AI agents how to move through space and time, is in talks to raise at a $6 billion pre-money valuation from new investors including Valor Ventures, Point72 Ventures, Seven Seven Six.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 6,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "Flock Safety faces a growing public outcry over concerns that its surveillance technology could be misused."
+      "summary_en": "General Intuition, the startup building a foundation model that trains generalized AI agents how to move through space a..."
     },
     {
       "id": "3b98deb59b14",
@@ -105,36 +105,6 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "His comments come as the government urged TikTok and other social media firms to remove wrong-way driving videos."
-    },
-    {
-      "id": "736c2f98ab12",
-      "title": "Is it legal to train AI models on copyrighted books? It’s complicated",
-      "link": "https://techcrunch.com/2026/08/23/is-it-legal-to-train-ai-models-on-copyrighted-books-its-complicated/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-23T15:00:00Z",
-      "description": "Most published authors have, without their knowledge or consent, contributed to the development of the same AI tools that threaten to undermine their livelihoods. That seems illegal, right?",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Most published authors have, without their knowledge or consent, contributed to the development of the same AI tools tha..."
-    },
-    {
-      "id": "5513ecd64357",
-      "title": "We’re All Going to the World’s Fair is an intimate coming-of-age horror film",
-      "link": "https://www.theverge.com/entertainment/983177/jane-schoenbrun-were-all-going-to-the-worlds-fair-horror-movie-review",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-08-23T15:00:00Z",
-      "description": "Jane Schoenbrun's latest film, Teenage Sex and Death at Camp Miasma, is making a splash in theaters right now. So it seems like the perfect time to revisit their first film, We're All Going to the World's Fair. I fell in love with this film when I first saw it at Sundance in 2021. We [&#8230;]",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Jane Schoenbrun's latest film, Teenage Sex and Death at Camp Miasma, is making a splash in theaters right now. So it see..."
     },
     {
       "id": "b01255d76605",
@@ -317,6 +287,36 @@
       "summary_en": "Today on Decoder, I’m talking with Tim Cadogan, the CEO of GoFundMe. You know GoFundMe — it’s a major fundraising platfo..."
     },
     {
+      "id": "706cd18342d0",
+      "title": "Raspberry Pi shares its official tutorial for making a cyberdeck",
+      "link": "https://www.theverge.com/tech/983786/raspberry-pi-cyberdeck-tutorial-price-increases",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-08-24T14:49:44Z",
+      "description": "Raspberry Pi's head of social, Ashley Whittaker, acknowledged the cyberdeck trend today, saying \"we haven't been able to get away from cyberdecks this year.\" Tiny portable computers made out of things like purses, jewelry boxes, and other thrifted or recycled parts have gone viral on TikTok and other social media platforms over the past year, [&#8230;]",
+      "topic": "Security",
+      "topicIcon": "🔒",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Raspberry Pi's head of social, Ashley Whittaker, acknowledged the cyberdeck trend today, saying \"we haven't been able to..."
+    },
+    {
+      "id": "a8a77e450426",
+      "title": "OpenAI is building AI agents for everything. Will everyone use them?",
+      "link": "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-24T15:00:00Z",
+      "description": "Inside the frontier lab’s push to bring AI agents from software engineers to the masses.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Inside the frontier lab’s push to bring AI agents from software engineers to the masses."
+    },
+    {
       "id": "1538fb9c10b7",
       "title": "Who’s behind the new ‘stealth model’ Ox Alpha?",
       "link": "https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha/",
@@ -390,6 +390,21 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "In one crash, the driver of a 2024 Blazer EV said they had to \"deliberately steer the vehicle into a concrete curb\" to s..."
+    },
+    {
+      "id": "8d9ac4c6981f",
+      "title": "ESPN streaming plans are getting more expensive",
+      "link": "https://www.theverge.com/streaming/983794/espn-disney-plus-bundles-price-increase",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-08-24T15:06:24Z",
+      "description": "ESPN is hiking the price of its subscription on September 17th, a change that will also impact its bundles with Disney Plus. In a support page spotted earlier by Sports Media Watch, ESPN says its ad-supported Select membership will cost $13.99 instead of $12.99 / month, while its Unlimited plan will rise to $31.99 from [&#8230;]",
+      "topic": "Web/JavaScript",
+      "topicIcon": "🌐",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "ESPN is hiking the price of its subscription on September 17th, a change that will also impact its bundles with Disney P..."
     }
   ]
 }
