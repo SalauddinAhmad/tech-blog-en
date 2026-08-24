@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T21:45:18+06:00",
+  "lastUpdated": "2026-08-24T22:45:38+06:00",
   "news": [
     {
       "id": "6fa02c4f9ef7",
@@ -8,13 +8,28 @@
       "source": "TechCrunch",
       "sourceIcon": "crunch",
       "pubDate": "2026-08-24T15:24:18Z",
-      "description": "General Intuition, the startup building a foundation model that trains generalized AI agents how to move through space and time, is in talks to raise at a $6 billion pre-money valuation from new investors including Valor Ventures, Point72 Ventures, Seven Seven Six.",
+      "description": "General Intuition, the startup building a foundation model that trains generalized AI agents how to move through space and time, is in talks to raise at a $6 billion pre-money valuation from new investors including Valor Ventures, Point72 Ventures, and Seven Seven Six.",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 6,
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "General Intuition, the startup building a foundation model that trains generalized AI agents how to move through space a..."
+    },
+    {
+      "id": "f54746c8b1fa",
+      "title": "The Witcher 4 developers target a 2028 release",
+      "link": "https://www.theverge.com/games/983822/the-witcher-4-release-window-gamescom",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-08-24T15:48:53Z",
+      "description": "CD Projekt Red is aiming to launch The Witcher 4 sometime in 2028, joint CEO Micha&#322; Nowakowski says in a new video. CD Projekt Red has been working on its next mainline Witcher title for years and has shown videos of it, but now the studio is providing a target release window for when the [&#8230;]",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 6,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "CD Projekt Red is aiming to launch The Witcher 4 sometime in 2028, joint CEO Micha&#322; Nowakowski says in a new video...."
     },
     {
       "id": "3b98deb59b14",
@@ -97,7 +112,7 @@
       "link": "https://www.bbc.co.uk/news/articles/ce308l1w5q5o?at_medium=RSS&at_campaign=rss",
       "source": "BBC",
       "sourceIcon": "bbc",
-      "pubDate": "2026-08-24T13:47:29Z",
+      "pubDate": "2026-08-24T16:03:24Z",
       "description": "His comments come as the government urged TikTok and other social media firms to remove wrong-way driving videos.",
       "topic": "Regulation",
       "topicIcon": "⚖️",
@@ -105,21 +120,6 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "His comments come as the government urged TikTok and other social media firms to remove wrong-way driving videos."
-    },
-    {
-      "id": "b01255d76605",
-      "title": "TechCrunch Mobility: The custom chip driving Waymo’s robotaxi ambitions",
-      "link": "https://techcrunch.com/2026/08/23/techcrunch-mobility-the-custom-chip-driving-waymos-robotaxi-ambitions/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-23T16:03:00Z",
-      "description": "Welcome back to TechCrunch Mobility — your central hub for news and insights on the future of transportation.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Welcome back to TechCrunch Mobility — your central hub for news and insights on the future of transportation."
     },
     {
       "id": "3ece450dabbe",
