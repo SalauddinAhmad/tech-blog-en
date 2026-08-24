@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T02:37:13+06:00",
+  "lastUpdated": "2026-08-25T03:35:06+06:00",
   "news": [
     {
       "id": "a429b5e27fc5",
@@ -8,7 +8,7 @@
       "source": "TechCrunch",
       "sourceIcon": "crunch",
       "pubDate": "2026-08-24T19:58:17Z",
-      "description": "Weeks after OpenAI disclosed that one of its cybersecurity models had gone rogue and hacked AI dataset company Hugging Face, Alabama’s Attorney General announced an investigation into the incident.",
+      "description": "Weeks after OpenAI disclosed that one of its cybersecurity models had gone rogue and hacked AI dataset company Hugging Face, Alabama’s attorney general announced an investigation into the incident.",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 10,
@@ -45,21 +45,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "CD Projekt Red is aiming to launch The Witcher 4 sometime in 2028, joint CEO Micha&#322; Nowakowski says in a new video...."
-    },
-    {
-      "id": "db575e471af2",
-      "title": "A Blackstone real estate company exposed SSN digits, DOBs, addresses and more",
-      "link": "https://alexschapiro.com/security/vulnerability/2026/07/16/beam-living-graphql-data-exposure",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-08-24T16:29:00Z",
-      "description": "Article URL: https://alexschapiro.com/security/vulnerability/2026/07/16/beam-living-graphql-data-exposure Comments URL: https://news.ycombinator.com/item?id=49422204 Points: 90 # Comments: 35",
-      "topic": "Security",
-      "topicIcon": "🔒",
-      "importance": 6,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://alexschapiro.com/security/vulnerability/2026/07/16/beam-living-graphql-data-exposure Comments URL: ..."
     },
     {
       "id": "3b98deb59b14",
@@ -398,7 +383,7 @@
       "source": "TechCrunch",
       "sourceIcon": "crunch",
       "pubDate": "2026-08-24T18:03:55Z",
-      "description": "Early testers are raving about what Instinct can do, but some say the AI assistant’s sweeping access, broad terms and ability to act on users’ behalf come with uncomfortable trade-offs",
+      "description": "Early testers are raving about what Instinct can do, but some say the AI assistant’s sweeping access, broad terms and ability to act on users’ behalf come with uncomfortable trade-offs.",
       "topic": "Security",
       "topicIcon": "🔒",
       "importance": 4,
@@ -420,21 +405,6 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "The eBoost brake-by-wire system is responsible for at least 22 crashes now."
-    },
-    {
-      "id": "25490c8a012f",
-      "title": "Amazon hikes hardware prices by 60 percent, blaming memory shortage",
-      "link": "https://techcrunch.com/2026/08/24/amazon-hikes-hardware-prices-by-60-percent-blaming-memory-shortage/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-24T19:54:50Z",
-      "description": "As the memory shortage continues to cause trouble for hardware makers, Amazon says it is now being forced to pass on the costs to its consumers.",
-      "topic": "Hardware",
-      "topicIcon": "💻",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "As the memory shortage continues to cause trouble for hardware makers, Amazon says it is now being forced to pass on the..."
     },
     {
       "id": "c21b6a646e24",
@@ -465,6 +435,21 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Salmonella outbreaks are seemingly everywhere right now. A good temperature probe is the last and best line of defense."
+    },
+    {
+      "id": "4d6b68c01894",
+      "title": "Can You Kill Salmonella in Eggs Without Cooking Them? I Tried It",
+      "link": "https://www.wired.com/story/sous-vide-salmonella-eggs/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-08-24T20:45:52Z",
+      "description": "With advice from infectious disease experts, I tested a low-effort way to pasteurize eggs at home.",
+      "topic": "Regulation",
+      "topicIcon": "⚖️",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "With advice from infectious disease experts, I tested a low-effort way to pasteurize eggs at home."
     },
     {
       "id": "169d772019b9",
@@ -542,28 +527,13 @@
       "summary_en": "ESPN is hiking the price of its subscription on September 17th, a change that will also impact its bundles with Disney P..."
     },
     {
-      "id": "468a1a33d560",
-      "title": "Xiaomi: New CPU matches Apple cores single threaded, much faster multithreaded",
-      "link": "https://twitter.com/lemire/status/2091894299289874926",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-08-24T15:08:17Z",
-      "description": "https://xcancel.com/lemire/status/2091894299289874926 Comments URL: https://news.ycombinator.com/item?id=49420873 Points: 542 # Comments: 361",
-      "topic": "Mobile",
-      "topicIcon": "📱",
-      "importance": 3,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "https://xcancel.com/lemire/status/2091894299289874926 Comments URL: https://news.ycombinator.com/item?id=49420873 Points..."
-    },
-    {
       "id": "3f9be69046a6",
       "title": "MS Paint and Photos inivisibly watermark even locally generated output with GUID",
       "link": "https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/",
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-24T15:28:04Z",
-      "description": "Article URL: https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/ Comments URL: https://news.ycombinator.com/item?id=49421158 Points: 381 # Comments: 153",
+      "description": "Article URL: https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/ Comments URL: https://news.ycombinator.com/item?id=49421158 Points: 435 # Comments: 168",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 3,
@@ -578,7 +548,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-24T16:08:17Z",
-      "description": "PicoMQ is a Rust server for Durable Streams, built on Object Store. Cheap, URL-addressable, granular streams (create/append/read/long-poll/SSE), with Pico Protocol or Durable Streams Protocol as the facade. S3Stream is the stream storage primitive, used in AutoMQ, shipped as a Rust library. Coordination is a command log in Postgres. Comments URL: https://news.ycombinator.com/item?id=49421806 Points: 52 # Comments: 7",
+      "description": "PicoMQ is a Rust server for Durable Streams, built on Object Store. Cheap, URL-addressable, granular streams (create/append/read/long-poll/SSE), with Pico Protocol or Durable Streams Protocol as the facade. S3Stream is the stream storage primitive, used in AutoMQ, shipped as a Rust library. Coordination is a command log in Postgres. Comments URL: https://news.ycombinator.com/item?id=49421806 Points: 62 # Comments: 9",
       "topic": "Cloud/DevOps",
       "topicIcon": "☁️",
       "importance": 3,
@@ -593,13 +563,13 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-24T16:15:10Z",
-      "description": "Article URL: https://glassbox.codecanary.org Comments URL: https://news.ycombinator.com/item?id=49421948 Points: 63 # Comments: 34",
+      "description": "Article URL: https://glassbox.codecanary.org Comments URL: https://news.ycombinator.com/item?id=49421948 Points: 73 # Comments: 36",
       "topic": "Web/JavaScript",
       "topicIcon": "🌐",
       "importance": 3,
       "reliability": 3,
       "summary_bn": "",
-      "summary_en": "Article URL: https://glassbox.codecanary.org Comments URL: https://news.ycombinator.com/item?id=49421948 Points: 63 # Co..."
+      "summary_en": "Article URL: https://glassbox.codecanary.org Comments URL: https://news.ycombinator.com/item?id=49421948 Points: 73 # Co..."
     },
     {
       "id": "8d62c91e8540",
@@ -647,19 +617,34 @@
       "summary_en": "Article URL: https://app.dover.com/Autostep/careers/e9510e3b-a854-4e48-9e5d-c89796acaed4 Comments URL: https://news.ycom..."
     },
     {
+      "id": "bb0848957783",
+      "title": "Octopus intelligence may be related to never-before-seen mutation",
+      "link": "https://www.smithsonianmag.com/smart-news/why-are-some-octopuses-so-smart-the-answer-might-lie-in-a-never-before-seen-mutation-that-helps-them-accurately-build-proteins-180989319/",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-08-24T17:57:13Z",
+      "description": "Article URL: https://www.smithsonianmag.com/smart-news/why-are-some-octopuses-so-smart-the-answer-might-lie-in-a-never-before-seen-mutation-that-helps-them-accurately-build-proteins-180989319/ Comments URL: https://news.ycombinator.com/item?id=49423539 Points: 25 # Comments: 7",
+      "topic": "Hardware",
+      "topicIcon": "💻",
+      "importance": 3,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "Article URL: https://www.smithsonianmag.com/smart-news/why-are-some-octopuses-so-smart-the-answer-might-lie-in-a-never-b..."
+    },
+    {
       "id": "028d5cd17cb0",
       "title": "Show HN: Kern – container and resource runtime in a 1.5 MB binary, no daemon",
       "link": "https://github.com/getkern/kern",
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-24T18:24:59Z",
-      "description": "Article URL: https://github.com/getkern/kern Comments URL: https://news.ycombinator.com/item?id=49423927 Points: 24 # Comments: 1",
+      "description": "Article URL: https://github.com/getkern/kern Comments URL: https://news.ycombinator.com/item?id=49423927 Points: 32 # Comments: 4",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 3,
       "reliability": 3,
       "summary_bn": "",
-      "summary_en": "Article URL: https://github.com/getkern/kern Comments URL: https://news.ycombinator.com/item?id=49423927 Points: 24 # Co..."
+      "summary_en": "Article URL: https://github.com/getkern/kern Comments URL: https://news.ycombinator.com/item?id=49423927 Points: 32 # Co..."
     },
     {
       "id": "b93516b697db",
@@ -668,13 +653,13 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-24T18:45:43Z",
-      "description": "Article URL: https://textlog.cc/post/2059 Comments URL: https://news.ycombinator.com/item?id=49424167 Points: 17 # Comments: 8",
+      "description": "Article URL: https://textlog.cc/post/2059 Comments URL: https://news.ycombinator.com/item?id=49424167 Points: 27 # Comments: 15",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 3,
       "reliability": 3,
       "summary_bn": "",
-      "summary_en": "Article URL: https://textlog.cc/post/2059 Comments URL: https://news.ycombinator.com/item?id=49424167 Points: 17 # Comme..."
+      "summary_en": "Article URL: https://textlog.cc/post/2059 Comments URL: https://news.ycombinator.com/item?id=49424167 Points: 27 # Comme..."
     },
     {
       "id": "113584368e84",
@@ -683,7 +668,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-24T19:03:06Z",
-      "description": "Article URL: https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines Comments URL: https://news.ycombinator.com/item?id=49424387 Points: 30 # Comments: 8",
+      "description": "Article URL: https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines Comments URL: https://news.ycombinator.com/item?id=49424387 Points: 45 # Comments: 24",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 3,
@@ -698,7 +683,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-24T19:19:08Z",
-      "description": "Article URL: https://www.bbc.com/news/articles/c62m4gpnp78o Comments URL: https://news.ycombinator.com/item?id=49424606 Points: 112 # Comments: 33",
+      "description": "Article URL: https://www.bbc.com/news/articles/c62m4gpnp78o Comments URL: https://news.ycombinator.com/item?id=49424606 Points: 219 # Comments: 93",
       "topic": "Hardware",
       "topicIcon": "💻",
       "importance": 3,
@@ -713,7 +698,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-24T19:32:18Z",
-      "description": "Article URL: https://github.com/l3a0/claude-plugins Comments URL: https://news.ycombinator.com/item?id=49424758 Points: 17 # Comments: 2",
+      "description": "Article URL: https://github.com/l3a0/claude-plugins Comments URL: https://news.ycombinator.com/item?id=49424758 Points: 37 # Comments: 6",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 3,
@@ -750,6 +735,21 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "The creator of the world's first 3D-printed gun claims he's developed a way to thwart government-mandated software meant..."
+    },
+    {
+      "id": "25490c8a012f",
+      "title": "Amazon hikes hardware prices by 60%, blaming memory shortage",
+      "link": "https://techcrunch.com/2026/08/24/amazon-hikes-hardware-prices-by-60-percent-blaming-memory-shortage/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-24T19:54:50Z",
+      "description": "As the memory shortage continues to cause trouble for hardware makers, Amazon says it is now being forced to pass on the costs to its consumers.",
+      "topic": "Hardware",
+      "topicIcon": "💻",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "As the memory shortage continues to cause trouble for hardware makers, Amazon says it is now being forced to pass on the..."
     }
   ]
 }
