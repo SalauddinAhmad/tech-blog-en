@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T03:35:06+06:00",
+  "lastUpdated": "2026-08-25T04:32:55+06:00",
   "news": [
     {
       "id": "a429b5e27fc5",
@@ -527,28 +527,13 @@
       "summary_en": "ESPN is hiking the price of its subscription on September 17th, a change that will also impact its bundles with Disney P..."
     },
     {
-      "id": "3f9be69046a6",
-      "title": "MS Paint and Photos inivisibly watermark even locally generated output with GUID",
-      "link": "https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-08-24T15:28:04Z",
-      "description": "Article URL: https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/ Comments URL: https://news.ycombinator.com/item?id=49421158 Points: 435 # Comments: 168",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 3,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/ Comments URL: https://news.ycombinato..."
-    },
-    {
       "id": "489edfc37a30",
       "title": "Show HN: PicoMQ – Durable Streams over HTTP, on object storage",
       "link": "https://picomq.com/",
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-24T16:08:17Z",
-      "description": "PicoMQ is a Rust server for Durable Streams, built on Object Store. Cheap, URL-addressable, granular streams (create/append/read/long-poll/SSE), with Pico Protocol or Durable Streams Protocol as the facade. S3Stream is the stream storage primitive, used in AutoMQ, shipped as a Rust library. Coordination is a command log in Postgres. Comments URL: https://news.ycombinator.com/item?id=49421806 Points: 62 # Comments: 9",
+      "description": "PicoMQ is a Rust server for Durable Streams, built on Object Store. Cheap, URL-addressable, granular streams (create/append/read/long-poll/SSE), with Pico Protocol or Durable Streams Protocol as the facade. S3Stream is the stream storage primitive, used in AutoMQ, shipped as a Rust library. Coordination is a command log in Postgres. Comments URL: https://news.ycombinator.com/item?id=49421806 Points: 72 # Comments: 11",
       "topic": "Cloud/DevOps",
       "topicIcon": "☁️",
       "importance": 3,
@@ -563,13 +548,13 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-24T16:15:10Z",
-      "description": "Article URL: https://glassbox.codecanary.org Comments URL: https://news.ycombinator.com/item?id=49421948 Points: 73 # Comments: 36",
+      "description": "Article URL: https://glassbox.codecanary.org Comments URL: https://news.ycombinator.com/item?id=49421948 Points: 79 # Comments: 39",
       "topic": "Web/JavaScript",
       "topicIcon": "🌐",
       "importance": 3,
       "reliability": 3,
       "summary_bn": "",
-      "summary_en": "Article URL: https://glassbox.codecanary.org Comments URL: https://news.ycombinator.com/item?id=49421948 Points: 73 # Co..."
+      "summary_en": "Article URL: https://glassbox.codecanary.org Comments URL: https://news.ycombinator.com/item?id=49421948 Points: 79 # Co..."
     },
     {
       "id": "8d62c91e8540",
@@ -623,7 +608,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-24T17:57:13Z",
-      "description": "Article URL: https://www.smithsonianmag.com/smart-news/why-are-some-octopuses-so-smart-the-answer-might-lie-in-a-never-before-seen-mutation-that-helps-them-accurately-build-proteins-180989319/ Comments URL: https://news.ycombinator.com/item?id=49423539 Points: 25 # Comments: 7",
+      "description": "Article URL: https://www.smithsonianmag.com/smart-news/why-are-some-octopuses-so-smart-the-answer-might-lie-in-a-never-before-seen-mutation-that-helps-them-accurately-build-proteins-180989319/ Comments URL: https://news.ycombinator.com/item?id=49423539 Points: 46 # Comments: 18",
       "topic": "Hardware",
       "topicIcon": "💻",
       "importance": 3,
@@ -638,13 +623,13 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-24T18:24:59Z",
-      "description": "Article URL: https://github.com/getkern/kern Comments URL: https://news.ycombinator.com/item?id=49423927 Points: 32 # Comments: 4",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
+      "description": "I built kern because I needed a fast, zero-daemon tool to set CPU/RAM limits and run isolated tasks without the overhead of Docker. It's a single 1.5MB Rust binary using OCI images, cgroup v2, and namespaces. Boxes start in ~3.5ms. It's not a Kubernetes CRI or a microVM, just a standalone container and resource runtime for CLI and agents. Comments URL: https://news.ycombinator.com/item?id=49423927 Points: 41 # Comments: 6",
+      "topic": "Cloud/DevOps",
+      "topicIcon": "☁️",
       "importance": 3,
       "reliability": 3,
       "summary_bn": "",
-      "summary_en": "Article URL: https://github.com/getkern/kern Comments URL: https://news.ycombinator.com/item?id=49423927 Points: 32 # Co..."
+      "summary_en": "I built kern because I needed a fast, zero-daemon tool to set CPU/RAM limits and run isolated tasks without the overhead..."
     },
     {
       "id": "b93516b697db",
@@ -653,13 +638,13 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-24T18:45:43Z",
-      "description": "Article URL: https://textlog.cc/post/2059 Comments URL: https://news.ycombinator.com/item?id=49424167 Points: 27 # Comments: 15",
+      "description": "Article URL: https://textlog.cc/post/2059 Comments URL: https://news.ycombinator.com/item?id=49424167 Points: 33 # Comments: 18",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 3,
       "reliability": 3,
       "summary_bn": "",
-      "summary_en": "Article URL: https://textlog.cc/post/2059 Comments URL: https://news.ycombinator.com/item?id=49424167 Points: 27 # Comme..."
+      "summary_en": "Article URL: https://textlog.cc/post/2059 Comments URL: https://news.ycombinator.com/item?id=49424167 Points: 33 # Comme..."
     },
     {
       "id": "113584368e84",
@@ -668,7 +653,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-24T19:03:06Z",
-      "description": "Article URL: https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines Comments URL: https://news.ycombinator.com/item?id=49424387 Points: 45 # Comments: 24",
+      "description": "Article URL: https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines Comments URL: https://news.ycombinator.com/item?id=49424387 Points: 65 # Comments: 34",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 3,
@@ -683,28 +668,13 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-24T19:19:08Z",
-      "description": "Article URL: https://www.bbc.com/news/articles/c62m4gpnp78o Comments URL: https://news.ycombinator.com/item?id=49424606 Points: 219 # Comments: 93",
+      "description": "Article URL: https://www.bbc.com/news/articles/c62m4gpnp78o Comments URL: https://news.ycombinator.com/item?id=49424606 Points: 292 # Comments: 161",
       "topic": "Hardware",
       "topicIcon": "💻",
       "importance": 3,
       "reliability": 3,
       "summary_bn": "",
       "summary_en": "Article URL: https://www.bbc.com/news/articles/c62m4gpnp78o Comments URL: https://news.ycombinator.com/item?id=49424606 ..."
-    },
-    {
-      "id": "89b2d0cc5dc8",
-      "title": "A Claude Code skill that recovers export-blocked Kindle highlights",
-      "link": "https://github.com/l3a0/claude-plugins",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-08-24T19:32:18Z",
-      "description": "Article URL: https://github.com/l3a0/claude-plugins Comments URL: https://news.ycombinator.com/item?id=49424758 Points: 37 # Comments: 6",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 3,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://github.com/l3a0/claude-plugins Comments URL: https://news.ycombinator.com/item?id=49424758 Points: ..."
     },
     {
       "id": "7e17e8f017ef",
@@ -750,6 +720,36 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "As the memory shortage continues to cause trouble for hardware makers, Amazon says it is now being forced to pass on the..."
+    },
+    {
+      "id": "bd52c00ec34f",
+      "title": "Zillow and Redfin settle FTC antitrust case",
+      "link": "https://techcrunch.com/2026/08/24/zillow-and-redfin-settle-ftc-antitrust-case/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-24T20:45:33Z",
+      "description": "Zillow and Redfin reached a settlement with the FTC, which requires Redfin to reenter the rental advertising business.",
+      "topic": "Regulation",
+      "topicIcon": "⚖️",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Zillow and Redfin reached a settlement with the FTC, which requires Redfin to reenter the rental advertising business."
+    },
+    {
+      "id": "581acfbd4954",
+      "title": "One corner of China’s internet is insisting that the Tang Dynasty never existed",
+      "link": "https://www.cnn.com/2026/08/19/style/china-tang-dynasty-never-existed-hoax-intl-hnk",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-08-24T21:03:06Z",
+      "description": "Article URL: https://www.cnn.com/2026/08/19/style/china-tang-dynasty-never-existed-hoax-intl-hnk Comments URL: https://news.ycombinator.com/item?id=49425819 Points: 59 # Comments: 42",
+      "topic": "Startups",
+      "topicIcon": "🚀",
+      "importance": 3,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "Article URL: https://www.cnn.com/2026/08/19/style/china-tang-dynasty-never-existed-hoax-intl-hnk Comments URL: https://n..."
     }
   ]
 }
