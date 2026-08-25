@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T02:35:56+06:00",
+  "lastUpdated": "2026-08-26T03:34:19+06:00",
   "news": [
     {
       "id": "579b65ab022f",
@@ -32,34 +32,34 @@
       "summary_en": "The Geoff Keighley-hosted Opening Night Live event at Gamescom just wrapped up. Arguably the biggest announcement was th..."
     },
     {
-      "id": "f3ce05a5c07e",
-      "title": "RFK Jr. may upend how vaccine recommendations are categorized",
-      "link": "https://arstechnica.com/health/2026/08/rfk-jr-may-upend-how-vaccine-recommendations-are-categorized/",
-      "source": "Ars Technica",
-      "sourceIcon": "ars",
-      "pubDate": "2026-08-24T21:04:48Z",
-      "description": "There are currently 3 categories. Without reason, RFK Jr. is considering changes.",
-      "topic": "Other",
-      "topicIcon": "📰",
-      "importance": 5,
-      "reliability": 5,
+      "id": "9f66add6a4de",
+      "title": "When str.lower() is a security vulnerability in Python – Seth Larson",
+      "link": "https://sethmlarson.dev/when-str-lower-is-a-security-vulnerability",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-08-25T20:49:03Z",
+      "description": "Article URL: https://sethmlarson.dev/when-str-lower-is-a-security-vulnerability Comments URL: https://news.ycombinator.com/item?id=49440410 Points: 7 # Comments: 0",
+      "topic": "Security",
+      "topicIcon": "🔒",
+      "importance": 6,
+      "reliability": 3,
       "summary_bn": "",
-      "summary_en": "There are currently 3 categories. Without reason, RFK Jr. is considering changes."
+      "summary_en": "Article URL: https://sethmlarson.dev/when-str-lower-is-a-security-vulnerability Comments URL: https://news.ycombinator.c..."
     },
     {
-      "id": "50152fc49922",
-      "title": "Data centers become \"killer application\" for new power transformer tech",
-      "link": "https://arstechnica.com/gadgets/2026/08/energy-hungry-ai-data-centers-spur-new-power-transformer-technology/",
+      "id": "b3528d362d3d",
+      "title": "World humanoid robot games show runners breaking records, bursting into flames",
+      "link": "https://arstechnica.com/ai/2026/08/world-humanoid-robot-games-show-runners-breaking-records-bursting-into-flames/",
       "source": "Ars Technica",
       "sourceIcon": "ars",
-      "pubDate": "2026-08-24T21:32:16Z",
-      "description": "Solid-state transformers could also benefit EV charging and, someday, households.",
+      "pubDate": "2026-08-25T20:59:03Z",
+      "description": "Record-breaking robot races are less substantial than household chore challenges.",
       "topic": "AI/ML",
       "topicIcon": "🤖",
-      "importance": 5,
+      "importance": 6,
       "reliability": 5,
       "summary_bn": "",
-      "summary_en": "Solid-state transformers could also benefit EV charging and, someday, households."
+      "summary_en": "Record-breaking robot races are less substantial than household chore challenges."
     },
     {
       "id": "6f34f4ada801",
@@ -75,21 +75,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Say hello to a revamped collection of perfectly proportioned 38-mm Speedmasters."
-    },
-    {
-      "id": "8c519a70d2ed",
-      "title": "Uber launches live video streaming for teen accounts",
-      "link": "https://techcrunch.com/2026/08/25/uber-launches-live-video-streaming-for-teen-accounts/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-25T13:00:00Z",
-      "description": "Uber said no one will be able to access the video once the ride ends.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 5,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Uber said no one will be able to access the video once the ride ends."
     },
     {
       "id": "12cea9588a55",
@@ -242,19 +227,19 @@
       "summary_en": "CD Projekt Red is remastering The Witcher 3: Wild Hunt, the hit RPG that first launched in 2015, and the updated game wi..."
     },
     {
-      "id": "4d6b68c01894",
-      "title": "Can You Kill Salmonella in Eggs Without Cooking Them? I Tried It",
-      "link": "https://www.wired.com/story/sous-vide-salmonella-eggs/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-08-24T20:45:52Z",
-      "description": "With advice from infectious disease experts, I tested a low-effort way to pasteurize eggs at home.",
-      "topic": "Regulation",
-      "topicIcon": "⚖️",
-      "importance": 4,
+      "id": "c7be6c9bbd1c",
+      "title": "X sends cease-and-desist to open-source project Nitter over alleged scraping",
+      "link": "https://techcrunch.com/2026/08/25/x-sends-cease-and-desist-to-open-source-project-nitter-over-alleged-scraping/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-25T20:44:12Z",
+      "description": "X has sent cease-and-desist letters to Nitter, the open source project behind privacy-friendly X frontends, demanding its instances and code repository be taken down over alleged scraping.",
+      "topic": "Open Source",
+      "topicIcon": "🔓",
+      "importance": 5,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "With advice from infectious disease experts, I tested a low-effort way to pasteurize eggs at home."
+      "summary_en": "X has sent cease-and-desist letters to Nitter, the open source project behind privacy-friendly X frontends, demanding it..."
     },
     {
       "id": "7b1bff0cd099",
@@ -465,21 +450,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Tested on SemiAnalysis’ InferenceX benchmark, Jalapeño registered both more tokens per user and more throughput per kilo..."
-    },
-    {
-      "id": "f1bc233f52fd",
-      "title": "Apple&#8217;s ‘new’ polishing cloth is the same except $10 cheaper",
-      "link": "https://www.theverge.com/tech/984353/apple-polishing-cloth-cheaper",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-08-25T14:25:52Z",
-      "description": "Apple just dropped a new polishing cloth, and unlike its refreshed Mac Mini models, it comes with a price cut, as spotted earlier by MacRumors. The polishing cloth is still \"made with soft, nonabrasive material\" but costs $9 instead of $19. It doesn't look like anything else has changed, as the description matches an archived [&#8230;]",
-      "topic": "Other",
-      "topicIcon": "📰",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Apple just dropped a new polishing cloth, and unlike its refreshed Mac Mini models, it comes with a price cut, as spotte..."
     },
     {
       "id": "da9753c2c87b",
@@ -707,19 +677,19 @@
       "summary_en": "The government agency that's encouraging high-risk and high-reward research."
     },
     {
-      "id": "614caa1ecd7d",
-      "title": "Bitdefender VPN Review: Fast and Affordable Privacy",
-      "link": "https://www.wired.com/review/bitdefender-vpn/",
+      "id": "de2d233c5468",
+      "title": "The Best Early Labor Day Kitchen Deals to Ease You Back Into Fall (2026)",
+      "link": "https://www.wired.com/story/early-labor-day-kitchen-appliance-deals-2026/",
       "source": "Wired",
       "sourceIcon": "wired",
-      "pubDate": "2026-08-24T21:08:00Z",
-      "description": "Bitdefender VPN has an excellent starting price, even if it lacks the advanced features that privacy nerds may want.",
-      "topic": "Security",
-      "topicIcon": "🔒",
-      "importance": 3,
+      "pubDate": "2026-08-25T21:26:24Z",
+      "description": "With school and sports starting again, these discounts on Instant Pots, cookware, and coffee gear arrive right on time.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "Bitdefender VPN has an excellent starting price, even if it lacks the advanced features that privacy nerds may want."
+      "summary_en": "With school and sports starting again, these discounts on Instant Pots, cookware, and coffee gear arrive right on time."
     },
     {
       "id": "00841011854a",
@@ -750,6 +720,36 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "The Optoma GT2400HDR laser projector is great for setting up a driving range in your living room, but mediocre video qua..."
+    },
+    {
+      "id": "e32b9224d0b2",
+      "title": "The County Prosecutors Who Became ICE Informants",
+      "link": "https://www.wired.com/story/the-county-prosecutors-who-became-ice-informants/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-08-25T11:00:00Z",
+      "description": "Illinois prosecutors shared defendants’ personal data with federal immigration agents without criminal warrants, public disclosure, or legislative oversight.",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Illinois prosecutors shared defendants’ personal data with federal immigration agents without criminal warrants, public ..."
+    },
+    {
+      "id": "79f6641c4618",
+      "title": "Accel-backed Keenable is indexing the web for AI agents",
+      "link": "https://techcrunch.com/2026/08/25/accel-backed-keenable-is-indexing-the-web-for-ai-agents/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-25T13:00:00Z",
+      "description": "Now exiting stealth mode with a $26 million seed round, Keenable has been building a vast web search index for AI agents.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Now exiting stealth mode with a $26 million seed round, Keenable has been building a vast web search index for AI agents..."
     }
   ]
 }
