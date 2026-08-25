@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T15:41:31+06:00",
+  "lastUpdated": "2026-08-25T16:39:00+06:00",
   "news": [
     {
       "id": "a429b5e27fc5",
@@ -287,36 +287,6 @@
       "summary_en": "Say hello to a revamped collection of perfectly proportioned 38-mm Speedmasters."
     },
     {
-      "id": "0c87758aff09",
-      "title": "The Best Multiuse Air Purifier for Home in 2026: BlueAir, Rabbit Air, Dreame",
-      "link": "https://www.wired.com/story/best-multi-use-air-purifiers/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-08-24T10:00:00Z",
-      "description": "These WIRED-tested dual-purpose air purifiers also function as heaters, fans, art pieces, and more, offering the best of both worlds.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "These WIRED-tested dual-purpose air purifiers also function as heaters, fans, art pieces, and more, offering the best of..."
-    },
-    {
-      "id": "1dc7312cb38b",
-      "title": "Forget Meta Ray-Bans. These Dorky-Looking Virtual Display Glasses Are Way More Useful",
-      "link": "https://www.wired.com/story/all-work-and-some-play-in-a-virtual-display/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-08-24T10:30:00Z",
-      "description": "Tethered display glasses are truly practical face computers. They trade bulky spatial computing for simplicity: Plug in, recline, and get a massive screen right in front of your nose.",
-      "topic": "Hardware",
-      "topicIcon": "💻",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Tethered display glasses are truly practical face computers. They trade bulky spatial computing for simplicity: Plug in,..."
-    },
-    {
       "id": "a1c68cccb0ed",
       "title": "The Best Home Theater Projectors in 2026: XGIMI, Hisense, Leica, and More",
       "link": "https://www.wired.com/story/best-home-theater-projector/",
@@ -512,21 +482,6 @@
       "summary_en": "The AI hedge fund went from \"the talk of Wall Street\" to \"subject of federal subpoenas\" faster than you can say \"diversi..."
     },
     {
-      "id": "33c6250f509a",
-      "title": "Thomson Reuters Launches Its Own Frontier Model",
-      "link": "https://www.thomsonreuters.com/en/press-releases/2026/august/thomson-reuters-leverages-its-world-class-data-assets-to-launch-its-own-frontier-model",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-08-25T02:11:39Z",
-      "description": "Article URL: https://www.thomsonreuters.com/en/press-releases/2026/august/thomson-reuters-leverages-its-world-class-data-assets-to-launch-its-own-frontier-model Comments URL: https://news.ycombinator.com/item?id=49428318 Points: 116 # Comments: 45",
-      "topic": "Startups",
-      "topicIcon": "🚀",
-      "importance": 4,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://www.thomsonreuters.com/en/press-releases/2026/august/thomson-reuters-leverages-its-world-class-data..."
-    },
-    {
       "id": "aac90e4bd325",
       "title": "India’s Airbound bags $37M to take on trucks with rocket-like drones",
       "link": "https://techcrunch.com/2026/08/24/indias-airbound-bags-37m-to-take-on-trucks-with-rocket-like-drones/",
@@ -585,6 +540,21 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "“It never crossed my mind that they would be so bold as to sell our private data for AI,” says one former Spirit Airline..."
+    },
+    {
+      "id": "63d82eaf3aa4",
+      "title": "Border Wall Construction Threatens 6,000 Years of History on Private Lands",
+      "link": "https://www.wired.com/story/border-wall-construction-threatens-6000-years-of-history/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-08-25T10:00:00Z",
+      "description": "Archeologists are confronting an “unfathomable” loss as border wall construction is set to cut across ranches that are home to unique historical sites, many of which haven’t been fully studied.",
+      "topic": "Security",
+      "topicIcon": "🔒",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Archeologists are confronting an “unfathomable” loss as border wall construction is set to cut across ranches that are h..."
     },
     {
       "id": "169d772019b9",
@@ -668,7 +638,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-24T15:08:17Z",
-      "description": "https://xcancel.com/lemire/status/2091894299289874926 Comments URL: https://news.ycombinator.com/item?id=49420873 Points: 862 # Comments: 616",
+      "description": "https://xcancel.com/lemire/status/2091894299289874926 Comments URL: https://news.ycombinator.com/item?id=49420873 Points: 882 # Comments: 626",
       "topic": "Mobile",
       "topicIcon": "📱",
       "importance": 3,
@@ -683,28 +653,13 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-24T15:28:04Z",
-      "description": "Article URL: https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/ Comments URL: https://news.ycombinator.com/item?id=49421158 Points: 707 # Comments: 309",
+      "description": "Article URL: https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/ Comments URL: https://news.ycombinator.com/item?id=49421158 Points: 722 # Comments: 317",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 3,
       "reliability": 3,
       "summary_bn": "",
       "summary_en": "Article URL: https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/ Comments URL: https://news.ycombinato..."
-    },
-    {
-      "id": "489edfc37a30",
-      "title": "Show HN: PicoMQ – Durable Streams over HTTP, on object storage",
-      "link": "https://picomq.com/",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-08-24T16:08:17Z",
-      "description": "PicoMQ is a Rust server for Durable Streams, built on Object Store. Cheap, URL-addressable, granular streams (create/append/read/long-poll/SSE), with Pico Protocol or Durable Streams Protocol as the facade. S3Stream is the stream storage primitive, used in AutoMQ, shipped as a Rust library. Coordination is a command log in Postgres. Comments URL: https://news.ycombinator.com/item?id=49421806 Points: 118 # Comments: 22",
-      "topic": "Cloud/DevOps",
-      "topicIcon": "☁️",
-      "importance": 3,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "PicoMQ is a Rust server for Durable Streams, built on Object Store. Cheap, URL-addressable, granular streams (create/app..."
     },
     {
       "id": "8d62c91e8540",
@@ -743,13 +698,58 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-24T17:57:13Z",
-      "description": "Article URL: https://www.smithsonianmag.com/smart-news/why-are-some-octopuses-so-smart-the-answer-might-lie-in-a-never-before-seen-mutation-that-helps-them-accurately-build-proteins-180989319/ Comments URL: https://news.ycombinator.com/item?id=49423539 Points: 158 # Comments: 115",
+      "description": "Article URL: https://www.smithsonianmag.com/smart-news/why-are-some-octopuses-so-smart-the-answer-might-lie-in-a-never-before-seen-mutation-that-helps-them-accurately-build-proteins-180989319/ Comments URL: https://news.ycombinator.com/item?id=49423539 Points: 169 # Comments: 129",
       "topic": "Hardware",
       "topicIcon": "💻",
       "importance": 3,
       "reliability": 3,
       "summary_bn": "",
       "summary_en": "Article URL: https://www.smithsonianmag.com/smart-news/why-are-some-octopuses-so-smart-the-answer-might-lie-in-a-never-b..."
+    },
+    {
+      "id": "113584368e84",
+      "title": "LLMs could control their host machines by exploiting inference engines",
+      "link": "https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-08-24T19:03:06Z",
+      "description": "Article URL: https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines Comments URL: https://news.ycombinator.com/item?id=49424387 Points: 151 # Comments: 68",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 3,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "Article URL: https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines Comments..."
+    },
+    {
+      "id": "53d975e083ea",
+      "title": "Oceans hit highest temperature on record",
+      "link": "https://www.bbc.com/news/articles/c62m4gpnp78o",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-08-24T19:19:08Z",
+      "description": "Article URL: https://www.bbc.com/news/articles/c62m4gpnp78o Comments URL: https://news.ycombinator.com/item?id=49424606 Points: 576 # Comments: 446",
+      "topic": "Hardware",
+      "topicIcon": "💻",
+      "importance": 3,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "Article URL: https://www.bbc.com/news/articles/c62m4gpnp78o Comments URL: https://news.ycombinator.com/item?id=49424606 ..."
+    },
+    {
+      "id": "7e17e8f017ef",
+      "title": "Apply now to host a Side Event at TechCrunch Disrupt 2026",
+      "link": "https://techcrunch.com/2026/08/24/apply-now-to-host-a-side-event-at-techcrunch-disrupt-2026/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-24T19:44:13Z",
+      "description": "Apply before September 4 to be a part of the TechCrunch Disrupt community by hosting your own Side Event.",
+      "topic": "Open Source",
+      "topicIcon": "🔓",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Apply before September 4 to be a part of the TechCrunch Disrupt community by hosting your own Side Event."
     }
   ]
 }
