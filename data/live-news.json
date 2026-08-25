@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T10:44:57+06:00",
+  "lastUpdated": "2026-08-25T11:36:45+06:00",
   "news": [
     {
       "id": "a429b5e27fc5",
@@ -548,7 +548,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-25T02:11:39Z",
-      "description": "Article URL: https://www.thomsonreuters.com/en/press-releases/2026/august/thomson-reuters-leverages-its-world-class-data-assets-to-launch-its-own-frontier-model Comments URL: https://news.ycombinator.com/item?id=49428318 Points: 48 # Comments: 14",
+      "description": "Article URL: https://www.thomsonreuters.com/en/press-releases/2026/august/thomson-reuters-leverages-its-world-class-data-assets-to-launch-its-own-frontier-model Comments URL: https://news.ycombinator.com/item?id=49428318 Points: 63 # Comments: 21",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 4,
@@ -585,6 +585,21 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "There’s no clearer sign of the data center boom than rampant gas projects that have been proposed or that are already un..."
+    },
+    {
+      "id": "124db812f4d4",
+      "title": "Songs created by AI banned from Australia's music charts",
+      "link": "https://www.bbc.co.uk/news/articles/c20vl4vm2pno?at_medium=RSS&at_campaign=rss",
+      "source": "BBC",
+      "sourceIcon": "bbc",
+      "pubDate": "2026-08-25T04:54:01Z",
+      "description": "The move comes weeks after a DJ admitted using AI to remix a Madonna song that topped the Australian charts.",
+      "topic": "Regulation",
+      "topicIcon": "⚖️",
+      "importance": 4,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "The move comes weeks after a DJ admitted using AI to remix a Madonna song that topped the Australian charts."
     },
     {
       "id": "169d772019b9",
@@ -662,49 +677,19 @@
       "summary_en": "ESPN is hiking the price of its subscription on September 17th, a change that will also impact its bundles with Disney P..."
     },
     {
-      "id": "468a1a33d560",
-      "title": "Xiaomi: New CPU matches Apple cores single threaded, much faster multithreaded",
-      "link": "https://twitter.com/lemire/status/2091894299289874926",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-08-24T15:08:17Z",
-      "description": "https://xcancel.com/lemire/status/2091894299289874926 Comments URL: https://news.ycombinator.com/item?id=49420873 Points: 779 # Comments: 527",
-      "topic": "Mobile",
-      "topicIcon": "📱",
-      "importance": 3,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "https://xcancel.com/lemire/status/2091894299289874926 Comments URL: https://news.ycombinator.com/item?id=49420873 Points..."
-    },
-    {
-      "id": "3f9be69046a6",
-      "title": "MS Paint and Photos inivisibly watermark even locally generated output with GUID",
-      "link": "https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-08-24T15:28:04Z",
-      "description": "Article URL: https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/ Comments URL: https://news.ycombinator.com/item?id=49421158 Points: 616 # Comments: 242",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 3,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/ Comments URL: https://news.ycombinato..."
-    },
-    {
       "id": "422d724d1779",
       "title": "Show HN: A Modern GUI Library for Ada: CSS Styling, XML UI, SDL3",
       "link": "https://github.com/ovenpasta/adi2",
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-24T16:30:51Z",
-      "description": "Article URL: https://github.com/ovenpasta/adi2 Comments URL: https://news.ycombinator.com/item?id=49422243 Points: 32 # Comments: 14",
+      "description": "Article URL: https://github.com/ovenpasta/adi2 Comments URL: https://news.ycombinator.com/item?id=49422243 Points: 36 # Comments: 15",
       "topic": "Web/JavaScript",
       "topicIcon": "🌐",
       "importance": 3,
       "reliability": 3,
       "summary_bn": "",
-      "summary_en": "Article URL: https://github.com/ovenpasta/adi2 Comments URL: https://news.ycombinator.com/item?id=49422243 Points: 32 # ..."
+      "summary_en": "Article URL: https://github.com/ovenpasta/adi2 Comments URL: https://news.ycombinator.com/item?id=49422243 Points: 36 # ..."
     },
     {
       "id": "8d62c91e8540",
@@ -750,6 +735,21 @@
       "reliability": 3,
       "summary_bn": "",
       "summary_en": "Article URL: https://app.dover.com/Autostep/careers/e9510e3b-a854-4e48-9e5d-c89796acaed4 Comments URL: https://news.ycom..."
+    },
+    {
+      "id": "bb0848957783",
+      "title": "Octopus intelligence may be related to never-before-seen mutation",
+      "link": "https://www.smithsonianmag.com/smart-news/why-are-some-octopuses-so-smart-the-answer-might-lie-in-a-never-before-seen-mutation-that-helps-them-accurately-build-proteins-180989319/",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-08-24T17:57:13Z",
+      "description": "Article URL: https://www.smithsonianmag.com/smart-news/why-are-some-octopuses-so-smart-the-answer-might-lie-in-a-never-before-seen-mutation-that-helps-them-accurately-build-proteins-180989319/ Comments URL: https://news.ycombinator.com/item?id=49423539 Points: 117 # Comments: 88",
+      "topic": "Hardware",
+      "topicIcon": "💻",
+      "importance": 3,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "Article URL: https://www.smithsonianmag.com/smart-news/why-are-some-octopuses-so-smart-the-answer-might-lie-in-a-never-b..."
     }
   ]
 }
