@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T19:57:22+06:00",
+  "lastUpdated": "2026-08-25T20:55:11+06:00",
   "news": [
     {
       "id": "a429b5e27fc5",
@@ -15,21 +15,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Weeks after OpenAI disclosed that one of its cybersecurity models had gone rogue and hacked AI dataset company Hugging F..."
-    },
-    {
-      "id": "6fa02c4f9ef7",
-      "title": "Valor, Point72 back General Intuition at $6B valuation as AI startup pushes into robotics",
-      "link": "https://techcrunch.com/2026/08/24/valor-point72-back-general-intuition-at-6b-valuation-as-ai-startup-pushes-into-robotics/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-24T15:24:18Z",
-      "description": "General Intuition, the startup building a foundation model that trains generalized AI agents how to move through space and time, is in talks to raise at a $6 billion pre-money valuation from new investors including Valor Ventures, Point72 Ventures, and Seven Seven Six.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 6,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "General Intuition, the startup building a foundation model that trains generalized AI agents how to move through space a..."
     },
     {
       "id": "b0d38cb03431",
@@ -75,21 +60,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Apple is announcing new models of the Mac Studio, now using the existing M5 Max and a new M5 Ultra. This reunification u..."
-    },
-    {
-      "id": "b5f51b2be8f5",
-      "title": "Trump tried to curb clean energy. It’s booming anyway.",
-      "link": "https://arstechnica.com/science/2026/08/trump-tried-to-curb-clean-energy-its-booming-anyway/",
-      "source": "Ars Technica",
-      "sourceIcon": "ars",
-      "pubDate": "2026-08-24T14:43:56Z",
-      "description": "Capacity will rise by a record 45GW this year, according to S&#038;P Global Energy.",
-      "topic": "Mobile",
-      "topicIcon": "📱",
-      "importance": 5,
-      "reliability": 5,
-      "summary_bn": "",
-      "summary_en": "Capacity will rise by a record 45GW this year, according to S&#038;P Global Energy."
     },
     {
       "id": "931dd7b67db9",
@@ -167,21 +137,6 @@
       "summary_en": "Is the technique outdated? Yes. Is it still creepy? Also yes."
     },
     {
-      "id": "878545275de8",
-      "title": "Amjad Masad, CEO and co-founder of Replit, joins the Disrupt Stage at TechCrunch Disrupt 2026",
-      "link": "https://techcrunch.com/2026/08/24/amjad-masad-ceo-and-co-founder-of-replit-joins-the-disrupt-stage-at-techcrunch-disrupt-2026/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-24T19:54:19Z",
-      "description": "At TechCrunch Disrupt 2026, Replit CEO Amjad Masad will share his perspective on the future of programming and Replit's role in developing it.",
-      "topic": "Hardware",
-      "topicIcon": "💻",
-      "importance": 5,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "At TechCrunch Disrupt 2026, Replit CEO Amjad Masad will share his perspective on the future of programming and Replit's ..."
-    },
-    {
       "id": "1810393d5036",
       "title": "Ads and tracking infiltrated TVs. Now they're coming for monitors.",
       "link": "https://arstechnica.com/gadgets/2026/08/ads-and-tracking-infiltrated-tvs-now-theyre-coming-for-monitors/",
@@ -248,7 +203,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-25T12:44:35Z",
-      "description": "Article URL: https://www.cybernetica.fr/piratage-des-impots-comment-en-est-on-arrive-la/ Comments URL: https://news.ycombinator.com/item?id=49433064 Points: 56 # Comments: 24",
+      "description": "Article URL: https://www.cybernetica.fr/piratage-des-impots-comment-en-est-on-arrive-la/ Comments URL: https://news.ycombinator.com/item?id=49433064 Points: 73 # Comments: 38",
       "topic": "Security",
       "topicIcon": "🔒",
       "importance": 5,
@@ -285,36 +240,6 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "Folks have been daisy-chaining Macs for AI—this refresh keeps that in mind."
-    },
-    {
-      "id": "6e460e492d5c",
-      "title": "US data centers tripled annual water consumption to 17B gallons",
-      "link": "https://forgeeks.net/us-data-centers-water-use-17-billion-gallons/",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-08-25T13:08:13Z",
-      "description": "Article URL: https://forgeeks.net/us-data-centers-water-use-17-billion-gallons/ Comments URL: https://news.ycombinator.com/item?id=49433372 Points: 35 # Comments: 29",
-      "topic": "Startups",
-      "topicIcon": "🚀",
-      "importance": 5,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://forgeeks.net/us-data-centers-water-use-17-billion-gallons/ Comments URL: https://news.ycombinator.c..."
-    },
-    {
-      "id": "26626788ee8d",
-      "title": "Instinct’s powerful AI assistant is raising privacy and security concerns",
-      "link": "https://techcrunch.com/2026/08/24/instincts-powerful-ai-assistant-is-raising-privacy-and-security-concerns/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-24T18:03:55Z",
-      "description": "Early testers are raving about what Instinct can do, but some say the AI assistant’s sweeping access, broad terms and ability to act on users’ behalf come with uncomfortable trade-offs.",
-      "topic": "Security",
-      "topicIcon": "🔒",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Early testers are raving about what Instinct can do, but some say the AI assistant’s sweeping access, broad terms and ab..."
     },
     {
       "id": "e6821914cfb0",
@@ -467,6 +392,21 @@
       "summary_en": "The move comes weeks after a DJ admitted using AI to remix a Madonna song that topped the Australian charts."
     },
     {
+      "id": "4e6767cb4d4e",
+      "title": "Windows 95 released August 24, 1995",
+      "link": "https://dfarq.homeip.net/happy-20th-birthday-to-windows-95/",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-08-25T06:56:55Z",
+      "description": "Article URL: https://dfarq.homeip.net/happy-20th-birthday-to-windows-95/ Comments URL: https://news.ycombinator.com/item?id=49430007 Points: 21 # Comments: 1",
+      "topic": "Startups",
+      "topicIcon": "🚀",
+      "importance": 4,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "Article URL: https://dfarq.homeip.net/happy-20th-birthday-to-windows-95/ Comments URL: https://news.ycombinator.com/item..."
+    },
+    {
       "id": "25cd83fa2245",
       "title": "Spirit Airlines Wants to Sell Its Data to Google. Former Flight Attendants Are Freaked Out",
       "link": "https://www.wired.com/story/spirit-airlines-wants-to-sell-its-data-to-google-former-flight-attendants-are-freaked-out/",
@@ -495,21 +435,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Archeologists are confronting an “unfathomable” loss as border wall construction is set to cut across ranches that are h..."
-    },
-    {
-      "id": "de84d7153789",
-      "title": "Greenworks’ MaximusZ electric riding mower has five motors and a few compromises",
-      "link": "https://www.theverge.com/transportation/983980/greenworks-maximusz-electric-riding-mower-review-specs-price",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-08-25T11:00:00Z",
-      "description": "The current EV market is flush with variety. I've driven single-motor economy-minded machines, dual-motor EVs with all-wheel drive, tri-motor vehicles that dial up the performance stakes, and even wild quad-motor performance cars, like the Rimac Nevera. But this is the first time I've ever driven a five-motor EV, one with the agility and speed to [&#8230;]",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "The current EV market is flush with variety. I've driven single-motor economy-minded machines, dual-motor EVs with all-w..."
     },
     {
       "id": "ba82333d1965",
@@ -692,6 +617,96 @@
       "summary_en": "The base model of the Mac Mini comes with 256GB of storage, 16GB of RAM, and costs $899."
     },
     {
+      "id": "93b5b7bb13b8",
+      "title": "Self-driving truck startup Gatik raises $200M following PepsiCo deal",
+      "link": "https://techcrunch.com/2026/08/25/self-driving-truck-startup-gatik-raises-200m-following-pepsico-deal/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-25T14:00:00Z",
+      "description": "The funding, Gatik's largest so far, was led by Qatar Investment Authority and Koch Disruptive Technologies.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "The funding, Gatik's largest so far, was led by Qatar Investment Authority and Koch Disruptive Technologies."
+    },
+    {
+      "id": "cd36e34ebecc",
+      "title": "OpenAI says its Jalapeño chip can power faster AI responses than the competition",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/984290/openai-jalapeno-ai-chip-benchmarks",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-08-25T14:00:00Z",
+      "description": "OpenAI says its new AI chip, Jalape&#241;o, completes tasks more efficiently and returns responses faster than other AI systems, according to a blog post published on Tuesday. During a briefing with reporters, OpenAI hardware vice president Richard Ho said Jalape&#241;o offers the \"best of both worlds\" with lower latency and higher throughput, as AI systems [&#8230;]",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "OpenAI says its new AI chip, Jalape&#241;o, completes tasks more efficiently and returns responses faster than other AI ..."
+    },
+    {
+      "id": "cd6ed22634e1",
+      "title": "Apple debuts its ‘most powerful chip ever’ in M5 Ultra and M6",
+      "link": "https://techcrunch.com/2026/08/25/apple-debuts-its-most-powerful-chip-ever-in-m5-ultra-and-m6/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-25T14:10:36Z",
+      "description": "Apple unveils these new processors alongside an updated Mac Mini and Mac Studio.",
+      "topic": "Hardware",
+      "topicIcon": "💻",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Apple unveils these new processors alongside an updated Mac Mini and Mac Studio."
+    },
+    {
+      "id": "bfd1495c7691",
+      "title": "OpenAI’s Jalapeño chip is built for fast inference at scale, benchmarks show",
+      "link": "https://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-25T14:22:04Z",
+      "description": "Tested on Semianalysis’s InferenceX benchmark, Jalapeño registered both more tokens per user and more throughput per kilowatt than the currently available state-of-the art.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Tested on Semianalysis’s InferenceX benchmark, Jalapeño registered both more tokens per user and more throughput per kil..."
+    },
+    {
+      "id": "f1bc233f52fd",
+      "title": "Apple&#8217;s ‘new’ polishing cloth is the same except $10 cheaper",
+      "link": "https://www.theverge.com/tech/984353/apple-polishing-cloth-cheaper",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-08-25T14:25:52Z",
+      "description": "Apple just dropped a new polishing cloth, and unlike its refreshed Mac Mini models, it comes with a price cut, as spotted earlier by MacRumors. The polishing cloth is still \"made with soft, nonabrasive material\" but costs $9 instead of $19. It doesn't look like anything else has changed, as the description matches an archived [&#8230;]",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Apple just dropped a new polishing cloth, and unlike its refreshed Mac Mini models, it comes with a price cut, as spotte..."
+    },
+    {
+      "id": "da9753c2c87b",
+      "title": "Apple rescues Hide My Email feature from the privacy scrap heap",
+      "link": "https://techcrunch.com/2026/08/25/apple-rescues-hide-my-email-feature-from-the-privacy-scrap-heap/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-25T14:46:32Z",
+      "description": "Apple says it will no longer ditch using its icloud.com domain for hiding people's email addresses.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Apple says it will no longer ditch using its icloud.com domain for hiding people's email addresses."
+    },
+    {
       "id": "ed1ca3ca4556",
       "title": "My Daily Driver Gaming Headset Is Super Cheap Right Now",
       "link": "https://www.wired.com/story/steelseries-arctis-nova-3p-august-2026/",
@@ -707,36 +722,6 @@
       "summary_en": "I love this multi-device headset, and right now it’s cheaper than what I paid for it in March."
     },
     {
-      "id": "f8ca85b331a1",
-      "title": "Autostep (YC P26) Is Hiring AI/Fullstack Engineers and a Chief of Staff",
-      "link": "https://app.dover.com/Autostep/careers/e9510e3b-a854-4e48-9e5d-c89796acaed4",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-08-24T17:53:14Z",
-      "description": "Article URL: https://app.dover.com/Autostep/careers/e9510e3b-a854-4e48-9e5d-c89796acaed4 Comments URL: https://news.ycombinator.com/item?id=49423495 Points: 0 # Comments: 0",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 3,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://app.dover.com/Autostep/careers/e9510e3b-a854-4e48-9e5d-c89796acaed4 Comments URL: https://news.ycom..."
-    },
-    {
-      "id": "7e17e8f017ef",
-      "title": "Apply now to host a Side Event at TechCrunch Disrupt 2026",
-      "link": "https://techcrunch.com/2026/08/24/apply-now-to-host-a-side-event-at-techcrunch-disrupt-2026/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-24T19:44:13Z",
-      "description": "Apply before September 4 to be a part of the TechCrunch Disrupt community by hosting your own Side Event.",
-      "topic": "Open Source",
-      "topicIcon": "🔓",
-      "importance": 3,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Apply before September 4 to be a part of the TechCrunch Disrupt community by hosting your own Side Event."
-    },
-    {
       "id": "25490c8a012f",
       "title": "Amazon hikes hardware prices by 60%, blaming memory shortage",
       "link": "https://techcrunch.com/2026/08/24/amazon-hikes-hardware-prices-by-60-percent-blaming-memory-shortage/",
@@ -750,6 +735,21 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "As the memory shortage continues to cause trouble for hardware makers, Amazon says it is now being forced to pass on the..."
+    },
+    {
+      "id": "bd52c00ec34f",
+      "title": "Zillow and Redfin settle FTC antitrust case",
+      "link": "https://techcrunch.com/2026/08/24/zillow-and-redfin-settle-ftc-antitrust-case/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-24T20:45:33Z",
+      "description": "Zillow and Redfin reached a settlement with the FTC, which requires Redfin to reenter the rental advertising business.",
+      "topic": "Regulation",
+      "topicIcon": "⚖️",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Zillow and Redfin reached a settlement with the FTC, which requires Redfin to reenter the rental advertising business."
     }
   ]
 }
