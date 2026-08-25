@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T17:34:10+06:00",
+  "lastUpdated": "2026-08-25T18:58:10+06:00",
   "news": [
     {
       "id": "a429b5e27fc5",
@@ -60,6 +60,21 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Alabama's attorney general issued a subpoena to OpenAI on Monday as part of an investigation into how one of its AI agen..."
+    },
+    {
+      "id": "b0d38cb03431",
+      "title": "Fitbit founders launch Luffu Link, an LTE health and safety band",
+      "link": "https://techcrunch.com/2026/08/25/fitbit-founders-launch-luffu-link-an-lte-health-and-safety-band/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-25T12:00:00Z",
+      "description": "Luffu Link combines all day health sensing, voice logging, location awareness, and the ability to get help from trusted contacts into a single device, all without needing a phone nearby.",
+      "topic": "Regulation",
+      "topicIcon": "⚖️",
+      "importance": 6,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Luffu Link combines all day health sensing, voice logging, location awareness, and the ability to get help from trusted ..."
     },
     {
       "id": "d9a0d687ee87",
@@ -272,19 +287,19 @@
       "summary_en": "Say hello to a revamped collection of perfectly proportioned 38-mm Speedmasters."
     },
     {
-      "id": "706cd18342d0",
-      "title": "Raspberry Pi shares its official tutorial for making a cyberdeck",
-      "link": "https://www.theverge.com/tech/983786/raspberry-pi-cyberdeck-tutorial-price-increases",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-08-24T14:49:44Z",
-      "description": "Raspberry Pi's head of social, Ashley Whittaker, acknowledged the cyberdeck trend today, saying \"we haven't been able to get away from cyberdecks this year.\" Tiny portable computers made out of things like purses, jewelry boxes, and other thrifted or recycled parts have gone viral on TikTok and other social media platforms over the past year, [&#8230;]",
+      "id": "d50f40f5b74c",
+      "title": "France's tax agency got hacked (in French)",
+      "link": "https://www.cybernetica.fr/piratage-des-impots-comment-en-est-on-arrive-la/",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-08-25T12:44:35Z",
+      "description": "Article URL: https://www.cybernetica.fr/piratage-des-impots-comment-en-est-on-arrive-la/ Comments URL: https://news.ycombinator.com/item?id=49433064 Points: 4 # Comments: 0",
       "topic": "Security",
       "topicIcon": "🔒",
-      "importance": 4,
-      "reliability": 4,
+      "importance": 5,
+      "reliability": 3,
       "summary_bn": "",
-      "summary_en": "Raspberry Pi's head of social, Ashley Whittaker, acknowledged the cyberdeck trend today, saying \"we haven't been able to..."
+      "summary_en": "Article URL: https://www.cybernetica.fr/piratage-des-impots-comment-en-est-on-arrive-la/ Comments URL: https://news.ycom..."
     },
     {
       "id": "a8a77e450426",
@@ -572,6 +587,51 @@
       "summary_en": "After years of smells, strange noises, and “tea,” these are the composters and food recyclers I’d actually recommend."
     },
     {
+      "id": "1f2210a820ae",
+      "title": "Credit Card Rewards Became a $9.2B Wealth Transfer",
+      "link": "https://www.library.hbs.edu/working-knowledge/how-credit-card-rewards-became-multibillion-dollar-wealth-transfer",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-08-25T11:37:24Z",
+      "description": "Article URL: https://www.library.hbs.edu/working-knowledge/how-credit-card-rewards-became-multibillion-dollar-wealth-transfer Comments URL: https://news.ycombinator.com/item?id=49432201 Points: 96 # Comments: 164",
+      "topic": "Startups",
+      "topicIcon": "🚀",
+      "importance": 4,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "Article URL: https://www.library.hbs.edu/working-knowledge/how-credit-card-rewards-became-multibillion-dollar-wealth-tra..."
+    },
+    {
+      "id": "ee865b3ef833",
+      "title": "‘The world seems to be ready’: An interview with OpenAI head of product Thibault Sottiaux",
+      "link": "https://techcrunch.com/2026/08/25/the-world-seems-to-be-ready-an-interview-with-openai-head-of-product-thibault-sottiaux/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-25T12:00:00Z",
+      "description": "TechCrunch talks agents, UX, and reporting to Greg Brockman with OpenAI's head of product.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "TechCrunch talks agents, UX, and reporting to Greg Brockman with OpenAI's head of product."
+    },
+    {
+      "id": "e774ed208501",
+      "title": "Fiat Ventures combines venture and advisory divisions into new brand, raises $35M Fund II",
+      "link": "https://techcrunch.com/2026/08/25/fgv-capital-bets-on-a-new-venture-model-raises-35m-fund-ii/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-25T12:37:37Z",
+      "description": "In an environment where emerging fund managers struggle to attract LP attention, FGV is betting that a different venture model can help it lure LPs.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "In an environment where emerging fund managers struggle to attract LP attention, FGV is betting that a different venture..."
+    },
+    {
       "id": "50d1f5268d34",
       "title": "Brake problems in GM EVs draw greater federal scrutiny",
       "link": "https://techcrunch.com/2026/08/24/brake-problems-in-gm-evs-draw-greater-federal-scrutiny/",
@@ -587,28 +647,13 @@
       "summary_en": "In one crash, the driver of a 2024 Blazer EV said they had to \"deliberately steer the vehicle into a concrete curb\" to s..."
     },
     {
-      "id": "8d9ac4c6981f",
-      "title": "ESPN streaming plans are getting more expensive",
-      "link": "https://www.theverge.com/streaming/983794/espn-disney-plus-bundles-price-increase",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-08-24T15:06:24Z",
-      "description": "ESPN is hiking the price of its subscription on September 17th, a change that will also impact its bundles with Disney Plus. In a support page spotted earlier by Sports Media Watch, ESPN says its ad-supported Select membership will cost $13.99 instead of $12.99 / month, while its Unlimited plan will rise to $31.99 from [&#8230;]",
-      "topic": "Web/JavaScript",
-      "topicIcon": "🌐",
-      "importance": 3,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "ESPN is hiking the price of its subscription on September 17th, a change that will also impact its bundles with Disney P..."
-    },
-    {
       "id": "468a1a33d560",
       "title": "Xiaomi: New CPU matches Apple cores single threaded, much faster multithreaded",
       "link": "https://twitter.com/lemire/status/2091894299289874926",
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-24T15:08:17Z",
-      "description": "https://xcancel.com/lemire/status/2091894299289874926 Comments URL: https://news.ycombinator.com/item?id=49420873 Points: 894 # Comments: 639",
+      "description": "https://xcancel.com/lemire/status/2091894299289874926 Comments URL: https://news.ycombinator.com/item?id=49420873 Points: 915 # Comments: 654",
       "topic": "Mobile",
       "topicIcon": "📱",
       "importance": 3,
@@ -623,7 +668,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-24T15:28:04Z",
-      "description": "Article URL: https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/ Comments URL: https://news.ycombinator.com/item?id=49421158 Points: 735 # Comments: 342",
+      "description": "Article URL: https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/ Comments URL: https://news.ycombinator.com/item?id=49421158 Points: 757 # Comments: 368",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 3,
@@ -668,28 +713,13 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-24T19:03:06Z",
-      "description": "Article URL: https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines Comments URL: https://news.ycombinator.com/item?id=49424387 Points: 158 # Comments: 74",
+      "description": "Article URL: https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines Comments URL: https://news.ycombinator.com/item?id=49424387 Points: 163 # Comments: 80",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 3,
       "reliability": 3,
       "summary_bn": "",
       "summary_en": "Article URL: https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines Comments..."
-    },
-    {
-      "id": "53d975e083ea",
-      "title": "Oceans hit highest temperature on record",
-      "link": "https://www.bbc.com/news/articles/c62m4gpnp78o",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-08-24T19:19:08Z",
-      "description": "Article URL: https://www.bbc.com/news/articles/c62m4gpnp78o Comments URL: https://news.ycombinator.com/item?id=49424606 Points: 585 # Comments: 459",
-      "topic": "Hardware",
-      "topicIcon": "💻",
-      "importance": 3,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://www.bbc.com/news/articles/c62m4gpnp78o Comments URL: https://news.ycombinator.com/item?id=49424606 ..."
     },
     {
       "id": "7e17e8f017ef",
@@ -720,36 +750,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "The creator of the world's first 3D-printed gun claims he's developed a way to thwart government-mandated software meant..."
-    },
-    {
-      "id": "25490c8a012f",
-      "title": "Amazon hikes hardware prices by 60%, blaming memory shortage",
-      "link": "https://techcrunch.com/2026/08/24/amazon-hikes-hardware-prices-by-60-percent-blaming-memory-shortage/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-24T19:54:50Z",
-      "description": "As the memory shortage continues to cause trouble for hardware makers, Amazon says it is now being forced to pass on the costs to its consumers.",
-      "topic": "Hardware",
-      "topicIcon": "💻",
-      "importance": 3,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "As the memory shortage continues to cause trouble for hardware makers, Amazon says it is now being forced to pass on the..."
-    },
-    {
-      "id": "bd52c00ec34f",
-      "title": "Zillow and Redfin settle FTC antitrust case",
-      "link": "https://techcrunch.com/2026/08/24/zillow-and-redfin-settle-ftc-antitrust-case/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-24T20:45:33Z",
-      "description": "Zillow and Redfin reached a settlement with the FTC, which requires Redfin to reenter the rental advertising business.",
-      "topic": "Regulation",
-      "topicIcon": "⚖️",
-      "importance": 3,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Zillow and Redfin reached a settlement with the FTC, which requires Redfin to reenter the rental advertising business."
     }
   ]
 }
