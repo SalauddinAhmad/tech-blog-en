@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T03:34:19+06:00",
+  "lastUpdated": "2026-08-26T04:33:27+06:00",
   "news": [
     {
       "id": "579b65ab022f",
@@ -38,7 +38,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-25T20:49:03Z",
-      "description": "Article URL: https://sethmlarson.dev/when-str-lower-is-a-security-vulnerability Comments URL: https://news.ycombinator.com/item?id=49440410 Points: 7 # Comments: 0",
+      "description": "Article URL: https://sethmlarson.dev/when-str-lower-is-a-security-vulnerability Comments URL: https://news.ycombinator.com/item?id=49440410 Points: 25 # Comments: 12",
       "topic": "Security",
       "topicIcon": "🔒",
       "importance": 6,
@@ -228,33 +228,18 @@
     },
     {
       "id": "c7be6c9bbd1c",
-      "title": "X sends cease-and-desist to open-source project Nitter over alleged scraping",
+      "title": "X sends cease-and-desist to open source project Nitter over alleged scraping",
       "link": "https://techcrunch.com/2026/08/25/x-sends-cease-and-desist-to-open-source-project-nitter-over-alleged-scraping/",
       "source": "TechCrunch",
       "sourceIcon": "crunch",
       "pubDate": "2026-08-25T20:44:12Z",
-      "description": "X has sent cease-and-desist letters to Nitter, the open source project behind privacy-friendly X frontends, demanding its instances and code repository be taken down over alleged scraping.",
+      "description": "X has sent cease-and-desist letters to Nitter, the open source project behind privacy-friendly X front ends, demanding its instances and code repository be taken down over alleged scraping.",
       "topic": "Open Source",
       "topicIcon": "🔓",
       "importance": 5,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "X has sent cease-and-desist letters to Nitter, the open source project behind privacy-friendly X frontends, demanding it..."
-    },
-    {
-      "id": "7b1bff0cd099",
-      "title": "AI is hitting entry-level jobs hardest, Stanford study finds",
-      "link": "https://arstechnica.com/ai/2026/08/ai-is-hitting-entry-level-jobs-hardest-stanford-study-finds/",
-      "source": "Ars Technica",
-      "sourceIcon": "ars",
-      "pubDate": "2026-08-24T21:45:53Z",
-      "description": "Young employment in AI-impacted fields down 19% compared to more AI-resistant occupations.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 5,
-      "summary_bn": "",
-      "summary_en": "Young employment in AI-impacted fields down 19% compared to more AI-resistant occupations."
+      "summary_en": "X has sent cease-and-desist letters to Nitter, the open source project behind privacy-friendly X front ends, demanding i..."
     },
     {
       "id": "00d24e525cee",
@@ -653,13 +638,13 @@
       "source": "TechCrunch",
       "sourceIcon": "crunch",
       "pubDate": "2026-08-25T19:22:52Z",
-      "description": "Instagram is making one of the most tedious parts of creating Reels easier. The company announced Tuesday in a Threads post that it’s rolling out “First Draft,” a new editing feature that automatically trims selected video clips and removes pauses, pulling together the best moments into an initial cut.&#160; Instagram says the process can produce [&#8230;]",
+      "description": "Instagram says the process can produce a first pass in under 10 seconds, potentially saving creators significant editing time while making video creation more approachable for people who don't have much experience with editing software.",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 4,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "Instagram is making one of the most tedious parts of creating Reels easier. The company announced Tuesday in a Threads p..."
+      "summary_en": "Instagram says the process can produce a first pass in under 10 seconds, potentially saving creators significant editing..."
     },
     {
       "id": "49caa2fe864e",
@@ -690,6 +675,36 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "With school and sports starting again, these discounts on Instant Pots, cookware, and coffee gear arrive right on time."
+    },
+    {
+      "id": "cbb131034187",
+      "title": "‘Darth Vader’ Wants You to Know He Definitely Supports Flock Surveillance",
+      "link": "https://www.wired.com/story/darth-vader-wants-you-to-know-he-definitely-supports-flock-surveillance/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-08-25T21:51:32Z",
+      "description": "Anthony Ralphs was frustrated by the San Diego City Council's support for Flock. He decided it would take something more than reasoned argument to get their attention.",
+      "topic": "Security",
+      "topicIcon": "🔒",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Anthony Ralphs was frustrated by the San Diego City Council's support for Flock. He decided it would take something more..."
+    },
+    {
+      "id": "73b07d5b5155",
+      "title": "Garmin’s new Fenix 9 adds brighter screens and smoother map panning",
+      "link": "https://www.theverge.com/gadgets/984753/garmin-fenix-9-smartwatch-launch",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-08-25T22:20:17Z",
+      "description": "Garmin just took the wraps off its new line of rugged Fenix 9 smartwatches, with the base model featuring an OLED display with a brightness of up to 3,000 nits, making it twice as bright as its predecessor. Starting at $999.99 for the 43mm case option, the Fenix 9 has 50 percent more RAM and [&#8230;]",
+      "topic": "Hardware",
+      "topicIcon": "💻",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Garmin just took the wraps off its new line of rugged Fenix 9 smartwatches, with the base model featuring an OLED displa..."
     },
     {
       "id": "00841011854a",
@@ -735,21 +750,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Illinois prosecutors shared defendants’ personal data with federal immigration agents without criminal warrants, public ..."
-    },
-    {
-      "id": "79f6641c4618",
-      "title": "Accel-backed Keenable is indexing the web for AI agents",
-      "link": "https://techcrunch.com/2026/08/25/accel-backed-keenable-is-indexing-the-web-for-ai-agents/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-25T13:00:00Z",
-      "description": "Now exiting stealth mode with a $26 million seed round, Keenable has been building a vast web search index for AI agents.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 3,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Now exiting stealth mode with a $26 million seed round, Keenable has been building a vast web search index for AI agents..."
     }
   ]
 }
