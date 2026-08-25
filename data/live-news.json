@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T22:44:19+06:00",
+  "lastUpdated": "2026-08-25T23:36:39+06:00",
   "news": [
     {
       "id": "b0d38cb03431",
@@ -8,58 +8,13 @@
       "source": "TechCrunch",
       "sourceIcon": "crunch",
       "pubDate": "2026-08-25T12:00:00Z",
-      "description": "Luffu Link combines all day health sensing, voice logging, location awareness, and the ability to get help from trusted contacts into a single device, all without needing a phone nearby.",
+      "description": "Luffu Link combines all-day health sensing, voice logging, location awareness, and the ability to get help from trusted contacts into a single device, all without needing a phone nearby.",
       "topic": "Regulation",
       "topicIcon": "⚖️",
       "importance": 6,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "Luffu Link combines all day health sensing, voice logging, location awareness, and the ability to get help from trusted ..."
-    },
-    {
-      "id": "dd69a50bfef7",
-      "title": "Uber is letting parents check in on their teens through drivers’ selfie cameras",
-      "link": "https://www.theverge.com/transportation/983926/uber-teen-account-live-video-driver-selfie-camera",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-08-25T13:00:00Z",
-      "description": "Uber is updating its teen account feature to allow parents to use the selfie cameras on Uber drivers' phones to check in on their teenage children during ridehail trips. Since first launching teen accounts in 2023, Uber has touted the myriad ways parents can keep tabs on their children, from PIN verification to live GPS [&#8230;]",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 6,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Uber is updating its teen account feature to allow parents to use the selfie cameras on Uber drivers' phones to check in..."
-    },
-    {
-      "id": "c2fb218f3562",
-      "title": "Apple launches new Mac Studios with its ‘most powerful chip ever’ — the M5 Ultra",
-      "link": "https://www.theverge.com/tech/984207/apple-mac-studio-m5-max-ultra-price-specs-launch",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-08-25T13:00:00Z",
-      "description": "Apple is announcing new models of the Mac Studio, now using the existing M5 Max and a new M5 Ultra. This reunification under one chip generation comes over a year after Apple awkwardly split the Studio between M4 Max and M3 Ultra offerings. (The older sounding M3 Ultra was actually the more powerful one, and [&#8230;]",
-      "topic": "Hardware",
-      "topicIcon": "💻",
-      "importance": 6,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Apple is announcing new models of the Mac Studio, now using the existing M5 Max and a new M5 Ultra. This reunification u..."
-    },
-    {
-      "id": "66e2b7f8bf72",
-      "title": "Buyer beware: Those mummified remains might carry toxic spores",
-      "link": "https://arstechnica.com/science/2026/08/modern-trade-of-mummified-remains-may-carry-its-own-mummys-curse/",
-      "source": "Ars Technica",
-      "sourceIcon": "ars",
-      "pubDate": "2026-08-24T16:59:07Z",
-      "description": "\"Mummified remains sold online exhibit signs of biodeterioration, yet sellers provide no safety guidance.\"",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 5,
-      "reliability": 5,
-      "summary_bn": "",
-      "summary_en": "\"Mummified remains sold online exhibit signs of biodeterioration, yet sellers provide no safety guidance.\""
+      "summary_en": "Luffu Link combines all-day health sensing, voice logging, location awareness, and the ability to get help from trusted ..."
     },
     {
       "id": "97c5603c9e9f",
@@ -212,6 +167,21 @@
       "summary_en": "Privilege escalation attack grants \"full control\" and freedom from Meta's servers/apps."
     },
     {
+      "id": "19845f5a7713",
+      "title": "Instagram’s ‘First Draft’ trims your Reels clips for you",
+      "link": "https://www.theverge.com/tech/984463/instagram-first-draft-edit-reels",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-08-25T17:12:31Z",
+      "description": "Instagram is launching a new Reels-editing feature that automatically trims your video clips to focus on the highlights. The feature, called First Draft, is rolling out to Instagram's iPhone app and provides a \"starting point\" that you can build upon with other edits, according to an announcement on Tuesday. An example shared by Instagram shows [&#8230;]",
+      "topic": "Mobile",
+      "topicIcon": "📱",
+      "importance": 5,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Instagram is launching a new Reels-editing feature that automatically trims your video clips to focus on the highlights...."
+    },
+    {
       "id": "e6821914cfb0",
       "title": "GM vehicles under federal scrutiny after hundreds of reports",
       "link": "https://arstechnica.com/cars/2026/08/feds-deepen-probe-into-general-motors-brake-failures/",
@@ -345,21 +315,6 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "The move comes weeks after a DJ admitted using AI to remix a Madonna song that topped the Australian charts."
-    },
-    {
-      "id": "4e6767cb4d4e",
-      "title": "Windows 95 released August 24, 1995",
-      "link": "https://dfarq.homeip.net/happy-20th-birthday-to-windows-95/",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-08-25T06:56:55Z",
-      "description": "Article URL: https://dfarq.homeip.net/happy-20th-birthday-to-windows-95/ Comments URL: https://news.ycombinator.com/item?id=49430007 Points: 63 # Comments: 25",
-      "topic": "Startups",
-      "topicIcon": "🚀",
-      "importance": 4,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://dfarq.homeip.net/happy-20th-birthday-to-windows-95/ Comments URL: https://news.ycombinator.com/item..."
     },
     {
       "id": "25cd83fa2245",
@@ -510,36 +465,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Nintendo didn’t design its Switch dock with travel in mind. Genki’s Covert Dock is a much smaller alternative my family ..."
-    },
-    {
-      "id": "2d28d83e843d",
-      "title": "Apple&#8217;s new M6 chip gets more cores and more AI compute",
-      "link": "https://www.theverge.com/tech/984118/apple-m6-m5-ultra-chip-mac-mini-studio",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-08-25T13:00:00Z",
-      "description": "Apple has announced a new M6 chip for Macs, along with an M5 Ultra that it says is its \"most powerful chip ever,\" designed for tasks like 3D rendering and running frontier AI models. The M6 is Apple's first 2nm chip, which Apple says will bring improvements in performance and power efficiency, and it also [&#8230;]",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Apple has announced a new M6 chip for Macs, along with an M5 Ultra that it says is its \"most powerful chip ever,\" design..."
-    },
-    {
-      "id": "0f20eec65f40",
-      "title": "Apple’s new Mac Mini has fresh M6 and M5 Pro chip offerings — and higher prices",
-      "link": "https://www.theverge.com/tech/984190/apple-mac-mini-m6-m5-pro-price-specs",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-08-25T13:00:00Z",
-      "description": "Apple is announcing a new generation of the Mac Mini, once again offering two models: one with a new M6 chip and a higher-end model with the M5 Pro found in this year's MacBook Pro. The new Minis have the same tiny design and footprint as the 2024 M4 / M4 Pro models, but with [&#8230;]",
-      "topic": "Hardware",
-      "topicIcon": "💻",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Apple is announcing a new generation of the Mac Mini, once again offering two models: one with a new M6 chip and a highe..."
     },
     {
       "id": "b041a557d8a0",
@@ -707,6 +632,36 @@
       "summary_en": "Life360’s new $7.99 scannable pet tags alert families when a lost pet is found and share its last known location, while ..."
     },
     {
+      "id": "3010b15a566e",
+      "title": "Nothing OS 5.0 brings a new Glyph Interface app and a more customizable homescreen",
+      "link": "https://www.theverge.com/gadgets/984430/nothing-os-5-launch-android-17",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-08-25T16:58:53Z",
+      "description": "With the new design of Nothing OS 5.0, app icons and widgets can use adaptive color to get color tints pulled from your wallpaper, which update whenever your wallpaper changes. Alongside Android's built-in Dynamic Colors, the company says it allows you to have specific elements change to match your wallpaper \"while Nothing's predominantly monochrome character [&#8230;]",
+      "topic": "Mobile",
+      "topicIcon": "📱",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "With the new design of Nothing OS 5.0, app icons and widgets can use adaptive color to get color tints pulled from your ..."
+    },
+    {
+      "id": "be6ef3c85914",
+      "title": "Gamescom Opening Night Live 2026: The biggest announcements and trailers",
+      "link": "https://www.theverge.com/games/983891/gamescom-opening-night-live-2026-geoff-keighley",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-08-25T17:20:00Z",
+      "description": "It’s time for another Geoff Keighley-hosted blast of gaming news. Gamescom’s two-hour Opening Night Live event is scheduled to kick off on Tuesday at 2PM ET, with a preshow starting 30 minutes before. Thanks to teases on social media, we already have some idea of what to expect, including looks at Final Fantasy VII Revelation, [&#8230;]",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "It’s time for another Geoff Keighley-hosted blast of gaming news. Gamescom’s two-hour Opening Night Live event is schedu..."
+    },
+    {
       "id": "ed1ca3ca4556",
       "title": "My Daily Driver Gaming Headset Is Super Cheap Right Now",
       "link": "https://www.wired.com/story/steelseries-arctis-nova-3p-august-2026/",
@@ -737,19 +692,64 @@
       "summary_en": "Bitdefender VPN has an excellent starting price, even if it lacks the advanced features that privacy nerds may want."
     },
     {
-      "id": "f0f1ea6649d4",
-      "title": "Trump bought SpaceX shares two weeks after blockbuster IPO",
-      "link": "https://techcrunch.com/2026/08/24/trump-bought-spacex-shares-two-weeks-after-blockbuster-ipo/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-24T21:24:17Z",
-      "description": "The president bought when the stock was in the mid-$150 range. SpaceX finished trading on Monday back at its IPO price of $135.",
-      "topic": "Startups",
-      "topicIcon": "🚀",
+      "id": "00841011854a",
+      "title": "It Should Be Harder to Apply for a Job. No, Really",
+      "link": "https://www.wired.com/story/applying-for-a-job-is-too-damn-easy/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-08-25T09:30:00Z",
+      "description": "Thanks to a dwindling supply of open roles, “one-click” applications, and the rise of artificial intelligence, it’s easier than ever to apply for a job. We’re all paying the price.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
       "importance": 3,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "The president bought when the stock was in the mid-$150 range. SpaceX finished trading on Monday back at its IPO price o..."
+      "summary_en": "Thanks to a dwindling supply of open roles, “one-click” applications, and the rise of artificial intelligence, it’s easi..."
+    },
+    {
+      "id": "ca61d47e1fa8",
+      "title": "Optoma GT2400HDR Review: Ace Projector for Golf Simulation",
+      "link": "https://www.wired.com/review/optoma-gt2400hdr/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-08-25T10:32:00Z",
+      "description": "The Optoma GT2400HDR laser projector is great for setting up a driving range in your living room, but mediocre video quality makes it less appealing for home entertainment.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "The Optoma GT2400HDR laser projector is great for setting up a driving range in your living room, but mediocre video qua..."
+    },
+    {
+      "id": "e32b9224d0b2",
+      "title": "The County Prosecutors Who Became ICE Informants",
+      "link": "https://www.wired.com/story/the-county-prosecutors-who-became-ice-informants/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-08-25T11:00:00Z",
+      "description": "Illinois prosecutors shared defendants’ personal data with federal immigration agents without criminal warrants, public disclosure, or legislative oversight.",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Illinois prosecutors shared defendants’ personal data with federal immigration agents without criminal warrants, public ..."
+    },
+    {
+      "id": "b0f0da4e7a61",
+      "title": "HelloAssembly The smallest possible complete Windows application",
+      "link": "https://github.com/PlummersSoftwareLLC/HelloAssembly",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-08-25T11:40:00Z",
+      "description": "Article URL: https://github.com/PlummersSoftwareLLC/HelloAssembly Comments URL: https://news.ycombinator.com/item?id=49432227 Points: 70 # Comments: 37",
+      "topic": "Startups",
+      "topicIcon": "🚀",
+      "importance": 3,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "Article URL: https://github.com/PlummersSoftwareLLC/HelloAssembly Comments URL: https://news.ycombinator.com/item?id=494..."
     }
   ]
 }
