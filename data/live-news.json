@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T21:50:13+06:00",
+  "lastUpdated": "2026-08-25T22:44:19+06:00",
   "news": [
     {
       "id": "b0d38cb03431",
@@ -45,51 +45,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Apple is announcing new models of the Mac Studio, now using the existing M5 Max and a new M5 Ultra. This reunification u..."
-    },
-    {
-      "id": "931dd7b67db9",
-      "title": "F1 in the Netherlands: The driver you most want to beat is your teammate",
-      "link": "https://arstechnica.com/cars/2026/08/f1-in-the-netherlands-the-driver-you-most-want-to-beat-is-your-teammate/",
-      "source": "Ars Technica",
-      "sourceIcon": "ars",
-      "pubDate": "2026-08-24T16:02:54Z",
-      "description": "Formula 1 returned from its summer break with this weekend's Dutch Grand Prix.",
-      "topic": "Other",
-      "topicIcon": "📰",
-      "importance": 5,
-      "reliability": 5,
-      "summary_bn": "",
-      "summary_en": "Formula 1 returned from its summer break with this weekend's Dutch Grand Prix."
-    },
-    {
-      "id": "ee9d005b3909",
-      "title": "Sharing dangerous driving videos is 'truly reprehensible', PM says",
-      "link": "https://www.bbc.co.uk/news/articles/ce308l1w5q5o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC",
-      "sourceIcon": "bbc",
-      "pubDate": "2026-08-24T16:03:24Z",
-      "description": "His comments come as the government urged TikTok and other social media firms to remove wrong-way driving videos.",
-      "topic": "Regulation",
-      "topicIcon": "⚖️",
-      "importance": 5,
-      "reliability": 5,
-      "summary_bn": "",
-      "summary_en": "His comments come as the government urged TikTok and other social media firms to remove wrong-way driving videos."
-    },
-    {
-      "id": "4abd2658e8a4",
-      "title": "Nvidia senior manager linked to Supermicro scheme smuggling AI servers to China",
-      "link": "https://arstechnica.com/tech-policy/2026/08/nvidia-senior-manager-linked-to-supermicro-scheme-smuggling-ai-servers-to-china/",
-      "source": "Ars Technica",
-      "sourceIcon": "ars",
-      "pubDate": "2026-08-24T16:41:45Z",
-      "description": "Nvidia worker indicted after Jensen Huang scolded Supermicro for AI server smuggling.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 5,
-      "reliability": 5,
-      "summary_bn": "",
-      "summary_en": "Nvidia worker indicted after Jensen Huang scolded Supermicro for AI server smuggling."
     },
     {
       "id": "66e2b7f8bf72",
@@ -182,34 +137,19 @@
       "summary_en": "Say hello to a revamped collection of perfectly proportioned 38-mm Speedmasters."
     },
     {
-      "id": "d50f40f5b74c",
-      "title": "France's tax agency got hacked (in French)",
-      "link": "https://www.cybernetica.fr/piratage-des-impots-comment-en-est-on-arrive-la/",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-08-25T12:44:35Z",
-      "description": "Article URL: https://www.cybernetica.fr/piratage-des-impots-comment-en-est-on-arrive-la/ Comments URL: https://news.ycombinator.com/item?id=49433064 Points: 101 # Comments: 46",
-      "topic": "Security",
-      "topicIcon": "🔒",
-      "importance": 5,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://www.cybernetica.fr/piratage-des-impots-comment-en-est-on-arrive-la/ Comments URL: https://news.ycom..."
-    },
-    {
       "id": "8c519a70d2ed",
       "title": "Uber launches live video streaming for teen accounts",
       "link": "https://techcrunch.com/2026/08/25/uber-launches-live-video-streaming-for-teen-accounts/",
       "source": "TechCrunch",
       "sourceIcon": "crunch",
       "pubDate": "2026-08-25T13:00:00Z",
-      "description": "Uber said no one will be able to access the video once the ride ends",
+      "description": "Uber said no one will be able to access the video once the ride ends.",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 5,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "Uber said no one will be able to access the video once the ride ends"
+      "summary_en": "Uber said no one will be able to access the video once the ride ends."
     },
     {
       "id": "12cea9588a55",
@@ -240,6 +180,36 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Lica co-founders are going to work on Gamma's new research team."
+    },
+    {
+      "id": "ac410b3ab077",
+      "title": "AI won’t replace radiologists, but it will dramatically change their jobs",
+      "link": "https://arstechnica.com/health/2026/08/ai-wont-replace-radiologists-but-it-will-dramatically-change-their-jobs/",
+      "source": "Ars Technica",
+      "sourceIcon": "ars",
+      "pubDate": "2026-08-25T15:10:03Z",
+      "description": "A pioneering AI scientist once predicted computers would replace human radiologists. They haven't.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 5,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "A pioneering AI scientist once predicted computers would replace human radiologists. They haven't."
+    },
+    {
+      "id": "eb04d31c3cae",
+      "title": "New bootloader lets you take the \"Meta\" out of the original Meta Quest",
+      "link": "https://arstechnica.com/gaming/2026/08/new-bootloader-lets-you-take-the-meta-out-of-the-original-meta-quest/",
+      "source": "Ars Technica",
+      "sourceIcon": "ars",
+      "pubDate": "2026-08-25T16:04:37Z",
+      "description": "Privilege escalation attack grants \"full control\" and freedom from Meta's servers/apps.",
+      "topic": "Hardware",
+      "topicIcon": "💻",
+      "importance": 5,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "Privilege escalation attack grants \"full control\" and freedom from Meta's servers/apps."
     },
     {
       "id": "e6821914cfb0",
@@ -383,7 +353,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-25T06:56:55Z",
-      "description": "Article URL: https://dfarq.homeip.net/happy-20th-birthday-to-windows-95/ Comments URL: https://news.ycombinator.com/item?id=49430007 Points: 38 # Comments: 12",
+      "description": "Article URL: https://dfarq.homeip.net/happy-20th-birthday-to-windows-95/ Comments URL: https://news.ycombinator.com/item?id=49430007 Points: 63 # Comments: 25",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 4,
@@ -722,6 +692,21 @@
       "summary_en": "Fusion startup Pacific Fusion broke ground on a demonstration facility in New Mexico that it says will generate enough e..."
     },
     {
+      "id": "12c8b771a0f0",
+      "title": "Life360 expands pet tracking with new $8 scannable tags and zoomie alerts",
+      "link": "https://techcrunch.com/2026/08/25/life360-expands-pet-tracking-with-new-8-scannable-tags-and-zoomie-alerts/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-25T16:35:00Z",
+      "description": "Life360’s new $7.99 scannable pet tags alert families when a lost pet is found and share its last known location, while new care-tracking features help households keep tabs on feeding, walks, medication, and more.",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Life360’s new $7.99 scannable pet tags alert families when a lost pet is found and share its last known location, while ..."
+    },
+    {
       "id": "ed1ca3ca4556",
       "title": "My Daily Driver Gaming Headset Is Super Cheap Right Now",
       "link": "https://www.wired.com/story/steelseries-arctis-nova-3p-august-2026/",
@@ -737,19 +722,34 @@
       "summary_en": "I love this multi-device headset, and right now it’s cheaper than what I paid for it in March."
     },
     {
-      "id": "bd52c00ec34f",
-      "title": "Zillow and Redfin settle FTC antitrust case",
-      "link": "https://techcrunch.com/2026/08/24/zillow-and-redfin-settle-ftc-antitrust-case/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-24T20:45:33Z",
-      "description": "Zillow and Redfin reached a settlement with the FTC, which requires Redfin to reenter the rental advertising business.",
-      "topic": "Regulation",
-      "topicIcon": "⚖️",
+      "id": "614caa1ecd7d",
+      "title": "Bitdefender VPN Review: Fast and Affordable Privacy",
+      "link": "https://www.wired.com/review/bitdefender-vpn/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-08-24T21:08:00Z",
+      "description": "Bitdefender VPN has an excellent starting price, even if it lacks the advanced features that privacy nerds may want.",
+      "topic": "Security",
+      "topicIcon": "🔒",
       "importance": 3,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "Zillow and Redfin reached a settlement with the FTC, which requires Redfin to reenter the rental advertising business."
+      "summary_en": "Bitdefender VPN has an excellent starting price, even if it lacks the advanced features that privacy nerds may want."
+    },
+    {
+      "id": "f0f1ea6649d4",
+      "title": "Trump bought SpaceX shares two weeks after blockbuster IPO",
+      "link": "https://techcrunch.com/2026/08/24/trump-bought-spacex-shares-two-weeks-after-blockbuster-ipo/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-24T21:24:17Z",
+      "description": "The president bought when the stock was in the mid-$150 range. SpaceX finished trading on Monday back at its IPO price of $135.",
+      "topic": "Startups",
+      "topicIcon": "🚀",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "The president bought when the stock was in the mid-$150 range. SpaceX finished trading on Monday back at its IPO price o..."
     }
   ]
 }
