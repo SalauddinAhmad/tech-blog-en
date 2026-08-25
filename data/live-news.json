@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T12:57:42+06:00",
+  "lastUpdated": "2026-08-25T13:52:04+06:00",
   "news": [
     {
       "id": "a429b5e27fc5",
@@ -563,7 +563,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-25T02:11:39Z",
-      "description": "Article URL: https://www.thomsonreuters.com/en/press-releases/2026/august/thomson-reuters-leverages-its-world-class-data-assets-to-launch-its-own-frontier-model Comments URL: https://news.ycombinator.com/item?id=49428318 Points: 83 # Comments: 27",
+      "description": "Article URL: https://www.thomsonreuters.com/en/press-releases/2026/august/thomson-reuters-leverages-its-world-class-data-assets-to-launch-its-own-frontier-model Comments URL: https://news.ycombinator.com/item?id=49428318 Points: 92 # Comments: 34",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 4,
@@ -698,7 +698,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-24T15:08:17Z",
-      "description": "https://xcancel.com/lemire/status/2091894299289874926 Comments URL: https://news.ycombinator.com/item?id=49420873 Points: 815 # Comments: 573",
+      "description": "https://xcancel.com/lemire/status/2091894299289874926 Comments URL: https://news.ycombinator.com/item?id=49420873 Points: 837 # Comments: 589",
       "topic": "Mobile",
       "topicIcon": "📱",
       "importance": 3,
@@ -713,28 +713,13 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-24T15:28:04Z",
-      "description": "Article URL: https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/ Comments URL: https://news.ycombinator.com/item?id=49421158 Points: 658 # Comments: 264",
+      "description": "Article URL: https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/ Comments URL: https://news.ycombinator.com/item?id=49421158 Points: 679 # Comments: 272",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 3,
       "reliability": 3,
       "summary_bn": "",
       "summary_en": "Article URL: https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/ Comments URL: https://news.ycombinato..."
-    },
-    {
-      "id": "422d724d1779",
-      "title": "Show HN: A Modern GUI Library for Ada: CSS Styling, XML UI, SDL3",
-      "link": "https://github.com/ovenpasta/adi2",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-08-24T16:30:51Z",
-      "description": "Article URL: https://github.com/ovenpasta/adi2 Comments URL: https://news.ycombinator.com/item?id=49422243 Points: 43 # Comments: 15",
-      "topic": "Web/JavaScript",
-      "topicIcon": "🌐",
-      "importance": 3,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://github.com/ovenpasta/adi2 Comments URL: https://news.ycombinator.com/item?id=49422243 Points: 43 # ..."
     },
     {
       "id": "8d62c91e8540",
@@ -750,6 +735,21 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Robotaxis are expanding. So is the fight over the rules governing them. In New York, Gov. Kathy Hochul withdrew a propos..."
+    },
+    {
+      "id": "ed1ca3ca4556",
+      "title": "My Daily Driver Gaming Headset Is Super Cheap Right Now",
+      "link": "https://www.wired.com/story/steelseries-arctis-nova-3p-august-2026/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-08-24T17:46:18Z",
+      "description": "I love this multi-device headset, and right now it’s cheaper than what I paid for it in March.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "I love this multi-device headset, and right now it’s cheaper than what I paid for it in March."
     }
   ]
 }
