@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T01:36:39+06:00",
+  "lastUpdated": "2026-08-26T02:35:56+06:00",
   "news": [
     {
       "id": "579b65ab022f",
@@ -17,19 +17,19 @@
       "summary_en": "\"This will be a project like no other.\""
     },
     {
-      "id": "1810393d5036",
-      "title": "Ads and tracking infiltrated TVs. Now they're coming for monitors.",
-      "link": "https://arstechnica.com/gadgets/2026/08/ads-and-tracking-infiltrated-tvs-now-theyre-coming-for-monitors/",
-      "source": "Ars Technica",
-      "sourceIcon": "ars",
-      "pubDate": "2026-08-24T20:17:41Z",
-      "description": "Monitor vendors are playing with fire.",
-      "topic": "Hardware",
-      "topicIcon": "💻",
-      "importance": 5,
-      "reliability": 5,
+      "id": "be6ef3c85914",
+      "title": "Gamescom Opening Night Live 2026: The biggest announcements and trailers",
+      "link": "https://www.theverge.com/games/983891/gamescom-opening-night-live-2026-geoff-keighley",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-08-25T17:20:00Z",
+      "description": "The Geoff Keighley-hosted Opening Night Live event at Gamescom just wrapped up. Arguably the biggest announcement was the closer: a remastered version of The Witcher 3: Wild Hunt from CD Projekt Red that’s launching in September. But the show also featured a bunch of trailers for others games, including Gears of War: E-Day, Capcom’s upcoming [&#8230;]",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 6,
+      "reliability": 4,
       "summary_bn": "",
-      "summary_en": "Monitor vendors are playing with fire."
+      "summary_en": "The Geoff Keighley-hosted Opening Night Live event at Gamescom just wrapped up. Arguably the biggest announcement was th..."
     },
     {
       "id": "f3ce05a5c07e",
@@ -227,34 +227,19 @@
       "summary_en": "Understanding unique photochemistry of such materials will help in conservation, storage, and exhibition."
     },
     {
-      "id": "e6821914cfb0",
-      "title": "GM vehicles under federal scrutiny after hundreds of reports",
-      "link": "https://arstechnica.com/cars/2026/08/feds-deepen-probe-into-general-motors-brake-failures/",
-      "source": "Ars Technica",
-      "sourceIcon": "ars",
-      "pubDate": "2026-08-24T19:42:50Z",
-      "description": "The eBoost brake-by-wire system is responsible for at least 22 crashes now.",
-      "topic": "Other",
-      "topicIcon": "📰",
-      "importance": 4,
-      "reliability": 5,
-      "summary_bn": "",
-      "summary_en": "The eBoost brake-by-wire system is responsible for at least 22 crashes now."
-    },
-    {
-      "id": "2c0dbe240393",
-      "title": "The Best Kitchen Gadget to Prevent Salmonella Is a Good Meat Probe",
-      "link": "https://www.wired.com/story/food-safety-gear-salmonella/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-08-24T20:22:35Z",
-      "description": "Salmonella outbreaks are seemingly everywhere right now. A good temperature probe is the last and best line of defense.",
-      "topic": "Other",
-      "topicIcon": "📰",
-      "importance": 4,
+      "id": "fe2a78e322da",
+      "title": "The Witcher 3 is getting a remaster",
+      "link": "https://www.theverge.com/games/984680/the-witcher-3-wild-hunt-remastered-launch-date-trailer",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-08-25T20:24:24Z",
+      "description": "CD Projekt Red is remastering The Witcher 3: Wild Hunt, the hit RPG that first launched in 2015, and the updated game will be available starting September 29th. The Witcher 3: Wild Hunt - Remastered will bring improvements to visuals and combat, a \"reimagined\" skill tree, and more, and it also includes the first two [&#8230;]",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 5,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "Salmonella outbreaks are seemingly everywhere right now. A good temperature probe is the last and best line of defense."
+      "summary_en": "CD Projekt Red is remastering The Witcher 3: Wild Hunt, the hit RPG that first launched in 2015, and the updated game wi..."
     },
     {
       "id": "4d6b68c01894",
@@ -452,21 +437,6 @@
       "summary_en": "The funding, Gatik's largest so far, was led by Qatar Investment Authority and Koch Disruptive Technologies."
     },
     {
-      "id": "cd36e34ebecc",
-      "title": "OpenAI says its Jalapeño chip can power faster AI responses than the competition",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/984290/openai-jalapeno-ai-chip-benchmarks",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-08-25T14:00:00Z",
-      "description": "OpenAI says its new AI chip, Jalape&#241;o, completes tasks more efficiently and returns responses faster than other AI systems, according to a blog post published on Tuesday. During a briefing with reporters, OpenAI hardware vice president Richard Ho said Jalape&#241;o offers the \"best of both worlds\" with lower latency and higher throughput, as AI systems [&#8230;]",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "OpenAI says its new AI chip, Jalape&#241;o, completes tasks more efficiently and returns responses faster than other AI ..."
-    },
-    {
       "id": "cd6ed22634e1",
       "title": "Apple debuts its ‘most powerful chip ever’ in M5 Ultra and M6",
       "link": "https://techcrunch.com/2026/08/25/apple-debuts-its-most-powerful-chip-ever-in-m5-ultra-and-m6/",
@@ -585,21 +555,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "With the new design of Nothing OS 5.0, app icons and widgets can use adaptive color to get color tints pulled from your ..."
-    },
-    {
-      "id": "be6ef3c85914",
-      "title": "Gamescom Opening Night Live 2026: The biggest announcements and trailers",
-      "link": "https://www.theverge.com/games/983891/gamescom-opening-night-live-2026-geoff-keighley",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-08-25T17:20:00Z",
-      "description": "It’s time for another Geoff Keighley-hosted blast of gaming news. Gamescom’s two-hour Opening Night Live event is scheduled to kick off on Tuesday at 2PM ET, with a preshow starting 30 minutes before. Thanks to teases on social media, we already have some idea of what to expect, including looks at Final Fantasy VII Revelation, [&#8230;]",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "It’s time for another Geoff Keighley-hosted blast of gaming news. Gamescom’s two-hour Opening Night Live event is schedu..."
     },
     {
       "id": "f430439a5321",
@@ -737,6 +692,21 @@
       "summary_en": "Instagram is making one of the most tedious parts of creating Reels easier. The company announced Tuesday in a Threads p..."
     },
     {
+      "id": "49caa2fe864e",
+      "title": "Tech Life",
+      "link": "https://www.bbc.co.uk/sounds/play/w3ct8jyb?at_medium=RSS&at_campaign=rss",
+      "source": "BBC",
+      "sourceIcon": "bbc",
+      "pubDate": "2026-08-25T20:00:00Z",
+      "description": "The government agency that's encouraging high-risk and high-reward research.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "The government agency that's encouraging high-risk and high-reward research."
+    },
+    {
       "id": "614caa1ecd7d",
       "title": "Bitdefender VPN Review: Fast and Affordable Privacy",
       "link": "https://www.wired.com/review/bitdefender-vpn/",
@@ -750,6 +720,36 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Bitdefender VPN has an excellent starting price, even if it lacks the advanced features that privacy nerds may want."
+    },
+    {
+      "id": "00841011854a",
+      "title": "It Should Be Harder to Apply for a Job. No, Really",
+      "link": "https://www.wired.com/story/applying-for-a-job-is-too-damn-easy/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-08-25T09:30:00Z",
+      "description": "Thanks to a dwindling supply of open roles, “one-click” applications, and the rise of artificial intelligence, it’s easier than ever to apply for a job. We’re all paying the price.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Thanks to a dwindling supply of open roles, “one-click” applications, and the rise of artificial intelligence, it’s easi..."
+    },
+    {
+      "id": "ca61d47e1fa8",
+      "title": "Optoma GT2400HDR Review: Ace Projector for Golf Simulation",
+      "link": "https://www.wired.com/review/optoma-gt2400hdr/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-08-25T10:32:00Z",
+      "description": "The Optoma GT2400HDR laser projector is great for setting up a driving range in your living room, but mediocre video quality makes it less appealing for home entertainment.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "The Optoma GT2400HDR laser projector is great for setting up a driving range in your living room, but mediocre video qua..."
     }
   ]
 }
