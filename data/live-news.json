@@ -1,21 +1,6 @@
 {
-  "lastUpdated": "2026-08-25T20:55:11+06:00",
+  "lastUpdated": "2026-08-25T21:50:13+06:00",
   "news": [
-    {
-      "id": "a429b5e27fc5",
-      "title": "Alabama launches investigation into OpenAI’s hack of Hugging Face",
-      "link": "https://techcrunch.com/2026/08/24/alabama-launches-investigation-into-openais-hack-of-hugging-face/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-24T19:58:17Z",
-      "description": "Weeks after OpenAI disclosed that one of its cybersecurity models had gone rogue and hacked AI dataset company Hugging Face, Alabama’s attorney general announced an investigation into the incident.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 10,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Weeks after OpenAI disclosed that one of its cybersecurity models had gone rogue and hacked AI dataset company Hugging F..."
-    },
     {
       "id": "b0d38cb03431",
       "title": "Fitbit founders launch Luffu Link, an LTE health and safety band",
@@ -203,7 +188,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-25T12:44:35Z",
-      "description": "Article URL: https://www.cybernetica.fr/piratage-des-impots-comment-en-est-on-arrive-la/ Comments URL: https://news.ycombinator.com/item?id=49433064 Points: 73 # Comments: 38",
+      "description": "Article URL: https://www.cybernetica.fr/piratage-des-impots-comment-en-est-on-arrive-la/ Comments URL: https://news.ycombinator.com/item?id=49433064 Points: 101 # Comments: 46",
       "topic": "Security",
       "topicIcon": "🔒",
       "importance": 5,
@@ -242,6 +227,21 @@
       "summary_en": "Folks have been daisy-chaining Macs for AI—this refresh keeps that in mind."
     },
     {
+      "id": "f0fe60763ef5",
+      "title": "Gamma acquires Accel-backed design startup Lica",
+      "link": "https://techcrunch.com/2026/08/25/gamma-acquires-accel-backed-design-startup-lica/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-25T15:00:00Z",
+      "description": "Lica co-founders are going to work on Gamma's new research team.",
+      "topic": "Startups",
+      "topicIcon": "🚀",
+      "importance": 5,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Lica co-founders are going to work on Gamma's new research team."
+    },
+    {
       "id": "e6821914cfb0",
       "title": "GM vehicles under federal scrutiny after hundreds of reports",
       "link": "https://arstechnica.com/cars/2026/08/feds-deepen-probe-into-general-motors-brake-failures/",
@@ -255,21 +255,6 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "The eBoost brake-by-wire system is responsible for at least 22 crashes now."
-    },
-    {
-      "id": "c21b6a646e24",
-      "title": "Showcase your startup at TechCrunch Disrupt 2026 and book an exhibit table while there’s still space",
-      "link": "https://techcrunch.com/2026/08/24/showcase-your-startup-at-techcrunch-disrupt-2026-and-book-an-exhibit-table-while-theres-still-space/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-24T20:16:34Z",
-      "description": "Make the most of Disrupt's crowds of potential investors and partners by exhibiting your startup from October 13-15.",
-      "topic": "Startups",
-      "topicIcon": "🚀",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Make the most of Disrupt's crowds of potential investors and partners by exhibiting your startup from October 13-15."
     },
     {
       "id": "2c0dbe240393",
@@ -398,7 +383,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-25T06:56:55Z",
-      "description": "Article URL: https://dfarq.homeip.net/happy-20th-birthday-to-windows-95/ Comments URL: https://news.ycombinator.com/item?id=49430007 Points: 21 # Comments: 1",
+      "description": "Article URL: https://dfarq.homeip.net/happy-20th-birthday-to-windows-95/ Comments URL: https://news.ycombinator.com/item?id=49430007 Points: 38 # Comments: 12",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 4,
@@ -668,13 +653,13 @@
       "source": "TechCrunch",
       "sourceIcon": "crunch",
       "pubDate": "2026-08-25T14:22:04Z",
-      "description": "Tested on Semianalysis’s InferenceX benchmark, Jalapeño registered both more tokens per user and more throughput per kilowatt than the currently available state-of-the art.",
+      "description": "Tested on SemiAnalysis’ InferenceX benchmark, Jalapeño registered both more tokens per user and more throughput per kilowatt than the currently available state-of-the art.",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 4,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "Tested on Semianalysis’s InferenceX benchmark, Jalapeño registered both more tokens per user and more throughput per kil..."
+      "summary_en": "Tested on SemiAnalysis’ InferenceX benchmark, Jalapeño registered both more tokens per user and more throughput per kilo..."
     },
     {
       "id": "f1bc233f52fd",
@@ -707,6 +692,36 @@
       "summary_en": "Apple says it will no longer ditch using its icloud.com domain for hiding people's email addresses."
     },
     {
+      "id": "a4106635f27d",
+      "title": "The Supreme Court’s Mail-In Ballot Ruling Is a Step Toward Chaos in the Midterms",
+      "link": "https://www.wired.com/story/the-supreme-courts-mail-in-ballot-ruling-is-a-step-toward-chaos-in-the-midterms/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-08-25T15:16:36Z",
+      "description": "The Supreme Court has removed one roadblock from the Trump administration’s attempts to impose severe restrictions on voting.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "The Supreme Court has removed one roadblock from the Trump administration’s attempts to impose severe restrictions on vo..."
+    },
+    {
+      "id": "73f7433fc9ff",
+      "title": "Pacific Fusion’s next fusion machine could clear a key hurdle to commercial power",
+      "link": "https://techcrunch.com/2026/08/25/pacific-fusion-next-fusion-machine-could-clear-key-hurdle-to-commercial-power/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-25T15:30:00Z",
+      "description": "Fusion startup Pacific Fusion broke ground on a demonstration facility in New Mexico that it says will generate enough energy to power itself.",
+      "topic": "Startups",
+      "topicIcon": "🚀",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Fusion startup Pacific Fusion broke ground on a demonstration facility in New Mexico that it says will generate enough e..."
+    },
+    {
       "id": "ed1ca3ca4556",
       "title": "My Daily Driver Gaming Headset Is Super Cheap Right Now",
       "link": "https://www.wired.com/story/steelseries-arctis-nova-3p-august-2026/",
@@ -720,21 +735,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "I love this multi-device headset, and right now it’s cheaper than what I paid for it in March."
-    },
-    {
-      "id": "25490c8a012f",
-      "title": "Amazon hikes hardware prices by 60%, blaming memory shortage",
-      "link": "https://techcrunch.com/2026/08/24/amazon-hikes-hardware-prices-by-60-percent-blaming-memory-shortage/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-24T19:54:50Z",
-      "description": "As the memory shortage continues to cause trouble for hardware makers, Amazon says it is now being forced to pass on the costs to its consumers.",
-      "topic": "Hardware",
-      "topicIcon": "💻",
-      "importance": 3,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "As the memory shortage continues to cause trouble for hardware makers, Amazon says it is now being forced to pass on the..."
     },
     {
       "id": "bd52c00ec34f",
