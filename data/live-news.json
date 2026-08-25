@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T14:50:41+06:00",
+  "lastUpdated": "2026-08-25T15:41:31+06:00",
   "news": [
     {
       "id": "a429b5e27fc5",
@@ -45,6 +45,21 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "CD Projekt Red is aiming to launch The Witcher 4 sometime in 2028, joint CEO Micha&#322; Nowakowski says in a new video...."
+    },
+    {
+      "id": "6c2861183e87",
+      "title": "OpenAI subpoenaed by Alabama AG over Hugging Face hack",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/984239/alabama-attorney-general-subpoena-openai-hugging-face-hack",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-08-25T09:15:03Z",
+      "description": "Alabama's attorney general issued a subpoena to OpenAI on Monday as part of an investigation into how one of its AI agents escaped a supposedly secure testing environment and autonomously hacked another company last month. The investigation seeks to determine whether OpenAI's safety practices violated state consumer protection laws and pose a risk to Alabama [&#8230;]",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 6,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Alabama's attorney general issued a subpoena to OpenAI on Monday as part of an investigation into how one of its AI agen..."
     },
     {
       "id": "3b98deb59b14",
@@ -272,36 +287,6 @@
       "summary_en": "Say hello to a revamped collection of perfectly proportioned 38-mm Speedmasters."
     },
     {
-      "id": "f99404bae7da",
-      "title": "NASA’s New Space Telescope Is Poised to Discover Hidden Facets of the Universe",
-      "link": "https://www.wired.com/story/nasa-nancy-grace-roman-space-telescope-hidden-facets-of-universe/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-08-24T09:00:00Z",
-      "description": "The Nancy Grace Roman Space Telescope is expected to discover as many as 200,000 new planets and reveal details about the elusive nature of dark matter and dark energy.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "The Nancy Grace Roman Space Telescope is expected to discover as many as 200,000 new planets and reveal details about th..."
-    },
-    {
-      "id": "0ea437a255f1",
-      "title": "They Dedicated Their Lives to Teaching. Then the Deepfakes Started",
-      "link": "https://www.wired.com/story/teachers-deepfake-ai-students-content/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-08-24T09:30:00Z",
-      "description": "The deepfake epidemic in schools is affecting more than students. Four teachers tell WIRED about becoming targets of sexualized, AI-generated content—and how difficult it was to find accountability.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "The deepfake epidemic in schools is affecting more than students. Four teachers tell WIRED about becoming targets of sex..."
-    },
-    {
       "id": "0c87758aff09",
       "title": "The Best Multiuse Air Purifier for Home in 2026: BlueAir, Rabbit Air, Dreame",
       "link": "https://www.wired.com/story/best-multi-use-air-purifiers/",
@@ -345,21 +330,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Home theater projectors are getting better and better, and have quickly become my favorite way to enjoy movies."
-    },
-    {
-      "id": "c9b86a45401a",
-      "title": "How GoFundMe became America’s backup plan",
-      "link": "https://www.theverge.com/podcast/982901/gofundme-ceo-tim-cadogan-fundraising-healthcare-medical-expenses",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-08-24T14:00:00Z",
-      "description": "Today on Decoder, I’m talking with Tim Cadogan, the CEO of GoFundMe. You know GoFundMe — it’s a major fundraising platform where you can donate to help people with everything from medical expenses to Little League uniforms to starting a new business. Tim took over as CEO in March 2020 — a fascinating and chaotic [&#8230;]",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Today on Decoder, I’m talking with Tim Cadogan, the CEO of GoFundMe. You know GoFundMe — it’s a major fundraising platfo..."
     },
     {
       "id": "706cd18342d0",
@@ -548,7 +518,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-25T02:11:39Z",
-      "description": "Article URL: https://www.thomsonreuters.com/en/press-releases/2026/august/thomson-reuters-leverages-its-world-class-data-assets-to-launch-its-own-frontier-model Comments URL: https://news.ycombinator.com/item?id=49428318 Points: 103 # Comments: 41",
+      "description": "Article URL: https://www.thomsonreuters.com/en/press-releases/2026/august/thomson-reuters-leverages-its-world-class-data-assets-to-launch-its-own-frontier-model Comments URL: https://news.ycombinator.com/item?id=49428318 Points: 116 # Comments: 45",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 4,
@@ -600,6 +570,21 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "The move comes weeks after a DJ admitted using AI to remix a Madonna song that topped the Australian charts."
+    },
+    {
+      "id": "25cd83fa2245",
+      "title": "Spirit Airlines Wants to Sell Its Data to Google. Former Flight Attendants Are Freaked Out",
+      "link": "https://www.wired.com/story/spirit-airlines-wants-to-sell-its-data-to-google-former-flight-attendants-are-freaked-out/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-08-25T09:15:00Z",
+      "description": "“It never crossed my mind that they would be so bold as to sell our private data for AI,” says one former Spirit Airlines flight attendant.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "“It never crossed my mind that they would be so bold as to sell our private data for AI,” says one former Spirit Airline..."
     },
     {
       "id": "169d772019b9",
@@ -683,7 +668,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-24T15:08:17Z",
-      "description": "https://xcancel.com/lemire/status/2091894299289874926 Comments URL: https://news.ycombinator.com/item?id=49420873 Points: 850 # Comments: 606",
+      "description": "https://xcancel.com/lemire/status/2091894299289874926 Comments URL: https://news.ycombinator.com/item?id=49420873 Points: 862 # Comments: 616",
       "topic": "Mobile",
       "topicIcon": "📱",
       "importance": 3,
@@ -698,7 +683,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-24T15:28:04Z",
-      "description": "Article URL: https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/ Comments URL: https://news.ycombinator.com/item?id=49421158 Points: 696 # Comments: 289",
+      "description": "Article URL: https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/ Comments URL: https://news.ycombinator.com/item?id=49421158 Points: 707 # Comments: 309",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 3,
@@ -713,7 +698,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-24T16:08:17Z",
-      "description": "PicoMQ is a Rust server for Durable Streams, built on Object Store. Cheap, URL-addressable, granular streams (create/append/read/long-poll/SSE), with Pico Protocol or Durable Streams Protocol as the facade. S3Stream is the stream storage primitive, used in AutoMQ, shipped as a Rust library. Coordination is a command log in Postgres. Comments URL: https://news.ycombinator.com/item?id=49421806 Points: 115 # Comments: 22",
+      "description": "PicoMQ is a Rust server for Durable Streams, built on Object Store. Cheap, URL-addressable, granular streams (create/append/read/long-poll/SSE), with Pico Protocol or Durable Streams Protocol as the facade. S3Stream is the stream storage primitive, used in AutoMQ, shipped as a Rust library. Coordination is a command log in Postgres. Comments URL: https://news.ycombinator.com/item?id=49421806 Points: 118 # Comments: 22",
       "topic": "Cloud/DevOps",
       "topicIcon": "☁️",
       "importance": 3,
@@ -750,6 +735,21 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "I love this multi-device headset, and right now it’s cheaper than what I paid for it in March."
+    },
+    {
+      "id": "bb0848957783",
+      "title": "Octopus intelligence may be related to never-before-seen mutation",
+      "link": "https://www.smithsonianmag.com/smart-news/why-are-some-octopuses-so-smart-the-answer-might-lie-in-a-never-before-seen-mutation-that-helps-them-accurately-build-proteins-180989319/",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-08-24T17:57:13Z",
+      "description": "Article URL: https://www.smithsonianmag.com/smart-news/why-are-some-octopuses-so-smart-the-answer-might-lie-in-a-never-before-seen-mutation-that-helps-them-accurately-build-proteins-180989319/ Comments URL: https://news.ycombinator.com/item?id=49423539 Points: 158 # Comments: 115",
+      "topic": "Hardware",
+      "topicIcon": "💻",
+      "importance": 3,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "Article URL: https://www.smithsonianmag.com/smart-news/why-are-some-octopuses-so-smart-the-answer-might-lie-in-a-never-b..."
     }
   ]
 }
