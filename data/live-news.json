@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T05:27:20+06:00",
+  "lastUpdated": "2026-08-25T07:38:45+06:00",
   "news": [
     {
       "id": "a429b5e27fc5",
@@ -60,21 +60,6 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "The Unibook is a weird entry-level laptop for people with patience."
-    },
-    {
-      "id": "d35a5289e476",
-      "title": "De-Googled GrapheneOS is coming to Motorola’s foldables next year",
-      "link": "https://www.theverge.com/tech/983714/grapheneos-motorola-razr-fold-ultra-support-pixel-11",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-08-24T11:37:53Z",
-      "description": "GrapheneOS, an open source version of Android that prioritizes security and privacy, has detailed its plans for supporting Motorola smartphones. Official support is set to arrive next year, starting with traditional flagships, before rolling out to Motorola's foldable phones and perhaps cheaper models, eventually. In a Mastodon thread, the GrapheneOS Foundation announced that it will [&#8230;]",
-      "topic": "Mobile",
-      "topicIcon": "📱",
-      "importance": 5,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "GrapheneOS, an open source version of Android that prioritizes security and privacy, has detailed its plans for supporti..."
     },
     {
       "id": "d9a0d687ee87",
@@ -527,6 +512,36 @@
       "summary_en": "We all knew it was coming. The expected valuation may surprise, though."
     },
     {
+      "id": "9368f8d739ff",
+      "title": "Lenovo confirms Legion Go issues after gamers report bricked devices",
+      "link": "https://www.theverge.com/games/983457/lenovo-bad-legion-go-bios-update-bricked",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-08-24T23:38:10Z",
+      "description": "When a company's software update turns your computer into a useless brick, should fixes be free? Framework, the modular computer startup, apparently thinks so. But it's not clear that computing giant Lenovo will go that far. Three weeks after a Redditor presented a nearly $300 repair bill for their handheld gaming PC - among other [&#8230;]",
+      "topic": "Hardware",
+      "topicIcon": "💻",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "When a company's software update turns your computer into a useless brick, should fixes be free? Framework, the modular ..."
+    },
+    {
+      "id": "fc86cf3e9da1",
+      "title": "Situational Awareness, star AI hedge fund that nearly imploded, now being probed by the SEC",
+      "link": "https://techcrunch.com/2026/08/24/situational-awareness-star-ai-hedge-fund-that-nearly-imploded-now-being-probed-by-the-sec/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-25T00:23:12Z",
+      "description": "The AI hedge fund went from \"the talk of Wall Street\" to \"subject of federal subpoenas\" faster than you can say \"diversify your portfolio.\"",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "The AI hedge fund went from \"the talk of Wall Street\" to \"subject of federal subpoenas\" faster than you can say \"diversi..."
+    },
+    {
       "id": "169d772019b9",
       "title": "The Kindle Accessories I Never Want to Read Without (2026)",
       "link": "https://www.wired.com/story/best-kindle-accessories/",
@@ -608,7 +623,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-24T16:08:17Z",
-      "description": "PicoMQ is a Rust server for Durable Streams, built on Object Store. Cheap, URL-addressable, granular streams (create/append/read/long-poll/SSE), with Pico Protocol or Durable Streams Protocol as the facade. S3Stream is the stream storage primitive, used in AutoMQ, shipped as a Rust library. Coordination is a command log in Postgres. Comments URL: https://news.ycombinator.com/item?id=49421806 Points: 82 # Comments: 14",
+      "description": "PicoMQ is a Rust server for Durable Streams, built on Object Store. Cheap, URL-addressable, granular streams (create/append/read/long-poll/SSE), with Pico Protocol or Durable Streams Protocol as the facade. S3Stream is the stream storage primitive, used in AutoMQ, shipped as a Rust library. Coordination is a command log in Postgres. Comments URL: https://news.ycombinator.com/item?id=49421806 Points: 93 # Comments: 18",
       "topic": "Cloud/DevOps",
       "topicIcon": "☁️",
       "importance": 3,
@@ -623,13 +638,13 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-24T16:15:10Z",
-      "description": "Article URL: https://glassbox.codecanary.org Comments URL: https://news.ycombinator.com/item?id=49421948 Points: 85 # Comments: 41",
+      "description": "Article URL: https://glassbox.codecanary.org Comments URL: https://news.ycombinator.com/item?id=49421948 Points: 93 # Comments: 46",
       "topic": "Web/JavaScript",
       "topicIcon": "🌐",
       "importance": 3,
       "reliability": 3,
       "summary_bn": "",
-      "summary_en": "Article URL: https://glassbox.codecanary.org Comments URL: https://news.ycombinator.com/item?id=49421948 Points: 85 # Co..."
+      "summary_en": "Article URL: https://glassbox.codecanary.org Comments URL: https://news.ycombinator.com/item?id=49421948 Points: 93 # Co..."
     },
     {
       "id": "8d62c91e8540",
@@ -683,7 +698,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-24T17:57:13Z",
-      "description": "Article URL: https://www.smithsonianmag.com/smart-news/why-are-some-octopuses-so-smart-the-answer-might-lie-in-a-never-before-seen-mutation-that-helps-them-accurately-build-proteins-180989319/ Comments URL: https://news.ycombinator.com/item?id=49423539 Points: 59 # Comments: 21",
+      "description": "Article URL: https://www.smithsonianmag.com/smart-news/why-are-some-octopuses-so-smart-the-answer-might-lie-in-a-never-before-seen-mutation-that-helps-them-accurately-build-proteins-180989319/ Comments URL: https://news.ycombinator.com/item?id=49423539 Points: 78 # Comments: 45",
       "topic": "Hardware",
       "topicIcon": "💻",
       "importance": 3,
@@ -692,34 +707,19 @@
       "summary_en": "Article URL: https://www.smithsonianmag.com/smart-news/why-are-some-octopuses-so-smart-the-answer-might-lie-in-a-never-b..."
     },
     {
-      "id": "028d5cd17cb0",
-      "title": "Show HN: Kern – container and resource runtime in a 1.5 MB binary, no daemon",
-      "link": "https://github.com/getkern/kern",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-08-24T18:24:59Z",
-      "description": "I built kern because I needed a fast, zero-daemon tool to set CPU/RAM limits and run isolated tasks without the overhead of Docker. It's a single 1.5MB Rust binary using OCI images, cgroup v2, and namespaces. Boxes start in ~3.5ms. It's not a Kubernetes CRI or a microVM, just a standalone container and resource runtime for CLI and agents. Comments URL: https://news.ycombinator.com/item?id=49423927 Points: 45 # Comments: 6",
-      "topic": "Cloud/DevOps",
-      "topicIcon": "☁️",
-      "importance": 3,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "I built kern because I needed a fast, zero-daemon tool to set CPU/RAM limits and run isolated tasks without the overhead..."
-    },
-    {
       "id": "b93516b697db",
       "title": "Removed all counters, replies, following/ers, timestamps, from textlog",
       "link": "https://textlog.cc/post/2059",
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-24T18:45:43Z",
-      "description": "Article URL: https://textlog.cc/post/2059 Comments URL: https://news.ycombinator.com/item?id=49424167 Points: 38 # Comments: 22",
+      "description": "Article URL: https://textlog.cc/post/2059 Comments URL: https://news.ycombinator.com/item?id=49424167 Points: 49 # Comments: 23",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 3,
       "reliability": 3,
       "summary_bn": "",
-      "summary_en": "Article URL: https://textlog.cc/post/2059 Comments URL: https://news.ycombinator.com/item?id=49424167 Points: 38 # Comme..."
+      "summary_en": "Article URL: https://textlog.cc/post/2059 Comments URL: https://news.ycombinator.com/item?id=49424167 Points: 49 # Comme..."
     },
     {
       "id": "113584368e84",
@@ -728,7 +728,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-24T19:03:06Z",
-      "description": "Article URL: https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines Comments URL: https://news.ycombinator.com/item?id=49424387 Points: 77 # Comments: 37",
+      "description": "Article URL: https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines Comments URL: https://news.ycombinator.com/item?id=49424387 Points: 89 # Comments: 50",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 3,
@@ -743,7 +743,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-24T19:19:08Z",
-      "description": "Article URL: https://www.bbc.com/news/articles/c62m4gpnp78o Comments URL: https://news.ycombinator.com/item?id=49424606 Points: 344 # Comments: 210",
+      "description": "Article URL: https://www.bbc.com/news/articles/c62m4gpnp78o Comments URL: https://news.ycombinator.com/item?id=49424606 Points: 390 # Comments: 283",
       "topic": "Hardware",
       "topicIcon": "💻",
       "importance": 3,
