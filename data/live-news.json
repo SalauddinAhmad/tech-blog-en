@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T13:52:04+06:00",
+  "lastUpdated": "2026-08-25T14:50:41+06:00",
   "news": [
     {
       "id": "a429b5e27fc5",
@@ -347,21 +347,6 @@
       "summary_en": "Home theater projectors are getting better and better, and have quickly become my favorite way to enjoy movies."
     },
     {
-      "id": "3cd0fce72b08",
-      "title": "Netflix reportedly considers opening its app to other streamers",
-      "link": "https://www.theverge.com/streaming/983741/netflix-open-app-peacock-fox-one",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-08-24T13:47:14Z",
-      "description": "Netflix executives have considered making third-party streaming services available within its app, according to a report from The New York Times. The recent discussions reportedly centered around bringing Peacock and Fox One to Netflix, though it's unclear whether the streaming giant would sell subscriptions to the other services or add their content to its app. [&#8230;]",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Netflix executives have considered making third-party streaming services available within its app, according to a report..."
-    },
-    {
       "id": "c9b86a45401a",
       "title": "How GoFundMe became America’s backup plan",
       "link": "https://www.theverge.com/podcast/982901/gofundme-ceo-tim-cadogan-fundraising-healthcare-medical-expenses",
@@ -563,7 +548,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-25T02:11:39Z",
-      "description": "Article URL: https://www.thomsonreuters.com/en/press-releases/2026/august/thomson-reuters-leverages-its-world-class-data-assets-to-launch-its-own-frontier-model Comments URL: https://news.ycombinator.com/item?id=49428318 Points: 92 # Comments: 34",
+      "description": "Article URL: https://www.thomsonreuters.com/en/press-releases/2026/august/thomson-reuters-leverages-its-world-class-data-assets-to-launch-its-own-frontier-model Comments URL: https://news.ycombinator.com/item?id=49428318 Points: 103 # Comments: 41",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 4,
@@ -698,7 +683,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-24T15:08:17Z",
-      "description": "https://xcancel.com/lemire/status/2091894299289874926 Comments URL: https://news.ycombinator.com/item?id=49420873 Points: 837 # Comments: 589",
+      "description": "https://xcancel.com/lemire/status/2091894299289874926 Comments URL: https://news.ycombinator.com/item?id=49420873 Points: 850 # Comments: 606",
       "topic": "Mobile",
       "topicIcon": "📱",
       "importance": 3,
@@ -713,13 +698,28 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-24T15:28:04Z",
-      "description": "Article URL: https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/ Comments URL: https://news.ycombinator.com/item?id=49421158 Points: 679 # Comments: 272",
+      "description": "Article URL: https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/ Comments URL: https://news.ycombinator.com/item?id=49421158 Points: 696 # Comments: 289",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 3,
       "reliability": 3,
       "summary_bn": "",
       "summary_en": "Article URL: https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/ Comments URL: https://news.ycombinato..."
+    },
+    {
+      "id": "489edfc37a30",
+      "title": "Show HN: PicoMQ – Durable Streams over HTTP, on object storage",
+      "link": "https://picomq.com/",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-08-24T16:08:17Z",
+      "description": "PicoMQ is a Rust server for Durable Streams, built on Object Store. Cheap, URL-addressable, granular streams (create/append/read/long-poll/SSE), with Pico Protocol or Durable Streams Protocol as the facade. S3Stream is the stream storage primitive, used in AutoMQ, shipped as a Rust library. Coordination is a command log in Postgres. Comments URL: https://news.ycombinator.com/item?id=49421806 Points: 115 # Comments: 22",
+      "topic": "Cloud/DevOps",
+      "topicIcon": "☁️",
+      "importance": 3,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "PicoMQ is a Rust server for Durable Streams, built on Object Store. Cheap, URL-addressable, granular streams (create/app..."
     },
     {
       "id": "8d62c91e8540",
