@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T00:47:42+06:00",
+  "lastUpdated": "2026-08-26T01:36:39+06:00",
   "news": [
     {
       "id": "579b65ab022f",
@@ -15,36 +15,6 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "\"This will be a project like no other.\""
-    },
-    {
-      "id": "b0d38cb03431",
-      "title": "Fitbit founders launch Luffu Link, an LTE health and safety band",
-      "link": "https://techcrunch.com/2026/08/25/fitbit-founders-launch-luffu-link-an-lte-health-and-safety-band/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-25T12:00:00Z",
-      "description": "Luffu Link combines all-day health sensing, voice logging, location awareness, and the ability to get help from trusted contacts into a single device, all without needing a phone nearby.",
-      "topic": "Regulation",
-      "topicIcon": "⚖️",
-      "importance": 6,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Luffu Link combines all-day health sensing, voice logging, location awareness, and the ability to get help from trusted ..."
-    },
-    {
-      "id": "97c5603c9e9f",
-      "title": "Inaudible sounds used to fingerprint browsers catch AliExpress red-handed",
-      "link": "https://arstechnica.com/security/2026/08/aliexpress-caught-fingerprinting-visitors-after-sending-inaudible-sounds-to-browsers/",
-      "source": "Ars Technica",
-      "sourceIcon": "ars",
-      "pubDate": "2026-08-24T19:19:21Z",
-      "description": "Is the technique outdated? Yes. Is it still creepy? Also yes.",
-      "topic": "Web/JavaScript",
-      "topicIcon": "🌐",
-      "importance": 5,
-      "reliability": 5,
-      "summary_bn": "",
-      "summary_en": "Is the technique outdated? Yes. Is it still creepy? Also yes."
     },
     {
       "id": "1810393d5036",
@@ -227,6 +197,36 @@
       "summary_en": "\"[P]eople are not familiar with this disease and don’t fully understand the potential severity.\""
     },
     {
+      "id": "59b1bf7dd1f0",
+      "title": "Google's anti-nausea Motion Assist dots finally rolling out on Android",
+      "link": "https://arstechnica.com/gadgets/2026/08/google-begins-rolling-out-anti-motion-sickness-feature-on-android-17/",
+      "source": "Ars Technica",
+      "sourceIcon": "ars",
+      "pubDate": "2026-08-25T18:32:30Z",
+      "description": "It's currently only appearing on Pixels running Android 17.",
+      "topic": "Mobile",
+      "topicIcon": "📱",
+      "importance": 5,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "It's currently only appearing on Pixels running Android 17."
+    },
+    {
+      "id": "1924ad406796",
+      "title": "Preserving glow-in-the-dark art and fashion for future generations",
+      "link": "https://arstechnica.com/science/2026/08/how-chemistry-can-keep-glow-in-the-dark-pigments-from-fading/",
+      "source": "Ars Technica",
+      "sourceIcon": "ars",
+      "pubDate": "2026-08-25T18:59:12Z",
+      "description": "Understanding unique photochemistry of such materials will help in conservation, storage, and exhibition.",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 5,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "Understanding unique photochemistry of such materials will help in conservation, storage, and exhibition."
+    },
+    {
       "id": "e6821914cfb0",
       "title": "GM vehicles under federal scrutiny after hundreds of reports",
       "link": "https://arstechnica.com/cars/2026/08/feds-deepen-probe-into-general-motors-brake-failures/",
@@ -375,21 +375,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "After years of smells, strange noises, and “tea,” these are the composters and food recyclers I’d actually recommend."
-    },
-    {
-      "id": "e774ed208501",
-      "title": "Fiat Ventures combines venture and advisory divisions into new brand, raises $35M Fund II",
-      "link": "https://techcrunch.com/2026/08/25/fgv-capital-bets-on-a-new-venture-model-raises-35m-fund-ii/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-25T12:37:37Z",
-      "description": "In an environment where emerging fund managers struggle to attract LP attention, FGV is betting that a different venture model can help it lure LPs.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "In an environment where emerging fund managers struggle to attract LP attention, FGV is betting that a different venture..."
     },
     {
       "id": "56bf778e7881",
@@ -722,6 +707,36 @@
       "summary_en": "The company says it will start construction in 2027 and that a Starship rocket could take flight as soon as 2029."
     },
     {
+      "id": "a14ffe864c76",
+      "title": "Stability AI, maker of image generator Stable Diffusion, raises $76 million in fresh funding",
+      "link": "https://techcrunch.com/2026/08/25/stability-ai-maker-of-image-generator-stable-diffusion-raises-76-million-in-fresh-funding/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-25T19:03:47Z",
+      "description": "The company's new fundraising total now stands at $232 million.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "The company's new fundraising total now stands at $232 million."
+    },
+    {
+      "id": "c29a4151e61a",
+      "title": "Instagram’s ‘First Draft’ feature aims to make editing Reels less tedious",
+      "link": "https://techcrunch.com/2026/08/25/instagrams-first-draft-feature-aims-to-make-editing-reels-less-tedious/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-25T19:22:52Z",
+      "description": "Instagram is making one of the most tedious parts of creating Reels easier. The company announced Tuesday in a Threads post that it’s rolling out “First Draft,” a new editing feature that automatically trims selected video clips and removes pauses, pulling together the best moments into an initial cut.&#160; Instagram says the process can produce [&#8230;]",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Instagram is making one of the most tedious parts of creating Reels easier. The company announced Tuesday in a Threads p..."
+    },
+    {
       "id": "614caa1ecd7d",
       "title": "Bitdefender VPN Review: Fast and Affordable Privacy",
       "link": "https://www.wired.com/review/bitdefender-vpn/",
@@ -735,21 +750,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Bitdefender VPN has an excellent starting price, even if it lacks the advanced features that privacy nerds may want."
-    },
-    {
-      "id": "00841011854a",
-      "title": "It Should Be Harder to Apply for a Job. No, Really",
-      "link": "https://www.wired.com/story/applying-for-a-job-is-too-damn-easy/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-08-25T09:30:00Z",
-      "description": "Thanks to a dwindling supply of open roles, “one-click” applications, and the rise of artificial intelligence, it’s easier than ever to apply for a job. We’re all paying the price.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 3,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Thanks to a dwindling supply of open roles, “one-click” applications, and the rise of artificial intelligence, it’s easi..."
     }
   ]
 }
