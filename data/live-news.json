@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T11:36:45+06:00",
+  "lastUpdated": "2026-08-25T12:57:42+06:00",
   "news": [
     {
       "id": "a429b5e27fc5",
@@ -255,6 +255,21 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "Solid-state transformers could also benefit EV charging and someday households."
+    },
+    {
+      "id": "6f34f4ada801",
+      "title": "Omega Just Released a Mini Moonwatch",
+      "link": "https://www.wired.com/story/omega-just-released-a-mini-moonwatch/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-08-25T06:00:00Z",
+      "description": "Say hello to a revamped collection of perfectly proportioned 38-mm Speedmasters.",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 5,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Say hello to a revamped collection of perfectly proportioned 38-mm Speedmasters."
     },
     {
       "id": "f99404bae7da",
@@ -548,7 +563,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-25T02:11:39Z",
-      "description": "Article URL: https://www.thomsonreuters.com/en/press-releases/2026/august/thomson-reuters-leverages-its-world-class-data-assets-to-launch-its-own-frontier-model Comments URL: https://news.ycombinator.com/item?id=49428318 Points: 63 # Comments: 21",
+      "description": "Article URL: https://www.thomsonreuters.com/en/press-releases/2026/august/thomson-reuters-leverages-its-world-class-data-assets-to-launch-its-own-frontier-model Comments URL: https://news.ycombinator.com/item?id=49428318 Points: 83 # Comments: 27",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 4,
@@ -677,19 +692,49 @@
       "summary_en": "ESPN is hiking the price of its subscription on September 17th, a change that will also impact its bundles with Disney P..."
     },
     {
+      "id": "468a1a33d560",
+      "title": "Xiaomi: New CPU matches Apple cores single threaded, much faster multithreaded",
+      "link": "https://twitter.com/lemire/status/2091894299289874926",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-08-24T15:08:17Z",
+      "description": "https://xcancel.com/lemire/status/2091894299289874926 Comments URL: https://news.ycombinator.com/item?id=49420873 Points: 815 # Comments: 573",
+      "topic": "Mobile",
+      "topicIcon": "📱",
+      "importance": 3,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "https://xcancel.com/lemire/status/2091894299289874926 Comments URL: https://news.ycombinator.com/item?id=49420873 Points..."
+    },
+    {
+      "id": "3f9be69046a6",
+      "title": "MS Paint and Photos inivisibly watermark even locally generated output with GUID",
+      "link": "https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-08-24T15:28:04Z",
+      "description": "Article URL: https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/ Comments URL: https://news.ycombinator.com/item?id=49421158 Points: 658 # Comments: 264",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 3,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "Article URL: https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/ Comments URL: https://news.ycombinato..."
+    },
+    {
       "id": "422d724d1779",
       "title": "Show HN: A Modern GUI Library for Ada: CSS Styling, XML UI, SDL3",
       "link": "https://github.com/ovenpasta/adi2",
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-24T16:30:51Z",
-      "description": "Article URL: https://github.com/ovenpasta/adi2 Comments URL: https://news.ycombinator.com/item?id=49422243 Points: 36 # Comments: 15",
+      "description": "Article URL: https://github.com/ovenpasta/adi2 Comments URL: https://news.ycombinator.com/item?id=49422243 Points: 43 # Comments: 15",
       "topic": "Web/JavaScript",
       "topicIcon": "🌐",
       "importance": 3,
       "reliability": 3,
       "summary_bn": "",
-      "summary_en": "Article URL: https://github.com/ovenpasta/adi2 Comments URL: https://news.ycombinator.com/item?id=49422243 Points: 36 # ..."
+      "summary_en": "Article URL: https://github.com/ovenpasta/adi2 Comments URL: https://news.ycombinator.com/item?id=49422243 Points: 43 # ..."
     },
     {
       "id": "8d62c91e8540",
@@ -705,51 +750,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Robotaxis are expanding. So is the fight over the rules governing them. In New York, Gov. Kathy Hochul withdrew a propos..."
-    },
-    {
-      "id": "ed1ca3ca4556",
-      "title": "My Daily Driver Gaming Headset Is Super Cheap Right Now",
-      "link": "https://www.wired.com/story/steelseries-arctis-nova-3p-august-2026/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-08-24T17:46:18Z",
-      "description": "I love this multi-device headset, and right now it’s cheaper than what I paid for it in March.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 3,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "I love this multi-device headset, and right now it’s cheaper than what I paid for it in March."
-    },
-    {
-      "id": "f8ca85b331a1",
-      "title": "Autostep (YC P26) Is Hiring AI/Fullstack Engineers and a Chief of Staff",
-      "link": "https://app.dover.com/Autostep/careers/e9510e3b-a854-4e48-9e5d-c89796acaed4",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-08-24T17:53:14Z",
-      "description": "Article URL: https://app.dover.com/Autostep/careers/e9510e3b-a854-4e48-9e5d-c89796acaed4 Comments URL: https://news.ycombinator.com/item?id=49423495 Points: 0 # Comments: 0",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 3,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://app.dover.com/Autostep/careers/e9510e3b-a854-4e48-9e5d-c89796acaed4 Comments URL: https://news.ycom..."
-    },
-    {
-      "id": "bb0848957783",
-      "title": "Octopus intelligence may be related to never-before-seen mutation",
-      "link": "https://www.smithsonianmag.com/smart-news/why-are-some-octopuses-so-smart-the-answer-might-lie-in-a-never-before-seen-mutation-that-helps-them-accurately-build-proteins-180989319/",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-08-24T17:57:13Z",
-      "description": "Article URL: https://www.smithsonianmag.com/smart-news/why-are-some-octopuses-so-smart-the-answer-might-lie-in-a-never-before-seen-mutation-that-helps-them-accurately-build-proteins-180989319/ Comments URL: https://news.ycombinator.com/item?id=49423539 Points: 117 # Comments: 88",
-      "topic": "Hardware",
-      "topicIcon": "💻",
-      "importance": 3,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://www.smithsonianmag.com/smart-news/why-are-some-octopuses-so-smart-the-answer-might-lie-in-a-never-b..."
     }
   ]
 }
