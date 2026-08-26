@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T13:54:01+06:00",
+  "lastUpdated": "2026-08-26T14:52:08+06:00",
   "news": [
     {
       "id": "579b65ab022f",
@@ -248,7 +248,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-25T20:49:03Z",
-      "description": "Article URL: https://sethmlarson.dev/when-str-lower-is-a-security-vulnerability Comments URL: https://news.ycombinator.com/item?id=49440410 Points: 107 # Comments: 45",
+      "description": "Article URL: https://sethmlarson.dev/when-str-lower-is-a-security-vulnerability Comments URL: https://news.ycombinator.com/item?id=49440410 Points: 117 # Comments: 47",
       "topic": "Security",
       "topicIcon": "🔒",
       "importance": 5,
