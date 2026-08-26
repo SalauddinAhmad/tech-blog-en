@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T12:58:33+06:00",
+  "lastUpdated": "2026-08-26T13:54:01+06:00",
   "news": [
     {
       "id": "579b65ab022f",
@@ -248,7 +248,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-25T20:49:03Z",
-      "description": "Article URL: https://sethmlarson.dev/when-str-lower-is-a-security-vulnerability Comments URL: https://news.ycombinator.com/item?id=49440410 Points: 98 # Comments: 43",
+      "description": "Article URL: https://sethmlarson.dev/when-str-lower-is-a-security-vulnerability Comments URL: https://news.ycombinator.com/item?id=49440410 Points: 107 # Comments: 45",
       "topic": "Security",
       "topicIcon": "🔒",
       "importance": 5,
@@ -330,21 +330,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Apple’s Mac Mini and Mac Studio have been tough to buy for months, but updated versions have arrived. Both include new c..."
-    },
-    {
-      "id": "cfd88d5f165a",
-      "title": "Apple’s latest Mac Mini runs on a new M6 chip, and starts at $899",
-      "link": "https://techcrunch.com/2026/08/25/apples-latest-mac-mini-runs-on-a-new-m6-chip-and-starts-at-899/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-25T13:55:06Z",
-      "description": "The base model of the Mac Mini comes with 256GB of storage, 16GB of RAM, and costs $899.",
-      "topic": "Hardware",
-      "topicIcon": "💻",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "The base model of the Mac Mini comes with 256GB of storage, 16GB of RAM, and costs $899."
     },
     {
       "id": "93b5b7bb13b8",
@@ -662,6 +647,21 @@
       "summary_en": "Garmin just took the wraps off its new line of rugged Fenix 9 smartwatches, with the base model featuring an OLED displa..."
     },
     {
+      "id": "8b7635eea8cb",
+      "title": "AI gold rush draws crypto firms away from Bitcoin",
+      "link": "https://www.bbc.co.uk/news/articles/c07ler8x9kpo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC",
+      "sourceIcon": "bbc",
+      "pubDate": "2026-08-25T23:11:02Z",
+      "description": "The price of Bitcoin has risen in August but is still far below its peak almost a year ago - and companies are refitting their mines.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "The price of Bitcoin has risen in August but is still far below its peak almost a year ago - and companies are refitting..."
+    },
+    {
       "id": "4b73af7f6f1d",
       "title": "OpenAI loses a top data center exec as stream of high-profile departures continues",
       "link": "https://techcrunch.com/2026/08/25/openai-loses-a-top-data-center-exec-as-stream-of-high-profile-departures-continues/",
@@ -690,6 +690,21 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Ringg has raised $10 million from Peak XV as a part of its Series A extension."
+    },
+    {
+      "id": "8fbce7ec3455",
+      "title": "Ventures Platform goes bigger — and broader — with its second Africa fund",
+      "link": "https://techcrunch.com/2026/08/26/ventures-platform-goes-bigger-and-broader-with-its-second-africa-fund/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-26T07:00:00Z",
+      "description": "The Pan-African venture firm has raised $83 million and plans to invest in startups beyond its home market of Nigeria.",
+      "topic": "Startups",
+      "topicIcon": "🚀",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "The Pan-African venture firm has raised $83 million and plans to invest in startups beyond its home market of Nigeria."
     },
     {
       "id": "00841011854a",
@@ -735,21 +750,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Illinois prosecutors shared defendants’ personal data with federal immigration agents without criminal warrants, public ..."
-    },
-    {
-      "id": "30052ad0fd38",
-      "title": "That fake Grand Theft Auto VI demo is actually just malware",
-      "link": "https://techcrunch.com/2026/08/25/that-fake-grand-theft-auto-vi-demo-is-actually-just-malware/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-25T15:48:38Z",
-      "description": "Grand Theft Auto fans, eager for news about one of the most anticipated video games of all time, appear especially vulnerable to this new cyberattack.",
-      "topic": "Security",
-      "topicIcon": "🔒",
-      "importance": 3,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Grand Theft Auto fans, eager for news about one of the most anticipated video games of all time, appear especially vulne..."
     }
   ]
 }
