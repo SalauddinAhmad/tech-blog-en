@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T15:49:29+06:00",
+  "lastUpdated": "2026-08-26T16:40:40+06:00",
   "news": [
     {
       "id": "579b65ab022f",
@@ -248,7 +248,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-25T20:49:03Z",
-      "description": "Article URL: https://sethmlarson.dev/when-str-lower-is-a-security-vulnerability Comments URL: https://news.ycombinator.com/item?id=49440410 Points: 123 # Comments: 49",
+      "description": "Article URL: https://sethmlarson.dev/when-str-lower-is-a-security-vulnerability Comments URL: https://news.ycombinator.com/item?id=49440410 Points: 132 # Comments: 54",
       "topic": "Security",
       "topicIcon": "🔒",
       "importance": 5,
@@ -257,19 +257,19 @@
       "summary_en": "Article URL: https://sethmlarson.dev/when-str-lower-is-a-security-vulnerability Comments URL: https://news.ycombinator.c..."
     },
     {
-      "id": "63d82eaf3aa4",
-      "title": "Border Wall Construction Threatens 6,000 Years of History on Private Lands",
-      "link": "https://www.wired.com/story/border-wall-construction-threatens-6000-years-of-history/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-08-25T10:00:00Z",
-      "description": "Archeologists are confronting an “unfathomable” loss as border wall construction is set to cut across ranches that are home to unique historical sites, many of which haven’t been fully studied.",
-      "topic": "Security",
-      "topicIcon": "🔒",
-      "importance": 4,
+      "id": "46847481cf63",
+      "title": "Ikea’s Xbox collection includes a giant thumbstick stool",
+      "link": "https://www.theverge.com/games/984869/ikea-xbox-yxstaby-collection-thumbstick-stool",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-08-26T10:00:00Z",
+      "description": "Ikea has teamed up with Microsoft to launch a new assortment of gaming-inspired furniture and home accessories, coinciding with the 25th anniversary of the first Xbox console. The nine-piece Yxstaby collection (good luck pronouncing that) includes a TV stand, laptop stand, side table, lounge chair, and multi-functional toolbox, with standout products like a stool, cushion, [&#8230;]",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 5,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "Archeologists are confronting an “unfathomable” loss as border wall construction is set to cut across ranches that are h..."
+      "summary_en": "Ikea has teamed up with Microsoft to launch a new assortment of gaming-inspired furniture and home accessories, coincidi..."
     },
     {
       "id": "ba82333d1965",
@@ -420,21 +420,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Life360’s new $7.99 scannable pet tags alert families when a lost pet is found and share its last known location, while ..."
-    },
-    {
-      "id": "3010b15a566e",
-      "title": "Nothing OS 5.0 brings a new Glyph Interface app and a more customizable homescreen",
-      "link": "https://www.theverge.com/gadgets/984430/nothing-os-5-launch-android-17",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-08-25T16:58:53Z",
-      "description": "With the new design of Nothing OS 5.0, app icons and widgets can use adaptive color to get color tints pulled from your wallpaper, which update whenever your wallpaper changes. Alongside Android's built-in Dynamic Colors, the company says it allows you to have specific elements change to match your wallpaper \"while Nothing's predominantly monochrome character [&#8230;]",
-      "topic": "Mobile",
-      "topicIcon": "📱",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "With the new design of Nothing OS 5.0, app icons and widgets can use adaptive color to get color tints pulled from your ..."
     },
     {
       "id": "f430439a5321",
@@ -707,19 +692,19 @@
       "summary_en": "New findings shed light on what’s making the parasite less treatable using the drug that’s considered a first line of de..."
     },
     {
-      "id": "ca61d47e1fa8",
-      "title": "Optoma GT2400HDR Review: Ace Projector for Golf Simulation",
-      "link": "https://www.wired.com/review/optoma-gt2400hdr/",
+      "id": "cec2cdcefc85",
+      "title": "How Ikea Turned a Controller Thumbstick Into the Star of Its Xbox Gaming Range",
+      "link": "https://www.wired.com/story/how-ikea-turned-a-controller-thumbstick-into-the-star-of-its-xbox-gaming-range/",
       "source": "Wired",
       "sourceIcon": "wired",
-      "pubDate": "2026-08-25T10:32:00Z",
-      "description": "The Optoma GT2400HDR laser projector is great for setting up a driving range in your living room, but mediocre video quality makes it less appealing for home entertainment.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 3,
+      "pubDate": "2026-08-26T10:00:00Z",
+      "description": "Xbox and Ikea collab alert! This unique nine-piece collection for gamers arrives this fall and has a slew of Easter eggs.",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 4,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "The Optoma GT2400HDR laser projector is great for setting up a driving range in your living room, but mediocre video qua..."
+      "summary_en": "Xbox and Ikea collab alert! This unique nine-piece collection for gamers arrives this fall and has a slew of Easter eggs..."
     },
     {
       "id": "e32b9224d0b2",
@@ -750,6 +735,21 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Grand Theft Auto fans, eager for news about one of the most anticipated video games of all time, appear especially vulne..."
+    },
+    {
+      "id": "7aabe5b1835b",
+      "title": "Clara (YC P26) is hiring a growth engineer to bring AI doctors to market",
+      "link": "https://www.ycombinator.com/companies/clara-2/jobs/8snci6k-founding-full-stack-growth-engineer",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-08-25T17:28:52Z",
+      "description": "Article URL: https://www.ycombinator.com/companies/clara-2/jobs/8snci6k-founding-full-stack-growth-engineer Comments URL: https://news.ycombinator.com/item?id=49437566 Points: 0 # Comments: 0",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 3,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "Article URL: https://www.ycombinator.com/companies/clara-2/jobs/8snci6k-founding-full-stack-growth-engineer Comments URL..."
     }
   ]
 }
