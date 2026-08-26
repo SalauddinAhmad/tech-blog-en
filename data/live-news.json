@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T07:43:56+06:00",
+  "lastUpdated": "2026-08-26T09:11:20+06:00",
   "news": [
     {
       "id": "579b65ab022f",
@@ -53,7 +53,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-25T20:49:03Z",
-      "description": "Article URL: https://sethmlarson.dev/when-str-lower-is-a-security-vulnerability Comments URL: https://news.ycombinator.com/item?id=49440410 Points: 58 # Comments: 29",
+      "description": "Article URL: https://sethmlarson.dev/when-str-lower-is-a-security-vulnerability Comments URL: https://news.ycombinator.com/item?id=49440410 Points: 79 # Comments: 32",
       "topic": "Security",
       "topicIcon": "🔒",
       "importance": 6,
@@ -90,21 +90,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "The $200 million extension comes just months after the physical AI startup reached a $2 billion valuation."
-    },
-    {
-      "id": "820e9cc59db5",
-      "title": "Musk's SpaceX to build $100bn launch facility in Louisiana",
-      "link": "https://www.bbc.co.uk/news/articles/cq5xel4v642o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC",
-      "sourceIcon": "bbc",
-      "pubDate": "2026-08-26T01:32:07Z",
-      "description": "It will be the firm's biggest site yet and aims to send rockets to space in 2029.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 6,
-      "reliability": 5,
-      "summary_bn": "",
-      "summary_en": "It will be the firm's biggest site yet and aims to send rockets to space in 2029."
     },
     {
       "id": "6f34f4ada801",
@@ -750,6 +735,21 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "After last year's massive power failure Spanish and Portuguese firms are buying battery back ups."
+    },
+    {
+      "id": "4b73af7f6f1d",
+      "title": "OpenAI loses a top data center exec, as stream of high-profile departures continues",
+      "link": "https://techcrunch.com/2026/08/25/openai-loses-a-top-data-center-exec-as-stream-of-high-profile-departures-continues/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-26T00:06:20Z",
+      "description": "Before Malone left, OpenAI had already reshuffled its infrastructure org, shifting his reporting line away from President Greg Brockman and putting Vice President Sachin Katti in charge of the group.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Before Malone left, OpenAI had already reshuffled its infrastructure org, shifting his reporting line away from Presiden..."
     }
   ]
 }
