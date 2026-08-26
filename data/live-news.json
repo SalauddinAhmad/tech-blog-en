@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T09:11:20+06:00",
+  "lastUpdated": "2026-08-26T10:46:48+06:00",
   "news": [
     {
       "id": "579b65ab022f",
@@ -53,7 +53,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-25T20:49:03Z",
-      "description": "Article URL: https://sethmlarson.dev/when-str-lower-is-a-security-vulnerability Comments URL: https://news.ycombinator.com/item?id=49440410 Points: 79 # Comments: 32",
+      "description": "Article URL: https://sethmlarson.dev/when-str-lower-is-a-security-vulnerability Comments URL: https://news.ycombinator.com/item?id=49440410 Points: 89 # Comments: 38",
       "topic": "Security",
       "topicIcon": "🔒",
       "importance": 6,
@@ -272,21 +272,6 @@
       "summary_en": "X has sent cease-and-desist letters to Nitter, the open source project behind privacy-friendly X front ends, demanding i..."
     },
     {
-      "id": "00d24e525cee",
-      "title": "Data Centers Are Driving an Alarming Gas Power Expansion in the US",
-      "link": "https://www.wired.com/story/us-data-centers-drive-gas-power-expansion/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-08-25T04:01:00Z",
-      "description": "There’s no clearer sign of the data center boom than rampant gas projects that have been proposed or that are already under construction.",
-      "topic": "Hardware",
-      "topicIcon": "💻",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "There’s no clearer sign of the data center boom than rampant gas projects that have been proposed or that are already un..."
-    },
-    {
       "id": "124db812f4d4",
       "title": "Songs created by AI banned from Australia's music charts",
       "link": "https://www.bbc.co.uk/news/articles/c20vl4vm2pno?at_medium=RSS&at_campaign=rss",
@@ -360,21 +345,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "After years of smells, strange noises, and “tea,” these are the composters and food recyclers I’d actually recommend."
-    },
-    {
-      "id": "56bf778e7881",
-      "title": "Andy Dunn’s startup Pie becomes less of an events app and more of a social network",
-      "link": "https://techcrunch.com/2026/08/25/andy-dunns-startup-pie-becomes-less-of-an-events-app-and-more-of-a-social-network/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-25T13:00:00Z",
-      "description": "The social app founded by Bonobos co-founder Andy Dunn is expanding beyond events with new digital homes for groups to connect, organize, and make plans.",
-      "topic": "Startups",
-      "topicIcon": "🚀",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "The social app founded by Bonobos co-founder Andy Dunn is expanding beyond events with new digital homes for groups to c..."
     },
     {
       "id": "b041a557d8a0",
@@ -662,9 +632,9 @@
       "summary_en": "Instagram says the process can produce a first pass in under 10 seconds, potentially saving creators significant editing..."
     },
     {
-      "id": "49caa2fe864e",
+      "id": "6c97203d7659",
       "title": "Tech Life",
-      "link": "https://www.bbc.co.uk/sounds/play/w3ct8jyb?at_medium=RSS&at_campaign=rss",
+      "link": "https://www.bbc.co.uk/sounds/play/live:bbc_world_service_south_asia?at_medium=RSS&at_campaign=rss",
       "source": "BBC",
       "sourceIcon": "bbc",
       "pubDate": "2026-08-25T20:00:00Z",
@@ -750,6 +720,36 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Before Malone left, OpenAI had already reshuffled its infrastructure org, shifting his reporting line away from Presiden..."
+    },
+    {
+      "id": "355d8aee33bd",
+      "title": "India’s Ringg gets backing from Peak XV as it pushes voice AI past the phone call",
+      "link": "https://techcrunch.com/2026/08/25/indias-ringg-gets-backing-from-peak-xv-as-it-pushes-voice-ai-past-the-phone-call/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-26T03:30:00Z",
+      "description": "Ringg has raised $10 million from Peak XV as a part of its Series A extension.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Ringg has raised $10 million from Peak XV as a part of its Series A extension."
+    },
+    {
+      "id": "00841011854a",
+      "title": "It Should Be Harder to Apply for a Job. No, Really",
+      "link": "https://www.wired.com/story/applying-for-a-job-is-too-damn-easy/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-08-25T09:30:00Z",
+      "description": "Thanks to a dwindling supply of open roles, “one-click” applications, and the rise of artificial intelligence, it’s easier than ever to apply for a job. We’re all paying the price.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Thanks to a dwindling supply of open roles, “one-click” applications, and the rise of artificial intelligence, it’s easi..."
     }
   ]
 }
