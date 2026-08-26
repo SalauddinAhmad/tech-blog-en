@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T16:40:40+06:00",
+  "lastUpdated": "2026-08-26T17:35:14+06:00",
   "news": [
     {
       "id": "579b65ab022f",
@@ -152,21 +152,6 @@
       "summary_en": "Image changes that would get a paper retracted are widespread among suppliers."
     },
     {
-      "id": "19845f5a7713",
-      "title": "Instagram’s ‘First Draft’ trims your Reels clips for you",
-      "link": "https://www.theverge.com/tech/984463/instagram-first-draft-edit-reels",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-08-25T17:12:31Z",
-      "description": "Instagram is launching a new Reels-editing feature that automatically trims your video clips to focus on the highlights. The feature, called First Draft, is rolling out to Instagram's iPhone app and provides a \"starting point\" that you can build upon with other edits, according to an announcement on Tuesday. An example shared by Instagram shows [&#8230;]",
-      "topic": "Mobile",
-      "topicIcon": "📱",
-      "importance": 5,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Instagram is launching a new Reels-editing feature that automatically trims your video clips to focus on the highlights...."
-    },
-    {
       "id": "5562d291db93",
       "title": "Two unvaccinated people die from measles in Pennsylvania, officials confirm",
       "link": "https://arstechnica.com/health/2026/08/two-unvaccinated-people-die-from-measles-in-pennsylvania-officials-confirm/",
@@ -248,7 +233,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-25T20:49:03Z",
-      "description": "Article URL: https://sethmlarson.dev/when-str-lower-is-a-security-vulnerability Comments URL: https://news.ycombinator.com/item?id=49440410 Points: 132 # Comments: 54",
+      "description": "Article URL: https://sethmlarson.dev/when-str-lower-is-a-security-vulnerability Comments URL: https://news.ycombinator.com/item?id=49440410 Points: 136 # Comments: 57",
       "topic": "Security",
       "topicIcon": "🔒",
       "importance": 5,
@@ -272,34 +257,34 @@
       "summary_en": "Ikea has teamed up with Microsoft to launch a new assortment of gaming-inspired furniture and home accessories, coincidi..."
     },
     {
-      "id": "ba82333d1965",
-      "title": "The 4 Best Car Phone Mounts I’ve Tried (2026): Belkin, Andery, Andobil",
-      "link": "https://www.wired.com/story/best-car-phone-mounts-and-holders/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-08-25T11:08:00Z",
-      "description": "The best car phone holders keep your phone firmly in place while never getting in your line of sight. I took a dozen on road trips this summer to find the best.",
-      "topic": "Other",
-      "topicIcon": "📰",
-      "importance": 4,
-      "reliability": 4,
+      "id": "f06fda930be7",
+      "title": "Xtracycle's Swoop ASM e-bike brings an automatic transmission to cargo bikes",
+      "link": "https://arstechnica.com/cars/2026/08/xtracycles-swoop-asm-e-bike-brings-an-automatic-transmission-to-cargo-bikes/",
+      "source": "Ars Technica",
+      "sourceIcon": "ars",
+      "pubDate": "2026-08-26T11:00:12Z",
+      "description": "A steel frame cargo bike with a unique twist: You can let it choose your gear.",
+      "topic": "Hardware",
+      "topicIcon": "💻",
+      "importance": 5,
+      "reliability": 5,
       "summary_bn": "",
-      "summary_en": "The best car phone holders keep your phone firmly in place while never getting in your line of sight. I took a dozen on ..."
+      "summary_en": "A steel frame cargo bike with a unique twist: You can let it choose your gear."
     },
     {
-      "id": "bc097add4ee4",
-      "title": "I Tested Kitchen Composters for 2 Years. These Are the Ones I’d Buy (2026)",
-      "link": "https://www.wired.com/story/home-composters-buying-guide/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-08-25T11:30:00Z",
-      "description": "After years of smells, strange noises, and “tea,” these are the composters and food recyclers I’d actually recommend.",
-      "topic": "Startups",
-      "topicIcon": "🚀",
-      "importance": 4,
-      "reliability": 4,
+      "id": "bccc41e585b9",
+      "title": "IBM's new Granite 4.2 models ride the wave of interest in local LLMs",
+      "link": "https://arstechnica.com/ai/2026/08/ibms-new-granite-4-2-models-ride-the-wave-of-interest-in-local-llms/",
+      "source": "Ars Technica",
+      "sourceIcon": "ars",
+      "pubDate": "2026-08-26T11:10:49Z",
+      "description": "The focus is on agentic capability and predictable enterprise deployment.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 5,
+      "reliability": 5,
       "summary_bn": "",
-      "summary_en": "After years of smells, strange noises, and “tea,” these are the composters and food recyclers I’d actually recommend."
+      "summary_en": "The focus is on agentic capability and predictable enterprise deployment."
     },
     {
       "id": "b041a557d8a0",
@@ -315,21 +300,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Apple’s Mac Mini and Mac Studio have been tough to buy for months, but updated versions have arrived. Both include new c..."
-    },
-    {
-      "id": "93b5b7bb13b8",
-      "title": "Self-driving truck startup Gatik raises $200M following PepsiCo deal",
-      "link": "https://techcrunch.com/2026/08/25/self-driving-truck-startup-gatik-raises-200m-following-pepsico-deal/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-25T14:00:00Z",
-      "description": "The funding, Gatik's largest so far, was led by Qatar Investment Authority and Koch Disruptive Technologies.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "The funding, Gatik's largest so far, was led by Qatar Investment Authority and Koch Disruptive Technologies."
     },
     {
       "id": "cd6ed22634e1",
@@ -707,19 +677,49 @@
       "summary_en": "Xbox and Ikea collab alert! This unique nine-piece collection for gamers arrives this fall and has a slew of Easter eggs..."
     },
     {
-      "id": "e32b9224d0b2",
-      "title": "The County Prosecutors Who Became ICE Informants",
-      "link": "https://www.wired.com/story/the-county-prosecutors-who-became-ice-informants/",
+      "id": "e695eb88bf7a",
+      "title": "Green Chef Meal Kit Review (2026): Great Ingredients, Layered Flavor",
+      "link": "https://www.wired.com/review/green-chef-meal-kit-2026/",
       "source": "Wired",
       "sourceIcon": "wired",
-      "pubDate": "2026-08-25T11:00:00Z",
-      "description": "Illinois prosecutors shared defendants’ personal data with federal immigration agents without criminal warrants, public disclosure, or legislative oversight.",
+      "pubDate": "2026-08-26T10:39:00Z",
+      "description": "HelloFresh’s organic meal kit Green Chef offers transparent sourcing, layered cooking, and trustworthy gluten-free dishes.",
       "topic": "Other",
       "topicIcon": "📰",
-      "importance": 3,
+      "importance": 4,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "Illinois prosecutors shared defendants’ personal data with federal immigration agents without criminal warrants, public ..."
+      "summary_en": "HelloFresh’s organic meal kit Green Chef offers transparent sourcing, layered cooking, and trustworthy gluten-free dishe..."
+    },
+    {
+      "id": "55000dbc066e",
+      "title": "Runable hits $21M to bet AI agents can go from building businesses to growing them",
+      "link": "https://techcrunch.com/2026/08/26/runable-hits-21m-to-bet-ai-agents-can-go-from-building-businesses-to-growing-them/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-26T11:00:00Z",
+      "description": "Runable says 60%–70% of its 1 trillion-plus token usage in the last 90 days came from paying customers.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Runable says 60%–70% of its 1 trillion-plus token usage in the last 90 days came from paying customers."
+    },
+    {
+      "id": "83b416b43d92",
+      "title": "Bill Gates is deeply worried about AI, and he’s no longer staying quiet",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/984923/bill-gates-is-deeply-worried-about-ai-and-hes-no-longer-staying-quiet",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-08-26T11:07:40Z",
+      "description": "Bill Gates has been reflecting a lot on AI lately, and the process has triggered a stark awakening. Once a staunch AI optimist, the Microsoft cofounder is now deeply pessimistic about what AI means for our collective future. Having been conspicuously quiet on AI issues recently, Gates is back with a nearly 6,000-word essay seeking [&#8230;]",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Bill Gates has been reflecting a lot on AI lately, and the process has triggered a stark awakening. Once a staunch AI op..."
     },
     {
       "id": "30052ad0fd38",
@@ -737,19 +737,19 @@
       "summary_en": "Grand Theft Auto fans, eager for news about one of the most anticipated video games of all time, appear especially vulne..."
     },
     {
-      "id": "7aabe5b1835b",
-      "title": "Clara (YC P26) is hiring a growth engineer to bring AI doctors to market",
-      "link": "https://www.ycombinator.com/companies/clara-2/jobs/8snci6k-founding-full-stack-growth-engineer",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-08-25T17:28:52Z",
-      "description": "Article URL: https://www.ycombinator.com/companies/clara-2/jobs/8snci6k-founding-full-stack-growth-engineer Comments URL: https://news.ycombinator.com/item?id=49437566 Points: 0 # Comments: 0",
+      "id": "a138517f9a98",
+      "title": "Waymo robotaxis are headed to Munich",
+      "link": "https://techcrunch.com/2026/08/25/waymo-robotaxis-are-headed-to-munich/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-25T17:32:03Z",
+      "description": "Germany's autonomous vehicle regulations have made it a hotspot for autonomous vehicle testing and eventual commercial robotaxi deployment.",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 3,
-      "reliability": 3,
+      "reliability": 4,
       "summary_bn": "",
-      "summary_en": "Article URL: https://www.ycombinator.com/companies/clara-2/jobs/8snci6k-founding-full-stack-growth-engineer Comments URL..."
+      "summary_en": "Germany's autonomous vehicle regulations have made it a hotspot for autonomous vehicle testing and eventual commercial r..."
     }
   ]
 }
