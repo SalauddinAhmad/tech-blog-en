@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-27T05:12:28+06:00",
+  "lastUpdated": "2026-08-27T14:43:28+06:00",
   "news": [
     {
       "id": "1d6661841b37",
@@ -92,6 +92,21 @@
       "summary_en": "Nvidia's predicting it will pull in $108 billion in revenue within just a few months. It wouldn't be the first company t..."
     },
     {
+      "id": "48f9521226b4",
+      "title": "Nvidia closes in on Hugging Face acquisition",
+      "link": "https://techcrunch.com/2026/08/26/nvidia-closes-in-on-hugging-face-acquisition/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-27T06:32:51Z",
+      "description": "Nvidia has reportedly agreed to buy Hugging Face, the popular open-source AI hub, for $12.9 billion in a move that would let Nvidia both protect its chip empire and jump back into the cloud business.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 7,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Nvidia has reportedly agreed to buy Hugging Face, the popular open-source AI hub, for $12.9 billion in a move that would..."
+    },
+    {
       "id": "17c9fa373bd2",
       "title": "Meta Will Pay Up to $16.7 Billion to Settle Its Social Media Harms Case—and That’s Not All",
       "link": "https://www.wired.com/story/meta-will-pay-up-to-dollar167-billion-to-settle-its-social-media-harms-case-and-thats-just-for-starters/",
@@ -105,21 +120,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "In addition to sending billions of dollars to states, Meta will make substantive changes to its platforms as part of a l..."
-    },
-    {
-      "id": "c5fcdc890274",
-      "title": "Surprise: Z.ai is the AI lab behind the mysterious Ox Alpha model",
-      "link": "https://techcrunch.com/2026/08/26/surprise-z-ai-is-the-ai-lab-behind-the-mysterious-ox-alpha-model/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-26T14:19:29Z",
-      "description": "Z.ai confirms it is behind Ox Alpha, the mysterious open AI model topping benchmarks and leaderboards, and its weights are set to be released soon.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 6,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Z.ai confirms it is behind Ox Alpha, the mysterious open AI model topping benchmarks and leaderboards, and its weights a..."
     },
     {
       "id": "21627526b24d",
@@ -368,13 +368,13 @@
       "source": "Ars Technica",
       "sourceIcon": "ars",
       "pubDate": "2026-08-26T21:25:27Z",
-      "description": "Reuters report shows Meta's challenges replacing people with AI agents.",
+      "description": "Report shows Meta's challenges replacing people with AI agents.",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 5,
       "reliability": 5,
       "summary_bn": "",
-      "summary_en": "Reuters report shows Meta's challenges replacing people with AI agents."
+      "summary_en": "Report shows Meta's challenges replacing people with AI agents."
     },
     {
       "id": "f148e5a320ab",
@@ -390,6 +390,21 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "The deal has been reached during a California federal court trial over claims brought by US states."
+    },
+    {
+      "id": "cb7e4bbf99b4",
+      "title": "CEO fired developers to make room for AI. Developers create open source AI CEO",
+      "link": "https://github.com/SenteLabsAI/OpenExecutive",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-08-27T01:46:22Z",
+      "description": "Article URL: https://github.com/SenteLabsAI/OpenExecutive Comments URL: https://news.ycombinator.com/item?id=49458418 Points: 534 # Comments: 345",
+      "topic": "Open Source",
+      "topicIcon": "🔓",
+      "importance": 5,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "Article URL: https://github.com/SenteLabsAI/OpenExecutive Comments URL: https://news.ycombinator.com/item?id=49458418 Po..."
     },
     {
       "id": "9f009688a182",
@@ -450,21 +465,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "The site, called Stud or Dud, helps daters dig up dirt on potential paramours. It’s fueled by the same public data as Pe..."
-    },
-    {
-      "id": "e775c4cd2ca1",
-      "title": "Meta settles for $18B in lawsuit brought by 29 states over social media harms to children",
-      "link": "https://techcrunch.com/2026/08/26/meta-settles-for-18-billion-in-lawsuit-brought-by-29-states-over-social-media-harms-to-children/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-26T13:43:01Z",
-      "description": "The lawsuit alleged that Meta knowingly designed platforms like Instagram and Facebook to addict children, despite knowing about the harms the platforms could pose to young users.",
-      "topic": "Hardware",
-      "topicIcon": "💻",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "The lawsuit alleged that Meta knowingly designed platforms like Instagram and Facebook to addict children, despite knowi..."
     },
     {
       "id": "5f8c614f846a",
@@ -692,21 +692,6 @@
       "summary_en": "Consumer AI apps need to stop making users learn their product architecture."
     },
     {
-      "id": "7900b268d52a",
-      "title": "GitHub Outage Tracker: Is GitHub Cooked?",
-      "link": "https://isgithubcooked.com/",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-08-26T19:43:48Z",
-      "description": "Article URL: https://isgithubcooked.com/ Comments URL: https://news.ycombinator.com/item?id=49454728 Points: 118 # Comments: 52",
-      "topic": "Startups",
-      "topicIcon": "🚀",
-      "importance": 4,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://isgithubcooked.com/ Comments URL: https://news.ycombinator.com/item?id=49454728 Points: 118 # Comme..."
-    },
-    {
       "id": "9be2ad0fcecb",
       "title": "Waffle House Teleporter Gregg Phillips Is Still on the Trump Administration’s Payroll",
       "link": "https://www.wired.com/story/waffle-house-teleporter-gregg-phillips-is-still-on-the-trump-administrations-payroll/",
@@ -735,6 +720,21 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Child safety groups and former Meta employees welcome proposed changes to how the company’s platforms will work for teen..."
+    },
+    {
+      "id": "4f903af43595",
+      "title": "Stripe acquires Clerky",
+      "link": "https://www.clerky.com/blog/clerky-is-joining-stripe",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-08-26T21:09:32Z",
+      "description": "https://twitter.com/darbyw/status/2092718828405096955 Comments URL: https://news.ycombinator.com/item?id=49455956 Points: 166 # Comments: 26",
+      "topic": "Startups",
+      "topicIcon": "🚀",
+      "importance": 4,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "https://twitter.com/darbyw/status/2092718828405096955 Comments URL: https://news.ycombinator.com/item?id=49455956 Points..."
     },
     {
       "id": "e518d876024c",
