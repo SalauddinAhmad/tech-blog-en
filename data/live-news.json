@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-01T05:41:11+06:00",
+  "lastUpdated": "2026-09-01T10:38:13+06:00",
   "news": [
     {
       "id": "3bbdd25d548f",
@@ -30,21 +30,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Andreessen Horowitz held out its hand and returned with billions more in new funds to invest in startups."
-    },
-    {
-      "id": "c5d31b731e2b",
-      "title": "Launch HN: Hebbian Robotics (YC S26) – Build scalable robotics data pipelines",
-      "link": "https://github.com/Hebbian-Robotics/hflow",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-08-31T15:02:41Z",
-      "description": "Hi HN, we’re Brandon and Kingston, the founders of Hebbian Robotics. We built HFlow ( https://github.com/Hebbian-Robotics/hflow ), an SDK that turns multimodal recordings from robots and human operators into standardized, quality-checked episodes and queryable dataset manifests. A recording can contain synchronized video, joint states, actions, timestamps, and metadata, and HFlow processes those streams together. Here’s a demo of HFlow in action: https://www.youtube.com/watch?v=xni0GwV-xAw Robotics data pipelines often begin as scripts: one transcodes video, another checks timestamps, another adds labels, and another copies selected recordings into a training set. This works until the corpus grows. Then it becomes difficult to know which code ran, why an episode was excluded, or whether a dataset can be reproduced. The first pain is usually quality control because frozen cameras, missing topics, timestamp drift, and duplicate recordings can quietly enter training data. Brandon first encountered this while training embodied AI models for two-arm industrial cleaning robots. Kingston had run into related problems while building high-throughput infrastructure at Jane Street. Later, while speaking with robotics data providers, we kept seeing teams rebuild similar processing and quality-control infrastructure. We learnt that processing robotics data is itself one of the bottlenecks to improving robotics models. An HFlow pipeline consists of transformations, checks, labels, and enrichments. The SDK exposes them as plain Python functions that receive an episode and return measurements, artifacts, or transformed data. During development, the functions can run in-process. For scheduled corpus processing, HFlow packages the same registered steps as Airflow 3 DAGs, where teams can inspect task status, logs, retries, and reruns. HFlow currently accepts one MCAP file per episode. MCAP ( https://mcap.dev/ ) is an open container format by Foxglove for timestamped multimodal recordings, similar in purpose to a ROS bag. It lets video, robot state, actions, and other sensor streams remain synchronized in one file. We use it because HFlow needs to process these streams together, and because the resulting recordings remain compatible with Foxglove and Rerun. HFlow writes a canonical MCAP with in-band H.264 video, grouped camera and state chunks, and provenance describing how the output was produced. Each step has an explicit behavior version, and catalog records connect its measurements and artifacts to the source episode and pipeline run. Quality checks store reusable evidence rather than imposing one universal definition of good data. Some failures, including black frames, frozen video, missing topics, timestamp drift, and impossible joint movements, can be measured deterministically without training a model. Others might be detected using VLMs and other models like MediaPipe Hands. But their meaning depends on the task. A smooth trajectory might indicate a successful demonstration in one setting and a stalled robot in another. HFlow writes measurements, metadata, version stamps, and artifact locations to an append-only Parquet catalog. Teams query it with DuckDB SQL and produce a version-pinned manifest without opening the recordings again. Critical checks can quarantine an episode, but HFlow does not delete data. This separates the evidence from the policy used to assemble a particular dataset. We did not want to replace the tools robotics teams already use. HFlow connects MCAP for synchronized recordings, Airflow for scheduled execution, Parquet for catalog data, and DuckDB for curation. Compared with a general workflow orchestrator, it adds contracts for robotics episodes, processing provenance, quality evidence, quarantine, and dataset manifests. Compared with a training dataset format, it operates earlier and stops at curated episodes plus a manifest. Here are three examples of teams that would use HFlow: 1. A data vendor or marketplace collecting egocentric recordings. They could use HFlow to detect black or frozen video, duplicate recordings, hand-object interaction, and other quality metrics before delivering the data, while retaining evidence of which checks ran on every episode. 2. A robotics team collecting teleoperated demonstrations for its own models. They could use HFlow to standardize recordings, add labels and enrichments, and produce a reproducible training manifest. 3. A team operating robots in the field. It could process incoming logs, quarantine incomplete or corrupted episodes, and query the catalog for particular robot versions, environments, or failure conditions. The project is pre-v1, but the core lifecycle works end to end. You can try it without an account, Docker, or robot hardware by cloning the repository and following the quickstart. HFlow is free under the Apache-2.0 license. The open source deployment is currently a single-tenant workspace, and we have not built the hosted, multi-tenant control plane yet. We are considering making money through managed workspaces and enterprise support for teams that do not want to operate the runtime themselves. Because this processing layer is software and data, people can contribute without owning a robot. We would especially like feedback from people who have built pipelines for robotics, video, or other sensor-heavy systems. We are curious where our data model is wrong, which integrations are missing, and what would fail first on your workloads. Comments URL: https://news.ycombinator.com/item?id=49510632 Points: 35 # Comments: 10",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 7,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Hi HN, we’re Brandon and Kingston, the founders of Hebbian Robotics. We built HFlow ( https://github.com/Hebbian-Robotic..."
     },
     {
       "id": "fd3a51ee66e8",
@@ -122,6 +107,36 @@
       "summary_en": "The controversial founder of the checkout startup once valued at $11 billion is putting in $5 million of his own money."
     },
     {
+      "id": "d36bb2807f5c",
+      "title": "Trump admin shelves Cyclospora research despite record-breaking outbreak",
+      "link": "https://arstechnica.com/health/2026/08/trump-admin-shelves-cyclospora-research-despite-record-breaking-outbreak/",
+      "source": "Ars Technica",
+      "sourceIcon": "ars",
+      "pubDate": "2026-08-31T21:23:09Z",
+      "description": "The CDC has tallied nearly 30,000 confirmed and probable cases this summer.",
+      "topic": "Startups",
+      "topicIcon": "🚀",
+      "importance": 6,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "The CDC has tallied nearly 30,000 confirmed and probable cases this summer."
+    },
+    {
+      "id": "f9a57d602576",
+      "title": "Polymarket reportedly raises $300 million from Donald Trump Jr.’s investment fund",
+      "link": "https://techcrunch.com/2026/08/31/polymarket-reportedly-raises-300-million-from-donald-trump-jr-s-investment-fund/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-08-31T23:41:10Z",
+      "description": "The firm, 1789 Capital, led the funding round that reportedly will total around $1 billion.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 6,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "The firm, 1789 Capital, led the funding round that reportedly will total around $1 billion."
+    },
+    {
       "id": "0eca9e056acd",
       "title": "Pocket's AI made my game ideas real. Now Meta controls the results.",
       "link": "https://arstechnica.com/gaming/2026/08/pockets-ai-made-my-game-ideas-real-now-meta-controls-the-results/",
@@ -143,7 +158,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-31T11:45:48Z",
-      "description": "Article URL: https://signalandsilence.substack.com/p/i-think-someone-hacked-the-commissary Comments URL: https://news.ycombinator.com/item?id=49508506 Points: 222 # Comments: 127",
+      "description": "Article URL: https://signalandsilence.substack.com/p/i-think-someone-hacked-the-commissary Comments URL: https://news.ycombinator.com/item?id=49508506 Points: 289 # Comments: 160",
       "topic": "Security",
       "topicIcon": "🔒",
       "importance": 5,
@@ -362,6 +377,21 @@
       "summary_en": "Director Dave Green's live action/animated hybrid captures smart, subversive weirdness of the classic cartoons."
     },
     {
+      "id": "df105c069a04",
+      "title": "Get in on the Ars community that doesn’t fit beneath an article",
+      "link": "https://arstechnica.com/staff/2026/08/get-in-on-the-ars-community-that-doesnt-fit-beneath-an-article/",
+      "source": "Ars Technica",
+      "sourceIcon": "ars",
+      "pubDate": "2026-08-31T21:12:01Z",
+      "description": "You've read the stories. Now check out our forums.",
+      "topic": "Open Source",
+      "topicIcon": "🔓",
+      "importance": 5,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "You've read the stories. Now check out our forums."
+    },
+    {
       "id": "c61ab77f9520",
       "title": "The Google TV Streamer now costs $50 more",
       "link": "https://www.theverge.com/tech/987032/google-tv-streamer-price-increase",
@@ -377,19 +407,19 @@
       "summary_en": "Google raised the price of its 4K streaming box to $149, up $50 from its original $99 price. The new price is currently ..."
     },
     {
-      "id": "331406f38034",
-      "title": "The US is building barriers around drones and robots, but China has scale to get around them",
-      "link": "https://techcrunch.com/2026/08/30/the-u-s-is-building-barriers-around-drones-and-robots-china-still-has-scale/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-31T02:34:00Z",
-      "description": "The U.S. is shutting out more foreign-made drones and robots. China’s scale means the global competition may simply move elsewhere.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
+      "id": "a06ae54288df",
+      "title": "The Bentley Supersports: A stripped-out engineer's indulgence",
+      "link": "https://arstechnica.com/cars/2026/08/the-bentley-supersports-a-stripped-out-engineers-indulgence/",
+      "source": "Ars Technica",
+      "sourceIcon": "ars",
+      "pubDate": "2026-08-31T23:01:16Z",
+      "description": "It's the lightest Bentley in 85 years.",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 5,
+      "reliability": 5,
       "summary_bn": "",
-      "summary_en": "The U.S. is shutting out more foreign-made drones and robots. China’s scale means the global competition may simply move..."
+      "summary_en": "It's the lightest Bentley in 85 years."
     },
     {
       "id": "386df6b02010",
@@ -407,36 +437,6 @@
       "summary_en": "Keep your phone firmly in hand and add some personality with these comfortable, durable, and nifty smartphone grips."
     },
     {
-      "id": "bef313b31d14",
-      "title": "Meeting note-taker Circleback adds a free tier to attract more customers",
-      "link": "https://techcrunch.com/2026/08/31/meeting-notetaker-circleback-adds-a-free-tier-to-attract-more-customers/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-31T12:56:46Z",
-      "description": "Circleback is also introducing new pricing plans starting from $14 per month.",
-      "topic": "Other",
-      "topicIcon": "📰",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Circleback is also introducing new pricing plans starting from $14 per month."
-    },
-    {
-      "id": "8d318f0497d8",
-      "title": "MapQuest’s app surges to No. 1 in Navigation after refusing to rename Lake Ontario",
-      "link": "https://techcrunch.com/2026/08/31/mapquests-app-surges-to-no-1-in-navigation-after-refusing-to-rename-lake-ontario/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-31T14:51:33Z",
-      "description": "MapQuest is getting an unexpected boost from its decision to defy President Trump’s renaming of Lake Ontario.",
-      "topic": "Other",
-      "topicIcon": "📰",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "MapQuest is getting an unexpected boost from its decision to defy President Trump’s renaming of Lake Ontario."
-    },
-    {
       "id": "ebd7ba047266",
       "title": "George Santos Just Got Hit With Kalshi’s First-Ever Lifetime Ban",
       "link": "https://www.wired.com/story/george-santos-gets-a-lifetime-ban-from-kalshi/",
@@ -450,21 +450,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "The former US representative was also fined more than $71,000 for allegedly attempting to manipulate the prediction mark..."
-    },
-    {
-      "id": "dc4741c62467",
-      "title": "Launch HN: Almanac (YC S26) – AI that knows your company",
-      "link": "https://usealmanac.com/",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-08-31T15:34:34Z",
-      "description": "Hi HN, I'm Kushagra, one of three founders of Almanac, a Hermes with a brain that knows everything about your company. We started our journey with setting up Hermes for our company, thinking it must be easy. We wanted an agent that would know every context about our company, so we could ask questions and get context-appropriate responses to. This started a very annoying and difficult journey. Setting up Hermes, getting it to talk right, building OAuth apps for every connector myself, then feeding it context myself, and ultimately struggling with Hermes's default memory. At the same time, we saw our YC batchmates struggling with the same problem, and we saw an opportunity. So we built Almanac. This is how it works. You sign up, you get a Hermes agent straight out of the box. You have a one-click connect to any account (Gmail, Calendar, Granola, PostHog, etc). You have personal accounts (only accessible by you) and also shared accounts (accessible by everyone in the company). The consequence being I can never see my cofounders' accounts. The “brain” of this agent is wikis. We pull in information from your connected sources, and start organizing this information in two wikis. A personal one, for you, which understands who you are, what your preferences are, the people in your life, and the things going on in your life. The second wiki is a company wiki, which includes what the company is, what you’re working on, what the roadmap is, and what the blockers of the company are. Your agent ultimately has access to these two wikis and the original accounts, which invoke the feeling of “it just knows you.” Here’s a demo: https://www.youtube.com/watch?v=ajXP5PHuK18 We're three cofounders, Rohan, Kushagra, and Divit, and we've been friends for 11 years, since studying for the IIT-JEE. We all did Electrical Engineering (Rohan at IIT Delhi, me at IIT Kharagpur, Divit at BITS Pilani, Hyderabad), and Rohan and I later went to Harvard, where this pre-compilation layer became our capstone thesis. We have built multiple products around the idea of a pre-compiled knowledge layer. Our main differentiating point is the way we approach memory and context in general. Most AI assistant tools treat memory as an afterthought. We have worked on wikis for AI for more than a year now, building products for Harvard and NASA. The one thing we have learnt is that one needs to spend a lot more compute upfront, in the pre-compilation of this knowledge base, to get it right. Having this pre-compiled knowledge base enables a lot of interesting ideas. First is a proactive agent. Since I have compiled what’s going on in both my company and my current life, Almanac can start completing tasks on its own. Concretely, we run a background worker which takes a look at tasks that could be completed, pings the main agent, who then pings me, suggesting which tasks it could automate. As a result, I wake up to proactive notifications which look like “I already prepared a draft of your fundraising pitch deck, want to take a look?” Second, long-horizon tasks. In our wikis, we maintain a section on ongoing projects, so Almanac can pick a task back up days later without losing the thread. Most agents are session-bound: they run once, finish, and forget. But a lot of real work isn't one shot; it plays out over hours and days with people in the loop. The clearest example is anything that involves waiting on a human, like scheduling a meeting, following up on a sales thread, or chasing a document. Almanac can send an email on your behalf, and because it's always on and remembers the project, it notices the reply four hours later and drafts the right follow-up in context. Since launching, we've seen a lot of use cases for Almanac. One person runs her dog-rescue operation through it: finding available fosters, tracking pickups, and sending reminders for consent forms. Another researches Polymarket strategies with Almanac, where its memory holds what past strategies were, proposes new ones, and compares them against what went right or wrong last time. Another builds marketing campaigns on it without having to re-explain the business and the whole campaign every single time. Regarding privacy and security, Almanac only accesses accounts you explicitly connect. Your OAuth credentials are held by our connection provider, not in Almanac’s database. We only store the wiki and the source behind its citations. So an email used as a citation may be retained as Markdown. We’re live: https://usealmanac.com . We have a 7-day trial on all of our plans. Happy to hear if people have done similar setups, and what new features they’d like in Almanac. If you’re a company that wants to get an agent that actually gets tasks done, I would love to talk: https://cal.com/team/almanac/demo . Comments URL: https://news.ycombinator.com/item?id=49511007 Points: 41 # Comments: 40",
-      "topic": "Security",
-      "topicIcon": "🔒",
-      "importance": 4,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Hi HN, I'm Kushagra, one of three founders of Almanac, a Hermes with a brain that knows everything about your company. W..."
     },
     {
       "id": "badf236d9d67",
@@ -632,34 +617,34 @@
       "summary_en": "Build American AI plans to lobby voters in select states about the virtues of data centers by spending millions of dolla..."
     },
     {
-      "id": "60061a058ea1",
-      "title": "Since it was stripped of planetary status, Pluto’s defenders have been fighting",
-      "link": "https://www.theguardian.com/science/2026/aug/31/forbidden-planet-was-plutos-2006-demotion-a-big-mistake",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-08-31T06:05:07Z",
-      "description": "Article URL: https://www.theguardian.com/science/2026/aug/31/forbidden-planet-was-plutos-2006-demotion-a-big-mistake Comments URL: https://news.ycombinator.com/item?id=49506148 Points: 41 # Comments: 117",
-      "topic": "Startups",
-      "topicIcon": "🚀",
-      "importance": 3,
-      "reliability": 3,
+      "id": "b0ee4c6fde08",
+      "title": "Apple shares ‘shocking evidence’ against former employee accused of stealing company data for OpenAI",
+      "link": "https://techcrunch.com/2026/08/31/apple-shares-shocking-evidence-against-former-employee-accused-of-stealing-company-data-for-openai/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-09-01T00:13:00Z",
+      "description": "Apple says it has evidence that a former employee destroyed evidence of data theft after learning he was under investigation.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
       "summary_bn": "",
-      "summary_en": "Article URL: https://www.theguardian.com/science/2026/aug/31/forbidden-planet-was-plutos-2006-demotion-a-big-mistake Com..."
+      "summary_en": "Apple says it has evidence that a former employee destroyed evidence of data theft after learning he was under investiga..."
     },
     {
-      "id": "0093bb3cdd1d",
-      "title": "OpenShot 4.0 – Open-source video editor",
-      "link": "https://www.openshot.org/blog/2026/08/30/openshot-40-record-edit-color-like-never-before/",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-08-31T09:59:05Z",
-      "description": "Article URL: https://www.openshot.org/blog/2026/08/30/openshot-40-record-edit-color-like-never-before/ Comments URL: https://news.ycombinator.com/item?id=49507822 Points: 520 # Comments: 120",
-      "topic": "Startups",
-      "topicIcon": "🚀",
-      "importance": 3,
-      "reliability": 3,
+      "id": "6a81feffb651",
+      "title": "Lachy Groom backs Indian startup aiming to keep aircraft aloft for a year",
+      "link": "https://techcrunch.com/2026/08/31/lachy-groom-backs-indian-startup-aiming-to-keep-aircraft-aloft-for-a-year/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-09-01T00:30:00Z",
+      "description": "Founded by a 20-year-old, Alteon is developing autonomous aircraft that hopes to harvest wind energy to stay aloft for several months.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
       "summary_bn": "",
-      "summary_en": "Article URL: https://www.openshot.org/blog/2026/08/30/openshot-40-record-edit-color-like-never-before/ Comments URL: htt..."
+      "summary_en": "Founded by a 20-year-old, Alteon is developing autonomous aircraft that hopes to harvest wind energy to stay aloft for s..."
     },
     {
       "id": "4194b590a473",
@@ -713,7 +698,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-31T12:41:22Z",
-      "description": "Article URL: https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/ Comments URL: https://news.ycombinator.com/item?id=49508982 Points: 268 # Comments: 305",
+      "description": "Article URL: https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/ Comments URL: https://news.ycombinator.com/item?id=49508982 Points: 342 # Comments: 386",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 3,
@@ -738,18 +723,33 @@
     },
     {
       "id": "30cbe227f51e",
-      "title": "ravynOS: Pre-alpha open-source OS based on Darwin, FreeBSD, Apple open-source",
+      "title": "RavynOS: Pre-alpha open-source OS based on Darwin, FreeBSD, Apple open-source",
       "link": "https://ravynos.com/",
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-31T16:19:36Z",
-      "description": "Article URL: https://ravynos.com/ Comments URL: https://news.ycombinator.com/item?id=49511534 Points: 150 # Comments: 97",
+      "description": "Article URL: https://ravynos.com/ Comments URL: https://news.ycombinator.com/item?id=49511534 Points: 181 # Comments: 105",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 3,
       "reliability": 3,
       "summary_bn": "",
-      "summary_en": "Article URL: https://ravynos.com/ Comments URL: https://news.ycombinator.com/item?id=49511534 Points: 150 # Comments: 97"
+      "summary_en": "Article URL: https://ravynos.com/ Comments URL: https://news.ycombinator.com/item?id=49511534 Points: 181 # Comments: 10..."
+    },
+    {
+      "id": "45aef92bd4de",
+      "title": "Markiplier is now GoPro’s biggest shareholder",
+      "link": "https://www.theverge.com/tech/986847/markiplier-gopro-investor",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-08-31T16:38:10Z",
+      "description": "YouTuber Mark \"Markiplier\" Fischbach has invested enough in GoPro to become its single largest shareholder, with an 8.5 percent stake in the company, Bloomberg reports. Speaking to Bloomberg, Fischbach said he thought GoPro \"seems undervalued\" and sees his investment as \"part of a larger mission to make filmmaking more accessible,\" following the release of his [&#8230;]",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "YouTuber Mark \"Markiplier\" Fischbach has invested enough in GoPro to become its single largest shareholder, with an 8.5 ..."
     }
   ]
 }
