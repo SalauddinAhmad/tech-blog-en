@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-01T10:38:13+06:00",
+  "lastUpdated": "2026-09-01T15:52:29+06:00",
   "news": [
     {
       "id": "3bbdd25d548f",
@@ -45,36 +45,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "AI is proving effective at finding and exploiting vulnerabilities. Some say this will make it harder for governments to ..."
-    },
-    {
-      "id": "f08abcf946bf",
-      "title": "Amazon rigged billions in ad pricing, lawsuit from states and US watchdog alleges",
-      "link": "https://www.bbc.co.uk/news/articles/cvgy91nvy27o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC",
-      "sourceIcon": "bbc",
-      "pubDate": "2026-08-31T21:28:49Z",
-      "description": "Amazon responded to the lawsuit, arguing the US Federal Trade Commission \"misunderstands\" their ad market.",
-      "topic": "Regulation",
-      "topicIcon": "⚖️",
-      "importance": 7,
-      "reliability": 5,
-      "summary_bn": "",
-      "summary_en": "Amazon responded to the lawsuit, arguing the US Federal Trade Commission \"misunderstands\" their ad market."
-    },
-    {
-      "id": "493a177a82af",
-      "title": "Nvidia’s $3.5B MediaTek bet reveals its plan for tackling Big Tech’s AI chip buildout",
-      "link": "https://techcrunch.com/2026/08/31/nvidias-3-5b-mediatek-bet-reveals-its-plan-for-tackling-big-techs-ai-chip-buildout/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-08-31T15:15:25Z",
-      "description": "Nvidia invests $3.5 billion into Taiwanese chipmaker MediaTek. The deal shows how Nvidia plans to stay essential to AI infrastructure as Big Tech begins to build its own AI chips.",
-      "topic": "Hardware",
-      "topicIcon": "💻",
-      "importance": 6,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Nvidia invests $3.5 billion into Taiwanese chipmaker MediaTek. The deal shows how Nvidia plans to stay essential to AI i..."
     },
     {
       "id": "e8bde4788682",
@@ -158,7 +128,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-31T11:45:48Z",
-      "description": "Article URL: https://signalandsilence.substack.com/p/i-think-someone-hacked-the-commissary Comments URL: https://news.ycombinator.com/item?id=49508506 Points: 289 # Comments: 160",
+      "description": "Article URL: https://signalandsilence.substack.com/p/i-think-someone-hacked-the-commissary Comments URL: https://news.ycombinator.com/item?id=49508506 Points: 343 # Comments: 195",
       "topic": "Security",
       "topicIcon": "🔒",
       "importance": 5,
@@ -557,6 +527,21 @@
       "summary_en": "From the best Dyson vacuum to the best wireless earbuds we’ve tested, you can get some great gadgets on sale already ahe..."
     },
     {
+      "id": "f08abcf946bf",
+      "title": "Amazon rigged $20bn worth of ad prices, US lawsuit alleges",
+      "link": "https://www.bbc.co.uk/news/articles/cvgy91nvy27o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC",
+      "sourceIcon": "bbc",
+      "pubDate": "2026-08-31T21:28:49Z",
+      "description": "Amazon responded to the lawsuit, arguing the US Federal Trade Commission \"misunderstands\" their ad market.",
+      "topic": "Regulation",
+      "topicIcon": "⚖️",
+      "importance": 4,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "Amazon responded to the lawsuit, arguing the US Federal Trade Commission \"misunderstands\" their ad market."
+    },
+    {
       "id": "b30b0b40df0b",
       "title": "FTC lawsuit alleges Amazon has been ‘secretly and systematically’ overcharging for ads",
       "link": "https://www.theverge.com/tech/986982/amazon-advertising-prices-ftc-lawsuit",
@@ -647,6 +632,21 @@
       "summary_en": "Founded by a 20-year-old, Alteon is developing autonomous aircraft that hopes to harvest wind energy to stay aloft for s..."
     },
     {
+      "id": "8ad1fa4dc098",
+      "title": "Magna increases bet on battery swapping in India with $35M for Yuma",
+      "link": "https://techcrunch.com/2026/08/31/magna-increases-bet-on-battery-swapping-in-india-with-35m-for-yuma/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-09-01T05:00:00Z",
+      "description": "Magna's investment in Yuma Energy has reached $87 million as the Canadian auto supplier increases its majority stake in the Indian battery-swapping firm.",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Magna's investment in Yuma Energy has reached $87 million as the Canadian auto supplier increases its majority stake in ..."
+    },
+    {
       "id": "4194b590a473",
       "title": "ATM Flaws Reveal Key Weaknesses in the Software Supply Chain",
       "link": "https://www.wired.com/story/atm-flaws-reveal-key-weaknesses-in-the-software-supply-chain/",
@@ -698,7 +698,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-31T12:41:22Z",
-      "description": "Article URL: https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/ Comments URL: https://news.ycombinator.com/item?id=49508982 Points: 342 # Comments: 386",
+      "description": "Article URL: https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/ Comments URL: https://news.ycombinator.com/item?id=49508982 Points: 411 # Comments: 455",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 3,
@@ -707,34 +707,19 @@
       "summary_en": "Article URL: https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/ Comments URL: https://new..."
     },
     {
-      "id": "35875a421ff9",
-      "title": "Debian won&#8217;t ban AI code from its Linux distribution",
-      "link": "https://www.theverge.com/tech/986789/linux-debian-generative-ai-policy",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-08-31T15:34:58Z",
-      "description": "Debian voted to allow developers to use AI tools in their contributions to the Linux distribution's \"development, maintenance, [and] documentation.\" The new policy on AI acknowledges that \"responsible\" use of AI can improve developers' productivity, and goes on to say, \"generative AI is neither exempt from nor subject to special rules beyond the standards already [&#8230;]",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 3,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Debian voted to allow developers to use AI tools in their contributions to the Linux distribution's \"development, mainte..."
-    },
-    {
       "id": "30cbe227f51e",
       "title": "RavynOS: Pre-alpha open-source OS based on Darwin, FreeBSD, Apple open-source",
       "link": "https://ravynos.com/",
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-08-31T16:19:36Z",
-      "description": "Article URL: https://ravynos.com/ Comments URL: https://news.ycombinator.com/item?id=49511534 Points: 181 # Comments: 105",
+      "description": "Article URL: https://ravynos.com/ Comments URL: https://news.ycombinator.com/item?id=49511534 Points: 201 # Comments: 115",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 3,
       "reliability": 3,
       "summary_bn": "",
-      "summary_en": "Article URL: https://ravynos.com/ Comments URL: https://news.ycombinator.com/item?id=49511534 Points: 181 # Comments: 10..."
+      "summary_en": "Article URL: https://ravynos.com/ Comments URL: https://news.ycombinator.com/item?id=49511534 Points: 201 # Comments: 11..."
     },
     {
       "id": "45aef92bd4de",
@@ -750,6 +735,21 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "YouTuber Mark \"Markiplier\" Fischbach has invested enough in GoPro to become its single largest shareholder, with an 8.5 ..."
+    },
+    {
+      "id": "001d0ddadc40",
+      "title": "I turned my security cameras into an automatic bird identification system",
+      "link": "https://jasontucker.blog/how-i-turned-my-security-cameras-into-an-automatic-bird-identification-system-with-birdnet-go/",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-08-31T16:47:11Z",
+      "description": "Article URL: https://jasontucker.blog/how-i-turned-my-security-cameras-into-an-automatic-bird-identification-system-with-birdnet-go/ Comments URL: https://news.ycombinator.com/item?id=49511856 Points: 502 # Comments: 118",
+      "topic": "Security",
+      "topicIcon": "🔒",
+      "importance": 3,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "Article URL: https://jasontucker.blog/how-i-turned-my-security-cameras-into-an-automatic-bird-identification-system-with..."
     }
   ]
 }
