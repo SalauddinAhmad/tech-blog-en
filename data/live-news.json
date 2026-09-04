@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-04T05:53:32+06:00",
+  "lastUpdated": "2026-09-04T10:01:43+06:00",
   "news": [
     {
       "id": "bdd957c6a938",
@@ -92,6 +92,21 @@
       "summary_en": "Open source, commercial, single-hop, multi-hop, mixnet? The array of options is dizzying."
     },
     {
+      "id": "e61fe5cf9b6e",
+      "title": "Nvidia will officially bring DLSS 5 to older GPUs — but won’t give gamers full control",
+      "link": "https://www.theverge.com/games/989978/nvidia-dlss-5-rtx-40",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-09-04T01:49:25Z",
+      "description": "Officially, Nvidia's controversial DLSS 5 AI rendering was supposed to launch this evening with only a single game, only on Nvidia's latest RTX 50 GPUs, and with developers in full control of their artistic vision. But unofficially, modders have already ported a leaked version of DLSS 5 to run on just about anything while cranking [&#8230;]",
+      "topic": "Hardware",
+      "topicIcon": "💻",
+      "importance": 6,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Officially, Nvidia's controversial DLSS 5 AI rendering was supposed to launch this evening with only a single game, only..."
+    },
+    {
       "id": "ac2439cde7d8",
       "title": "Scientists Have Found the Most Convincing Evidence Yet of a Dark Matter Particle",
       "link": "https://www.wired.com/story/scientists-find-most-convincing-evidence-yet-dark-matter-particle/",
@@ -120,21 +135,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Nvidia said Hugging Face hosts over 3 million models and is used by over 18 million developers."
-    },
-    {
-      "id": "929c67df92b4",
-      "title": "Ask HN: Why were OpenAI, Claude, and Grok simultaneously down?",
-      "link": "https://news.ycombinator.com/item?id=49551096",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-09-03T15:07:01Z",
-      "description": "https://status.openai.com https://status.claude.com https://status.x.ai ChatGPT outage – Resolved - https://news.ycombinator.com/item?id=49550614 (315 comments) Claude outage – Resolved - https://news.ycombinator.com/item?id=49549676 (146 comments) Grok outage - https://news.ycombinator.com/item?id=49551589 (142 comments) Comments URL: https://news.ycombinator.com/item?id=49551096 Points: 320 # Comments: 514",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 5,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "https://status.openai.com https://status.claude.com https://status.x.ai ChatGPT outage – Resolved - https://news.ycombin..."
     },
     {
       "id": "cc631cbb5158",
@@ -317,19 +317,34 @@
       "summary_en": "Last September, Steve Ballmer insisted in an ESPN interview that the Clippers weren't involved in a shady-looking $28 mi..."
     },
     {
-      "id": "4aa8b01362dd",
-      "title": "Meta Pushes Its New AI Agent on Employees—but Eases Off on Tokenmaxxing",
-      "link": "https://www.wired.com/story/meta-pushes-its-new-ai-agent-on-employees-but-eases-off-on-tokenmaxxing/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-09-03T01:32:02Z",
-      "description": "The company is reducing pressure on workers to use artificial intelligence tools while encouraging them to experiment with Hatch, its most advanced AI project yet.",
+      "id": "ee6369b53b1f",
+      "title": "The unusually muted Tesla Cybercab launch",
+      "link": "https://www.theverge.com/transportation/989501/tesla-cybercab-launch-robotaxi-austin-musk",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-09-04T00:25:06Z",
+      "description": "At a private, closed-door event in Austin, Texas today, Tesla officially launched its gilded car of the future: the Cybercab. It's a huge milestone for Elon Musk, who has been hyping the imminent arrival of driverless cars for years and has bet the future of his company on AI, autonomous vehicles, and humanoid robots. It [&#8230;]",
       "topic": "AI/ML",
       "topicIcon": "🤖",
-      "importance": 4,
+      "importance": 5,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "The company is reducing pressure on workers to use artificial intelligence tools while encouraging them to experiment wi..."
+      "summary_en": "At a private, closed-door event in Austin, Texas today, Tesla officially launched its gilded car of the future: the Cybe..."
+    },
+    {
+      "id": "920440924028",
+      "title": "Crusoe reportedly raises $3B at a  $30B valuation",
+      "link": "https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-09-04T00:48:42Z",
+      "description": "The round came together after the data center developer reportedly secured a $13 billion contract with Jane Street.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 5,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "The round came together after the data center developer reportedly secured a $13 billion contract with Jane Street."
     },
     {
       "id": "28a858a149fb",
@@ -465,21 +480,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "WeatherNext 3 is the latest wave of a sea change in meteorology brought out by deep learning techniques. Google says it ..."
-    },
-    {
-      "id": "93de9e831209",
-      "title": "Circular’s new smart rings add contactless payments and vibrating alerts",
-      "link": "https://www.theverge.com/tech/988517/circular-ring-3-pro-slim-nfc-contactless-payment-vibrating-alerts",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-09-03T16:00:00Z",
-      "description": "Circular announced its new Ring 3 Series today as a follow-up to the Ring 2 that debuted at CES 2025 with upgraded sensors and FDA-cleared atrial fibrillation detection. The new Ring 3 collection consists of both a Pro model that carries forward those same health-tracking features, and a smaller Slim option that offers more limited [&#8230;]",
-      "topic": "Regulation",
-      "topicIcon": "⚖️",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Circular announced its new Ring 3 Series today as a follow-up to the Ring 2 that debuted at CES 2025 with upgraded senso..."
     },
     {
       "id": "56c7f77a4d5e",
