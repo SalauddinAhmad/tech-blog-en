@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-04T10:01:43+06:00",
+  "lastUpdated": "2026-09-04T15:25:38+06:00",
   "news": [
     {
       "id": "bdd957c6a938",
@@ -105,6 +105,36 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Officially, Nvidia's controversial DLSS 5 AI rendering was supposed to launch this evening with only a single game, only..."
+    },
+    {
+      "id": "e98d37e7a1b8",
+      "title": "Hackers Had a Live Feed of Every ID Verification Company Scanned for over a Year",
+      "link": "http://www.techdirt.com/2026/09/03/hackers-had-a-live-feed-of-every-id-this-verification-company-scanned-for-over-a-year/",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-09-04T06:47:51Z",
+      "description": "Article URL: http://www.techdirt.com/2026/09/03/hackers-had-a-live-feed-of-every-id-this-verification-company-scanned-for-over-a-year/ Comments URL: https://news.ycombinator.com/item?id=49561320 Points: 94 # Comments: 27",
+      "topic": "Security",
+      "topicIcon": "🔒",
+      "importance": 6,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "Article URL: http://www.techdirt.com/2026/09/03/hackers-had-a-live-feed-of-every-id-this-verification-company-scanned-fo..."
+    },
+    {
+      "id": "d2ea2c5cfc1a",
+      "title": "Lexar’s Muse is an ultra-slim portable SSD that’s less than 4mm thick",
+      "link": "https://www.theverge.com/tech/986960/lexar-muse-ultra-thin-ssd-storage-drive-proprietary-cable",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-09-04T07:00:00Z",
+      "description": "Following the lead of companies like Xteink, Lexar is the latest to sacrifice a USB-C port in the pursuit of slimming down its hardware. When the Lexar Muse Ultra-Slim Portable SSD launches later this year in 512GB and 1TB capacities it will be one of the slimmest you can buy. At its thickest point in [&#8230;]",
+      "topic": "Hardware",
+      "topicIcon": "💻",
+      "importance": 6,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Following the lead of companies like Xteink, Lexar is the latest to sacrifice a USB-C port in the pursuit of slimming do..."
     },
     {
       "id": "ac2439cde7d8",
@@ -347,51 +377,6 @@
       "summary_en": "The round came together after the data center developer reportedly secured a $13 billion contract with Jane Street."
     },
     {
-      "id": "28a858a149fb",
-      "title": "Lovehoney Coupon Offers: Toys, Lingerie, and Gift Set Discounts",
-      "link": "https://www.wired.com/story/lovehoney-discount-code/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-09-03T05:00:00Z",
-      "description": "Save on Lovehoney, including bestselling toys, lingerie, and popular gift sets for date nights, self-care, and couples’ play.",
-      "topic": "Other",
-      "topicIcon": "📰",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Save on Lovehoney, including bestselling toys, lingerie, and popular gift sets for date nights, self-care, and couples’ ..."
-    },
-    {
-      "id": "eb845c98e932",
-      "title": "Vimeo Promo Codes and Discounts: Up to 40% Off This September 2026",
-      "link": "https://www.wired.com/story/vimeo-promo-code/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-09-03T05:00:00Z",
-      "description": "Enjoy 25% off a membership, 40% off, plus an additional 10% off annual plans, and more deals to save at Vimeo.",
-      "topic": "Other",
-      "topicIcon": "📰",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Enjoy 25% off a membership, 40% off, plus an additional 10% off annual plans, and more deals to save at Vimeo."
-    },
-    {
-      "id": "14d7e8146377",
-      "title": "Watch: BBC travels in self-driving Uber around London",
-      "link": "https://www.bbc.co.uk/news/videos/cwyzeyd7peeo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC",
-      "sourceIcon": "bbc",
-      "pubDate": "2026-09-03T07:20:23Z",
-      "description": "The BBC's Zoe Kleinman takes a ride on Uber's self-driving robotaxi as the service rolls out on Thursday.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 5,
-      "summary_bn": "",
-      "summary_en": "The BBC's Zoe Kleinman takes a ride on Uber's self-driving robotaxi as the service rolls out on Thursday."
-    },
-    {
       "id": "d8082f6dd017",
       "title": "DOGE Affiliate Asked for College Credits for Participating in Takeover",
       "link": "https://www.wired.com/story/doge-affiliate-asked-for-college-credits-for-participating-in-takeover/",
@@ -450,6 +435,21 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Zoox is expanding to this critical ride-hailing destination a few weeks after it started charging for robotaxi rides."
+    },
+    {
+      "id": "c1931b706a83",
+      "title": "Show HN: Reactor Atlas",
+      "link": "https://reactoratlas.com",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-09-03T12:33:01Z",
+      "description": "Hi HN, I'm a nuclear engineer and tech entrepreneur. After working for 3 years in the National Atomic Energy Commision (CNEA) in HPC software for nuclear simulations, I co-founded ratherlabs.com, a software company providing blockchain solutions for startups. Rather Labs business reached ~6 million usd in annual revenue in 2024; now demand is decreasing as our niche clients are using AI to launch their MVPs. Now I'm joining my scientific background with my entrepreneurial inclinations to think of problems related to the energy industry. Nuclear is experiencing a renaissance now (it was in a dark age when I was studying after the Fukushima event) so I think this is the right moment for me to jump again into the field. Reactor atlas is an interactive nuclear reactor map and an intelligence layer on top of it. The basic layer indexes: - power reactors - research reactors - fuel facilities with their history and projection, by country. The project is solving a fragmented information ecosystem, where operational and commercial data is hard to conciliate. Also, I'm monitoring nuclear news associated with each of the facilities, political declarations that may affect the nuclear landscape and geo-phisical news (like earthquakes) that could affect operation. On top of the operational + news layer, I'm creating an intelligence layer that will help institutions of different types make faster decisions by subscribing to very specific alerts. As an engineer, I used to code in fortran and c++ when I was working at CNEA, and later I participated in the first Rather Labs projects architecting complex async systems, mostly using MERN stack. I'm no longer coding anymore. I'm focused on designing robust systems with AI agents. I mainly used Claude Fable 5.1 to develop reactoratlas.com, deploying on vercel and using mostly nextjs, threejs, postgreSQL and some cron jobs to query and update data. I miss coding as in the old days, but I haven't code a single line in this project. And I strongly believe we humans shouldn't code anymore: our responsibility is now on designing and supervising AI systems. Thanks for your attention! Comments URL: https://news.ycombinator.com/item?id=49549148 Points: 26 # Comments: 14",
+      "topic": "Hardware",
+      "topicIcon": "💻",
+      "importance": 4,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "Hi HN, I'm a nuclear engineer and tech entrepreneur. After working for 3 years in the National Atomic Energy Commision (..."
     },
     {
       "id": "7633d8655b34",
@@ -540,36 +540,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Ultrahuman is targeting a $200 million annual revenue run rate by January 2027 as it builds a new Qualcomm-powered smart..."
-    },
-    {
-      "id": "d29dea85d7ae",
-      "title": "Microsoft slashes Xbox Cloud Gaming to just 15 hours a month for Ultimate subscribers",
-      "link": "https://www.theverge.com/news/989166/microsoft-xbox-cloud-gaming-hourly-limits-changes",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-09-03T17:00:00Z",
-      "description": "Microsoft is announcing some major changes to Xbox Cloud Gaming today, less than a year after opening up cloud gaming to its Xbox Game Pass Premium and Essential tiers. While all Game Pass plans have included unlimited cloud gaming over the past year, from November this will be limited to just 15 hours on Ultimate, [&#8230;]",
-      "topic": "Cloud/DevOps",
-      "topicIcon": "☁️",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Microsoft is announcing some major changes to Xbox Cloud Gaming today, less than a year after opening up cloud gaming to..."
-    },
-    {
-      "id": "a9a7fc0ab976",
-      "title": "Microsoft opens up Xbox Cloud Gaming with new pay-as-you-go option",
-      "link": "https://www.theverge.com/news/989211/microsoft-xbox-cloud-gaming-pay-as-you-go-option",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-09-03T17:00:00Z",
-      "description": "Microsoft says it will let anyone access Xbox Cloud Gaming in November, without the need to subscribe to Xbox Game Pass. The change to a pay-as-you-go model is part of some sweeping changes to Xbox Cloud Gaming today, and is designed for people who don't use cloud access enough to warrant a monthly subscription. \"Players [&#8230;]",
-      "topic": "Cloud/DevOps",
-      "topicIcon": "☁️",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Microsoft says it will let anyone access Xbox Cloud Gaming in November, without the need to subscribe to Xbox Game Pass...."
     },
     {
       "id": "7ba98ac3e0b5",
@@ -750,6 +720,36 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Does your power bank have \"CryoPulse technology\" or a \"Cyber Window\"? If you disappointingly answered \"no\" to both, you ..."
+    },
+    {
+      "id": "78daff6cb6cc",
+      "title": "Tesla is asking people if they want to buy and run Cybercab fleets",
+      "link": "https://techcrunch.com/2026/09/03/tesla-is-asking-people-if-they-want-to-buy-and-run-cybercab-fleets/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-09-03T22:18:30Z",
+      "description": "The company published a form on its website Thursday soliciting info from people who are interested in \"Cybercab fleet vehicle purchasing.\"",
+      "topic": "Web/JavaScript",
+      "topicIcon": "🌐",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "The company published a form on its website Thursday soliciting info from people who are interested in \"Cybercab fleet v..."
+    },
+    {
+      "id": "35cc4dc0f98d",
+      "title": "5 Best Video Doorbell Cameras (2026): Subscription-Free, Video, and More",
+      "link": "https://www.wired.com/gallery/best-video-doorbells/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-09-03T22:48:55Z",
+      "description": "Never miss a delivery. These WIRED-tested picks will help you keep tabs on your front door from anywhere.",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Never miss a delivery. These WIRED-tested picks will help you keep tabs on your front door from anywhere."
     }
   ]
 }
