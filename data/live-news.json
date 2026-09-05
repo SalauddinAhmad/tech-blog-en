@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T09:58:15+06:00",
+  "lastUpdated": "2026-09-05T14:17:42+06:00",
   "news": [
     {
       "id": "4f5dd1d21115",
@@ -392,21 +392,6 @@
       "summary_en": "\"Fundamentally, we want to learn about the origins of this planet and how it came to be like it is.\""
     },
     {
-      "id": "9ce8a043bb77",
-      "title": "The sameness problem behind those unappetizing AI-generated menus",
-      "link": "https://techcrunch.com/2026/09/03/the-sameness-problem-behind-those-unappetizing-ai-generated-menus/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-09-04T04:21:03Z",
-      "description": "While restaurant owners might look to generative AI as a shortcut to sprucing up their menu, customers can viscerally sense that something is wrong with the food.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "While restaurant owners might look to generative AI as a shortcut to sprucing up their menu, customers can viscerally se..."
-    },
-    {
       "id": "860a7a66f7c1",
       "title": "What the Heck? Another Perfect Geometric Shape Has Been Detected on Saturn",
       "link": "https://www.wired.com/story/another-perfect-geometric-shape-detected-on-saturn/",
@@ -638,7 +623,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-09-04T17:18:08Z",
-      "description": "Hey all, i just launched my Eink Bike computer project and think it is cool. Another tidbit, in the crazy things that AI has done... It has helped create a ANT (common sensor wireless protocol used in workout/biking) implementation for ESP32 by messing around with undocumented registers: https://github.com/RaemondBW/esp32-ant Comments URL: https://news.ycombinator.com/item?id=49567437 Points: 250 # Comments: 87",
+      "description": "Hey all, i just launched my Eink Bike computer project and think it is cool. Another tidbit, in the crazy things that AI has done... It has helped create a ANT (common sensor wireless protocol used in workout/biking) implementation for ESP32 by messing around with undocumented registers: https://github.com/RaemondBW/esp32-ant Comments URL: https://news.ycombinator.com/item?id=49567437 Points: 279 # Comments: 99",
       "topic": "Open Source",
       "topicIcon": "🔓",
       "importance": 4,
@@ -737,19 +722,34 @@
       "summary_en": "Laura Cress has the highlights from Gamescom, the biggest gaming convention in the world."
     },
     {
-      "id": "268eda20f696",
-      "title": "Foreo Discount Codes and Deals: Up to 50% Off",
-      "link": "https://www.wired.com/story/foreo-promo-code/",
+      "id": "02508c5c3ac7",
+      "title": "Silicon Valley Is Having a ‘Hot Girl Renaissance’",
+      "link": "https://www.wired.com/story/silicon-valley-is-having-a-hot-girl-renaissance/",
       "source": "Wired",
       "sourceIcon": "wired",
-      "pubDate": "2026-09-04T05:00:00Z",
-      "description": "Save on Foreo favorites, including LUNA cleansing brushes, BEAR microcurrent devices, and masks and accessories to level up your daily skincare routine at home.",
+      "pubDate": "2026-09-04T09:00:00Z",
+      "description": "A San Francisco “Hot List” is trying to buck stereotypes about dating in tech circles amid wider debates about the value of being perceived as attractive.",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 3,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "Save on Foreo favorites, including LUNA cleansing brushes, BEAR microcurrent devices, and masks and accessories to level..."
+      "summary_en": "A San Francisco “Hot List” is trying to buck stereotypes about dating in tech circles amid wider debates about the value..."
+    },
+    {
+      "id": "218dd7926faa",
+      "title": "AI Use in the Job Market Is Creating an Infinite Doom Loop",
+      "link": "https://www.wired.com/story/ai-job-market-infinite-doom-loop/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-09-04T10:00:00Z",
+      "description": "Job seekers are trying to game the application process using AI. It’s not working, and not for the reasons you might think.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Job seekers are trying to game the application process using AI. It’s not working, and not for the reasons you might thi..."
     }
   ]
 }
