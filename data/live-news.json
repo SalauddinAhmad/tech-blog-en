@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-08T05:22:57+06:00",
+  "lastUpdated": "2026-09-08T10:05:41+06:00",
   "news": [
     {
       "id": "6592f699f635",
@@ -23,7 +23,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-09-07T09:26:53Z",
-      "description": "Article URL: https://mathathonchallenge.com/index.html Comments URL: https://news.ycombinator.com/item?id=49596055 Points: 211 # Comments: 72",
+      "description": "Article URL: https://mathathonchallenge.com/index.html Comments URL: https://news.ycombinator.com/item?id=49596055 Points: 244 # Comments: 84",
       "topic": "Security",
       "topicIcon": "🔒",
       "importance": 6,
@@ -75,6 +75,21 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "The intricate, 5.6 trillion-pixel map covers approximately 75 percent of the sky and includes about 4 billion celestial ..."
+    },
+    {
+      "id": "8d7dc77c7e0c",
+      "title": "First Xiaomi, then the world: why Arm might give phone gaming a huge graphics boost",
+      "link": "https://www.theverge.com/games/990676/arm-neural-rendering-mali-g2-ultra-xiaomi-xring-o3",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-09-08T02:00:00Z",
+      "description": "China is getting first crack at a British technology that might change how mobile games are made and played. Today, the Xiaomi 18 Fold launches in mainland China with an Arm Mali G2-Ultra NX graphics processor inside its custom Xring O3 chip. What's so special about that? After five years of development, Arm now has [&#8230;]",
+      "topic": "Hardware",
+      "topicIcon": "💻",
+      "importance": 6,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "China is getting first crack at a British technology that might change how mobile games are made and played. Today, the ..."
     },
     {
       "id": "51c7e6945ba1",
@@ -180,21 +195,6 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "The head of chip designer Arm says modelling how a DNA marker is impacted by cancer cannot be done now, but computers ar..."
-    },
-    {
-      "id": "d5c736f2ff62",
-      "title": "Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-09-06T23:36:04Z",
-      "description": "The Seattle Times and Newsday are just the latest plaintiffs to take OpenAI to court, alleging copyright infringement. The two outlets say the company used their journalism as training data for its AI models without permission and often reproduces passages from their reporting in response to user queries. This is similar to lawsuits filed by [&#8230;]",
-      "topic": "Regulation",
-      "topicIcon": "⚖️",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "The Seattle Times and Newsday are just the latest plaintiffs to take OpenAI to court, alleging copyright infringement. T..."
     },
     {
       "id": "0b5c38b2d7a0",
@@ -332,6 +332,21 @@
       "summary_en": "Vulcan oven mitts, spaceship baking dishes, and an out-of-this-world communicator grater—you'll need warp speed to Kling..."
     },
     {
+      "id": "fe6c53252f4c",
+      "title": "Eric Wu’s newest company, out of stealth since May, is going after construction’s labor crunch",
+      "link": "https://techcrunch.com/2026/09/07/eric-wus-newest-company-out-of-stealth-since-may-is-going-after-constructions-labor-crunch/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-09-08T02:16:39Z",
+      "description": "Eric Wu, who built and ran Opendoor before stepping away in 2022, has had his new company, NavigateAI, out of stealth since May — building AI copilots that give construction workers real-time, hands-free guidance through smartphones and Meta's AI glasses, backed by $25 million from Elad Gil, Khosla Ventures, and Lennar to tackle a labor shortage severe enough that data center projects alone now need 4,000 to 5,000 workers apiece.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Eric Wu, who built and ran Opendoor before stepping away in 2022, has had his new company, NavigateAI, out of stealth si..."
+    },
+    {
       "id": "b091053dfe69",
       "title": "What’s the Best Kindle of 2026 (So Far)?",
       "link": "https://www.wired.com/gallery/best-kindle/",
@@ -428,13 +443,13 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-09-07T18:52:06Z",
-      "description": "Article URL: https://lax-skyline.parcelscope.net/ Comments URL: https://news.ycombinator.com/item?id=49601655 Points: 168 # Comments: 72",
+      "description": "Article URL: https://lax-skyline.parcelscope.net/ Comments URL: https://news.ycombinator.com/item?id=49601655 Points: 244 # Comments: 125",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 3,
       "reliability": 3,
       "summary_bn": "",
-      "summary_en": "Article URL: https://lax-skyline.parcelscope.net/ Comments URL: https://news.ycombinator.com/item?id=49601655 Points: 16..."
+      "summary_en": "Article URL: https://lax-skyline.parcelscope.net/ Comments URL: https://news.ycombinator.com/item?id=49601655 Points: 24..."
     },
     {
       "id": "137c5f16b25f",
@@ -443,7 +458,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-09-07T20:32:55Z",
-      "description": "Article URL: https://www.virtualizationhowto.com/2026/09/leaving-vmware-just-got-harder-after-broadcom-pulled-vddk-downloads/ Comments URL: https://news.ycombinator.com/item?id=49602699 Points: 21 # Comments: 8",
+      "description": "Article URL: https://www.virtualizationhowto.com/2026/09/leaving-vmware-just-got-harder-after-broadcom-pulled-vddk-downloads/ Comments URL: https://news.ycombinator.com/item?id=49602699 Points: 129 # Comments: 55",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 3,
@@ -458,7 +473,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-09-07T22:12:38Z",
-      "description": "Stuxnet! Here reproduced by me. Only researchs educations purposes. Comments URL: https://news.ycombinator.com/item?id=49603546 Points: 6 # Comments: 0",
+      "description": "Stuxnet! Here reproduced by me. Only researchs educations purposes. Comments URL: https://news.ycombinator.com/item?id=49603546 Points: 122 # Comments: 44",
       "topic": "Security",
       "topicIcon": "🔒",
       "importance": 3,
@@ -467,49 +482,34 @@
       "summary_en": "Stuxnet! Here reproduced by me. Only researchs educations purposes. Comments URL: https://news.ycombinator.com/item?id=4..."
     },
     {
-      "id": "4421a36886f3",
-      "title": "216M Spy TVs – The LG Smart TV Problem [video]",
-      "link": "https://www.youtube.com/watch?v=6IFVTcM28KA",
+      "id": "fac5a01055fd",
+      "title": "I've factored the RSA keys of a Certificate Authority from the 90s",
+      "link": "https://mcpherrin.ca/2026/09/07/rsa.html",
       "source": "Hacker News",
       "sourceIcon": "hn",
-      "pubDate": "2026-09-07T00:22:04Z",
-      "description": "https://www.notebookcheck.net/LG-smart-TVs-caught-logging-au... Comments URL: https://news.ycombinator.com/item?id=49592375 Points: 417 # Comments: 682",
-      "topic": "Startups",
-      "topicIcon": "🚀",
-      "importance": 2,
+      "pubDate": "2026-09-08T01:16:59Z",
+      "description": "Article URL: https://mcpherrin.ca/2026/09/07/rsa.html Comments URL: https://news.ycombinator.com/item?id=49604637 Points: 153 # Comments: 28",
+      "topic": "Web/JavaScript",
+      "topicIcon": "🌐",
+      "importance": 3,
       "reliability": 3,
       "summary_bn": "",
-      "summary_en": "https://www.notebookcheck.net/LG-smart-TVs-caught-logging-au... Comments URL: https://news.ycombinator.com/item?id=49592..."
+      "summary_en": "Article URL: https://mcpherrin.ca/2026/09/07/rsa.html Comments URL: https://news.ycombinator.com/item?id=49604637 Points..."
     },
     {
-      "id": "eb27cd2dd2ee",
-      "title": "Keep Our Servers Running",
-      "link": "https://blog.archive.org/2026/09/01/keep-our-servers-running-your-recurring-donation-goes-3x-this-september/",
+      "id": "fa6cb2f484d6",
+      "title": "Show HN: NYC MapTap – Learn NYC neighborhoods (with subway routes when you miss)",
+      "link": "https://albertjoseph0.github.io/nyc-maptap/",
       "source": "Hacker News",
       "sourceIcon": "hn",
-      "pubDate": "2026-09-07T03:29:51Z",
-      "description": "Article URL: https://blog.archive.org/2026/09/01/keep-our-servers-running-your-recurring-donation-goes-3x-this-september/ Comments URL: https://news.ycombinator.com/item?id=49593563 Points: 928 # Comments: 241",
+      "pubDate": "2026-09-08T02:36:47Z",
+      "description": "Article URL: https://albertjoseph0.github.io/nyc-maptap/ Comments URL: https://news.ycombinator.com/item?id=49605122 Points: 4 # Comments: 2",
       "topic": "Startups",
       "topicIcon": "🚀",
-      "importance": 2,
+      "importance": 3,
       "reliability": 3,
       "summary_bn": "",
-      "summary_en": "Article URL: https://blog.archive.org/2026/09/01/keep-our-servers-running-your-recurring-donation-goes-3x-this-september..."
-    },
-    {
-      "id": "b0c6399c6bbf",
-      "title": "Live map of public transport in Belgium",
-      "link": "https://openbaarvervoerbelgie.be/",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-09-07T09:02:47Z",
-      "description": "Article URL: https://openbaarvervoerbelgie.be/ Comments URL: https://news.ycombinator.com/item?id=49595865 Points: 178 # Comments: 73",
-      "topic": "Startups",
-      "topicIcon": "🚀",
-      "importance": 2,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://openbaarvervoerbelgie.be/ Comments URL: https://news.ycombinator.com/item?id=49595865 Points: 178 #..."
+      "summary_en": "Article URL: https://albertjoseph0.github.io/nyc-maptap/ Comments URL: https://news.ycombinator.com/item?id=49605122 Poi..."
     },
     {
       "id": "f65bd5f6dff1",
@@ -518,28 +518,28 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-09-07T13:35:13Z",
-      "description": "Article URL: https://github.com/iczelia/bzip3 Comments URL: https://news.ycombinator.com/item?id=49598291 Points: 359 # Comments: 101",
+      "description": "Article URL: https://github.com/iczelia/bzip3 Comments URL: https://news.ycombinator.com/item?id=49598291 Points: 391 # Comments: 111",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 2,
       "reliability": 3,
       "summary_bn": "",
-      "summary_en": "Article URL: https://github.com/iczelia/bzip3 Comments URL: https://news.ycombinator.com/item?id=49598291 Points: 359 # ..."
+      "summary_en": "Article URL: https://github.com/iczelia/bzip3 Comments URL: https://news.ycombinator.com/item?id=49598291 Points: 391 # ..."
     },
     {
-      "id": "1e7b1d6161ce",
-      "title": "Replaceable but Employed: Automation and the Meaning of Work",
-      "link": "https://www.nber.org/papers/w35559",
+      "id": "a7831645f628",
+      "title": "Emacs Bedrock 2.0",
+      "link": "https://lambdaland.org/posts/2026-09-06-bedrock-v2/",
       "source": "Hacker News",
       "sourceIcon": "hn",
-      "pubDate": "2026-09-07T19:06:01Z",
-      "description": "Article URL: https://www.nber.org/papers/w35559 Comments URL: https://news.ycombinator.com/item?id=49601814 Points: 47 # Comments: 19",
-      "topic": "Startups",
-      "topicIcon": "🚀",
+      "pubDate": "2026-09-07T20:12:12Z",
+      "description": "Article URL: https://lambdaland.org/posts/2026-09-06-bedrock-v2/ Comments URL: https://news.ycombinator.com/item?id=49602490 Points: 62 # Comments: 0",
+      "topic": "Cloud/DevOps",
+      "topicIcon": "☁️",
       "importance": 2,
       "reliability": 3,
       "summary_bn": "",
-      "summary_en": "Article URL: https://www.nber.org/papers/w35559 Comments URL: https://news.ycombinator.com/item?id=49601814 Points: 47 #..."
+      "summary_en": "Article URL: https://lambdaland.org/posts/2026-09-06-bedrock-v2/ Comments URL: https://news.ycombinator.com/item?id=4960..."
     },
     {
       "id": "a9b02df87094",
@@ -548,7 +548,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-09-07T20:34:32Z",
-      "description": "Article URL: https://porticoquarterly.com/essay/macbeth-and-his-problems/ Comments URL: https://news.ycombinator.com/item?id=49602716 Points: 28 # Comments: 6",
+      "description": "Article URL: https://porticoquarterly.com/essay/macbeth-and-his-problems/ Comments URL: https://news.ycombinator.com/item?id=49602716 Points: 47 # Comments: 18",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 2,
@@ -557,34 +557,49 @@
       "summary_en": "Article URL: https://porticoquarterly.com/essay/macbeth-and-his-problems/ Comments URL: https://news.ycombinator.com/ite..."
     },
     {
-      "id": "af7e4750aca0",
-      "title": "Working on Economics with Fable 5",
-      "link": "https://wilsoniumite.com/2026/08/03/working-on-economics-with-fable-5/",
+      "id": "a10aa370c7a5",
+      "title": "TALA Is Open-Source",
+      "link": "https://d2lang.com/blog/tala-is-open-source/",
       "source": "Hacker News",
       "sourceIcon": "hn",
-      "pubDate": "2026-09-07T21:18:15Z",
-      "description": "Article URL: https://wilsoniumite.com/2026/08/03/working-on-economics-with-fable-5/ Comments URL: https://news.ycombinator.com/item?id=49603086 Points: 17 # Comments: 1",
+      "pubDate": "2026-09-07T23:37:42Z",
+      "description": "Article URL: https://d2lang.com/blog/tala-is-open-source/ Comments URL: https://news.ycombinator.com/item?id=49604150 Points: 121 # Comments: 10",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 2,
       "reliability": 3,
       "summary_bn": "",
-      "summary_en": "Article URL: https://wilsoniumite.com/2026/08/03/working-on-economics-with-fable-5/ Comments URL: https://news.ycombinat..."
+      "summary_en": "Article URL: https://d2lang.com/blog/tala-is-open-source/ Comments URL: https://news.ycombinator.com/item?id=49604150 Po..."
     },
     {
-      "id": "ed31a48bef50",
-      "title": "The Education of a Doomer",
-      "link": "https://borretti.me/article/the-education-of-a-doomer",
+      "id": "35280f249708",
+      "title": "Jellyfin 12.0",
+      "link": "https://jellyfin.org/posts/jellyfin-release-12.0/",
       "source": "Hacker News",
       "sourceIcon": "hn",
-      "pubDate": "2026-09-07T21:19:12Z",
-      "description": "Article URL: https://borretti.me/article/the-education-of-a-doomer Comments URL: https://news.ycombinator.com/item?id=49603092 Points: 34 # Comments: 22",
+      "pubDate": "2026-09-08T01:56:35Z",
+      "description": "Article URL: https://jellyfin.org/posts/jellyfin-release-12.0/ Comments URL: https://news.ycombinator.com/item?id=49604861 Points: 141 # Comments: 52",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 2,
       "reliability": 3,
       "summary_bn": "",
-      "summary_en": "Article URL: https://borretti.me/article/the-education-of-a-doomer Comments URL: https://news.ycombinator.com/item?id=49..."
+      "summary_en": "Article URL: https://jellyfin.org/posts/jellyfin-release-12.0/ Comments URL: https://news.ycombinator.com/item?id=496048..."
+    },
+    {
+      "id": "25dc6d6a44b2",
+      "title": "Prompting Is Dead in 6 Months. Andrew Ng, Stanford [video]",
+      "link": "https://www.youtube.com/watch?v=9EuNUe-CJRM",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-09-08T02:53:51Z",
+      "description": "Article URL: https://www.youtube.com/watch?v=9EuNUe-CJRM Comments URL: https://news.ycombinator.com/item?id=49605222 Points: 16 # Comments: 2",
+      "topic": "Startups",
+      "topicIcon": "🚀",
+      "importance": 2,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "Article URL: https://www.youtube.com/watch?v=9EuNUe-CJRM Comments URL: https://news.ycombinator.com/item?id=49605222 Poi..."
     }
   ]
 }
