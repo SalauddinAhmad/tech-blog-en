@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-09T03:43:57+06:00",
+  "lastUpdated": "2026-09-09T05:58:03+06:00",
   "news": [
     {
       "id": "5db94ef302c6",
@@ -135,21 +135,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "The French AI lab has raised €3 billion at a €21 billion valuation in a Series D round led by Samsung, Scaleup Europe, a..."
-    },
-    {
-      "id": "5d7ff0ed8621",
-      "title": "Pusheen’s first game is coming to Apple Arcade",
-      "link": "https://www.theverge.com/games/991398/pusheen-apple-arcade-game",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-09-08T15:07:13Z",
-      "description": "Pusheen is getting her first game, and it will appear exclusively on Apple Arcade. Launching October 1st, Pusheen's Place lets you collect and care for more than 100 Pusheens as you play minigames and decorate rooms for Pusheenicorn, Pancake Pusheen, and other variations of the cartoon cat. In the mix of minigames, you'll \"sort color [&#8230;]",
-      "topic": "Other",
-      "topicIcon": "📰",
-      "importance": 5,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Pusheen is getting her first game, and it will appear exclusively on Apple Arcade. Launching October 1st, Pusheen's Plac..."
     },
     {
       "id": "bcb8386aae94",
@@ -317,19 +302,19 @@
       "summary_en": "Republican victory means stations must offer lowest ad prices to political parties."
     },
     {
-      "id": "7beb9220c57d",
-      "title": "Le Creuset x Star Trek Collection: Prices, Availability, Release Date",
-      "link": "https://www.wired.com/story/to-boldly-dough-le-creuset-sent-its-new-star-trek-cooking-collection-into-space/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-09-07T23:00:00Z",
-      "description": "Vulcan oven mitts, spaceship baking dishes, and an out-of-this-world communicator grater—you'll need warp speed to Klingon to this limited-edition kitchen kit, ideal for perfecting the broth of Khan.",
+      "id": "d39fb1c8e98b",
+      "title": "Meta continues to run ads promoting child sexual abuse material in India - report",
+      "link": "https://www.bbc.co.uk/news/articles/cqxv2vwjjq3o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC",
+      "sourceIcon": "bbc",
+      "pubDate": "2026-09-08T23:27:23Z",
+      "description": "The report follows a BBC Eye investigation that found Instagram running paid ads promoting such material in India.",
       "topic": "AI/ML",
       "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
+      "importance": 5,
+      "reliability": 5,
       "summary_bn": "",
-      "summary_en": "Vulcan oven mitts, spaceship baking dishes, and an out-of-this-world communicator grater—you'll need warp speed to Kling..."
+      "summary_en": "The report follows a BBC Eye investigation that found Instagram running paid ads promoting such material in India."
     },
     {
       "id": "fe6c53252f4c",
@@ -677,6 +662,36 @@
       "summary_en": "Every year, the prizes recognize the weirdest research that often raises some very serious scientific questions."
     },
     {
+      "id": "ad6c061b96f2",
+      "title": "Should promotion depend on how workers use AI?",
+      "link": "https://www.bbc.co.uk/news/articles/c1j1896e973o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC",
+      "sourceIcon": "bbc",
+      "pubDate": "2026-09-08T23:05:23Z",
+      "description": "More companies are tying career progression to AI use: is that fair?",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "More companies are tying career progression to AI use: is that fair?"
+    },
+    {
+      "id": "4d64e58134b0",
+      "title": "White House takes down ‘Build the Wall’ game after the Tetris Company complains",
+      "link": "https://techcrunch.com/2026/09/08/white-house-takes-down-build-the-wall-game-after-the-tetris-company-complains/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-09-08T23:23:23Z",
+      "description": "The Trump administration's short-lived arcade game \"Build the Wall\" is now nowhere to be found after the Tetris Company posted that it takes \"copyright infringement very seriously.\"",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "The Trump administration's short-lived arcade game \"Build the Wall\" is now nowhere to be found after the Tetris Company ..."
+    },
+    {
       "id": "d76376601356",
       "title": "Gen AI Tools Are Now Being Used to Push ‘Slop Jihad’",
       "link": "https://www.wired.com/story/gen-ai-tools-are-now-being-used-to-push-slop-jihad/",
@@ -728,28 +743,13 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-09-08T14:13:26Z",
-      "description": "Article URL: https://github.com/ayghri/i-have-adhd Comments URL: https://news.ycombinator.com/item?id=49610631 Points: 235 # Comments: 180",
+      "description": "Article URL: https://github.com/ayghri/i-have-adhd Comments URL: https://news.ycombinator.com/item?id=49610631 Points: 290 # Comments: 223",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 3,
       "reliability": 3,
       "summary_bn": "",
       "summary_en": "Article URL: https://github.com/ayghri/i-have-adhd Comments URL: https://news.ycombinator.com/item?id=49610631 Points: 2..."
-    },
-    {
-      "id": "f0e27f432f48",
-      "title": "AlphaGenome Atlas predictive map of every DNA letter change in the human genome",
-      "link": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-09-08T14:14:15Z",
-      "description": "Article URL: https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/ Comments URL: https://news.ycombinator.com/item?id=49610641 Points: 72 # Comments: 9",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 3,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-..."
     }
   ]
 }
