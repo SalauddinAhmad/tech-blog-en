@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-09T10:28:41+06:00",
+  "lastUpdated": "2026-09-09T15:31:28+06:00",
   "news": [
     {
       "id": "5db94ef302c6",
@@ -32,19 +32,19 @@
       "summary_en": "The latest heist is one of the largest thefts of cryptocurrency to date."
     },
     {
-      "id": "d3f8bcec8561",
-      "title": "Stoke Space raises another billion to rival SpaceX at re-flying rockets",
-      "link": "https://techcrunch.com/2026/09/08/stoke-space-raises-another-billion-to-rival-spacex-at-re-flying-rockets/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-09-08T09:00:00Z",
-      "description": "Stoke has \"completed the initial closing\" of a $1B Series E round intended to help it reach orbit and prepare a new, larger rocket for operations.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 6,
+      "id": "0161a630352c",
+      "title": "Apple’s foldable ‘iPhone Duo’ will reportedly start at $2,000",
+      "link": "https://www.theverge.com/tech/991884/apple-iphone-duo-rumor-foldable",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-09-09T05:26:53Z",
+      "description": "With only a few hours left until the first iPhone launch event since John Ternus took over as the CEO of Apple, Bloomberg reporter Mark Gurman says the name of the company's long-rumored folding phone is the iPhone Duo. The midnight report suggests it will have a price starting at $2,000 for a model with [&#8230;]",
+      "topic": "Mobile",
+      "topicIcon": "📱",
+      "importance": 7,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "Stoke has \"completed the initial closing\" of a $1B Series E round intended to help it reach orbit and prepare a new, lar..."
+      "summary_en": "With only a few hours left until the first iPhone launch event since John Ternus took over as the CEO of Apple, Bloomber..."
     },
     {
       "id": "e99fc08192f3",
@@ -107,21 +107,6 @@
       "summary_en": "Last month, a Claude user noticed his account was consuming tokens even though he wasn't working. Anthropic has since wa..."
     },
     {
-      "id": "b4f2ac41fd12",
-      "title": "Scammers demand ransoms from Instagram users over fake copyright claims",
-      "link": "https://www.bbc.co.uk/news/articles/cjw54ww73qjo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC",
-      "sourceIcon": "bbc",
-      "pubDate": "2026-09-08T06:49:56Z",
-      "description": "Users say they are losing money or risk having their accounts suspended because Meta struggles to identify scammers.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 5,
-      "reliability": 5,
-      "summary_bn": "",
-      "summary_en": "Users say they are losing money or risk having their accounts suspended because Meta struggles to identify scammers."
-    },
-    {
       "id": "eb5fea936a5e",
       "title": "Mistral raises €3B as sovereign AI becomes big business",
       "link": "https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business/",
@@ -135,21 +120,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "The French AI lab has raised €3 billion at a €21 billion valuation in a Series D round led by Samsung, Scaleup Europe, a..."
-    },
-    {
-      "id": "bcb8386aae94",
-      "title": "The White House pulls its racist Tetris clone",
-      "link": "https://www.theverge.com/games/991451/white-house-pulls-racist-tetris-clone",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-09-08T16:00:51Z",
-      "description": "The White House has taken down its racist Tetris ripoff days after launching a website dedicated to \"arcade\" games, as spotted earlier by Kotaku. The Tetris clone, called \"Build the Wall,\" involved stacking different-sized blocks to prevent a \"zombie border siege.\" It's not clear why the White House removed the title, though the Tetris Company [&#8230;]",
-      "topic": "Web/JavaScript",
-      "topicIcon": "🌐",
-      "importance": 5,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "The White House has taken down its racist Tetris ripoff days after launching a website dedicated to \"arcade\" games, as s..."
     },
     {
       "id": "20dacd462be0",
@@ -362,6 +332,21 @@
       "summary_en": "The report follows a BBC Eye investigation that found Instagram running paid ads promoting such material in India."
     },
     {
+      "id": "9e44e55034b5",
+      "title": "Anthropic safety researcher says more than 10% chance AI 'could kill all humans'",
+      "link": "https://www.bbc.co.uk/news/articles/ckgwy1k42w4o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC",
+      "sourceIcon": "bbc",
+      "pubDate": "2026-09-09T08:59:52Z",
+      "description": "It is the latest in a series of increasing warnings about the safety threat posed by artificial intelligence.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 5,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "It is the latest in a series of increasing warnings about the safety threat posed by artificial intelligence."
+    },
+    {
       "id": "0ba9b3d09ca5",
       "title": "Insta360 X6 Review (2026): A Great 360 and Action Camera Hybrid",
       "link": "https://www.wired.com/review/insta360-x6-camera/",
@@ -557,9 +542,9 @@
       "summary_en": "Director Takashi Yamazaki's hotly anticipated sequel takes place two years after 2023 film's events."
     },
     {
-      "id": "6c97203d7659",
+      "id": "0bf850c7b0e8",
       "title": "Tech Life",
-      "link": "https://www.bbc.co.uk/sounds/play/live:bbc_world_service_south_asia?at_medium=RSS&at_campaign=rss",
+      "link": "https://www.bbc.co.uk/sounds/play/w3ct8jyd?at_medium=RSS&at_campaign=rss",
       "source": "BBC",
       "sourceIcon": "bbc",
       "pubDate": "2026-09-08T20:00:00Z",
@@ -750,6 +735,21 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "The Trump administration's short-lived arcade game \"Build the Wall\" is now nowhere to be found after the Tetris Company ..."
+    },
+    {
+      "id": "865d2768cce7",
+      "title": "CloudNC raises $20M to automate manufacturing’s most pressing bottlenecks",
+      "link": "https://techcrunch.com/2026/09/08/cloudnc-raises-20m-to-automate-manufacturings-most-pressing-bottlenecks/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-09-09T04:01:00Z",
+      "description": "UK-based manufacturing software startup CloudNC announced Wednesday a $20 million B extension round, bringing its lifetime total raised amount to $128 million.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "UK-based manufacturing software startup CloudNC announced Wednesday a $20 million B extension round, bringing its lifeti..."
     }
   ]
 }
