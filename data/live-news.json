@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-10T03:35:24+06:00",
+  "lastUpdated": "2026-09-10T05:59:08+06:00",
   "news": [
     {
       "id": "7991d7bc4b78",
@@ -17,6 +17,21 @@
       "summary_en": "At Wednesday's iPhone Duo launch event, Apple announced a handful of new Siri AI Audio Intelligence features, including ..."
     },
     {
+      "id": "929774cbcd29",
+      "title": "4 groups caught using the same Chrome and Windows exploit kit",
+      "link": "https://arstechnica.com/information-technology/2026/09/4-groups-caught-using-the-same-chrome-and-windows-exploit-kit/",
+      "source": "Ars Technica",
+      "sourceIcon": "ars",
+      "pubDate": "2026-09-09T20:55:02Z",
+      "description": "A patch gap and the hastened pace of AI-based vulnerability discovery are likely contributors.",
+      "topic": "Security",
+      "topicIcon": "🔒",
+      "importance": 8,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "A patch gap and the hastened pace of AI-based vulnerability discovery are likely contributors."
+    },
+    {
       "id": "b2d280f46b2e",
       "title": "A Stealth Startup Thinks It Just Hacked the Memory Shortage",
       "link": "https://www.wired.com/story/a-new-dollar400-million-startup-wants-to-fix-the-ai-memory-bottleneck/",
@@ -30,21 +45,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Kepler Computing claims a new approach to chip design—and a proprietary material—can help end the supply bottlenecks tha..."
-    },
-    {
-      "id": "1065e3c49898",
-      "title": "Uber rival inDrive scales beyond ride-hailing to capture more consumer spending",
-      "link": "https://techcrunch.com/2026/09/09/uber-rival-indrive-scales-beyond-ride-hailing-to-capture-more-consumer-spending/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-09-09T15:10:41Z",
-      "description": "First piloted in July 2025, inDrive's ad business has served more than 2 billion impressions and attracted over 2,000 paying advertisers a month.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 6,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "First piloted in July 2025, inDrive's ad business has served more than 2 billion impressions and attracted over 2,000 pa..."
     },
     {
       "id": "0a2059c93aac",
@@ -62,51 +62,6 @@
       "summary_en": "After I removed the safety guardrails from a powerful open-source model, it found vulnerabilities in my household device..."
     },
     {
-      "id": "31b3849b62cc",
-      "title": "Here’s how the new iPhone 18 Pro stacks up to the last-gen models",
-      "link": "https://www.theverge.com/tech/988501/iphone-18-pro-max-spec-comparison-features",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-09-09T18:53:43Z",
-      "description": "Apple's release cadence for the latest iPhones is unusual. It'll start with the 18 Pro models, then with the foldable iPhone Duo releasing in October for $1,999. It hasn't confirmed when its base iPhone 18 model will launch. So this post is focused just on the new the 18 Pro and the 18 Pro Max. [&#8230;]",
-      "topic": "Mobile",
-      "topicIcon": "📱",
-      "importance": 6,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Apple's release cadence for the latest iPhones is unusual. It'll start with the 18 Pro models, then with the foldable iP..."
-    },
-    {
-      "id": "3cacf83ca6fd",
-      "title": "Hands-on with the new Apple Watch Series 12 and Apple Watch Ultra 4",
-      "link": "https://www.theverge.com/tech/992568/apple-watch-hands-on-series-12-ultra-4",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-09-09T18:53:48Z",
-      "description": "After Apple wrapped up its \"Surprise and shine\" event today, we were able to get a look at the new Apple Watch Series 12 and Ultra 4. Both of the new watches launch September 18th, with preorders available starting today. The Apple Watch Series 12 once again starts at $399 for the aluminum case option [&#8230;]",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 6,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "After Apple wrapped up its \"Surprise and shine\" event today, we were able to get a look at the new Apple Watch Series 12..."
-    },
-    {
-      "id": "97571935d7c6",
-      "title": "Apple’s new iPhone camera mode promises to prove your photo isn’t AI",
-      "link": "https://www.theverge.com/tech/992766/apple-iphone-18-pro-reference-image",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-09-09T19:30:12Z",
-      "description": "Apple is launching a new way to prove that the picture you took isn't manipulated by AI. A new feature, called \"Reference Image,\" will arrive with the iPhone 18 Pro lineup later this month and is supposed to use the device's new camera sensor to \"sign every pixel it sees.\" The iPhone 18 Pro and [&#8230;]",
-      "topic": "Mobile",
-      "topicIcon": "📱",
-      "importance": 6,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Apple is launching a new way to prove that the picture you took isn't manipulated by AI. A new feature, called \"Referenc..."
-    },
-    {
       "id": "ed4c714c44aa",
       "title": "OpenAI’s sly mathematical breakthrough sends a chill through academia",
       "link": "https://www.theverge.com/ai-artificial-intelligence/992953/openai-math-millennium-prize-navier-stokes",
@@ -120,36 +75,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "OpenAI's announcement Tuesday that it has solved one of mathematics' legendary Millennium Prize problems should have bee..."
-    },
-    {
-      "id": "008196daed8a",
-      "title": "LG TV shown scanning LAN for third-party phones and other devices",
-      "link": "https://arstechnica.com/gadgets/2026/09/lg-tv-shown-capable-of-tracking-user-activity-even-when-offline/",
-      "source": "Ars Technica",
-      "sourceIcon": "ars",
-      "pubDate": "2026-09-08T21:52:29Z",
-      "description": "“It doesn’t cost a lot to store text forever.”",
-      "topic": "Other",
-      "topicIcon": "📰",
-      "importance": 5,
-      "reliability": 5,
-      "summary_bn": "",
-      "summary_en": "“It doesn’t cost a lot to store text forever.”"
-    },
-    {
-      "id": "d39fb1c8e98b",
-      "title": "Meta continues to run ads promoting child sexual abuse material in India - report",
-      "link": "https://www.bbc.co.uk/news/articles/cqxv2vwjjq3o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC",
-      "sourceIcon": "bbc",
-      "pubDate": "2026-09-08T23:27:23Z",
-      "description": "The report follows a BBC Eye investigation that found Instagram running paid ads promoting such material in India.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 5,
-      "reliability": 5,
-      "summary_bn": "",
-      "summary_en": "The report follows a BBC Eye investigation that found Instagram running paid ads promoting such material in India."
     },
     {
       "id": "716ba068c7ce",
@@ -422,6 +347,21 @@
       "summary_en": "Apple says its new watches won’t save raw audio, but features that can transcribe recent speech and summarize ambient co..."
     },
     {
+      "id": "d5f5c35725a6",
+      "title": "Europe may finally have found a space entrepreneur who is meeting the moment",
+      "link": "https://arstechnica.com/space/2026/09/as-europe-flounders-in-space-a-rising-french-star-may-show-the-way/",
+      "source": "Ars Technica",
+      "sourceIcon": "ars",
+      "pubDate": "2026-09-09T20:27:40Z",
+      "description": "\"We will not be relevant without a massive rocket at a massive cadence.\"",
+      "topic": "Regulation",
+      "topicIcon": "⚖️",
+      "importance": 5,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "\"We will not be relevant without a massive rocket at a massive cadence.\""
+    },
+    {
       "id": "e28375ae051b",
       "title": "Apple’s new CEO is reviving a Steve Jobs strategy from 25 years ago",
       "link": "https://techcrunch.com/2026/09/09/apples-new-ceo-is-reviving-a-steve-jobs-strategy-from-25-years-ago/",
@@ -437,19 +377,34 @@
       "summary_en": "John Ternus made the case in his first keynote as Apple CEO that the iPhone isn't going anywhere."
     },
     {
-      "id": "ad6c061b96f2",
-      "title": "Should promotion depend on how workers use AI?",
-      "link": "https://www.bbc.co.uk/news/articles/c1j1896e973o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC",
-      "sourceIcon": "bbc",
-      "pubDate": "2026-09-08T23:05:23Z",
-      "description": "More companies are tying career progression to AI use: is that fair?",
+      "id": "cb6883475c7d",
+      "title": "Suno releases its first AI music model made with record industry help",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/991977/suno-releases-its-first-ai-music-model-made-with-record-industry-help",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-09-09T21:42:19Z",
+      "description": "Suno's new v6 AI music model is its first made with support from the record industry. Suno's Jack Brody told The Verge that v6 was \"trained from the ground up, with a new set of data that does not include the same data that our previous models were trained on.\" The data includes content licensed [&#8230;]",
       "topic": "AI/ML",
       "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 5,
+      "importance": 5,
+      "reliability": 4,
       "summary_bn": "",
-      "summary_en": "More companies are tying career progression to AI use: is that fair?"
+      "summary_en": "Suno's new v6 AI music model is its first made with support from the record industry. Suno's Jack Brody told The Verge t..."
+    },
+    {
+      "id": "1bb7ebdf1c27",
+      "title": "Automattic’s board forces CEO Matt Mullenweg into leave of absence",
+      "link": "https://techcrunch.com/2026/09/09/automattics-board-forces-ceo-matt-mullenweg-into-leave-of-absence/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-09-09T23:14:29Z",
+      "description": "Mullenweg said in a company Slack message that it was against his will.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 5,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Mullenweg said in a company Slack message that it was against his will."
     },
     {
       "id": "6ae05f74a921",
@@ -533,7 +488,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-09-09T13:27:11Z",
-      "description": "Article URL: https://tailwindcss.com/blog/tailwind-is-joining-shopify Comments URL: https://news.ycombinator.com/item?id=49626190 Points: 775 # Comments: 316",
+      "description": "Article URL: https://tailwindcss.com/blog/tailwind-is-joining-shopify Comments URL: https://news.ycombinator.com/item?id=49626190 Points: 850 # Comments: 339",
       "topic": "Web/JavaScript",
       "topicIcon": "🌐",
       "importance": 4,
@@ -555,36 +510,6 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "Critics say the new agenda could weaken science-based rules and marine protections."
-    },
-    {
-      "id": "9aea9dc83ca6",
-      "title": "Shipt becomes the latest delivery app with an AI shopping assistant",
-      "link": "https://techcrunch.com/2026/09/09/shipt-becomes-the-latest-delivery-app-with-an-ai-shopping-assistant/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-09-09T14:51:45Z",
-      "description": "Users can ask the assistant to do things like \"Create a cart for my Saturday tailgate for 25 people and include some brunch items,\" or \"Build a cart for easy school lunches and after-school snacks,\" Shipt says.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Users can ask the assistant to do things like \"Create a cart for my Saturday tailgate for 25 people and include some bru..."
-    },
-    {
-      "id": "59cd89448bb0",
-      "title": "‘Gambling with our lives’: Anthropic researcher quits, warns against self-improving AI",
-      "link": "https://techcrunch.com/2026/09/09/gambling-with-our-lives-anthropic-researcher-quits-warns-against-self-improving-ai/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-09-09T15:02:47Z",
-      "description": "Anthropic researcher Jacob Coxon resigned over AI extinction fears, calling for pacing agreements between labs.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Anthropic researcher Jacob Coxon resigned over AI extinction fears, calling for pacing agreements between labs."
     },
     {
       "id": "52382fedc3be",
@@ -632,6 +557,21 @@
       "summary_en": "The AirPods 5 support better noise cancellation, Siri AI, and offer volume controls on the stem."
     },
     {
+      "id": "ebf88cd57f03",
+      "title": "Apple has a new way to prove your iPhone photos aren’t AI slop",
+      "link": "https://techcrunch.com/2026/09/09/apple-has-a-new-way-prove-your-iphone-photos-arent-ai-slop/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-09-09T18:08:35Z",
+      "description": "Apple introduced Apple Reference Image to help users determine whether photos have been edited, including alterations made by AI.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Apple introduced Apple Reference Image to help users determine whether photos have been edited, including alterations ma..."
+    },
+    {
       "id": "af23826afbbd",
       "title": "Apple unveils Watch Series 12 and Watch Ultra 4 with an AI upgrade that can recap your day",
       "link": "https://techcrunch.com/2026/09/09/apple-unveils-watch-series-12-and-watch-ultra-4-with-an-ai-upgrade-that-can-recap-your-day/",
@@ -660,21 +600,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "The update uses Apple Intelligence to make better sense of your health data."
-    },
-    {
-      "id": "08e91e603800",
-      "title": "Apple is raising iPhone prices by $100 on all of its old models",
-      "link": "https://www.theverge.com/tech/992551/apple-iphone-17-17e-air-price-increase",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-09-09T18:30:24Z",
-      "description": "Following Apple's \"Surprise and shine\" event that saw the announcement of the iPhone Duo and the iPhone 18 Pro, the company increased the price on all of its last-gen iPhones that are still available for purchase. The iPhone 16 sold for $699 just last week, and now it's up to $799. The iPhone 17E with [&#8230;]",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Following Apple's \"Surprise and shine\" event that saw the announcement of the iPhone Duo and the iPhone 18 Pro, the comp..."
     },
     {
       "id": "6ad2d2a84926",
@@ -750,6 +675,81 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Apple is raising the price of its existing iPhone models by $100, including iPhone 16, iPhone 17, and iPhone Air."
+    },
+    {
+      "id": "f5e793958cbe",
+      "title": "Everything Apple announced at its fall iPhone event, from the foldable iPhone Duo to an always-listening Apple Watch",
+      "link": "https://techcrunch.com/2026/09/09/everything-apple-announced-at-its-fall-iphone-event-from-the-foldable-iphone-duo-to-an-always-listening-apple-watch/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-09-09T20:03:43Z",
+      "description": "The main event was the tech giant's highly anticipated first foldable phone, the iPhone Duo.",
+      "topic": "Mobile",
+      "topicIcon": "📱",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "The main event was the tech giant's highly anticipated first foldable phone, the iPhone Duo."
+    },
+    {
+      "id": "c13f6e4eafe4",
+      "title": "A Year After Charlie Kirk’s Death, Turning Point Plans to Spend Big on the Midterms",
+      "link": "https://www.wired.com/story/a-year-after-charlie-kirks-death-turning-point-plans-to-spend-big-on-the-midterms/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-09-09T21:00:00Z",
+      "description": "Turning Point will spend tens of millions on ads and turnout, sources say, with a focus on New Hampshire, Arizona, and Nevada.",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Turning Point will spend tens of millions on ads and turnout, sources say, with a focus on New Hampshire, Arizona, and N..."
+    },
+    {
+      "id": "a1d676ae18d8",
+      "title": "San Francisco Orders Meta to Stop ‘Allowing’ AI Child Abuse Ads",
+      "link": "https://www.wired.com/story/san-francisco-orders-meta-to-stop-allowing-ai-child-abuse-ads/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-09-09T21:15:27Z",
+      "description": "The City Attorney’s Office has asked Meta to explain how the harmful ads repeatedly ran on Facebook and Instagram. The company claims the ads are not under the city’s jurisdiction.",
+      "topic": "Hardware",
+      "topicIcon": "💻",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "The City Attorney’s Office has asked Meta to explain how the harmful ads repeatedly ran on Facebook and Instagram. The c..."
+    },
+    {
+      "id": "82fbd67be051",
+      "title": "The AI Researcher Who Just Quit Anthropic Says It’s ‘Crunch Time for Humanity’",
+      "link": "https://www.wired.com/story/anthropic-researcher-quits-jacob-coxon-ai-fears-humanity/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-09-09T22:11:55Z",
+      "description": "Jacob Coxon talks to WIRED about the “mini Manhattan project” inside Anthropic, the problem with alignment, and why AI labs have just a few years left to make their systems safe.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Jacob Coxon talks to WIRED about the “mini Manhattan project” inside Anthropic, the problem with alignment, and why AI l..."
+    },
+    {
+      "id": "bd5466faf7db",
+      "title": "Automattic CEO Matt Mullenweg placed on leave",
+      "link": "https://www.theverge.com/tech/993022/wordpress-automattic-ceo-matt-mullenweg-leave-of-absence",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-09-09T22:15:52Z",
+      "description": "Matt Mullenweg, the CEO of WordPress.com owner Automattic, has been placed on a paid leave of absence, as reported earlier by 404 Media. In an internal message by the outlet, Mullenweg claims Automattic chief financial officer Mark Davies \"conspired\" with board members to place him on leave. \"They voted to put me on a paid [&#8230;]",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Matt Mullenweg, the CEO of WordPress.com owner Automattic, has been placed on a paid leave of absence, as reported earli..."
     }
   ]
 }
