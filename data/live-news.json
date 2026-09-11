@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-11T05:54:54+06:00",
+  "lastUpdated": "2026-09-11T10:09:13+06:00",
   "news": [
     {
       "id": "4161d3fb3245",
@@ -113,13 +113,13 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-09-10T15:29:47Z",
-      "description": "Article URL: https://cognition.com/blog/swe-2 Comments URL: https://news.ycombinator.com/item?id=49645443 Points: 339 # Comments: 140",
+      "description": "Article URL: https://cognition.com/blog/swe-2 Comments URL: https://news.ycombinator.com/item?id=49645443 Points: 366 # Comments: 157",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 5,
       "reliability": 3,
       "summary_bn": "",
-      "summary_en": "Article URL: https://cognition.com/blog/swe-2 Comments URL: https://news.ycombinator.com/item?id=49645443 Points: 339 # ..."
+      "summary_en": "Article URL: https://cognition.com/blog/swe-2 Comments URL: https://news.ycombinator.com/item?id=49645443 Points: 366 # ..."
     },
     {
       "id": "6877b7a34358",
@@ -225,21 +225,6 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "Laptops don't usually get hot enough to burn—but they can still be harmful."
-    },
-    {
-      "id": "1c6ce2d83174",
-      "title": "UK needs new laws for AI in healthcare, says watchdog",
-      "link": "https://www.bbc.co.uk/news/articles/c3wjn3pl63xo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC",
-      "sourceIcon": "bbc",
-      "pubDate": "2026-09-10T00:48:35Z",
-      "description": "The technology will soon be routinely used within the NHS, MHRA chief Lawrence Tallon tells the BBC.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 5,
-      "summary_bn": "",
-      "summary_en": "The technology will soon be routinely used within the NHS, MHRA chief Lawrence Tallon tells the BBC."
     },
     {
       "id": "b96370d29ec1",
@@ -593,7 +578,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-09-10T19:44:15Z",
-      "description": "Article URL: https://merybenavente.me/blog/proof-of-capture Comments URL: https://news.ycombinator.com/item?id=49649222 Points: 55 # Comments: 39",
+      "description": "Article URL: https://merybenavente.me/blog/proof-of-capture Comments URL: https://news.ycombinator.com/item?id=49649222 Points: 76 # Comments: 51",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 4,
@@ -750,6 +735,21 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "New to Govee? Get a $5 coupon on your first purchase just for signing up."
+    },
+    {
+      "id": "686a4c1947bb",
+      "title": "Herman Miller Promo Codes: 40% Off September 2026",
+      "link": "https://www.wired.com/story/herman-miller-promo-code/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-09-10T05:00:00Z",
+      "description": "Whether you’re looking for a Herman Miller promo code or discounts in their sale, here is how to save on the world's best ergonomic office furniture in September 2026.",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Whether you’re looking for a Herman Miller promo code or discounts in their sale, here is how to save on the world's bes..."
     }
   ]
 }
