@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T06:01:49+06:00",
+  "lastUpdated": "2026-09-12T11:32:41+06:00",
   "news": [
     {
       "id": "f5ea742cf30e",
@@ -83,13 +83,13 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-09-11T23:17:42Z",
-      "description": "Article URL: https://www.rubyhack.ai/ Comments URL: https://news.ycombinator.com/item?id=49666735 Points: 37 # Comments: 9",
+      "description": "Article URL: https://www.rubyhack.ai/ Comments URL: https://news.ycombinator.com/item?id=49666735 Points: 525 # Comments: 307",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 7,
       "reliability": 3,
       "summary_bn": "",
-      "summary_en": "Article URL: https://www.rubyhack.ai/ Comments URL: https://news.ycombinator.com/item?id=49666735 Points: 37 # Comments:..."
+      "summary_en": "Article URL: https://www.rubyhack.ai/ Comments URL: https://news.ycombinator.com/item?id=49666735 Points: 525 # Comments..."
     },
     {
       "id": "8f75a7c2114a",
@@ -287,19 +287,19 @@
       "summary_en": "While K3's usage figures have declined slightly in recent months, OpenRouter data currently shows as many as 300 billion..."
     },
     {
-      "id": "3278bc9a28eb",
-      "title": "Samsung Galaxy S26 FE Review: Same as Before, but for More Money",
-      "link": "https://www.wired.com/review/samsung-galaxy-s26-fe/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-09-11T09:00:00Z",
-      "description": "Samsung is resting on its laurels with the midrange S26 FE, with an unwelcome price bump and only a new processor to show for it.",
-      "topic": "Mobile",
-      "topicIcon": "📱",
-      "importance": 4,
-      "reliability": 4,
+      "id": "24757eea03ed",
+      "title": "PlayStation gambles with 18-rated Wolverine game - will it pay off?",
+      "link": "https://www.bbc.co.uk/news/articles/cy0zq2n9gggo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC",
+      "sourceIcon": "bbc",
+      "pubDate": "2026-09-12T00:35:50Z",
+      "description": "The BBC's Tom Gerken plays the hotly anticipated superhero game from Spider-Man makers Insomniac.",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 5,
+      "reliability": 5,
       "summary_bn": "",
-      "summary_en": "Samsung is resting on its laurels with the midrange S26 FE, with an unwelcome price bump and only a new processor to sho..."
+      "summary_en": "The BBC's Tom Gerken plays the hotly anticipated superhero game from Spider-Man makers Insomniac."
     },
     {
       "id": "eb0ec067ba7c",
@@ -315,6 +315,21 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "A combination of rapid advances, recursive self-improvement, and agentic swarms are genuinely “spooking people” inside b..."
+    },
+    {
+      "id": "3278bc9a28eb",
+      "title": "Samsung Galaxy S26 FE Review: Same as Before, but for More Money",
+      "link": "https://www.wired.com/review/samsung-galaxy-s26-fe/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-09-11T09:00:00Z",
+      "description": "Samsung is resting on its laurels with the midrange S26 FE, with an unwelcome price bump and only a new processor to show for it.",
+      "topic": "Mobile",
+      "topicIcon": "📱",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Samsung is resting on its laurels with the midrange S26 FE, with an unwelcome price bump and only a new processor to sho..."
     },
     {
       "id": "9c51fa97dad3",
@@ -533,7 +548,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-09-11T18:50:36Z",
-      "description": "Article URL: https://github.com/GrapheneOS/Messaging/releases/tag/13 Comments URL: https://news.ycombinator.com/item?id=49663373 Points: 171 # Comments: 98",
+      "description": "Article URL: https://github.com/GrapheneOS/Messaging/releases/tag/13 Comments URL: https://news.ycombinator.com/item?id=49663373 Points: 235 # Comments: 150",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 4,
@@ -692,64 +707,49 @@
       "summary_en": "The round for the two-year-old startup is coming together months after Mecka announced its Series A."
     },
     {
-      "id": "a56fe6b618b1",
-      "title": "Lenovo Coupon Codes: 15% Off in September 2026",
-      "link": "https://www.wired.com/story/lenovo-coupon-code/",
+      "id": "3b00970eb874",
+      "title": "Tech Now",
+      "link": "https://www.bbc.co.uk/iplayer/episode/m0031qjy?at_medium=RSS&at_campaign=rss",
+      "source": "BBC",
+      "sourceIcon": "bbc",
+      "pubDate": "2026-09-12T01:00:00Z",
+      "description": "Shiona McCallum meets mums and hospital staff trialling a new assisted birth innovation.",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 4,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "Shiona McCallum meets mums and hospital staff trialling a new assisted birth innovation."
+    },
+    {
+      "id": "01feaf0835a8",
+      "title": "The US and Mexico Announce They’re Teaming Up Against Drones",
+      "link": "https://www.wired.com/story/us-and-mexico-announce-teaming-up-against-drones/",
       "source": "Wired",
       "sourceIcon": "wired",
-      "pubDate": "2026-09-11T05:00:00Z",
-      "description": "Whether you’re shopping for a ThinkPad, Yoga laptop, or Legion gaming PC, these Lenovo discount codes and promotions can help you save big on your next tech upgrade.",
-      "topic": "Hardware",
-      "topicIcon": "💻",
+      "pubDate": "2026-09-11T09:15:00Z",
+      "description": "The new joint operation uses laser-based technology capable of detecting, tracking, and disabling commercial drones linked to human and drug trafficking.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
       "importance": 3,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "Whether you’re shopping for a ThinkPad, Yoga laptop, or Legion gaming PC, these Lenovo discount codes and promotions can..."
+      "summary_en": "The new joint operation uses laser-based technology capable of detecting, tracking, and disabling commercial drones link..."
     },
     {
-      "id": "1b9df521ba33",
-      "title": "Ulta Promo Codes: Up to 20% Off in September 2026",
-      "link": "https://www.wired.com/story/ulta-coupon/",
+      "id": "c528b80bfc11",
+      "title": "How 9/11 Made Everyone a Conspiracy Theorist",
+      "link": "https://www.wired.com/story/conspiracy-how-9-11-broke-americas-brain/",
       "source": "Wired",
       "sourceIcon": "wired",
-      "pubDate": "2026-09-11T05:00:00Z",
-      "description": "Shop the latest beauty trends and save big using an Ulta promo code for beauty tech, makeup, and more.",
-      "topic": "Regulation",
-      "topicIcon": "⚖️",
-      "importance": 3,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Shop the latest beauty trends and save big using an Ulta promo code for beauty tech, makeup, and more."
-    },
-    {
-      "id": "9c8acde8dc81",
-      "title": "Home Depot Promo Codes: 30% Off in September 2026",
-      "link": "https://www.wired.com/story/home-depot-promo-code/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-09-11T05:00:00Z",
-      "description": "Save up to 50% today with the latest Home Depot promo codes for appliances, power tools, and more this September.",
+      "pubDate": "2026-09-11T10:00:00Z",
+      "description": "Crackpot theories were once the stuff of shortwave radio, but September 11 unleashed the Age of Alex Jones.",
       "topic": "Other",
       "topicIcon": "📰",
       "importance": 3,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "Save up to 50% today with the latest Home Depot promo codes for appliances, power tools, and more this September."
-    },
-    {
-      "id": "e2e009a656a0",
-      "title": "Chewy Promo Codes: $20 Off September 2026",
-      "link": "https://www.wired.com/story/chewy-promo-code/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-09-11T05:00:00Z",
-      "description": "Explore Chewy coupon codes for $30 off, $20 off your first order $49, 50% off pet food, and more September 2026 discounts.",
-      "topic": "Other",
-      "topicIcon": "📰",
-      "importance": 3,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Explore Chewy coupon codes for $30 off, $20 off your first order $49, 50% off pet food, and more September 2026 discount..."
+      "summary_en": "Crackpot theories were once the stuff of shortwave radio, but September 11 unleashed the Age of Alex Jones."
     }
   ]
 }
