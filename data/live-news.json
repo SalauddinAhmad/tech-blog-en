@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T03:38:03+06:00",
+  "lastUpdated": "2026-09-12T06:01:49+06:00",
   "news": [
     {
       "id": "f5ea742cf30e",
@@ -62,6 +62,51 @@
       "summary_en": "This is the second data breach affecting a company that hardware crypto wallet maker Trezor relies on."
     },
     {
+      "id": "9021d387bc62",
+      "title": "Bouncy castle launches horrifying MRSA outbreak, striking 48 kids in Ireland",
+      "link": "https://arstechnica.com/health/2026/09/bouncy-castle-launches-horrifying-mrsa-outbreak-striking-48-kids-in-ireland/",
+      "source": "Ars Technica",
+      "sourceIcon": "ars",
+      "pubDate": "2026-09-11T21:14:26Z",
+      "description": "The strain lurking in the inflatable structure was hypervirulent.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 7,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "The strain lurking in the inflatable structure was hypervirulent."
+    },
+    {
+      "id": "b0c48a4bc7fb",
+      "title": "OpenAI agents carried out an undisclosed attack on RubyGems",
+      "link": "https://www.rubyhack.ai/",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-09-11T23:17:42Z",
+      "description": "Article URL: https://www.rubyhack.ai/ Comments URL: https://news.ycombinator.com/item?id=49666735 Points: 37 # Comments: 9",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 7,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "Article URL: https://www.rubyhack.ai/ Comments URL: https://news.ycombinator.com/item?id=49666735 Points: 37 # Comments:..."
+    },
+    {
+      "id": "8f75a7c2114a",
+      "title": "Some satellite companies still have an appetite for boutique launch services",
+      "link": "https://arstechnica.com/space/2026/09/some-satellite-companies-still-have-an-appetite-for-boutique-launch-services/",
+      "source": "Ars Technica",
+      "sourceIcon": "ars",
+      "pubDate": "2026-09-11T23:34:45Z",
+      "description": "\"Dedicated launch is pretty essential for us for most of our missions.\"",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 7,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "\"Dedicated launch is pretty essential for us for most of our missions.\""
+    },
+    {
       "id": "4246c352d18c",
       "title": "We unfolded the iPhone Duo",
       "link": "https://www.theverge.com/podcast/994016/iphone-duo-vergecast-apple-watch-mac-llms",
@@ -105,21 +150,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "The agency that oversees prediction markets has investigated Polymarket trades on Biden pardons and the Iran war—and eve..."
-    },
-    {
-      "id": "f02c9eba9c6c",
-      "title": "Boy developed \"toasted skin\" condition from using a laptop every day",
-      "link": "https://arstechnica.com/health/2026/09/boy-developed-toasted-skin-condition-from-using-a-laptop-every-day/",
-      "source": "Ars Technica",
-      "sourceIcon": "ars",
-      "pubDate": "2026-09-10T22:16:05Z",
-      "description": "Laptops don't usually get hot enough to burn—but they can still be harmful.",
-      "topic": "Hardware",
-      "topicIcon": "💻",
-      "importance": 5,
-      "reliability": 5,
-      "summary_bn": "",
-      "summary_en": "Laptops don't usually get hot enough to burn—but they can still be harmful."
     },
     {
       "id": "ad661e22d333",
@@ -227,6 +257,21 @@
       "summary_en": "Analysis revealed seed proteins from sesame and moringa, which held religious and symbolic significance."
     },
     {
+      "id": "2bba04b4abfe",
+      "title": "ChatGPT-using lawyer punished for citing fake testimony from made-up witnesses",
+      "link": "https://arstechnica.com/tech-policy/2026/09/chatgpt-using-lawyer-punished-for-citing-fake-testimony-from-made-up-witnesses/",
+      "source": "Ars Technica",
+      "sourceIcon": "ars",
+      "pubDate": "2026-09-11T19:34:09Z",
+      "description": "\"I didn't know that AI could hallucinate facts,\" New Mexico defense lawyer says.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 5,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "\"I didn't know that AI could hallucinate facts,\" New Mexico defense lawyer says."
+    },
+    {
       "id": "275e51d488e3",
       "title": "Kimi-maker Moonshot AI targets $2B in annual revenue",
       "link": "https://techcrunch.com/2026/09/11/kimi-maker-moonshot-ai-targets-2-billion-in-annual-revenue/",
@@ -240,66 +285,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "While K3's usage figures have declined slightly in recent months, OpenRouter data currently shows as many as 300 billion..."
-    },
-    {
-      "id": "ab2afd529906",
-      "title": "Jensen Huang explains why Nvidia will grow an astounding 70% next year",
-      "link": "https://techcrunch.com/2026/09/10/jensen-huang-explains-why-nvidia-will-grow-an-astounding-70-next-year/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-09-10T21:51:59Z",
-      "description": "Nvidia has its finger in every pie, and sees another year of plenty in its future, Jensen Huang says. But, he insists, its deals are not circular.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Nvidia has its finger in every pie, and sees another year of plenty in its future, Jensen Huang says. But, he insists, i..."
-    },
-    {
-      "id": "6f98020f2f15",
-      "title": "Thrive Capital led VCs into pro sports ownership; Collaborative Fund just upped that play",
-      "link": "https://techcrunch.com/2026/09/10/thrive-capital-showed-vcs-the-way-into-pro-sports-ownership-collaborative-fund-is-now-trying-its-own-version-of-the-same-play/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-09-10T22:30:00Z",
-      "description": "Collaborative Fund just bought into D.C. United and its stadium, with firm founder Craig Shapiro pitching it as a way to showcase for the firm's startups.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Collaborative Fund just bought into D.C. United and its stadium, with firm founder Craig Shapiro pitching it as a way to..."
-    },
-    {
-      "id": "994e2667a399",
-      "title": "Can Europe recharge its battery industry?",
-      "link": "https://www.bbc.co.uk/news/articles/cjeg8ly0qd3o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC",
-      "sourceIcon": "bbc",
-      "pubDate": "2026-09-10T23:05:47Z",
-      "description": "Europe has some promising battery tech, but can it make up ground lost to Chinese battery giants?",
-      "topic": "Regulation",
-      "topicIcon": "⚖️",
-      "importance": 4,
-      "reliability": 5,
-      "summary_bn": "",
-      "summary_en": "Europe has some promising battery tech, but can it make up ground lost to Chinese battery giants?"
-    },
-    {
-      "id": "db2438757a7c",
-      "title": "OpenAI Wants to Know if an AI Industry Slowdown Would Even Be Legal",
-      "link": "https://www.wired.com/story/openai-wants-to-know-if-an-ai-industry-slowdown-would-even-be-legal/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-09-10T23:28:42Z",
-      "description": "AI leaders worry antitrust law could stand in the way of what they view as an increasingly urgent push to coordinate a slowdown in AI development.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "AI leaders worry antitrust law could stand in the way of what they view as an increasingly urgent push to coordinate a s..."
     },
     {
       "id": "3278bc9a28eb",
@@ -548,7 +533,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-09-11T18:50:36Z",
-      "description": "Article URL: https://github.com/GrapheneOS/Messaging/releases/tag/13 Comments URL: https://news.ycombinator.com/item?id=49663373 Points: 112 # Comments: 64",
+      "description": "Article URL: https://github.com/GrapheneOS/Messaging/releases/tag/13 Comments URL: https://news.ycombinator.com/item?id=49663373 Points: 171 # Comments: 98",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 4,
@@ -602,6 +587,21 @@
       "summary_en": "The absolute last chance to apply to host an official Side Event during TechCrunch Disrupt 2026 is tonight, September 11..."
     },
     {
+      "id": "54994a8ec17c",
+      "title": "Trump's forced coal plant extensions thrown out by judge",
+      "link": "https://arstechnica.com/science/2026/09/court-rejects-governments-energy-emergency-that-kept-coal-plant-open/",
+      "source": "Ars Technica",
+      "sourceIcon": "ars",
+      "pubDate": "2026-09-11T20:32:59Z",
+      "description": "The Department of Energy declared an \"emergency\" when none existed.",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 4,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "The Department of Energy declared an \"emergency\" when none existed."
+    },
+    {
       "id": "1e600384ae13",
       "title": "One week left to book your exhibit table at TechCrunch Disrupt 2026",
       "link": "https://techcrunch.com/2026/09/11/one-week-left-to-book-your-exhibit-table-at-techcrunch-disrupt-2026/",
@@ -633,18 +633,18 @@
     },
     {
       "id": "a061c44f7783",
-      "title": "Y Combinator’s Garry Tan wants U.S. open-weight AI labs to ‘distill’ frontier models, too",
+      "title": "Y Combinator’s Garry Tan wants US open-weight AI labs to ‘distill’ frontier models, too",
       "link": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/",
       "source": "TechCrunch",
       "sourceIcon": "crunch",
       "pubDate": "2026-09-11T20:59:47Z",
-      "description": "Tan argues that frontier models themselves trained on public human knowledge so access to capable AI should be \"a form of public good.\"",
+      "description": "Tan wants smaller, American open-weight AI labs to use the same kind of training techniques on American frontier AI labs, giving the U.S. a more robust set of open-weight options that aren’t Chinese.",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 4,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "Tan argues that frontier models themselves trained on public human knowledge so access to capable AI should be \"a form o..."
+      "summary_en": "Tan wants smaller, American open-weight AI labs to use the same kind of training techniques on American frontier AI labs..."
     },
     {
       "id": "c0bb2ed6d556",
@@ -660,6 +660,36 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "\"It's actually allegedly being built out now,\" said Rabois, who has clearly dealt with a missed construction timeline or..."
+    },
+    {
+      "id": "12f90ad4cdd4",
+      "title": "Random rewards enrich classic game-theory insights",
+      "link": "https://arstechnica.com/science/2026/09/random-rewards-enrich-classic-game-theory-contests/",
+      "source": "Ars Technica",
+      "sourceIcon": "ars",
+      "pubDate": "2026-09-11T21:41:16Z",
+      "description": "Simple games gain rich strategies in the face of noise.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "Simple games gain rich strategies in the face of noise."
+    },
+    {
+      "id": "7f452d3805d7",
+      "title": "Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data",
+      "link": "https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-09-11T22:58:17Z",
+      "description": "The round for the two-year-old startup is coming together months after Mecka announced its Series A.",
+      "topic": "Startups",
+      "topicIcon": "🚀",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "The round for the two-year-old startup is coming together months after Mecka announced its Series A."
     },
     {
       "id": "a56fe6b618b1",
@@ -720,36 +750,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Explore Chewy coupon codes for $30 off, $20 off your first order $49, 50% off pet food, and more September 2026 discount..."
-    },
-    {
-      "id": "d2bfd3564bfb",
-      "title": "50% Off DoorDash Promo Code | September 2026",
-      "link": "https://www.wired.com/story/doordash-promo-code/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-09-11T05:00:00Z",
-      "description": "Explore today’s top DoorDash promo codes for $25 off your first order, free delivery, and 50% off DashPass for students and select users.",
-      "topic": "Other",
-      "topicIcon": "📰",
-      "importance": 3,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Explore today’s top DoorDash promo codes for $25 off your first order, free delivery, and 50% off DashPass for students ..."
-    },
-    {
-      "id": "abd3c2ac85d0",
-      "title": "30% Off Canon Promo Codes | September 2026",
-      "link": "https://www.wired.com/story/canon-promo-code/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-09-11T05:00:00Z",
-      "description": "Save an extra 10% or 30% with Canon coupon codes, plus up to $1,600 on cameras, printers, and more this September 2026.",
-      "topic": "Other",
-      "topicIcon": "📰",
-      "importance": 3,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Save an extra 10% or 30% with Canon coupon codes, plus up to $1,600 on cameras, printers, and more this September 2026."
     }
   ]
 }
