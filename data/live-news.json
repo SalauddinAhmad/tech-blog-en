@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T11:32:41+06:00",
+  "lastUpdated": "2026-09-12T16:28:32+06:00",
   "news": [
     {
       "id": "f5ea742cf30e",
@@ -77,21 +77,6 @@
       "summary_en": "The strain lurking in the inflatable structure was hypervirulent."
     },
     {
-      "id": "b0c48a4bc7fb",
-      "title": "OpenAI agents carried out an undisclosed attack on RubyGems",
-      "link": "https://www.rubyhack.ai/",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-09-11T23:17:42Z",
-      "description": "Article URL: https://www.rubyhack.ai/ Comments URL: https://news.ycombinator.com/item?id=49666735 Points: 525 # Comments: 307",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 7,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://www.rubyhack.ai/ Comments URL: https://news.ycombinator.com/item?id=49666735 Points: 525 # Comments..."
-    },
-    {
       "id": "8f75a7c2114a",
       "title": "Some satellite companies still have an appetite for boutique launch services",
       "link": "https://arstechnica.com/space/2026/09/some-satellite-companies-still-have-an-appetite-for-boutique-launch-services/",
@@ -152,19 +137,19 @@
       "summary_en": "The agency that oversees prediction markets has investigated Polymarket trades on Biden pardons and the Iran war—and eve..."
     },
     {
-      "id": "ad661e22d333",
-      "title": "Anthropic blocks possible attempt to use AI to make biological weapons",
-      "link": "https://www.bbc.co.uk/news/articles/cx2zrrpkx20o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC",
-      "sourceIcon": "bbc",
-      "pubDate": "2026-09-11T08:15:25Z",
-      "description": "The revelations in Anthropic's threat intelligence report come after a former top researcher at the company warned of the risks of AI to humanity.",
+      "id": "5da1b107ad8e",
+      "title": "‘I’m Really Terrified’: A Mathematician Grapples With AI’s Recent Breakthroughs",
+      "link": "https://www.wired.com/story/mathematician-steven-strogatz-grapples-with-ai-recent-breakthroughs/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-09-12T10:00:00Z",
+      "description": "Steven Strogatz coauthored a book about how math is moving beyond human understanding. He spoke with WIRED about the seismic impact artificial intelligence has had on his life’s work.",
       "topic": "AI/ML",
       "topicIcon": "🤖",
-      "importance": 5,
-      "reliability": 5,
+      "importance": 6,
+      "reliability": 4,
       "summary_bn": "",
-      "summary_en": "The revelations in Anthropic's threat intelligence report come after a former top researcher at the company warned of th..."
+      "summary_en": "Steven Strogatz coauthored a book about how math is moving beyond human understanding. He spoke with WIRED about the sei..."
     },
     {
       "id": "762f1911d542",
@@ -300,36 +285,6 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "The BBC's Tom Gerken plays the hotly anticipated superhero game from Spider-Man makers Insomniac."
-    },
-    {
-      "id": "eb0ec067ba7c",
-      "title": "Why So Many AI Researchers Think the Machines Could Kill Everyone",
-      "link": "https://www.wired.com/story/why-so-many-ai-researchers-think-the-machines-could-kill-everyone/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-09-11T09:00:00Z",
-      "description": "A combination of rapid advances, recursive self-improvement, and agentic swarms are genuinely “spooking people” inside big labs.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "A combination of rapid advances, recursive self-improvement, and agentic swarms are genuinely “spooking people” inside b..."
-    },
-    {
-      "id": "3278bc9a28eb",
-      "title": "Samsung Galaxy S26 FE Review: Same as Before, but for More Money",
-      "link": "https://www.wired.com/review/samsung-galaxy-s26-fe/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-09-11T09:00:00Z",
-      "description": "Samsung is resting on its laurels with the midrange S26 FE, with an unwelcome price bump and only a new processor to show for it.",
-      "topic": "Mobile",
-      "topicIcon": "📱",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Samsung is resting on its laurels with the midrange S26 FE, with an unwelcome price bump and only a new processor to sho..."
     },
     {
       "id": "9c51fa97dad3",
@@ -548,7 +503,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-09-11T18:50:36Z",
-      "description": "Article URL: https://github.com/GrapheneOS/Messaging/releases/tag/13 Comments URL: https://news.ycombinator.com/item?id=49663373 Points: 235 # Comments: 150",
+      "description": "Article URL: https://github.com/GrapheneOS/Messaging/releases/tag/13 Comments URL: https://news.ycombinator.com/item?id=49663373 Points: 280 # Comments: 203",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 4,
@@ -707,6 +662,21 @@
       "summary_en": "The round for the two-year-old startup is coming together months after Mecka announced its Series A."
     },
     {
+      "id": "b0c48a4bc7fb",
+      "title": "OpenAI agents carried out an undisclosed attack on RubyGems",
+      "link": "https://www.rubyhack.ai/",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-09-11T23:17:42Z",
+      "description": "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems... Comments URL: https://news.ycombinator.com/item?id=49666735 Points: 714 # Comments: 400",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems... Comments URL: https://news.ycombinator.com/item?id=49666..."
+    },
+    {
       "id": "3b00970eb874",
       "title": "Tech Now",
       "link": "https://www.bbc.co.uk/iplayer/episode/m0031qjy?at_medium=RSS&at_campaign=rss",
@@ -722,34 +692,64 @@
       "summary_en": "Shiona McCallum meets mums and hospital staff trialling a new assisted birth innovation."
     },
     {
-      "id": "01feaf0835a8",
-      "title": "The US and Mexico Announce They’re Teaming Up Against Drones",
-      "link": "https://www.wired.com/story/us-and-mexico-announce-teaming-up-against-drones/",
+      "id": "08b09a70f4cd",
+      "title": "You Don’t Have a Right to Safe Drinking Water, Trump-Appointed Judge Rules",
+      "link": "https://www.wired.com/story/you-dont-have-right-to-safe-drinking-water-trump-appointed-judge-rules/",
       "source": "Wired",
       "sourceIcon": "wired",
-      "pubDate": "2026-09-11T09:15:00Z",
-      "description": "The new joint operation uses laser-based technology capable of detecting, tracking, and disabling commercial drones linked to human and drug trafficking.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 3,
+      "pubDate": "2026-09-12T09:30:00Z",
+      "description": "And if your tap water is undrinkable, you have no “constitutional right to truthful information” about it.",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 4,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "The new joint operation uses laser-based technology capable of detecting, tracking, and disabling commercial drones link..."
+      "summary_en": "And if your tap water is undrinkable, you have no “constitutional right to truthful information” about it."
     },
     {
-      "id": "c528b80bfc11",
-      "title": "How 9/11 Made Everyone a Conspiracy Theorist",
-      "link": "https://www.wired.com/story/conspiracy-how-9-11-broke-americas-brain/",
+      "id": "2eee90115fb5",
+      "title": "Branch Ergonomic Chair Pro (Sega Edition) Review: Comfy, Not Boring",
+      "link": "https://www.wired.com/review/branch-ergonomic-chair-pro-sega-edition/",
       "source": "Wired",
       "sourceIcon": "wired",
-      "pubDate": "2026-09-11T10:00:00Z",
-      "description": "Crackpot theories were once the stuff of shortwave radio, but September 11 unleashed the Age of Alex Jones.",
+      "pubDate": "2026-09-12T10:00:00Z",
+      "description": "Turns out that the best office chair is also the best gaming chair, now with aesthetics to match.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Turns out that the best office chair is also the best gaming chair, now with aesthetics to match."
+    },
+    {
+      "id": "9ce6e19cfdf4",
+      "title": "8 Best Travel Adapters (2026): 20+ Models Tested",
+      "link": "https://www.wired.com/gallery/best-travel-adapters/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-09-11T11:00:00Z",
+      "description": "When going abroad, the right plugs are essential to keep your gadgets charged. These are my favorite travel adapters and chargers that I’ve tested myself.",
       "topic": "Other",
       "topicIcon": "📰",
       "importance": 3,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "Crackpot theories were once the stuff of shortwave radio, but September 11 unleashed the Age of Alex Jones."
+      "summary_en": "When going abroad, the right plugs are essential to keep your gadgets charged. These are my favorite travel adapters and..."
+    },
+    {
+      "id": "038971c42f39",
+      "title": "Anime reaction YouTubers are at war with copyright enforcers",
+      "link": "https://www.theverge.com/tech/993898/nicholaslighttv-remove-your-media-youtube-crunchyroll-viz-media",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-09-11T15:12:58Z",
+      "description": "On September 6th, YouTuber Nicholas Light posted a video to one of his channels that made it seem like all of his content was about to be removed from the platform. In the video - ominously titled \"My Channel will be Deleted Today\" - Light alleges that he was on the receiving end of some [&#8230;]",
+      "topic": "Web/JavaScript",
+      "topicIcon": "🌐",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "On September 6th, YouTuber Nicholas Light posted a video to one of his channels that made it seem like all of his conten..."
     }
   ]
 }
