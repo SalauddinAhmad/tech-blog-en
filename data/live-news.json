@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T07:18:41+06:00",
+  "lastUpdated": "2026-09-15T13:31:35+06:00",
   "news": [
     {
       "id": "00635d35765f",
@@ -137,6 +137,21 @@
       "summary_en": "Existential fears about AI have once again reared their head - here's what you need to know."
     },
     {
+      "id": "f0f4c3785f5d",
+      "title": "OpenAI bots knew about the RubyGems caching vulnerability",
+      "link": "https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive/",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-09-14T12:40:57Z",
+      "description": "Article URL: https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive/ Comments URL: https://news.ycombinator.com/item?id=49695876 Points: 431 # Comments: 345",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 5,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "Article URL: https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive/ Comments URL: https://news.ycombinator.com..."
+    },
+    {
       "id": "bf1c4e44e794",
       "title": "F1 in Madrid: Like Monaco but twice as long and none of the glamour",
       "link": "https://arstechnica.com/cars/2026/09/f1-in-madrid-like-monaco-but-twice-as-long-and-none-of-the-glamour/",
@@ -167,21 +182,6 @@
       "summary_en": "Given that these departed board members were those who voted to put Mullenweg on a paid leave of absence to begin with, ..."
     },
     {
-      "id": "f15a217cae8d",
-      "title": "Show HN: Nari Qwen3-TTS and Qwen3-ASR – High accuracy, low latency and cost",
-      "link": "https://narilabs.com/blog/nari-labs-leads-coval-voice-ai-benchmarks/",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-09-14T16:07:58Z",
-      "description": "Hey HN, Toby from Nari Labs here. We've been working on making OSS speech models super-fast. Last year, we built Dia, the first OSS text-to-speech model capable of doing natural dialogue. Since then, so many more great speech models have been released to the public. But the market is still dominated by closed source models. We think that's an inference problem. Existing systems such as vLLM / SGLang are not well suited for multimodal inference. To prove this, we built an inference engine specialized for Qwen3-TTS and open-sourced it ( https://github.com/nari-labs/nari-qwen3-tts ). Running at sub-50 ms latency at 10 RPS, this showed open models can be run much faster and cheaper. Since then, we've been working hard to bring cheap, fast, and high quality serving to all. And we've even beat closed models at their game! Measured on the highly cited Coval (YC S24) voice AI benchmarks, our Qwen3-TTS endpoint not just is #2 in latency, but #1 in accuracy (WER) compared to 11Labs, Cartesia etc. while being the cheapest endpoint. Our Qwen3-ASR endpoint has the lowest latency and #2 accuracy, just 0.1% away from #1. It is the second cheapest model on the list. It took a lot of clever inference engineering to make these models quick, perform well while keeping costs low. Interestingly, Alibaba's official endpoints seem to perform worse in terms of accuracy and latency compared to ours. But nonetheless, much love to the Qwen team for OSS-ing these amazing speech models. We want to continue to push prices down to make speech technology a commodity - so that every app can have great TTS and STT without worrying about unit costs. We're also working on other parts of audio such as diarization - as well as video and world model inference. More to come! Comments URL: https://news.ycombinator.com/item?id=49699267 Points: 64 # Comments: 19",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 5,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Hey HN, Toby from Nari Labs here. We've been working on making OSS speech models super-fast. Last year, we built Dia, th..."
-    },
-    {
       "id": "7bb18b050612",
       "title": "What is AI, how does it work and why are some people concerned about it?",
       "link": "https://www.bbc.co.uk/news/articles/c2l799gxjjpo?at_medium=RSS&at_campaign=rss",
@@ -210,21 +210,6 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "The BBC's Tom Gerken is hands-on with the latest virtual reality headset."
-    },
-    {
-      "id": "b9167fb1fb34",
-      "title": "macOS 27 is available now",
-      "link": "https://www.theverge.com/tech/994818/apple-macos-27-golden-gate-available-now",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-09-14T17:10:13Z",
-      "description": "Apple released macOS 27 Golden Gate on Monday, which brings the new Siri AI assistant, Liquid Glass improvements, improved performance, and more. The update is compatible with all Macs with Apple Silicon, but not Intel Macs - Apple released its final big update for Intel-based Macs last year with macOS Tahoe. Siri AI is arguably [&#8230;]",
-      "topic": "Hardware",
-      "topicIcon": "💻",
-      "importance": 5,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Apple released macOS 27 Golden Gate on Monday, which brings the new Siri AI assistant, Liquid Glass improvements, improv..."
     },
     {
       "id": "dffdee575d5f",
@@ -375,6 +360,36 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "New rules introduced on Tuesday mean establishments will be able to accept digital ID apps alongside physical documents."
+    },
+    {
+      "id": "5c81d3a81377",
+      "title": "For the first time, the US military confirms it has deployed weapons in orbit",
+      "link": "https://arstechnica.com/space/2026/09/for-the-first-time-the-us-military-confirms-it-has-deployed-weapons-in-orbit/",
+      "source": "Ars Technica",
+      "sourceIcon": "ars",
+      "pubDate": "2026-09-15T03:47:36Z",
+      "description": "\"The United States now has on-orbit space control weapons capable of defending the joint force.\"",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 5,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "\"The United States now has on-orbit space control weapons capable of defending the joint force.\""
+    },
+    {
+      "id": "aec74c8e34e6",
+      "title": "Volvo increases the batteries for 2028 XC60 and XC90 plug-in refresh",
+      "link": "https://arstechnica.com/cars/2026/09/volvo-bigs-up-the-batteries-for-2028-xc60-and-xc90-plug-in-refresh/",
+      "source": "Ars Technica",
+      "sourceIcon": "ars",
+      "pubDate": "2026-09-15T07:00:30Z",
+      "description": "The refreshed Volvos also get new infotainment systems with Gemini onboard.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 5,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "The refreshed Volvos also get new infotainment systems with Gemini onboard."
     },
     {
       "id": "b46706e41607",
@@ -647,6 +662,51 @@
       "summary_en": "The ruling bars the United States Postal Service from implementing restrictions that experts and election officials say ..."
     },
     {
+      "id": "b49ff49961c0",
+      "title": "Ex-FTC boss Khan: break out the handcuffs for AI CEOs, citing 1934 precedent",
+      "link": "https://www.theregister.com/ai-and-ml/2026/09/14/ex-ftc-boss-khan-urges-uncle-sam-to-break-out-the-handcuffs-for-ai-ceos-citing-1934-precedent/5296325",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-09-15T00:40:14Z",
+      "description": "Article URL: https://www.theregister.com/ai-and-ml/2026/09/14/ex-ftc-boss-khan-urges-uncle-sam-to-break-out-the-handcuffs-for-ai-ceos-citing-1934-precedent/5296325 Comments URL: https://news.ycombinator.com/item?id=49706223 Points: 146 # Comments: 75",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "Article URL: https://www.theregister.com/ai-and-ml/2026/09/14/ex-ftc-boss-khan-urges-uncle-sam-to-break-out-the-handcuff..."
+    },
+    {
+      "id": "7cf2e571be71",
+      "title": "Jensen Huang took a call from Trump, and showed off something else, too",
+      "link": "https://techcrunch.com/2026/09/14/jensen-huang-took-a-call-from-trump-and-showed-off-something-else-too/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-09-15T01:50:48Z",
+      "description": "When Jensen Huang took a live call from Trump, some of us were more focused the phone he used to take it.",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "When Jensen Huang took a live call from Trump, some of us were more focused the phone he used to take it."
+    },
+    {
+      "id": "6d6a88f87368",
+      "title": "Volvo’s plug-in hybrid XC60 and XC90 can really go the distance",
+      "link": "https://www.theverge.com/transportation/994792/volvo-xc60-xc90-phev-longest-electric-range",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-09-15T07:00:00Z",
+      "description": "Most plug-in hybrid electric vehicles (PHEV) today get an average of around 30-50 miles of battery-only range: decent, but not mind-blowing. With hybrid sales dominating the market today, Volvo is out to prove that its PHEVs can push the limits of what's possible. Today, the Swedish automaker revealed the updated PHEV versions of its popular [&#8230;]",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Most plug-in hybrid electric vehicles (PHEV) today get an average of around 30-50 miles of battery-only range: decent, b..."
+    },
+    {
       "id": "bb4f12dae415",
       "title": "Roborock Qrevo 2 Review (2026): A New Budget Vacuum King?",
       "link": "https://www.wired.com/review/roborock-qrevo-2-pro/",
@@ -690,66 +750,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Protect your home against dust, pets, allergens, and more with the best air purifiers, tested firsthand."
-    },
-    {
-      "id": "3b89d94cbe0b",
-      "title": "5 days left to exhibit at TechCrunch Disrupt 2026",
-      "link": "https://techcrunch.com/2026/09/14/techcrunch-disrupt-2026-exhibit-table-deadline-5-days/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-09-14T14:00:00Z",
-      "description": "The last day to apply for an exhibit table at TechCrunch Disrupt 2026 on Sept 18. Just 5 days left. Secure your spot on the Expo Hall floor and put your business in front of 10,000+ founders, investors, and tech leaders.",
-      "topic": "Startups",
-      "topicIcon": "🚀",
-      "importance": 3,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "The last day to apply for an exhibit table at TechCrunch Disrupt 2026 on Sept 18. Just 5 days left. Secure your spot on ..."
-    },
-    {
-      "id": "ea803dfd17bf",
-      "title": "Dropping eBPF CPU Cost by About 90% with Memoization (Not AI Gen)",
-      "link": "https://nathannaveen.dev/posts/dropping-ebpf-cpu-cost-by-90/",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-09-14T14:29:23Z",
-      "description": "Article URL: https://nathannaveen.dev/posts/dropping-ebpf-cpu-cost-by-90/ Comments URL: https://news.ycombinator.com/item?id=49697477 Points: 20 # Comments: 4",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 3,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://nathannaveen.dev/posts/dropping-ebpf-cpu-cost-by-90/ Comments URL: https://news.ycombinator.com/ite..."
-    },
-    {
-      "id": "995bc7a4b9c1",
-      "title": "Show HN: Neobrutalism.dev – Just added Base UI support and added new color theme",
-      "link": "https://www.neobrutalism.dev/",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-09-14T16:02:02Z",
-      "description": "Article URL: https://www.neobrutalism.dev/ Comments URL: https://news.ycombinator.com/item?id=49699159 Points: 139 # Comments: 65",
-      "topic": "Startups",
-      "topicIcon": "🚀",
-      "importance": 3,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://www.neobrutalism.dev/ Comments URL: https://news.ycombinator.com/item?id=49699159 Points: 139 # Com..."
-    },
-    {
-      "id": "f3ef2132ea91",
-      "title": "Waymo opens robotaxi service in Las Vegas",
-      "link": "https://techcrunch.com/2026/09/14/waymo-opens-robotaxi-service-in-las-vegas/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-09-14T16:04:16Z",
-      "description": "Las Vegas will be Waymo's 15th commercial robotaxi market.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 3,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Las Vegas will be Waymo's 15th commercial robotaxi market."
     }
   ]
 }
