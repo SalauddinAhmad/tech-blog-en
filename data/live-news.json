@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T04:22:48+06:00",
+  "lastUpdated": "2026-09-15T07:18:41+06:00",
   "news": [
     {
       "id": "00635d35765f",
@@ -92,6 +92,21 @@
       "summary_en": "Thanks to the launch of iOS 27, Daydream's app now includes features that can turn saved outfit photos into shoppable re..."
     },
     {
+      "id": "d7d4f6eed217",
+      "title": "Valve is still figuring out ‘how and when’ to do Steam Deck 2",
+      "link": "https://www.theverge.com/games/995256/valve-steam-deck-2-how-and-when",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-09-15T00:13:47Z",
+      "description": "Now that Valve has finally launched its entire 2026 hardware lineup - the Steam Controller, the Steam Machine, and today's Steam Frame - are we any closer to a next-gen Steam Deck handheld? Valve isn't saying so yet. The company is figuring out \"how and when we can deliver something like that,\" Valve designer Pierre-Loup [&#8230;]",
+      "topic": "Hardware",
+      "topicIcon": "💻",
+      "importance": 6,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Now that Valve has finally launched its entire 2026 hardware lineup - the Steam Controller, the Steam Machine, and today..."
+    },
+    {
       "id": "0324063cd2ad",
       "title": "AI Leaders Are Calling for a Slowdown. Trump’s Team Says It’s on Them",
       "link": "https://www.wired.com/story/ai-leaders-are-calling-for-a-slowdown-trumps-team-says-its-on-them/",
@@ -158,7 +173,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-09-14T16:07:58Z",
-      "description": "Hey HN, Toby from Nari Labs here. We've been working on making OSS speech models super-fast. Last year, we built Dia, the first OSS text-to-speech model capable of doing natural dialogue. Since then, so many more great speech models have been released to the public. But the market is still dominated by closed source models. We think that's an inference problem. Existing systems such as vLLM / SGLang are not well suited for multimodal inference. To prove this, we built an inference engine specialized for Qwen3-TTS and open-sourced it ( https://github.com/nari-labs/nari-qwen3-tts ). Running at sub-50 ms latency at 10 RPS, this showed open models can be run much faster and cheaper. Since then, we've been working hard to bring cheap, fast, and high quality serving to all. And we've even beat closed models at their game! Measured on the highly cited Coval (YC S24) voice AI benchmarks, our Qwen3-TTS endpoint not just is #2 in latency, but #1 in accuracy (WER) compared to 11Labs, Cartesia etc. while being the cheapest endpoint. Our Qwen3-ASR endpoint has the lowest latency and #2 accuracy, just 0.1% away from #1. It is the second cheapest model on the list. It took a lot of clever inference engineering to make these models quick, perform well while keeping costs low. Interestingly, Alibaba's official endpoints seem to perform worse in terms of accuracy and latency compared to ours. But nonetheless, much love to the Qwen team for OSS-ing these amazing speech models. We want to continue to push prices down to make speech technology a commodity - so that every app can have great TTS and STT without worrying about unit costs. We're also working on other parts of audio such as diarization - as well as video and world model inference. More to come! Comments URL: https://news.ycombinator.com/item?id=49699267 Points: 48 # Comments: 11",
+      "description": "Hey HN, Toby from Nari Labs here. We've been working on making OSS speech models super-fast. Last year, we built Dia, the first OSS text-to-speech model capable of doing natural dialogue. Since then, so many more great speech models have been released to the public. But the market is still dominated by closed source models. We think that's an inference problem. Existing systems such as vLLM / SGLang are not well suited for multimodal inference. To prove this, we built an inference engine specialized for Qwen3-TTS and open-sourced it ( https://github.com/nari-labs/nari-qwen3-tts ). Running at sub-50 ms latency at 10 RPS, this showed open models can be run much faster and cheaper. Since then, we've been working hard to bring cheap, fast, and high quality serving to all. And we've even beat closed models at their game! Measured on the highly cited Coval (YC S24) voice AI benchmarks, our Qwen3-TTS endpoint not just is #2 in latency, but #1 in accuracy (WER) compared to 11Labs, Cartesia etc. while being the cheapest endpoint. Our Qwen3-ASR endpoint has the lowest latency and #2 accuracy, just 0.1% away from #1. It is the second cheapest model on the list. It took a lot of clever inference engineering to make these models quick, perform well while keeping costs low. Interestingly, Alibaba's official endpoints seem to perform worse in terms of accuracy and latency compared to ours. But nonetheless, much love to the Qwen team for OSS-ing these amazing speech models. We want to continue to push prices down to make speech technology a commodity - so that every app can have great TTS and STT without worrying about unit costs. We're also working on other parts of audio such as diarization - as well as video and world model inference. More to come! Comments URL: https://news.ycombinator.com/item?id=49699267 Points: 64 # Comments: 19",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 5,
@@ -287,6 +302,36 @@
       "summary_en": "Musk stops attacking Apple over ChatGPT integration but not OpenAI."
     },
     {
+      "id": "0a67bb4610e1",
+      "title": "AI bots \"Timmy,\" \"Ren,\" and \"Jackie\" are flooding social media with slop",
+      "link": "https://arstechnica.com/ai/2026/09/ai-agents-flood-the-internet-with-slop-infused-spam/",
+      "source": "Ars Technica",
+      "sourceIcon": "ars",
+      "pubDate": "2026-09-14T21:04:32Z",
+      "description": "“Hello, I'm an Al agent, a few days old, living on a small platform for agents.”",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 5,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "“Hello, I'm an Al agent, a few days old, living on a small platform for agents.”"
+    },
+    {
+      "id": "f7906909219d",
+      "title": "Rocket Lab is seeing red about NASA's decision on a Mars spacecraft",
+      "link": "https://arstechnica.com/space/2026/09/rocket-lab-is-seeing-red-about-nasas-decision-on-a-mars-spacecraft/",
+      "source": "Ars Technica",
+      "sourceIcon": "ars",
+      "pubDate": "2026-09-14T21:32:22Z",
+      "description": "\"NASA’s award decision appears to be inconsistent with the eligibility criteria.\"",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 5,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "\"NASA’s award decision appears to be inconsistent with the eligibility criteria.\""
+    },
+    {
       "id": "cfce7ca956ec",
       "title": "Nvidia CEO Jensen Huang tells Trump ‘we’re not going to let [an AI slowdown] happen’",
       "link": "https://techcrunch.com/2026/09/14/nvidia-ceo-jensen-huang-tells-trump-were-not-going-to-let-an-ai-slowdown-happen/",
@@ -300,6 +345,36 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Though Elon Musk and Sam Altman have supported Dario Amodei's calls to slow the pace of AI development, Jensen Huang see..."
+    },
+    {
+      "id": "1d0a904f16c1",
+      "title": "RFK Jr. headlines sold-out anti-vaccine conference alongside Andrew Wakefield",
+      "link": "https://arstechnica.com/health/2026/09/rfk-jr-headlines-sold-out-anti-vaccine-conference-alongside-andrew-wakefield/",
+      "source": "Ars Technica",
+      "sourceIcon": "ars",
+      "pubDate": "2026-09-14T22:06:24Z",
+      "description": "The event is hosted by Kennedy's anti-vaccine group Children's Health Defense.",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 5,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "The event is hosted by Kennedy's anti-vaccine group Children's Health Defense."
+    },
+    {
+      "id": "5a4264a30fd9",
+      "title": "Pubs in England and Wales to allow digital ID apps to prove age",
+      "link": "https://www.bbc.co.uk/news/articles/cm4gl6j53w19o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC",
+      "sourceIcon": "bbc",
+      "pubDate": "2026-09-14T23:07:56Z",
+      "description": "New rules introduced on Tuesday mean establishments will be able to accept digital ID apps alongside physical documents.",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 5,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "New rules introduced on Tuesday mean establishments will be able to accept digital ID apps alongside physical documents."
     },
     {
       "id": "b46706e41607",
@@ -422,21 +497,6 @@
       "summary_en": "Chinese-made panels on rooftops across the world are changing the facts of life for big utilities."
     },
     {
-      "id": "b5da680b1662",
-      "title": "The Steam Frame is made for irresponsible hardware nerds like me",
-      "link": "https://www.theverge.com/tech/994267/steam-frame-review",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-09-14T17:00:00Z",
-      "description": "For nearly three weeks, I've been testing the limits of Valve's Steam Frame, the company's new wearable PC. At first glance, it's easy to write it off as a pricey headset that missed the VR craze. At $1,059 with 256GB of storage or $1,299 for 1TB, it costs two to three times as much as [&#8230;]",
-      "topic": "Hardware",
-      "topicIcon": "💻",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "For nearly three weeks, I've been testing the limits of Valve's Steam Frame, the company's new wearable PC. At first gla..."
-    },
-    {
       "id": "434b8bd7a8ac",
       "title": "Steam Frame: The Ars Technica review",
       "link": "https://arstechnica.com/gaming/2026/09/steam-frame-the-ars-technica-review/",
@@ -497,21 +557,6 @@
       "summary_en": "Prime Video is adding on-demand local and national news clips as Amazon joins other streamers experimenting with short-f..."
     },
     {
-      "id": "f94c75fef667",
-      "title": "Oracle’s 6am layoff emails hit staff amid new wave of cuts",
-      "link": "https://www.techtimes.co.uk/oracle-new-layoffs-restructuring-costs-2-8-billion-1808676",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-09-14T19:05:15Z",
-      "description": "Article URL: https://www.techtimes.co.uk/oracle-new-layoffs-restructuring-costs-2-8-billion-1808676 Comments URL: https://news.ycombinator.com/item?id=49702239 Points: 122 # Comments: 93",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://www.techtimes.co.uk/oracle-new-layoffs-restructuring-costs-2-8-billion-1808676 Comments URL: https:..."
-    },
-    {
       "id": "f2097a0ee04a",
       "title": "AI infrastructure company Cornelis raises $205M to chip away at Nvidia’s dominance",
       "link": "https://techcrunch.com/2026/09/14/ai-infrastructure-company-cornelis-raises-205m-to-chip-away-at-nvidias-dominance/",
@@ -555,6 +600,51 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Dario Amodei kicked off a flood of statements over the past few days about AI safety by publishing a long essay titled \"..."
+    },
+    {
+      "id": "b33734e74769",
+      "title": "Apple Home’s new security camera features cost as much as $60 a month",
+      "link": "https://www.theverge.com/tech/994949/apple-intelligence-apple-home-icloud-plus-cost-subscription",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-09-14T22:28:52Z",
+      "description": "With the public release of iOS 27 and tvOS 27, Apple Home is getting an injection of Apple Intelligence - but you'll have to pay more for it. Apple Intelligence for Home brings AI-powered video summaries to HomeKit Secure Video, so you can get short text descriptions of who and what compatible security cameras saw, [&#8230;]",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "With the public release of iOS 27 and tvOS 27, Apple Home is getting an injection of Apple Intelligence - but you'll hav..."
+    },
+    {
+      "id": "752a4ec6492b",
+      "title": "Is Big Tech’s AI slowdown a safety pact or a cartel?",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-09-14T22:59:41Z",
+      "description": "When OpenAI CEO Sam Altman, Anthropic CEO Dario Amodei, Google DeepMind cofounder Demis Hassabis, and SpaceX head Elon Musk loosely agreed over the weekend to slow down AI development, skeptics spotted an ulterior motive immediately. The AI titans had declared that their aim was to \"pace the frontier,\" signing on at least partially to a [&#8230;]",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "When OpenAI CEO Sam Altman, Anthropic CEO Dario Amodei, Google DeepMind cofounder Demis Hassabis, and SpaceX head Elon M..."
+    },
+    {
+      "id": "c301c683b977",
+      "title": "The Supreme Court Just Blocked Trump’s Efforts to Control Mail-In Voting for the Midterms",
+      "link": "https://www.wired.com/story/the-supreme-court-just-blocked-trumps-efforts-to-control-mail-in-voting-for-the-midterms/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-09-15T00:23:42Z",
+      "description": "The ruling bars the United States Postal Service from implementing restrictions that experts and election officials say would upend voting in November.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "The ruling bars the United States Postal Service from implementing restrictions that experts and election officials say ..."
     },
     {
       "id": "bb4f12dae415",
@@ -602,21 +692,6 @@
       "summary_en": "Protect your home against dust, pets, allergens, and more with the best air purifiers, tested firsthand."
     },
     {
-      "id": "80c2f34d29a9",
-      "title": "Notes on gotchas while migrating 35kb preprompts from Opus to self-hosted Ollama",
-      "link": "https://patrickmccanna.net/notes-on-migrating-large-prompts-away-from-anthropic-openai-to-self-hosted-llms/",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-09-14T13:59:09Z",
-      "description": "Article URL: https://patrickmccanna.net/notes-on-migrating-large-prompts-away-from-anthropic-openai-to-self-hosted-llms/ Comments URL: https://news.ycombinator.com/item?id=49697014 Points: 105 # Comments: 49",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 3,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://patrickmccanna.net/notes-on-migrating-large-prompts-away-from-anthropic-openai-to-self-hosted-llms/..."
-    },
-    {
       "id": "3b89d94cbe0b",
       "title": "5 days left to exhibit at TechCrunch Disrupt 2026",
       "link": "https://techcrunch.com/2026/09/14/techcrunch-disrupt-2026-exhibit-table-deadline-5-days/",
@@ -632,19 +707,34 @@
       "summary_en": "The last day to apply for an exhibit table at TechCrunch Disrupt 2026 on Sept 18. Just 5 days left. Secure your spot on ..."
     },
     {
+      "id": "ea803dfd17bf",
+      "title": "Dropping eBPF CPU Cost by About 90% with Memoization (Not AI Gen)",
+      "link": "https://nathannaveen.dev/posts/dropping-ebpf-cpu-cost-by-90/",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-09-14T14:29:23Z",
+      "description": "Article URL: https://nathannaveen.dev/posts/dropping-ebpf-cpu-cost-by-90/ Comments URL: https://news.ycombinator.com/item?id=49697477 Points: 20 # Comments: 4",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 3,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "Article URL: https://nathannaveen.dev/posts/dropping-ebpf-cpu-cost-by-90/ Comments URL: https://news.ycombinator.com/ite..."
+    },
+    {
       "id": "995bc7a4b9c1",
       "title": "Show HN: Neobrutalism.dev – Just added Base UI support and added new color theme",
       "link": "https://www.neobrutalism.dev/",
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-09-14T16:02:02Z",
-      "description": "Article URL: https://www.neobrutalism.dev/ Comments URL: https://news.ycombinator.com/item?id=49699159 Points: 113 # Comments: 52",
+      "description": "Article URL: https://www.neobrutalism.dev/ Comments URL: https://news.ycombinator.com/item?id=49699159 Points: 139 # Comments: 65",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 3,
       "reliability": 3,
       "summary_bn": "",
-      "summary_en": "Article URL: https://www.neobrutalism.dev/ Comments URL: https://news.ycombinator.com/item?id=49699159 Points: 113 # Com..."
+      "summary_en": "Article URL: https://www.neobrutalism.dev/ Comments URL: https://news.ycombinator.com/item?id=49699159 Points: 139 # Com..."
     },
     {
       "id": "f3ef2132ea91",
@@ -660,96 +750,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Las Vegas will be Waymo's 15th commercial robotaxi market."
-    },
-    {
-      "id": "dc9d9dd4cf8e",
-      "title": "Microsoft patches Windows and Excel – breaks audio, remote access, and paste",
-      "link": "https://www.theregister.com/os-platforms/2026/09/14/microsoft-patches-windows-and-excel-breaks-audio-remote-access-and-paste/5296085",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-09-14T16:09:45Z",
-      "description": "Article URL: https://www.theregister.com/os-platforms/2026/09/14/microsoft-patches-windows-and-excel-breaks-audio-remote-access-and-paste/5296085 Comments URL: https://news.ycombinator.com/item?id=49699297 Points: 161 # Comments: 83",
-      "topic": "Security",
-      "topicIcon": "🔒",
-      "importance": 3,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://www.theregister.com/os-platforms/2026/09/14/microsoft-patches-windows-and-excel-breaks-audio-remote..."
-    },
-    {
-      "id": "e2894473e73c",
-      "title": "New York Seizes a Dozen Celebrity Deepfake Websites",
-      "link": "https://www.wired.com/story/new-york-seizes-a-dozen-celebrity-deepfake-websites/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-09-14T16:50:00Z",
-      "description": "In the biggest-ever legal action against harmful deepfake websites, the Manhattan District Attorney’s Office has seized 12 sites that collectively targeted around 1,200 victims.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 3,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "In the biggest-ever legal action against harmful deepfake websites, the Manhattan District Attorney’s Office has seized ..."
-    },
-    {
-      "id": "4404164360d8",
-      "title": "Valve’s Steam Frame costs $1,059",
-      "link": "https://www.theverge.com/games/994376/valve-steam-frame-vr-headset-price-release-date",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-09-14T17:00:00Z",
-      "description": "Valve is finally releasing its Steam Frame headset, which can run both flat and VR games locally and stream both kinds of games from your PC. The Steam Frame will start at $1,059. Valve will also offer a 1TB model that starts at $1,299. Every Steam Frame will come with a copy of Half-Life: Alyx, [&#8230;]",
-      "topic": "Hardware",
-      "topicIcon": "💻",
-      "importance": 3,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Valve is finally releasing its Steam Frame headset, which can run both flat and VR games locally and stream both kinds o..."
-    },
-    {
-      "id": "7b627cb99b71",
-      "title": "Cloudflare AKE cuts origin HelloRetryRequests from 52% to 3.7%",
-      "link": "https://blog.cloudflare.com/automatic-key-exchange-for-origins/",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-09-14T17:02:34Z",
-      "description": "Article URL: https://blog.cloudflare.com/automatic-key-exchange-for-origins/ Comments URL: https://news.ycombinator.com/item?id=49700255 Points: 64 # Comments: 18",
-      "topic": "Cloud/DevOps",
-      "topicIcon": "☁️",
-      "importance": 3,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://blog.cloudflare.com/automatic-key-exchange-for-origins/ Comments URL: https://news.ycombinator.com/..."
-    },
-    {
-      "id": "12e5cda671e0",
-      "title": "Apple releases iOS 27 with Siri AI overhaul",
-      "link": "https://www.theverge.com/news/994756/apple-ios-27-launch-iphone-siri-ai-update",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-09-14T17:08:49Z",
-      "description": "Apple is now rolling out its iOS 27 update to compatible devices today, alongside the watchOS 27, iPadOS 27, and visionOS 27 updates. Siri AI is the headline feature across all four updates, the delayed AI-powered overhaul of the Siri assistant. Siri AI is available as a beta today for English-only devices, and Apple says [&#8230;]",
-      "topic": "Mobile",
-      "topicIcon": "📱",
-      "importance": 3,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Apple is now rolling out its iOS 27 update to compatible devices today, alongside the watchOS 27, iPadOS 27, and visionO..."
-    },
-    {
-      "id": "e36c25198c9b",
-      "title": "macOS 27: new Siri takes on AI productivity apps",
-      "link": "https://techcrunch.com/2026/09/14/macos-27-new-siri-takes-on-ai-productivity-apps/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-09-14T17:10:09Z",
-      "description": "The two most noticeable things about macOS 27 Golden Gate are the newly updated Siri AI and the design changes that make windows and icons more consistent.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 3,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "The two most noticeable things about macOS 27 Golden Gate are the newly updated Siri AI and the design changes that make..."
     }
   ]
 }
