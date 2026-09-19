@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T03:33:18+06:00",
+  "lastUpdated": "2026-09-19T06:04:20+06:00",
   "news": [
     {
       "id": "0d07d819dbcf",
@@ -62,21 +62,6 @@
       "summary_en": "TeamPCP pulled off the worst-ever software supply-chain hacking spree and breached thousands of companies. Now Google’s ..."
     },
     {
-      "id": "deaa594637f7",
-      "title": "Researchers used Anthropic’s Claude to hack into OpenAI",
-      "link": "https://techcrunch.com/2026/09/18/researchers-used-anthropics-claude-to-hack-into-openai/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-09-18T14:00:14Z",
-      "description": "Security researchers used Anthropic’s Claude to exploit vulnerabilities in OpenAI’s systems, taking over employee accounts and gaining access to an internal code repository before reporting the flaws.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 6,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Security researchers used Anthropic’s Claude to exploit vulnerabilities in OpenAI’s systems, taking over employee accoun..."
-    },
-    {
       "id": "8f37ecc27601",
       "title": "US government website used Chinese model the FBI called \"malicious\"",
       "link": "https://arstechnica.com/tech-policy/2026/09/us-government-website-used-chinese-model-the-fbi-called-malicious/",
@@ -90,36 +75,6 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "The Federal Register website briefly used an open source Chinese AI search tool."
-    },
-    {
-      "id": "5f759f1230a0",
-      "title": "Small AI models let drones autonomously identify and attack battlefield targets",
-      "link": "https://arstechnica.com/ai/2026/09/nato-backed-startup-adapts-ai-for-autonomous-drone-recon-and-attack-missions/",
-      "source": "Ars Technica",
-      "sourceIcon": "ars",
-      "pubDate": "2026-09-17T22:12:58Z",
-      "description": "Scaleout deploys decentralized AI-driven learning to military bases and drones.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 5,
-      "reliability": 5,
-      "summary_bn": "",
-      "summary_en": "Scaleout deploys decentralized AI-driven learning to military bases and drones."
-    },
-    {
-      "id": "0a8fafcafdd3",
-      "title": "RFK Jr. names 8 new members to influential preventive medicine task force",
-      "link": "https://arstechnica.com/health/2026/09/rfk-jr-stacks-another-influential-federal-panel-with-questionable-picks/",
-      "source": "Ars Technica",
-      "sourceIcon": "ars",
-      "pubDate": "2026-09-17T22:31:28Z",
-      "description": "The USPSTF sets insurance coverage for preventive services, like colonoscopies.",
-      "topic": "Other",
-      "topicIcon": "📰",
-      "importance": 5,
-      "reliability": 5,
-      "summary_bn": "",
-      "summary_en": "The USPSTF sets insurance coverage for preventive services, like colonoscopies."
     },
     {
       "id": "adc74777b244",
@@ -150,21 +105,6 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "Ning Xu of Tsinghua University captured tiny cilia beating in airways of a child with rare respiratory disorder."
-    },
-    {
-      "id": "c6ace4402c91",
-      "title": "Inertia co-founder Jeff Lawson’s next big bet is fusion: Go inside it at TechCrunch Disrupt 2026",
-      "link": "https://techcrunch.com/2026/09/18/jeff-lawsons-next-big-bet-is-fusion-go-inside-it-at-techcrunch-disrupt-2026/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-09-18T14:30:00Z",
-      "description": "Inertia co-founder and CEO Jeff Lawson joins the Smart Systems Stage at TechCrunch Disrupt 2026. Register now to save up to $200 by September 25.",
-      "topic": "Cloud/DevOps",
-      "topicIcon": "☁️",
-      "importance": 5,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Inertia co-founder and CEO Jeff Lawson joins the Smart Systems Stage at TechCrunch Disrupt 2026. Register now to save up..."
     },
     {
       "id": "a6984e38f9d8",
@@ -248,7 +188,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-09-18T20:02:54Z",
-      "description": "Article URL: https://www.koreajoongangdaily.com/business/korea-raises-data-breach-fines-to-10-of-revenue/12869899 Comments URL: https://news.ycombinator.com/item?id=49759466 Points: 157 # Comments: 42",
+      "description": "Article URL: https://www.koreajoongangdaily.com/business/korea-raises-data-breach-fines-to-10-of-revenue/12869899 Comments URL: https://news.ycombinator.com/item?id=49759466 Points: 250 # Comments: 77",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 5,
@@ -257,34 +197,19 @@
       "summary_en": "Article URL: https://www.koreajoongangdaily.com/business/korea-raises-data-breach-fines-to-10-of-revenue/12869899 Commen..."
     },
     {
-      "id": "ca691b64f42f",
-      "title": "The virtual worlds where robots are trained",
-      "link": "https://www.bbc.co.uk/news/articles/c79g0j3d4q9o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC",
-      "sourceIcon": "bbc",
-      "pubDate": "2026-09-17T23:00:47Z",
-      "description": "Training systems that allow robots to negotiate the real world are getting more sophisticated.",
+      "id": "ea36c1448b7e",
+      "title": "AI hallucination of Chinese nuclear components almost led to US military attack",
+      "link": "https://arstechnica.com/ai/2026/09/report-us-almost-boarded-chinese-ship-over-hallucinated-ai-arms-report/",
+      "source": "Ars Technica",
+      "sourceIcon": "ars",
+      "pubDate": "2026-09-18T20:26:33Z",
+      "description": "But the military's overall use of AI seems to be accelerating.",
       "topic": "AI/ML",
       "topicIcon": "🤖",
-      "importance": 4,
+      "importance": 5,
       "reliability": 5,
       "summary_bn": "",
-      "summary_en": "Training systems that allow robots to negotiate the real world are getting more sophisticated."
-    },
-    {
-      "id": "1e6796b12b2f",
-      "title": "Khosla-backed Mazama Energy just raised $135M to drill deeper into superhot-rock geothermal",
-      "link": "https://techcrunch.com/2026/09/17/khosla-backed-mazama-energy-just-raised-135m-to-drill-deeper-into-super-hot-rock-geothermal/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-09-18T00:02:36Z",
-      "description": "Geothermal startup Mazama is drilling three miles underground to tap superhot rock, with one well capable of generating 15 MW of electricity 24/7.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Geothermal startup Mazama is drilling three miles underground to tap superhot rock, with one well capable of generating ..."
+      "summary_en": "But the military's overall use of AI seems to be accelerating."
     },
     {
       "id": "f08beb36ba97",
@@ -390,21 +315,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "After three months of daily anti-government protests—dubbed the Flamingo Revolution—the sudden mass suspension of Instag..."
-    },
-    {
-      "id": "c625b8a74296",
-      "title": "The clock is ticking: Final 24 hours to exhibit at TechCrunch Disrupt 2026",
-      "link": "https://techcrunch.com/2026/09/18/final-24-hours-to-exhibit-at-techcrunch-disrupt-2026/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-09-18T14:00:00Z",
-      "description": "Last day to book your exhibit table at Disrupt is today, September 18. Get your startup in front of 10,000+ founders, investors, operators, and tech leaders on October 13–15.",
-      "topic": "Startups",
-      "topicIcon": "🚀",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Last day to book your exhibit table at Disrupt is today, September 18. Get your startup in front of 10,000+ founders, in..."
     },
     {
       "id": "72009b85c809",
@@ -623,13 +533,13 @@
       "source": "TechCrunch",
       "sourceIcon": "crunch",
       "pubDate": "2026-09-18T20:24:33Z",
-      "description": "Angle Health has grown to 5,000 customers and become profitable, by helping small businesses get \"level-funded\" health insurance.",
+      "description": "Angle Health has grown to 5,000 customers and become profitable by helping small businesses get \"level-funded\" health insurance.",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 4,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "Angle Health has grown to 5,000 customers and become profitable, by helping small businesses get \"level-funded\" health i..."
+      "summary_en": "Angle Health has grown to 5,000 customers and become profitable by helping small businesses get \"level-funded\" health in..."
     },
     {
       "id": "1bc0911d200a",
@@ -647,19 +557,49 @@
       "summary_en": "Recently unsealed court documents in the New York Times' case against OpenAI and Microsoft are pretty damning. The compa..."
     },
     {
-      "id": "2199431262bb",
-      "title": "Here’s What the AI Apocalypse Could Look Like",
-      "link": "https://www.wired.com/story/uncanny-valley-podcast-heres-what-the-ai-apocalypse-could-look-like/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-09-17T22:20:21Z",
-      "description": "This week on “Uncanny Valley,” we discuss three possible AI doomsday scenarios, AI safety, and the unexpected bipartisan alliance forming against AI.",
+      "id": "891b06747757",
+      "title": "Anthropic is operating a lab that conducts biology experiments",
+      "link": "https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-09-18T23:13:31Z",
+      "description": "AI leaders have been promising that AI is the key to curing human disease. Anthropic researchers have also been warning that AI might kill us all.",
       "topic": "AI/ML",
       "topicIcon": "🤖",
-      "importance": 3,
+      "importance": 4,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "This week on “Uncanny Valley,” we discuss three possible AI doomsday scenarios, AI safety, and the unexpected bipartisan..."
+      "summary_en": "AI leaders have been promising that AI is the key to curing human disease. Anthropic researchers have also been warning ..."
+    },
+    {
+      "id": "d5911730957e",
+      "title": "Would Australians support a smart glasses ban?",
+      "link": "https://www.bbc.co.uk/news/videos/cm9w4nenzv4no?at_medium=RSS&at_campaign=rss",
+      "source": "BBC",
+      "sourceIcon": "bbc",
+      "pubDate": "2026-09-18T23:15:10Z",
+      "description": "As Australia considers barring the use of smart glasses in government offices, the BBC asks people in Sydney what they think.",
+      "topic": "Regulation",
+      "topicIcon": "⚖️",
+      "importance": 4,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "As Australia considers barring the use of smart glasses in government offices, the BBC asks people in Sydney what they t..."
+    },
+    {
+      "id": "8401e8e9e2ed",
+      "title": "A startup that builds other startups raised $100M, and is all-in on physical AI",
+      "link": "https://techcrunch.com/2026/09/18/a-startup-that-builds-other-startups-raised-100m-and-is-all-in-on-physical-ai/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-09-18T23:25:01Z",
+      "description": "UP.Labs, now doing business under the name Vantora, is building startups for industrial corporations.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "UP.Labs, now doing business under the name Vantora, is building startups for industrial corporations."
     },
     {
       "id": "8d12aa494ee9",
@@ -750,6 +690,66 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Get 30% off, 20% off, and free shipping with our Design Within Reach coupon codes, plus up to 50% off furniture with the..."
+    },
+    {
+      "id": "53d0ae51523a",
+      "title": "Dyson Promo Codes: 25% Off in September 2026",
+      "link": "https://www.wired.com/story/dyson-cordless-vacuum-promo-code/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-09-18T05:00:00Z",
+      "description": "Get 25% off with a Dyson coupon code, plus save up to $600 with discounts on vacuums, $150 off Airwraps, and more.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Get 25% off with a Dyson coupon code, plus save up to $600 with discounts on vacuums, $150 off Airwraps, and more."
+    },
+    {
+      "id": "530bdf9046c2",
+      "title": "Inside ZCode: Silently uploading your Git history to the cloud",
+      "link": "https://blog.ferstar.org/en/posts/zcode-silent-workspace-snapshot-upload/",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-09-18T06:11:17Z",
+      "description": "Article URL: https://blog.ferstar.org/en/posts/zcode-silent-workspace-snapshot-upload/ Comments URL: https://news.ycombinator.com/item?id=49750694 Points: 244 # Comments: 89",
+      "topic": "Cloud/DevOps",
+      "topicIcon": "☁️",
+      "importance": 3,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "Article URL: https://blog.ferstar.org/en/posts/zcode-silent-workspace-snapshot-upload/ Comments URL: https://news.ycombi..."
+    },
+    {
+      "id": "76dca45e0dbc",
+      "title": "Best Open Earbuds (2026): Shokz, Bose, Soundcore, and More",
+      "link": "https://www.wired.com/story/best-open-earbuds/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-09-18T09:00:00Z",
+      "description": "I’ve tested dozens of open earbuds. My favorite ones let you hear the world and your tunes equally.",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "I’ve tested dozens of open earbuds. My favorite ones let you hear the world and your tunes equally."
+    },
+    {
+      "id": "e63e5236cc32",
+      "title": "Why AI Isn’t Likely to Wipe Out Humanity With Bioweapons",
+      "link": "https://www.wired.com/story/why-ai-bioweapons-wont-wipe-out-humanity/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-09-18T09:00:00Z",
+      "description": "Of all the threats presented by uncontrollable artificial intelligence, scientists say death by plague ranks low.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Of all the threats presented by uncontrollable artificial intelligence, scientists say death by plague ranks low."
     }
   ]
 }
