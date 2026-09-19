@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T02:24:09+06:00",
+  "lastUpdated": "2026-09-20T04:49:37+06:00",
   "news": [
     {
       "id": "fd29565670e2",
@@ -77,19 +77,19 @@
       "summary_en": "Google said Gemini had \"acted appropriately\" by ending each hack immediately."
     },
     {
-      "id": "ea36c1448b7e",
-      "title": "AI hallucination of Chinese nuclear components almost led to US military attack",
-      "link": "https://arstechnica.com/ai/2026/09/report-us-almost-boarded-chinese-ship-over-hallucinated-ai-arms-report/",
-      "source": "Ars Technica",
-      "sourceIcon": "ars",
-      "pubDate": "2026-09-18T20:26:33Z",
-      "description": "But the military's overall use of AI seems to be accelerating.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 5,
-      "reliability": 5,
+      "id": "c0e1d1d1c0e5",
+      "title": "How Hacker News ranking works: scoring, controversy, and penalties (2013)",
+      "link": "https://www.righto.com/2013/11/how-hacker-news-ranking-really-works.html",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-09-19T21:30:59Z",
+      "description": "Article URL: https://www.righto.com/2013/11/how-hacker-news-ranking-really-works.html Comments URL: https://news.ycombinator.com/item?id=49770293 Points: 26 # Comments: 4",
+      "topic": "Security",
+      "topicIcon": "🔒",
+      "importance": 6,
+      "reliability": 3,
       "summary_bn": "",
-      "summary_en": "But the military's overall use of AI seems to be accelerating."
+      "summary_en": "Article URL: https://www.righto.com/2013/11/how-hacker-news-ranking-really-works.html Comments URL: https://news.ycombin..."
     },
     {
       "id": "a5ce4eccae74",
@@ -105,51 +105,6 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "Research suggests that bilingualism can offer cognitive benefits."
-    },
-    {
-      "id": "02890b58b0c8",
-      "title": "Economics Nobel Laureates' Letter Supporting the California Billionaire Tax [pdf]",
-      "link": "https://gabriel-zucman.eu/files/prop40letter.pdf",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-09-19T19:25:26Z",
-      "description": "Article URL: https://gabriel-zucman.eu/files/prop40letter.pdf Comments URL: https://news.ycombinator.com/item?id=49769421 Points: 8 # Comments: 4",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 5,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://gabriel-zucman.eu/files/prop40letter.pdf Comments URL: https://news.ycombinator.com/item?id=4976942..."
-    },
-    {
-      "id": "acd988f0f3ca",
-      "title": "Y Combinator insurance tech alum Angle Health hits $2.7B valuation",
-      "link": "https://techcrunch.com/2026/09/18/y-combinator-insurance-tech-alum-angle-health-hits-2-7b-valuation/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-09-18T20:24:33Z",
-      "description": "Angle Health has grown to 5,000 customers and become profitable by helping small businesses get \"level-funded\" health insurance.",
-      "topic": "Startups",
-      "topicIcon": "🚀",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Angle Health has grown to 5,000 customers and become profitable by helping small businesses get \"level-funded\" health in..."
-    },
-    {
-      "id": "1bc0911d200a",
-      "title": "OpenAI and Microsoft knew they were starting a ‘doom loop’ for the web",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/997633/openai-microsoft-chatgpt-ai-new-york-times-doom-loop-theft-google-zero",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-09-18T21:07:24Z",
-      "description": "Recently unsealed court documents in the New York Times' case against OpenAI and Microsoft are pretty damning. The companies' own documentation warned that it was starting a \"doom loop\" that would damage the web, characterized its scraping of data to train its models as the \"largest theft of labor in human history,\" and that it [&#8230;]",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Recently unsealed court documents in the New York Times' case against OpenAI and Microsoft are pretty damning. The compa..."
     },
     {
       "id": "891b06747757",
@@ -408,7 +363,7 @@
     },
     {
       "id": "f2a5cd60bc83",
-      "title": "Trump suggests rebranding AI with a new name, says he’s also creating an AI Force",
+      "title": "Trump says it’s time to rebrand AI with a new name — and he’s also creating an AI Force",
       "link": "https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force/",
       "source": "TechCrunch",
       "sourceIcon": "crunch",
@@ -422,34 +377,34 @@
       "summary_en": "Trump claimed, without evidence, that the AI backlash is a Democratic hoax."
     },
     {
-      "id": "86203a839967",
-      "title": "Automattic names interim CFO after exec departures",
-      "link": "https://techcrunch.com/2026/09/18/automattic-names-interim-cfo-after-exec-departures/",
+      "id": "10a42b245f5f",
+      "title": "Flock reportedly tries to shrink workforce with employee buyouts",
+      "link": "https://techcrunch.com/2026/09/19/flock-reportedly-tries-to-shrink-workforce-with-employee-buyouts/",
       "source": "TechCrunch",
       "sourceIcon": "crunch",
-      "pubDate": "2026-09-18T20:25:22Z",
-      "description": "Jeremy Klaperman, the CFO of the company's WordPress VIP Enterprise business unit, will act as CFO for the time being.",
-      "topic": "Open Source",
-      "topicIcon": "🔓",
-      "importance": 3,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Jeremy Klaperman, the CFO of the company's WordPress VIP Enterprise business unit, will act as CFO for the time being."
-    },
-    {
-      "id": "83bf6e618316",
-      "title": "Anthropic’s first embedded evaluator is … Accenture?",
-      "link": "https://techcrunch.com/2026/09/18/anthropics-first-embedded-evaluator-is-accenture/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-09-18T21:44:33Z",
-      "description": "Accenture is about to take on its most high-risk consulting engagement ever.",
+      "pubDate": "2026-09-19T20:39:13Z",
+      "description": "Without buyouts, Flock would \"almost certainly\" need to lay off staff.",
       "topic": "AI/ML",
       "topicIcon": "🤖",
-      "importance": 3,
+      "importance": 4,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "Accenture is about to take on its most high-risk consulting engagement ever."
+      "summary_en": "Without buyouts, Flock would \"almost certainly\" need to lay off staff."
+    },
+    {
+      "id": "b4233d80af41",
+      "title": "Meta’s Muse is creepy, but maybe not for the reasons you think",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/997833/meta-muse-creepy",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-09-19T20:44:40Z",
+      "description": "Meta's Muse is apparently an effective AI assistant, but one that's a little creepy. Part of that is because of its new Mac app, which can access Messages, Calendar, and Notes. But for all its smarts, Muse doesn't actually know how to describe itself. Jason Aten, a contributing editor at Inc Magazine, posted on Threads [&#8230;]",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Meta's Muse is apparently an effective AI assistant, but one that's a little creepy. Part of that is because of its new ..."
     },
     {
       "id": "8b776b0e20b9",
@@ -603,18 +558,18 @@
     },
     {
       "id": "4ebdefeee419",
-      "title": "Human brain is two separate organs, Stanford Medicine-led research finds",
+      "title": "Two parallel neural ectoderm progenitors contribute to the developing brain",
       "link": "https://med.stanford.edu/news/all-news/2026/09/two-separate-brains.html",
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-09-19T05:48:50Z",
-      "description": "Article URL: https://med.stanford.edu/news/all-news/2026/09/two-separate-brains.html Comments URL: https://news.ycombinator.com/item?id=49763697 Points: 575 # Comments: 208",
+      "description": "https://www.nature.com/articles/s41593-026-02433-7 Comments URL: https://news.ycombinator.com/item?id=49763697 Points: 596 # Comments: 228",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 3,
       "reliability": 3,
       "summary_bn": "",
-      "summary_en": "Article URL: https://med.stanford.edu/news/all-news/2026/09/two-separate-brains.html Comments URL: https://news.ycombina..."
+      "summary_en": "https://www.nature.com/articles/s41593-026-02433-7 Comments URL: https://news.ycombinator.com/item?id=49763697 Points: 5..."
     },
     {
       "id": "df1b5fc36f36",
@@ -623,7 +578,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-09-19T06:28:02Z",
-      "description": "Article URL: https://terrytao.wordpress.com/2026/09/18/if-math-is-more-than-proof-we-need-to-better-celebrate-the-rest-of-it/ Comments URL: https://news.ycombinator.com/item?id=49763928 Points: 266 # Comments: 223",
+      "description": "Article URL: https://terrytao.wordpress.com/2026/09/18/if-math-is-more-than-proof-we-need-to-better-celebrate-the-rest-of-it/ Comments URL: https://news.ycombinator.com/item?id=49763928 Points: 291 # Comments: 230",
       "topic": "Web/JavaScript",
       "topicIcon": "🌐",
       "importance": 3,
@@ -698,13 +653,13 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-09-19T10:46:58Z",
-      "description": "Article URL: https://laya.convaiinnovations.com/ Comments URL: https://news.ycombinator.com/item?id=49765348 Points: 849 # Comments: 210",
+      "description": "Article URL: https://laya.convaiinnovations.com/ Comments URL: https://news.ycombinator.com/item?id=49765348 Points: 1015 # Comments: 233",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 3,
       "reliability": 3,
       "summary_bn": "",
-      "summary_en": "Article URL: https://laya.convaiinnovations.com/ Comments URL: https://news.ycombinator.com/item?id=49765348 Points: 849..."
+      "summary_en": "Article URL: https://laya.convaiinnovations.com/ Comments URL: https://news.ycombinator.com/item?id=49765348 Points: 101..."
     },
     {
       "id": "95e2ba70ff04",
@@ -750,6 +705,51 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "The Hyte X50 is a PC case that really stands out from the typical black box design, and it’s $50 off at the company’s si..."
+    },
+    {
+      "id": "feacb1c4ff8c",
+      "title": "Show HN: CUA-S1 – A System One Model for Computer Use",
+      "link": "https://github.com/trycua/cua",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-09-19T15:52:51Z",
+      "description": "Hello HN! We're Dillon and Francesco from Cua. We were wondering how many computer use tasks actually need a full general purpose LLM (e.g. gpt-6-astra, claude-opus-5 etc.) to think through all their decisions and steps. Some tasks require thinking about a plan, exploring different paths, recovering from failure. Other tasks are a question of making local decisions, like this value should go in this box, or should I check this box, or this element should be ignored. We wondered how far we could go with a small model trained to only make these kinds of decisions. Our inspiration was Typesafe's Jev and its System One Model framing. This is a nod to the dichotomy between thinking quickly, automatically, and intuitively (system 1) vs. thinking slowly, analytically (system 2), as described by Daniel Kahneman. The interesting question for us was: what happens if you give a model an interface of current context, and a set of possible choices, and you ask it to return a probability for each choice? This kind of model does not generate output token by token like most LLMs do, but rather scores the options you give it, which you can check, trust, and use to drive your app's behavior. CUA-S1 is our answer for narrow, specialized decision models for computer use. Our first release is CUA-S1-FORMS. We built this from ideas and code in jevlike, and then trained a second model just to handle form interactions. It has 706k parameters, and the original checkpoint is 2.8 MB. The first training iteration took less than 30 minutes on synthetic data. Given a set of structured elements and values extracted from a document, it predicts whether to use the given value, CHECK, CLICK, or SKIP for each element. It does not predict new values for text fields, and does not consider screenshots. Element decisions are scored together, and your code can order the actions, and Cua Driver will execute them one at a time. A first evaluation of this specialist vs. hosted Jev on our form task: - For the whole decision set: 99.7% correct vs 83.6%. - For the subset of steps that require an action: 100% correct vs 96%. - For the subset of steps that are just leaving already-filled fields alone: 100% correct vs 74%. The specialist was trained specifically for this task and convention (just press skip for already filled boxes), while hosted Jev has not been fine-tuned for it, so this is an experiment in scoped specialization. We measured 7-9 ms to score a form locally vs. 260-280 ms per call to hosted Jev including network latency, though those samples measure different things and are not end-to-end form completion times. Our interest here is in the space between a brittle script and a general agent loop. The content and layout of form fields vary enough that scripts get unwieldy, but the set of available decisions can remain narrow and well scoped. We want to explore the possibility of a general agent encountering something novel, and passing well understood decisions over to specialists like this. That is a direction we are looking into. The current release is for forms only. We're open sourced the synthetic data generation, training, evaluation, and Driver integration under libs/cua-s1 with an MIT license. Comments welcome! Especially if you are building computer-use agents and have run into a recurring decision that is too variable to script but is too narrow to call another LLM for. Comments URL: https://news.ycombinator.com/item?id=49767564 Points: 46 # Comments: 4",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 3,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "Hello HN! We're Dillon and Francesco from Cua. We were wondering how many computer use tasks actually need a full genera..."
+    },
+    {
+      "id": "c392438060d8",
+      "title": "Trump treads further on free speech with new journalist bans",
+      "link": "https://www.theverge.com/policy/997805/trump-cnn-msnow-politico-ban",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-09-19T17:10:21Z",
+      "description": "On Friday, the president threatened to ban CNN, MS Now, and Politico from the White House. It could have just been another one of his Truth Social fever dreams, but it turns out it's very real. All three publications were turned away from the White House this morning, NPR reports, marking an escalation in the [&#8230;]",
+      "topic": "Security",
+      "topicIcon": "🔒",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "On Friday, the president threatened to ban CNN, MS Now, and Politico from the White House. It could have just been anoth..."
+    },
+    {
+      "id": "3a3072f6056e",
+      "title": "Microsoft director: AI scraping 'the largest theft of labor in human history'",
+      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-director-called-ai-scraping-the-largest-theft-of-labor-in-human-history-while-openai-head-brands-chatgpt-an-existential-threat-to-publishers-revelations-come-from-legal-briefs-filed-in-nyt-lawsuit",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-09-19T18:21:30Z",
+      "description": "Article URL: https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-director-called-ai-scraping-the-largest-theft-of-labor-in-human-history-while-openai-head-brands-chatgpt-an-existential-threat-to-publishers-revelations-come-from-legal-briefs-filed-in-nyt-lawsuit Comments URL: https://news.ycombinator.com/item?id=49768921 Points: 79 # Comments: 21",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 3,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "Article URL: https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-director-called-ai-scraping-th..."
     }
   ]
 }
