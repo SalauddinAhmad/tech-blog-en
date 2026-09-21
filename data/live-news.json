@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-22T01:12:31+06:00",
+  "lastUpdated": "2026-09-22T05:07:42+06:00",
   "news": [
     {
       "id": "fa1a14a0c6b7",
@@ -45,6 +45,21 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "Googlebooks offer premium hardware and deep smartphone integration, but you may not like the price."
+    },
+    {
+      "id": "5c36f21d28a1",
+      "title": "Saudi Arabia wants a car industry, launches Ceer with two EVs",
+      "link": "https://arstechnica.com/cars/2026/09/saudi-arabia-wants-a-car-industry-launches-ceer-with-two-evs/",
+      "source": "Ars Technica",
+      "sourceIcon": "ars",
+      "pubDate": "2026-09-21T20:55:36Z",
+      "description": "The new carmaker is a joint venture between the Saudi PIF and Foxconn.",
+      "topic": "Hardware",
+      "topicIcon": "💻",
+      "importance": 7,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "The new carmaker is a joint venture between the Saudi PIF and Foxconn."
     },
     {
       "id": "a60ae563fc52",
@@ -137,6 +152,21 @@
       "summary_en": "State AGs had \"very strong\" case that merger is illegal, Lina Khan says."
     },
     {
+      "id": "4a311e18c894",
+      "title": "Show HN: Foremerge – Catch intent conflicts between parallel coding agents",
+      "link": "https://github.com/naw103/foremerge",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-09-21T16:22:06Z",
+      "description": "At, GPTree, we run several coding agents across our team on one repo using parallel worktrees. Apart from wasted time reviewing and fixing conflicts at PR time, the failures that hurt the most are when multiple plans or tickets cause architecture changes that cannot both be true. Ex. one agent replaces a class while another one is in the process of extending it. Git only notices if the resulting patches happen to touch the same lines and the review only catches it if they are familiar with both tickets. Foremerge is a local \"git like\" coordination layer that sits above git (ie. does not interact with or change the way git and worktrees function), Before editing each agent publishes an intent and the scopes it will change, with the operation it plans to complete on each one. foremerge intent publish --agent \"$A\" \\ --summary \"Replace PaymentService with StripePaymentService\" \\ --scope symbol:PaymentService=replace foremerge intent publish --agent \"$B\" \\ --summary \"Add PayPal support to PaymentService\" \\ --scope symbol:PaymentService=extend The publish by the 2nd agent returns a HIGH destructive_vs_additive finding before writing any code. Agents keep their own worktrees and the shared state is one SQLite file in gits common direectory. No hooks, no merge drivers, nothing rewrites your history. It ships as one Rust binary with a CLI and MCP server with 18 tools and `foremerge setup all` wires it into Claude Code, Codex and Cursor. Because the protocol has nothing provider specific, a Claude agent and a Codex agent coordinate through the same store. Before any work is accepted, Foremerge runs a named check that you configured against the exact git state of the change. An agent that says tests pass is recorded but it dosnt satisfy the acceptance gate without running the check itself. Detection is deterministic, no judge model reading your code. HIGH conflicts are only asserted for declared operations, ie. matches inferred from prose cap out below high. Claims are advisory leases, not locks so two agents can still hold the same scope without deadlock. The open source version is single matching and so not a distributed consensus. We have tested this up to 98 parallel agents all working on the same repo with zero conflicts (was supposed to be 100 but 2 agents failed to run due to resource limitations) I replayed 76 intents on my own agents from a build last week in the order they happened. The sample had exactly 1 conflict (which was flagged) and the review found a blind spot where one agent claimed scope by class name and the other claimed it by an internal method. We are working on fixing that for the next release. Setup is a 30s install by pasting the quickstart instructions from the readme.md into your agent or manually: `curl -fsSL https://foremerge.com/install.sh | sh` or `cargo install --locked foremerge`, then `foremerge init && foremerge setup all` in a repo. Apache-2.0. The feedback I want most is which conflicts between your agents plans would you actually want flagged and which would you tollerate as noise? Repo here: https://github.com/naw103/foremerge Website: https://foremerge.com More information on the problems this solves: https://foremerge.com/blog/ Comments URL: https://news.ycombinator.com/item?id=49789356 Points: 31 # Comments: 0",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 5,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "At, GPTree, we run several coding agents across our team on one repo using parallel worktrees. Apart from wasted time re..."
+    },
+    {
       "id": "eda3fca466f1",
       "title": "Russel Vought will reportedly be given veto power over all NIH grants",
       "link": "https://arstechnica.com/science/2026/09/trump-planning-to-hand-veto-power-over-nih-grants-to-political-appointee/",
@@ -152,19 +182,49 @@
       "summary_en": "Pending move comes over the objections of the NIH director."
     },
     {
-      "id": "0ba623100484",
-      "title": "Elon Musk’s latest Boring Company pitch involves a Hyperloop between Austin and San Antonio",
-      "link": "https://techcrunch.com/2026/09/20/elon-musks-latest-boring-company-pitch-involves-a-hyperloop-between-austin-and-san-antonio/",
+      "id": "45630c163fbd",
+      "title": "Meta’s Muse is outpacing ChatGPT’s early mobile launch",
+      "link": "https://techcrunch.com/2026/09/21/metas-muse-is-outpacing-chatgpts-early-mobile-launch/",
       "source": "TechCrunch",
       "sourceIcon": "crunch",
-      "pubDate": "2026-09-20T19:38:48Z",
-      "description": "Many of The Boring Company's announced projects have not materialized.",
-      "topic": "Other",
-      "topicIcon": "📰",
-      "importance": 4,
+      "pubDate": "2026-09-21T19:19:21Z",
+      "description": "Meta’s new AI agent Muse has racked up more downloads and daily active users in the U.S. and Canada than ChatGPT did over the same period after its mobile debut, according to new estimates from Appfigures.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 5,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "Many of The Boring Company's announced projects have not materialized."
+      "summary_en": "Meta’s new AI agent Muse has racked up more downloads and daily active users in the U.S. and Canada than ChatGPT did ove..."
+    },
+    {
+      "id": "cf19fb444584",
+      "title": "Military milestone: Ukrainian naval drone sinks Russian kamikaze drone boat",
+      "link": "https://arstechnica.com/gadgets/2026/09/military-milestone-ukrainian-naval-drone-sinks-russian-kamikaze-drone-boat/",
+      "source": "Ars Technica",
+      "sourceIcon": "ars",
+      "pubDate": "2026-09-21T21:07:05Z",
+      "description": "Drone boat battle occurs as Ukraine and Russia target Black Sea ports and ships.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 5,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "Drone boat battle occurs as Ukraine and Russia target Black Sea ports and ships."
+    },
+    {
+      "id": "6af58b306bcd",
+      "title": "Muse, Meta's extraordinarily privileged AI assistant, has a serious 0-day",
+      "link": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/",
+      "source": "Ars Technica",
+      "sourceIcon": "ars",
+      "pubDate": "2026-09-21T22:24:38Z",
+      "description": "A simple ClickFix attack is only one way to completely hijack the new agent.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 5,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "A simple ClickFix attack is only one way to completely hijack the new agent."
     },
     {
       "id": "077b50f9877c",
@@ -240,21 +300,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Officials discussed setting up a mechanism for the two countries to notify each other of AI incidents which could threat..."
-    },
-    {
-      "id": "47acb1d0023b",
-      "title": "I got to see Google&#8217;s wild ideas about the future of laptops",
-      "link": "https://www.theverge.com/tech/997986/google-googlebooks-android-laptops-dell-hp-lenovo-acer-asus-price-specs",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-09-21T13:00:00Z",
-      "description": "There are a few things about using a Googlebook that immediately feel just right. The hardware is polished (since it's based on current laptops). The OS is familiar (if you've ever used a Chromebook). But most impressive, it integrates your Android phone with your PC so they feel more like one device. It's the culmination [&#8230;]",
-      "topic": "Hardware",
-      "topicIcon": "💻",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "There are a few things about using a Googlebook that immediately feel just right. The hardware is polished (since it's b..."
     },
     {
       "id": "a78c507f1894",
@@ -428,13 +473,13 @@
       "source": "TechCrunch",
       "sourceIcon": "crunch",
       "pubDate": "2026-09-21T18:23:05Z",
-      "description": "Future Google supplier Kairos Power inked a deal with Samsung C&#038;T to help build its first 50 megawatt nuclear power plant.",
+      "description": "Future Google supplier Kairos Power inked a deal with Samsung C&#038;T to help build its first 50-megawatt nuclear power plant.",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 4,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "Future Google supplier Kairos Power inked a deal with Samsung C&#038;T to help build its first 50 megawatt nuclear power..."
+      "summary_en": "Future Google supplier Kairos Power inked a deal with Samsung C&#038;T to help build its first 50-megawatt nuclear power..."
     },
     {
       "id": "a2de9f0d0928",
@@ -452,34 +497,49 @@
       "summary_en": "Washington and Beijing have grown ever more linked in the AI boom, making hardware exports and technological restriction..."
     },
     {
-      "id": "92e9a70cb2f3",
-      "title": "World model companies are keeping a lot of secrets",
-      "link": "https://techcrunch.com/2026/09/20/world-model-companies-are-keeping-a-lot-of-secrets/",
+      "id": "7f639e8e7c71",
+      "title": "Discover what’s next: 5 days left to save up to $200 on your TechCrunch Disrupt 2026 ticket",
+      "link": "https://techcrunch.com/2026/09/21/discover-whats-next-5-days-left-to-save-up-to-200-on-techcrunch-disrupt-2026/",
       "source": "TechCrunch",
       "sourceIcon": "crunch",
-      "pubDate": "2026-09-20T20:29:07Z",
-      "description": "Everyone in the world-models space is sitting on a pile of cash and a ton of buzz, but good luck getting anyone — from the founders to their own data suppliers — to tell you what they're actually building.",
-      "topic": "Other",
-      "topicIcon": "📰",
-      "importance": 3,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Everyone in the world-models space is sitting on a pile of cash and a ton of buzz, but good luck getting anyone — from t..."
-    },
-    {
-      "id": "dbb148570dcf",
-      "title": "6 days left to save up to $200 to TechCrunch Disrupt 2026",
-      "link": "https://techcrunch.com/2026/09/20/6-days-left-to-get-ahead-at-techcrunch-disrupt-2026/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-09-20T21:41:08Z",
-      "description": "Current ticket pricing ends in 6 days on September 25 at 11:59 p.m. PT. Join 10,000+ founders, investors, and tech leaders at Disrupt and save up to $200 on your ticket.",
+      "pubDate": "2026-09-21T19:25:00Z",
+      "description": "Five days left to save up to $200 on your TechCrunch Disrupt 2026 pass + 50% off a second one. Join 10,000+ founders, investors, and operators at San Francisco’s Moscone West, October 13-15. Grab your ticket savings before prices go up on September 25 at 11:59 p.m. PT.",
       "topic": "Startups",
       "topicIcon": "🚀",
-      "importance": 3,
+      "importance": 4,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "Current ticket pricing ends in 6 days on September 25 at 11:59 p.m. PT. Join 10,000+ founders, investors, and tech leade..."
+      "summary_en": "Five days left to save up to $200 on your TechCrunch Disrupt 2026 pass + 50% off a second one. Join 10,000+ founders, in..."
+    },
+    {
+      "id": "dc56d987329e",
+      "title": "OpenAI forms math advisory group as its AI resolves more than 100 open problems",
+      "link": "https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-resolves-more-than-100-open-problems/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-09-21T20:15:58Z",
+      "description": "The group won't be given leeway to slow down or redirect OpenAI's ongoing mathematical research.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "The group won't be given leeway to slow down or redirect OpenAI's ongoing mathematical research."
+    },
+    {
+      "id": "5fb2a618a0bb",
+      "title": "California tightens rules on AI data center energy and water use",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/998453/california-ai-data-center-bills",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-09-21T20:29:45Z",
+      "description": "California Gov. Gavin Newsom has signed seven bills designed to prevent AI data centers from passing utility costs onto residents, as reported earlier by the Los Angeles Times. The package of laws requires the California Public Utilities Commission to introduce a new rate classification for data centers, while forcing them to pay for upgrades to [&#8230;]",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "California Gov. Gavin Newsom has signed seven bills designed to prevent AI data centers from passing utility costs onto ..."
     },
     {
       "id": "dead4b9861b2",
@@ -587,21 +647,6 @@
       "summary_en": "Today, I’m talking with Mark Gurman, who is the world’s best-sourced Apple reporter — both as Bloomberg’s chief Apple co..."
     },
     {
-      "id": "1e093ca6c99e",
-      "title": "macOS 27: Workaround to avoid downloading AI models and save storage",
-      "link": "https://www.reddit.com/r/MacOSBeta/comments/1vlnf13/workaround_to_avoid_downloading_ai_models_and/",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-09-21T14:10:49Z",
-      "description": "Article URL: https://www.reddit.com/r/MacOSBeta/comments/1vlnf13/workaround_to_avoid_downloading_ai_models_and/ Comments URL: https://news.ycombinator.com/item?id=49787535 Points: 146 # Comments: 70",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 3,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://www.reddit.com/r/MacOSBeta/comments/1vlnf13/workaround_to_avoid_downloading_ai_models_and/ Comments..."
-    },
-    {
       "id": "d63b2cfee208",
       "title": "Here’s the iFixit Repairability Rating for the iPhone 18 Pro",
       "link": "https://www.wired.com/story/ifixit-rating-for-the-iphone-18-pro-repairability/",
@@ -617,49 +662,19 @@
       "summary_en": "It’s actually pretty good for an iPhone, given Apple’s long-standing reticence to make its products repairable."
     },
     {
-      "id": "6366579c4260",
-      "title": "Noodle Gallery- Open-source, self-hosted alternative to Google Photos and Immich",
-      "link": "https://digitalescapetools.com/tools/noodlegallery.html",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-09-21T14:22:58Z",
-      "description": "Article URL: https://digitalescapetools.com/tools/noodlegallery.html Comments URL: https://news.ycombinator.com/item?id=49787684 Points: 33 # Comments: 20",
-      "topic": "Web/JavaScript",
-      "topicIcon": "🌐",
-      "importance": 3,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://digitalescapetools.com/tools/noodlegallery.html Comments URL: https://news.ycombinator.com/item?id=..."
-    },
-    {
       "id": "73690f7cc66e",
-      "title": "This Digital Radio Gets Messages to the World’s Remotest Locations",
+      "title": "HERMES radio enables voice and data communication over vast distances",
       "link": "https://spectrum.ieee.org/hermes-shortwave-radio-digital-data",
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-09-21T16:14:16Z",
-      "description": "Article URL: https://spectrum.ieee.org/hermes-shortwave-radio-digital-data Comments URL: https://news.ycombinator.com/item?id=49789228 Points: 46 # Comments: 23",
+      "description": "https://hermes.radio/ https://www.rhizomatica.org/ Comments URL: https://news.ycombinator.com/item?id=49789228 Points: 72 # Comments: 35",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 3,
       "reliability": 3,
       "summary_bn": "",
-      "summary_en": "Article URL: https://spectrum.ieee.org/hermes-shortwave-radio-digital-data Comments URL: https://news.ycombinator.com/it..."
-    },
-    {
-      "id": "1d9e76d0c96d",
-      "title": "Amazon blocks Meta’s new Muse AI agent from shopping on amazon.com",
-      "link": "https://www.forbes.com/sites/jonmarkman/2026/09/21/amazon-blocks-metas-new-muse-ai-agent-from-shopping-on-amazoncom/",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-09-21T17:00:23Z",
-      "description": "Article URL: https://www.forbes.com/sites/jonmarkman/2026/09/21/amazon-blocks-metas-new-muse-ai-agent-from-shopping-on-amazoncom/ Comments URL: https://news.ycombinator.com/item?id=49789982 Points: 100 # Comments: 86",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 3,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://www.forbes.com/sites/jonmarkman/2026/09/21/amazon-blocks-metas-new-muse-ai-agent-from-shopping-on-a..."
+      "summary_en": "https://hermes.radio/ https://www.rhizomatica.org/ Comments URL: https://news.ycombinator.com/item?id=49789228 Points: 7..."
     },
     {
       "id": "a3e0032dbe3f",
@@ -683,7 +698,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-09-21T17:30:21Z",
-      "description": "Article URL: https://support.apple.com/guide/mac-help/turn-restrict-access-apple-intelligence-mchlb2e44f94/mac Comments URL: https://news.ycombinator.com/item?id=49790409 Points: 75 # Comments: 35",
+      "description": "Article URL: https://support.apple.com/guide/mac-help/turn-restrict-access-apple-intelligence-mchlb2e44f94/mac Comments URL: https://news.ycombinator.com/item?id=49790409 Points: 213 # Comments: 142",
       "topic": "Web/JavaScript",
       "topicIcon": "🌐",
       "importance": 3,
@@ -713,13 +728,13 @@
       "source": "TechCrunch",
       "sourceIcon": "crunch",
       "pubDate": "2026-09-21T17:55:18Z",
-      "description": "Muse isn't welcome as a shopper anymore.",
+      "description": "Amazon has its own cohort of foundation models, along with one of the most popular inference platforms on the internet. As long as they're under no legal obligation to open the doors to Muse, why would they?",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 3,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "Muse isn't welcome as a shopper anymore."
+      "summary_en": "Amazon has its own cohort of foundation models, along with one of the most popular inference platforms on the internet. ..."
     },
     {
       "id": "50791676adc1",
@@ -728,28 +743,13 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-09-21T18:14:56Z",
-      "description": "Article URL: https://ieeexplore.ieee.org/document/689473 Comments URL: https://news.ycombinator.com/item?id=49791117 Points: 11 # Comments: 1",
+      "description": "Article URL: https://ieeexplore.ieee.org/document/689473 Comments URL: https://news.ycombinator.com/item?id=49791117 Points: 22 # Comments: 6",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 3,
       "reliability": 3,
       "summary_bn": "",
       "summary_en": "Article URL: https://ieeexplore.ieee.org/document/689473 Comments URL: https://news.ycombinator.com/item?id=49791117 Poi..."
-    },
-    {
-      "id": "1c4e64d0e909",
-      "title": "Help 404 Media Find Out How Your Local Police Are Surveiling You",
-      "link": "https://www.404media.co/is-your-city-using-axon-license-plate-cameras-we-need-your-help/",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-09-21T18:33:45Z",
-      "description": "Article URL: https://www.404media.co/is-your-city-using-axon-license-plate-cameras-we-need-your-help/ Comments URL: https://news.ycombinator.com/item?id=49791380 Points: 17 # Comments: 1",
-      "topic": "Startups",
-      "topicIcon": "🚀",
-      "importance": 3,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://www.404media.co/is-your-city-using-axon-license-plate-cameras-we-need-your-help/ Comments URL: http..."
     }
   ]
 }
