@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-22T05:07:42+06:00",
+  "lastUpdated": "2026-09-22T10:22:56+06:00",
   "news": [
     {
       "id": "fa1a14a0c6b7",
@@ -152,21 +152,6 @@
       "summary_en": "State AGs had \"very strong\" case that merger is illegal, Lina Khan says."
     },
     {
-      "id": "4a311e18c894",
-      "title": "Show HN: Foremerge – Catch intent conflicts between parallel coding agents",
-      "link": "https://github.com/naw103/foremerge",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-09-21T16:22:06Z",
-      "description": "At, GPTree, we run several coding agents across our team on one repo using parallel worktrees. Apart from wasted time reviewing and fixing conflicts at PR time, the failures that hurt the most are when multiple plans or tickets cause architecture changes that cannot both be true. Ex. one agent replaces a class while another one is in the process of extending it. Git only notices if the resulting patches happen to touch the same lines and the review only catches it if they are familiar with both tickets. Foremerge is a local \"git like\" coordination layer that sits above git (ie. does not interact with or change the way git and worktrees function), Before editing each agent publishes an intent and the scopes it will change, with the operation it plans to complete on each one. foremerge intent publish --agent \"$A\" \\ --summary \"Replace PaymentService with StripePaymentService\" \\ --scope symbol:PaymentService=replace foremerge intent publish --agent \"$B\" \\ --summary \"Add PayPal support to PaymentService\" \\ --scope symbol:PaymentService=extend The publish by the 2nd agent returns a HIGH destructive_vs_additive finding before writing any code. Agents keep their own worktrees and the shared state is one SQLite file in gits common direectory. No hooks, no merge drivers, nothing rewrites your history. It ships as one Rust binary with a CLI and MCP server with 18 tools and `foremerge setup all` wires it into Claude Code, Codex and Cursor. Because the protocol has nothing provider specific, a Claude agent and a Codex agent coordinate through the same store. Before any work is accepted, Foremerge runs a named check that you configured against the exact git state of the change. An agent that says tests pass is recorded but it dosnt satisfy the acceptance gate without running the check itself. Detection is deterministic, no judge model reading your code. HIGH conflicts are only asserted for declared operations, ie. matches inferred from prose cap out below high. Claims are advisory leases, not locks so two agents can still hold the same scope without deadlock. The open source version is single matching and so not a distributed consensus. We have tested this up to 98 parallel agents all working on the same repo with zero conflicts (was supposed to be 100 but 2 agents failed to run due to resource limitations) I replayed 76 intents on my own agents from a build last week in the order they happened. The sample had exactly 1 conflict (which was flagged) and the review found a blind spot where one agent claimed scope by class name and the other claimed it by an internal method. We are working on fixing that for the next release. Setup is a 30s install by pasting the quickstart instructions from the readme.md into your agent or manually: `curl -fsSL https://foremerge.com/install.sh | sh` or `cargo install --locked foremerge`, then `foremerge init && foremerge setup all` in a repo. Apache-2.0. The feedback I want most is which conflicts between your agents plans would you actually want flagged and which would you tollerate as noise? Repo here: https://github.com/naw103/foremerge Website: https://foremerge.com More information on the problems this solves: https://foremerge.com/blog/ Comments URL: https://news.ycombinator.com/item?id=49789356 Points: 31 # Comments: 0",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 5,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "At, GPTree, we run several coding agents across our team on one repo using parallel worktrees. Apart from wasted time re..."
-    },
-    {
       "id": "eda3fca466f1",
       "title": "Russel Vought will reportedly be given veto power over all NIH grants",
       "link": "https://arstechnica.com/science/2026/09/trump-planning-to-hand-veto-power-over-nih-grants-to-political-appointee/",
@@ -227,19 +212,34 @@
       "summary_en": "A simple ClickFix attack is only one way to completely hijack the new agent."
     },
     {
+      "id": "5b6bd826831a",
+      "title": "A cut cable disrupted hundreds of flights across the US",
+      "link": "https://www.theverge.com/transportation/998550/a-cut-cable-disrupted-hundreds-of-flights-across-the-us",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-09-21T23:48:56Z",
+      "description": "Hundreds of flights were cancelled or delayed on Monday after construction crews in New Jersey accidentally cut a Verizon fiber cable used for air traffic control. FAA Administrator Bryan Bedford said that a circuit failure led to the discovery of the severed fiber cable, ABC News reports. The outage hammered airports across the Northeast, causing [&#8230;]",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 5,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Hundreds of flights were cancelled or delayed on Monday after construction crews in New Jersey accidentally cut a Verizo..."
+    },
+    {
       "id": "077b50f9877c",
       "title": "After 8 Years in Space, ‘BepiColombo’ Is Finally Approaching Mercury",
       "link": "https://www.wired.com/story/after-8-years-in-space-bepicolombo-finally-approaching-mercury/",
       "source": "Wired",
       "sourceIcon": "wired",
       "pubDate": "2026-09-21T09:00:00Z",
-      "description": "Following a difficult journey, the probe will soon begin unravelling the mysteries of Mercury’s magnetic field and internal structure.",
+      "description": "Following a difficult journey, the probe will soon begin unraveling the mysteries of Mercury’s magnetic field and internal structure.",
       "topic": "Other",
       "topicIcon": "📰",
       "importance": 4,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "Following a difficult journey, the probe will soon begin unravelling the mysteries of Mercury’s magnetic field and inter..."
+      "summary_en": "Following a difficult journey, the probe will soon begin unraveling the mysteries of Mercury’s magnetic field and intern..."
     },
     {
       "id": "a7244b721cfb",
@@ -533,13 +533,43 @@
       "source": "TheVerge",
       "sourceIcon": "verge",
       "pubDate": "2026-09-21T20:29:45Z",
-      "description": "California Gov. Gavin Newsom has signed seven bills designed to prevent AI data centers from passing utility costs onto residents, as reported earlier by the Los Angeles Times. The package of laws requires the California Public Utilities Commission to introduce a new rate classification for data centers, while forcing them to pay for upgrades to [&#8230;]",
+      "description": "California Gov. Gavin Newsom has signed seven bills designed to prevent AI data centers from passing utility costs onto residents, as reported earlier by the Los Angeles Times. The package of laws requires the California Public Utilities Commission to introduce a new rate classification for data centers while forcing them to pay for upgrades to [&#8230;]",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 4,
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "California Gov. Gavin Newsom has signed seven bills designed to prevent AI data centers from passing utility costs onto ..."
+    },
+    {
+      "id": "c604386e20bf",
+      "title": "Amazon wants to help the Colorado River, but we still don’t know how much water the company uses",
+      "link": "https://www.theverge.com/tech/998539/amazon-data-center-water-conservation-colorado-river",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-09-21T23:15:32Z",
+      "description": "Amazon plans to spend $20 million on water conservation projects along the Colorado River, a crucial but dwindling water supply for 40 million people in the Western US. The initiative comes as Amazon and other tech companies face mounting scrutiny over how much water their data centers use. Amazon has a goal of becoming water [&#8230;]",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Amazon plans to spend $20 million on water conservation projects along the Colorado River, a crucial but dwindling water..."
+    },
+    {
+      "id": "48beea3950d5",
+      "title": "The man who built Apple’s stores doesn’t buy Silicon Valley’s bet on AI shopping",
+      "link": "https://techcrunch.com/2026/09/21/the-man-who-built-apples-stores-doesnt-buy-silicon-valleys-bet-on-ai-shopping/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-09-21T23:44:28Z",
+      "description": "Apple Store architect Ron Johnson says Apple's secret sauce has always been its people.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Apple Store architect Ron Johnson says Apple's secret sauce has always been its people."
     },
     {
       "id": "dead4b9861b2",
@@ -587,21 +617,6 @@
       "summary_en": "Executives happily automating their days with AI. New hires confronting bro culture. Women in tech have a lot to say—and..."
     },
     {
-      "id": "76dd96aa0817",
-      "title": "The long dream of the Googlebook",
-      "link": "https://www.theverge.com/tech/997972/googlebook-laptop-chromeos-android-history",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-09-21T13:00:00Z",
-      "description": "In late 2010, an up-and-coming Google executive named Sundar Pichai took the stage in front of a bunch of reporters and explained that Google had a big new idea about laptops. In the future, he said, the only thing you'd need on your computer was a web browser - that was where all your apps, [&#8230;]",
-      "topic": "Web/JavaScript",
-      "topicIcon": "🌐",
-      "importance": 3,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "In late 2010, an up-and-coming Google executive named Sundar Pichai took the stage in front of a bunch of reporters and ..."
-    },
-    {
       "id": "8b83fdec66cf",
       "title": "Apple Mac Mini (M6) Review: For the AI Curious",
       "link": "https://www.wired.com/review/apple-mac-mini-m6/",
@@ -615,21 +630,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Apple has refreshed the Mac Mini with a brand-new chip, the M6. And this time, it’s more focused on AI than ever."
-    },
-    {
-      "id": "729ec01c2ca9",
-      "title": "These are the first five Googlebook laptops",
-      "link": "https://www.theverge.com/gadgets/997659/googlebooks-breakdown-acer-asus-hp-lenovo-dell",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-09-21T13:01:00Z",
-      "description": "Google and partners are finally announcing the first laptops under the new Googlebook banner. There are five models from Acer, Asus, Dell, HP, and Lenovo to kick things off. They're available for preorder starting today and arrive in stores on October 4th. Starting prices range from $899 to $1,299, putting the Googlebooks in the same [&#8230;]",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 3,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Google and partners are finally announcing the first laptops under the new Googlebook banner. There are five models from..."
     },
     {
       "id": "693823a542ab",
@@ -668,13 +668,13 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-09-21T16:14:16Z",
-      "description": "https://hermes.radio/ https://www.rhizomatica.org/ Comments URL: https://news.ycombinator.com/item?id=49789228 Points: 72 # Comments: 35",
+      "description": "https://hermes.radio/ https://www.rhizomatica.org/ Comments URL: https://news.ycombinator.com/item?id=49789228 Points: 110 # Comments: 47",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 3,
       "reliability": 3,
       "summary_bn": "",
-      "summary_en": "https://hermes.radio/ https://www.rhizomatica.org/ Comments URL: https://news.ycombinator.com/item?id=49789228 Points: 7..."
+      "summary_en": "https://hermes.radio/ https://www.rhizomatica.org/ Comments URL: https://news.ycombinator.com/item?id=49789228 Points: 1..."
     },
     {
       "id": "a3e0032dbe3f",
@@ -698,7 +698,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-09-21T17:30:21Z",
-      "description": "Article URL: https://support.apple.com/guide/mac-help/turn-restrict-access-apple-intelligence-mchlb2e44f94/mac Comments URL: https://news.ycombinator.com/item?id=49790409 Points: 213 # Comments: 142",
+      "description": "Article URL: https://support.apple.com/guide/mac-help/turn-restrict-access-apple-intelligence-mchlb2e44f94/mac Comments URL: https://news.ycombinator.com/item?id=49790409 Points: 259 # Comments: 178",
       "topic": "Web/JavaScript",
       "topicIcon": "🌐",
       "importance": 3,
@@ -737,19 +737,19 @@
       "summary_en": "Amazon has its own cohort of foundation models, along with one of the most popular inference platforms on the internet. ..."
     },
     {
-      "id": "50791676adc1",
-      "title": "Avoiding the babbling-idiot failure in a time-triggered communication system",
-      "link": "https://ieeexplore.ieee.org/document/689473",
+      "id": "32aa43449829",
+      "title": "Roboharm: Do frontier robot policies refuse unsafe instructions?",
+      "link": "https://robocurve.org/roboharm/",
       "source": "Hacker News",
       "sourceIcon": "hn",
-      "pubDate": "2026-09-21T18:14:56Z",
-      "description": "Article URL: https://ieeexplore.ieee.org/document/689473 Comments URL: https://news.ycombinator.com/item?id=49791117 Points: 22 # Comments: 6",
+      "pubDate": "2026-09-21T18:58:26Z",
+      "description": "Article URL: https://robocurve.org/roboharm/ Comments URL: https://news.ycombinator.com/item?id=49791720 Points: 38 # Comments: 21",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 3,
       "reliability": 3,
       "summary_bn": "",
-      "summary_en": "Article URL: https://ieeexplore.ieee.org/document/689473 Comments URL: https://news.ycombinator.com/item?id=49791117 Poi..."
+      "summary_en": "Article URL: https://robocurve.org/roboharm/ Comments URL: https://news.ycombinator.com/item?id=49791720 Points: 38 # Co..."
     }
   ]
 }
