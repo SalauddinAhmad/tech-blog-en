@@ -1,21 +1,6 @@
 {
-  "lastUpdated": "2026-09-23T11:44:28+06:00",
+  "lastUpdated": "2026-09-23T17:14:59+06:00",
   "news": [
-    {
-      "id": "5efa3d17fb53",
-      "title": "A New Tool Found Malware That’s Guided by an AI Hive Mind—No Humans in Sight",
-      "link": "https://www.wired.com/story/a-tool-for-tracking-ai-integrated-malware-uncovered-an-autonomous-command-system/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-09-22T10:00:00Z",
-      "description": "Cisco Talos researchers created a new framework for identifying malware and hacking tools that rely on AI chatbots—and quickly discovered something unusual.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 7,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Cisco Talos researchers created a new framework for identifying malware and hacking tools that rely on AI chatbots—and q..."
-    },
     {
       "id": "8e86f94597e8",
       "title": "Stolen passwords are exposing America’s water providers to hackers",
@@ -47,19 +32,19 @@
       "summary_en": "The theft of agents' personal information could present a major counterintelligence threat, where agents and their famil..."
     },
     {
-      "id": "c8901fa7de95",
-      "title": "Show HN: JevBench, a reproducible benchmark for typed decision models",
-      "link": "https://benchmarkheaven.com/jev-models",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-09-22T13:01:03Z",
-      "description": "Hi HN! I built JevBench because Jev kicks ass, and the world deserves to know how the serious open source and fake lookalike projects really perform in comparison. Jev-class models return bounded choices and probabilities instead of text, and are disruptively faster and cheaper than LLMs, while being similarly intelligent on the text input they operate on. JevBench allows looking at accuracy, latency and price all at once, in a weighted way - you can even configure the weighting. A full run asks 534 English decisions. The v1.3 score combines chance-corrected Intelligence, Calibration, Speed and Cost. Leaderboard right now: #1 - Jev 74.4 #2 - SemIf 73.1 #3 - djev 73.0 #4 - Winnow-12B Q8 71.2 #5 reflex 4B 70.3. MIT harness, public items, frozen artifacts, scoring code and public per-task outcomes: https://github.com/fstandhartinger/jevbench Two no-signup demos: https://who-is-right.app.mintapis.com https://is-it-ai-slop.app.mintapis.com Limitations: English-only; latency from one German server; local/demo latency gets a disclosed ×2 adjustment (+150 ms on my servers) which is an informed assumption; held-out prompts still reach evaluated services; ~1-point gaps can be noise. Wdyt? Comments URL: https://news.ycombinator.com/item?id=49800574 Points: 87 # Comments: 20",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 6,
-      "reliability": 3,
+      "id": "0644f4ae590a",
+      "title": "Kate Tolo Says Her Quest to Be ‘the Female Bryan Johnson’ Is ‘for Women’",
+      "link": "https://www.wired.com/story/kate-tolo-says-her-quest-to-be-the-female-bryan-johnson-is-for-women/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-09-23T10:30:00Z",
+      "description": "Like her biohacking boyfriend, Tolo is undergoing a grueling regimen of tests—from tracking nighttime erections to subjecting herself to extreme heat on her period—in service of “half the population.”",
+      "topic": "Security",
+      "topicIcon": "🔒",
+      "importance": 7,
+      "reliability": 4,
       "summary_bn": "",
-      "summary_en": "Hi HN! I built JevBench because Jev kicks ass, and the world deserves to know how the serious open source and fake looka..."
+      "summary_en": "Like her biohacking boyfriend, Tolo is undergoing a grueling regimen of tests—from tracking nighttime erections to subje..."
     },
     {
       "id": "06a24bbfdddc",
@@ -83,13 +68,13 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-09-22T17:46:02Z",
-      "description": "https://archive.ph/96YBP Comments URL: https://news.ycombinator.com/item?id=49805278 Points: 516 # Comments: 361",
+      "description": "https://archive.ph/96YBP Comments URL: https://news.ycombinator.com/item?id=49805278 Points: 628 # Comments: 457",
       "topic": "Security",
       "topicIcon": "🔒",
       "importance": 6,
       "reliability": 3,
       "summary_bn": "",
-      "summary_en": "https://archive.ph/96YBP Comments URL: https://news.ycombinator.com/item?id=49805278 Points: 516 # Comments: 361"
+      "summary_en": "https://archive.ph/96YBP Comments URL: https://news.ycombinator.com/item?id=49805278 Points: 628 # Comments: 457"
     },
     {
       "id": "25f12aed5a13",
@@ -152,34 +137,19 @@
       "summary_en": "Now that Paramount has reached a settlement with the 12 states that were suing to block its $110 billion merger with War..."
     },
     {
-      "id": "6095721e7b07",
-      "title": "A New Chatbot Wants to Unlock the Secrets in Tattered Ancient Greek Records",
-      "link": "https://www.wired.com/story/apollo-ai-model-ancient-greek-secrets-papyrus/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-09-22T09:30:00Z",
-      "description": "In the hope of uncovering new details about ancient life, researchers have developed a large language model that fills in the gaps in papyrus fragments.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 5,
+      "id": "c4e30decea00",
+      "title": "Eight Sleep’s new cooling hub is small enough to hide under your bed",
+      "link": "https://www.theverge.com/tech/999018/eight-sleep-pod-6-intelligent-sleep-system-sensors-health-tracking",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-09-23T11:00:00Z",
+      "description": "Eight Sleep announced the next version of its \"intelligent sleep system\" designed to regulate the temperature of your bed in response to tracked health and sleep metrics like breathing and heart rate. The company calls its new Pod 6 system its \"most significant hardware launch to date,\" and it's centered around a redesigned cooling hub [&#8230;]",
+      "topic": "Hardware",
+      "topicIcon": "💻",
+      "importance": 6,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "In the hope of uncovering new details about ancient life, researchers have developed a large language model that fills i..."
-    },
-    {
-      "id": "498fff1be7fc",
-      "title": "NASA chief: I'm only interested in \"good deals\" from international partners",
-      "link": "https://arstechnica.com/space/2026/09/nasa-chief-im-only-interested-in-good-deals-from-international-partners/",
-      "source": "Ars Technica",
-      "sourceIcon": "ars",
-      "pubDate": "2026-09-22T11:00:37Z",
-      "description": "\"There was absolutely a time where we were trying to make everyone happy.\"",
-      "topic": "Web/JavaScript",
-      "topicIcon": "🌐",
-      "importance": 5,
-      "reliability": 5,
-      "summary_bn": "",
-      "summary_en": "\"There was absolutely a time where we were trying to make everyone happy.\""
+      "summary_en": "Eight Sleep announced the next version of its \"intelligent sleep system\" designed to regulate the temperature of your be..."
     },
     {
       "id": "ab80aabab1f6",
@@ -408,7 +378,7 @@
     },
     {
       "id": "758c489d1cf9",
-      "title": "Rare look at the remote engine rooms powering China's AI ambitions",
+      "title": "Rare look at the remote engine rooms fuelling China's AI boom",
       "link": "https://www.bbc.co.uk/news/videos/cwe8ejvv0leno?at_medium=RSS&at_campaign=rss",
       "source": "BBC",
       "sourceIcon": "bbc",
@@ -423,18 +393,18 @@
     },
     {
       "id": "a8ba1405a8aa",
-      "title": "As Trump and Xi talk, China surges ahead with its AI ambitions",
+      "title": "Huge data centres rise at 'China speed' to power its AI ambitions",
       "link": "https://www.bbc.co.uk/news/articles/cm5ydz4kl65ro?at_medium=RSS&at_campaign=rss",
       "source": "BBC",
       "sourceIcon": "bbc",
       "pubDate": "2026-09-22T22:04:31Z",
-      "description": "The BBC visits Inner Mongolia, where Beijing's AI infrastructure is progressing at \"China speed\", says one worker.",
+      "description": "The BBC visits Inner Mongolia, an unlikely frontier in Beijing's AI race with Washington.",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 5,
       "reliability": 5,
       "summary_bn": "",
-      "summary_en": "The BBC visits Inner Mongolia, where Beijing's AI infrastructure is progressing at \"China speed\", says one worker."
+      "summary_en": "The BBC visits Inner Mongolia, an unlikely frontier in Beijing's AI race with Washington."
     },
     {
       "id": "8189b0d4924d",
@@ -452,36 +422,6 @@
       "summary_en": "Under the draft laws, tech firms face fines if they do not give users the option to switch off algorithms."
     },
     {
-      "id": "401e065c71ae",
-      "title": "Patti Harrison Had Dreams of a Tech Utopia. Silicon Valley Smashed Them",
-      "link": "https://www.wired.com/story/big-interview-patti-harrison/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-09-22T10:00:00Z",
-      "description": "The comedian sat down with WIRED to talk about social media, AI, and getting laughs for impersonating Boston Dynamics’ robot dogs.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "The comedian sat down with WIRED to talk about social media, AI, and getting laughs for impersonating Boston Dynamics’ r..."
-    },
-    {
-      "id": "e1cd101052d5",
-      "title": "Everything You Know About Political Violence Is Probably Wrong",
-      "link": "https://www.wired.com/story/book-excerpt-political-violence-robert-pape-our-own-worst-enemies/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-09-22T11:00:00Z",
-      "description": "Public disagreement about whether political violence is rising and who is responsible for it stems not from ideology alone but from competing definitions about what should be counted.",
-      "topic": "Other",
-      "topicIcon": "📰",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Public disagreement about whether political violence is rising and who is responsible for it stems not from ideology alo..."
-    },
-    {
       "id": "433e31df1f69",
       "title": "GoPro Mission 1 Pro ILS Review (2026): Cinema-Quality Action Cam",
       "link": "https://www.wired.com/review/gopro-mission-1-ils-camera/",
@@ -497,21 +437,6 @@
       "summary_en": "GoPro’s first foray into the world of cinema cameras isn’t perfect, but it sure is a lot of fun to shoot with."
     },
     {
-      "id": "118df75676a2",
-      "title": "Viture’s Vonder Glasses Are Meant to Map Your Mind",
-      "link": "https://www.wired.com/story/viture-vonder-glasses-are-meant-to-map-your-mind/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-09-22T13:00:00Z",
-      "description": "No cameras? No problem. Viture’s first display-free smart glasses have bone-conduction microphones to privately record your daily musings.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "No cameras? No problem. Viture’s first display-free smart glasses have bone-conduction microphones to privately record y..."
-    },
-    {
       "id": "e6e9deb09abd",
       "title": "Adobe Premiere, One of the iPhone’s Best Video-Editing Apps, Is Now on Android",
       "link": "https://www.wired.com/story/adobe-premiere-now-on-android/",
@@ -525,6 +450,21 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "The Android version of Premiere has unique layouts on candy bar phones and foldable devices. It’s free to use and availa..."
+    },
+    {
+      "id": "118df75676a2",
+      "title": "Viture’s Vonder Glasses Are Meant to Map Your Mind",
+      "link": "https://www.wired.com/story/viture-vonder-glasses-are-meant-to-map-your-mind/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-09-22T13:00:00Z",
+      "description": "No cameras? No problem. Viture’s first display-free smart glasses have bone-conduction microphones to privately record your daily musings.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "No cameras? No problem. Viture’s first display-free smart glasses have bone-conduction microphones to privately record y..."
     },
     {
       "id": "0e4841e68bdb",
@@ -632,36 +572,6 @@
       "summary_en": "Anthropic called it \"the strongest-performing model we've tested to date.\""
     },
     {
-      "id": "9bf9673b05d3",
-      "title": "San Francisco sues Trump Media for selling early access to Trump posts",
-      "link": "https://www.theverge.com/tech/998914/trump-truth-social-api-lawsuit-san-francisco",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-09-22T17:43:50Z",
-      "description": "San Francisco is suing the Trump Media &#38; Technology Group, the parent company behind Truth Social, for selling early access to President Donald Trump's posts on the social media site. The lawsuit, filed today in California state court, alleges that the Truth API feed is a \"corrupt business scheme\" that violates both California's Unfair Competition [&#8230;]",
-      "topic": "Regulation",
-      "topicIcon": "⚖️",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "San Francisco is suing the Trump Media &#38; Technology Group, the parent company behind Truth Social, for selling early..."
-    },
-    {
-      "id": "7debf61d96b2",
-      "title": "Save $30 on Apple’s Magic Keyboard with Touch ID and a numpad",
-      "link": "https://www.theverge.com/gadgets/998824/apple-magic-keyboard-touch-interstellar-4k-blu-ray-deal-sale",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-09-22T18:10:57Z",
-      "description": "Until the end of the day on September 22nd, 2026, Best Buy and Amazon have the black Apple Magic Keyboard on sale for $169.99, a $30 discount from the usual price. This is the souped-up version of Apple’s full-size, wireless keyboard, with a Touch ID button, numerical pad, arrow keys, plus additional function keys. The [&#8230;]",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Until the end of the day on September 22nd, 2026, Best Buy and Amazon have the black Apple Magic Keyboard on sale for $1..."
-    },
-    {
       "id": "f6d4e562fc49",
       "title": "How to Claim Your Cut of Apple’s $250 Million Siri Settlement",
       "link": "https://www.wired.com/story/how-to-claim-your-cut-of-apple-250-million-siri-settlement/",
@@ -750,6 +660,96 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Motorola is the first company to announce a phone running Qualcomm's top-end Snapdragon 8 Elite Extreme Gen 6 chip. The ..."
+    },
+    {
+      "id": "a5840e5a42f7",
+      "title": "Tech Life",
+      "link": "https://www.bbc.co.uk/sounds/play/w3ct8jyg?at_medium=RSS&at_campaign=rss",
+      "source": "BBC",
+      "sourceIcon": "bbc",
+      "pubDate": "2026-09-22T20:00:00Z",
+      "description": "China is competing with the United States and other nations to develop AI.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "China is competing with the United States and other nations to develop AI."
+    },
+    {
+      "id": "f63cc9a7e2c1",
+      "title": "Saudi Arabia’s new Exobot EVs make the Cybertruck look normal",
+      "link": "https://www.theverge.com/transportation/998791/ceer-ev-saudi-arabia-foxconn-exobot",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-09-22T20:14:54Z",
+      "description": "The Kingdom of Saudi Arabia is mostly known for its global dominance over petroleum production and oil reserves - not necessarily cars and auto manufacturing, and certainly not electric vehicle production. So it was a little surprising on Monday when a Saudi startup called Ceer unveiled a pair of hyper-angular, spaceship-like EVs, with plans to [&#8230;]",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "The Kingdom of Saudi Arabia is mostly known for its global dominance over petroleum production and oil reserves - not ne..."
+    },
+    {
+      "id": "7c67ad98e455",
+      "title": "Snorkel AI triples valuation to $3.5B as demand for AI training data booms",
+      "link": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-09-22T21:56:43Z",
+      "description": "The seven-year-old startup has raised a $350 million Series E to fuel its data-as-a-service approach.",
+      "topic": "Startups",
+      "topicIcon": "🚀",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "The seven-year-old startup has raised a $350 million Series E to fuel its data-as-a-service approach."
+    },
+    {
+      "id": "43c35a5ce854",
+      "title": "Will a switch to light speed cut power use at data centres?",
+      "link": "https://www.bbc.co.uk/news/articles/c2dwg3zexkpo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC",
+      "sourceIcon": "bbc",
+      "pubDate": "2026-09-22T23:03:48Z",
+      "description": "To save power and add capacity, data centres are switching from copper wires to tech using light.",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 4,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "To save power and add capacity, data centres are switching from copper wires to tech using light."
+    },
+    {
+      "id": "b25fe2c5917b",
+      "title": "TechCrunch Founder Summit’s agenda revealed: Unlock fundraising, hiring, and AI insights in Boston on November 4",
+      "link": "https://techcrunch.com/2026/09/22/techcrunch-founder-summits-agenda-revealed-unlock-fundraising-hiring-and-ai-insights-in-boston-on-november-4/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-09-22T23:21:49Z",
+      "description": "Founders shouldn't have to learn the hardest lessons the hardest way. TechCrunch Founder Summit is designed to make the challenges of starting a company easier and the highs that much greater.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Founders shouldn't have to learn the hardest lessons the hardest way. TechCrunch Founder Summit is designed to make the ..."
+    },
+    {
+      "id": "a86391fe9862",
+      "title": "OpenAI wants to consult elite mathematicians about how to not fumble again",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-09-23T00:17:17Z",
+      "description": "After turning a string of spectacular mathematical results into a reputational crisis, OpenAI is consulting human mathematicians to help it figure out a less disastrous path forward. On Monday, the company announced a new independent panel of mathematicians tasked with advising it and other AI companies on their interactions with mathematical research and the wider [&#8230;]",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "After turning a string of spectacular mathematical results into a reputational crisis, OpenAI is consulting human mathem..."
     }
   ]
 }
