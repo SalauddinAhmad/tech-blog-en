@@ -1,6 +1,21 @@
 {
-  "lastUpdated": "2026-09-24T10:16:37+06:00",
+  "lastUpdated": "2026-09-24T15:49:00+06:00",
   "news": [
+    {
+      "id": "90aa3aaf99fe",
+      "title": "FBI investigates claim by hackers they stole data on all agency staff",
+      "link": "https://www.bbc.co.uk/news/articles/c9n74574elljo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC",
+      "sourceIcon": "bbc",
+      "pubDate": "2026-09-23T21:30:22Z",
+      "description": "The hackers claim they have every agent's name, role, badge number and personal details including home address, phone numbers and spouse information.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 8,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "The hackers claim they have every agent's name, role, badge number and personal details including home address, phone nu..."
+    },
     {
       "id": "416f27859557",
       "title": "FBI rushes to investigate if ShinyHunters hack of thousands of employees is real",
@@ -15,6 +30,21 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "It's unclear what will happen if FBI misses ShinyHunters' deadline."
+    },
+    {
+      "id": "45543d731f6b",
+      "title": "What you need to know about the OpenAI Australian government hack",
+      "link": "https://www.bbc.co.uk/news/videos/cwe8ekyzdjvlo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC",
+      "sourceIcon": "bbc",
+      "pubDate": "2026-09-24T05:18:26Z",
+      "description": "The BBC’s North America technology correspondent Lily Jamali explains how the Medicare breach happened, and why it matters.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 8,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "The BBC’s North America technology correspondent Lily Jamali explains how the Medicare breach happened, and why it matte..."
     },
     {
       "id": "0644f4ae590a",
@@ -62,21 +92,6 @@
       "summary_en": "The round valued the AI biotech at $2 billion. It is currently testing drugs that treat skin conditions and preserve wei..."
     },
     {
-      "id": "118507484a49",
-      "title": "Microsoft’s new Surface Mouse has haptic feedback and a customizable action button",
-      "link": "https://www.theverge.com/news/999211/microsoft-surface-mouse-haptic-feedback",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-09-23T20:30:00Z",
-      "description": "Microsoft is launching a second generation of its Surface Mouse next month that includes haptic feedback support. The Surface Mouse also has a customizable action button for the first time, which is primarily designed for quick access to Copilot (of course), but can be configured to work with other shortcuts from the Surface app. \"Its [&#8230;]",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 6,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Microsoft is launching a second generation of its Surface Mouse next month that includes haptic feedback support. The Su..."
-    },
-    {
       "id": "d3441858b1eb",
       "title": "Meta Connect 2026 live blog: On the ground at Mark Zuckerberg’s next big product launch",
       "link": "https://www.theverge.com/tech/998457/meta-connect-2026-live-blog-mark-zuckerberg-keynote",
@@ -105,6 +120,21 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "It&#8217;s about time for Meta Connect, the company&#8217;s annual product launch event. This year, given the company&#8..."
+    },
+    {
+      "id": "e5a8f0f458ea",
+      "title": "Early rogue AI agent activity and attempts to hack found on urlquery.net",
+      "link": "https://transluce.org/agent-activity",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-09-24T05:21:10Z",
+      "description": "Article URL: https://transluce.org/agent-activity Comments URL: https://news.ycombinator.com/item?id=49826565 Points: 113 # Comments: 78",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 6,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "Article URL: https://transluce.org/agent-activity Comments URL: https://news.ycombinator.com/item?id=49826565 Points: 11..."
     },
     {
       "id": "9b5eb49e1849",
@@ -150,21 +180,6 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "Feds know of 5 crashes where cars using comma.ai devices hit slow or stopped vehicles."
-    },
-    {
-      "id": "775d40172eec",
-      "title": "Radicle: Disclosure of Vulnerability in the Network Protocol",
-      "link": "https://radicle.dev/2026/09/23/disclosure-of-vulnerability-in-network-protocol",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-09-23T15:23:05Z",
-      "description": "Article URL: https://radicle.dev/2026/09/23/disclosure-of-vulnerability-in-network-protocol Comments URL: https://news.ycombinator.com/item?id=49817524 Points: 128 # Comments: 51",
-      "topic": "Security",
-      "topicIcon": "🔒",
-      "importance": 5,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://radicle.dev/2026/09/23/disclosure-of-vulnerability-in-network-protocol Comments URL: https://news.y..."
     },
     {
       "id": "55944fbe2e53",
@@ -362,64 +377,49 @@
       "summary_en": "At its Meta Connect event, CEO Mark Zuckerberg announced a handful of new smart glasses, including a slimmed-down VR hea..."
     },
     {
-      "id": "0b0b82db2472",
-      "title": "FLAWED's Flaws and What This Means for Industry Research",
-      "link": "https://suhacker.ai/p/flaweds-flaws-and-what-this-means-for-industry-research/",
+      "id": "08084680e485",
+      "title": "OpenAI agent hacked Australian government website, PM says",
+      "link": "https://www.bbc.com/news/live/cvgl73pxgndwt",
       "source": "Hacker News",
       "sourceIcon": "hn",
-      "pubDate": "2026-09-24T01:16:33Z",
-      "description": "Article URL: https://suhacker.ai/p/flaweds-flaws-and-what-this-means-for-industry-research/ Comments URL: https://news.ycombinator.com/item?id=49824969 Points: 14 # Comments: 2",
+      "pubDate": "2026-09-24T02:44:48Z",
+      "description": "Article URL: https://www.bbc.com/news/live/cvgl73pxgndwt Comments URL: https://news.ycombinator.com/item?id=49825580 Points: 49 # Comments: 8",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 5,
       "reliability": 3,
       "summary_bn": "",
-      "summary_en": "Article URL: https://suhacker.ai/p/flaweds-flaws-and-what-this-means-for-industry-research/ Comments URL: https://news.y..."
-    },
-    {
-      "id": "70088d98bd26",
-      "title": "Australia says OpenAI agent hacked into government website",
-      "link": "https://www.channelnewsasia.com/world/australia-openai-agent-breach-government-portal-6406411",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-09-24T01:24:00Z",
-      "description": "Article URL: https://www.channelnewsasia.com/world/australia-openai-agent-breach-government-portal-6406411 Comments URL: https://news.ycombinator.com/item?id=49825024 Points: 51 # Comments: 33",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 5,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://www.channelnewsasia.com/world/australia-openai-agent-breach-government-portal-6406411 Comments URL:..."
+      "summary_en": "Article URL: https://www.bbc.com/news/live/cvgl73pxgndwt Comments URL: https://news.ycombinator.com/item?id=49825580 Poi..."
     },
     {
       "id": "24a6d9427f52",
-      "title": "OpenAI agent 'infiltrated' Australian government website, PM says",
+      "title": "Rogue OpenAI agent 'infiltrated' Australian government website in world first",
       "link": "https://www.bbc.co.uk/news/articles/c6vgy0333dppo?at_medium=RSS&at_campaign=rss",
       "source": "BBC",
       "sourceIcon": "bbc",
-      "pubDate": "2026-09-24T03:22:54Z",
-      "description": "Albanese said he expressed \"concern\" to OpenAI founder Sam Altman, after authorities were informed three months after the breach in June.",
+      "pubDate": "2026-09-24T07:10:58Z",
+      "description": "Australia criticised OpenAI for taking \"too long\" to tell them about the breach which happened in June.",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 5,
       "reliability": 5,
       "summary_bn": "",
-      "summary_en": "Albanese said he expressed \"concern\" to OpenAI founder Sam Altman, after authorities were informed three months after th..."
+      "summary_en": "Australia criticised OpenAI for taking \"too long\" to tell them about the breach which happened in June."
     },
     {
-      "id": "60e34e7876bb",
-      "title": "8 Best Space Heaters (2026): Tested, Measured, and Mistreated",
-      "link": "https://www.wired.com/gallery/the-best-space-heaters/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-09-23T09:33:00Z",
-      "description": "These portable heaters will heat a room quickly, quietly, and safely.",
-      "topic": "Other",
-      "topicIcon": "📰",
-      "importance": 4,
+      "id": "549242f464f7",
+      "title": "Gemini 4 is almost ready, says new Google DeepMind chief",
+      "link": "https://www.theverge.com/tech/999802/google-deepmind-gemini-4-timeline-koray-kavukcuoglu",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-09-24T09:04:18Z",
+      "description": "Google is reportedly nearing the launch of its long awaited Gemini 4 model, after dawdling behind rival developers on flagship AI releases. Speaking with The Information during his first media appearance as the leader of Google's DeepMind division, Koray Kavukcuoglu said that Gemini 4 is currently in its refinement stage, and that the company is [&#8230;]",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 5,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "These portable heaters will heat a room quickly, quietly, and safely."
+      "summary_en": "Google is reportedly nearing the launch of its long awaited Gemini 4 model, after dawdling behind rival developers on fl..."
     },
     {
       "id": "56a98e1fc3b3",
