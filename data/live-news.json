@@ -1,21 +1,6 @@
 {
-  "lastUpdated": "2026-09-25T07:19:36+06:00",
+  "lastUpdated": "2026-09-25T13:29:58+06:00",
   "news": [
-    {
-      "id": "45543d731f6b",
-      "title": "What you need to know about the OpenAI Australian government hack",
-      "link": "https://www.bbc.co.uk/news/videos/cwe8ekyzdjvlo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC",
-      "sourceIcon": "bbc",
-      "pubDate": "2026-09-24T05:18:26Z",
-      "description": "The BBC’s North America technology correspondent Lily Jamali explains how the Medicare breach happened, and why it matters.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 8,
-      "reliability": 5,
-      "summary_bn": "",
-      "summary_en": "The BBC’s North America technology correspondent Lily Jamali explains how the Medicare breach happened, and why it matte..."
-    },
     {
       "id": "90aa3aaf99fe",
       "title": "FBI investigating claim hackers have stolen details of all its agents",
@@ -135,21 +120,6 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "Million-dollar fines won’t end billionaires’ data center pollution, neighbors fear."
-    },
-    {
-      "id": "e5a8f0f458ea",
-      "title": "Early rogue AI agent activity and attempts to hack found on urlquery.net",
-      "link": "https://transluce.org/agent-activity",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-09-24T05:21:10Z",
-      "description": "Article URL: https://transluce.org/agent-activity Comments URL: https://news.ycombinator.com/item?id=49826565 Points: 242 # Comments: 232",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 6,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://transluce.org/agent-activity Comments URL: https://news.ycombinator.com/item?id=49826565 Points: 24..."
     },
     {
       "id": "f602776a0ed2",
@@ -287,21 +257,6 @@
       "summary_en": "ElevenLabs powers the AI voice on the other end of a lot of customer service calls, and its CEO told me this week that b..."
     },
     {
-      "id": "dac80f12a88a",
-      "title": "Muse sure looks a lot like OpenClaw",
-      "link": "https://www.theverge.com/report/1000180/muse-openclaw-instinct-lookalike",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-09-24T17:10:38Z",
-      "description": "We seem to be entering into an AI agent renaissance. Meta's new consumer-facing AI agent, Muse, topped the App Store charts soon after its release and has 600,000 daily active users in the US, by an Apptopia estimate. And AI agent platform Instinct, whose eponymous creator is fundraising at a $2.5 billion valuation, has been [&#8230;]",
-      "topic": "Startups",
-      "topicIcon": "🚀",
-      "importance": 5,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "We seem to be entering into an AI agent renaissance. Meta's new consumer-facing AI agent, Muse, topped the App Store cha..."
-    },
-    {
       "id": "bcb31d434ed4",
       "title": "Jensen Huang talks about AI and climate change like a supervillain",
       "link": "https://www.theverge.com/tech/1000140/jensen-huang-nvidia-ai-energy-climate-change-supervillain",
@@ -375,21 +330,6 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "Health department previously blamed delay on \"not yet finalized procurement decisions.\""
-    },
-    {
-      "id": "c4e65c85ac77",
-      "title": "Motley Fool Promo Code: $200 Off on Stock Advisor September 2026",
-      "link": "https://www.wired.com/story/the-motley-fool-promo-code/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-09-24T05:00:00Z",
-      "description": "Scale your portfolio for less with these verified The Motley Fool membership discounts, stock advisor promo codes, and Epic Bundle deals.",
-      "topic": "Web/JavaScript",
-      "topicIcon": "🌐",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Scale your portfolio for less with these verified The Motley Fool membership discounts, stock advisor promo codes, and E..."
     },
     {
       "id": "342e4c147c10",
@@ -572,21 +512,6 @@
       "summary_en": "The AI-powered feature builds a virtual wardrobe from your photos, and is now broadly available after first rolling out ..."
     },
     {
-      "id": "415c38fe837d",
-      "title": "Now Google Chrome shares tabs to new devices that save where you were",
-      "link": "https://www.theverge.com/tech/999901/google-chrome-tab-memory-gemini-updates",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-09-24T17:00:00Z",
-      "description": "Google is rolling out some new Chrome browser features that are designed to make it easier to research and study complicated topics. The cross-device tab switching feature is getting a memory upgrade, alongside new capabilities for Gemini in Chrome that can analyze more types of media and generate interactive study quizzes. Chrome has an existing [&#8230;]",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Google is rolling out some new Chrome browser features that are designed to make it easier to research and study complic..."
-    },
-    {
       "id": "c55e075bb2c7",
       "title": "Meta’s Muse Charm looks like a Tamagotchi, but it’s tapping into a much newer trend",
       "link": "https://techcrunch.com/2026/09/24/metas-muse-charm-looks-like-a-tamagotchi-but-its-tapping-into-a-much-newer-trend/",
@@ -707,6 +632,21 @@
       "summary_en": "Google's new Gemini 3.8 Live update lets users have conversations with the model while watching an animated AI persona r..."
     },
     {
+      "id": "fea2e8993bb7",
+      "title": "Opus 5.5 is good at explainer videos",
+      "link": "https://launchvideo.io",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-09-24T20:28:47Z",
+      "description": "Article URL: https://launchvideo.io Comments URL: https://news.ycombinator.com/item?id=49836374 Points: 220 # Comments: 119",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "Article URL: https://launchvideo.io Comments URL: https://news.ycombinator.com/item?id=49836374 Points: 220 # Comments: ..."
+    },
+    {
       "id": "18f34bb3badd",
       "title": "Nexterity wants to automate the hard, dangerous part of pipefitting",
       "link": "https://techcrunch.com/2026/09/24/nexterity-wants-to-automate-the-hard-dangerous-part-of-pipefitting/",
@@ -750,6 +690,66 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "Introducing the \"world-famous authority on outer space...\""
+    },
+    {
+      "id": "99ff6e3fec1e",
+      "title": "Microsoft puts Brad Smith in charge of communications",
+      "link": "https://www.theverge.com/news/1000374/microsoft-comms-pr-brad-smith-cela",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-09-24T22:08:22Z",
+      "description": "Microsoft is moving its communications group out of marketing and into its Corporate, External, and Legal Affairs (CELA) organization. The surprise change will see Microsoft vice chair and president Brad Smith oversee communications, while the company searches for a replacement for Frank Shaw, chief communications officer, who is departing later this year. Microsoft CEO Satya [&#8230;]",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Microsoft is moving its communications group out of marketing and into its Corporate, External, and Legal Affairs (CELA)..."
+    },
+    {
+      "id": "c90d5a4dd6fd",
+      "title": "X-planes: Are they needed in the new era of drones?",
+      "link": "https://www.bbc.co.uk/news/articles/c9q92x359xdo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC",
+      "sourceIcon": "bbc",
+      "pubDate": "2026-09-24T23:03:53Z",
+      "description": "Where do America's X-plane projects fit in an era of cheap drones?",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 4,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "Where do America's X-plane projects fit in an era of cheap drones?"
+    },
+    {
+      "id": "98250f9291e2",
+      "title": "Qualcomm’s new ‘Elite’ sound chip might finally deliver the Wi-Fi earbud dream",
+      "link": "https://www.theverge.com/tech/1000443/qualcomms-new-elite-sound-chip-might-finally-deliver-the-wi-fi-earbud-dream",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-09-24T23:42:39Z",
+      "description": "What if your wireless earbuds - or audio glasses - could stream high-quality lossless audio that doesn't cut out when you leave your phone on the bedside charger or buried in the couch? Qualcomm's new Snapdragon Sound Elite Gen 2 is its first to integrate \"micro-power Wi-Fi 6E\" right into the chip, so they can [&#8230;]",
+      "topic": "Hardware",
+      "topicIcon": "💻",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "What if your wireless earbuds - or audio glasses - could stream high-quality lossless audio that doesn't cut out when yo..."
+    },
+    {
+      "id": "aa95f7861ac6",
+      "title": "Meta employees ordered ‘attorney/client privilege’ hats while fighting child safety disclosures",
+      "link": "https://www.theverge.com/tech/1000370/meta-instagram-attorney-client-privilege-hats",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-09-24T23:50:55Z",
+      "description": "Meta's lawyers have argued that certain evidence should be withheld from public view on the grounds of attorney-client privilege in the ongoing lawsuits over alleged harm to teens' safety and mental health. Lawyers suing the company said this week that the label has been applied far too broadly, while pointing to a recently unsealed document [&#8230;]",
+      "topic": "Regulation",
+      "topicIcon": "⚖️",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Meta's lawyers have argued that certain evidence should be withheld from public view on the grounds of attorney-client p..."
     }
   ]
 }
