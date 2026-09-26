@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-26T04:09:06+06:00",
+  "lastUpdated": "2026-09-26T07:22:10+06:00",
   "news": [
     {
       "id": "5bdf201b1a20",
@@ -47,21 +47,6 @@
       "summary_en": "\"The customer got comfortable with a high reliability and a low price.\""
     },
     {
-      "id": "a0bf224e120d",
-      "title": "North Korean hackers suspected in $351M crypto theft, the largest so far this year",
-      "link": "https://techcrunch.com/2026/09/25/north-korean-hackers-suspected-in-351m-crypto-theft-the-largest-so-far-this-year/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-09-25T13:24:34Z",
-      "description": "The $351 million theft from crypto exchange Bitget is the latest in a string of high-profile hacks targeting the crypto sector.",
-      "topic": "Security",
-      "topicIcon": "🔒",
-      "importance": 7,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "The $351 million theft from crypto exchange Bitget is the latest in a string of high-profile hacks targeting the crypto ..."
-    },
-    {
       "id": "97b60d3fb0c3",
       "title": "Kiteworks urges customers to shut down their servers amid ‘imminent’ threat of cyberattack",
       "link": "https://techcrunch.com/2026/09/25/kiteworks-urges-customers-to-shut-down-their-servers-amid-imminent-threat-of-cyberattack/",
@@ -77,13 +62,28 @@
       "summary_en": "The tech giant, which allows companies to send large datasets over the internet, said it received a \"credible threat\" fr..."
     },
     {
+      "id": "1e1a1afb952d",
+      "title": "Show HN: Hacker Atlas - A map of what Hacker News talks about",
+      "link": "https://hackeratlas.com/",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-09-25T13:37:54Z",
+      "description": "I built a tool to explore HN topics and how they change over time. Currently covers 2024 to today. Is it useful? What's missing? Comments URL: https://news.ycombinator.com/item?id=49844497 Points: 5 # Comments: 0",
+      "topic": "Security",
+      "topicIcon": "🔒",
+      "importance": 6,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "I built a tool to explore HN topics and how they change over time. Currently covers 2024 to today. Is it useful? What's ..."
+    },
+    {
       "id": "38be6ea6b496",
       "title": "Show HN: Jev Plays Pokémon Red",
       "link": "https://jev-pokemon.vercel.app/",
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-09-25T14:28:07Z",
-      "description": "Hey HN! Wanted to share a fun project I've been hacking on. Given Jev can make decisions really fast (but not fast enough to play Doom yet sadly), I wanted to try and push it to play a more complex game than Tetris. So I went with Pokémon. I've spent endless hours playing this game as a child so building this was a ton of fun. I open sourced everything in case you want to hack on it yourself here: https://github.com/christianmat/jev-pokemon The game is being streamed live including the tokens and cost - hopefully we get all the badges and don't get stuck in a cave :) Comments URL: https://news.ycombinator.com/item?id=49845172 Points: 78 # Comments: 40",
+      "description": "Hey HN! Wanted to share a fun project I've been hacking on. Given Jev can make decisions really fast (but not fast enough to play Doom yet sadly), I wanted to try and push it to play a more complex game than Tetris. So I went with Pokémon. I've spent endless hours playing this game as a child so building this was a ton of fun. I open sourced everything in case you want to hack on it yourself here: https://github.com/christianmat/jev-pokemon The game is being streamed live including the tokens and cost - hopefully we get all the badges and don't get stuck in a cave :) Comments URL: https://news.ycombinator.com/item?id=49845172 Points: 147 # Comments: 66",
       "topic": "Open Source",
       "topicIcon": "🔓",
       "importance": 6,
@@ -128,28 +128,13 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-09-25T21:09:27Z",
-      "description": "Article URL: https://swarmtraces.org/ Comments URL: https://news.ycombinator.com/item?id=49849985 Points: 15 # Comments: 0",
+      "description": "Article URL: https://swarmtraces.org/ Comments URL: https://news.ycombinator.com/item?id=49849985 Points: 192 # Comments: 118",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 6,
       "reliability": 3,
       "summary_bn": "",
-      "summary_en": "Article URL: https://swarmtraces.org/ Comments URL: https://news.ycombinator.com/item?id=49849985 Points: 15 # Comments:..."
-    },
-    {
-      "id": "eb4b6aa0094b",
-      "title": "CDC opens state ordering for COVID-19 vaccines after unexplained delay",
-      "link": "https://arstechnica.com/health/2026/09/cdc-opens-state-ordering-for-covid-19-vaccines-after-unexplained-delay/",
-      "source": "Ars Technica",
-      "sourceIcon": "ars",
-      "pubDate": "2026-09-24T22:29:48Z",
-      "description": "Health department previously blamed delay on \"not yet finalized procurement decisions.\"",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 5,
-      "reliability": 5,
-      "summary_bn": "",
-      "summary_en": "Health department previously blamed delay on \"not yet finalized procurement decisions.\""
+      "summary_en": "Article URL: https://swarmtraces.org/ Comments URL: https://news.ycombinator.com/item?id=49849985 Points: 192 # Comments..."
     },
     {
       "id": "2a5ad4fe27ed",
@@ -257,34 +242,49 @@
       "summary_en": "Better thermals and battery life make this iterative update nicer to use."
     },
     {
-      "id": "c90d5a4dd6fd",
-      "title": "X-planes: Are they needed in the new era of drones?",
-      "link": "https://www.bbc.co.uk/news/articles/c9q92x359xdo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC",
-      "sourceIcon": "bbc",
-      "pubDate": "2026-09-24T23:03:53Z",
-      "description": "Where do America's X-plane projects fit in an era of cheap drones?",
-      "topic": "Other",
-      "topicIcon": "📰",
-      "importance": 4,
-      "reliability": 5,
-      "summary_bn": "",
-      "summary_en": "Where do America's X-plane projects fit in an era of cheap drones?"
-    },
-    {
-      "id": "ff3979163f0a",
-      "title": "Lightspeed targets $250M for new India fund, focusing on early-stage AI",
-      "link": "https://techcrunch.com/2026/09/24/lightspeed-targets-250m-for-new-india-fund-focusing-on-early-stage-ai/",
+      "id": "0cd99ef8e5a1",
+      "title": "Automattic has a new board after failed attempt to put CEO on leave",
+      "link": "https://techcrunch.com/2026/09/25/automattic-has-a-new-board-after-failed-attempt-to-put-ceo-on-leave/",
       "source": "TechCrunch",
       "sourceIcon": "crunch",
-      "pubDate": "2026-09-25T05:00:00Z",
-      "description": "The venture firm is aligning its India fundraising cycle with its global funds for the first time, as it shifts to a shorter investment period.",
-      "topic": "Startups",
-      "topicIcon": "🚀",
-      "importance": 4,
+      "pubDate": "2026-09-25T23:04:34Z",
+      "description": "After days of upheaval at Automattic, following a failed attempt to remove CEO Matt Mullenweg, the company has a new board.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 5,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "The venture firm is aligning its India fundraising cycle with its global funds for the first time, as it shifts to a sho..."
+      "summary_en": "After days of upheaval at Automattic, following a failed attempt to remove CEO Matt Mullenweg, the company has a new boa..."
+    },
+    {
+      "id": "1947fc4b63e3",
+      "title": "Crusoe abandons $1.25B plan to use Boom turbines at AI data centers",
+      "link": "https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-09-25T23:11:10Z",
+      "description": "Boom Supersonic CEO Blake Scholl said its new stationary power plants were no longer in Crusoe's near-term plans.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 5,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Boom Supersonic CEO Blake Scholl said its new stationary power plants were no longer in Crusoe's near-term plans."
+    },
+    {
+      "id": "b26cc2f8862a",
+      "title": "OpenAI investigating 'dozens' of instances of agents acting improperly",
+      "link": "https://www.bbc.co.uk/news/articles/cw62jje658dlo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC",
+      "sourceIcon": "bbc",
+      "pubDate": "2026-09-26T00:09:45Z",
+      "description": "OpenAI agents tried to get information from \"governments, universities, public agencies, and other institutions\" through extreme means that sometimes curbed security controls, the company said.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 5,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "OpenAI agents tried to get information from \"governments, universities, public agencies, and other institutions\" through..."
     },
     {
       "id": "31245745ba7d",
@@ -375,36 +375,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "The US government filed an application to support the company’s legal challenge against a fine issued under the bloc’s D..."
-    },
-    {
-      "id": "a1a080323936",
-      "title": "Last 24 hours to save up to $200 on TechCrunch Disrupt 2026. Reason 5 of 5 to attend: Momentum",
-      "link": "https://techcrunch.com/2026/09/25/last-24-hours-to-save-up-to-200-on-techcrunch-disrupt-2026-reason-5-of-5-to-attend-momentum/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-09-25T14:00:00Z",
-      "description": "Last 24 hours to save up to $200 on your TechCrunch Disrupt 2026 pass. Leave the event further in your startup's trajectory than where you started. Don't miss your chance to save and to push the needle.",
-      "topic": "Startups",
-      "topicIcon": "🚀",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Last 24 hours to save up to $200 on your TechCrunch Disrupt 2026 pass. Leave the event further in your startup's traject..."
-    },
-    {
-      "id": "d30adffec613",
-      "title": "Meadow lets you leave your smartphone at home without sacrificing the essentials",
-      "link": "https://techcrunch.com/2026/09/25/meadow-lets-you-leave-your-smartphone-at-home-without-sacrificing-the-essentials/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-09-25T14:05:04Z",
-      "description": "“We’re not Luddites... it’s just we don’t want social media, browsing, and that kind of stuff,\" said 25-year-old founder Shreyas Narlanka.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "“We’re not Luddites... it’s just we don’t want social media, browsing, and that kind of stuff,\" said 25-year-old founder..."
     },
     {
       "id": "072a7420a298",
@@ -623,7 +593,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-09-25T18:37:05Z",
-      "description": "The following explanation is taken from https://news.ycombinator.com/item?id=49622607 : Alan Kay performs an improvisational avant garde layered audio feedback loop about Claude Shannon, live online during Kristen Nygaard's 100-year birthday celebration. Alan was scheduled to talk about how encountering Simula sparked his early thoughts about objects. During setup, somebody had the live stream playing out loud near an open Zoom mic, so his own voice kept arriving back in his ears about 21 seconds late, over and over. What he said was not random: \"Shannon gave us a way of dealing with noisy channels.\" And: \"I think about that almost every day. I realize what the fuck is going on and it's just so amazing.\" Shannon's noisy channel coding theorem is the math for exactly the kind of channel that was garbling him as he praised it. Alan joked it was \"being rerouted to Mars and back.\" At the speed of light, a 21 second round trip is about 3 million km one way -- eight trips to the Moon and back, but only about a seventeenth of the way to Mars at closest approach. This is an accidental Zoom performance of Alvin Lucier's \"I Am Sitting in a Room\" (1969), where Lucier re-recorded his own voice in a room until only the room's resonance remained. Here what remains is the network: delay, compression, dropouts. Bonus noise: YouTube's auto-transcript bleeps Alan's enthusiasm into [ __ ]. So the full chain is: Alan's voice, Zoom, stream, room, Zoom again times three, my screen recording, YouTube's speech recognizer, a censored transcript. The fix: \"Just turn off the audio at your end on Zoom.\" I Am Sitting in a Room: https://en.wikipedia.org/wiki/I_Am_Sitting_in_a_Room Alvin Lucier on \"I am sitting in a room\": https://www.youtube.com/watch?v=v9XJWBZBzq4 Comments URL: https://news.ycombinator.com/item?id=49848295 Points: 97 # Comments: 21",
+      "description": "The following explanation is taken from https://news.ycombinator.com/item?id=49622607 : Alan Kay performs an improvisational avant garde layered audio feedback loop about Claude Shannon, live online during Kristen Nygaard's 100-year birthday celebration. Alan was scheduled to talk about how encountering Simula sparked his early thoughts about objects. During setup, somebody had the live stream playing out loud near an open Zoom mic, so his own voice kept arriving back in his ears about 21 seconds late, over and over. What he said was not random: \"Shannon gave us a way of dealing with noisy channels.\" And: \"I think about that almost every day. I realize what the fuck is going on and it's just so amazing.\" Shannon's noisy channel coding theorem is the math for exactly the kind of channel that was garbling him as he praised it. Alan joked it was \"being rerouted to Mars and back.\" At the speed of light, a 21 second round trip is about 3 million km one way -- eight trips to the Moon and back, but only about a seventeenth of the way to Mars at closest approach. This is an accidental Zoom performance of Alvin Lucier's \"I Am Sitting in a Room\" (1969), where Lucier re-recorded his own voice in a room until only the room's resonance remained. Here what remains is the network: delay, compression, dropouts. Bonus noise: YouTube's auto-transcript bleeps Alan's enthusiasm into [ __ ]. So the full chain is: Alan's voice, Zoom, stream, room, Zoom again times three, my screen recording, YouTube's speech recognizer, a censored transcript. The fix: \"Just turn off the audio at your end on Zoom.\" I Am Sitting in a Room: https://en.wikipedia.org/wiki/I_Am_Sitting_in_a_Room Alvin Lucier on \"I am sitting in a room\": https://www.youtube.com/watch?v=v9XJWBZBzq4 Comments URL: https://news.ycombinator.com/item?id=49848295 Points: 119 # Comments: 23",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 4,
@@ -660,6 +630,51 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "When NPR staffers flagged strange comments under their podcasts on Spotify as bots, it took a Gen Z colleague to (immedi..."
+    },
+    {
+      "id": "0411e2774483",
+      "title": "Unsecured OpenAI agents posted 53 user images on the internet without the lab’s knowledge",
+      "link": "https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-09-25T22:20:47Z",
+      "description": "AI agents operating in OpenAI's research environment posted user images on public image-hosting sites without the lab's knowledge.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "AI agents operating in OpenAI's research environment posted user images on public image-hosting sites without the lab's ..."
+    },
+    {
+      "id": "9ac357b6ba7a",
+      "title": "Inside iconic horror game Silent Hill's Scottish makeover",
+      "link": "https://www.bbc.co.uk/news/articles/ckvgyzjpy2eno?at_medium=RSS&at_campaign=rss",
+      "source": "BBC",
+      "sourceIcon": "bbc",
+      "pubDate": "2026-09-25T23:34:20Z",
+      "description": "One of gaming's biggest horror franchises has come to the UK. Can it live up to the original?",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 4,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "One of gaming's biggest horror franchises has come to the UK. Can it live up to the original?"
+    },
+    {
+      "id": "c78bd9d9cf81",
+      "title": "Tech Now",
+      "link": "https://www.bbc.co.uk/iplayer/episode/m0032d9k?at_medium=RSS&at_campaign=rss",
+      "source": "BBC",
+      "sourceIcon": "bbc",
+      "pubDate": "2026-09-26T01:00:00Z",
+      "description": "Ammie Sekhon explores tech used to identify and remove counterfeit products online.",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 4,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "Ammie Sekhon explores tech used to identify and remove counterfeit products online."
     },
     {
       "id": "9630bb3d8619",
@@ -707,19 +722,19 @@
       "summary_en": "Use these verified Birdfy discount codes to score up to 40% off smart feeders, camera kits, and accessories."
     },
     {
-      "id": "1b9df521ba33",
-      "title": "Ulta Promo Codes: Up to 20% Off in September 2026",
-      "link": "https://www.wired.com/story/ulta-coupon/",
+      "id": "eeef5059f13d",
+      "title": "Therabody Promo Codes: 15% Off September 2026",
+      "link": "https://www.wired.com/story/therabody-promo-code/",
       "source": "Wired",
       "sourceIcon": "wired",
       "pubDate": "2026-09-25T05:00:00Z",
-      "description": "Shop the latest beauty trends and save big using an Ulta promo code for beauty tech, makeup, and more.",
-      "topic": "Regulation",
-      "topicIcon": "⚖️",
+      "description": "Save on the science-backed devices you’ve been eyeing with 15% off Theragun discount code and 30% off other great deals.",
+      "topic": "Other",
+      "topicIcon": "📰",
       "importance": 3,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "Shop the latest beauty trends and save big using an Ulta promo code for beauty tech, makeup, and more."
+      "summary_en": "Save on the science-backed devices you’ve been eyeing with 15% off Theragun discount code and 30% off other great deals."
     },
     {
       "id": "c980043f6d50",
@@ -735,21 +750,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Unlock free expedited shipping or 10% off with today’s Hoka discount codes, plus save up to 30% with the best discounts ..."
-    },
-    {
-      "id": "eeef5059f13d",
-      "title": "Therabody Promo Codes: 15% Off September 2026",
-      "link": "https://www.wired.com/story/therabody-promo-code/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-09-25T05:00:00Z",
-      "description": "Save on the science-backed devices you’ve been eyeing with 15% off Theragun discount code and 30% off other great deals.",
-      "topic": "Other",
-      "topicIcon": "📰",
-      "importance": 3,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Save on the science-backed devices you’ve been eyeing with 15% off Theragun discount code and 30% off other great deals."
     }
   ]
 }
