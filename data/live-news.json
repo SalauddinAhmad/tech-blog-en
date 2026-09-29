@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-29T07:42:29+06:00",
+  "lastUpdated": "2026-09-29T14:14:54+06:00",
   "news": [
     {
       "id": "721d3fef7b9b",
@@ -17,19 +17,19 @@
       "summary_en": "AMD announced today that it's acquiring World Labs, an AI research lab co-founded by the prominent researcher Dr. Fei-Fe..."
     },
     {
-      "id": "823fec564828",
-      "title": "FBI reportedly declares ‘cyber security incident’ after hackers steal agents’ personal data",
-      "link": "https://techcrunch.com/2026/09/28/fbi-reportedly-declares-cyber-security-incident-after-hackers-steal-agents-personal-data/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-09-28T14:50:30Z",
-      "description": "The bureau has not yet publicly confirmed a breach, but has told its agents that their personal information and Social Security numbers were exposed.",
-      "topic": "Security",
-      "topicIcon": "🔒",
-      "importance": 7,
-      "reliability": 4,
+      "id": "7bd1471e0cca",
+      "title": "Show HN: HN.watch – Videos of all Hacker News posts",
+      "link": "https://hn.watch/",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-09-28T15:16:13Z",
+      "description": "Hi HN, I’m Per, founder of Scrimba (YC S20). We’ve spent the last decade teaching people how to code with an HTML-based video format. We’ve now plugged an LLM into it, so that people can create explainer videos about anything. It’s called “Scrimba Explain”. To demo this technology for Hacker News, we built HN.watch. It’s like HN, but with explainer videos instead of articles. We create them on-the-fly the first time someone clicks on a link. While there are obvious visual drawbacks of using HTML instead of diffusion models, there are three big benefits: - Speed: Much faster to generate than pixel-based videos (just a few seconds from click to playback) - Cost: Our cost per video is ~$0.04. (Excluding image generation, which some videos utilize. Quickly blows up the cost) - Easy editing: the above benefits also make AI-assisted editing cheap & fast Our hypothesis is that if video creation goes from “dollars and minutes” to “cents and seconds”, a bunch of new use cases will be unlocked. Here are some we see already: - A video explanation of every single Pull Request (we do this internally) - Give every page in your internal/extrernal docs a video - Turn a complex article into a video in ~4 seconds (via our Chrome extension) - Course creators can quickly draft lessons before recording the real thing - People also create a lot of personal stuff stories for their kids, wedding invitations, birthdays, etc The stack is based on an open-source programming language (Imba) created by our CTO, Sindre Aarsæther. It compiles to JavaScript, so it interoperates fully with the npm + node ecosystem. You can learn more here: https://imba.io/ We’ve also built our own sync engine (OP), and a context management system for agents (Q). We feared this would make the LLMs struggle when writing code for us, as neither is in their training data (there’s very little Imba in there too). However, we’ve been pleasantly surprised to see that LLMs actually are really good at our stack. This is probably because the stack is extremely dense. Imba is compact, and so is OP, where a single declaration sets storage, sync, permissions, UI, and what the AI sees. This means there’s no translations between frontend, API, db and JSON where the model can get confused and get things wrong. Simply said, instead of using React.js, Express, Supabase, and LangChain, we built it all from scratch. Definitely suffering from the “not invented here” syndrome, lol! As for the models, we use Gemini, GPTs, Inworld, ElevenLabs, and a few others. If you want to try it out, just take your pick: - The Web UI (scrimba.com/explain) - MCP (add it to your coding agent) - ChatGPT Plugin - Chrome Extension You can find a link to all of the above in our docs: https://docs.scrimba.com/explain/introduction And finally, a real pixel-based video of the tool: https://www.youtube.com/watch?v=k6rbHmBxSEs Would love to hear your feedback and if anyone has ideas for other use cases. PS: I expect quite a bit of pushback from HN for this launch, given how fan of text the HN crowd is. This kind of tool is not for everyone. But there are a lot of people today who prefer videos over text, especially in the younger generations. Comments URL: https://news.ycombinator.com/item?id=49879401 Points: 162 # Comments: 90",
+      "topic": "Web/JavaScript",
+      "topicIcon": "🌐",
+      "importance": 8,
+      "reliability": 3,
       "summary_bn": "",
-      "summary_en": "The bureau has not yet publicly confirmed a breach, but has told its agents that their personal information and Social S..."
+      "summary_en": "Hi HN, I’m Per, founder of Scrimba (YC S20). We’ve spent the last decade teaching people how to code with an HTML-based ..."
     },
     {
       "id": "d211ef06bee5",
@@ -135,6 +135,21 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Nvidia CEO Jensen Huang on Monday introduced a toolkit of software and hardware products that add independent security l..."
+    },
+    {
+      "id": "d22fa48862e8",
+      "title": "Anthropic’s prospectus details losses, growth, and, yes, a warning that its AI could end humanity",
+      "link": "https://techcrunch.com/2026/09/28/anthropics-prospectus-details-losses-growth-and-yes-a-warning-that-its-ai-could-end-humanity/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-09-29T05:13:43Z",
+      "description": "In its prospectus, Anthropic just told investors it's losing tens of billions of dollars a year, but also growing like crazy, and — oh yeah — its own AI might pose an existential risk to humanity.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 6,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "In its prospectus, Anthropic just told investors it's losing tens of billions of dollars a year, but also growing like c..."
     },
     {
       "id": "f53ec9040e78",
@@ -527,21 +542,6 @@
       "summary_en": "On Friday, OpenAI published a new site devoted to “misalignment reports” and the breadth of the incidents is alarming."
     },
     {
-      "id": "9480bf3ba69c",
-      "title": "Launch HN: Vespper (YC F24) – SOTA Docx MCP",
-      "link": "https://www.vespper.com/blog/launching-vespper-docx-mcp",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-09-28T17:34:36Z",
-      "description": "Hey HN! We're Dudu and Topaz from Vespper ( https://vespper.com ). Vespper is an MCP that lets AI agents efficiently edit Word documents, powered by our fine-tuned model. It's currently 3× faster, 2× cheaper and more accurate than the closest alternative. Check out an overview of how the product works here: https://youtu.be/odKxsgPjzzw We came to work on this problem after spending a year building an AI document editor for pharma companies. Before that, Topaz(myself) was a senior SWE at Snyk, working on distributed systems, and Dudu was a deep learning engineer at Viz.ai, building computer vision models for stroke detection. Our editor helped pharma companies generate regulatory documents (e.g. CSRs) to speed up their submissions. Initially, the output was Markdown, displayed in a WYSIWYG editor. However, users preferred working with their own Word templates. That's when the problems began. AI agents aren't great at editing Word documents. A Word document is a zip file of verbose XML files following the OOXML spec. Even \"small\" changes require backflips, for example: adding a numbered list requires creating an entry in numbering.xml with a fresh ID and linking it back in document.xml, bolding a sentence requires splitting it into 3+ run elements. The list goes on. This makes editing the zip directly (unzip + grep + sed) a bad idea for agents because they burn a lot of time + tokens on these mechanics. In practice, today's tooling falls into roughly three categories. You can let the agent write code against low-level libraries like python-docx or the Open XML SDK, you can give it an MCP with opinionated editing tools (SuperDoc, Office CLI, Adeu, etc), or you can round-trip the file through Markdown/HTML with something like pandoc/mammoth.js. None of them really work. The first two categories still burn the agent's context on Word mechanics instead of the task at hand (MCPs also introduce a new DSL to learn), and the third is very lossy (pandoc/mammoth.js/etc don't preserve enough fidelity). From firsthand experience, these problems hurt performance in downstream tasks. When we tried having our agent fill large documents, things broke quickly. The context window was already packed with customer data (files, user context, global rules, etc.), and the agent burned tokens + time on exploring the document and debugging failed edits. Filling a single CSR (clinical study report) took ~50 minutes, and the result was bad (missed fields/sections, broken styling, etc.). Harvey.ai's team reached similar conclusions: https://www.harvey.ai/blog/building-an-agent-for-complex-doc... That's when we shifted our focus. We designed an MCP that lets agents edit Word docs as if they were editing HTML. The agent receives HTML, makes find-and-replace edits, and we reconcile those edits back into the original .docx file. We picked HTML over Markdown because it's structurally much closer to OOXML and because CSS associates styles with elements roughly the way OOXML does. We had to write our own DOCX→HTML converter, since pandoc and mammoth.js didn't preserve enough fidelity. To be clear, our DOCX → HTML conversion is lossy too. That's fine though, because we never convert the HTML back to DOCX. The HTML is just a projection for the agent, so it only needs enough fidelity for the agent to understand the structure and styling of what it's editing. The original file stays the source of truth, and we mutate it in place. This also means the agent doesn't need to learn a new DSL. Editing a Word document feels just like editing an HTML file on the file system, something agents are already great at. A lot of DOCX MCPs hand agents dozens or even hundreds of tools to figure out on the fly. Our MCP exposes just three tools (read, search, edit). The Word document is completely abstracted. After an agent sends us an edit request (an \"old_html\" and \"new_html\" pair), we reconcile it to the original .docx file. The reconciliation is powered by our fine-tuned model, a 3-8B base with a LoRA adapter. It takes the HTML diff as input along with the original localized OOXML block and emits the new OOXML. The \"localization\" is done deterministically: we take the anchors the agent specifies and we try to find their XML twins, so the reconciler model has a single responsibility. On this narrow task a small model reaches the level of a frontier, well prompt-tuned model, while being small and fast enough to sit in the hot path. This project turned into months of work, but we're happy to release our v1. Our internal benchmark shows it's more accurate than the DOCX skill and raw python-docx while being ~2x cheaper and ~3x faster, mostly because it takes 3 tool calls (p50) per task whereas the DOCX skill takes 10 and Office CLI takes 13. Things aren't perfect yet. For example, we don't support manipulating images or comments at the moment. That said, we're already seeing people use our MCP in various ways: - Legal tech companies powering their live-editing flow in Office.js. - AI startup optimizing people’s resumes and applying on their behalf. - Govtech who need to draft policy memos. - A life sciences startup using long-running agents to complete regulatory forms. A note on privacy: our MCP runs in the cloud, so users send us their .docx files. We don't train on user data, and teams can opt for ZDR or self-hosting. There's a free tier with 500 edits a month, and we’d love you all to try. We want to bump that later, but we're a small team and running a fine-tuned model isn't cheap :( We'd love to hear your ideas and comments about docx editing in general! We'll be in the comments for the next few hours to respond Comments URL: https://news.ycombinator.com/item?id=49881505 Points: 31 # Comments: 8",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Hey HN! We're Dudu and Topaz from Vespper ( https://vespper.com ). Vespper is an MCP that lets AI agents efficiently edi..."
-    },
-    {
       "id": "70bf55023fe0",
       "title": "F1 in Azerbaijan: That was almost a close-run thing",
       "link": "https://arstechnica.com/cars/2026/09/f1-in-azerbaijan-that-was-almost-a-close-run-thing/",
@@ -697,14 +697,14 @@
       "link": "https://www.bbc.co.uk/news/articles/cm5y5nynl75ko?at_medium=RSS&at_campaign=rss",
       "source": "BBC",
       "sourceIcon": "bbc",
-      "pubDate": "2026-09-29T01:18:24Z",
-      "description": "The AI giant's safety chief said the model 'didn't quite meet the bar' of the firm's security standards.",
+      "pubDate": "2026-09-29T08:13:13Z",
+      "description": "The firm also issued an update on incidents in which its models accessed Australian government systems.",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 4,
       "reliability": 5,
       "summary_bn": "",
-      "summary_en": "The AI giant's safety chief said the model 'didn't quite meet the bar' of the firm's security standards."
+      "summary_en": "The firm also issued an update on incidents in which its models accessed Australian government systems."
     },
     {
       "id": "0e10eadc413c",
@@ -737,19 +737,19 @@
       "summary_en": "Need an ultrafast drive for video editing or a rugged option to back up your photos in the field? We’ve got a solution f..."
     },
     {
-      "id": "184ff7e490f7",
-      "title": "These Extremists Are Running for Election in November",
-      "link": "https://www.wired.com/story/these-extremists-are-running-for-election-in-november/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-09-28T14:41:08Z",
-      "description": "With the threat of political violence at unprecedented levels, state and federal GOP candidates are openly sharing racist, pro-militia, anti-vaccine, sexist, antisemitic, and secessionist views.",
-      "topic": "Security",
-      "topicIcon": "🔒",
+      "id": "3132f7d4174a",
+      "title": "Does Reddit have an astroturfing problem? What the data suggests",
+      "link": "https://www.petervijeh.com/projects/reddit-astroturf",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-09-28T13:30:54Z",
+      "description": "Article URL: https://www.petervijeh.com/projects/reddit-astroturf Comments URL: https://news.ycombinator.com/item?id=49877678 Points: 201 # Comments: 251",
+      "topic": "Startups",
+      "topicIcon": "🚀",
       "importance": 3,
-      "reliability": 4,
+      "reliability": 3,
       "summary_bn": "",
-      "summary_en": "With the threat of political violence at unprecedented levels, state and federal GOP candidates are openly sharing racis..."
+      "summary_en": "Article URL: https://www.petervijeh.com/projects/reddit-astroturf Comments URL: https://news.ycombinator.com/item?id=498..."
     }
   ]
 }
