@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-30T06:15:19+06:00",
+  "lastUpdated": "2026-09-30T12:31:33+06:00",
   "news": [
     {
       "id": "2833bea77aa4",
@@ -45,21 +45,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Before OpenAI launched its new AI agent, Dots, on Tuesday, Elon Musk's xAI had already acquired the domain name \"dot.com..."
-    },
-    {
-      "id": "be1440133b1c",
-      "title": "Apple&#8217;s new CEO could change when it launches phones and laptops",
-      "link": "https://www.theverge.com/tech/1002107/apple-ceo-john-ternus-product-launch-strategy",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-09-29T16:09:44Z",
-      "description": "John Ternus, Apple's new CEO, wants Apple to launch products more often than its usual splashy moments in the fall and the spring, according to a Bloomberg report detailing some of Ternus's initial plans for the company. Apple regularly holds iPhone launch events in September and often announces products later in the year and in [&#8230;]",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 7,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "John Ternus, Apple's new CEO, wants Apple to launch products more often than its usual splashy moments in the fall and t..."
     },
     {
       "id": "8a3fa5a7a887",
@@ -122,21 +107,6 @@
       "summary_en": "OpenAI's newly announced suite of office features puts it into more direct competition with more traditional software co..."
     },
     {
-      "id": "e7c6a0bc5d6d",
-      "title": "Apple Pay set to launch in India with Axis Bank today, sources say",
-      "link": "https://techcrunch.com/2026/09/29/apple-pay-set-to-launch-in-india-with-axis-bank-today-sources-say/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-09-29T18:45:00Z",
-      "description": "Some of India's largest banks are holding off on supporting Apple Pay initially.",
-      "topic": "Regulation",
-      "topicIcon": "⚖️",
-      "importance": 6,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Some of India's largest banks are holding off on supporting Apple Pay initially."
-    },
-    {
       "id": "e4cef31d0720",
       "title": "OpenAI Gets Sued Over the Hugging Face Hack",
       "link": "https://www.wired.com/story/openai-sued-over-the-hugging-face-hack/",
@@ -158,7 +128,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-09-29T19:30:17Z",
-      "description": "Article URL: https://postalemployeenetwork.com/news/2026/09/26/u-s-postal-inspectors-shut-down-website-selling-millions-of-counterfeit-postage-labels/ Comments URL: https://news.ycombinator.com/item?id=49899090 Points: 154 # Comments: 81",
+      "description": "Article URL: https://postalemployeenetwork.com/news/2026/09/26/u-s-postal-inspectors-shut-down-website-selling-millions-of-counterfeit-postage-labels/ Comments URL: https://news.ycombinator.com/item?id=49899090 Points: 205 # Comments: 122",
       "topic": "Web/JavaScript",
       "topicIcon": "🌐",
       "importance": 6,
@@ -195,6 +165,21 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Dutch police say they arrested a 24-year-old Amsterdam man in connection with ShinyHunters, the hacking group that claim..."
+    },
+    {
+      "id": "e7c6a0bc5d6d",
+      "title": "Apple Pay finally launches in India after years on the sidelines",
+      "link": "https://techcrunch.com/2026/09/29/apple-pay-set-to-launch-in-india-with-axis-bank-today-sources-say/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-09-30T04:08:00Z",
+      "description": "Some of India's largest banks are holding off on supporting Apple Pay initially.",
+      "topic": "Regulation",
+      "topicIcon": "⚖️",
+      "importance": 6,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Some of India's largest banks are holding off on supporting Apple Pay initially."
     },
     {
       "id": "d4f823a1a6f1",
@@ -347,12 +332,42 @@
       "summary_en": "Retatrutide is a triple-hormone obesity drug simulating GLP-1, GIP, and glucagon."
     },
     {
+      "id": "d6b003b6ebfa",
+      "title": "Sam Altman says OpenAI won’t go public until its models are safe",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1002505/sam-altman-openai-ipo-devday-ai-safety",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-09-30T00:19:13Z",
+      "description": "For months, people have wondered when OpenAI will go public. CEO Sam Altman says it won't happen until the company can make better promises about model safety, with no firm timeline in sight. \"We intend to continue with AI progress … but as the models have had this surge forward in capability, and we see [&#8230;]",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 5,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "For months, people have wondered when OpenAI will go public. CEO Sam Altman says it won't happen until the company can m..."
+    },
+    {
+      "id": "ad50c15972c7",
+      "title": "Tesla takes on $30B in credit as it approaches unprofitability",
+      "link": "https://electrek.co/2026/09/29/tesla-takes-on-30-billion-in-credit-as-it-approaches-unprofitability/",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-09-30T04:37:37Z",
+      "description": "Article URL: https://electrek.co/2026/09/29/tesla-takes-on-30-billion-in-credit-as-it-approaches-unprofitability/ Comments URL: https://news.ycombinator.com/item?id=49904408 Points: 75 # Comments: 88",
+      "topic": "Startups",
+      "topicIcon": "🚀",
+      "importance": 5,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "Article URL: https://electrek.co/2026/09/29/tesla-takes-on-30-billion-in-credit-as-it-approaches-unprofitability/ Commen..."
+    },
+    {
       "id": "0b10a0cc8ae1",
       "title": "OpenAI unveils AI assistant 'dots' while safety worries delay new model",
       "link": "https://www.bbc.co.uk/news/articles/cw7v42rp083eo?at_medium=RSS&at_campaign=rss",
       "source": "BBC",
       "sourceIcon": "bbc",
-      "pubDate": "2026-09-29T23:47:10Z",
+      "pubDate": "2026-09-30T05:18:13Z",
       "description": "Sam Altman spoke in San Francisco during OpenAI’s annual event for tech developers.",
       "topic": "AI/ML",
       "topicIcon": "🤖",
@@ -735,21 +750,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "For the sake of national security, it's a relief to learn that America.gov is not hallucinating to the point that it's p..."
-    },
-    {
-      "id": "c1352d89fb38",
-      "title": "Nothing’s New Headphone (1) Pro Are Made for the Studio",
-      "link": "https://www.wired.com/story/nothings-new-headphone-1-pro-are-made-for-the-studio/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-09-29T01:00:00Z",
-      "description": "With three drivers in each ear and tuning from Metropolis Studios, Nothing wants its new $399 cans to shine in the studio while also making your commute more musical.",
-      "topic": "Mobile",
-      "topicIcon": "📱",
-      "importance": 3,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "With three drivers in each ear and tuning from Metropolis Studios, Nothing wants its new $399 cans to shine in the studi..."
     }
   ]
 }
