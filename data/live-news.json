@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-01T05:36:56+06:00",
+  "lastUpdated": "2026-10-01T11:21:00+06:00",
   "news": [
     {
       "id": "d50d166d271f",
@@ -83,7 +83,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-09-30T17:37:40Z",
-      "description": "Hey HN, Anders and Tom here. We're building Magnitude, an inference engine for agents that optimizes itself to run as fast as possible on your hardware. It works on Mac, Linux, and Windows on any hardware and is up to 2x faster than llama.cpp. We're both software engineers and previously built an open source browser agent to 4k+ GH stars and 100k+ downloads. We increasingly wanted to run it on local models, but found that no inference engine worked for our use case. Inference engines today all make a performance tradeoff. They are either: - Built for batched inference on datacenter hardware at the cost of single-session performance (vLLM, SGLang) - Designed for broad compatibility instead of optimizing for specific hardware (llama.cpp, Ollama) - Specialized for specific hardware or models but lacking engine completeness (oMLX, ds4) Plus none of them are designed for running agents locally. Sessions are long, several often run at once, and you still want to use your computer for other things. Magnitude is built for maximum performance on your hardware and running local agents: - On-device compilation and tuning: Kernels are written with flexible parameters that are tuned on your actual device before the model runs. This gives you broad hardware compatibility with the same performance ceiling as hardware-specific kernels. - Focus on best architectures: We write our tunable, highly efficient kernels for the most popular open-weights families. This allows us to achieve and surpass the performance of hardware or model specialized engines, without forcing ourselves to over-generalize at the cost of performance. - Dynamic memory allocation: Magnitude reserves only enough memory up front to hold model weights. As your agent sessions grow, the memory heap dynamically increases, and frees itself when agents stop. Your hardware can still be used for other stuff while agents run. - Hybrid paged attention: We borrow the best ideas from engines like SGLang to allow concurrent sessions to share prefix caches, but optimize placement for memory-adjacency so single-session performance doesn't suffer. Magnitude is fully open source (Apache 2.0). We built it in Rust, including a custom GPU kernel runtime and autotuner. We take inspiration from the best innovations in inference from academics (e.g. FlashAttention, FlashInfer, TurboQuant) as well as other engines (e.g. SGLang radix attention) to reach the performance ceiling. Benchmarked against llama.cpp with Qwen 3.6 35B A3B (4 bit), 64k context, no speculative decoding: Metal (Mac M4 Pro 48 GB) - 92% faster decode (30 tok/s → 57 tok/s) - 9% faster prefill (466 tok/s → 507 tok/s) - 28% less per-agent memory usage CUDA (DGX Spark) - 19% faster decode (49 tok/s → 58 tok/s) - 23% faster prefill (2,033 tok/s → 2,507 tok/s) - 27% less per-agent memory usage Magnitude ships as a desktop app that you can easily connect with whatever agents you already use (Pi, OpenCode, Hermes, Codex, and more). It automatically runs models on demand when these agents actually need them, and shuts them down after inactivity. Here's what it looks like: https://www.youtube.com/watch?v=0qE8BWEZu7o We're excited to push Magnitude further to let you run bigger models on the same hardware while continuing to improve performance. Our plans include: - Expert streaming: store experts on RAM or disk and load them just-in-time. This lets you run models bigger than what otherwise would fit on your GPU. - Kernel compiler: our current kernels tune a few parameters to fit your hardware. We can take this further with a fully custom compiler that automatically chooses how to fuse kernels and which implementations to use, to make it fit to your hardware even better. - Multi-device utilization: Make the best possible use of all hardware on a system (CPU, GPUs, RAM, disk) by detecting these and automatically solving for the best model layout. We'd love for more people to try it out and give us feedback. Feel free to comment here, we'll be around all day! Comments URL: https://news.ycombinator.com/item?id=49911995 Points: 115 # Comments: 51",
+      "description": "Hey HN, Anders and Tom here. We're building Magnitude, an inference engine for agents that optimizes itself to run as fast as possible on your hardware. It works on Mac, Linux, and Windows on any hardware and is up to 2x faster than llama.cpp. We're both software engineers and previously built an open source browser agent to 4k+ GH stars and 100k+ downloads. We increasingly wanted to run it on local models, but found that no inference engine worked for our use case. Inference engines today all make a performance tradeoff. They are either: - Built for batched inference on datacenter hardware at the cost of single-session performance (vLLM, SGLang) - Designed for broad compatibility instead of optimizing for specific hardware (llama.cpp, Ollama) - Specialized for specific hardware or models but lacking engine completeness (oMLX, ds4) Plus none of them are designed for running agents locally. Sessions are long, several often run at once, and you still want to use your computer for other things. Magnitude is built for maximum performance on your hardware and running local agents: - On-device compilation and tuning: Kernels are written with flexible parameters that are tuned on your actual device before the model runs. This gives you broad hardware compatibility with the same performance ceiling as hardware-specific kernels. - Focus on best architectures: We write our tunable, highly efficient kernels for the most popular open-weights families. This allows us to achieve and surpass the performance of hardware or model specialized engines, without forcing ourselves to over-generalize at the cost of performance. - Dynamic memory allocation: Magnitude reserves only enough memory up front to hold model weights. As your agent sessions grow, the memory heap dynamically increases, and frees itself when agents stop. Your hardware can still be used for other stuff while agents run. - Hybrid paged attention: We borrow the best ideas from engines like SGLang to allow concurrent sessions to share prefix caches, but optimize placement for memory-adjacency so single-session performance doesn't suffer. Magnitude is fully open source (Apache 2.0). We built it in Rust, including a custom GPU kernel runtime and autotuner. We take inspiration from the best innovations in inference from academics (e.g. FlashAttention, FlashInfer, TurboQuant) as well as other engines (e.g. SGLang radix attention) to reach the performance ceiling. Benchmarked against llama.cpp with Qwen 3.6 35B A3B (4 bit), 64k context, no speculative decoding: Metal (Mac M4 Pro 48 GB) - 92% faster decode (30 tok/s → 57 tok/s) - 9% faster prefill (466 tok/s → 507 tok/s) - 28% less per-agent memory usage CUDA (DGX Spark) - 19% faster decode (49 tok/s → 58 tok/s) - 23% faster prefill (2,033 tok/s → 2,507 tok/s) - 27% less per-agent memory usage Magnitude ships as a desktop app that you can easily connect with whatever agents you already use (Pi, OpenCode, Hermes, Codex, and more). It automatically runs models on demand when these agents actually need them, and shuts them down after inactivity. Here's what it looks like: https://www.youtube.com/watch?v=0qE8BWEZu7o We're excited to push Magnitude further to let you run bigger models on the same hardware while continuing to improve performance. Our plans include: - Expert streaming: store experts on RAM or disk and load them just-in-time. This lets you run models bigger than what otherwise would fit on your GPU. - Kernel compiler: our current kernels tune a few parameters to fit your hardware. We can take this further with a fully custom compiler that automatically chooses how to fuse kernels and which implementations to use, to make it fit to your hardware even better. - Multi-device utilization: Make the best possible use of all hardware on a system (CPU, GPUs, RAM, disk) by detecting these and automatically solving for the best model layout. We'd love for more people to try it out and give us feedback. Feel free to comment here, we'll be around all day! Comments URL: https://news.ycombinator.com/item?id=49911995 Points: 142 # Comments: 64",
       "topic": "Hardware",
       "topicIcon": "💻",
       "importance": 6,
@@ -137,34 +137,19 @@
       "summary_en": "Paramount is appointing a new co-CEO ahead of the close of its $110 billion merger with Warner Bros. Discovery. Ynon Kre..."
     },
     {
-      "id": "0b10a0cc8ae1",
-      "title": "OpenAI unveils AI assistant 'dots' while safety worries delay new model",
-      "link": "https://www.bbc.co.uk/news/articles/cw7v42rp083eo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC",
-      "sourceIcon": "bbc",
-      "pubDate": "2026-09-30T05:18:13Z",
-      "description": "Sam Altman spoke in San Francisco during OpenAI’s annual event for tech developers.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 5,
-      "reliability": 5,
-      "summary_bn": "",
-      "summary_en": "Sam Altman spoke in San Francisco during OpenAI’s annual event for tech developers."
-    },
-    {
-      "id": "d6170f881b8a",
-      "title": "Cerebras Systems’ Andrew Feldman on whether AI can keep scaling at TechCrunch Disrupt 2026",
-      "link": "https://techcrunch.com/2026/09/30/cerebras-systems-andrew-feldman-on-whether-ai-can-keep-scaling-at-techcrunch-disrupt-2026/",
+      "id": "0de5978e2c8e",
+      "title": "Google releases Gemini 4 Argon, called its most powerful model yet",
+      "link": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
       "source": "TechCrunch",
       "sourceIcon": "crunch",
-      "pubDate": "2026-09-30T14:30:00Z",
-      "description": "At TechCrunch Disrupt 2026, Cerebras Systems CEO and co-founder Andrew Feldman will explore the growing demand for compute, energy, and infrastructure, how Cerebras is approaching those constraints differently, and what comes next if today’s AI hardware reaches its limits.",
-      "topic": "Cloud/DevOps",
-      "topicIcon": "☁️",
-      "importance": 5,
+      "pubDate": "2026-09-30T23:43:07Z",
+      "description": "Google has released its latest Gemini model, marketing it as a workhorse for coding and cybersecurity work.",
+      "topic": "Security",
+      "topicIcon": "🔒",
+      "importance": 6,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "At TechCrunch Disrupt 2026, Cerebras Systems CEO and co-founder Andrew Feldman will explore the growing demand for compu..."
+      "summary_en": "Google has released its latest Gemini model, marketing it as a workhorse for coding and cybersecurity work."
     },
     {
       "id": "9a351cea707e",
@@ -225,21 +210,6 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "Many sites see just one-tenth of one percent of their advertising revenue from AI payments."
-    },
-    {
-      "id": "0c97b5cc0c65",
-      "title": "&#8216;Xbox is not for sale&#8217; says Microsoft&#8217;s gaming chief",
-      "link": "https://www.theverge.com/news/1002736/xbox-not-for-sale-asha-sharma-interview",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-09-30T16:24:30Z",
-      "description": "Xbox CEO Asha Sharma has denied reports that Microsoft is considering selling off its Xbox business. The Information reported in June that Microsoft CEO Satya Nadella and CFO Amy Hood had been considering spinning out Xbox entirely, and then reported earlier this month that both execs have \"more recently supported Sharma's plans to overhaul the [&#8230;]",
-      "topic": "Hardware",
-      "topicIcon": "💻",
-      "importance": 5,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Xbox CEO Asha Sharma has denied reports that Microsoft is considering selling off its Xbox business. The Information rep..."
     },
     {
       "id": "1c1d18d21c19",
@@ -318,18 +288,18 @@
     },
     {
       "id": "4cb2561c3fbf",
-      "title": "Factory CEO just accused his VC board advisor of spying for Cognition",
+      "title": "Factory CEO just accused his VC board adviser of spying for Cognition",
       "link": "https://techcrunch.com/2026/09/30/factory-ceo-just-accused-his-vc-board-advisor-of-spying-for-cognition/",
       "source": "TechCrunch",
       "sourceIcon": "crunch",
       "pubDate": "2026-09-30T20:39:09Z",
-      "description": "VC Chris Degnan and former board advisor to Factory AI has taken a job as chief revenue officer for Cognition.",
+      "description": "VC Chris Degnan and former board adviser to Factory AI has taken a job as chief revenue officer for competitor Cognition -- and everyone is arguing on X about it.",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 5,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "VC Chris Degnan and former board advisor to Factory AI has taken a job as chief revenue officer for Cognition."
+      "summary_en": "VC Chris Degnan and former board adviser to Factory AI has taken a job as chief revenue officer for competitor Cognition..."
     },
     {
       "id": "9314874e0d90",
@@ -392,19 +362,34 @@
       "summary_en": "Hot, nutrient water might have lasted for over 5 million years after the impact."
     },
     {
-      "id": "1a186591d509",
-      "title": "Three takeaways from Trump's 'Super Intelligence' summit",
-      "link": "https://www.bbc.co.uk/news/articles/cme30dz5vkzko?at_medium=RSS&at_campaign=rss",
+      "id": "7dbea4959370",
+      "title": "Vivo’s X Fold 6 accidentally feels like a throwback",
+      "link": "https://www.theverge.com/tech/1002680/vivo-x-fold-6-global-release-specs-cameras",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-10-01T02:00:00Z",
+      "description": "It's a quirk of the release calendar that when Vivo's X Fold 6 launched in China this June, it was just another foldable. Now that it's ready for its global release, the size and aspect ratio feel oddly old-fashioned. The X Fold 6 is much the same size as Vivo's previous foldables, and most other [&#8230;]",
+      "topic": "Mobile",
+      "topicIcon": "📱",
+      "importance": 5,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "It's a quirk of the release calendar that when Vivo's X Fold 6 launched in China this June, it was just another foldable..."
+    },
+    {
+      "id": "df6ead8af4b8",
+      "title": "AI boom could trigger market shocks, Bank of England boss warns",
+      "link": "https://www.bbc.co.uk/news/articles/cv8e30enrkxyo?at_medium=RSS&at_campaign=rss",
       "source": "BBC",
       "sourceIcon": "bbc",
-      "pubDate": "2026-09-30T04:01:52Z",
-      "description": "The meeting at the White House came as some tech bosses and experts have called for tighter rules around AI.",
+      "pubDate": "2026-10-01T04:03:17Z",
+      "description": "Andrew Bailey says the central bank is watching the waves of cash being invested in artificial intelligence \"very carefully\".",
       "topic": "AI/ML",
       "topicIcon": "🤖",
-      "importance": 4,
+      "importance": 5,
       "reliability": 5,
       "summary_bn": "",
-      "summary_en": "The meeting at the White House came as some tech bosses and experts have called for tighter rules around AI."
+      "summary_en": "Andrew Bailey says the central bank is watching the waves of cash being invested in artificial intelligence \"very carefu..."
     },
     {
       "id": "b640aa75f483",
@@ -750,6 +735,21 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "Reddit says it's fighting \"automated abuse.\""
+    },
+    {
+      "id": "b18259a085cc",
+      "title": "Google announces Gemini 4 and says it&#8217;s so capable that only &#8216;trusted cyber defenders&#8217; can have it right now",
+      "link": "https://www.theverge.com/tech/1002980/google-gemini-4-argon",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-09-30T20:41:41Z",
+      "description": "Google today revealed its next AI frontier model, which it's calling Gemini 4 Argon. The new model delivers \"frontier performance in complex workflows across real-world software engineering, enterprise knowledge work like legal and finance, and cybersecurity defense,\" according to chief AI architect and Google DeepMind SVP Koray Kavukcuoglu. But the company is limiting access at [&#8230;]",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Google today revealed its next AI frontier model, which it's calling Gemini 4 Argon. The new model delivers \"frontier pe..."
     }
   ]
 }
