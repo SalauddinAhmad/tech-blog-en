@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-02T05:03:15+06:00",
+  "lastUpdated": "2026-10-02T11:09:04+06:00",
   "news": [
     {
       "id": "1a3c4f9926bf",
@@ -32,6 +32,21 @@
       "summary_en": "The Canada Rocket Company gets serious about medium-lift launch."
     },
     {
+      "id": "0a1eefe68ed4",
+      "title": "SpaceX describes surgical intervention before launch of latest crew mission",
+      "link": "https://arstechnica.com/space/2026/10/spacex-describes-surgical-intervention-before-launch-of-latest-crew-mission/",
+      "source": "Ars Technica",
+      "sourceIcon": "ars",
+      "pubDate": "2026-10-01T22:07:33Z",
+      "description": "With Crew-13, Jessica Watkins became the first Black woman to lead a mission into space.",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 7,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "With Crew-13, Jessica Watkins became the first Black woman to lead a mission into space."
+    },
+    {
       "id": "4dae654fec00",
       "title": "Amazon releases its own Jev clone as decision models flood the web",
       "link": "https://techcrunch.com/2026/10/01/amazon-releases-its-own-jev-clone-as-decision-models-flood-the-web/",
@@ -53,13 +68,13 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-10-01T17:32:43Z",
-      "description": "Article URL: https://stoppels.ch/goalposts/ Comments URL: https://news.ycombinator.com/item?id=49924618 Points: 57 # Comments: 56",
+      "description": "Article URL: https://stoppels.ch/goalposts/ Comments URL: https://news.ycombinator.com/item?id=49924618 Points: 116 # Comments: 121",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 6,
       "reliability": 3,
       "summary_bn": "",
-      "summary_en": "Article URL: https://stoppels.ch/goalposts/ Comments URL: https://news.ycombinator.com/item?id=49924618 Points: 57 # Com..."
+      "summary_en": "Article URL: https://stoppels.ch/goalposts/ Comments URL: https://news.ycombinator.com/item?id=49924618 Points: 116 # Co..."
     },
     {
       "id": "20c4b9d47cd4",
@@ -150,21 +165,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "The glasses stem from the startup’s goal of making hearing care more accessible by addressing the cost, comfort, and sti..."
-    },
-    {
-      "id": "3c93c11303b9",
-      "title": "OpenAI’s new agent is a shot at Meta — but can it compete with free?",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1003399/meta-openai-ai-agents-muse-dots-battle",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-10-01T14:36:50Z",
-      "description": "At OpenAI's annual DevDay conference, the company pulled out all the stops to compete with its rivals - primarily Meta, whose Muse AI agent platform has seen early runaway success. CEO Sam Altman walked onstage to cheers and announced Dots, a \"real-deal AI\" agent powered by GPT-6 Astra, \"inspired by the cool agents that we [&#8230;]",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 5,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "At OpenAI's annual DevDay conference, the company pulled out all the stops to compete with its rivals - primarily Meta, ..."
     },
     {
       "id": "5f99e0dada18",
@@ -287,19 +287,34 @@
       "summary_en": "The court acknowledges AI search comes with consequences, but it's not an antitrust issue."
     },
     {
-      "id": "a55a8a4a0acb",
-      "title": "Tiny image sparks big backlash in Nikon photo contest",
-      "link": "https://www.bbc.co.uk/news/articles/ck4gjn1yzprno?at_medium=RSS&at_campaign=rss",
+      "id": "b18ced003f0a",
+      "title": "Apple’s reportedly developing a smart home camera that doesn’t record video",
+      "link": "https://www.theverge.com/tech/1003877/apple-security-camera-no-video",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-10-01T22:51:36Z",
+      "description": "Apple's rumored push into smart home tech could include a smart home security camera that only gives users text event descriptions instead of video footage. Mark Gurman said in the first episode of the Power On podcast that the camera will be part of \"a new Apple smart home ecosystem,\" alongside Apple's rumored smart home [&#8230;]",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 5,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Apple's rumored push into smart home tech could include a smart home security camera that only gives users text event de..."
+    },
+    {
+      "id": "d4807c8344ed",
+      "title": "Crypto thieves attack man in home and threaten to kill pregnant wife's baby in 'horrific' robbery",
+      "link": "https://www.bbc.co.uk/news/articles/c6eq84eygz0qo?at_medium=RSS&at_campaign=rss",
       "source": "BBC",
       "sourceIcon": "bbc",
-      "pubDate": "2026-09-30T23:10:19Z",
-      "description": "Dr Ning Xu denies he broke the rules of Nikon's annual Small World In Motion contest.",
-      "topic": "Other",
-      "topicIcon": "📰",
-      "importance": 4,
+      "pubDate": "2026-10-01T23:45:06Z",
+      "description": "The man was beaten with hammers until he transferred hundreds of thousands of pounds of cryptocurrency.",
+      "topic": "Security",
+      "topicIcon": "🔒",
+      "importance": 5,
       "reliability": 5,
       "summary_bn": "",
-      "summary_en": "Dr Ning Xu denies he broke the rules of Nikon's annual Small World In Motion contest."
+      "summary_en": "The man was beaten with hammers until he transferred hundreds of thousands of pounds of cryptocurrency."
     },
     {
       "id": "ff20b7b1f966",
@@ -392,21 +407,6 @@
       "summary_en": "Games like Astro Bot and Demon’s Souls are running ably without a console."
     },
     {
-      "id": "a116d3c39321",
-      "title": "Satlyt, founded by a former Google and SpaceX product manager, raises $8M to run AI on satellites",
-      "link": "https://techcrunch.com/2026/10/01/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-10-01T12:00:00Z",
-      "description": "Satlyt wants to be the Android of orbital computing, offering open software that works on many companies' satellites, versus SpaceX's closed, all-in-one iPhone-style approach.",
-      "topic": "Mobile",
-      "topicIcon": "📱",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Satlyt wants to be the Android of orbital computing, offering open software that works on many companies' satellites, ve..."
-    },
-    {
       "id": "2371b09d84d6",
       "title": "2 Driverless Cars Crashed Going 155 mph. That Could Be a Good Thing",
       "link": "https://www.wired.com/story/2-driverless-cars-crashed-going-155-mph-that-could-be-a-good-thing/",
@@ -450,21 +450,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "The new Kindle lineup features its lightest and thinnest designs yet, with a sleek, front-flush display that eliminates ..."
-    },
-    {
-      "id": "727815bb9603",
-      "title": "Amazon introduces Kindle Click, a $35 remote for turning pages",
-      "link": "https://techcrunch.com/2026/10/01/amazon-introduces-kindle-click-a-35-remote-for-hands-free-reading/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-10-01T13:00:00Z",
-      "description": "The compact Bluetooth remote is designed to let readers turn pages without touching their Kindle.",
-      "topic": "Other",
-      "topicIcon": "📰",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "The compact Bluetooth remote is designed to let readers turn pages without touching their Kindle."
     },
     {
       "id": "988511d6e161",
@@ -743,13 +728,28 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-10-01T20:48:37Z",
-      "description": "Article URL: https://resobscura.substack.com/p/using-opus-55-to-discover-a-new-eyewitness Comments URL: https://news.ycombinator.com/item?id=49926917 Points: 11 # Comments: 1",
+      "description": "Article URL: https://resobscura.substack.com/p/using-opus-55-to-discover-a-new-eyewitness Comments URL: https://news.ycombinator.com/item?id=49926917 Points: 104 # Comments: 19",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 4,
       "reliability": 3,
       "summary_bn": "",
       "summary_en": "Article URL: https://resobscura.substack.com/p/using-opus-55-to-discover-a-new-eyewitness Comments URL: https://news.yco..."
+    },
+    {
+      "id": "4e39f67fdaf8",
+      "title": "The Best Early Prime Day Deals Ahead of Amazon’s Second Sale (2026)",
+      "link": "https://www.wired.com/story/amazon-prime-day-early-deals-10-01-2026/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-10-01T20:53:32Z",
+      "description": "Amazon Prime Big Deal Days officially begin on October 6 and 7, but I’ve already spotted early discounts on gear our team recommends.",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Amazon Prime Big Deal Days officially begin on October 6 and 7, but I’ve already spotted early discounts on gear our tea..."
     }
   ]
 }
