@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-03T04:53:24+06:00",
+  "lastUpdated": "2026-10-03T07:50:19+06:00",
   "news": [
     {
       "id": "ca874f476ec1",
@@ -105,21 +105,6 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "Nvidia’s chip-smuggling problem won’t go away as arrests continue."
-    },
-    {
-      "id": "d4807c8344ed",
-      "title": "Crypto thieves attack man in home and threaten to kill pregnant wife's baby in 'horrific' robbery",
-      "link": "https://www.bbc.co.uk/news/articles/c6eq84eygz0qo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC",
-      "sourceIcon": "bbc",
-      "pubDate": "2026-10-01T23:45:06Z",
-      "description": "The man was beaten with hammers until he transferred hundreds of thousands of pounds of cryptocurrency.",
-      "topic": "Security",
-      "topicIcon": "🔒",
-      "importance": 5,
-      "reliability": 5,
-      "summary_bn": "",
-      "summary_en": "The man was beaten with hammers until he transferred hundreds of thousands of pounds of cryptocurrency."
     },
     {
       "id": "24bd0851b190",
@@ -285,36 +270,6 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "Amazon praised for ending NDAs but slammed for downplaying data center pollution."
-    },
-    {
-      "id": "71bf6afee5fc",
-      "title": "The founder’s guide to TechCrunch Disrupt 2026: Everything you need to know",
-      "link": "https://techcrunch.com/2026/10/01/the-founders-guide-to-techcrunch-disrupt-2026-everything-you-need-to-know/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-10-02T00:03:23Z",
-      "description": "TechCrunch Disrupt 2026 is built around one question: How do you build an enduring company in the AI era? Our programming and speaker lineup reflect that.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "TechCrunch Disrupt 2026 is built around one question: How do you build an enduring company in the AI era? Our programmin..."
-    },
-    {
-      "id": "70339005d020",
-      "title": "Robotaxi operators will face fines for blocking first responders",
-      "link": "https://techcrunch.com/2026/10/01/robotaxi-operators-will-face-fines-for-blocking-first-responders/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-10-02T00:57:57Z",
-      "description": "A new California law places new rules on autonomous vehicles operators.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "A new California law places new rules on autonomous vehicles operators."
     },
     {
       "id": "c4e65c85ac77",
@@ -692,6 +647,66 @@
       "summary_en": "1,300 lines of SQL querying renders accurate bitmapped views of Hell at 35 fps."
     },
     {
+      "id": "c2799b7592c2",
+      "title": "Sanders introduces bill to ban the federal government from using Flock",
+      "link": "https://techcrunch.com/2026/10/02/sanders-introduces-bill-to-ban-the-federal-government-from-using-flock/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-10-03T00:21:57Z",
+      "description": "The proposed legislation would extend to all automotica license plate readers.",
+      "topic": "Regulation",
+      "topicIcon": "⚖️",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "The proposed legislation would extend to all automotica license plate readers."
+    },
+    {
+      "id": "3cb8a615cf5e",
+      "title": "Things That Apparently Cause Cancer",
+      "link": "https://www.breakthroughjournal.org/p/things-that-apparently-cause-cancer",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-10-03T00:23:11Z",
+      "description": "Article URL: https://www.breakthroughjournal.org/p/things-that-apparently-cause-cancer Comments URL: https://news.ycombinator.com/item?id=49940219 Points: 25 # Comments: 7",
+      "topic": "Startups",
+      "topicIcon": "🚀",
+      "importance": 4,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "Article URL: https://www.breakthroughjournal.org/p/things-that-apparently-cause-cancer Comments URL: https://news.ycombi..."
+    },
+    {
+      "id": "2d0c1972c36b",
+      "title": "Tech Now",
+      "link": "https://www.bbc.co.uk/iplayer/episode/m0032n6v?at_medium=RSS&at_campaign=rss",
+      "source": "BBC",
+      "sourceIcon": "bbc",
+      "pubDate": "2026-10-03T01:00:00Z",
+      "description": "Alasdair Keane heads to the Pokémon World Championships in San Francisco.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "Alasdair Keane heads to the Pokémon World Championships in San Francisco."
+    },
+    {
+      "id": "da28a39de85f",
+      "title": "Columbia Promo Codes: 15% Off | October 2026",
+      "link": "https://www.wired.com/story/columbia-promo-code/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-10-02T05:00:00Z",
+      "description": "Explore current Columbia deals on jackets, outdoor gear, and apparel. Find active Columbia promo codes, student discounts, and free shipping offers to save on your next adventure.",
+      "topic": "Startups",
+      "topicIcon": "🚀",
+      "importance": 3,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Explore current Columbia deals on jackets, outdoor gear, and apparel. Find active Columbia promo codes, student discount..."
+    },
+    {
       "id": "b9015a2c1d53",
       "title": "Peacock Promo Codes: 40% Off October 2026",
       "link": "https://www.wired.com/story/peacock-promo-code/",
@@ -735,21 +750,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Check out our deals for Nike this October 2026, including 15% off select purchases."
-    },
-    {
-      "id": "28835bc42381",
-      "title": "Google Workspace Promo Codes: 14% Off for October 2026",
-      "link": "https://www.wired.com/story/google-workspace-promo-code/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-10-02T05:00:00Z",
-      "description": "Boost your productivity and save with exclusive Google Workspace coupons from WIRED. Get up to 14% off plans for three months, including Starter, Standard, and Plus tiers.",
-      "topic": "Other",
-      "topicIcon": "📰",
-      "importance": 3,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Boost your productivity and save with exclusive Google Workspace coupons from WIRED. Get up to 14% off plans for three m..."
     }
   ]
 }
