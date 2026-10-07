@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-07T07:21:24+06:00",
+  "lastUpdated": "2026-10-07T14:27:01+06:00",
   "news": [
     {
       "id": "1d64cace9bef",
@@ -212,36 +212,6 @@
       "summary_en": "Apple appears poised to push into the smart home market with a slate of new devices and a key partner."
     },
     {
-      "id": "1622e539f5fe",
-      "title": "South Korea says AI agents appear to have been used to hack the country's banks",
-      "link": "https://www.reuters.com/world/south-koreas-lee-says-ai-appears-have-been-used-bank-hacks-2026-10-06/",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-10-06T23:50:33Z",
-      "description": "Article URL: https://www.reuters.com/world/south-koreas-lee-says-ai-appears-have-been-used-bank-hacks-2026-10-06/ Comments URL: https://news.ycombinator.com/item?id=49985861 Points: 21 # Comments: 2",
-      "topic": "Regulation",
-      "topicIcon": "⚖️",
-      "importance": 6,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://www.reuters.com/world/south-koreas-lee-says-ai-appears-have-been-used-bank-hacks-2026-10-06/ Commen..."
-    },
-    {
-      "id": "382d8beea788",
-      "title": "Lego fraudster among last year's most high-profile insurance scammers",
-      "link": "https://www.bbc.co.uk/news/articles/cm86z9npj5deo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC",
-      "sourceIcon": "bbc",
-      "pubDate": "2026-10-06T07:03:35Z",
-      "description": "The person was sentenced to 28 months in prison after an investigation found the claims were made up, the insurance trade body, the ABI said.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 5,
-      "reliability": 5,
-      "summary_bn": "",
-      "summary_en": "The person was sentenced to 28 months in prison after an investigation found the claims were made up, the insurance trad..."
-    },
-    {
       "id": "38372974c0d5",
       "title": "Licensing costs driving 90 percent of VMware users to explore options: Survey",
       "link": "https://arstechnica.com/information-technology/2026/10/operational-complexity-a-top-barrier-for-vmware-migrations-survey/",
@@ -435,36 +405,6 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "Order of the Sinking Star is due out on Thursday and has roughly 1,500 puzzles for players to try"
-    },
-    {
-      "id": "6ae05f74a921",
-      "title": "Sony Coupons: 45% Off Sony Headphones and Sony Cameras October 2026",
-      "link": "https://www.wired.com/story/sony-promo-code/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-10-06T05:00:00Z",
-      "description": "Upgrade your setup with Sony’s newest releases. Save on industry-leading noise-canceling audio, and pro-level Alpha cameras.",
-      "topic": "Other",
-      "topicIcon": "📰",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Upgrade your setup with Sony’s newest releases. Save on industry-leading noise-canceling audio, and pro-level Alpha came..."
-    },
-    {
-      "id": "a7991a569b13",
-      "title": "The 13 Amazon Device Deals Actually Worth Snagging This Prime Day",
-      "link": "https://www.wired.com/story/best-amazon-alexa-device-deals-prime-day-10-06-2026/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-10-06T09:10:19Z",
-      "description": "Prime Day deals on Amazon devices aren’t as attractive as they were before the August price hike, but these discounts are still worth grabbing.",
-      "topic": "Other",
-      "topicIcon": "📰",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Prime Day deals on Amazon devices aren’t as attractive as they were before the August price hike, but these discounts ar..."
     },
     {
       "id": "8225e3a03826",
@@ -750,6 +690,66 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "ArsPro gives you more ways to read while directly supporting our journalism."
+    },
+    {
+      "id": "50ffe3ff86e5",
+      "title": "‘Mike Rogers Is Watching You’: New Ad Blitz From Abdul El-Sayed Attacks Surveillance Support",
+      "link": "https://www.wired.com/story/mike-rogers-is-watching-you-new-ad-blitz-from-abdul-el-sayed-attacks-surveillance-support/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-10-06T17:39:48Z",
+      "description": "Michigan Senate candidate Abdul El-Sayed is leaning into one of the major complaints about surveillance from voters this election cycle.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Michigan Senate candidate Abdul El-Sayed is leaning into one of the major complaints about surveillance from voters this..."
+    },
+    {
+      "id": "e36f1eaeb72f",
+      "title": "The Auk Mini Indoor Garden Is on Clearance for $199—Its Lowest Price Ever",
+      "link": "https://www.wired.com/story/auk-mini-indoor-garden-sale-clearance-october-2026/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-10-06T18:03:41Z",
+      "description": "Auk’s original countertop garden is on clearance for $199, with everything you need to start growing herbs indoors.",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Auk’s original countertop garden is on clearance for $199, with everything you need to start growing herbs indoors."
+    },
+    {
+      "id": "9129edc6c0a3",
+      "title": "8 Best Prime Day Wearable Deals: Apple, Google, Samsung (2026)",
+      "link": "https://www.wired.com/story/amazon-prime-day-wearable-deals-10-6-2026/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-10-06T18:08:23Z",
+      "description": "I’ve tested the wearables, tracked the prices, and found the Prime Day deals worth grabbing.",
+      "topic": "Mobile",
+      "topicIcon": "📱",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "I’ve tested the wearables, tracked the prices, and found the Prime Day deals worth grabbing."
+    },
+    {
+      "id": "f2e7d38e6a8b",
+      "title": "Hark releases an AI personal assistant with a focus on privacy",
+      "link": "https://techcrunch.com/2026/10/06/hark-releases-an-ai-personal-assistant-with-a-focus-on-privacy/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-10-06T18:22:45Z",
+      "description": "The AI lab's personal assistant is an operating system from the future designed to compete with Muse, Dots, and Instinct.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "The AI lab's personal assistant is an operating system from the future designed to compete with Muse, Dots, and Instinct..."
     }
   ]
 }
