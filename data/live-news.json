@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-07T03:32:13+06:00",
+  "lastUpdated": "2026-10-07T07:21:24+06:00",
   "news": [
     {
       "id": "1d64cace9bef",
@@ -32,6 +32,21 @@
       "summary_en": "Asos confirmed an \"unauthorised customer notification\" was sent out via its app on Tuesday, after users raised alarm."
     },
     {
+      "id": "95ac17328033",
+      "title": "Hackers obtain counterfeit TLS certificates for Google and other large services",
+      "link": "https://arstechnica.com/security/2026/10/hackers-obtain-counterfeit-tls-certificates-for-google-and-other-large-services/",
+      "source": "Ars Technica",
+      "sourceIcon": "ars",
+      "pubDate": "2026-10-06T19:21:14Z",
+      "description": "Compromise of 3 domain registries allows hackers to walk off with unauthorized certs.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 8,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "Compromise of 3 domain registries allows hackers to walk off with unauthorized certs."
+    },
+    {
       "id": "bc872b2d284d",
       "title": "Googlebook \"Better Together\" phone features don't work with Samsung at launch",
       "link": "https://arstechnica.com/gadgets/2026/10/googlebook-better-together-phone-features-dont-work-with-samsung-at-launch/",
@@ -45,6 +60,21 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "Googlebooks require Android 17, but Samsung's Android 17 phones won't work yet."
+    },
+    {
+      "id": "0e401bad0dd4",
+      "title": "OpenAI drops another batch of mathematical breakthroughs",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1005004/openai-math-release-github",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-10-06T23:26:38Z",
+      "description": "OpenAI has revealed solutions to a number of long-standing mathematics problems produced by an unreleased frontier model in a batch of 722 manuscripts, covering 372 result families that group related papers. It extends a run of breakthroughs that have both impressed and unsettled parts of the mathematical community while raising questions about research ethics and [&#8230;]",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 7,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "OpenAI has revealed solutions to a number of long-standing mathematics problems produced by an unreleased frontier model..."
     },
     {
       "id": "468b224e0ef8",
@@ -152,19 +182,49 @@
       "summary_en": "Sigil Wen, backed by a Silicon Valley who's who, has built an on-device AI assistant that promises to be free, fully pri..."
     },
     {
-      "id": "4aec355d7489",
-      "title": "MCP for agent-to-agent comms may be the riskiest protocol you've never heard of",
-      "link": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/",
-      "source": "Ars Technica",
-      "sourceIcon": "ars",
-      "pubDate": "2026-10-05T22:26:35Z",
-      "description": "Trust gaps in the new protocol spread malicious prompts from one agent to another.",
+      "id": "68edc9012817",
+      "title": "Apple and LG team up on new smart home gear, starting with a lock, doorbell, and thermostat",
+      "link": "https://www.theverge.com/news/1006238/apple-lg-homekit-rumor-fcc",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-10-06T21:39:53Z",
+      "description": "Apple is collaborating with LG on a new lineup of smart home devices, including a video doorbell, thermostat, indoor camera, and more, according to a report from Bloomberg. The products will reportedly feature LG branding but integrate with the company's rumored smart home hub that's expected to launch during an event on October 13th. Sources [&#8230;]",
+      "topic": "Regulation",
+      "topicIcon": "⚖️",
+      "importance": 6,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Apple is collaborating with LG on a new lineup of smart home devices, including a video doorbell, thermostat, indoor cam..."
+    },
+    {
+      "id": "56fda4e3eb3d",
+      "title": "Apple is reportedly partnering with LG to launch a smart lock, thermostat, and doorbell",
+      "link": "https://techcrunch.com/2026/10/06/apple-is-reportedly-partnering-with-lg-to-launch-a-smart-lock-thermostat-and-doorbell/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-10-06T22:53:09Z",
+      "description": "Apple appears poised to push into the smart home market with a slate of new devices and a key partner.",
       "topic": "Other",
       "topicIcon": "📰",
-      "importance": 5,
-      "reliability": 5,
+      "importance": 6,
+      "reliability": 4,
       "summary_bn": "",
-      "summary_en": "Trust gaps in the new protocol spread malicious prompts from one agent to another."
+      "summary_en": "Apple appears poised to push into the smart home market with a slate of new devices and a key partner."
+    },
+    {
+      "id": "1622e539f5fe",
+      "title": "South Korea says AI agents appear to have been used to hack the country's banks",
+      "link": "https://www.reuters.com/world/south-koreas-lee-says-ai-appears-have-been-used-bank-hacks-2026-10-06/",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-10-06T23:50:33Z",
+      "description": "Article URL: https://www.reuters.com/world/south-koreas-lee-says-ai-appears-have-been-used-bank-hacks-2026-10-06/ Comments URL: https://news.ycombinator.com/item?id=49985861 Points: 21 # Comments: 2",
+      "topic": "Regulation",
+      "topicIcon": "⚖️",
+      "importance": 6,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "Article URL: https://www.reuters.com/world/south-koreas-lee-says-ai-appears-have-been-used-bank-hacks-2026-10-06/ Commen..."
     },
     {
       "id": "382d8beea788",
@@ -287,6 +347,36 @@
       "summary_en": "From their dorky parties to their weird walks, the movie holds OpenAI CEO Sam Altman and other stakeholders with contemp..."
     },
     {
+      "id": "5b6e4b204baf",
+      "title": "It looks like the Atlantic storm season may finally produce a hurricane",
+      "link": "https://arstechnica.com/science/2026/10/it-looks-like-the-atlantic-storm-season-may-finally-produce-a-hurricane/",
+      "source": "Ars Technica",
+      "sourceIcon": "ars",
+      "pubDate": "2026-10-06T19:55:50Z",
+      "description": "To date, this Atlantic tropics year has been exceptionally quiet.",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 5,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "To date, this Atlantic tropics year has been exceptionally quiet."
+    },
+    {
+      "id": "647a51b26aa0",
+      "title": "HBO Max, Paramount+, and Discovery+ \"will unify into a single service”",
+      "link": "https://arstechnica.com/gadgets/2026/10/hbo-max-paramount-and-discovery-will-unify-into-a-single-service/",
+      "source": "Ars Technica",
+      "sourceIcon": "ars",
+      "pubDate": "2026-10-06T20:32:12Z",
+      "description": "A combined service could lead to higher prices.",
+      "topic": "Hardware",
+      "topicIcon": "💻",
+      "importance": 5,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "A combined service could lead to higher prices."
+    },
+    {
       "id": "a7013ecd4f4c",
       "title": "How AI decision models could change content moderation",
       "link": "https://techcrunch.com/2026/10/06/how-ai-decision-models-could-change-content-moderation/",
@@ -302,6 +392,51 @@
       "summary_en": "On Tuesday, Musubi announced a lightweight decision model made for real-time moderation called PolicyLM-1.7B, released w..."
     },
     {
+      "id": "67d2baa10e8a",
+      "title": "OpenAI will watermark ChatGPT outputs by default—but only in the EU",
+      "link": "https://arstechnica.com/ai/2026/10/openai-will-watermark-chatgpt-outputs-by-default-but-only-in-the-eu/",
+      "source": "Ars Technica",
+      "sourceIcon": "ars",
+      "pubDate": "2026-10-06T20:50:32Z",
+      "description": "Like other solutions, it is not especially reliable, and it's easy to circumvent.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 5,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "Like other solutions, it is not especially reliable, and it's easy to circumvent."
+    },
+    {
+      "id": "20623d3458ab",
+      "title": "Drones sink ships near NATO countries in “unacceptable” attacks, EU says",
+      "link": "https://arstechnica.com/gadgets/2026/10/drone-strikes-likely-russian-sink-ships-in-nato-countries-economic-zones/",
+      "source": "Ars Technica",
+      "sourceIcon": "ars",
+      "pubDate": "2026-10-06T21:31:10Z",
+      "description": "Two cargo ships have sunk, one ship was afire, and sailors are dead or missing.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 5,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "Two cargo ships have sunk, one ship was afire, and sailors are dead or missing."
+    },
+    {
+      "id": "5ffd26ebd53e",
+      "title": "Braid-creator Jonathan Blow on making the 'biggest puzzle game ever'",
+      "link": "https://www.bbc.co.uk/news/articles/cj3vqxldglepo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC",
+      "sourceIcon": "bbc",
+      "pubDate": "2026-10-06T23:01:22Z",
+      "description": "Order of the Sinking Star is due out on Thursday and has roughly 1,500 puzzles for players to try",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 5,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "Order of the Sinking Star is due out on Thursday and has roughly 1,500 puzzles for players to try"
+    },
+    {
       "id": "6ae05f74a921",
       "title": "Sony Coupons: 45% Off Sony Headphones and Sony Cameras October 2026",
       "link": "https://www.wired.com/story/sony-promo-code/",
@@ -315,21 +450,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Upgrade your setup with Sony’s newest releases. Save on industry-leading noise-canceling audio, and pro-level Alpha came..."
-    },
-    {
-      "id": "da6f54fde2fb",
-      "title": "I Found the 16 Best Prime Day Tech and Gadget Deals (October 2026)",
-      "link": "https://www.wired.com/story/best-prime-day-tech-deals-10-06-2026/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-10-06T08:37:23Z",
-      "description": "Never pay full price. Bag yourself some Prime Day tech deals on our favorite WIRED-tested gadgets.",
-      "topic": "Other",
-      "topicIcon": "📰",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Never pay full price. Bag yourself some Prime Day tech deals on our favorite WIRED-tested gadgets."
     },
     {
       "id": "a7991a569b13",
@@ -467,21 +587,6 @@
       "summary_en": "At $1,099, the MacBook Air is $200 off its retail price for Prime Day, its lowest price in months."
     },
     {
-      "id": "9c589ad7c1f4",
-      "title": "Glimpse wants to give hardware companies an X-ray view of every critical part",
-      "link": "https://techcrunch.com/2026/10/06/glimpse-wants-to-give-hardware-companies-an-x-ray-view-of-every-critical-part/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-10-06T13:15:00Z",
-      "description": "Called Explore, Glimpse's new image processing software lets hardware makers speed up quality control checks using CT scanners.",
-      "topic": "Hardware",
-      "topicIcon": "💻",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Called Explore, Glimpse's new image processing software lets hardware makers speed up quality control checks using CT sc..."
-    },
-    {
       "id": "d9a7e52b4293",
       "title": "Mistral Says Its New AI Model ‘Le Chonk’ Is the Best Open-Weight Offering Outside of China",
       "link": "https://www.wired.com/story/mistral-new-model-le-chonk-open-source-china-us-frontier/",
@@ -495,36 +600,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "With the release of its new trillion-parameter model, Mistral is hoping to demonstrate it’s “still in the race” to build..."
-    },
-    {
-      "id": "514a03879077",
-      "title": "Paramount closes historic Warner Bros. merger to form Skydance",
-      "link": "https://techcrunch.com/2026/10/06/paramount-closes-historic-warner-bros-merger-to-form-skydance/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-10-06T13:57:32Z",
-      "description": "The deal brings together two major streaming platforms, Paramount+ and HBO Max, along with networks including CBS, CNN, MTV, TBS, Comedy Central, and Food Network.",
-      "topic": "Hardware",
-      "topicIcon": "💻",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "The deal brings together two major streaming platforms, Paramount+ and HBO Max, along with networks including CBS, CNN, ..."
-    },
-    {
-      "id": "caf99c60829d",
-      "title": "Get all your questions answered at TechCrunch Disrupt 2026: The full breakout session agenda revealed",
-      "link": "https://techcrunch.com/2026/10/06/get-all-your-questions-answered-at-techcrunch-disrupt-2026-the-full-breakout-session-agenda-revealed/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-10-06T14:00:00Z",
-      "description": "Get all of your scaling and tech questions answered at TechCrunch Disrupt 2026. Here's the full breakout session agenda, happening October 13-15 in San Francisco. Register now to join and save up to $100, and get a second pass at 50% off.",
-      "topic": "Cloud/DevOps",
-      "topicIcon": "☁️",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Get all of your scaling and tech questions answered at TechCrunch Disrupt 2026. Here's the full breakout session agenda,..."
     },
     {
       "id": "e9190c2e0eb9",
@@ -675,81 +750,6 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "ArsPro gives you more ways to read while directly supporting our journalism."
-    },
-    {
-      "id": "50ffe3ff86e5",
-      "title": "‘Mike Rogers Is Watching You’: New Ad Blitz From Abdul El-Sayed Attacks Surveillance Support",
-      "link": "https://www.wired.com/story/mike-rogers-is-watching-you-new-ad-blitz-from-abdul-el-sayed-attacks-surveillance-support/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-10-06T17:39:48Z",
-      "description": "Michigan Senate candidate Abdul El-Sayed is leaning into one of the major complaints about surveillance from voters this election cycle.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Michigan Senate candidate Abdul El-Sayed is leaning into one of the major complaints about surveillance from voters this..."
-    },
-    {
-      "id": "e36f1eaeb72f",
-      "title": "The Auk Mini Indoor Garden Is on Clearance for $199—Its Lowest Price Ever",
-      "link": "https://www.wired.com/story/auk-mini-indoor-garden-sale-clearance-october-2026/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-10-06T18:03:41Z",
-      "description": "Auk’s original countertop garden is on clearance for $199, with everything you need to start growing herbs indoors.",
-      "topic": "Other",
-      "topicIcon": "📰",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Auk’s original countertop garden is on clearance for $199, with everything you need to start growing herbs indoors."
-    },
-    {
-      "id": "9129edc6c0a3",
-      "title": "8 Best Prime Day Wearable Deals: Apple, Google, Samsung (2026)",
-      "link": "https://www.wired.com/story/amazon-prime-day-wearable-deals-10-6-2026/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-10-06T18:08:23Z",
-      "description": "I’ve tested the wearables, tracked the prices, and found the Prime Day deals worth grabbing.",
-      "topic": "Mobile",
-      "topicIcon": "📱",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "I’ve tested the wearables, tracked the prices, and found the Prime Day deals worth grabbing."
-    },
-    {
-      "id": "f2e7d38e6a8b",
-      "title": "Hark releases an AI personal assistant with a focus on privacy",
-      "link": "https://techcrunch.com/2026/10/06/hark-releases-an-ai-personal-assistant-with-a-focus-on-privacy/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-10-06T18:22:45Z",
-      "description": "The AI lab's personal assistant is an operating system from the future designed to compete with Muse, Dots, and Instinct.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "The AI lab's personal assistant is an operating system from the future designed to compete with Muse, Dots, and Instinct..."
-    },
-    {
-      "id": "e2182fc1456d",
-      "title": "Save Up to 50% on the Best Amazon Prime Day Espresso and Coffee Machine Deals (2026)",
-      "link": "https://www.wired.com/story/prime-day-espresso-machine-deals-10-06-2026/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-10-06T18:25:33Z",
-      "description": "Breville, Keurig, Fellow, and AeroPress gear we recommend is on sale, with options for espresso enthusiasts and one-button brewers alike.",
-      "topic": "Regulation",
-      "topicIcon": "⚖️",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Breville, Keurig, Fellow, and AeroPress gear we recommend is on sale, with options for espresso enthusiasts and one-butt..."
     }
   ]
 }
