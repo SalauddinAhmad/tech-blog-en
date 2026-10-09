@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-09T07:57:12+06:00",
+  "lastUpdated": "2026-10-09T14:52:01+06:00",
   "news": [
     {
       "id": "35f787ee8f97",
@@ -30,21 +30,6 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "Retailer issues update after BBC contacted by cyber criminals who said this week's breach went beyond \"basic contact det..."
-    },
-    {
-      "id": "f08f8de24a59",
-      "title": "AI chip boom pushes Samsung profits to record $80bn",
-      "link": "https://www.bbc.co.uk/news/articles/c687z8127302o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC",
-      "sourceIcon": "bbc",
-      "pubDate": "2026-10-08T01:59:54Z",
-      "description": "The tech giant is also expected to get a boost from its latest folding devices that were launched in August.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 7,
-      "reliability": 5,
-      "summary_bn": "",
-      "summary_en": "The tech giant is also expected to get a boost from its latest folding devices that were launched in August."
     },
     {
       "id": "91bce0d3ced7",
@@ -287,21 +272,6 @@
       "summary_en": "Amazon killed its app store, so Google Play it is."
     },
     {
-      "id": "a40db2c44545",
-      "title": "Show HN: Pocketty – iPhone SSH terminal that pings you when an agent is blocked",
-      "link": "https://pocketty.app/",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-10-08T18:11:52Z",
-      "description": "Hello~! pocketty is an SSH terminal for iPhone and iPad, made for herdr. herdr keeps your agent panes alive on your computer and knows the state of each one: working, needs you, or done. I made this in anger/desperation for the latter half of my recent paternity leave. Nap traps are sweet, but there's only so much doom-scrolling and movie-watching I can handle... In any event, I've been using it for the last couple months and no longer have to be my desk anymore to be productive. Now the nap-traps are still productive (when i want them to be) ! How it works: - The app talks to your computer directly over plain SSH. Tailscale is the easy way to reach it from anywhere but any SSH host you can reach works. - A small Rust daemon on the host watches herdr. When a pane needs you, it seals the alert to your phone's key with HPKE (X25519, ChaCha20-Poly1305). A stateless relay (pocketty's) on Cloudflare Workers passes the sealed bytes to APNs (Apple Push Notification servers), and a notification extension opens them on the phone. The relay can't read them and keeps nothing. - Your SSH key is made in the Secure Enclave and can't be exported. - The terminal uses libghostty-vt for state and draws with wgpu on Metal, so full-screen TUIs look like they do on your desk, albeit narrower. - Diffs for each agent turn, a file browser, and previews of `localhost` dev servers your agent starts, all through the same SSH connection. No port forwarding to set up. herdr and the daemon are optional. Without them, it's a normal SSH client. There's no account to set up and no analytics or tracking in the app. The app runs a 14-day free trial, with full feature access. Then, if you're as happy as I am with it, then it can be yours forever with a one-time purchase: $99 for the first two weeks (launch promo) then $129 after that. Happy to answer anything about the sealed push setup or running libghostty on iOS. Comments URL: https://news.ycombinator.com/item?id=50009634 Points: 22 # Comments: 9",
-      "topic": "Mobile",
-      "topicIcon": "📱",
-      "importance": 5,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Hello~! pocketty is an SSH terminal for iPhone and iPad, made for herdr. herdr keeps your agent panes alive on your comp..."
-    },
-    {
       "id": "6e82965edc2b",
       "title": "An experimental tour-de-force: Entanglement between glass bead and light",
       "link": "https://arstechnica.com/science/2026/10/suspended-glass-bead-entangled-with-light-maybe-a-quantum-memory/",
@@ -315,21 +285,6 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "Getting a glass bead to act like a quantum object by entangling it with light."
-    },
-    {
-      "id": "0aa66eecfece",
-      "title": "Tim Cook says &#8216;I&#8217;m not meddling&#8217; in the new Apple CEO&#8217;s business",
-      "link": "https://www.theverge.com/news/1008279/apple-tim-cook-not-meddling-john-ternus-ceo",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-10-08T18:48:36Z",
-      "description": "Tim Cook stepped down as Apple CEO in September, handing over the top job to former hardware chief John Ternus and taking an executive chairman role. Cook's still a visible representative of the company, having been recently photographed attending a state dinner at the White House. But in an interview with The Independent, Cook says [&#8230;]",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 5,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Tim Cook stepped down as Apple CEO in September, handing over the top job to former hardware chief John Ternus and takin..."
     },
     {
       "id": "a5eddc09be45",
@@ -438,18 +393,48 @@
     },
     {
       "id": "329a33b3e560",
-      "title": "White House blocks Microsoft from foreign worker hiring program",
+      "title": "White House blocks Microsoft from foreign worker hiring programme",
       "link": "https://www.bbc.co.uk/news/articles/ck5yngl2y4gpo?at_medium=RSS&at_campaign=rss",
       "source": "BBC",
       "sourceIcon": "bbc",
       "pubDate": "2026-10-08T21:37:35Z",
-      "description": "An international visa program has for years allowed US tech companies to hire highly skilled workers from abroad.",
+      "description": "An international visa programme has for years allowed US tech companies to hire highly skilled workers from abroad.",
       "topic": "Hardware",
       "topicIcon": "💻",
       "importance": 5,
       "reliability": 5,
       "summary_bn": "",
-      "summary_en": "An international visa program has for years allowed US tech companies to hire highly skilled workers from abroad."
+      "summary_en": "An international visa programme has for years allowed US tech companies to hire highly skilled workers from abroad."
+    },
+    {
+      "id": "4a0e708d5892",
+      "title": "'Careless use of AI is the real threat - not the ghost stories'",
+      "link": "https://www.bbc.co.uk/news/articles/cjzxz9yp1kq9o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC",
+      "sourceIcon": "bbc",
+      "pubDate": "2026-10-09T07:05:01Z",
+      "description": "Meredith Whittaker says the tech has been misunderstood, in an exclusive interview with BBC Global Women.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 5,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "Meredith Whittaker says the tech has been misunderstood, in an exclusive interview with BBC Global Women."
+    },
+    {
+      "id": "2eced5b9b09d",
+      "title": "Nvidia-backed data centre firm scraps IPO as AI valuation concerns deepen",
+      "link": "https://www.bbc.co.uk/news/articles/ck9dzpw4ll8po?at_medium=RSS&at_campaign=rss",
+      "source": "BBC",
+      "sourceIcon": "bbc",
+      "pubDate": "2026-10-09T07:14:30Z",
+      "description": "Firmus said it had made the decision due to \"recent market volatility and prevailing market conditions\".",
+      "topic": "Startups",
+      "topicIcon": "🚀",
+      "importance": 5,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "Firmus said it had made the decision due to \"recent market volatility and prevailing market conditions\"."
     },
     {
       "id": "27cf6fe2aef9",
@@ -585,21 +570,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "The other firms being suspended from the program include Capgemini, Cognizant, HCL, Infosys, Tata, and Wipro."
-    },
-    {
-      "id": "9bce984ffc5c",
-      "title": "Show HN: Jevman – AI decision models play Pac-Man",
-      "link": "https://opper.ai/jevman-benchmark/",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-10-08T16:34:13Z",
-      "description": "Openai just launched their decisions endpoint, cloudflare launched clef the other week, and many more jev alternatives are out there. We wanted to put the popular ones to the test and thought Pac-Man is a good benchmark for simple and fast decision making. So we let jev 1.13, kev, clef, clef flash, GPT-6 Luna and Laya play Pac-Man against bot ghosts. The low latency of these models allows for real time play. We had each model play 100 games, published a leader board and open-sourced the repo so anyone can run their own model and join the ranking. Link to repo: https://github.com/opper-ai/jevman-benchmark/blob/main/CONTR... You can also join the game and play as Pac-Man yourself, and the ghosts are the models, either a mix of models or all jev, kev, clef etc. A game costs about 2 cent, all models are running via my startup opper, and we added free credits for everyone to try. It's pretty fun to play and surprisingly difficult to beat jev's highscore. Any feedback is more than welcome! Comments URL: https://news.ycombinator.com/item?id=50007993 Points: 29 # Comments: 5",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Openai just launched their decisions endpoint, cloudflare launched clef the other week, and many more jev alternatives a..."
     },
     {
       "id": "9346eaa9f479",
@@ -750,6 +720,36 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "Reducing glare and allowing modern light technologies will be two goals."
+    },
+    {
+      "id": "055daf4225c5",
+      "title": "Apple will reportedly debut its first touchscreen MacBook in three weeks",
+      "link": "https://www.theverge.com/tech/1008422/apple-macbook-pro-touchscreen-ipad-mini-rumor",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-10-08T20:32:21Z",
+      "description": "Apple is set to introduce a new MacBook Pro with a touchscreen and an updated iPad Mini \"on or around\" October 27th, Bloomberg reports. If true, that would put the event just two weeks after the October 13th event Apple announced today, which is rumored to focus on smart home products. Bloomberg says that the [&#8230;]",
+      "topic": "Mobile",
+      "topicIcon": "📱",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Apple is set to introduce a new MacBook Pro with a touchscreen and an updated iPad Mini \"on or around\" October 27th, Blo..."
+    },
+    {
+      "id": "1bc6c949e17a",
+      "title": "Pretend you’re sitting at Elizabeth Holmes’ desk on this weirdly detailed website",
+      "link": "https://techcrunch.com/2026/10/08/pretend-youre-sitting-at-elizabeth-holmes-desk-on-this-weirdly-detailed-website/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-10-08T21:00:00Z",
+      "description": "With over a thousand emails, slides, texts, and documents from the United States v. Elizabeth Holmes trial, Extend engineer Bo Lau created a website that simulates what it might have been like to rifle through the Theranos founder's desk.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "With over a thousand emails, slides, texts, and documents from the United States v. Elizabeth Holmes trial, Extend engin..."
     }
   ]
 }
