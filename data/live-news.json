@@ -1,6 +1,21 @@
 {
-  "lastUpdated": "2026-10-09T03:56:07+06:00",
+  "lastUpdated": "2026-10-09T07:57:12+06:00",
   "news": [
+    {
+      "id": "35f787ee8f97",
+      "title": "Trump Mobile hack and apparent lack of FCC authorization raise security alarms",
+      "link": "https://arstechnica.com/tech-policy/2026/10/trump-mobile-doesnt-seem-to-have-fcc-authorization-for-phone-service-senator-says/",
+      "source": "Ars Technica",
+      "sourceIcon": "ars",
+      "pubDate": "2026-10-08T20:39:31Z",
+      "description": "After hack and data breach, senator asks why Trump Mobile lacks some FCC filings.",
+      "topic": "Security",
+      "topicIcon": "🔒",
+      "importance": 10,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "After hack and data breach, senator asks why Trump Mobile lacks some FCC filings."
+    },
     {
       "id": "7ad84d0adb1e",
       "title": "Asos hackers took more personal details than first revealed, BBC finds",
@@ -77,21 +92,6 @@
       "summary_en": "The California State Athletic Commission sent a cease-and-desist letter to a startup that hosted a match between a human..."
     },
     {
-      "id": "188acac79052",
-      "title": "“Software is over”: Bold AI developer takes aim at Adobe with open source clones",
-      "link": "https://arstechnica.com/ai/2026/10/software-is-over-bold-ai-developer-takes-aim-at-adobe-with-open-source-clones/",
-      "source": "Ars Technica",
-      "sourceIcon": "ars",
-      "pubDate": "2026-10-07T21:56:42Z",
-      "description": "Opus-built Creative Cloud alternatives are ambitious, free, and nowhere near finished.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 6,
-      "reliability": 5,
-      "summary_bn": "",
-      "summary_en": "Opus-built Creative Cloud alternatives are ambitious, free, and nowhere near finished."
-    },
-    {
       "id": "45712275c545",
       "title": "The Man Behind a West Bank Telegram Channel Trying to Keep Palestinian Drivers Safe",
       "link": "https://www.wired.com/story/the-man-behind-a-west-bank-telegram-channel-trying-to-keep-palestinian-drivers-safe/",
@@ -105,21 +105,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "With no accurate Big Tech mapping app to help him, Anas Hattab launched a Telegram group to get himself home at night. N..."
-    },
-    {
-      "id": "7fc877e49f70",
-      "title": "Cal AI’s 19-year-old founder just raised $10M for his new AI startup",
-      "link": "https://techcrunch.com/2026/10/08/cal-ais-19-year-old-founder-just-raised-10m-for-his-new-ai-startup/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-10-08T14:00:00Z",
-      "description": "Zach Yadegari, the teen co-founder of popular Cal AI calorie tracking app, has launched a new personal AI agent startup that competes with Instinct, Muse, and Bee.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 6,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Zach Yadegari, the teen co-founder of popular Cal AI calorie tracking app, has launched a new personal AI agent startup ..."
     },
     {
       "id": "6204e7abbcf1",
@@ -137,9 +122,9 @@
       "summary_en": "The company launched technology.spotify.com, a new site that will make its internal tech available to outsiders."
     },
     {
-      "id": "0307d386ce77",
+      "id": "9ba879838ecb",
       "title": "Elon Musk questions Ambani’s influence as Starlink India launch stalls",
-      "link": "https://techcrunch.com/2026/10/08/india-rejects-elon-musks-claim-of-discrimination-over-starlink-launch/",
+      "link": "https://techcrunch.com/2026/10/08/elon-musk-questions-ambanis-influence-as-starlink-india-launch-stalls/",
       "source": "TechCrunch",
       "sourceIcon": "crunch",
       "pubDate": "2026-10-08T15:12:59Z",
@@ -197,34 +182,34 @@
       "summary_en": "It had previously been reported that the AI lab's annualized revenue was some $70 billion, but a new report claims it's ..."
     },
     {
-      "id": "43a4fe127910",
-      "title": "Fuel prices added to Google Maps as petrol and diesel costs soar",
-      "link": "https://www.bbc.co.uk/news/articles/ckx2d4ddjn2eo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC",
-      "sourceIcon": "bbc",
-      "pubDate": "2026-10-07T23:50:29Z",
-      "description": "A search for forecourts will now display their pricing, using the government's Fuel Finder scheme.",
-      "topic": "Regulation",
-      "topicIcon": "⚖️",
-      "importance": 5,
-      "reliability": 5,
+      "id": "0856c1a27e7e",
+      "title": "Anthropic launches free AI security scans for open-source projects",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-10-08T21:53:51Z",
+      "description": "Anthropic's offering to help open-source projects track down security vulnerabilities with a new service called OSS Scanner. It says open-source projects that opt-in will get \"thorough, periodic security scans by our strongest models at no cost.\" That could mean open-source projects get alerted about possible security issues sooner, but the trade-off is that OSS Scanner's [&#8230;]",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 6,
+      "reliability": 4,
       "summary_bn": "",
-      "summary_en": "A search for forecourts will now display their pricing, using the government's Fuel Finder scheme."
+      "summary_en": "Anthropic's offering to help open-source projects track down security vulnerabilities with a new service called OSS Scan..."
     },
     {
-      "id": "f0cfa9e453a6",
-      "title": "Microsoft event debuts new AI-friendly hardware and Windows changes",
-      "link": "https://arstechnica.com/gadgets/2026/10/microsoft-event-debuts-new-ai-friendly-hardware-and-windows-changes/",
-      "source": "Ars Technica",
-      "sourceIcon": "ars",
-      "pubDate": "2026-10-08T00:00:24Z",
-      "description": "Get ready for more AI in your Windows and more AI on the desktop.",
-      "topic": "Hardware",
-      "topicIcon": "💻",
-      "importance": 5,
-      "reliability": 5,
+      "id": "7b12f50fabe2",
+      "title": "President Trump awards Big Tech donors with nation’s highest science prizes",
+      "link": "https://techcrunch.com/2026/10/08/president-trump-awards-big-tech-donors-with-nations-highest-science-prizes/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-10-08T22:33:59Z",
+      "description": "Together, the awardees have donated nearly $6 billion to efforts tied to Trump and his administration.",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 6,
+      "reliability": 4,
       "summary_bn": "",
-      "summary_en": "Get ready for more AI in your Windows and more AI on the desktop."
+      "summary_en": "Together, the awardees have donated nearly $6 billion to efforts tied to Trump and his administration."
     },
     {
       "id": "6c58fc404818",
@@ -302,19 +287,19 @@
       "summary_en": "Amazon killed its app store, so Google Play it is."
     },
     {
-      "id": "b3641fd99fcf",
-      "title": "Forza Horizon 6 is being delayed on PS5 to January 2027",
-      "link": "https://www.theverge.com/news/989314/forza-horizon-6-ps5-release-date-january-2027-delay",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-10-08T18:14:25Z",
-      "description": "Playground Games first revealed earlier this year that Forza Horizon 6 would be arriving on PS5 in 2026, but the launch is now being pushed back. I reported last month that there would be a delay to early next year, and Forza Horizon 6 is now officially debuting on January 26th, 2027. The delay means [&#8230;]",
-      "topic": "Other",
-      "topicIcon": "📰",
+      "id": "a40db2c44545",
+      "title": "Show HN: Pocketty – iPhone SSH terminal that pings you when an agent is blocked",
+      "link": "https://pocketty.app/",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-10-08T18:11:52Z",
+      "description": "Hello~! pocketty is an SSH terminal for iPhone and iPad, made for herdr. herdr keeps your agent panes alive on your computer and knows the state of each one: working, needs you, or done. I made this in anger/desperation for the latter half of my recent paternity leave. Nap traps are sweet, but there's only so much doom-scrolling and movie-watching I can handle... In any event, I've been using it for the last couple months and no longer have to be my desk anymore to be productive. Now the nap-traps are still productive (when i want them to be) ! How it works: - The app talks to your computer directly over plain SSH. Tailscale is the easy way to reach it from anywhere but any SSH host you can reach works. - A small Rust daemon on the host watches herdr. When a pane needs you, it seals the alert to your phone's key with HPKE (X25519, ChaCha20-Poly1305). A stateless relay (pocketty's) on Cloudflare Workers passes the sealed bytes to APNs (Apple Push Notification servers), and a notification extension opens them on the phone. The relay can't read them and keeps nothing. - Your SSH key is made in the Secure Enclave and can't be exported. - The terminal uses libghostty-vt for state and draws with wgpu on Metal, so full-screen TUIs look like they do on your desk, albeit narrower. - Diffs for each agent turn, a file browser, and previews of `localhost` dev servers your agent starts, all through the same SSH connection. No port forwarding to set up. herdr and the daemon are optional. Without them, it's a normal SSH client. There's no account to set up and no analytics or tracking in the app. The app runs a 14-day free trial, with full feature access. Then, if you're as happy as I am with it, then it can be yours forever with a one-time purchase: $99 for the first two weeks (launch promo) then $129 after that. Happy to answer anything about the sealed push setup or running libghostty on iOS. Comments URL: https://news.ycombinator.com/item?id=50009634 Points: 22 # Comments: 9",
+      "topic": "Mobile",
+      "topicIcon": "📱",
       "importance": 5,
-      "reliability": 4,
+      "reliability": 3,
       "summary_bn": "",
-      "summary_en": "Playground Games first revealed earlier this year that Forza Horizon 6 would be arriving on PS5 in 2026, but the launch ..."
+      "summary_en": "Hello~! pocketty is an SSH terminal for iPhone and iPad, made for herdr. herdr keeps your agent panes alive on your comp..."
     },
     {
       "id": "6e82965edc2b",
@@ -353,13 +338,13 @@
       "source": "Ars Technica",
       "sourceIcon": "ars",
       "pubDate": "2026-10-08T19:26:32Z",
-      "description": "\"[T]he Trump-RFK Jr anti-vax agenda keeps getting more corrupt and dangerous.\"",
+      "description": "\"[T]he Trump-RFK Jr. anti-vax agenda keeps getting more corrupt and dangerous.\"",
       "topic": "Other",
       "topicIcon": "📰",
       "importance": 5,
       "reliability": 5,
       "summary_bn": "",
-      "summary_en": "\"[T]he Trump-RFK Jr anti-vax agenda keeps getting more corrupt and dangerous.\""
+      "summary_en": "\"[T]he Trump-RFK Jr. anti-vax agenda keeps getting more corrupt and dangerous.\""
     },
     {
       "id": "d7f318171ec8",
@@ -393,7 +378,7 @@
     },
     {
       "id": "24471b348ef2",
-      "title": "R.I.P. Margaret Hamilton, whose code saved the Apollo 11 Moon landing",
+      "title": "RIP Margaret Hamilton, whose code saved the Apollo 11 Moon landing",
       "link": "https://arstechnica.com/science/2026/10/r-i-p-margaret-hamilton-whose-code-saved-the-apollo-11-moon-landing/",
       "source": "Ars Technica",
       "sourceIcon": "ars",
@@ -405,6 +390,21 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "Hamilton also coined the term \"software engineering\" and founded two successful software companies."
+    },
+    {
+      "id": "e04326262fce",
+      "title": "Judge weighs if Trump can charge $100K for early access to Truth Social posts",
+      "link": "https://arstechnica.com/tech-policy/2026/10/judge-weighs-if-trump-can-charge-100k-for-early-access-to-truth-social-posts/",
+      "source": "Ars Technica",
+      "sourceIcon": "ars",
+      "pubDate": "2026-10-08T20:53:01Z",
+      "description": "Judge questioned if Trump delaying access to Truth Social posts by a second harms the press.",
+      "topic": "Hardware",
+      "topicIcon": "💻",
+      "importance": 5,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "Judge questioned if Trump delaying access to Truth Social posts by a second harms the press."
     },
     {
       "id": "b66c80208096",
@@ -422,6 +422,21 @@
       "summary_en": "SpaceX has acquired a portfolio of low-band spectrum licenses - a move the company says \"will pave the way\" for its Star..."
     },
     {
+      "id": "d39f5eac4fae",
+      "title": "SpaceX calls for better coordination in orbit after near-misses with Starlink",
+      "link": "https://arstechnica.com/space/2026/10/spacex-calls-for-better-coordination-in-orbit-after-near-misses-with-starlink/",
+      "source": "Ars Technica",
+      "sourceIcon": "ars",
+      "pubDate": "2026-10-08T21:37:32Z",
+      "description": "\"These led to conjunctions of tens of meters to hundreds of meters. Way too close to comfort.\"",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 5,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "\"These led to conjunctions of tens of meters to hundreds of meters. Way too close to comfort.\""
+    },
+    {
       "id": "329a33b3e560",
       "title": "White House blocks Microsoft from foreign worker hiring program",
       "link": "https://www.bbc.co.uk/news/articles/ck5yngl2y4gpo?at_medium=RSS&at_campaign=rss",
@@ -435,36 +450,6 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "An international visa program has for years allowed US tech companies to hire highly skilled workers from abroad."
-    },
-    {
-      "id": "a0ee9de6dc9a",
-      "title": "Tropical Storm Isaias Set to Be First Atlantic Hurricane of 2026 Season",
-      "link": "https://www.wired.com/story/tropical-storm-isaias-first-atlantic-hurricane-2026/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-10-07T22:00:24Z",
-      "description": "Tropical Storm Isaias is set to become the basin’s first hurricane of the season, bringing life-threatening rain and storm surge to the Gulf Coast.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Tropical Storm Isaias is set to become the basin’s first hurricane of the season, bringing life-threatening rain and sto..."
-    },
-    {
-      "id": "2970357c6bb9",
-      "title": "The 23 Best Prime Day Deals Under $100 That You Can Still Get (2026)",
-      "link": "https://www.wired.com/story/best-prime-day-deals-under-100-10-07-2026/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-10-07T23:33:14Z",
-      "description": "These are all products we've tested and loved, and they're all on sale until Prime Day ends for under $100.",
-      "topic": "Other",
-      "topicIcon": "📰",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "These are all products we've tested and loved, and they're all on sale until Prime Day ends for under $100."
     },
     {
       "id": "27cf6fe2aef9",
@@ -602,6 +587,21 @@
       "summary_en": "The other firms being suspended from the program include Capgemini, Cognizant, HCL, Infosys, Tata, and Wipro."
     },
     {
+      "id": "9bce984ffc5c",
+      "title": "Show HN: Jevman – AI decision models play Pac-Man",
+      "link": "https://opper.ai/jevman-benchmark/",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-10-08T16:34:13Z",
+      "description": "Openai just launched their decisions endpoint, cloudflare launched clef the other week, and many more jev alternatives are out there. We wanted to put the popular ones to the test and thought Pac-Man is a good benchmark for simple and fast decision making. So we let jev 1.13, kev, clef, clef flash, GPT-6 Luna and Laya play Pac-Man against bot ghosts. The low latency of these models allows for real time play. We had each model play 100 games, published a leader board and open-sourced the repo so anyone can run their own model and join the ranking. Link to repo: https://github.com/opper-ai/jevman-benchmark/blob/main/CONTR... You can also join the game and play as Pac-Man yourself, and the ghosts are the models, either a mix of models or all jev, kev, clef etc. A game costs about 2 cent, all models are running via my startup opper, and we added free credits for everyone to try. It's pretty fun to play and surprisingly difficult to beat jev's highscore. Any feedback is more than welcome! Comments URL: https://news.ycombinator.com/item?id=50007993 Points: 29 # Comments: 5",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "Openai just launched their decisions endpoint, cloudflare launched clef the other week, and many more jev alternatives a..."
+    },
+    {
       "id": "9346eaa9f479",
       "title": "38 Best Last-Minute Prime Day Deals You Can Still Shop Today (2026)",
       "link": "https://www.wired.com/story/absolute-best-amazon-prime-day-deals-10-08-2026/",
@@ -677,21 +677,6 @@
       "summary_en": "A fictionalized Sam Bankman-Fried is coming to your TV screen on November 19."
     },
     {
-      "id": "30a77cc669ec",
-      "title": "I only bought Pokémon Legends: Z-A during Prime Day, and it’s still on sale",
-      "link": "https://www.theverge.com/gadgets/1008212/pokemon-legends-z-a-switch-deal-sale",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-10-08T18:48:11Z",
-      "description": "After covering Amazon’s October sale for the last few days, only one item found its way into my shopping cart, and, lucky for you, it’s still on sale after the event’s conclusion. Pokémon Legends: Z-A for the Nintendo Switch or Switch 2 is $39.88 (usually $59.99 for Switch or $69.99 for Switch 2) at Amazon. [&#8230;]",
-      "topic": "Other",
-      "topicIcon": "📰",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "After covering Amazon’s October sale for the last few days, only one item found its way into my shopping cart, and, luck..."
-    },
-    {
       "id": "5ae63c1e015f",
       "title": "Trump Administration Cuts Off Access to a Major Immigration Program for Workers at Microsoft and Adobe",
       "link": "https://www.wired.com/story/trump-administration-crackdown-microsoft-adobe-immigration/",
@@ -750,6 +735,21 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Three fired OpenAI safety researchers dispute allegations of mishandling sensitive information, warning in an open lette..."
+    },
+    {
+      "id": "2b3851633cfc",
+      "title": "Feds get ready to rewrite car headlight rules",
+      "link": "https://arstechnica.com/cars/2026/10/feds-get-ready-to-rewrite-car-headlight-rules/",
+      "source": "Ars Technica",
+      "sourceIcon": "ars",
+      "pubDate": "2026-10-08T20:26:13Z",
+      "description": "Reducing glare and allowing modern light technologies will be two goals.",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 4,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "Reducing glare and allowing modern light technologies will be two goals."
     }
   ]
 }
