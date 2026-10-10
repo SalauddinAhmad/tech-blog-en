@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T03:32:00+06:00",
+  "lastUpdated": "2026-10-10T07:36:28+06:00",
   "news": [
     {
       "id": "6db8dc922122",
@@ -17,21 +17,6 @@
       "summary_en": "\"I can say we’re weeks away from launching on Vulcan.\""
     },
     {
-      "id": "7b12f50fabe2",
-      "title": "President Trump awards Big Tech donors with nation’s highest science prizes",
-      "link": "https://techcrunch.com/2026/10/08/president-trump-awards-big-tech-donors-with-nations-highest-science-prizes/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-10-08T22:33:59Z",
-      "description": "Together, the awardees have donated nearly $6 billion to efforts tied to Trump and his administration.",
-      "topic": "Other",
-      "topicIcon": "📰",
-      "importance": 6,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Together, the awardees have donated nearly $6 billion to efforts tied to Trump and his administration."
-    },
-    {
       "id": "0854a3cada87",
       "title": "Anthropic’s AI gave Philadelphia police a fake tip about an unsolved homicide",
       "link": "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip",
@@ -47,34 +32,19 @@
       "summary_en": "An Anthropic AI model provided false information about an unsolved homicide to a Philadelphia Police Department (PPD) ti..."
     },
     {
-      "id": "d39f5eac4fae",
-      "title": "SpaceX calls for better coordination in orbit after near-misses with Starlink",
-      "link": "https://arstechnica.com/space/2026/10/spacex-calls-for-better-coordination-in-orbit-after-near-misses-with-starlink/",
-      "source": "Ars Technica",
-      "sourceIcon": "ars",
-      "pubDate": "2026-10-08T21:37:32Z",
-      "description": "\"These led to conjunctions of tens of meters to hundreds of meters. Way too close to comfort.\"",
-      "topic": "Other",
-      "topicIcon": "📰",
-      "importance": 5,
-      "reliability": 5,
+      "id": "7984e92e6601",
+      "title": "The maker of non-text AI model Jev valued at $7.5B just weeks after launch",
+      "link": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-10-09T21:41:29Z",
+      "description": "What has users and large corporations so excited about Jev is TypeSafe’s claim that it works significantly faster and uses far fewer tokens than LLMs.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 6,
+      "reliability": 4,
       "summary_bn": "",
-      "summary_en": "\"These led to conjunctions of tens of meters to hundreds of meters. Way too close to comfort.\""
-    },
-    {
-      "id": "329a33b3e560",
-      "title": "White House blocks Microsoft from foreign worker hiring programme",
-      "link": "https://www.bbc.co.uk/news/articles/ck5yngl2y4gpo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC",
-      "sourceIcon": "bbc",
-      "pubDate": "2026-10-08T21:37:35Z",
-      "description": "An international visa programme has for years allowed US tech companies to hire highly skilled workers from abroad.",
-      "topic": "Hardware",
-      "topicIcon": "💻",
-      "importance": 5,
-      "reliability": 5,
-      "summary_bn": "",
-      "summary_en": "An international visa programme has for years allowed US tech companies to hire highly skilled workers from abroad."
+      "summary_en": "What has users and large corporations so excited about Jev is TypeSafe’s claim that it works significantly faster and us..."
     },
     {
       "id": "4a0e708d5892",
@@ -272,34 +242,49 @@
       "summary_en": "CDC allocated $1.6M for study on alleged harms of hepatitis B vaccine."
     },
     {
-      "id": "505bfb552fa3",
-      "title": "ICE Emails Discuss Using Palantir-Supported Tool to Investigate Voter Fraud",
-      "link": "https://www.wired.com/story/ice-emails-discuss-using-palantir-supported-tool-to-investigate-voter-fraud/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-10-08T22:40:11Z",
-      "description": "Documents obtained by Democracy Forward show that ICE looked into feeding voter roll data into the ELITE tool, normally used to identify targets for deportation.",
+      "id": "f0a1c67c0848",
+      "title": "NASA issues long-awaited call to industry for private space stations",
+      "link": "https://arstechnica.com/space/2026/10/nasa-issues-long-awaited-call-to-industry-for-private-space-stations/",
+      "source": "Ars Technica",
+      "sourceIcon": "ars",
+      "pubDate": "2026-10-09T21:34:09Z",
+      "description": "\"We’ve made it clear that NASA will never give up its presence in low Earth orbit.\"",
       "topic": "AI/ML",
       "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Documents obtained by Democracy Forward show that ICE looked into feeding voter roll data into the ELITE tool, normally ..."
-    },
-    {
-      "id": "66662a00a700",
-      "title": "Why are more roofs not made of solar tiles?",
-      "link": "https://www.bbc.co.uk/news/articles/cdr7n610rmzo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC",
-      "sourceIcon": "bbc",
-      "pubDate": "2026-10-08T23:09:56Z",
-      "description": "Solar tiles were touted as an attractive alternative to solar panels - why have they not taken off?",
-      "topic": "Other",
-      "topicIcon": "📰",
-      "importance": 4,
+      "importance": 5,
       "reliability": 5,
       "summary_bn": "",
-      "summary_en": "Solar tiles were touted as an attractive alternative to solar panels - why have they not taken off?"
+      "summary_en": "\"We’ve made it clear that NASA will never give up its presence in low Earth orbit.\""
+    },
+    {
+      "id": "36cc2f96c79b",
+      "title": "Ukraine’s drones knock out AI data center belonging to \"Russia’s Google\"",
+      "link": "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/",
+      "source": "Ars Technica",
+      "sourceIcon": "ars",
+      "pubDate": "2026-10-09T22:04:07Z",
+      "description": "One damaged data center has supercomputers used for training Yandex’s AI model.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 5,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "One damaged data center has supercomputers used for training Yandex’s AI model."
+    },
+    {
+      "id": "6f1466c2638a",
+      "title": "Long live the mechanical keyboard",
+      "link": "https://techcrunch.com/2026/10/09/long-live-the-mechanical-keyboard/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-10-09T22:08:24Z",
+      "description": "Keychron made a name for itself after launching on Kickstarter in 2017. Today, it offers the value K2 model as well as a variety of other versions, including one with an all-wood body.",
+      "topic": "Startups",
+      "topicIcon": "🚀",
+      "importance": 5,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Keychron made a name for itself after launching on Kickstarter in 2017. Today, it offers the value K2 model as well as a..."
     },
     {
       "id": "e6482888390b",
@@ -452,21 +437,6 @@
       "summary_en": "The firm said users can no longer engage in \"sustained and needless\" abusive behaviour towards the tech."
     },
     {
-      "id": "212e9120a76a",
-      "title": "Cloudflare acquires Deno",
-      "link": "https://deno.com/blog/cloudflare",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-10-09T13:03:48Z",
-      "description": "Article URL: https://deno.com/blog/cloudflare Comments URL: https://news.ycombinator.com/item?id=50019911 Points: 931 # Comments: 492",
-      "topic": "Startups",
-      "topicIcon": "🚀",
-      "importance": 4,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://deno.com/blog/cloudflare Comments URL: https://news.ycombinator.com/item?id=50019911 Points: 931 # ..."
-    },
-    {
       "id": "102949e88750",
       "title": "TechCrunch Disrupt 2026 starts in 4 days — lock in your pass savings of up to $100 before prices rise",
       "link": "https://techcrunch.com/2026/10/09/techcrunch-disrupt-2026-starts-in-4-days-lock-in-your-pass-savings-of-up-to-100-before-prices-rise/",
@@ -540,21 +510,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "The Justice Department is considering a perjury and obstruction-of-justice case against Cassidy Hutchinson, a former Whi..."
-    },
-    {
-      "id": "54b62e2e6ec3",
-      "title": "Frances Haugen hopes The Social Reckoning will inspire more whistleblowers",
-      "link": "https://www.theverge.com/policy/1008806/frances-haugen-social-reckoning-facebook-whistleblower",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-10-09T16:50:40Z",
-      "description": "Facebook whistleblower Frances Haugen was mostly unfazed watching Oscar-winning actress Mikey Madison play a character named after her in The Social Reckoning, except for one thing: the wrist warmers. In Aaron Sorkin's new thriller, the fictional Haugen - who, like her nonfictional counterpart, leaks thousands of documents to Wall Street Journal reporter Jeff Horwitz - [&#8230;]",
-      "topic": "Hardware",
-      "topicIcon": "💻",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Facebook whistleblower Frances Haugen was mostly unfazed watching Oscar-winning actress Mikey Madison play a character n..."
     },
     {
       "id": "dd1a4ba899e0",
@@ -750,6 +705,51 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "The automaker has been criticized for misleading drivers with the feature’s name. Now it’s renaming it for European regu..."
+    },
+    {
+      "id": "6d2e5f2fd275",
+      "title": "What's been driving Hawaii's lava fountains?",
+      "link": "https://arstechnica.com/science/2026/10/whats-been-driving-hawaiis-lava-fountains/",
+      "source": "Ars Technica",
+      "sourceIcon": "ars",
+      "pubDate": "2026-10-09T21:05:01Z",
+      "description": "Before the lava fountains started, the ground was expanding by half a meter a day.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "Before the lava fountains started, the ground was expanding by half a meter a day."
+    },
+    {
+      "id": "d578180d1dea",
+      "title": "A Cray-1 supercomputer replica from 30 \"obsolete\" Mac Minis",
+      "link": "https://arstechnica.com/gadgets/2026/10/a-cray-1-supercomputer-replica-from-30-obsolete-mac-minis/",
+      "source": "Ars Technica",
+      "sourceIcon": "ars",
+      "pubDate": "2026-10-09T21:51:12Z",
+      "description": "Stylish upcycling, with a retro flare, at Spain's Museo de Historia de la Computación.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "Stylish upcycling, with a retro flare, at Spain's Museo de Historia de la Computación."
+    },
+    {
+      "id": "479bf263659d",
+      "title": "Neanderthal wooden tools from Spain found preserved in stone",
+      "link": "https://arstechnica.com/science/2026/10/neanderthal-wooden-tools-from-spain-found-preserved-in-stone/",
+      "source": "Ars Technica",
+      "sourceIcon": "ars",
+      "pubDate": "2026-10-09T22:34:03Z",
+      "description": "Dissolved rock precipitated around the tools, which then decayed.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "Dissolved rock precipitated around the tools, which then decayed."
     }
   ]
 }
