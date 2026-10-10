@@ -1,6 +1,21 @@
 {
-  "lastUpdated": "2026-10-10T07:36:28+06:00",
+  "lastUpdated": "2026-10-10T14:19:06+06:00",
   "news": [
+    {
+      "id": "f6a3c46c4711",
+      "title": "Elon Musk intensifies attack on Ambani over Starlink India launch delay",
+      "link": "https://techcrunch.com/2026/10/09/elon-musk-intensifies-attack-on-ambani-over-starlink-india-launch-delay/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-10-10T03:10:06Z",
+      "description": "Elon Musk has accused Indian billionaire Mukesh Ambani of blocking competition.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 8,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Elon Musk has accused Indian billionaire Mukesh Ambani of blocking competition."
+    },
     {
       "id": "6db8dc922122",
       "title": "Rocket Report: A rare Falcon 9 scrub; is it just about Vulcan's time to shine?",
@@ -47,34 +62,19 @@
       "summary_en": "What has users and large corporations so excited about Jev is TypeSafe’s claim that it works significantly faster and us..."
     },
     {
-      "id": "4a0e708d5892",
-      "title": "'Careless use of AI is the real threat - not the ghost stories'",
-      "link": "https://www.bbc.co.uk/news/articles/cjzxz9yp1kq9o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC",
-      "sourceIcon": "bbc",
-      "pubDate": "2026-10-09T07:05:01Z",
-      "description": "Meredith Whittaker says the tech has been misunderstood, in an exclusive interview with BBC Global Women.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 5,
-      "reliability": 5,
+      "id": "eba6dbe0588e",
+      "title": "Telegram Desktop vulnerability allowed any user's file to be stolen",
+      "link": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-10-10T03:02:47Z",
+      "description": "Article URL: https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/ Comments URL: https://news.ycombinator.com/item?id=50029123 Points: 110 # Comments: 46",
+      "topic": "Hardware",
+      "topicIcon": "💻",
+      "importance": 6,
+      "reliability": 3,
       "summary_bn": "",
-      "summary_en": "Meredith Whittaker says the tech has been misunderstood, in an exclusive interview with BBC Global Women."
-    },
-    {
-      "id": "2eced5b9b09d",
-      "title": "Nvidia-backed data centre firm scraps IPO as AI valuation concerns deepen",
-      "link": "https://www.bbc.co.uk/news/articles/ck9dzpw4ll8po?at_medium=RSS&at_campaign=rss",
-      "source": "BBC",
-      "sourceIcon": "bbc",
-      "pubDate": "2026-10-09T07:14:30Z",
-      "description": "Firmus said it had made the decision due to \"recent market volatility and prevailing market conditions\".",
-      "topic": "Startups",
-      "topicIcon": "🚀",
-      "importance": 5,
-      "reliability": 5,
-      "summary_bn": "",
-      "summary_en": "Firmus said it had made the decision due to \"recent market volatility and prevailing market conditions\"."
+      "summary_en": "Article URL: https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/ Comments URL: https://news.yco..."
     },
     {
       "id": "c33270f76703",
@@ -150,21 +150,6 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "The camera-maker says it is now re-evaluating the rules and procedures of its Small World in Motion contest."
-    },
-    {
-      "id": "3cd2568c3659",
-      "title": "Microsoft tries to spark new life into Windows",
-      "link": "https://www.theverge.com/tech/1008801/microsoft-windows-surface-event-hybrid-ai-notepad",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-10-09T17:00:00Z",
-      "description": "When Microsoft released Windows 11 five years ago, it felt like an operating system that was still being renovated, a work in progress. You'd think by now that those renovations would be complete, with Microsoft turning its attention to Windows 12. Instead, Windows 11 feels like it's here to stay, forming the foundation for Microsoft's [&#8230;]",
-      "topic": "Other",
-      "topicIcon": "📰",
-      "importance": 5,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "When Microsoft released Windows 11 five years ago, it felt like an operating system that was still being renovated, a wo..."
     },
     {
       "id": "b4d6e703d65a",
@@ -287,51 +272,6 @@
       "summary_en": "Keychron made a name for itself after launching on Kickstarter in 2017. Today, it offers the value K2 model as well as a..."
     },
     {
-      "id": "e6482888390b",
-      "title": "Livestream Replay: Watch ‘Uncanny Valley’ on Women, Tech, and Power",
-      "link": "https://www.wired.com/story/come-see-uncanny-valley-live/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-10-09T03:30:00Z",
-      "description": "Missed our latest WIRED@Night event? Enjoy an evening of podcasting in San Francisco right here.",
-      "topic": "Other",
-      "topicIcon": "📰",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Missed our latest WIRED@Night event? Enjoy an evening of podcasting in San Francisco right here."
-    },
-    {
-      "id": "610f221a2ce0",
-      "title": "ICE Agent at NYC Shooting Has History of Alleged Violence and Illegal Arrests",
-      "link": "https://www.wired.com/story/ice-agent-at-nyc-shooting-has-history-of-alleged-violence-and-illegal-arrests/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-10-09T04:46:11Z",
-      "description": "Brenden Cuni, an ICE supervisor, has been accused of excessive force and tackling a pregnant woman to the ground. Several of his arrests were later found to be unlawful in federal court.",
-      "topic": "Regulation",
-      "topicIcon": "⚖️",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Brenden Cuni, an ICE supervisor, has been accused of excessive force and tackling a pregnant woman to the ground. Severa..."
-    },
-    {
-      "id": "28a858a149fb",
-      "title": "Lovehoney Coupon Offers: Toys, Lingerie, and Gift Set Discounts",
-      "link": "https://www.wired.com/story/lovehoney-discount-code/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-10-09T05:00:00Z",
-      "description": "Save on Lovehoney, including bestselling toys, lingerie, and popular gift sets for date nights, self-care, and couples’ play.",
-      "topic": "Other",
-      "topicIcon": "📰",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Save on Lovehoney, including bestselling toys, lingerie, and popular gift sets for date nights, self-care, and couples’ ..."
-    },
-    {
       "id": "3ab97cbb6245",
       "title": "A New Mexico Community Was a Place to Build a Life. Then a Hypersonic Missile Factory Showed Up",
       "link": "https://www.wired.com/story/a-new-mexico-community-was-a-place-to-build-a-life-then-a-hypersonic-missile-factory-showed-up/",
@@ -435,6 +375,21 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "The firm said users can no longer engage in \"sustained and needless\" abusive behaviour towards the tech."
+    },
+    {
+      "id": "212e9120a76a",
+      "title": "Cloudflare acquires Deno",
+      "link": "https://deno.com/blog/cloudflare",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-10-09T13:03:48Z",
+      "description": "Article URL: https://deno.com/blog/cloudflare Comments URL: https://news.ycombinator.com/item?id=50019911 Points: 1191 # Comments: 607",
+      "topic": "Startups",
+      "topicIcon": "🚀",
+      "importance": 4,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "Article URL: https://deno.com/blog/cloudflare Comments URL: https://news.ycombinator.com/item?id=50019911 Points: 1191 #..."
     },
     {
       "id": "102949e88750",
@@ -750,6 +705,51 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "Dissolved rock precipitated around the tools, which then decayed."
+    },
+    {
+      "id": "6fafcbf09565",
+      "title": "Anthropic can’t reliably control its AI agents. It’s cutting off its internal evals from the live internet instead",
+      "link": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-10-10T00:18:32Z",
+      "description": "Anthropic said it \"turned off live internet access\" for \"all our internal evaluations\" until further notice.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Anthropic said it \"turned off live internet access\" for \"all our internal evaluations\" until further notice."
+    },
+    {
+      "id": "a0e77a89b85a",
+      "title": "Tech Now",
+      "link": "https://www.bbc.co.uk/iplayer/episode/m0032yng?at_medium=RSS&at_campaign=rss",
+      "source": "BBC",
+      "sourceIcon": "bbc",
+      "pubDate": "2026-10-10T01:00:00Z",
+      "description": "Shiona McCallum visits Cairngorms National Park to see tech monitor wildfire damage.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "Shiona McCallum visits Cairngorms National Park to see tech monitor wildfire damage."
+    },
+    {
+      "id": "b9f193294e18",
+      "title": "Put a price on breakthroughs",
+      "link": "https://alexwang.ai/posts/put-a-price-on-breakthroughs/",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-10-10T02:37:47Z",
+      "description": "Article URL: https://alexwang.ai/posts/put-a-price-on-breakthroughs/ Comments URL: https://news.ycombinator.com/item?id=50028982 Points: 15 # Comments: 5",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "Article URL: https://alexwang.ai/posts/put-a-price-on-breakthroughs/ Comments URL: https://news.ycombinator.com/item?id=..."
     }
   ]
 }
