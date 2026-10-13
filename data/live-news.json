@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-13T07:12:20+06:00",
+  "lastUpdated": "2026-10-13T15:12:03+06:00",
   "news": [
     {
       "id": "5f8e496c8607",
@@ -143,7 +143,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-10-12T16:46:34Z",
-      "description": "Hey HN, I’m Vishnu from Agent37 ( https://agent37.com ). We build sandboxes for running AI agents at under 10% of the cost of most sandbox providers. Our customers spend an average of $0.37/month per sandbox. You can view a video walkthrough of the product here: https://youtu.be/DK5ISR2tbNo We started as one of those OpenClaw wrapper companies back in February (yup.. judge me). In time we added more and more harnesses. One of the goals I had at the time was to offer a free plan to users, so as to gain more market share. But it was too cost prohibitive to do it right away. Especially since we were bootstrapped and servers were running on my savings. Today we’re actually able to offer the free plan thanks to the optimizations we’ve made since. Over 90% of the new signups we have are just free plan users and they host their personal Hermes/Openclaw/Claude Code etc on our cloud. Our infrastructure cost for the free sandboxes averages around $0.05 to $0.10 per user per month. Here are some techniques that have worked for lowering cost: * When you look at agent harnesses, they have certain patterns in the way they consume CPU and RAM. They need CPU in bursts when they’re initializing or performing certain tasks, but beyond that, they’re often not peaking. They need more RAM for things like browser and computer-use tasks. Once the task is done, usage often comes back down. This is a key insight in lowering cost, so by efficiently managing the CPU/RAM utilization we could lower the cost. * Secondly, you have to skip the hyperscalers when renting the Hosts. I worked at Amazon before and they have 80-90% margins on VMs. So it was an obvious choice once I looked at the prices to go one layer down to vendors like Hetzner and OVH. This alone was probably one of the biggest cost levers in reducing the cost. * Thirdly, you also want to pick a technology stack that lets you efficiently cache and share resources across the host. We use gVisor for better utilization and fast boot times. It lets us use available host memory across sandboxes without reserving a full VM’s memory for each one. There are tradeoffs: our gVisor sandboxes don’t support workloads like Docker-in-Docker or Android emulators. * And finally the size and shape of the hosts you buy also makes a big difference. RAM is typically the bottleneck when it comes to cost and not the CPU. This is specifically true for agent harness workloads, so when buying servers, we optimize for packing more RAM into a given host. We also host full VM sandboxes for workloads that need them, including running Docker at a slightly higher price, but they are still pretty low cost given the rest of the techniques. Overall, my learning has been that just by focusing on a niche of sandbox usecases, and optimizing for it you can give a much better cost/performance tradeoff. I was previously a Senior Software Engineer at Amazon and an Engineering Manager at Quantcast. I built Amazon's internal AI chatbot, Diya, and their internal coding harness, Ziya. If you’re someone who’s looking to run agents on sandbox and are exploring a sandbox vendor, come check us out. We’re particularly looking for developers building messaging agents to try their workloads and challenge the limits and economics of our platform. Thanks! https://agent37.com Comments URL: https://news.ycombinator.com/item?id=50059096 Points: 96 # Comments: 67",
+      "description": "Hey HN, I’m Vishnu from Agent37 ( https://agent37.com ). We build sandboxes for running AI agents at under 10% of the cost of most sandbox providers. Our customers spend an average of $0.37/month per sandbox. You can view a video walkthrough of the product here: https://youtu.be/DK5ISR2tbNo We started as one of those OpenClaw wrapper companies back in February (yup.. judge me). In time we added more and more harnesses. One of the goals I had at the time was to offer a free plan to users, so as to gain more market share. But it was too cost prohibitive to do it right away. Especially since we were bootstrapped and servers were running on my savings. Today we’re actually able to offer the free plan thanks to the optimizations we’ve made since. Over 90% of the new signups we have are just free plan users and they host their personal Hermes/Openclaw/Claude Code etc on our cloud. Our infrastructure cost for the free sandboxes averages around $0.05 to $0.10 per user per month. Here are some techniques that have worked for lowering cost: * When you look at agent harnesses, they have certain patterns in the way they consume CPU and RAM. They need CPU in bursts when they’re initializing or performing certain tasks, but beyond that, they’re often not peaking. They need more RAM for things like browser and computer-use tasks. Once the task is done, usage often comes back down. This is a key insight in lowering cost, so by efficiently managing the CPU/RAM utilization we could lower the cost. * Secondly, you have to skip the hyperscalers when renting the Hosts. I worked at Amazon before and they have 80-90% margins on VMs. So it was an obvious choice once I looked at the prices to go one layer down to vendors like Hetzner and OVH. This alone was probably one of the biggest cost levers in reducing the cost. * Thirdly, you also want to pick a technology stack that lets you efficiently cache and share resources across the host. We use gVisor for better utilization and fast boot times. It lets us use available host memory across sandboxes without reserving a full VM’s memory for each one. There are tradeoffs: our gVisor sandboxes don’t support workloads like Docker-in-Docker or Android emulators. * And finally the size and shape of the hosts you buy also makes a big difference. RAM is typically the bottleneck when it comes to cost and not the CPU. This is specifically true for agent harness workloads, so when buying servers, we optimize for packing more RAM into a given host. We also host full VM sandboxes for workloads that need them, including running Docker at a slightly higher price, but they are still pretty low cost given the rest of the techniques. Overall, my learning has been that just by focusing on a niche of sandbox usecases, and optimizing for it you can give a much better cost/performance tradeoff. I was previously a Senior Software Engineer at Amazon and an Engineering Manager at Quantcast. I built Amazon's internal AI chatbot, Diya, and their internal coding harness, Ziya. If you’re someone who’s looking to run agents on sandbox and are exploring a sandbox vendor, come check us out. We’re particularly looking for developers building messaging agents to try their workloads and challenge the limits and economics of our platform. Thanks! https://agent37.com Comments URL: https://news.ycombinator.com/item?id=50059096 Points: 132 # Comments: 97",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 5,
@@ -255,21 +255,6 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "As of Friday, state health officials reported 1,136 cases across 41 counties."
-    },
-    {
-      "id": "1aff4bf29ee2",
-      "title": "AI is less regulated than milk, says Microsoft president",
-      "link": "https://www.bbc.co.uk/news/articles/c6rmy7zmvx3lo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC",
-      "sourceIcon": "bbc",
-      "pubDate": "2026-10-12T07:47:37Z",
-      "description": "Brad Smith calls for global rules on AI, and says the UK is in the \"best position\" to lead the charge.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 5,
-      "summary_bn": "",
-      "summary_en": "Brad Smith calls for global rules on AI, and says the UK is in the \"best position\" to lead the charge."
     },
     {
       "id": "609809c3f402",
@@ -512,19 +497,34 @@
       "summary_en": "My Muse agent told me its kink was exerting “control” and described pornographic encounters. Meta defends its cuddly AI ..."
     },
     {
-      "id": "a3fa433841e5",
-      "title": "Kindle Aluminum Review (2026): Gorgeous, but Expensive",
-      "link": "https://www.wired.com/review/kindle-aluminum-2026/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-10-12T09:04:00Z",
-      "description": "The gorgeous blue finish and premium feel won me over, but the reading experience offers few reasons to replace a working Kindle.",
+      "id": "0b28be7298fc",
+      "title": "Dating app Bumble in $1bn takeover talks, say reports",
+      "link": "https://www.bbc.co.uk/news/articles/cm9qzwjgnjxlo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC",
+      "sourceIcon": "bbc",
+      "pubDate": "2026-10-13T01:50:47Z",
+      "description": "The dating app which recently ditched its \"women-first\" chat rule could be bought by an investment firm.",
       "topic": "Other",
       "topicIcon": "📰",
-      "importance": 3,
+      "importance": 4,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "The dating app which recently ditched its \"women-first\" chat rule could be bought by an investment firm."
+    },
+    {
+      "id": "96ffd6a2f3d8",
+      "title": "6 Best Coffee Grinders Based on Particle Analysis and Tasting (2026)",
+      "link": "https://www.wired.com/gallery/best-coffee-grinders-2026/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-10-13T09:02:00Z",
+      "description": "We used particle size analysis and real-world testing to find the best conical burr, flat burr, and blade grinders for every budget and style of coffee drinker.",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 4,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "The gorgeous blue finish and premium feel won me over, but the reading experience offers few reasons to replace a workin..."
+      "summary_en": "We used particle size analysis and real-world testing to find the best conical burr, flat burr, and blade grinders for e..."
     },
     {
       "id": "37763b207925",
@@ -668,7 +668,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-10-12T18:29:04Z",
-      "description": "Article URL: https://github.com/openai/codex/issues/48195 Comments URL: https://news.ycombinator.com/item?id=50060694 Points: 447 # Comments: 229",
+      "description": "Article URL: https://github.com/openai/codex/issues/48195 Comments URL: https://news.ycombinator.com/item?id=50060694 Points: 556 # Comments: 273",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 3,
@@ -683,13 +683,13 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-10-12T21:03:36Z",
-      "description": "Article URL: https://brickbrag.com/ Comments URL: https://news.ycombinator.com/item?id=50063042 Points: 24 # Comments: 9",
+      "description": "Article URL: https://brickbrag.com/ Comments URL: https://news.ycombinator.com/item?id=50063042 Points: 64 # Comments: 37",
       "topic": "Web/JavaScript",
       "topicIcon": "🌐",
       "importance": 3,
       "reliability": 3,
       "summary_bn": "",
-      "summary_en": "Article URL: https://brickbrag.com/ Comments URL: https://news.ycombinator.com/item?id=50063042 Points: 24 # Comments: 9"
+      "summary_en": "Article URL: https://brickbrag.com/ Comments URL: https://news.ycombinator.com/item?id=50063042 Points: 64 # Comments: 3..."
     },
     {
       "id": "e50abc02ffcc",
@@ -713,7 +713,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-10-12T22:05:43Z",
-      "description": "Article URL: https://github.com/prabanta-dev/janas Comments URL: https://news.ycombinator.com/item?id=50063717 Points: 19 # Comments: 6",
+      "description": "Article URL: https://github.com/prabanta-dev/janas Comments URL: https://news.ycombinator.com/item?id=50063717 Points: 132 # Comments: 41",
       "topic": "Hardware",
       "topicIcon": "💻",
       "importance": 3,
@@ -722,34 +722,34 @@
       "summary_en": "Article URL: https://github.com/prabanta-dev/janas Comments URL: https://news.ycombinator.com/item?id=50063717 Points: 1..."
     },
     {
-      "id": "e71895561593",
-      "title": "Blood cells from 80-year-old donor become stem cells with molecular age under 20",
-      "link": "https://doi.org/10.1111/acel.70751",
+      "id": "233e30c6f22d",
+      "title": "Show HN: SolidCraft – Open-Source Parametric CAD in Rust (With MCP Support)",
+      "link": "https://github.com/bherbruck/solidcraft",
       "source": "Hacker News",
       "sourceIcon": "hn",
-      "pubDate": "2026-10-12T23:34:22Z",
-      "description": "Article URL: https://doi.org/10.1111/acel.70751 Comments URL: https://news.ycombinator.com/item?id=50064536 Points: 67 # Comments: 22",
-      "topic": "Startups",
-      "topicIcon": "🚀",
+      "pubDate": "2026-10-13T00:11:04Z",
+      "description": "Article URL: https://github.com/bherbruck/solidcraft Comments URL: https://news.ycombinator.com/item?id=50064840 Points: 55 # Comments: 8",
+      "topic": "Open Source",
+      "topicIcon": "🔓",
       "importance": 3,
       "reliability": 3,
       "summary_bn": "",
-      "summary_en": "Article URL: https://doi.org/10.1111/acel.70751 Comments URL: https://news.ycombinator.com/item?id=50064536 Points: 67 #..."
+      "summary_en": "Article URL: https://github.com/bherbruck/solidcraft Comments URL: https://news.ycombinator.com/item?id=50064840 Points:..."
     },
     {
-      "id": "c56e71953c1a",
-      "title": "Kevin Kelly's 2016 AI Predictions, 10 Years Later",
-      "link": "https://taylor.town/kk-ai-2026",
+      "id": "a4ff4cfab3e0",
+      "title": "A look at the math that OpenAI claims computes faster Fourier transforms",
+      "link": "https://www.argmin.net/p/faster-fourier-transforms",
       "source": "Hacker News",
       "sourceIcon": "hn",
-      "pubDate": "2026-10-12T15:16:45Z",
-      "description": "Article URL: https://taylor.town/kk-ai-2026 Comments URL: https://news.ycombinator.com/item?id=50057668 Points: 135 # Comments: 41",
+      "pubDate": "2026-10-13T02:46:43Z",
+      "description": "Article URL: https://www.argmin.net/p/faster-fourier-transforms Comments URL: https://news.ycombinator.com/item?id=50065932 Points: 125 # Comments: 91",
       "topic": "AI/ML",
       "topicIcon": "🤖",
-      "importance": 2,
+      "importance": 3,
       "reliability": 3,
       "summary_bn": "",
-      "summary_en": "Article URL: https://taylor.town/kk-ai-2026 Comments URL: https://news.ycombinator.com/item?id=50057668 Points: 135 # Co..."
+      "summary_en": "Article URL: https://www.argmin.net/p/faster-fourier-transforms Comments URL: https://news.ycombinator.com/item?id=50065..."
     }
   ]
 }
