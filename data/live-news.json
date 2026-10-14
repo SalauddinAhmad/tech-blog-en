@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-14T07:44:01+06:00",
+  "lastUpdated": "2026-10-14T13:22:29+06:00",
   "news": [
     {
       "id": "a814e655ef43",
@@ -623,7 +623,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-10-13T19:11:48Z",
-      "description": "Guitoro is a free browser guitar using recordings of real instruments. You can strum with your keyboard, mouse, or touchscreen, choose acoustic, classical, electric guitar or bass, and see chord fingering and each stroke. Song practice can be slowed to 20%, and there are free chord tools and tuners. No signup or download. 1 minute video demo: https://youtu.be/DtcluMLdSgs I would love feedback on how the strumming feels and sounds. Comments URL: https://news.ycombinator.com/item?id=50077020 Points: 264 # Comments: 81",
+      "description": "Guitoro is a free browser guitar using recordings of real instruments. You can strum with your keyboard, mouse, or touchscreen, choose acoustic, classical, electric guitar or bass, and see chord fingering and each stroke. Song practice can be slowed to 20%, and there are free chord tools and tuners. No signup or download. 1 minute video demo: https://youtu.be/DtcluMLdSgs I would love feedback on how the strumming feels and sounds. Comments URL: https://news.ycombinator.com/item?id=50077020 Points: 395 # Comments: 104",
       "topic": "Web/JavaScript",
       "topicIcon": "🌐",
       "importance": 4,
@@ -737,19 +737,19 @@
       "summary_en": "Industrial Next helps manufacturers automate complex, delicate tasks that have traditionally required human labor."
     },
     {
-      "id": "d4f2375d0843",
-      "title": "Is it OK for jobseekers or employers to use AI?",
-      "link": "https://www.bbc.co.uk/news/articles/c623dnkn8pkyo?at_medium=RSS&at_campaign=rss",
+      "id": "681dcee3dafd",
+      "title": "How long will humans be needed for translation?",
+      "link": "https://www.bbc.co.uk/news/articles/c1wxdjx27ypo?at_medium=RSS&at_campaign=rss",
       "source": "BBC",
       "sourceIcon": "bbc",
-      "pubDate": "2026-10-13T23:04:39Z",
-      "description": "Graduates are increasingly using AI to misrepresent themselves in job applications, research suggests. But some say their peer group has no choice.",
+      "pubDate": "2026-10-13T23:05:29Z",
+      "description": "AI dominates the translation business, but for high-stakes work, humans are still needed.",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 4,
       "reliability": 5,
       "summary_bn": "",
-      "summary_en": "Graduates are increasingly using AI to misrepresent themselves in job applications, research suggests. But some say thei..."
+      "summary_en": "AI dominates the translation business, but for high-stakes work, humans are still needed."
     }
   ]
 }
