@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T06:46:51+06:00",
+  "lastUpdated": "2026-10-18T11:38:19+06:00",
   "news": [
     {
       "id": "ead9ea938e0f",
@@ -17,21 +17,6 @@
       "summary_en": "The single-player is just OK, but according to the players, that doesn't matter."
     },
     {
-      "id": "6ea16c172c83",
-      "title": "OpenCode Hacked: User credentials leaked",
-      "link": "https://twitter.com/opencode/status/2111516673953935833",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-10-17T18:01:41Z",
-      "description": "Article URL: https://twitter.com/opencode/status/2111516673953935833 Comments URL: https://news.ycombinator.com/item?id=50133401 Points: 715 # Comments: 121",
-      "topic": "Security",
-      "topicIcon": "🔒",
-      "importance": 5,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://twitter.com/opencode/status/2111516673953935833 Comments URL: https://news.ycombinator.com/item?id=..."
-    },
-    {
       "id": "56e185745856",
       "title": "No further action against government adviser's wife over Palestine Action post, police say",
       "link": "https://www.bbc.co.uk/news/articles/cv8ez40yz950o?at_medium=RSS&at_campaign=rss",
@@ -45,21 +30,6 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "Sarah Helm, who is married to Jonathan Powell, was responding to a discussion about the author Sally Rooney."
-    },
-    {
-      "id": "65d6194a8b19",
-      "title": "Mark Wahlberg wants to take on the longevity-startup crowd with an affordable gym concept",
-      "link": "https://techcrunch.com/2026/10/16/mark-wahlberg-wants-to-take-on-the-longevity-startup-crowd-with-an-affordable-gym-concept/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-10-17T02:36:18Z",
-      "description": "Mark Wahlberg, who once sank money into a gym chain that got kicked off the NYSE, is now building his own, and he promises you’ll get a cold plunge, a blood panel and a protein muffin without needing a trust fund.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Mark Wahlberg, who once sank money into a gym chain that got kicked off the NYSE, is now building his own, and he promis..."
     },
     {
       "id": "096a6a6b7c70",
@@ -272,21 +242,6 @@
       "summary_en": "A Meta spokesperson insisted that the updated terms did not reflect a change in the way Meta crawls the web."
     },
     {
-      "id": "5cf8bc3a52e1",
-      "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
-      "link": "https://llmspeed.dev/",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-10-17T04:36:53Z",
-      "description": "Article URL: https://llmspeed.dev/ Comments URL: https://news.ycombinator.com/item?id=50127979 Points: 243 # Comments: 77",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 3,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://llmspeed.dev/ Comments URL: https://news.ycombinator.com/item?id=50127979 Points: 243 # Comments: 7..."
-    },
-    {
       "id": "22e1aad76940",
       "title": "Why AI Isn’t Ready to Tackle Our Convoluted Genomes",
       "link": "https://www.wired.com/story/why-ai-isnt-ready-to-tackle-our-convoluted-genomes/",
@@ -407,21 +362,6 @@
       "summary_en": "In 2024, Elon Musk promised to give away $1 million a day to a randomly selected registered voter in a swing state. That..."
     },
     {
-      "id": "1d7e723c4053",
-      "title": "Microsoft and CMU team up to train early career software engineers",
-      "link": "https://www.cs.cmu.edu/news/2026/microsoft-cmu-praise",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-10-17T18:45:07Z",
-      "description": "Article URL: https://www.cs.cmu.edu/news/2026/microsoft-cmu-praise Comments URL: https://news.ycombinator.com/item?id=50133830 Points: 56 # Comments: 65",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 3,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://www.cs.cmu.edu/news/2026/microsoft-cmu-praise Comments URL: https://news.ycombinator.com/item?id=50..."
-    },
-    {
       "id": "e41822633f70",
       "title": "TikTok bans Musk documentary account",
       "link": "https://www.theverge.com/tech/1013453/tiktok-bans-alex-gibneys-musk-documentary",
@@ -437,49 +377,49 @@
       "summary_en": "Just ahead of the wider release of Alex Gibney's Musk documentary, TikTok has banned the film's social media account fro..."
     },
     {
-      "id": "a1373acbedc5",
-      "title": "Chrome and Edge are removing XSLT: what breaks and what does not",
-      "link": "https://doctor-seo.net/en/blog/news/chrome-edge-removing-xslt/",
+      "id": "e49124370cef",
+      "title": "NY announces game ownership bill requiring ownership rather than licensing",
+      "link": "https://www.tomshardware.com/video-games/new-york-rep-announces-game-ownership-bill-that-would-require-consumer-ownership-rather-than-sale-of-licenses-would-also-require-publishers-to-keep-the-game-functional-after-support-ends",
       "source": "Hacker News",
       "sourceIcon": "hn",
-      "pubDate": "2026-10-17T20:07:33Z",
-      "description": "Article URL: https://doctor-seo.net/en/blog/news/chrome-edge-removing-xslt/ Comments URL: https://news.ycombinator.com/item?id=50134617 Points: 74 # Comments: 73",
+      "pubDate": "2026-10-18T00:14:22Z",
+      "description": "Article URL: https://www.tomshardware.com/video-games/new-york-rep-announces-game-ownership-bill-that-would-require-consumer-ownership-rather-than-sale-of-licenses-would-also-require-publishers-to-keep-the-game-functional-after-support-ends Comments URL: https://news.ycombinator.com/item?id=50136536 Points: 181 # Comments: 48",
+      "topic": "Hardware",
+      "topicIcon": "💻",
+      "importance": 3,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "Article URL: https://www.tomshardware.com/video-games/new-york-rep-announces-game-ownership-bill-that-would-require-cons..."
+    },
+    {
+      "id": "69ea77dfc1c5",
+      "title": "How the Elizabeth Holmes Doc 'You Can See Everything' Is Deceiving You",
+      "link": "https://www.readtheprofile.com/p/elizabeth-holmes-documentary-you-can-see-everything",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-10-18T03:19:49Z",
+      "description": "Article URL: https://www.readtheprofile.com/p/elizabeth-holmes-documentary-you-can-see-everything Comments URL: https://news.ycombinator.com/item?id=50137620 Points: 47 # Comments: 22",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 3,
       "reliability": 3,
       "summary_bn": "",
-      "summary_en": "Article URL: https://doctor-seo.net/en/blog/news/chrome-edge-removing-xslt/ Comments URL: https://news.ycombinator.com/i..."
+      "summary_en": "Article URL: https://www.readtheprofile.com/p/elizabeth-holmes-documentary-you-can-see-everything Comments URL: https://..."
     },
     {
-      "id": "07cd96b9ae62",
-      "title": "A skeptic's first contact with Kubernetes (2024)",
-      "link": "https://blog.davidv.dev/posts/first-contact-with-k8s/",
+      "id": "0e1c32a585dd",
+      "title": "Show HN: Sphinx – a hook that quizzes you on your AI's code before shipping",
+      "link": "https://sphinx-six-theta.vercel.app/",
       "source": "Hacker News",
       "sourceIcon": "hn",
-      "pubDate": "2026-10-17T03:16:25Z",
-      "description": "Article URL: https://blog.davidv.dev/posts/first-contact-with-k8s/ Comments URL: https://news.ycombinator.com/item?id=50127572 Points: 77 # Comments: 39",
-      "topic": "Cloud/DevOps",
-      "topicIcon": "☁️",
-      "importance": 2,
+      "pubDate": "2026-10-18T04:33:49Z",
+      "description": "FOSS, Basically it plugs into your existing coding agent workflow and every time you push to prod it'll throw up a questionnaire that checks if you understand how the code you're pushing works. Comments URL: https://news.ycombinator.com/item?id=50137950 Points: 16 # Comments: 2",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 3,
       "reliability": 3,
       "summary_bn": "",
-      "summary_en": "Article URL: https://blog.davidv.dev/posts/first-contact-with-k8s/ Comments URL: https://news.ycombinator.com/item?id=50..."
-    },
-    {
-      "id": "3a9452c54f6f",
-      "title": "Source code of the Estonian online voting system",
-      "link": "https://github.com/valimised/ivxv",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-10-17T03:18:39Z",
-      "description": "Article URL: https://github.com/valimised/ivxv Comments URL: https://news.ycombinator.com/item?id=50127586 Points: 151 # Comments: 132",
-      "topic": "Startups",
-      "topicIcon": "🚀",
-      "importance": 2,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://github.com/valimised/ivxv Comments URL: https://news.ycombinator.com/item?id=50127586 Points: 151 #..."
+      "summary_en": "FOSS, Basically it plugs into your existing coding agent workflow and every time you push to prod it'll throw up a quest..."
     },
     {
       "id": "cac24968e5aa",
@@ -488,7 +428,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-10-17T08:21:25Z",
-      "description": "https://api-docs.deepseek.com/news/news261017/ https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017 Comments URL: https://news.ycombinator.com/item?id=50129045 Points: 673 # Comments: 572",
+      "description": "https://api-docs.deepseek.com/news/news261017/ https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017 Comments URL: https://news.ycombinator.com/item?id=50129045 Points: 776 # Comments: 618",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 2,
@@ -497,19 +437,19 @@
       "summary_en": "https://api-docs.deepseek.com/news/news261017/ https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017 Comments URL: htt..."
     },
     {
-      "id": "d2c0fb4efec8",
-      "title": "The future of programming (1982)",
-      "link": "https://dl.acm.org/doi/10.1145/358453.358459",
+      "id": "6cb03e9bf9e9",
+      "title": "Interactive Linear Programming in the Browser",
+      "link": "https://lpviz.net/",
       "source": "Hacker News",
       "sourceIcon": "hn",
-      "pubDate": "2026-10-17T11:20:52Z",
-      "description": "Article URL: https://dl.acm.org/doi/10.1145/358453.358459 Comments URL: https://news.ycombinator.com/item?id=50130079 Points: 53 # Comments: 13",
-      "topic": "Hardware",
-      "topicIcon": "💻",
+      "pubDate": "2026-10-17T12:06:44Z",
+      "description": "Article URL: https://lpviz.net/ Comments URL: https://news.ycombinator.com/item?id=50130379 Points: 4 # Comments: 0",
+      "topic": "Web/JavaScript",
+      "topicIcon": "🌐",
       "importance": 2,
       "reliability": 3,
       "summary_bn": "",
-      "summary_en": "Article URL: https://dl.acm.org/doi/10.1145/358453.358459 Comments URL: https://news.ycombinator.com/item?id=50130079 Po..."
+      "summary_en": "Article URL: https://lpviz.net/ Comments URL: https://news.ycombinator.com/item?id=50130379 Points: 4 # Comments: 0"
     },
     {
       "id": "170851101c2f",
@@ -518,13 +458,13 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-10-17T13:28:46Z",
-      "description": "Article URL: https://celphase.github.io/duck-pond/ Comments URL: https://news.ycombinator.com/item?id=50131006 Points: 76 # Comments: 23",
+      "description": "Article URL: https://celphase.github.io/duck-pond/ Comments URL: https://news.ycombinator.com/item?id=50131006 Points: 106 # Comments: 27",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 2,
       "reliability": 3,
       "summary_bn": "",
-      "summary_en": "Article URL: https://celphase.github.io/duck-pond/ Comments URL: https://news.ycombinator.com/item?id=50131006 Points: 7..."
+      "summary_en": "Article URL: https://celphase.github.io/duck-pond/ Comments URL: https://news.ycombinator.com/item?id=50131006 Points: 1..."
     },
     {
       "id": "02427232eda6",
@@ -533,7 +473,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-10-17T13:51:08Z",
-      "description": "Hi HN, I’ve been working on esp32sim, an open-source ESP32 emulator that runs in the browser. The fun part of the demo is that there is no ESP32 involved — the firmware is executing in the emulator. The goal is to make ESP32 software easier to experiment with, test and simulate without always needing physical hardware connected. Source: https://github.com/mikroverk/esp32sim I made a short video showing it in action: https://youtu.be/waoWFilTWEc I’m particularly interested in feedback from embedded developers: what would an emulator like this need to support before you’d actually use it for development, testing or CI? Comments URL: https://news.ycombinator.com/item?id=50131189 Points: 114 # Comments: 11",
+      "description": "Hi HN, I’ve been working on esp32sim, an open-source ESP32 emulator that runs in the browser. The fun part of the demo is that there is no ESP32 involved — the firmware is executing in the emulator. The goal is to make ESP32 software easier to experiment with, test and simulate without always needing physical hardware connected. Source: https://github.com/mikroverk/esp32sim I made a short video showing it in action: https://youtu.be/waoWFilTWEc I’m particularly interested in feedback from embedded developers: what would an emulator like this need to support before you’d actually use it for development, testing or CI? Comments URL: https://news.ycombinator.com/item?id=50131189 Points: 146 # Comments: 15",
       "topic": "Web/JavaScript",
       "topicIcon": "🌐",
       "importance": 2,
@@ -548,7 +488,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-10-17T13:55:28Z",
-      "description": "Article URL: https://chillphysicsenjoyer.substack.com/p/making-chicken-transparent-using Comments URL: https://news.ycombinator.com/item?id=50131213 Points: 246 # Comments: 64",
+      "description": "Article URL: https://chillphysicsenjoyer.substack.com/p/making-chicken-transparent-using Comments URL: https://news.ycombinator.com/item?id=50131213 Points: 281 # Comments: 71",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 2,
@@ -563,7 +503,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-10-17T14:01:01Z",
-      "description": "Article URL: https://www.pv-magazine.com/2026/09/29/solar-surpasses-nuclear-power-globally-for-first-time/ Comments URL: https://news.ycombinator.com/item?id=50131256 Points: 459 # Comments: 301",
+      "description": "Article URL: https://www.pv-magazine.com/2026/09/29/solar-surpasses-nuclear-power-globally-for-first-time/ Comments URL: https://news.ycombinator.com/item?id=50131256 Points: 534 # Comments: 328",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 2,
@@ -578,13 +518,13 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-10-17T15:55:09Z",
-      "description": "Article URL: https://pele.run/ Comments URL: https://news.ycombinator.com/item?id=50132193 Points: 210 # Comments: 24",
+      "description": "Article URL: https://pele.run/ Comments URL: https://news.ycombinator.com/item?id=50132193 Points: 337 # Comments: 30",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 2,
       "reliability": 3,
       "summary_bn": "",
-      "summary_en": "Article URL: https://pele.run/ Comments URL: https://news.ycombinator.com/item?id=50132193 Points: 210 # Comments: 24"
+      "summary_en": "Article URL: https://pele.run/ Comments URL: https://news.ycombinator.com/item?id=50132193 Points: 337 # Comments: 30"
     },
     {
       "id": "5ae5c54823aa",
@@ -608,7 +548,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-10-17T17:06:07Z",
-      "description": "Article URL: https://www.numismaticnews.net/gold-now-top-u-s-export Comments URL: https://news.ycombinator.com/item?id=50132870 Points: 210 # Comments: 114",
+      "description": "Article URL: https://www.numismaticnews.net/gold-now-top-u-s-export Comments URL: https://news.ycombinator.com/item?id=50132870 Points: 290 # Comments: 149",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 2,
@@ -623,7 +563,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-10-17T17:36:17Z",
-      "description": "Article URL: https://www.derekwessman.com/blog-1/natural Comments URL: https://news.ycombinator.com/item?id=50133150 Points: 135 # Comments: 56",
+      "description": "Article URL: https://www.derekwessman.com/blog-1/natural Comments URL: https://news.ycombinator.com/item?id=50133150 Points: 190 # Comments: 102",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 2,
@@ -638,7 +578,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-10-17T17:45:08Z",
-      "description": "Article URL: https://github.com/openai/codex/issues/25921 Comments URL: https://news.ycombinator.com/item?id=50133231 Points: 59 # Comments: 25",
+      "description": "Article URL: https://github.com/openai/codex/issues/25921 Comments URL: https://news.ycombinator.com/item?id=50133231 Points: 111 # Comments: 39",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 2,
@@ -647,19 +587,19 @@
       "summary_en": "Article URL: https://github.com/openai/codex/issues/25921 Comments URL: https://news.ycombinator.com/item?id=50133231 Po..."
     },
     {
-      "id": "c13d0a533fa9",
-      "title": "JDK 28",
-      "link": "https://openjdk.org/projects/jdk/28/",
+      "id": "34d502653d65",
+      "title": "A Mole Infiltrated the Highest Ranks of American Militias",
+      "link": "https://www.propublica.org/article/ap3-oath-keepers-militia-mole",
       "source": "Hacker News",
       "sourceIcon": "hn",
-      "pubDate": "2026-10-17T21:37:07Z",
-      "description": "Article URL: https://openjdk.org/projects/jdk/28/ Comments URL: https://news.ycombinator.com/item?id=50135379 Points: 40 # Comments: 18",
+      "pubDate": "2026-10-18T04:59:24Z",
+      "description": "Article URL: https://www.propublica.org/article/ap3-oath-keepers-militia-mole Comments URL: https://news.ycombinator.com/item?id=50138044 Points: 13 # Comments: 0",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 2,
       "reliability": 3,
       "summary_bn": "",
-      "summary_en": "Article URL: https://openjdk.org/projects/jdk/28/ Comments URL: https://news.ycombinator.com/item?id=50135379 Points: 40..."
+      "summary_en": "Article URL: https://www.propublica.org/article/ap3-oath-keepers-militia-mole Comments URL: https://news.ycombinator.com..."
     }
   ]
 }
