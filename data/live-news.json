@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-20T06:13:06+06:00",
+  "lastUpdated": "2026-10-20T11:48:25+06:00",
   "news": [
     {
       "id": "e3d5ab0af1ce",
@@ -62,21 +62,6 @@
       "summary_en": "The entertainment giant hopes to get trust and safety tech, among other IP, from a startup whose chatbots dozens of stat..."
     },
     {
-      "id": "6a23445afa18",
-      "title": "Launch HN: Laminar (YC S24) – RL-trained model that finds errors in agent traces",
-      "link": "https://news.ycombinator.com/item?id=50154029",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-10-19T16:00:18Z",
-      "description": "Hi HN, we’re Robert and Din from Laminar ( https://laminar.sh ). We’ve been building open-source observability for AI agents since 2024. Recently, we released flow-1, a model trained with RL to find errors in agent traces. On our benchmark ( https://laminar.sh/blog/flow-1 ), it matches GPT-6-sol in detection quality while being 23x cheaper. This makes it affordable to analyze every production agent trace, without sampling. Here’s a one-minute walkthrough: https://youtu.be/KJa3h6ZJNLQ We also put together a post with example traces and analyses from flow-1 and other models: https://laminar.sh/blog/flow-1-in-action Agent observability is crowded, so instead of a bullet list of how Laminar differs from X, we’ll explain how we’re solving agent observability from first principles. Agents now run for many steps and fail implicitly. An agent can click the wrong button or cite the wrong document while every call completes successfully. These errors are the most useful ones to catch and understand. To find them, you need to understand what the agent was trying to do and inspect its LLM calls and tool results. Simply looking at the final agent output is not enough. Collecting traces alone doesn’t solve this. A lot of agent observability platforms are still data collectors at their core. You can end up paying to store traces that nobody has time to read or extract value from. Using another LLM to inspect traces is THE solution, but capable models are expensive at scale and cheaper ones often miss errors or flag unrelated things. So we built our model to solve exactly this problem. We finetuned a small OSS model and then post trained it with RL on thousands of synthetic investigations of realistic agent workflows in software, legal, customer support, etc. We got a model that is both good at agent trace analysis and very cheap to run. flow-1 runs inside a harness we call Signals. It acts as a coding agent, treating an agent trace like a repo, with each span (an LLM call, tool call, etc.) as a file. It starts from a compressed string representation of a full agent trace and a user prompt, then greps across spans and reads the relevant ones in full. The beauty of Signals is that it can respond to a general prompt. You can ask it to identify user frustration, check whether your browser agent completed a checkout, and so on. It’s not limited to raw error detection. It returns findings as JSON in a schema users can freely define. We call these signal events. Once you’re analyzing every trace, you also have too many individual events to read. That’s why we automatically group similar signal events into clusters. You can see recurring problems and how often they happen, then drill into individual events and the traces behind them. You can use traces from a cluster to build an eval dataset for that type of failure. You can then use your favourite coding agent to hillclimb on those evals and check that the fix works across these cases before shipping it to prod. Trace → analyze → catch errors and form clusters → fix → release. Making this loop easy is why we built Laminar. We’ve put the same thought into the rest of Laminar. Our blog ( https://laminar.sh/blog ) explains how looking closely at how agents actually work led us to build 20x trace compression, a custom SQL query engine and automatic task extraction. Laminar is Apache 2.0 and self-hostable ( https://github.com/lmnr-ai/lmnr ). We make money from the managed cloud. We’d love to hear how you track your agents’ performance today. How much do you learn from user feedback versus your own monitoring? And when you fix something, how do you check that it hasn’t introduced a different failure? Comments URL: https://news.ycombinator.com/item?id=50154029 Points: 44 # Comments: 22",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 7,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Hi HN, we’re Robert and Din from Laminar ( https://laminar.sh ). We’ve been building open-source observability for AI ag..."
-    },
-    {
       "id": "93bc531bda3a",
       "title": "PSA: Patch your Plex media server before someone hacks it",
       "link": "https://arstechnica.com/security/2026/10/recently-fixed-plex-media-vulnerabilities-are-being-exploited-to-install-malware/",
@@ -90,21 +75,6 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "A researcher says attacks chaining 4 vulnerabilities is hacking unpatched boxes."
-    },
-    {
-      "id": "65347ca450d8",
-      "title": "Plex vulnerabilities being exploited in the wild to drop a cryptominer",
-      "link": "http://www.boredhackerblog.info/2026/10/plex-vulnerabilities-being-exploited-in.html",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-10-19T13:36:43Z",
-      "description": "Article URL: http://www.boredhackerblog.info/2026/10/plex-vulnerabilities-being-exploited-in.html Comments URL: https://news.ycombinator.com/item?id=50152321 Points: 139 # Comments: 65",
-      "topic": "Security",
-      "topicIcon": "🔒",
-      "importance": 6,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: http://www.boredhackerblog.info/2026/10/plex-vulnerabilities-being-exploited-in.html Comments URL: https://..."
     },
     {
       "id": "ea3b81d8158f",
@@ -137,34 +107,34 @@
       "summary_en": "AI assistant startup Town nabbed a unicorn valuation on Monday, announcing a $108 million Series B round co-led by Forer..."
     },
     {
-      "id": "68a6b53f34de",
-      "title": "Nscale and Anthropic are reportedly in talks for yet another $45 billion compute deal",
-      "link": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-10-19T23:39:38Z",
-      "description": "In August, Nscale and Anthropic announced a $45 billion compute deal. The two companies are reportedly discussing yet another deal of the same magnitude.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 6,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "In August, Nscale and Anthropic announced a $45 billion compute deal. The two companies are reportedly discussing yet an..."
-    },
-    {
       "id": "fc3599f167b0",
-      "title": "France's Supermarket Fridges Were Vulnerable Online for Months",
+      "title": "France's supermarket fridges were vulnerable online for months",
       "link": "https://ipinfo.io/blog/france-fridges-hack",
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-10-20T00:00:49Z",
-      "description": "Article URL: https://ipinfo.io/blog/france-fridges-hack Comments URL: https://news.ycombinator.com/item?id=50159616 Points: 4 # Comments: 0",
+      "description": "Related: Hackers activate automatic defrosting in supermarket fridges across Europe - https://news.ycombinator.com/item?id=50055304 - Oct 2026 (1007 comments) Comments URL: https://news.ycombinator.com/item?id=50159616 Points: 89 # Comments: 71",
       "topic": "Security",
       "topicIcon": "🔒",
       "importance": 6,
       "reliability": 3,
       "summary_bn": "",
-      "summary_en": "Article URL: https://ipinfo.io/blog/france-fridges-hack Comments URL: https://news.ycombinator.com/item?id=50159616 Poin..."
+      "summary_en": "Related: Hackers activate automatic defrosting in supermarket fridges across Europe - https://news.ycombinator.com/item?..."
+    },
+    {
+      "id": "2bd238535e48",
+      "title": "Walmart’s Flipkart is quietly building a food delivery challenger in India",
+      "link": "https://techcrunch.com/2026/10/19/walmarts-flipkart-is-quietly-building-a-food-delivery-challenger-in-india/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-10-20T02:00:00Z",
+      "description": "Flipkart has expanded access to its food-delivery service to thousands of employees ahead of its public launch.",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 6,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Flipkart has expanded access to its food-delivery service to thousands of employees ahead of its public launch."
     },
     {
       "id": "717c5d08e907",
@@ -407,6 +377,36 @@
       "summary_en": "Congenital measles can be fatal, and survivors require monitoring for years."
     },
     {
+      "id": "74e54eaf5e34",
+      "title": "Baseus’ new security camera has a spotlight that tracks and follows moving targets",
+      "link": "https://www.theverge.com/tech/1005073/baseus-security-primesentinel-u2-pro-outdoor-3k-dual-camera-tracking-spotlight",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-10-20T04:00:00Z",
+      "description": "Baseus announced a new addition to its lineup of AI-assisted security cameras that's more proactive about discouraging unwanted visitors instead of just recording and alerting you to their presence. The Baseus Security PrimeSentinel U2 Pro Outdoor 3K Dual Camera introduces a motorized spotlight that shines directly on a moving target, even as they're running across [&#8230;]",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 5,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Baseus announced a new addition to its lineup of AI-assisted security cameras that's more proactive about discouraging u..."
+    },
+    {
+      "id": "f5650bacb7db",
+      "title": "Show HN: Death Plan Switch, a self-hosted dead man's switch for solo devs",
+      "link": "https://deathplanswitch.com/",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-10-20T04:37:43Z",
+      "description": "Hi HN, I'm Peter Bishop and I've been working in graphics and web tech for over 25yrs. I've recently launched Death Plan Switch to solve a major problem in my succession plan. What if I go missing or die? The right people are told and my business can continue to operate for my clients. There's a backstory to this project, I was hospitalised in 2012 and lost my business back then and I couldn't get the data to my technical 2IC in time without frustrating my clients. Death Plan Switch solves this problem, it's free to download and use or study under the MIT license. I've been using it for the last few weeks. It was authored with the help of Claude Code after writing an extensive MD document and it passed 42 unit tests. I hope you get some use out of it, or it inspires your own succession plans. My clients are telling me this is a strong sales feature when they trust me with their hosting and technology accounts. Happy to answer any questions. Kind regards, Peter Bishop. Comments URL: https://news.ycombinator.com/item?id=50161408 Points: 3 # Comments: 0",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 5,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "Hi HN, I'm Peter Bishop and I've been working in graphics and web tech for over 25yrs. I've recently launched Death Plan..."
+    },
+    {
       "id": "e5cad304e22b",
       "title": "China's growth accelerates as AI boom helps boost exports",
       "link": "https://www.bbc.co.uk/news/articles/cm5yn098xz8lo?at_medium=RSS&at_campaign=rss",
@@ -572,21 +572,6 @@
       "summary_en": "Claims that Uber misled TfL over its licence were thrown out because they were brought too late."
     },
     {
-      "id": "ced358144305",
-      "title": "Major European mobile carriers are teaming up for a &#8216;direct&#8217; satellite program without Starlink",
-      "link": "https://www.theverge.com/policy/1013680/european-mobile-carriers-mobile-satellite-starlink",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-10-19T14:24:42Z",
-      "description": "Deutsche Telekom, Orange, Telef&#243;nica, and Vodafone signed a letter of intent saying they're considering a joint bid for spectrum that would support European direct-to-device satellite competition for SpaceX's Starlink. The four telecom companies say they would handle the ground infrastructure while a separate, unannounced satellite partner provides the satellite constellation: The joint initiative by Deutsche [&#8230;]",
-      "topic": "Cloud/DevOps",
-      "topicIcon": "☁️",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Deutsche Telekom, Orange, Telef&#243;nica, and Vodafone signed a letter of intent saying they're considering a joint bid..."
-    },
-    {
       "id": "7bf27ea750e3",
       "title": "JB Pritzker thinks AI could help us live to 100 — or threaten us like nukes",
       "link": "https://www.theverge.com/podcast/1012839/pritzker-ai-privacy-data-centers-flock-congress-laws",
@@ -750,6 +735,21 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "A judge ordered Abdulrahman Alfozan to remain in custody, likening the Saudi government’s offer to secure the former Ope..."
+    },
+    {
+      "id": "c1dfee28d50b",
+      "title": "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool",
+      "link": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-10-19T20:09:24Z",
+      "description": "Amazon wants to break Nvidia’s hold on PyTorch, the free toolkit used to build most AI apps, so that more developers run their apps on alternative chips like its own.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Amazon wants to break Nvidia’s hold on PyTorch, the free toolkit used to build most AI apps, so that more developers run..."
     }
   ]
 }
