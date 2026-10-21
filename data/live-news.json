@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T10:14:46+06:00",
+  "lastUpdated": "2026-10-21T15:57:01+06:00",
   "news": [
     {
       "id": "e7e49edf8945",
@@ -8,28 +8,13 @@
       "source": "TechCrunch",
       "sourceIcon": "crunch",
       "pubDate": "2026-10-20T22:24:02Z",
-      "description": "Before you share the Netflix documentary \"AI Gone Rogue\" take note. Clem Delangue, Hugging Face's co-founder who is featured in the film, says it went \"full doomer mode\" and isn't accurate.",
+      "description": "Before you share the Netflix documentary \"AI Gone Rogue,\" take note. Clem Delangue, Hugging Face's co-founder who is featured in the film, says it went \"full doomer mode\" and isn't accurate.",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 8,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "Before you share the Netflix documentary \"AI Gone Rogue\" take note. Clem Delangue, Hugging Face's co-founder who is feat..."
-    },
-    {
-      "id": "f6e3170c2d58",
-      "title": "Japan launches mission to bring home a piece of the Martian moon Phobos",
-      "link": "https://arstechnica.com/space/2026/10/japan-launches-mission-to-bring-home-a-piece-of-the-martian-moon-phobos/",
-      "source": "Ars Technica",
-      "sourceIcon": "ars",
-      "pubDate": "2026-10-20T05:59:56Z",
-      "description": "The climax for MMX will come in 2029, when the spacecraft will attempt up to two landings on Phobos.",
-      "topic": "Other",
-      "topicIcon": "📰",
-      "importance": 7,
-      "reliability": 5,
-      "summary_bn": "",
-      "summary_en": "The climax for MMX will come in 2029, when the spacecraft will attempt up to two landings on Phobos."
+      "summary_en": "Before you share the Netflix documentary \"AI Gone Rogue,\" take note. Clem Delangue, Hugging Face's co-founder who is fea..."
     },
     {
       "id": "e2b10a07d524",
@@ -323,13 +308,13 @@
       "source": "TechCrunch",
       "sourceIcon": "crunch",
       "pubDate": "2026-10-20T20:40:41Z",
-      "description": "SpaceX hit profitably in the third-quarter, with net income of $4.4 billion. AI was the engine.",
+      "description": "SpaceX hit profitability in the third quarter, with net income of $4.4 billion. AI was the engine.",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 5,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "SpaceX hit profitably in the third-quarter, with net income of $4.4 billion. AI was the engine."
+      "summary_en": "SpaceX hit profitability in the third quarter, with net income of $4.4 billion. AI was the engine."
     },
     {
       "id": "8bc351df39b5",
@@ -362,34 +347,19 @@
       "summary_en": "Guinea-Bissau police said hepatitis B vaccine doses were taken as part of an investigation."
     },
     {
-      "id": "8d22fc4debd3",
-      "title": "Why does Elon Musk want to merge Tesla and SpaceX?",
-      "link": "https://www.bbc.co.uk/news/articles/cr93z1e87e0do?at_medium=RSS&at_campaign=rss",
+      "id": "3dc6f12e33fb",
+      "title": "Elon Musk confirms he is considering merging Tesla and SpaceX",
+      "link": "https://www.bbc.co.uk/news/articles/cmlyl09xjke4o?at_medium=RSS&at_campaign=rss",
       "source": "BBC",
       "sourceIcon": "bbc",
-      "pubDate": "2026-10-21T04:13:14Z",
-      "description": "Musk, who is CEO of both companies, says there is \"a lot to be gained\" from the merger, which would be the biggest in history.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
+      "pubDate": "2026-10-21T08:42:49Z",
+      "description": "Musk says special committees within both companies have been formed to look at a possible mega-merger.",
+      "topic": "Other",
+      "topicIcon": "📰",
       "importance": 5,
       "reliability": 5,
       "summary_bn": "",
-      "summary_en": "Musk, who is CEO of both companies, says there is \"a lot to be gained\" from the merger, which would be the biggest in hi..."
-    },
-    {
-      "id": "2ae35424bfad",
-      "title": "How to See the Orionid Meteor Shower and Other Upcoming Astronomical Events",
-      "link": "https://www.wired.com/story/how-to-see-the-orionid-meteor-shower-and-other-upcoming-astronomical-events/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-10-20T09:30:00Z",
-      "description": "Made up of small fragments left behind by Halley’s Comet, these meteors are known for being especially bright and speedy.",
-      "topic": "Hardware",
-      "topicIcon": "💻",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Made up of small fragments left behind by Halley’s Comet, these meteors are known for being especially bright and speedy..."
+      "summary_en": "Musk says special committees within both companies have been formed to look at a possible mega-merger."
     },
     {
       "id": "24f56836c8ea",
@@ -750,6 +720,36 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Tesla and SpaceX have formed special committees to discuss a possible merger, Elon Musk said during the latter's third q..."
+    },
+    {
+      "id": "5df9a1ffe6d9",
+      "title": "Merging SpaceX and Tesla would be a \"good idea,\" Musk says",
+      "link": "https://arstechnica.com/space/2026/10/spacex-and-tesla-into-a-single-company-has-a-lot-of-merit-musk-says/",
+      "source": "Ars Technica",
+      "sourceIcon": "ars",
+      "pubDate": "2026-10-20T22:04:54Z",
+      "description": "\"I do think there's a lot of merit to combining the companies.\"",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 4,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "\"I do think there's a lot of merit to combining the companies.\""
+    },
+    {
+      "id": "83001c452dbb",
+      "title": "SpaceX and Tesla boards form special committees to review merger",
+      "link": "https://techcrunch.com/2026/10/20/spacex-and-tesla-boards-form-special-committees-to-review-merger/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-10-20T22:57:57Z",
+      "description": "Elon Musk likes the idea but says he is not on either committee, which is made up of independent directors.",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Elon Musk likes the idea but says he is not on either committee, which is made up of independent directors."
     }
   ]
 }
