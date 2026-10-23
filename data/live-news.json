@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-23T10:18:32+06:00",
+  "lastUpdated": "2026-10-23T15:51:53+06:00",
   "news": [
     {
       "id": "2ca8afa9f4ea",
@@ -182,21 +182,6 @@
       "summary_en": "Canva is diving even deeper into AI with the launch of an image generation model that competes directly with those from ..."
     },
     {
-      "id": "2a375ccbde88",
-      "title": "UK working to identify exposure after global cyber-security warning",
-      "link": "https://www.bbc.co.uk/news/articles/cmx23d0k57d3o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC",
-      "sourceIcon": "bbc",
-      "pubDate": "2026-10-22T08:23:42Z",
-      "description": "Governments and companies are scrambling to protect their websites, as Amazon says it experienced attacks before the warning was made public.",
-      "topic": "Security",
-      "topicIcon": "🔒",
-      "importance": 5,
-      "reliability": 5,
-      "summary_bn": "",
-      "summary_en": "Governments and companies are scrambling to protect their websites, as Amazon says it experienced attacks before the war..."
-    },
-    {
       "id": "618affb72c51",
       "title": "'500 new vulnerabilities' found in government, says AI minister",
       "link": "https://www.bbc.co.uk/news/videos/c6y8lvg2p50po?at_medium=RSS&at_campaign=rss",
@@ -293,13 +278,13 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-10-22T15:26:22Z",
-      "description": "https://hackios-web.vercel.app/en Comments URL: https://news.ycombinator.com/item?id=50196718 Points: 353 # Comments: 132",
+      "description": "https://hackios-web.vercel.app/en Comments URL: https://news.ycombinator.com/item?id=50196718 Points: 437 # Comments: 149",
       "topic": "Mobile",
       "topicIcon": "📱",
       "importance": 5,
       "reliability": 3,
       "summary_bn": "",
-      "summary_en": "https://hackios-web.vercel.app/en Comments URL: https://news.ycombinator.com/item?id=50196718 Points: 353 # Comments: 13..."
+      "summary_en": "https://hackios-web.vercel.app/en Comments URL: https://news.ycombinator.com/item?id=50196718 Points: 437 # Comments: 14..."
     },
     {
       "id": "bb883487b1ce",
@@ -557,6 +542,21 @@
       "summary_en": "Spotify co-CEO Alex Norstr&#246;m confirmed on this week's earnings call that the company is trying to catch Spotify Fam..."
     },
     {
+      "id": "ec015794c16e",
+      "title": "8 Things to Know About the iPhone Duo",
+      "link": "https://www.wired.com/story/8-things-to-know-about-the-apple-iphone-duo/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-10-23T09:15:00Z",
+      "description": "Did you manage to score Apple’s first folding phone on launch day? Are you still mulling it over? Here are a few things to keep in mind.",
+      "topic": "Mobile",
+      "topicIcon": "📱",
+      "importance": 5,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Did you manage to score Apple’s first folding phone on launch day? Are you still mulling it over? Here are a few things ..."
+    },
+    {
       "id": "56395636cfd1",
       "title": "Greenlight Family Hub (2026): Finally, a Digital Wall Calendar With a Voice Assistant",
       "link": "https://www.wired.com/story/greenlight-hub-voice-assistant-feature/",
@@ -647,21 +647,6 @@
       "summary_en": "Step one in convincing people to live with robots with cameras on their faces? Disguise them as cute home decor."
     },
     {
-      "id": "2461578ab7a5",
-      "title": "Spotify confirms Family Plan crackdown, but calls it a ‘routine improvement’",
-      "link": "https://techcrunch.com/2026/10/22/spotify-confirms-family-plan-crackdown-but-calls-it-a-routine-improvement/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-10-22T15:24:32Z",
-      "description": "Spotify told investors its rollout of QR code verification to ensure Family Plan members live in the same household is not a \"crackdown,\" just a routine improvement.",
-      "topic": "Startups",
-      "topicIcon": "🚀",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Spotify told investors its rollout of QR code verification to ensure Family Plan members live in the same household is n..."
-    },
-    {
       "id": "5923975de219",
       "title": "TechCrunch Disrupt 2026 Startup Battlefield 200: Celebrating outstanding achievements",
       "link": "https://techcrunch.com/2026/10/22/techcrunch-disrupt-2026-startup-battlefield-200-celebrating-outstanding-achievements/",
@@ -750,6 +735,21 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "My Google Home Speaker had been burning through more data than all the rest of my devices combined. As I looked into it ..."
+    },
+    {
+      "id": "f6922dc8b925",
+      "title": "The FCC is beginning to block gadgets with ‘foreign surveillance chips’",
+      "link": "https://www.theverge.com/policy/1017016/fcc-block-foreign-surveillance-chips-hivision-huawei-loophole",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-10-22T20:23:48Z",
+      "description": "On October 13th, Brendan Carr's FCC gave itself a new power - it can block gadgets for containing any computer chip made by any company on its list of potential threats to national security. Today, it's exercising that power for the first time, blocking two gadgets because they contain \"foreign surveillance chips,\" the FCC claims. [&#8230;]",
+      "topic": "Security",
+      "topicIcon": "🔒",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "On October 13th, Brendan Carr's FCC gave itself a new power - it can block gadgets for containing any computer chip made..."
     }
   ]
 }
