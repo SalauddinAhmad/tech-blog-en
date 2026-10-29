@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-29T06:42:19+06:00",
+  "lastUpdated": "2026-10-29T12:52:58+06:00",
   "news": [
     {
       "id": "e19bd8c68654",
@@ -7,7 +7,7 @@
       "link": "https://www.bbc.co.uk/news/articles/cq8jzkpjr28vo?at_medium=RSS&at_campaign=rss",
       "source": "BBC",
       "sourceIcon": "bbc",
-      "pubDate": "2026-10-28T23:11:00Z",
+      "pubDate": "2026-10-29T01:30:43Z",
       "description": "A group called the Department of Peace released information on more than 41,000 DHS staff.",
       "topic": "AI/ML",
       "topicIcon": "🤖",
@@ -257,6 +257,21 @@
       "summary_en": "The cloud security startup raised a Series C at a $3.8B valuation, instead of selling itself for the same price."
     },
     {
+      "id": "cfd5e9071be8",
+      "title": "Anduril now says its BlueChip laptop will meet Buy American standards at launch",
+      "link": "https://www.theverge.com/policy/1021554/anduril-bluechip-65-percent-domestic-buy-american",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-10-29T02:22:46Z",
+      "description": "On Tuesday, defense contractor Anduril and chipmaker Qualcomm announced a partnership to build laptops entirely in the United States, starting with a single model in 2027. They also announced a \"long-term goal\" of pushing the computer industry to create \"a fully domestic supply chain.\" Even a single Made-in-USA laptop would be a surprise, because no [&#8230;]",
+      "topic": "Hardware",
+      "topicIcon": "💻",
+      "importance": 6,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "On Tuesday, defense contractor Anduril and chipmaker Qualcomm announced a partnership to build laptops entirely in the U..."
+    },
+    {
       "id": "bab4d2d109d6",
       "title": "China’s snooping around Pacific undersea cables raises risks for Big Tech",
       "link": "https://arstechnica.com/gadgets/2026/10/google-and-meta-subsea-cables-among-most-at-risk-from-sabotage-in-pacific/",
@@ -483,11 +498,11 @@
     },
     {
       "id": "6f0240bccdc0",
-      "title": "Microsoft posts $36.6bn profit after offering buyouts to one in four workers",
+      "title": "Microsoft profits soar days after announcing thousands of layoffs",
       "link": "https://www.bbc.co.uk/news/articles/c6m24klyjr8no?at_medium=RSS&at_campaign=rss",
       "source": "BBC",
       "sourceIcon": "bbc",
-      "pubDate": "2026-10-29T00:36:12Z",
+      "pubDate": "2026-10-29T01:27:40Z",
       "description": "The week, the Windows developer said it would offer buyouts to 60,000 workers as it looks to curb costs.",
       "topic": "AI/ML",
       "topicIcon": "🤖",
@@ -495,6 +510,21 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "The week, the Windows developer said it would offer buyouts to 60,000 workers as it looks to curb costs."
+    },
+    {
+      "id": "133aa26c6489",
+      "title": "Bluesky Is Blocking Links to a Major Leak of DHS Employee Records",
+      "link": "https://www.wired.com/story/bluesky-blocks-links-to-major-leak-of-dhs-data/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-10-29T03:34:46Z",
+      "description": "Bluesky tells WIRED it blocked links to a leaked archive of information on 41,000 ICE, CBP, and other DHS workers because it contains people’s contact information, shared without their authorization.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 5,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Bluesky tells WIRED it blocked links to a leaked archive of information on 41,000 ICE, CBP, and other DHS workers becaus..."
     },
     {
       "id": "354a5be38f2b",
@@ -720,36 +750,6 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "But the AI responses get more forthright when asked outside the US."
-    },
-    {
-      "id": "ce5d7499c1a8",
-      "title": "I Put a Bunch of AI Agents in Charge of a Fantasy Soccer Team. They’re Not Better Than Humans—Yet",
-      "link": "https://www.wired.com/story/i-put-ai-agents-in-charge-of-a-fantasy-team/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-10-28T18:30:00Z",
-      "description": "To experiment with AI’s predictive skills, I let Codex loose on a fantasy team. It tried to bench Erling Haaland at first, but it soon learned the error of its ways.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "To experiment with AI’s predictive skills, I let Codex loose on a fantasy team. It tried to bench Erling Haaland at firs..."
-    },
-    {
-      "id": "4f99b9d14ea0",
-      "title": "Wiz’s CTO on PHP2Shell and the coming ‘vulnpocalypse’",
-      "link": "https://techcrunch.com/video/wizs-cto-on-php2shell-and-the-coming-vulnpocalypse/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-10-28T19:05:46Z",
-      "description": "The PHP scare may have faded from your feed, but the cleanup is far from over. Last week, two critical bugs in the open source language behind roughly 70% of websites left organizations scrambling to fix their systems, with some taking sites offline until the vulnerabilities could be patched. According to researchers who found the [&#8230;]",
-      "topic": "Security",
-      "topicIcon": "🔒",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "The PHP scare may have faded from your feed, but the cleanup is far from over. Last week, two critical bugs in the open ..."
     }
   ]
 }
