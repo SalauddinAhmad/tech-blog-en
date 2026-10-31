@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T05:33:12+06:00",
+  "lastUpdated": "2026-10-31T11:01:54+06:00",
   "news": [
     {
       "id": "e9008c3e8a48",
@@ -32,19 +32,19 @@
       "summary_en": "Hackers working for North Korea are suspected of hacking a Binance employee's laptop, which allowed the theft of billion..."
     },
     {
-      "id": "e0174682f417",
-      "title": "The $6.3 Billion Binance Hack Was Pulled Off in Just 20 Minutes",
-      "link": "https://www.wired.com/story/the-dollar63-billion-binance-hack-was-pulled-off-in-just-20-minutes/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-10-30T11:36:52Z",
-      "description": "Multiple crypto-tracing firms say notorious North Korean hackers TraderTraitor may be behind the largest digital heist in history—with billions of crypto likely gone for good.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
+      "id": "d13e42607d01",
+      "title": "Why North Korea's 'elite' hackers are the prime suspect in major Binance hack",
+      "link": "https://www.bbc.co.uk/news/articles/ck9dz3v7z7v3o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC",
+      "sourceIcon": "bbc",
+      "pubDate": "2026-10-31T02:12:19Z",
+      "description": "If the accusations are true, the record-making heist shows how powerful suspected North Korean hackers have become.",
+      "topic": "Security",
+      "topicIcon": "🔒",
       "importance": 9,
-      "reliability": 4,
+      "reliability": 5,
       "summary_bn": "",
-      "summary_en": "Multiple crypto-tracing firms say notorious North Korean hackers TraderTraitor may be behind the largest digital heist i..."
+      "summary_en": "If the accusations are true, the record-making heist shows how powerful suspected North Korean hackers have become."
     },
     {
       "id": "8e8e4f8e5797",
@@ -77,21 +77,6 @@
       "summary_en": "Akai teased its new MPC Sample Key on Instagram earlier this week, and said it plans to open-source its software so the ..."
     },
     {
-      "id": "ad9ec6b2e7f2",
-      "title": "Andy Jassy says Prime Video is on track to earn ‘tens of billions of dollars’",
-      "link": "https://techcrunch.com/2026/10/29/andy-jassy-says-prime-video-is-on-track-to-earn-tens-of-billions-of-dollars/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-10-29T23:44:56Z",
-      "description": "The success of blockbuster hits like \"Project Hail Mary\" and \"Verity\" is only part of the story, Amazon's CEO says.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 7,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "The success of blockbuster hits like \"Project Hail Mary\" and \"Verity\" is only part of the story, Amazon's CEO says."
-    },
-    {
       "id": "8f29bac19c4b",
       "title": "From Bitcoin to Binance: Crypto terms and what they mean",
       "link": "https://www.bbc.co.uk/news/articles/cy5w2k5k5ylo?at_medium=RSS&at_campaign=rss",
@@ -120,6 +105,21 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "Binance has been hit by what could be the biggest crypto hack ever - here's what we know so far"
+    },
+    {
+      "id": "e0174682f417",
+      "title": "The $6.3B Binance hack was pulled off in just 20 minutes",
+      "link": "https://www.wired.com/story/the-dollar63-billion-binance-hack-was-pulled-off-in-just-20-minutes/",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-10-30T12:50:01Z",
+      "description": "Article URL: https://www.wired.com/story/the-dollar63-billion-binance-hack-was-pulled-off-in-just-20-minutes/ Comments URL: https://news.ycombinator.com/item?id=50303172 Points: 381 # Comments: 261",
+      "topic": "Security",
+      "topicIcon": "🔒",
+      "importance": 7,
+      "reliability": 3,
+      "summary_bn": "",
+      "summary_en": "Article URL: https://www.wired.com/story/the-dollar63-billion-binance-hack-was-pulled-off-in-just-20-minutes/ Comments U..."
     },
     {
       "id": "0b103d9b36fd",
@@ -255,21 +255,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Apple doesn’t need fixing, and it doesn’t want drama. Its new leader is a “product guy” who bleeds six colors."
-    },
-    {
-      "id": "b4b5d4708ea8",
-      "title": "Show HN: Sketch Stadium – watch your agent play Pictionary",
-      "link": "https://sketch.wakeshift.ai/games/q5ucru",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-10-30T15:23:11Z",
-      "description": "tl;dr: Agents can play Pictionary. You can connect your own agent, or just watch a game in progress here: https://sketch.wakeshift.ai/games/q5ucru Hi folks! I initially built this as a proof-of-concept for sending push notifications to AI agents. Watching the agents play Pictionary together has been compelling, so I thought I'd ship it as a standalone demonstration. In Sketch Stadium, your agent subscribes to game events. Agents take turns either drawing or guessing. Easy clues are 1 point, medium are 2, and hard are 3. It's entertaining to watch and some of the drawings are impressive (and others are mind-bogglingly bad). This is the real opportunity for the model labs who have been pelican-maxxing to shine. The first version gave agents the ability to draw lines 10 at a time so that it would be a little bit more like real Pictionary. However, it turns out agents are _really_ bad at drawing that way. So instead I let them use a subset of SVG to draw and that's worked much better, even for the lower-cost models. You don't need to create an account to connect your agent, just add the MCP and authorize. But if you don't want to do that, just watch the game linked above. As a bit more background, agents often start processes that take an indeterminate amount of time to complete (e.g. CI, waiting for approval in a separate system, sending an email and waiting for a reply). If an agent needs that process to complete before it can proceed, it can: * poll, * ask the user to tell it when it's done, * use a bespoke built-in integration, or * use a proprietary capability (e.g. Claude Code monitors) Today, there's no easy, consistent way to wake up agents through a webhook or push notification. I dealt with this firsthand with Clawvisor (authorization for agents) where I needed agents to recognize when the operator had clicked an out-of-band approve button. The best-supported way to achieve that at the time was long-polling. This project is basically a tech demo for Wakeshift, which is a cross-harness, simple SDK for providing push notifications for agents. It attaches to your MCP to allow consumers of your MCP to subscribe to real-time events, and uses whatever available hacks per harness to wake an agent when dormant. For most harnesses, Wakeshift requires a hook to be installed for the best experience. It will upgrade automatically as harnesses start adopting MCP events. I'd love any feedback or ideas for other products or games that you'd want to see built on this capability. Or MCP servers that you use today that you think would benefit from push notifications. Comments URL: https://news.ycombinator.com/item?id=50305218 Points: 18 # Comments: 7",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 5,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "tl;dr: Agents can play Pictionary. You can connect your own agent, or just watch a game in progress here: https://sketch..."
     },
     {
       "id": "77395d8493e2",
@@ -453,7 +438,7 @@
     },
     {
       "id": "2cee2c25d307",
-      "title": "Flesh-eating screwworms are feasting on pets; 4 dogs and cat attacked this week",
+      "title": "Flesh-eating screwworms spread to third state and are attacking pets",
       "link": "https://arstechnica.com/health/2026/10/flesh-eating-screwworms-are-feasting-on-pets-4-dogs-and-cat-attacked-this-week/",
       "source": "Ars Technica",
       "sourceIcon": "ars",
@@ -467,19 +452,19 @@
       "summary_en": "USDA has identified 74 animal cases in US since parasitic flies invaded in June."
     },
     {
-      "id": "c4d34ddeaf92",
-      "title": "You don’t need to believe in a god to get a religious exemption from using AI at work",
-      "link": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-10-30T01:20:48Z",
-      "description": "David Durman, a University of Kentucky administrator, recently earned a religious exemption from using AI in the workplace.",
+      "id": "429a9895b498",
+      "title": "Once again, NASA is asking for ideas to rescue Hubble from certain death",
+      "link": "https://arstechnica.com/space/2026/10/think-you-can-save-the-hubble-space-telescope-nasa-wants-to-know/",
+      "source": "Ars Technica",
+      "sourceIcon": "ars",
+      "pubDate": "2026-10-31T00:07:22Z",
+      "description": "The space agency solicited ideas for reboosting Hubble four years ago, but they didn't go anywhere.",
       "topic": "AI/ML",
       "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
+      "importance": 5,
+      "reliability": 5,
       "summary_bn": "",
-      "summary_en": "David Durman, a University of Kentucky administrator, recently earned a religious exemption from using AI in the workpla..."
+      "summary_en": "The space agency solicited ideas for reboosting Hubble four years ago, but they didn't go anywhere."
     },
     {
       "id": "809b0a589971",
@@ -750,6 +735,21 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Google's AI chip-equipped satellite has generated its first response from space. In a blog post on Friday, Google says i..."
+    },
+    {
+      "id": "8198aceabf49",
+      "title": "AI law firm Crosby bids on disintegrating, famed firm Weil Gotshal",
+      "link": "https://techcrunch.com/2026/10/30/ai-law-firm-crosby-bids-on-disintegrating-famed-firm-weil-gotshal/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-10-30T19:55:13Z",
+      "description": "Like a real-life episode of \"Suits,\" the demise of famed white-shoe Wall Street law firm Weil, Gotshal &#038; Manges has been the talk of the legal industry. And now an AI firm has entered the picture.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Like a real-life episode of \"Suits,\" the demise of famed white-shoe Wall Street law firm Weil, Gotshal &#038; Manges has..."
     }
   ]
 }
