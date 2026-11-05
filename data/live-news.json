@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-05T04:31:22+06:00",
+  "lastUpdated": "2026-11-05T09:21:15+06:00",
   "news": [
     {
       "id": "ef01caaeb603",
@@ -68,7 +68,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-11-04T17:31:53Z",
-      "description": "Hi HN! I'm Luke from Kino ( https://kino.ai ). Kino lets you make great videos with your agents and your teammates. Storage of footage and assets, a rich video editor, and review links for teammates are all bundled into one. Your colleagues and Codex / Claude Code can work on the same timeline with review notes and footage all in one place. See a basic overview at https://kino.ai/walkthrough-video and our launch video (made entirely with Kino!) at https://kino.ai/launch-video Opus 5.5 can edit videos and make great motion graphics now. But with a raw agent harness, you need to describe tiny edits either in words or in quick one-off UIs, you can’t refer to footage shared across your devices, and feedback from teammates comes as screenshots on Slack. Kino is code-first. All editing, all motion graphics, all dragging of timeline items around, all teammate comments, and all 3D scenes are expressed as code, built on Remotion. This was hard to get right, as we found ourselves building a what-you-see-is-what-you-get editor for React, which we then turned into a video editor. For our launch video I told Claude-with-Kino to find a macOS Leopard install disk and reskin our whole video to match. Kino is also fully collaborative and real-time, so you can see your teammates' cursors and exactly which part of the timeline they’re currently watching. For our launch video I had 5+ agents editing the timeline concurrently while my friend Donald had his swarm working a few minutes further down. Donald had one agent rotoscoping to make our visual effects work, I had an LLM color grading all media via our LUT support, and we both made tiny tweaks to the timeline along the way. To make this code-first editor work with video footage, everything gets transcribed, embedded, described, and face-detected. You can scrub your footage locally after you drag it in, but we upload a low-res proxy so your teammates and cloud inference can see it. This local scrubbing plus custom pro media decoders means you can drag a 250GB ProRes clip from your new iPhone right into your Kino timeline. We built custom decoders for professional codecs such as ProRes, BRAW, R3D, and more (see my extremely successful nine point HN post https://news.ycombinator.com/item?id=50198052 ). None of the performance we’re getting would have been possible before WebCodecs and libraries like Mediabunny. I grew up making YouTube videos, and during my undergrad at MIT I co-directed a 3.5 hour archival footage documentary on the history of my school and technological development in America ( https://regressions.net ). Much of the work was logging footage, managing hard drives, manually syncing Premiere project state, and planning our movie in a spreadsheet. Our first launch in 2023 proclaimed that Kino was \"Silicon Valley meets Hollywood.\" It was more like Palantir for Hollywood; we ran bespoke on-prem Kino deployments with our team of forward deployed engineers on shows like Survivor and A24's Beef. It was a rush, but it felt like the slowest way to improve video editing for the whole world. Bound by the Avid Media Composer and strict studio security rules, we couldn't touch frontier models, and we couldn't make editors >10x faster. So in 2025, we rebuilt Kino as a true editor, and we took a bet on coding-as-editing. Everything in Kino has a URL: projects, clips, footage, comments and replies, even a single frame and the line of code that draws it. Projects and media living in one place and everything being addressable means that your agents and team have a single, editable source of truth for video production. At a lower level, I now paste Kino links into my agent constantly, whether it’s making sure Codex knows exactly which timeline item (among thousands) I am referring to or which teammate’s comment needs fixing. We have teams managing their whole company’s media in Kino, spinning up agents to make new videos every day, then using review links to flag issues. One founder ships ads like this: each day he uses Kino's YouTube support to find b-roll he is allowed to use, he edits something, his co-founder leaves notes such as “we need to use this clip instead” and his agent can then apply them. Full-time filmmakers are also using Kino. They tend to resemble “toxenmaxxer” software developers, where 15+ agents iterate on a single project, each trusting Kino as the source of truth for timeline state, graphics, media, everything. The full editor is free, including unlimited imports and exports, real-time collaboration and MCP access for your own agent. Pro is $25 per editor per month and adds unlimited MCP tool calls, share links, more storage, YouTube search, and the ability to edit alongside your team. You can download it at https://kino.ai . We have not yet released Kino for the pure web browser, just Electron for now. If you make videos personally, if you have ProRes media and you want to try to break Kino, if you have legacy video editor projects to bring in, or if you want to make more content for your company, we'd love to hear how Kino works for you. Comments URL: https://news.ycombinator.com/item?id=50368804 Points: 55 # Comments: 24",
+      "description": "Hi HN! I'm Luke from Kino ( https://kino.ai ). Kino lets you make great videos with your agents and your teammates. Storage of footage and assets, a rich video editor, and review links for teammates are all bundled into one. Your colleagues and Codex / Claude Code can work on the same timeline with review notes and footage all in one place. See a basic overview at https://kino.ai/walkthrough-video and our launch video (made entirely with Kino!) at https://kino.ai/launch-video Opus 5.5 can edit videos and make great motion graphics now. But with a raw agent harness, you need to describe tiny edits either in words or in quick one-off UIs, you can’t refer to footage shared across your devices, and feedback from teammates comes as screenshots on Slack. Kino is code-first. All editing, all motion graphics, all dragging of timeline items around, all teammate comments, and all 3D scenes are expressed as code, built on Remotion. This was hard to get right, as we found ourselves building a what-you-see-is-what-you-get editor for React, which we then turned into a video editor. For our launch video I told Claude-with-Kino to find a macOS Leopard install disk and reskin our whole video to match. Kino is also fully collaborative and real-time, so you can see your teammates' cursors and exactly which part of the timeline they’re currently watching. For our launch video I had 5+ agents editing the timeline concurrently while my friend Donald had his swarm working a few minutes further down. Donald had one agent rotoscoping to make our visual effects work, I had an LLM color grading all media via our LUT support, and we both made tiny tweaks to the timeline along the way. To make this code-first editor work with video footage, everything gets transcribed, embedded, described, and face-detected. You can scrub your footage locally after you drag it in, but we upload a low-res proxy so your teammates and cloud inference can see it. This local scrubbing plus custom pro media decoders means you can drag a 250GB ProRes clip from your new iPhone right into your Kino timeline. We built custom decoders for professional codecs such as ProRes, BRAW, R3D, and more (see my extremely successful nine point HN post https://news.ycombinator.com/item?id=50198052 ). None of the performance we’re getting would have been possible before WebCodecs and libraries like Mediabunny. I grew up making YouTube videos, and during my undergrad at MIT I co-directed a 3.5 hour archival footage documentary on the history of my school and technological development in America ( https://regressions.net ). Much of the work was logging footage, managing hard drives, manually syncing Premiere project state, and planning our movie in a spreadsheet. Our first launch in 2023 proclaimed that Kino was \"Silicon Valley meets Hollywood.\" It was more like Palantir for Hollywood; we ran bespoke on-prem Kino deployments with our team of forward deployed engineers on shows like Survivor and A24's Beef. It was a rush, but it felt like the slowest way to improve video editing for the whole world. Bound by the Avid Media Composer and strict studio security rules, we couldn't touch frontier models, and we couldn't make editors >10x faster. So in 2025, we rebuilt Kino as a true editor, and we took a bet on coding-as-editing. Everything in Kino has a URL: projects, clips, footage, comments and replies, even a single frame and the line of code that draws it. Projects and media living in one place and everything being addressable means that your agents and team have a single, editable source of truth for video production. At a lower level, I now paste Kino links into my agent constantly, whether it’s making sure Codex knows exactly which timeline item (among thousands) I am referring to or which teammate’s comment needs fixing. We have teams managing their whole company’s media in Kino, spinning up agents to make new videos every day, then using review links to flag issues. One founder ships ads like this: each day he uses Kino's YouTube support to find b-roll he is allowed to use, he edits something, his co-founder leaves notes such as “we need to use this clip instead” and his agent can then apply them. Full-time filmmakers are also using Kino. They tend to resemble “toxenmaxxer” software developers, where 15+ agents iterate on a single project, each trusting Kino as the source of truth for timeline state, graphics, media, everything. The full editor is free, including unlimited imports and exports, real-time collaboration and MCP access for your own agent. Pro is $25 per editor per month and adds unlimited MCP tool calls, share links, more storage, YouTube search, and the ability to edit alongside your team. You can download it at https://kino.ai . We have not yet released Kino for the pure web browser, just Electron for now. If you make videos personally, if you have ProRes media and you want to try to break Kino, if you have legacy video editor projects to bring in, or if you want to make more content for your company, we'd love to hear how Kino works for you. Comments URL: https://news.ycombinator.com/item?id=50368804 Points: 73 # Comments: 28",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 7,
@@ -90,6 +90,21 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Nothing CEO Carl Pei said in a post on X that the company's launching its first AI device in December. That's just a lit..."
+    },
+    {
+      "id": "cea25fc8180f",
+      "title": "Hackers exploited iOS and Android flaws to infect phones",
+      "link": "https://arstechnica.com/security/2026/11/hackers-exploited-ios-and-android-flaws-to-infect-phones/",
+      "source": "Ars Technica",
+      "sourceIcon": "ars",
+      "pubDate": "2026-11-04T22:26:49Z",
+      "description": "Researchers say group may have been Kremlin-sponsored in search of diplomatic targets.",
+      "topic": "Security",
+      "topicIcon": "🔒",
+      "importance": 7,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "Researchers say group may have been Kremlin-sponsored in search of diplomatic targets."
     },
     {
       "id": "0718a13bcd16",
@@ -158,28 +173,13 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-11-04T22:01:49Z",
-      "description": "Article URL: https://icode4.coffee/?p=1746 Comments URL: https://news.ycombinator.com/item?id=50372164 Points: 3 # Comments: 1",
+      "description": "Article URL: https://icode4.coffee/?p=1746 Comments URL: https://news.ycombinator.com/item?id=50372164 Points: 69 # Comments: 3",
       "topic": "Security",
       "topicIcon": "🔒",
       "importance": 6,
       "reliability": 3,
       "summary_bn": "",
-      "summary_en": "Article URL: https://icode4.coffee/?p=1746 Comments URL: https://news.ycombinator.com/item?id=50372164 Points: 3 # Comme..."
-    },
-    {
-      "id": "fd06ec21e8cb",
-      "title": "California fights \"preposterous\" Trump admin demand to scrap state broadband laws",
-      "link": "https://arstechnica.com/tech-policy/2026/11/california-fights-preposterous-trump-admin-demand-to-scrap-state-broadband-laws/",
-      "source": "Ars Technica",
-      "sourceIcon": "ars",
-      "pubDate": "2026-11-03T22:39:37Z",
-      "description": "State tries to obtain broadband funds despite rejecting Trump admin condition.",
-      "topic": "Regulation",
-      "topicIcon": "⚖️",
-      "importance": 5,
-      "reliability": 5,
-      "summary_bn": "",
-      "summary_en": "State tries to obtain broadband funds despite rejecting Trump admin condition."
+      "summary_en": "Article URL: https://icode4.coffee/?p=1746 Comments URL: https://news.ycombinator.com/item?id=50372164 Points: 69 # Comm..."
     },
     {
       "id": "9e33dbfbc282",
@@ -353,43 +353,28 @@
       "source": "TechCrunch",
       "sourceIcon": "crunch",
       "pubDate": "2026-11-04T22:13:16Z",
-      "description": "While it's not yet clear what kind of product the smart phone startup is cooking up, Nothing's CEO said that product is designed to leverage AI for productivity gains.",
+      "description": "While it's not yet clear what kind of product the smartphone startup is cooking up, Nothing's CEO said the product is designed to leverage AI for productivity gains.",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 5,
       "reliability": 4,
       "summary_bn": "",
-      "summary_en": "While it's not yet clear what kind of product the smart phone startup is cooking up, Nothing's CEO said that product is ..."
+      "summary_en": "While it's not yet clear what kind of product the smartphone startup is cooking up, Nothing's CEO said the product is de..."
     },
     {
-      "id": "52eb9ce7b224",
-      "title": "Anthropic is working on a system to prove AI models’ identity",
-      "link": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-11-03T22:41:03Z",
-      "description": "Called FlashProve, the system would let anyone check that an AI response really came from the model it claims to be from.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Called FlashProve, the system would let anyone check that an AI response really came from the model it claims to be from..."
-    },
-    {
-      "id": "4f07d3c53b71",
-      "title": "Graduates are managing AI - but are they learning much else?",
-      "link": "https://www.bbc.co.uk/news/articles/c820vz6wyp65o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC",
-      "sourceIcon": "bbc",
-      "pubDate": "2026-11-04T00:04:35Z",
-      "description": "Graduates are spending more time managing AI, but are they missing out on other work experience?",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
+      "id": "7d01c5c4ee29",
+      "title": "Nintendo's biggest ROM chip supplier is bowing out of the business",
+      "link": "https://arstechnica.com/gaming/2026/11/the-tech-memory-shortage-comes-for-nintendos-cartridge-supply-chain/",
+      "source": "Ars Technica",
+      "sourceIcon": "ars",
+      "pubDate": "2026-11-04T22:47:51Z",
+      "description": "And what that could mean for physical Switch game costs.",
+      "topic": "Hardware",
+      "topicIcon": "💻",
+      "importance": 5,
       "reliability": 5,
       "summary_bn": "",
-      "summary_en": "Graduates are spending more time managing AI, but are they missing out on other work experience?"
+      "summary_en": "And what that could mean for physical Switch game costs."
     },
     {
       "id": "4b3aab66321a",
@@ -405,21 +390,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "With massive upsets in deep red states and stunning wins in Texas, Democrats have redrawn the political map—and decisive..."
-    },
-    {
-      "id": "73cea4e0606f",
-      "title": "India’s EloElo nabs $80M from NBCUniversal to bet on the country’s rising microdrama market",
-      "link": "https://techcrunch.com/2026/11/03/indias-eloelo-nabs-80m-from-nbc-universal-to-bet-on-the-countrys-rising-microdrama-market/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-11-04T04:45:00Z",
-      "description": "More than 118 million users watch microdramas every month as the serialized format has taken off in India. EloElo's Story TV is one of the top apps for microdramas, with over 33 million active users, according to analysts.",
-      "topic": "Hardware",
-      "topicIcon": "💻",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "More than 118 million users watch microdramas every month as the serialized format has taken off in India. EloElo's Stor..."
     },
     {
       "id": "c4e65c85ac77",
@@ -512,9 +482,9 @@
       "summary_en": "While some of Donald Trump’s closest allies have remained silent, much of MAGA is blaming him for historic losses."
     },
     {
-      "id": "f4137a7b3589",
+      "id": "2a3e2e00804b",
       "title": "‘Musk’ Director Alex Gibney Wants to Know if Democrats Can Now Hold Elon Musk Accountable",
-      "link": "https://www.wired.com/story/wired-world-fair-2026-alex-gibey-musk/",
+      "link": "https://www.wired.com/story/wired-world-fair-2026-alex-gibney-musk/",
       "source": "Wired",
       "sourceIcon": "wired",
       "pubDate": "2026-11-04T14:15:21Z",
@@ -563,7 +533,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-11-04T15:21:21Z",
-      "description": "https://twitter.com/pierrecomputer/status/211799903617518818... Comments URL: https://news.ycombinator.com/item?id=50366863 Points: 132 # Comments: 48",
+      "description": "https://twitter.com/pierrecomputer/status/211799903617518818... Comments URL: https://news.ycombinator.com/item?id=50366863 Points: 201 # Comments: 62",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 4,
@@ -615,21 +585,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Apple's AI-powered Siri Recaps won me over in just one day, despite my privacy reservations. But there's still room for ..."
-    },
-    {
-      "id": "f762962d4e70",
-      "title": "My therapist thinks I should chuck the Amazon Bee Frontier out a window",
-      "link": "https://www.theverge.com/column/1026464/optimizer-amazon-bee-frontier-ambient-listening-wearables",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-11-04T18:00:00Z",
-      "description": "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for Optimizer here. \"How does that make you feel?\" I get asked this a lot in therapy. Plenty of life events, big and [&#8230;]",
-      "topic": "Web/JavaScript",
-      "topicIcon": "🌐",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the lat..."
     },
     {
       "id": "a79d7f11d9d6",
@@ -750,6 +705,51 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Showrunner Silka Luisa and star Hunter Schafer want their series, Blade Runner 2099, to show the benefits of a post-revo..."
+    },
+    {
+      "id": "60a70198c7cd",
+      "title": "‘We Have No Shared Reality’: Two Political Influencers on the Future of Politics Online",
+      "link": "https://www.wired.com/story/wired-world-fair-2026-cj-pearson-and-kat-abughazaleh/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-11-04T21:04:05Z",
+      "description": "Kat Abughazaleh and CJ Pearson spoke at WIRED World Fair on Wednesday about the influence of social media on politics following Tuesday’s midterm elections.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Kat Abughazaleh and CJ Pearson spoke at WIRED World Fair on Wednesday about the influence of social media on politics fo..."
+    },
+    {
+      "id": "b314cbc6665b",
+      "title": "Almost no one uses AI agents to book their Uber, company says",
+      "link": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-11-04T21:56:01Z",
+      "description": "During its busiest week last quarter, Uber said only four people booked a ride using an AI agent.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "During its busiest week last quarter, Uber said only four people booked a ride using an AI agent."
+    },
+    {
+      "id": "4797f2b4d7a4",
+      "title": "Uranium cubes reveal why the German nuclear project failed",
+      "link": "https://arstechnica.com/science/2026/11/uranium-cubes-reveal-why-the-german-nuclear-project-failed/",
+      "source": "Ars Technica",
+      "sourceIcon": "ars",
+      "pubDate": "2026-11-04T21:56:29Z",
+      "description": "\"Our calculations suggest Heisenberg significantly underestimated the materials required.\"",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "\"Our calculations suggest Heisenberg significantly underestimated the materials required.\""
     }
   ]
 }
