@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-06T07:26:29+06:00",
+  "lastUpdated": "2026-11-06T15:08:49+06:00",
   "news": [
     {
       "id": "b6cc61adf7e9",
@@ -15,21 +15,6 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "Certain configurations of Alpine are affected. Other distros may be as well."
-    },
-    {
-      "id": "335e94a09146",
-      "title": "Launch HN: Rivet (YC W23) – Scale and Orchestrate Agents on S3",
-      "link": "https://github.com/rivet-dev/rivet",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-11-05T17:17:42Z",
-      "description": "Hey HN, this is Nathan and Nicholas from Rivet ( https://rivet.dev ) – a fast, high-density, and scalable orchestrator for agentic workloads using the actor model. Rather than running a heavyweight sandbox per agent, each agent gets a lightweight actor backed by S3. Actors provide a long-lived process for long agent turns, in-memory state for context, a WebSocket server for multiplayer, durable SQLite storage backed by S3, and hibernation when idle. It's a similar model to Cloudflare Durable Objects, but it’s open source and self-hostable. Here’s a video walkthrough: https://www.youtube.com/watch?v=3Ev6I7DOV9c When we went through YC in 2023, we were building infrastructure for multiplayer games like Diep and Krunker. This involved heavily optimizing high-throughput matchmaking, real-time player messages, and blitz scaling. Through that process, we spent a lot of time on workloads where Postgres couldn't keep up with our throughput. We started out by hacking together Lua scripts on top of Redis, but this became too cumbersome to maintain and upgrade. This led us to extend our game server orchestrator to support what we call Rivet Actors today: many lightweight workers with in-memory state and durable storage. By using actors, we were able to serve tens of millions of monthly active users. As agents grew in popularity, it became clear that running agents in sandboxes is inefficient. Sandboxes are expensive, mostly idle, and slow to start. Developers started using actors because they are far more memory efficient (72 KB baseline for actors vs 512 MB for a minimal sandbox) and fast to start (4.9 ms p99 for actors vs 1.7 s p99 for sandboxes). For example, Amp is using Rivet to orchestrate multiplayer agents. They originally tried to build on Cloudflare Durable Objects, but couldn’t launch because of the platform’s limitations and unresponsive support. They migrated to Rivet Actors in a weekend and deploy on-prem. Rivet’s flexible architecture lets them adapt it to their own use cases without being constrained by a framework or the memory, storage, and runtime limits of Cloudflare Durable Objects. Under the hood, Rivet is backed by S3 while maintaining SSD speeds. Why S3? Previously, Rivet ran on FoundationDB. However, we were surprised to find that companies are storing orders of magnitude more data on Rivet Actors than in Postgres, such as large session transcripts, agent artifacts, and full POSIX filesystems. As their data grew, they had to start paying for SSDs that sat mostly idle with old transcripts. This led us to double down on S3 as our primary storage medium without sacrificing performance. This choice means that data stored on Rivet is 10× cheaper than on EBS gp3 while maintaining SSD speeds. It’s not as simple as writing data straight to S3. Lots of PUTs for tiny blobs of data are slow and expensive. Instead, we use an SSD tier to optimize speed and cost: When you write data to an actor’s SQLite database, the write is acknowledged once SSDs in 2 of 3 availability zones have it. Then, the data is batched to S3 in the background. This means that S3 is never on the write path, which lowers latency and cost. When reading data or waking an actor, Rivet reads from SSDs if already cached and falls back to S3 if not. SSD caches can be tuned to meet your needs, giving you configurable tiered storage for your actors. This architecture lets Rivet provide 1.07 ms durable writes (3 AZ, p99), 1.36 ms reads (p99), and 138 ms reads from object storage (p99). We’ve spent a lot of time making sure that Rivet can run wherever you need it. Self-hosting requires deploying a single Rust binary with S3 as the only dependency, Rivet Cloud lets you deploy dedicated clusters on AWS or GCP in any region, and BYOC lets us deploy Rivet to your VPC without having to operate it yourself. Rivet also runs identically in local dev as in production, since Rivet is a lightweight binary that runs anywhere Rivet Actors can be written in TypeScript or Rust. Out of the box, they support agents (Pi Durable), workflows, real-time, multiplayer, running AI-generated code, Durable Streams, and integrations with tools like Vercel’s Eve and Turso. See all of our available guides, or point your agent at them: https://rivet.dev/docs/#guides Try it out now, by reading our quickstart guides ( https://rivet.dev/docs/ ) or ask your agent: “Run npx skills add rivet-dev/skills, then build a multiplayer chat agent and run it locally.” We’d love to get feedback on your experience with Rivet! We’re deeply invested in making Rivet an easy-to-self-host, flexible, and efficient way to run agentic workloads. GitHub: https://github.com/rivet-dev/rivet Architecture: https://rivet.dev/docs/architecture/ Benchmarks: https://rivet.dev/docs/benchmarking/ Self-hosting: https://rivet.dev/docs/deploy/self-host/ Comments URL: https://news.ycombinator.com/item?id=50381687 Points: 73 # Comments: 40",
-      "topic": "Cloud/DevOps",
-      "topicIcon": "☁️",
-      "importance": 9,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Hey HN, this is Nathan and Nicholas from Rivet ( https://rivet.dev ) – a fast, high-density, and scalable orchestrator f..."
     },
     {
       "id": "4d9293c26691",
@@ -173,7 +158,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-11-05T20:43:42Z",
-      "description": "Article URL: https://www.cve.org/CVERecord?id=CVE-2026-83844 Comments URL: https://news.ycombinator.com/item?id=50384233 Points: 302 # Comments: 99",
+      "description": "Article URL: https://www.cve.org/CVERecord?id=CVE-2026-83844 Comments URL: https://news.ycombinator.com/item?id=50384233 Points: 525 # Comments: 189",
       "topic": "Security",
       "topicIcon": "🔒",
       "importance": 6,
@@ -227,21 +212,6 @@
       "summary_en": "Airbnb says its upcoming AI agent will help travelers plan trips, compare options, manage bookings, and get assistance t..."
     },
     {
-      "id": "f82ac2b1bc1f",
-      "title": "Brazilian Credit Guarantor Fund Data Breach Affecting PII and Payout Data",
-      "link": "https://www.fgc.org.br/comunicado",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-11-05T23:32:36Z",
-      "description": "Article URL: https://www.fgc.org.br/comunicado Comments URL: https://news.ycombinator.com/item?id=50386104 Points: 15 # Comments: 2",
-      "topic": "Security",
-      "topicIcon": "🔒",
-      "importance": 6,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://www.fgc.org.br/comunicado Comments URL: https://news.ycombinator.com/item?id=50386104 Points: 15 # ..."
-    },
-    {
       "id": "7ad2d3f24420",
       "title": "The New York Times is in talks to buy Letterboxd for around $330 million",
       "link": "https://www.theverge.com/news/1028375/the-new-york-times-letterboxd-acquisition-report",
@@ -255,21 +225,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "The New York Times Company is in talks\"exclusive negotations\" to acquire Letterboxd, the social network for film lovers,..."
-    },
-    {
-      "id": "71935939aaf2",
-      "title": "Mercedes-AMG GT 4-Door Coupe first drive: Where tech and fun collide",
-      "link": "https://arstechnica.com/cars/2026/11/mercedes-amg-gt-4-door-coupe-first-drive-where-tech-and-fun-collide/",
-      "source": "Ars Technica",
-      "sourceIcon": "ars",
-      "pubDate": "2026-11-05T09:00:13Z",
-      "description": "The spirit of AMG is alive via three axial flux electric motors.",
-      "topic": "Other",
-      "topicIcon": "📰",
-      "importance": 5,
-      "reliability": 5,
-      "summary_bn": "",
-      "summary_en": "The spirit of AMG is alive via three axial flux electric motors."
     },
     {
       "id": "9db55803402e",
@@ -300,21 +255,6 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "It has all the bells and whistles (and cameras)."
-    },
-    {
-      "id": "f2bfe9ab054f",
-      "title": "Instagram brings Edits to desktop to take on CapCut",
-      "link": "https://techcrunch.com/2026/11/05/instagram-brings-edits-to-desktop-to-take-on-capcut/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-11-05T15:00:00Z",
-      "description": "The move puts Edits in more direct competition with ByteDance's CapCut, the video-editing app Meta sought to challenge when it launched Edits last year.",
-      "topic": "Hardware",
-      "topicIcon": "💻",
-      "importance": 5,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "The move puts Edits in more direct competition with ByteDance's CapCut, the video-editing app Meta sought to challenge w..."
     },
     {
       "id": "498a66890346",
@@ -368,7 +308,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-11-05T19:08:22Z",
-      "description": "Article URL: https://www.naut.ca/blog/2026/11/05/the-hackintosh-reborn-with-ai/ Comments URL: https://news.ycombinator.com/item?id=50383057 Points: 193 # Comments: 91",
+      "description": "Article URL: https://www.naut.ca/blog/2026/11/05/the-hackintosh-reborn-with-ai/ Comments URL: https://news.ycombinator.com/item?id=50383057 Points: 305 # Comments: 166",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 5,
@@ -390,21 +330,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Android fans with a bit of iPhone Duo envy, take note: The Samsung Galaxy Z Fold 8 is discounted to $1,599.99 at both Am..."
-    },
-    {
-      "id": "aae2e624d6df",
-      "title": "Hungary: Communist-era files released, up to 60k former agents revealed",
-      "link": "https://www.euronews.com/2026/11/04/hungary-communist-era-files-opened-up-to-60000-former-agents-revealed",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-11-05T19:16:34Z",
-      "description": "Article URL: https://www.euronews.com/2026/11/04/hungary-communist-era-files-opened-up-to-60000-former-agents-revealed Comments URL: https://news.ycombinator.com/item?id=50383163 Points: 148 # Comments: 33",
-      "topic": "Startups",
-      "topicIcon": "🚀",
-      "importance": 5,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://www.euronews.com/2026/11/04/hungary-communist-era-files-opened-up-to-60000-former-agents-revealed C..."
     },
     {
       "id": "410d35f0bc76",
@@ -435,21 +360,6 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "Software optimizes a physical model of the telescope to reduce noise."
-    },
-    {
-      "id": "b4f7b72028bd",
-      "title": "Tencent Launches Hy4, One of the Leading Open-Source AI Models",
-      "link": "https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-11-05T20:21:43Z",
-      "description": "Article URL: https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/ Comments URL: https://news.ycombinator.com/item?id=50383963 Points: 79 # Comments: 2",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 5,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/..."
     },
     {
       "id": "f95880d64b0a",
@@ -573,33 +483,18 @@
     },
     {
       "id": "7f806f4d6ebc",
-      "title": "Major tech stocks plunge as US midterms add to fears of AI slowdown",
+      "title": "Global tech stocks plunge as US midterms add to AI slowdown fears",
       "link": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
       "source": "BBC",
       "sourceIcon": "bbc",
-      "pubDate": "2026-11-06T01:02:17Z",
-      "description": "Markets have been reacting to possible tougher scrutiny of data centre construction and the AI industry following the US midterms.",
+      "pubDate": "2026-11-06T07:27:26Z",
+      "description": "Investors have reacted to possible tougher scrutiny of data centre construction and the AI industry.",
       "topic": "AI/ML",
       "topicIcon": "🤖",
       "importance": 5,
       "reliability": 5,
       "summary_bn": "",
-      "summary_en": "Markets have been reacting to possible tougher scrutiny of data centre construction and the AI industry following the US..."
-    },
-    {
-      "id": "e831e8d50b3a",
-      "title": "A New UK Porn Ban Sparks Fears of Unprecedented Sex Censorship",
-      "link": "https://www.wired.com/story/a-new-uk-ban-sparks-fears-of-unprecedented-sex-censorship/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-11-05T07:00:00Z",
-      "description": "Adult content creators and free speech advocates are sounding the alarm over a new law about to take effect in the United Kingdom banning simulated incest and some depictions of oral sex.",
-      "topic": "Regulation",
-      "topicIcon": "⚖️",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Adult content creators and free speech advocates are sounding the alarm over a new law about to take effect in the Unite..."
+      "summary_en": "Investors have reacted to possible tougher scrutiny of data centre construction and the AI industry."
     },
     {
       "id": "476e1801f351",
@@ -707,21 +602,6 @@
       "summary_en": "The new OLED MacBook Pro comes with an incredible-looking touchscreen display—and an equally eye-popping price."
     },
     {
-      "id": "ce67631cbb2f",
-      "title": "ElevenLabs now lets users publish AI-generated music directly on SoundCloud",
-      "link": "https://techcrunch.com/2026/11/05/elevenlabs-now-lets-users-publish-ai-generated-music-directly-on-soundcloud/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-11-05T15:00:00Z",
-      "description": "ElevenLabs said more than 25 million tracks have been generated using its music models.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "ElevenLabs said more than 25 million tracks have been generated using its music models."
-    },
-    {
       "id": "7afb078f7d70",
       "title": "Area Man Feels Joy Online for First Time in Years",
       "link": "https://www.wired.com/story/wired-world-fair-2026-ben-collins-the-onion/",
@@ -750,6 +630,126 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Bluesky CEO Toni Schneider said posts and likes doubled during to the U.S. midterm elections on Tuesday."
+    },
+    {
+      "id": "dd548f976db6",
+      "title": "Reddit Founder Says Building Social Media Apps Is ‘Not Cool Anymore’",
+      "link": "https://www.wired.com/story/wired-world-fair-2026-alexis-ohanian/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-11-05T16:26:57Z",
+      "description": "Alexis Ohanian is trying to figure out what’s next for user-generated content now that so much of the internet is “compromised.”",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Alexis Ohanian is trying to figure out what’s next for user-generated content now that so much of the internet is “compr..."
+    },
+    {
+      "id": "b86f7c45dcb3",
+      "title": "Claude can now analyze your spending with its new Personal Finance tool",
+      "link": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-11-05T18:00:00Z",
+      "description": "With Personal Finance in Claude, users can connect their bank and card accounts through Plaid and ask questions about their finances.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "With Personal Finance in Claude, users can connect their bank and card accounts through Plaid and ask questions about th..."
+    },
+    {
+      "id": "2a8256897722",
+      "title": "OpenAI president Greg Brockman says company could be IPO ready in 2027",
+      "link": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-11-05T18:02:27Z",
+      "description": "Speaking at a Wall Street Journal tech conference on Wednesday, the executive touted how the company had been gaining ground in the enterprise market, where rival Anthropic had already successfully made inroads.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Speaking at a Wall Street Journal tech conference on Wednesday, the executive touted how the company had been gaining gr..."
+    },
+    {
+      "id": "7ad6414128e0",
+      "title": "MAHA lost bigly in the midterms—is it at death's door?",
+      "link": "https://arstechnica.com/health/2026/11/is-maha-dying-or-will-it-be-reborn-whats-next-after-crushing-midterm-losses/",
+      "source": "Ars Technica",
+      "sourceIcon": "ars",
+      "pubDate": "2026-11-05T18:49:41Z",
+      "description": "RFK Jr.'s Make America Healthy Again movement was in trouble before voting began.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "RFK Jr.'s Make America Healthy Again movement was in trouble before voting began."
+    },
+    {
+      "id": "bcea566fc08f",
+      "title": "Muse has a voice mode now",
+      "link": "https://www.theverge.com/tech/1028015/meta-muse-ai-voice-mode-expressive-avatar",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-11-05T19:03:04Z",
+      "description": "Meta now lets you have voice conversations with your Muse AI agent in real time, CEO Mark Zuckerberg announced today. The feature has been rolled out to me, and I gave it a spin on the iOS app while writing this article. As you chat with your Muse agent, the avatar at the top of [&#8230;]",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Meta now lets you have voice conversations with your Muse AI agent in real time, CEO Mark Zuckerberg announced today. Th..."
+    },
+    {
+      "id": "7d05777f3cb4",
+      "title": "Meta warns that election backlash against data centers could make AI expansion harder",
+      "link": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-11-05T19:12:39Z",
+      "description": "Meta warns that growing political opposition to data centers could threaten future AI investments, as communities push back against massive infrastructure projects.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Meta warns that growing political opposition to data centers could threaten future AI investments, as communities push b..."
+    },
+    {
+      "id": "c93823285a7f",
+      "title": "13 Best Early Black Friday Deals at Best Buy on Hot Tech (2026)",
+      "link": "https://www.wired.com/story/early-black-friday-best-buy-deals-11-5-26/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-11-05T20:00:29Z",
+      "description": "Get a head start on holiday shopping with discounts on WIRED-tested headphones, laptops, and TVs.",
+      "topic": "Hardware",
+      "topicIcon": "💻",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Get a head start on holiday shopping with discounts on WIRED-tested headphones, laptops, and TVs."
+    },
+    {
+      "id": "924aa79a024f",
+      "title": "Ads in Chatbots Have Arrived. Here’s What’s Working—and What’s Not",
+      "link": "https://www.wired.com/story/ads-in-chatbots-have-arrived-heres-whats-working-and-whats-not/",
+      "source": "Wired",
+      "sourceIcon": "wired",
+      "pubDate": "2026-11-05T21:37:18Z",
+      "description": "As Anthropic maintains its vow to keep ads out of Claude, the rest of the AI chatbot industry is racing to win over advertisers without antagonizing users.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "As Anthropic maintains its vow to keep ads out of Claude, the rest of the AI chatbot industry is racing to win over adve..."
     }
   ]
 }
