@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T08:39:17+06:00",
+  "lastUpdated": "2026-11-07T15:50:03+06:00",
   "news": [
     {
       "id": "0d0fe76a4883",
@@ -278,7 +278,7 @@
       "source": "Hacker News",
       "sourceIcon": "hn",
       "pubDate": "2026-11-06T20:09:14Z",
-      "description": "Article URL: https://www.crusoe.ai/resources/newsroom/crusoe-wyoming-data-center-campus-update Comments URL: https://news.ycombinator.com/item?id=50397711 Points: 42 # Comments: 7",
+      "description": "Article URL: https://www.crusoe.ai/resources/newsroom/crusoe-wyoming-data-center-campus-update Comments URL: https://news.ycombinator.com/item?id=50397711 Points: 74 # Comments: 16",
       "topic": "Startups",
       "topicIcon": "🚀",
       "importance": 5,
@@ -360,36 +360,6 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "It's the exact path, not the apparent severity that matters most, doctors say."
-    },
-    {
-      "id": "c822924fc1f2",
-      "title": "Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M",
-      "link": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-11-06T06:28:32Z",
-      "description": "Clutch, backed by Lightspeed and SignalFire, was last valued at $85 million, according to a source.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Clutch, backed by Lightspeed and SignalFire, was last valued at $85 million, according to a source."
-    },
-    {
-      "id": "a78f69047d91",
-      "title": "At least 10 local governments have moved to drop Flock’s surveillance cameras since summer",
-      "link": "https://techcrunch.com/2026/11/05/at-least-10-local-governments-have-moved-to-drop-flocks-surveillance-cameras-since-summer/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-11-06T07:18:44Z",
-      "description": "The concerns range from privacy to how data is shared (and with whom) to procurement concerns.",
-      "topic": "Security",
-      "topicIcon": "🔒",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "The concerns range from privacy to how data is shared (and with whom) to procurement concerns."
     },
     {
       "id": "36122fd3d651",
@@ -750,6 +720,36 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "China's intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang, according to Th..."
+    },
+    {
+      "id": "e0820bf841f4",
+      "title": "From the front row to the hot seat — what the midterms mean for Big Tech",
+      "link": "https://techcrunch.com/2026/11/06/from-the-front-row-to-the-hot-seat-what-the-midterms-mean-for-big-tech/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-11-07T04:16:43Z",
+      "description": "After spending two years getting cozy with the White House, Big Tech is suddenly trying to make friends with Democrats, and the open question is whether that image makeover can hold up against what states, local communities, and the markets are about to do.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "After spending two years getting cozy with the White House, Big Tech is suddenly trying to make friends with Democrats, ..."
+    },
+    {
+      "id": "3a6b312933dd",
+      "title": "Sequoia shutting down its Scouts program marks the end of an era",
+      "link": "https://techcrunch.com/2026/11/06/sequoia-shutting-down-its-scouts-program-marks-the-end-of-an-era/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-11-07T05:01:54Z",
+      "description": "Sequoia pioneered the scouts model and many VC firms followed suit, but a consensus now seems to be forming that the model has reached limits in its current form.",
+      "topic": "Hardware",
+      "topicIcon": "💻",
+      "importance": 4,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "Sequoia pioneered the scouts model and many VC firms followed suit, but a consensus now seems to be forming that the mod..."
     }
   ]
 }
