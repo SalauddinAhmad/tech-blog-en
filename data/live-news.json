@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-11T04:13:56+06:00",
+  "lastUpdated": "2026-11-11T08:38:35+06:00",
   "news": [
     {
       "id": "d4036d1f11fe",
@@ -45,6 +45,21 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "The billionaire tech executive finds himself mired in a personal and national security scandal."
+    },
+    {
+      "id": "6861ada54d72",
+      "title": "The US military seems to be getting nervous about the launch supply crunch",
+      "link": "https://arstechnica.com/space/2026/11/the-us-military-seems-to-be-getting-nervous-about-the-launch-supply-crunch/",
+      "source": "Ars Technica",
+      "sourceIcon": "ars",
+      "pubDate": "2026-11-10T23:02:39Z",
+      "description": "\"Launch is extremely constrained and that is exactly the situation we predicted.\"",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 7,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "\"Launch is extremely constrained and that is exactly the situation we predicted.\""
     },
     {
       "id": "c0148d18638a",
@@ -120,6 +135,21 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "OpenAI has not yet said what its plans are for the future of travel. But Sonder founder Francis Davidson is a well-known..."
+    },
+    {
+      "id": "27f896233dc6",
+      "title": "X launches its own clipping feature to spur influencer engagement",
+      "link": "https://techcrunch.com/2026/11/10/x-launches-its-own-clipping-feature-to-spur-influencer-engagement/",
+      "source": "TechCrunch",
+      "sourceIcon": "crunch",
+      "pubDate": "2026-11-11T01:02:13Z",
+      "description": "X is jumping into clipping, the popular practice of cutting long videos into short, shareable clips that can go viral.",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 6,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "X is jumping into clipping, the popular practice of cutting long videos into short, shareable clips that can go viral."
     },
     {
       "id": "4a9293f6fb18",
@@ -257,21 +287,6 @@
       "summary_en": "The AI company behind the Claude chatbot will offer its shares at between $70 and $78, which is lower than what was expe..."
     },
     {
-      "id": "3ec8add99452",
-      "title": "ChatGPT is getting verified AI ‘Business Agents’",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub",
-      "source": "TheVerge",
-      "sourceIcon": "verge",
-      "pubDate": "2026-11-10T18:00:00Z",
-      "description": "ChatGPT is going to let you chat with verified \"Business Agents\" that represent a brand to help you with things like comparison shopping. The feature, available first to \"eligible\" e-commerce and online service businesses in the US, is launching as part of a suite of business-focused features in ChatGPT being announced today in beta. You [&#8230;]",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 5,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "ChatGPT is going to let you chat with verified \"Business Agents\" that represent a brand to help you with things like com..."
-    },
-    {
       "id": "cd713c4263bd",
       "title": "Free video-streaming service Tubi lets users share curated watchlists now",
       "link": "https://arstechnica.com/gadgets/2026/11/free-video-streaming-service-tubi-lets-users-share-curated-watchlists-now/",
@@ -332,6 +347,21 @@
       "summary_en": "Fi has always supported T-Mobile, but the new one? Google won't say."
     },
     {
+      "id": "43aaed481000",
+      "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI",
+      "link": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/",
+      "source": "Ars Technica",
+      "sourceIcon": "ars",
+      "pubDate": "2026-11-10T21:12:59Z",
+      "description": "Researcher finds 35,000 Grok Build apps wide open to anyone who looked for them.",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 5,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "Researcher finds 35,000 Grok Build apps wide open to anyone who looked for them."
+    },
+    {
       "id": "daf7e9e96e7d",
       "title": "Oura is acquiring medical AI chatbot startup Counsel Health",
       "link": "https://www.theverge.com/gadgets/1031284/oura-counsel-health-acquisition",
@@ -347,12 +377,42 @@
       "summary_en": "Oura announced its quarterly earnings today and said it agreed to acquire Counsel Health for $625 million, after adding ..."
     },
     {
+      "id": "6d5f3c2ee7b3",
+      "title": "Democrats oppose plan to stack FCC with Republicans, plan probes of Chairman Carr",
+      "link": "https://arstechnica.com/tech-policy/2026/11/democrats-oppose-plan-to-stack-fcc-with-republicans-plan-probes-of-chairman-carr/",
+      "source": "Ars Technica",
+      "sourceIcon": "ars",
+      "pubDate": "2026-11-10T21:55:26Z",
+      "description": "Democrats accuse FCC nominee of evading questions about Carr, her current boss.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 5,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "Democrats accuse FCC nominee of evading questions about Carr, her current boss."
+    },
+    {
+      "id": "d949e6f92cd9",
+      "title": "Ring cameras go mobile as Amazon debuts AI-powered security drone and robot",
+      "link": "https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/",
+      "source": "Ars Technica",
+      "sourceIcon": "ars",
+      "pubDate": "2026-11-10T22:35:01Z",
+      "description": "Amazon's roaming Ring Robotics devices will debut in late 2026 and early 2027.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 5,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "Amazon's roaming Ring Robotics devices will debut in late 2026 and early 2027."
+    },
+    {
       "id": "9435eb245211",
-      "title": "Nvidia hires major New York law firm to investigate Jensen Huang affair",
+      "title": "Nvidia hires major US law firm to investigate alleged Chinese spy affair",
       "link": "https://www.bbc.co.uk/news/articles/ck1wvwwl3x0go?at_medium=RSS&at_campaign=rss",
       "source": "BBC",
       "sourceIcon": "bbc",
-      "pubDate": "2026-11-10T21:59:54Z",
+      "pubDate": "2026-11-10T22:52:15Z",
       "description": "The appointment was made after it emerged Jensen Huang had an affair with a woman believed to be a spy for China.",
       "topic": "AI/ML",
       "topicIcon": "🤖",
@@ -362,34 +422,19 @@
       "summary_en": "The appointment was made after it emerged Jensen Huang had an affair with a woman believed to be a spy for China."
     },
     {
-      "id": "aae2d21a03a0",
-      "title": "Waymo Said It Fixed Its School Bus Problem. The US Government Says It Didn’t Work",
-      "link": "https://www.wired.com/story/waymo-school-bus-problem-the-us-government-says-it-didnt-work/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-11-09T22:40:10Z",
-      "description": "Last year, Waymo recalled its software after several of its autonomous cars drove around stopped buses. But the problems remained. Now the feds want to know more.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
+      "id": "8a1fd661f82a",
+      "title": "A great old-timey game-programming hack (2013)",
+      "link": "https://blog.moertel.com/posts/2013-12-14-great-old-timey-game-programming-hack.html",
+      "source": "Hacker News",
+      "sourceIcon": "hn",
+      "pubDate": "2026-11-11T01:56:31Z",
+      "description": "Article URL: https://blog.moertel.com/posts/2013-12-14-great-old-timey-game-programming-hack.html Comments URL: https://news.ycombinator.com/item?id=50448921 Points: 11 # Comments: 0",
+      "topic": "Security",
+      "topicIcon": "🔒",
+      "importance": 5,
+      "reliability": 3,
       "summary_bn": "",
-      "summary_en": "Last year, Waymo recalled its software after several of its autonomous cars drove around stopped buses. But the problems..."
-    },
-    {
-      "id": "6013a414af2b",
-      "title": "Jensen Huang’s Troubles Leave the AI Industry Reeling",
-      "link": "https://www.wired.com/story/jensen-huangs-troubles-leaves-the-ai-industry-reeling/",
-      "source": "Wired",
-      "sourceIcon": "wired",
-      "pubDate": "2026-11-10T00:18:19Z",
-      "description": "With a big checkbook and sought-after chips, Nvidia’s CEO had his thumb on the world of AI. An extramarital affair with a suspected Chinese spy may put all of that at risk.",
-      "topic": "Hardware",
-      "topicIcon": "💻",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "With a big checkbook and sought-after chips, Nvidia’s CEO had his thumb on the world of AI. An extramarital affair with ..."
+      "summary_en": "Article URL: https://blog.moertel.com/posts/2013-12-14-great-old-timey-game-programming-hack.html Comments URL: https://..."
     },
     {
       "id": "667ae52ac922",
@@ -510,21 +555,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Built by Cyanogen’s cofounder, Kora is a next-gen alternative to Windows and macOS built for power users running local A..."
-    },
-    {
-      "id": "1a56c99530dd",
-      "title": "Anthropic sets IPO price range of $70 to $78 per share to reach an implied valuation of $1.404 trillion",
-      "link": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-11-10T14:01:39Z",
-      "description": "The company could end up being worth a hefty $1.404 trillion if its shares list at the top of the price range, on a fully diluted basis.",
-      "topic": "Startups",
-      "topicIcon": "🚀",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "The company could end up being worth a hefty $1.404 trillion if its shares list at the top of the price range, on a full..."
     },
     {
       "id": "5ac8836f0ba1",
@@ -662,21 +692,6 @@
       "summary_en": "Apple TV's new accessibility feature lets viewers turn on sign language interpretation within supported titles."
     },
     {
-      "id": "e1d675fcada1",
-      "title": "Blender 5.3 released with Gaussian Splat support",
-      "link": "https://www.blender.org/download/releases/5-3/",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-11-10T16:15:43Z",
-      "description": "Article URL: https://www.blender.org/download/releases/5-3/ Comments URL: https://news.ycombinator.com/item?id=50442426 Points: 371 # Comments: 52",
-      "topic": "Startups",
-      "topicIcon": "🚀",
-      "importance": 4,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Article URL: https://www.blender.org/download/releases/5-3/ Comments URL: https://news.ycombinator.com/item?id=50442426 ..."
-    },
-    {
       "id": "49754c4b38a2",
       "title": "One space station company sues another for copying its work",
       "link": "https://arstechnica.com/space/2026/11/one-space-station-company-sues-another-for-copying-its-work/",
@@ -735,21 +750,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Sundrop is a new iPhone app that uses Apple's on-device AI to help parents rediscover their favorite photos and create k..."
-    },
-    {
-      "id": "a4978faa7e16",
-      "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
-      "link": "https://github.com/GoogleChrome/modern-web-guidance",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-11-10T18:01:15Z",
-      "description": "Browsers natively handle a lot of what used to take 50 lines of JS (or a dependency): `CSS.highlights` for text range highlighting without s everywhere, ` ` and showModal() give you backdrops and ideal focus management, `field-sizing` to auto-grow textareas as the user types.. (Something yesterday's ftrain post touched on [0]) Models know about some of these by name, but consistently won't default to using the platform-native solution and instead prefer the incumbent +JS based pattern. We started an effort in Chrome to supplement coding agents with this key domain knowledge and we're shipping our 1.0 today, in collaboration with Firefox, MDN, and Edge. 200+ guides (~1.7MB) of curated, hand-crafted implementation best-practices from web experts, updated as the web evolves. (Open source, obv, so.. we'll welcome your bikeshedding ;) Readable versions here: [1] I've spent the last 9 months obsessing over how to ship this as an agent skill + (Agentic RAG) CLI without blowing up your context window. (Or cedeing activation mechanics to MCP dynamic tool search). The skill description is minmaxed for activating on relevant frontend tasks. The RAG work I'm pretty proud of… originally a 500mb native stack down to a ~7MB pure-JS package, ~10ms search on your CPU. We just introduced a deterministic 'legacy-scan' (trained on 30k github repos) to identify old 'n dusted patterns that your agent can modernize. (92% avg precision on held-out repos.) People make a lot of claims about what coding agents are good/bad at. We wanted receipts, so we invested heavily in eval infra [2] to help us hill-climb, but also to identify when knowledge is common enough we can prune our guides. (Ofc, some of the things we thought AI didn't know turned out to be wrong :) We run codex/claude/agy against 200 tasks without the skill and then with.. In total ~1,700 playwright/AST-based assertions. Agents go from 55% pass unguided to 92% guided. Try it out: DISABLE_TELEMETRY=1 npx modern-web-guidance@latest install DISABLE_TELEMETRY=1 npx modern-web-guidance@latest search \"animate dialog modal\" DISABLE_TELEMETRY=1 npx modern-web-guidance@latest legacy-scan ./src If you spot something wrong or weird, give us a holler! Longer write-up on the 1.0: https://developer.chrome.com/blog/modern-web-guidance-v1 --- 0: https://news.ycombinator.com/item?id=50416456 1: https://developer.chrome.com/docs/modern-web-guidance/guides 2: https://googlechrome.github.io/modern-web-guidance-src/ Comments URL: https://news.ycombinator.com/item?id=50443812 Points: 188 # Comments: 56",
-      "topic": "Web/JavaScript",
-      "topicIcon": "🌐",
-      "importance": 4,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Browsers natively handle a lot of what used to take 50 lines of JS (or a dependency): `CSS.highlights` for text range hi..."
     }
   ]
 }
