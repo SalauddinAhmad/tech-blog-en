@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-13T06:02:09+06:00",
+  "lastUpdated": "2026-11-13T13:43:26+06:00",
   "news": [
     {
       "id": "3d14e9acb8c1",
@@ -90,21 +90,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Jensen Huang’s resignation raises questions about Nvidia’s commitment to open source AI, including its Hugging Face acqu..."
-    },
-    {
-      "id": "bcedd58cb29b",
-      "title": "Show HN: Cerulion – ROS 2-compatible robotics runtime with multi-process replay",
-      "link": "https://github.com/cerulion-inc/cerulion",
-      "source": "Hacker News",
-      "sourceIcon": "hn",
-      "pubDate": "2026-11-12T20:53:04Z",
-      "description": "Hey HN! I'm Lakshay. Raveen and I have built Cerulion, a ROS2-compatible robotics runtime written in Rust. We've worked hard on lowering IPC transport latencies without making the single process tradeoff or forcing POD message types. These fast multi-process graphs can then be resimmed deterministically, and existing ROS2 nodes/launch files can run unmodified alongside native Cerulion Rust/Python code. Installation and quickstart (with a one-shot prompt for your favorite coding agent) here at the repo README: https://github.com/cerulion-inc/cerulion I worked on off-road autonomy during my PhD at MIT, and we kept running into inter-process latency in ROS (2 lidars and 6 cameras). Loaned messages need POD types, which nukes standard, vendor-agnostic Image/PointCloud2. We ended up running some hot paths in a brittle single process, which made debugging a nightmare. I'm sure you've seen the heisenbugs ROS-based stacks can produce, with no way to easily reproduce the consumption order or interleaving of callbacks. Valuable data of runtime failures on the robot was hard to use effectively without deterministic reproducibility. This is what we fix. Cerulion bags record per-input reads and scheduler traces alongside message content in standard MCAPs. cerulion bag play --resim all --verify re-executes node code on the recorded schedule and compares each byte for exact matches or within defined tolerances. Exit 0 is a match, 1 shows the first topic/frame that diverges, 6 shows schedule divergence and --report gives an optional CI verdict. Eligible ROS2 processes can replay deterministically as well. Here's the data loop: 1. Run: Dependency-ordered level-based DAG scheduler with periodic/data/sync triggers, I/O deadlines, backpressure, and automatic profiling for process partitioning. Each node by default free-runs in its own process while preserving deterministic replay. Live runs pause/resume, and UMWAIT/WFE parks idle consumers on CPUs that support it. Wall-clock reads and runtime thread spawns in user code rejected at compile time by macros. ROS 2 is supported with rmw_cerulion for Foxy, Humble, Jazzy and Lyrical, that lets you run ROS2 nodes/launch files unmodified in the same graph as native Cerulion nodes. LD_PRELOAD gives ROS2 code shared memory loans through std::vector/std::string. cerulion ros2 attach folds in already-running ROS2 robots, and cerulion ros2 run/launch lets you run existing ROS2 workspaces on Cerulion without any additional setup (with an optional automatic migrate suggested that rewrites C++ publish sites). 2. Move: iceoryx2 shared memory with no serialization, no payload copy and no payload-sized allocation, including for variable-length messages like sensor_msgs/Image and PointCloud2. Round trip latency for a 1MiB sensor_msgs/Image between two processes is 4.08µs p50, with a tight tail of 7.38µs p99 (under 2x p50), with recording on . This is default Cerulion, against 10.95 ms for default ROS 2 Jazzy. Cerulion's p50 and p99 stay flat from 64B to 16 MiB. 3. Capture: With this round-trip latency, there are no tradeoffs, not for process isolation and not for bagging. We can afford always-on or event-based logging. Flashback is our robot dashcam: keeps ~30s of all logs and message contents in memory and saves it automatically on process crashes, topic stalls or declared incidents/manual triggers. 4. Reach: A free account lets you pair robots and desks, letting all your devices find each other with no config, IP addresses or discovery chatter. Pubsub is authenticated and on-demand, with signed grants that the robot verifies offline. We use Iroh to hole-punch or relay over WAN, and mDNS over LAN to transmit data using QUIC. Remote topics mirror into local shared memory, and each device has a single network gateway. 5. Diagnose: cerulion doctor scans for compile/run-time issues (better than Windows Troubleshooter I promise) and suggests fixes. Hindsight is an early access MCP to let agents analyze your bags. To get started: go to the repo, install Cerulion with the curl one-liner, and paste the prompt in Claude Code/Codex: https://github.com/cerulion-inc/cerulion#quickstart-run-reco... . Or shift your own gears, it's all in the repo that you should star! The CLI needs a free account, which we use to make device pairing as easy as AirDrop USED to be ;) Everything runs on Linux (x86_64/ARM64), macOS and Android (JNI), with more platforms coming. We'd love to hear your feedback! If you run ROS 2 on a real robot, point this at your stack and tell us what breaks. Docs: https://docs.cerulion.com Site: https://cerulion.com Comments URL: https://news.ycombinator.com/item?id=50474106 Points: 1 # Comments: 0",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 7,
-      "reliability": 3,
-      "summary_bn": "",
-      "summary_en": "Hey HN! I'm Lakshay. Raveen and I have built Cerulion, a ROS2-compatible robotics runtime written in Rust. We've worked ..."
     },
     {
       "id": "a603fb20f5ff",
@@ -212,21 +197,6 @@
       "summary_en": "This Congressional investigation into Nvidia's China sales and its dealings with Trump is the second one, so far, since ..."
     },
     {
-      "id": "607d4d7557c4",
-      "title": "Scandal-hit Nvidia CEO Jensen Huang quits, plunging AI chipmaking giant into turmoil",
-      "link": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC",
-      "sourceIcon": "bbc",
-      "pubDate": "2026-11-12T23:34:05Z",
-      "description": "US lawmakers now want to question Huang over whether one of his alleged relationships was with a Chinese spy.",
-      "topic": "Hardware",
-      "topicIcon": "💻",
-      "importance": 6,
-      "reliability": 5,
-      "summary_bn": "",
-      "summary_en": "US lawmakers now want to question Huang over whether one of his alleged relationships was with a Chinese spy."
-    },
-    {
       "id": "dd62360cdb55",
       "title": "Whoop launched a social network where every user has a ‘verified heartbeat’",
       "link": "https://www.theverge.com/gadgets/1032630/whoop-humans-social-network",
@@ -240,6 +210,66 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "Starting Thursday, Whoop members can share their data from its wearables on the app's new Whoop Humans social network. U..."
+    },
+    {
+      "id": "7d226533f769",
+      "title": "Global Microsoft outage affecting tens of thousands of users",
+      "link": "https://www.bbc.co.uk/news/articles/c5gm3g9ldz8xo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC",
+      "sourceIcon": "bbc",
+      "pubDate": "2026-11-13T02:38:02Z",
+      "description": "Microsoft said the outage was caused by servers unexpected becoming unavailable, straining other systems.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 6,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "Microsoft said the outage was caused by servers unexpected becoming unavailable, straining other systems."
+    },
+    {
+      "id": "607d4d7557c4",
+      "title": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
+      "link": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC",
+      "sourceIcon": "bbc",
+      "pubDate": "2026-11-13T03:57:01Z",
+      "description": "Huang abruptly quit on Thursday as head of one of the world's most valuable companies after revelations of alleged extramarital affairs.",
+      "topic": "Hardware",
+      "topicIcon": "💻",
+      "importance": 6,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "Huang abruptly quit on Thursday as head of one of the world's most valuable companies after revelations of alleged extra..."
+    },
+    {
+      "id": "cfd115ed130a",
+      "title": "What happened overnight with the Microsoft global outage",
+      "link": "https://www.bbc.co.uk/news/videos/cwm2591k27e2o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC",
+      "sourceIcon": "bbc",
+      "pubDate": "2026-11-13T07:18:17Z",
+      "description": "Microsoft is struggling to fix a global outage, with services including Teams, Outlook and AI software Copilot affected by \"connectivity problems\".",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 6,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "Microsoft is struggling to fix a global outage, with services including Teams, Outlook and AI software Copilot affected ..."
+    },
+    {
+      "id": "f83f812563eb",
+      "title": "What we know about the global Microsoft outage",
+      "link": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC",
+      "sourceIcon": "bbc",
+      "pubDate": "2026-11-13T07:37:38Z",
+      "description": "Microsoft has said the outage was not caused by a cyber-security incident, but efforts to fix the issues have so far been largely unsuccessful.",
+      "topic": "Security",
+      "topicIcon": "🔒",
+      "importance": 6,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "Microsoft has said the outage was not caused by a cyber-security incident, but efforts to fix the issues have so far bee..."
     },
     {
       "id": "f86dedd8c0ea",
@@ -528,7 +558,7 @@
     },
     {
       "id": "a965b08f0119",
-      "title": "In reversal, American Cancer Society urges prostate cancer tests for all men",
+      "title": "In reversal, American Cancer Society urges routine prostate cancer screening",
       "link": "https://arstechnica.com/health/2026/11/in-reversal-american-cancer-society-urges-prostate-cancer-tests-for-all-men/",
       "source": "Ars Technica",
       "sourceIcon": "ars",
@@ -540,6 +570,36 @@
       "reliability": 5,
       "summary_bn": "",
       "summary_en": "Men aged 50–69 and at average risk should get PSA screening every two years."
+    },
+    {
+      "id": "371ebe6d794e",
+      "title": "Xbox announces Wolfenstein 3",
+      "link": "https://www.theverge.com/news/1032431/xbox-bethesda-wolfenstein-3",
+      "source": "TheVerge",
+      "sourceIcon": "verge",
+      "pubDate": "2026-11-13T00:11:44Z",
+      "description": "It's been nearly a decade since Bethesda's MachineGames released Wolfenstein II: The New Colossus in 2017, and now Xbox is ready to announce a sequel from the studio. Wolfenstein 3 was officially announced today, just days after Bethesda also confirmed that the next Elder Scrolls game will be called The Elder Scrolls VI: Sentinel. In [&#8230;]",
+      "topic": "Other",
+      "topicIcon": "📰",
+      "importance": 5,
+      "reliability": 4,
+      "summary_bn": "",
+      "summary_en": "It's been nearly a decade since Bethesda's MachineGames released Wolfenstein II: The New Colossus in 2017, and now Xbox ..."
+    },
+    {
+      "id": "e31d579ac014",
+      "title": "The rise of 'housefishing' - when does using AI go from enhancing to misleading?",
+      "link": "https://www.bbc.co.uk/news/articles/cm62y0wrnz9zo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC",
+      "sourceIcon": "bbc",
+      "pubDate": "2026-11-13T00:13:35Z",
+      "description": "Experts warn that using AI to enhance property images can go too far and mislead prospective buyers.",
+      "topic": "AI/ML",
+      "topicIcon": "🤖",
+      "importance": 5,
+      "reliability": 5,
+      "summary_bn": "",
+      "summary_en": "Experts warn that using AI to enhance property images can go too far and mislead prospective buyers."
     },
     {
       "id": "f46c9123f6a9",
@@ -690,66 +750,6 @@
       "reliability": 4,
       "summary_bn": "",
       "summary_en": "In a post on Truth Social, President Trump says only one man can take Jensen Huang's place as head of Nvidia: Tim Cook."
-    },
-    {
-      "id": "548fe94a79cb",
-      "title": "Jensen Huang agrees to testify before Congress",
-      "link": "https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-11-12T16:36:37Z",
-      "description": "Huang, who was ousted as CEO following reports of an alleged affair with a woman suspected of spying for China, agreed to testify Wednesday after several senior lawmakers threatened to subpoena him.",
-      "topic": "Regulation",
-      "topicIcon": "⚖️",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Huang, who was ousted as CEO following reports of an alleged affair with a woman suspected of spying for China, agreed t..."
-    },
-    {
-      "id": "62853baff9e5",
-      "title": "Phota Labs uses AI to turn everyday photos into professional-looking shots",
-      "link": "https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-11-12T17:00:00Z",
-      "description": "Rather than giving consumers yet another photo-editing tool, Phota Labs aims to use advances in AI to automate the editing process so it’s easier for anyone to turn everyday moments into better photos.",
-      "topic": "AI/ML",
-      "topicIcon": "🤖",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "Rather than giving consumers yet another photo-editing tool, Phota Labs aims to use advances in AI to automate the editi..."
-    },
-    {
-      "id": "0544f18fda8e",
-      "title": "United Airlines blocks AI agents from booking flights, citing cybersecurity risks",
-      "link": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
-      "source": "TechCrunch",
-      "sourceIcon": "crunch",
-      "pubDate": "2026-11-12T17:17:58Z",
-      "description": "The airline said it will not allow customers to use AI agents to book flights and manage reservations.",
-      "topic": "Security",
-      "topicIcon": "🔒",
-      "importance": 4,
-      "reliability": 4,
-      "summary_bn": "",
-      "summary_en": "The airline said it will not allow customers to use AI agents to book flights and manage reservations."
-    },
-    {
-      "id": "937d80c2161f",
-      "title": "The amazing disappearing exoplanet",
-      "link": "https://arstechnica.com/science/2026/11/the-amazing-disappearing-exoplanet/",
-      "source": "Ars Technica",
-      "sourceIcon": "ars",
-      "pubDate": "2026-11-12T17:18:10Z",
-      "description": "An exoplanet seems to have stopped transiting in front of its host star.",
-      "topic": "Other",
-      "topicIcon": "📰",
-      "importance": 4,
-      "reliability": 5,
-      "summary_bn": "",
-      "summary_en": "An exoplanet seems to have stopped transiting in front of its host star."
     }
   ]
 }
